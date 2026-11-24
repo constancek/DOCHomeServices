@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Evanston is mostly houses built before 1940, with two-family homes and apartments mixed in. Census figures put 70.9% of homes in that era, so a service often starts in a basement with older venting, a gas line to check and a drain valve that may need coaxing. Two-family houses usually have a tank per unit. Flats above the shops on Montgomery Road keep the heater in a small closet over a pan, a landlord’s call. The flat rate comes first, and we’ll tell you if the tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Some calls aren’t maintenance. Carbon monoxide alarm: everybody outside first. Gas odor: out of the house, lights and pilot left alone, gas company called from the sidewalk. A tank wetting the floor: close the cold inlet on top, then gas off or breaker off. A relief valve venting repeatedly, or no hot water: repair. Most are same-day, weekends included.',
   commonIntro:
     'In older houses and two-family homes, these are what usually prompt a booking:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'About half the homes in East Walnut Hills were built in 1939 or earlier, by Census figures, and a big share of the rest are units in large apartment and condo buildings. A tall old house near DeSales Corner drafts at every window, collects damp below grade and moves dust through aged ductwork. A condo is sealed, so stale air and cooking smells have nowhere to go. Readings decide the fix, the flat price is settled before installation, and a new filter may turn out to be plenty.',
-  emergencyParagraph:
-    'The moment a carbon monoxide alarm goes off, take everyone out and phone 911. If you notice gas, go without touching a switch and call Duke Energy. Shut the system down at the thermostat if it smells like burning. Mold spreading after water damage is urgent for infants, frail seniors and asthmatics. Same day on most calls, weekends too.',
   commonIntro:
     'Between the old houses and the big buildings around Madison Road, these complaints bring us out most often.',
   localFaqs: [

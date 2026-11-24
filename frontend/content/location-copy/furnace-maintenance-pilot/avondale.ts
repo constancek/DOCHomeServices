@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'In Avondale, a fall furnace visit is usually booked by a landlord for a two-family house or a small apartment building. Census figures put 76.1% of homes as rented and 43.0% as built in 1939 or earlier. Gas and electric heat run neck and neck, so the days mix: basement gas furnaces on old chimneys, where the flue and heat exchanger come first, and closet units in later buildings. Each furnace carries its own price, settled up front, and a unit that needs nothing gets left alone.',
-  emergencyParagraph:
-    'Book a repair for these. Smell gas: walk out, leave the lights as they are, phone Duke Energy from next door. A beeping carbon monoxide detector empties the house. A furnace dead in a cold snap, flicking off and on all evening, or burning yellow too, more so with a newborn or frail grandparent inside. Usually same day, Saturdays included.',
   commonIntro:
     'Up and down Reading Road and Burnet Avenue, these get landlords in Avondale to pick up the phone:',
   localFaqs: [

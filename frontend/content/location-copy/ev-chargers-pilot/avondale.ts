@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Avondale is a renters’ neighborhood, with about three homes in four rented by Census counts and under a quarter of homes standing as detached houses. That makes a charger mostly a building owner’s decision, often for a two-family or a three- or four-unit building. Over two in five units predate 1940, and some still lean on small original services. Before quoting, we open the panel and tally the load, admit when a Level 1 cord will cover it, and lock the price ahead of wiring.',
-  emergencyParagraph:
-    'A slow cord pulling from a tired outlet worries us most in these older buildings. Unplug if the outlet or plug runs warm, looks melted or smells scorched, or the breaker trips each charge. Switch off only when dry, and with smoke or fire, get out and dial 911. We come the same day on most calls, weekends included.',
   commonIntro:
     'Charger calls in this neighborhood come mostly from owners and landlords rather than tenants, and they tend to start with one of these:',
   localFaqs: [

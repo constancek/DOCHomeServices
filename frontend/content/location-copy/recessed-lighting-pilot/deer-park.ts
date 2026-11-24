@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Deer Park was incorporated in 1912, and its streets filled mainly in the 1940s and 1950s, which is the stock recessed lighting usually meets here. Census figures give 1947 as the median build year, with most homes single detached. Plan on plaster ceilings, upstairs rooms with barely any cavity overhead and layouts centered on one middle light, plus basements someone turned into living space decades later. We peer above the ceiling first, then pencil on the layout and settle what it costs.',
-  emergencyParagraph:
-    'Heat in the ceiling shows up three ways, as a warm or buzzing switch plate, a trim that stings a fingertip, or plaster browning around a can. Shut that circuit at its breaker whenever the panel can be reached without risk. If smoke or flame appears, everybody leaves and dials 911. Expect us same day on most calls, weekends included.',
   commonIntro:
     'In postwar houses off Blue Ash Road, owners ask us about these four.',
   localFaqs: [

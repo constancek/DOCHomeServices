@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'Owner-occupied houses make up 69.3% of homes in Erlanger, by Census figures, and the stock runs younger than in the river cities, with 1976 as the median year built. Most fall visits find a furnace downstairs in a ranch or two-story from somewhere between the Eisenhower years and the late 1970s, and the work centers on filter, blower, burners and safety switches rather than any old chimney. Owners book the apartment buildings. You know the price before we begin, and if the furnace is fine, we say that.',
-  emergencyParagraph:
-    'In Erlanger, some trouble goes straight to a repair ticket. Gas odor: get outside, flip no switches, light nothing, phone the gas company. Carbon monoxide alarm: everybody leaves. A furnace dead in a cold snap, cycling on and off without rest, or burning a drifting yellow flame. Babies and older relatives come first. Usually same day, weekends too.',
   commonIntro:
     'Across the post-war subdivisions and apartment complexes, owners usually set up a tune-up in Erlanger over one of these:',
   localFaqs: [

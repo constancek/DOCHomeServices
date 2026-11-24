@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'Independence is mostly newer houses, so the bathroom almost always has a fan. Census figures give a median build year of 1999, and about half the homes went up in 2000 or later. The problem is usually the fan itself. Builders tend to fit the smallest unit that will do, and in a big primary bath with a walk-in shower it simply can’t keep up. Detached houses make up most of the city. We measure the room, find where the duct ends and price the fix before opening any drywall.',
-  emergencyParagraph:
-    'Smoke from the grille, sparks, a smell like hot plastic, a cover that has bubbled, a breaker that won’t hold, or a drip from the fan is urgent. If it’s safe, cut power at the switch or panel. For smoke or flames, get everyone out, then dial 911. Most of these see us same day, weekends too.',
   commonIntro:
     'In the subdivisions off Madison Pike and the newer streets toward Boone County, these are the fan problems we see most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Census figures date 46.5% of homes in Fairfax to before 1940, with 1942 as the median, and most are detached houses on small village lots. Plenty were cooled by box fans and window units for decades. Their plaster and their low attic crawlspaces make new ductwork messy, so a wall head fed through one small hole is usually the gentler fix for a hot bedroom or a back room. Your price is settled before anyone drills, and if ductless is a poor match for your house, we’ll say it.',
-  emergencyParagraph:
-    'Twenty-one days a year at 90F or above is the National Weather Service average, and second-floor bedrooms hold that heat overnight. Grandparents, newborns and family members with asthma have the hardest time. Installs get booked fast; one head is typically done by evening. If a mini-split you own has stopped, Mini-Split Repair is the visit, mostly same day, weekends too.',
   commonIntro:
     'In the pre-war and postwar houses on both sides of Little Duck Creek, these rooms usually start the ductless talk in Fairfax:',
   localFaqs: [

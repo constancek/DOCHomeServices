@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Along Beechmont Avenue, Mount Washington is mostly post-war housing. The Census counts only about one home in nine from before 1940, with the bulk built between then and 1999, and roughly two in five rented. A house from the 1950s tends to have a modest box with few empty spaces, while newer houses and remodels hold more of what spikes destroy. Our first step is opening that box. If a strip would cover you, we say so, and the price is fixed before we touch a wire.',
-  emergencyParagraph:
-    'Some trouble can’t sit until Monday, and on most calls we can come that day, weekends too. A blackened outlet or switch, a smell like melted plastic, or a breaker that snaps off right after a reset all qualify. Shut that circuit only if the panel is dry. With smoke or fire, everyone goes outside before anyone dials 911.',
   commonIntro:
     'From the water tower at Campus Lane out toward Anderson Township, these signs usually lead to a surge protection call in Mount Washington.',
   localFaqs: [

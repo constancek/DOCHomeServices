@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'In Northside, cooling usually came as an afterthought. Census figures put 57.3% of homes at 1939 or earlier, and another third arrived from the 1940s through the 1970s. Tall plaster walls and skinny attic crawlspaces leave little room for a duct chase, which is why ductless heads suit the back bedrooms and third floors here. Tenants rent 43.9% of homes in Northside, and for those the landlord decides. We write down a flat figure before drilling, and if ductless is a poor match, you’ll hear it from us.',
-  emergencyParagraph:
-    'Around 21 afternoons a year climb to 90F or above (National Weather Service). In an attic room in Northside, the heat lingers past midnight. Grandparents, newborns and anyone with weak lungs struggle most. Installs get booked fast, and a one-head job generally wraps inside a day. A broken mini-split goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Here’s what usually prompts a ductless quote in Northside:',
   localFaqs: [

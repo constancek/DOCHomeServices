@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Along the East End, the wiring question depends on which part of the strip you live on. Census figures date more than half the homes to before 1940, and a cottage or rowhouse that old can hide knob-and-tube or cloth-jacketed wire behind ungrounded two-prong receptacles. The Riverside Drive condos are mostly 1990s or later and tend to need one misbehaving circuit sorted out. Our electrician meters each circuit first, admits it when nothing’s wrong, and hands you a signed scope and flat figure while the plaster is still intact.',
-  emergencyParagraph:
-    'Phone us that day if a receptacle smells hot and plasticky, a switch cover has browned, the wall crackles, or a breaker snaps off again after you reset it. Kill that circuit at the panel only with dry hands and a dry floor. If smoke appears, get out and dial 911. Most get a same-day visit, weekends too.',
   commonIntro:
     'From brick rowhouses off Eastern Avenue to condos near the water, the first clues tend to look like this.',
   localFaqs: [

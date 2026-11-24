@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Loveland Park, first divided into wooded lots in the 1920s, has more than half its houses dating from 1980 or later, Census figures show. What sets it apart is heating, because close to half the homes run on electric heat, which leaves less room in a panel than gas would. Some early lot houses have modest services. The first visit is a panel check and load calculation, plus a straight word if the cord is enough, and the price is fixed before we start.',
-  emergencyParagraph:
-    'If the charging plug or its outlet is hot or darkened, or the cable has been pinched or split, stop using it. A burning smell gets the same answer. Shut the breaker only when you can reach it dry-handed and clear of anything hot. For smoke or flames, leave and phone 911. We’re normally there the same day, weekends counted.',
   commonIntro:
     'From the original river lots to the newer streets on the Warren County side, here is what usually prompts a charger visit in Loveland Park:',
   localFaqs: [

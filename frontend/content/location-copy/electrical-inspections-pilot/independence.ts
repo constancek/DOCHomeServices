@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'Independence is one of the newest cities we serve, and its wiring mostly shows it. Census figures put the median home at 1999, with 49.0% built in 2000 or later. Wiring that young is usually in good shape, so people here book an inspection for a reason: a sale, a purchase, a finished basement, a pool, an EV charger. The older farmhouses near Madison Pike are the exception and get a closer look. We inspect the system, write it up and price any fix up front.',
-  emergencyParagraph:
-    'Even in a new Independence house, some things can’t wait for an appointment: a burning smell, a hot or melted outlet, a switch that buzzes, sparks, or a breaker that trips right after you reset it. Turn that breaker off. If there is smoke or fire, get everyone out and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Most Independence homes are subdivision houses from the last 25 years, with some much older ones on the old roads. Here is what we find most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Plaster is usually the first thing we cut through for recessed lighting in Sayler Park, the westernmost corner of Cincinnati and the old Home City. Census figures show about half its houses went up in 1939 or earlier, so ceilings tend to be plaster on lath, with a thin gap below the roof upstairs. Those rooms were laid out around one center light, which leaves the edges gloomy. Owners live in about 61 of every 100 homes. Each light is marked and the flat price agreed before a saw starts.',
-  emergencyParagraph:
-    'Brown staining spreading around a recessed light, a trim you can’t hold your palm against, or a switch that buzzes all need fast attention. When the panel can be reached without danger, turn that circuit off. Any smoke or flame means getting out and calling 911. Sayler Park calls usually get someone there the same day, weekends included.',
   commonIntro:
     'In Sayler Park, most recessed lighting goes into older houses tucked between the hills and US 50, and these rooms come first.',
   localFaqs: [

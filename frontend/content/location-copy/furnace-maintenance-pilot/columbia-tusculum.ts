@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'In Columbia-Tusculum, furnace tune-ups come in two kinds. By Census figures 39.1% of homes date from before 1940, and those older houses keep the furnace in a basement venting up an old chimney, where we spend the most time on the flue and heat exchanger. Another 19.6% went up in 2000 or later, and those newer furnaces mostly need the filter, blower, burners and safety controls looked at. Either way the price is fixed before we begin, and a furnace that needs nothing gets told so.',
-  emergencyParagraph:
-    'Some problems call for a repair visit instead. Gas smell: leave, hands off the switches, ring Duke Energy from the street. Carbon monoxide alarm: everybody out. A furnace cycling off and on, a lazy yellow flame or a cold house is repair work, urgent with a baby or older relative living there. Most get a same-day visit, weekends included.',
   commonIntro:
     'Between the old houses near the river and the newer homes up the hill, these usually bring a call from owners in Columbia-Tusculum:',
   localFaqs: [

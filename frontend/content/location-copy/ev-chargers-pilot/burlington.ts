@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Close to half of the houses in Burlington were finished in 2000 or later, Census figures show, and panels that new usually have space for a Level 2 circuit or can work with a charging controller. Electric heat is the thing we watch. About six homes in ten use it, and a heat pump plus a charger are two heavy loads on one service. We run the load calculation first, tell you if the Level 1 cord is enough, and quote a fixed price ahead of time.',
-  emergencyParagraph:
-    'If a charging cable is nicked or flattened, the charger smells scorched, or its outlet is too hot to touch, take the car off the charger now. Turn that breaker off if the floor is dry and nothing near the panel is hot. Fire or smoke means getting outside and calling 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'Newer subdivisions, townhouse rows and apartment buildings fill most of Burlington, and charger requests there tend to look like this.',
   localFaqs: [

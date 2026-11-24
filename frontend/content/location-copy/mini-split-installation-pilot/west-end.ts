@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'The West End has Italianate rowhouses from the late 1800s, especially around Betts-Longworth, next to apartment blocks built from the 1960s on. Census figures put 38.4% of homes at 1939 or earlier, and those were built with no ductwork at all. A wall head cools them without cutting into old masonry or plaster. Renters occupy 87.1% of homes, which makes ductless the owner’s decision. Owners approve a fixed figure before we drill, and if ductless won’t serve the building, we tell them.',
-  emergencyParagraph:
-    'Top-floor rowhouse rooms in the West End hold heat until morning on the 21 or so days a summer above 90F (National Weather Service). Older tenants, babies and anyone with breathing trouble face the highest risk. With owner approval, one room takes a day. Units that quit go to Mini-Split Repair, which reaches most calls the same day, weekends too.',
   commonIntro:
     'From Italianate rows in Betts-Longworth to walk-ups near Linn Street, here’s why owners call us about ductless in the West End:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Few houses in Mason need a full rewire. About half the city’s homes went up between 1990 and 2009 by Census count, with 1996 as the median, and copper wire with a ground came standard. Most jobs add circuits for a finished lower level, a bigger kitchen or a run that keeps tripping. The 232 houses dating from 1939 or earlier may hide cloth-covered or knob-and-tube wire. Testing comes before any quote, you’ll hear it if nothing is wrong, and the flat price is written up before drywall is cut.',
-  emergencyParagraph:
-    'An outlet that smells like burning, a cover plate warm or brown, crackling or sparks, a jolt from a switch and a breaker that won’t stay on need a call right away. Kill that breaker only if you’re dry and the panel isn’t hot. With flames or smoke, leave and phone 911. We reach most calls that day, weekends too.',
   commonIntro:
     'Even in the newer subdivisions of Mason, a wiring problem tends to give itself away in one of these ways:',
   localFaqs: [

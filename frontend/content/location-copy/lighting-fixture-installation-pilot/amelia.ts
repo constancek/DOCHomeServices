@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Many living rooms and bedrooms in Amelia were built with a wall switch that feeds a lamp outlet and nothing overhead, so adding a first ceiling light is a common request. What shapes it is the box, the ground, and the route for new cable. Amelia leans new, with Census figures giving a 1995 median and over two in five homes built since 2000, which usually means grounded wiring and attic access. Apartments are plentiful too. We look at the box and wires and settle the price before work begins.',
-  emergencyParagraph:
-    'Sparks at a switch, a ceiling light sliding off its bracket, or flicker in more than one room are today problems in Amelia. Throw that breaker when it’s safe, and steer children away from below. Any smoke or fire means getting out first and phoning 911. Weekend or weekday, most calls get us there the same day.',
   commonIntro:
     'On both the Pierce Township and Batavia Township sides of Amelia, these four come up most.',
   localFaqs: [

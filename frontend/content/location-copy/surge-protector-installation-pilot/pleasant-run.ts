@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Pleasant Run is mostly houses from the 1960s and 1970s, and Census figures date the typical one to 1974. Close to nine in ten are detached single-family houses, and plenty have traded the original furnace and condenser for a heat pump or modern central air, which is the equipment a surge hurts most. Roughly half the households here heat on electricity. We open the panel first. If strips at the outlets are enough, you’ll hear it from us, and the price is settled before anything gets installed.',
-  emergencyParagraph:
-    'A panel that smells hot, a browned outlet, a breaker that refuses to hold, or a fridge that smoked as power returned all get a same-day visit on most calls, weekends included. Shut that circuit off only if you’re dry. If flames or smoke appear, leave and dial 911. Pulsing lights house-wide mean calling Duke Energy Ohio first.',
   commonIntro:
     'Owners in Pleasant Run tend to phone us about surge protection after noticing one of these four things.',
   localFaqs: [

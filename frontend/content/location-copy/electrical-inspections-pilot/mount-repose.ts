@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'In Mount Repose most inspections are for houses built in the 1960s and 1970s, which Census figures put at 40.4% of homes here. Wiring from that era is usually sound, but the panels were sized for fewer appliances, with only a circuit or two per room. Add a second freezer, a heat pump or an EV charger and those panels run short. Nearly every home is an owner-occupied single house. We test the whole system, note what’s tight or worn, and quote any work before it begins.',
-  emergencyParagraph:
-    'Skip the routine booking for these: a smell of burning, a switch plate too hot to touch, an outlet that crackles or has black streaks, sparks, or a breaker that won’t hold after one reset. Shut that breaker. Smoke or fire: leave first, call 911 second. Most such calls get a visit that day, weekends included.',
   commonIntro:
     'Mount Repose is mostly single homes from the 1960s onward, nearly all owner-occupied. The problems we find most:',
   localFaqs: [

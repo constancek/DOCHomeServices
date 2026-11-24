@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'West Chester Township is mostly subdivisions from the 1970s through the 1990s, with the 1990s the biggest building decade, and Census figures put the typical house at 1988. A builder fan from that period tends to be loud and small for the room, and in some houses its duct stops in the attic. About one home in five is a townhouse or condo, where a new vent may need the association’s okay. We find where the air goes and price the job before cutting a ceiling.',
-  emergencyParagraph:
-    'If a bath fan smells like burning, its housing scorches or melts, it sparks or smokes, the breaker keeps tripping with it, or water leaks out of the grille, shut the fan down at the switch or breaker when safe. In a fire or heavy smoke, get out and phone 911. Same-day visits reach most of the township, weekends included.',
   commonIntro:
     'Around West Chester, in subdivisions and townhouse communities alike, these four signs lead most fan calls:',
   localFaqs: [

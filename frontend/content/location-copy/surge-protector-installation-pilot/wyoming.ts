@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Census figures show that nine in ten houses in Wyoming were built before 1980, with a median of 1954, running from Victorian homes in the Village Historic District to postwar houses in the Wyoming Hills. Many have since picked up central air, a newer gas furnace and a kitchen of appliances with electronic controls. So the electrical panel gets inspected first, because it decides where a surge protective device can go. If outlet strips are enough for what you own, we’ll say so, and the price is fixed before work.',
-  emergencyParagraph:
-    'A charred or hot-smelling outlet, switch or panel cover after a storm needs us now. If every lamp brightens and fades at once, phone Duke Energy Ohio first. Touch the breaker only while dry and clear of anything warm. Smoke or flame means everyone goes outdoors to ring 911. We come the same day on most calls, weekends too.',
   commonIntro:
     'In houses in Wyoming that have been renovated more than once, the hints usually look like this.',
   localFaqs: [

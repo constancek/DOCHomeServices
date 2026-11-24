@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Dry Run is almost all owner-occupied single-family houses, and Census figures put the median one at 1986. Homes from the 1980s, 1990s and 2000s along Clough Pike usually came with bathroom fans, so we rarely add a first one here. The usual complaint is a builder-grade fan too weak for the bathroom it serves, or a duct that slipped off its roof cap years ago. We run a quick airflow test and follow the duct before quoting.',
-  emergencyParagraph:
-    'Shut a fan down at its switch or breaker, if you safely can, the moment it smells charred, sparks, smokes or shows a melted housing. Any flame or heavy smoke means the household leaves and someone dials 911. Water dripping out of the grille needs a visit too. Most calls in Dry Run are handled the same day, weekends included.',
   commonIntro:
     'Across the 1980s and 1990s streets of Dry Run, these are the signs a bathroom fan needs attention.',
   localFaqs: [

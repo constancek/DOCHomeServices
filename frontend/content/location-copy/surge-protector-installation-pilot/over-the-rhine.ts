@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'Census figures show most housing in Over-the-Rhine was built in 1939 or earlier, that seven in ten households rent, and that most units share a building with others. In rehabbed walk-ups the panels are often small or full, so what we find inside one sets where a device goes and which units it can cover. Newer condos and gut rehabs carry more at risk, from heat pumps to smart locks. The panel gets checked first, we’ll say if strips are enough, and the price is agreed before work starts.',
-  emergencyParagraph:
-    'If an outlet or the panel smells burnt after a storm, a breaker flips off the instant it’s reset, or a fridge sparks as power returns, tenants should tell management and owners should call us that day. Most of those calls get a same-day visit, weekends too. If smoke or fire appears, clear the building and call 911.',
   commonIntro:
     'In walk-ups, rowhouses and new condos alike, these are the signs that point to surge protection in Over-the-Rhine.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'Pleasant Ridge was its own village from 1891 until Cincinnati took it in during 1912, and by Census counts slightly more than half of its housing dates before 1940. Brick two-families and frame singles off Ridge Avenue still have plaster ceilings with the light boxes they were built with, small and shallow, and a fan pulls at them. Nearly half of households rent. We unscrew the old canopy to see the box first, say so if a quarter turn on loose screws settles it, and quote before any teardown.',
-  emergencyParagraph:
-    'A juddering fan, a box drooping from Ridge Avenue plaster, smoke or a burnt smell from the motor, and a buzzing or sparking switch plate all count as urgent. Shut power at the toggle or the breaker if safe, and route people around the spot beneath. Flames mean leave and ring 911. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Early-1900s plaster, a lot of two-family houses and a big rental share bring these four fan calls to us most in Pleasant Ridge.',
   localFaqs: [

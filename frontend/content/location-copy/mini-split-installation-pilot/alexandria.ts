@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Housing in Alexandria is young. Census figures give a median year built of 1994, and 35.1% of homes went up in 2000 or later, so a house here with zero ductwork is rare. What we get asked about instead is the space a builder’s duct layout shortchanged, like the bonus room perched above a two-car garage, a basement finished years after closing, or a sunroom tacked on later. Before any work, you’ll have a fixed number, and if a damper tweak or return would cure that room, we’ll tell you.',
-  emergencyParagraph:
-    'National Weather Service normals put the July high at 86F, yet a bonus room over a garage in Alexandria sits warmer than downstairs. Infants, aging parents and anyone with asthma suffer most up there. Scheduling moves fast; one wall unit takes a day, more zones longer. A failed ductless system gets Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Across Campbell County subdivisions from the 1980s onward, these spaces in Alexandria, more than any others, prompt ductless questions:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Covedale is two places. The Green Township part is mostly postwar brick ranches and Cape Cods, with a Census median build year of 1959 and 915 homes from the 1950s alone. Their copper is often fine, but the circuit count predates the microwave, and a house finished in the 1960s may have aluminum branch runs. On the Cincinnati side the median drops to 1938, so ungrounded knob-and-tube is possible. Testing comes first, sound wiring gets a pass, and any work is quoted flat in writing.',
-  emergencyParagraph:
-    'Get us out the same day when a receptacle gives off a hot-plastic smell, a cover turns brown or warm, a box snaps or hums, a breaker refuses to latch, or the toaster gives you a zap. Throw that breaker only with dry hands on a dry floor. Smoke changes everything, so get outside and dial 911.',
   commonIntro:
     'In the 1950s houses and older city streets of Covedale, these are the signs that usually lead to a call:',
   localFaqs: [

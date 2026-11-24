@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'Nine in ten homes in Montgomery are owner-occupied, and Census figures show more went up in the 1970s than in any other decade, with a median of 1976. A house from then usually has boxes made for a light, not the weight and motion of a fan, and many dens and bedrooms have no fan. A remodel is a good time to replace a tired fan from that decade. We open the box first, say when tightening cures a wobble, and fix the price before the fixture comes down.',
-  emergencyParagraph:
-    'If a fan shakes or is pulling free of the ceiling, or there’s smoke, a scorched smell, sparks at the switch or a breaker that trips, cut its power at the wall switch if that’s safe and keep people from standing below it. If there’s fire, get out and phone 911. We reach most calls the same day, weekends too.',
   commonIntro:
     'Among the 1970s houses that make up so much of Montgomery, four fan problems lead the list.',
   localFaqs: [

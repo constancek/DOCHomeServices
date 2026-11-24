@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Alexandria is one of the younger places we work. Census figures date the median house to 1994, with over a third built after 2000, nearly all detached and owner-occupied. Panels that young usually have slots to spare. Electric heat, in roughly half of homes, is what eats the margin, since a heat pump on a frosty night plus a charger adds up. We size that up at the panel with a load calculation, own up when a Level 1 cord will do, and fix the price first.',
-  emergencyParagraph:
-    'Stop charging when the wall unit or connector feels hot, the cord has been flattened by a tire, or a burnt smell lingers. A breaker that won’t hold means leave it off. If it’s dry, flip that circuit off, and for smoke or flames, get out and phone 911. We come the same day on most calls, weekends included.',
   commonIntro:
     'Owners in this Campbell County city tend to call us about a charger for one of these reasons:',
   localFaqs: [

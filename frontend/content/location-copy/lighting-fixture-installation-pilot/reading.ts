@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'In Reading, a lot of our fixture work is a dining chandelier in a brick house from around the war years. Whether it can hang where the old light was depends on the box, on a ground wire, and on whether cable already runs there. The city’s median house dates from 1956 by Census count, close to a quarter predate 1940, and two homes in five are rented. The older ones have lath and plaster. We open the ceiling box first and quote from what we find.',
-  emergencyParagraph:
-    'A light swaying on its chain or a switch cover too hot to touch is a problem for today. In basements that took Mill Creek water, leave any soaked fixture switched off. Throw its breaker if safe, steer people from beneath it, and ring 911 for smoke or flame. Expect us that same day on most calls, weekends too.',
   commonIntro:
     'Homeowners and landlords around Benson Street and the side streets off it mostly call for these.',
   localFaqs: [

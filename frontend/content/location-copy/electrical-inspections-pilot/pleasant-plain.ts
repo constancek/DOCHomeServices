@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain is a village of old houses, and that shapes every inspection we do here. Census figures count 76.1% of its homes as built in 1939 or earlier. Houses that age can still have cloth-covered or knob-and-tube wiring in the walls, ungrounded two-prong outlets, and fuse boxes or small panels added decades ago. With almost no piped gas, many homes heat with electricity, a heavy load for an old service. We trace it all, write it up, and price any fix before work.',
-  emergencyParagraph:
-    'In Pleasant Plain, act on a smell of hot insulation, a receptacle that’s warm or browned, buzzing behind a cover plate, sparks, or a fuse that keeps blowing. Pull that fuse or switch the circuit off. If smoke or fire shows, get out and dial 911. We come the same day on most calls, weekends included.',
   commonIntro:
     'Nearly every Pleasant Plain house predates 1960, so most of what we find comes from wiring that has been extended and patched over generations:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Most Dent homes are recent enough that the wiring is usually sound. Census figures put the median house at 1995, and more than four in ten went up in 2000 or later. People here book us for a reason: selling or buying, finishing a basement, adding an EV charger or hot tub, or swapping an electric furnace for a heat pump, which matters in a place where about four in ten homes heat with electricity. We check the panel has room and write it up, prices included.',
-  emergencyParagraph:
-    'Newer houses fail too. A receptacle gone tan or warm, a dimmer that hums loudly, a pop and flash at a plug, an acrid smell, or a breaker that won’t survive a reset all need us today. Leave that breaker off. Smoke or flames: out of the house, then 911. Dent usually gets a same-day visit, weekends included.',
   commonIntro:
     'Dent is mostly newer houses, townhomes and condo buildings, so findings lean toward capacity and add-ons. These are common:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Glendale was laid out in 1851 along the railroad, and 53.4% of its homes were built in 1939 or earlier, by Census figures. Those Italianate and Second Empire houses predate central air by generations, so cooling was added later, often with an air handler tucked under the roof and long duct runs snaking down to every floor. That puts the attic drain line and pan first on our list. You hear a flat price before we begin, and a system in good order is left as it is.',
-  emergencyParagraph:
-    'A heat wave that leaves a Victorian house warm calls for a repair visit, not a checkup; if ice coats the copper, set the thermostat to off. A condenser humming while its fan stands still means leave power off. Babies, elderly relatives and anyone ill suffer first. We usually come that day, weekends too.',
   commonIntro:
     'In Glendale, owners of older houses usually book a tune-up after one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Melbourne’s houses run old. Census figures put the median year built at 1958, and 30.5% of homes predate 1940, when nobody framed a house around ductwork. In those rooms a ductless head brings cooling through one small wall opening, so the plaster stays whole and no closet gets sacrificed for a chase. Nearly every house here is lived in by its owner, which makes the decision yours. The price is fixed ahead of the work, and if ductless is wrong for the house, we’ll say it.',
-  emergencyParagraph:
-    'About 21 days a year hit 90F or worse (National Weather Service), and a bedroom under an old roof holds that heat overnight. Elderly parents, newborns and anyone who struggles to breathe are at risk. Installs get booked quickly; one room takes a day. A ductless unit that failed needs Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'Up and down the river road through Melbourne, ductless quotes tend to grow out of one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'Greenhills was built by the federal government from 1935 to 1938 and filled out after the war, and Census figures put the median home at 1955. Expect small panels and few circuits per room. The original townhomes were built without basements, so some wiring and equipment sits in a crawl space, which we get into and check. Electrical repairs here need a Village of Greenhills permit, which we handle. You get a written report and a price for each repair before work starts.',
-  emergencyParagraph:
-    'Don’t wait on a Greenhills inspection date for a hot or scorched outlet, a buzzing switch, sparks, or a breaker that keeps tripping the instant it’s reset. Turn that breaker off. Smoke or fire means everybody out and a call to 911. We reach most calls the same day, including weekends.',
   commonIntro:
     'Greenhills has original 1930s townhomes, postwar houses and a few apartment buildings. What we find in them:',
   localFaqs: [

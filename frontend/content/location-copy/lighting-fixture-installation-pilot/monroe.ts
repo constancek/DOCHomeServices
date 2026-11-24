@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Swapping out builder-grade lights is what most owners want from us in Monroe. The city grew from 12,442 people in 2010 to 15,412 in 2020, and Census counts put its middle home at 2001, with over half built since then. Those houses along the I-75 corridor generally have grounded cable, workable boxes, open kitchens with islands and tall entries. Builders often set light-duty boxes, though, so heavier pieces may need a rated one. We look at box and cable first, then quote before removal.',
-  emergencyParagraph:
-    'A fixture pulling loose, a burning odor at a light, a switch plate warm to the touch or a breaker that drops when one light comes on is urgent. Flip that breaker off if it is safe, then stay clear. Any smoke or fire means get out and call 911. Most owners see us that day, weekends too.',
   commonIntro:
     'Across both the Butler and Warren County sides of Monroe, these four jobs fill most of our lighting calendar.',
   localFaqs: [

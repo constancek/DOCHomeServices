@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights is mostly prewar housing, so a lot of bathrooms here have no fan at all. Census figures show the typical home dates to 1939 or earlier, and many bathrooms were redone long after with nothing but a window for air. Where a fan was added, the duct often stops in the attic or a wall. More than half the homes are rented, so owners usually schedule the work. We trace where the air goes and price the repair or install before opening the ceiling.',
-  emergencyParagraph:
-    'If a fan smells scorched, spits sparks or begins to smoke, kill it at the wall or the breaker if that’s safe. Water seeping through the grille, or a breaker that won’t quit tripping with it, sends us out fast. Fire or smoke means leave and dial 911. Expect us the same day on most calls, weekends too.',
   commonIntro:
     'Between the prewar singles and the two-family buildings of Arlington Heights, the same handful of signs keeps coming up:',
   localFaqs: [

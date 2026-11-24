@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'Most homes in Wilder are units in buildings of five or more, yet Census figures show four households in five own, and the median was built in 1992. So plenty of our fan calls come from condo owners who want a fan where the builder hung a basic light. Those bedroom boxes were often never meant for a spinning load, and a balcony fan has to be weather-rated or it rusts. We check the box first, tell you when tightening fixes the wobble, and quote before starting.',
-  emergencyParagraph:
-    'Shut off any fan that sways hard, sags at the canopy, smokes from the motor or trips a breaker the moment it starts. Do it at the wall switch or the breaker if you can safely, and nobody stands underneath. If there’s fire, get out of the unit and dial 911. Most calls are seen the same day, weekends included.',
   commonIntro:
     'Buildings from the late 1980s and the 1990s give us most of these calls in Wilder:',
   localFaqs: [

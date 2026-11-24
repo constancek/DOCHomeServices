@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain is a small village of old houses. Census figures show 76.1% of its homes were built in 1939 or earlier and nearly all are single-family, so many were framed long before anyone ran ducts for cooling. A mini-split puts a head in each room through a small opening and leaves the walls and attic alone. Piped gas is rare here; most homes heat with electricity or fuel oil. You approve the price before we begin, and we’ll be honest if it’s the wrong fit.',
-  emergencyParagraph:
-    'Upstairs in Pleasant Plain, July’s heat collects under the roof, and the National Weather Service puts the month’s normal high at 86F. Elderly relatives, babies and anyone ill need a cooler room. We slot installs in quickly, and one zone takes a day. A mini-split that broke goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In a village of mostly prewar houses like Pleasant Plain, these are the usual starting points:',
   localFaqs: [

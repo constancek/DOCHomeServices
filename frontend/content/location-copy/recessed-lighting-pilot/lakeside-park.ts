@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Unfinished lower levels turning into family rooms bring us most of the recessed lighting work in Lakeside Park. Census figures put the median house at 1964, and most homes are detached, often with an attic over the bedrooms and a basement someone finished long ago or never did. A share of older houses near Dixie Highway date from before 1940 and can hide plaster and shallow framing. Before cutting anything, we inspect the joists and the circuit, mark every light and settle the price with you.',
-  emergencyParagraph:
-    'Ring us the same day if a can stutters on and off, a trim browns the ceiling paint, or a switch plate turns warm and hums. Water dripping through a light belongs on that list. Shut that breaker if you safely can, and leave and call 911 at the first smoke. Weekend calls get the same answer.',
   commonIntro:
     'Throughout Lakeside Park, these are the jobs that tend to start a recessed lighting call.',
   localFaqs: [

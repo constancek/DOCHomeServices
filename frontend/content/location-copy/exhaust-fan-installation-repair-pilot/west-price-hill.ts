@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'By Census figures, most houses in West Price Hill date from before 1970, and more than a third from 1939 or earlier. The 1950s and 1960s houses often have a small original bath fan, now loud and weak. The older ones may have only a window, or a fan cut in later that dumps into the attic. Owners and renters split the neighborhood about evenly, so landlords book much of this work. We find where the air ends up and quote before cutting plaster.',
-  emergencyParagraph:
-    'A bath fan that reeks of hot plastic, shows a blackened or drooping cover, sparks, smokes, or knocks out its breaker needs its power cut at the switch or panel, if safe. A grille dripping water is just as urgent. For smoke or flames, leave and ring 911. Same-day visits are the norm, weekends included.',
   commonIntro:
     'Along Glenway Avenue and Rapid Run Road, owners and tenants mostly call about one of these four:',
   localFaqs: [

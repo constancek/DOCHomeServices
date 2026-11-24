@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Forest Park was laid out as a planned community, with its first houses opening in 1956, and the ranches that followed through the 1960s and 1970s are where most of our recessed lighting goes. Census figures put the median home at 1969. Those houses usually have drywall ceilings with an attic above, and plenty of living rooms that still depend on lamps. With close to half of households renting, often in apartment complexes, owners and managers book much of this work. We agree positions and price first.',
-  emergencyParagraph:
-    'Browned paint around a downlight, a trim you can’t touch for heat, or a light that cycles off and on by itself is a reason to call right away. Throw that breaker if it’s safe, and leave and dial 911 for smoke or flames. Expect a visit the same day on most calls, Saturdays and Sundays included.',
   commonIntro:
     'In Forest Park, the downlight work splits between 1960s and 1970s ranches and rentals their owners are updating. These four come up most.',
   localFaqs: [

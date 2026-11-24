@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'In West Chester, most houses went up between 1970 and 1999, and the 1990s were the busiest building decade by Census figures. Those subdivision houses are tighter than older city homes, but most still move air through their original ducts, so dust, stale rooms and summer damp in finished basements are what we hear about. Townhomes and condos add closet air handlers with little spare room. We test first, quote a flat price for each fix before work starts, and say so if a better filter is the answer.',
-  emergencyParagraph:
-    'If the carbon monoxide detector goes off, herd everyone onto the driveway before calling 911. Smelling gas calls for the same exit, with switches left alone, and a call to the gas company. A burning odor from the registers means the thermostat goes to off. Babies and asthmatic kids are most vulnerable. Same-day visits are the norm, weekends too.',
   commonIntro:
     'In the subdivisions and condos of West Chester, an air problem usually shows up as one of these:',
   localFaqs: [

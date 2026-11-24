@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'Census figures place the median house in East Price Hill at 1938 in three of its five areas, with the other two closer to the 1960s, and close to two households in three rent, often in doubles or apartment buildings. In those older rooms a fan normally replaces a globe hung from plaster and lath, on a box meant only for that globe. Our electrician drops the canopy before quoting, says so if a loose bracket is the whole story, and settles the number before the globe leaves the ceiling.',
-  emergencyParagraph:
-    'Don’t leave a fan running if it heaves or is tearing loose, smells burnt, buzzes or sparks at the wall switch, or drops the breaker when it starts. If it’s safe, kill the power and send the kids elsewhere. Smoke or flames mean everyone out and a 911 call. We come that day on most calls, Saturdays and Sundays too.',
   commonIntro:
     'Most of our fan work in East Price Hill is in old plaster rooms, for owners and for the landlords who keep its many doubles.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'In Riverside, old houses and sizable apartment buildings line River Road, and Census figures give a median build year of 1971. Roughly six in ten homes are rentals, many in buildings of ten units or more, so for a lot of residents the honest fix is two good strips and a note to the landlord. The pre-1940 houses, about a quarter of the stock, often have cramped panels. Yours gets opened before any quote, you hear it if strips will do, and the price is agreed ahead of the work.',
-  emergencyParagraph:
-    'We come the same day on most calls, weekends included, when a receptacle looks charred, the panel smells of burnt plastic, a breaker snaps off once reset, or the TV sparked as service came back. Switch it off only if you’re dry. Smoke or flame means leave and call 911. Lights pulsing house-wide mean Duke Energy Ohio first.',
   commonIntro:
     'From older houses on River Road to the larger apartment buildings, these are the problems that point residents of Riverside toward surge protection.',
   localFaqs: [

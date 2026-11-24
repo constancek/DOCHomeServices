@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'By Census count, more than half of Northside’s houses predate 1940, and roughly one in three came along between 1940 and 1979. The oldest may hide knob-and-tube or cloth-jacketed wire with no ground conductor, which is why so many bedrooms here still have two-slot outlets. Postwar houses toward upper Hamilton Avenue were wired when a kitchen meant a toaster and a fridge. Our first visit is a test, and if your wiring checks out, you’ll hear that. Nothing gets opened until the scope and flat-rate price are signed.',
-  emergencyParagraph:
-    'An outlet with a hot plastic smell, a browned cover plate, crackling or sparks, a breaker that snaps off as you reset it, or any shock means we should come today. Kill that circuit if the panel is dry and safe to reach. Smoke means leave and phone 911 from outside. Most calls are seen same day, Sundays too.',
   commonIntro:
     'Around Hamilton and Spring Grove Avenues, tired wiring in Northside tends to announce itself in one of four ways.',
   localFaqs: [

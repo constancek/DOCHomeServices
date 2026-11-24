@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'Reading has a lot of postwar brick, with a median build year of 1956 by Census figures, plus older frame houses toward Mill Creek. None of those were built with central air. It went in later, so we often find a condenser pinned between a driveway and a side wall, and ducts that never quite reach the back bedroom. About four in ten homes are rented, which puts many visits on a landlord’s list. The quote comes first, and a system in good shape is left alone.',
-  emergencyParagraph:
-    'A system pushing warm air in July needs a repair in Reading, not a tune-up, as does frost on the copper; switch it off. Water through a ceiling or a smell of hot wiring means it stays off. Heat is roughest on older relatives, infants and the sick. Same-day visits are the norm, weekends included.',
   commonIntro:
     'Here is what usually prompts a spring call from owners and landlords in Reading.',
   localFaqs: [

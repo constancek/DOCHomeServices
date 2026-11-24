@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Servicing a heater in Withamsville splits two ways. Census figures count 41.4% of homes here inside complexes of five-plus units, so plenty of tanks live in a hallway closet, perched on a pan, with the owner of the complex deciding when we come. The rest are mostly houses from the 1940s and 1950s or the 1980s and 1990s, and those get a straightforward drain, rod check and valve trip. You hear the figure up front, and if the tank is beyond helping, we say that instead.',
-  emergencyParagraph:
-    'Tank shell leaking: twist the supply valve above it shut, then cut gas or power. Gas odor: walk out, leave lights and pilot alone, and ring the utility from the sidewalk. A carbon monoxide alarm empties the place first. A relief valve that won’t quit, or zero hot water, skips the tune-up too. Usually same day, weekends too.',
   commonIntro:
     'Nothing here is broken yet. These are the hints that a heater in Withamsville has gone too long without a visit:',
   localFaqs: [

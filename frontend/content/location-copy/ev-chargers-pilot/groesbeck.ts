@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'In Groesbeck, Census figures show houses from every decade since the 1940s, a median of 1970, and about two in three homes detached. Apartments in larger buildings and a share of mobile homes make up the rest, and a third of households rent. Panels in the 1950s through 1970s houses are often crowded, while newer houses usually have room or can lean on load management. We check the panel and run the load first, say so when Level 1 will do, and fix the price before work.',
-  emergencyParagraph:
-    'In Groesbeck, a charger that’s hot, an outlet with melted edges, a smell like burning wire or a breaker that trips at each plug-in all mean unplug now. Turn off that breaker only if you can stay dry and away from heat. For smoke or fire, get clear and dial 911. Expect same-day help on most calls, weekends too.',
   commonIntro:
     'With houses from every era alongside apartment buildings, these are the charging needs we hear about most in Groesbeck.',
   localFaqs: [

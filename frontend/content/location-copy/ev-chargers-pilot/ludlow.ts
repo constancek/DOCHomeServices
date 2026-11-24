@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Ludlow sits on the Ohio west of Covington, and Census figures show about six in ten of its houses date from 1939 or earlier. In a pre-war house the original service may still be in place, with little room for a 240-volt line. Most families own, and most homes are detached or attached single houses. The first visit covers the panel and a load calculation. If the car’s cord keeps up, we say so, and the price is fixed before any wire is run.',
-  emergencyParagraph:
-    'Quit charging if the plug or outlet is hot, scorched or melted, or smells of burning. Anything that sat in floodwater stays off until an electrician clears it. Throw the breaker only from a dry floor at a dry panel. For smoke or flame, get out and dial 911. Most calls are answered the same day, weekends too.',
   commonIntro:
     'Across a river town full of pre-war houses, these are the charger requests we hear most in Ludlow:',
   localFaqs: [

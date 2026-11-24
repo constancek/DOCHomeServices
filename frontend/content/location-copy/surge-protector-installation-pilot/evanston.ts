@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'About seven in ten homes in Evanston were built in 1939 or earlier, Census figures show, which means most of our surge jobs here begin at an old panel. Many are small or full, and a look inside settles whether a device fits and where it should mount. Rehabbed houses near Xavier often hold far more electronics than their wiring was planned for, from central air to a smart thermostat. We open the panel first, tell you if strips will cover it, and agree a figure before starting.',
-  emergencyParagraph:
-    'Ring us if an outlet or the panel smells hot or shows scorching after a surge, and shut that circuit off only when nothing around it is wet. One breaker that won’t hold after a reset needs a visit too. Any smoke is a 911 call, placed from outside. Most callers see us the same day, weekends included.',
   commonIntro:
     'In the pre-war houses and two-families around Evanston, these are the signs that point to a surge device.',
   localFaqs: [

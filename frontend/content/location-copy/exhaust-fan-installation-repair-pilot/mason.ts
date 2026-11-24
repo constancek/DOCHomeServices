@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Census figures put the typical house in Mason at 1996, and more than half went up between 1990 and 2009, so nearly every bathroom here already has a fan. What wears out is the builder’s pick. A budget unit chosen to finish a subdivision quickly now hangs over a primary suite with a soaking tub, a glass shower and double sinks, and its motor has had decades to slow. We find out where the air goes, then quote the fix before anyone touches the drywall.',
-  emergencyParagraph:
-    'In Mason, call us the same day for a fan that smells scorched, has a melted housing, sparks, smokes, trips its breaker or drips water through the grille. Kill power at the switch or panel if you can reach it safely. Flames or smoke mean getting out and dialing 911. We’re usually there that day, weekends included.',
   commonIntro:
     'In the cul-de-sacs and townhome rows around Mason, homeowners usually notice one of these four things first.',
   localFaqs: [

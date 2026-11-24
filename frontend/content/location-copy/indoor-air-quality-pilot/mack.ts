@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'In Mack, our air calls mostly come from owners of 1980s and 1990s houses up on the ridge. The median house dates to 1981 by Census figures, and close to every one is a detached home its owner lives in. Builders back then sealed walls and windows tighter, so bacon grease, oven cleaner and shower fog have nowhere to go, and a ventilation change often beats a heavier filter. Readings come before suggestions, a flat price comes before work, and if a new filter is the cure, you’ll hear that.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends the whole family outside, and 911 gets called from the driveway. With a gas smell, nobody touches a switch; walk out and phone the gas company. Should the vents smell scorched, the thermostat goes to off. Mold spreading after a leak is hardest on babies. Expect us same day on most calls, weekends too.',
   commonIntro:
     'For owners of 1980s and 1990s houses around Mack, these tend to be the first clues.',
   localFaqs: [

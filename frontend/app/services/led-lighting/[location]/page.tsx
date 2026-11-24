@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'led-lighting',
   serviceName: 'LED Light Installation',
+  localHeadingName: 'LED Light Installation',
   eyebrow: 'Lighting',
   hubLabel: 'LED Lighting',
   parentCrumb: { label: 'Indoor Lighting', href: '/services/indoor-lighting' },
@@ -77,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'How much do LED lights cost?', a: 'Costs vary depending on the number of fixtures, installation complexity, and lighting type. Many homeowners find the long-term energy savings make LED lighting a worthwhile investment.' },
     { q: 'How can I customize LED lighting for my home?', a: 'LED lighting can be customized through fixture style, brightness levels, and color temperature. Our electricians help design lighting systems that match the layout and style of your home.' },
   ],
+  steps: {
+    heading: 'What to Expect From LED Light Installation in {neighborhood}',
+    items: [
+      { icon: 'pencilRuler', title: 'We Check the Wiring and Dimmers First', text: 'The fixtures, the dimmers and the circuit the new lights will run on.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before any work begins.' },
+      { icon: 'bulb', title: 'Installed, Wired and Tested', text: 'Each light connected to code, then tested for brightness at the switch.' },
+    ],
+  },
   related: [
     { label: 'LED Lighting (overview)', href: '/services/led-lighting' },
     { label: 'Indoor Lighting', href: '/services/indoor-lighting' },

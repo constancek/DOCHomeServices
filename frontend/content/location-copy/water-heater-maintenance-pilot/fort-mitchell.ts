@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Rentals shape a lot of our work in Fort Mitchell. Census figures show 41.7% of homes rented, many in apartment buildings where each unit hides a closet heater on a pan and the owner picks the date. The blocks off Beechwood Road and Dixie Highway hold houses from 1890 to 1935, and their basement tanks come with older venting and a drain valve we turn slowly. Newer houses take less time. Price comes before any work, and you’ll hear it from us if a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Skip maintenance in Fort Mitchell for these. A puddle from the tank: crank the top cold valve shut, then gas or breaker. Gas in the air: out the door, no light switches, no relighting, ring the gas company. Carbon monoxide detector sounding: everyone outside. A relief valve that keeps popping, or a cold tap: most get same-day help, weekends included.',
   commonIntro:
     'Here’s why a working heater in Fort Mitchell usually gets booked:',
   localFaqs: [

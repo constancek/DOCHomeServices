@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Milford has old river-town houses and big apartment buildings. By Census count, half the households rent, the median home dates to 1968, and about one in five predates 1940. Near the Little Miami, the old houses keep wet basements, leaky window frames and ductwork that hauls dust upstairs. In the apartment buildings, the owner signs off on any equipment. A test always happens before a quote, the price is settled before we lift a tool, and a filter swap gets recommended when that’s all it needs.',
-  emergencyParagraph:
-    'Carbon monoxide alarms call for everyone out first and 911 second. Anyone smelling gas should leave without touching a switch and phone the gas company outside. Heat or AC that smells of burning gets shut off at the thermostat. Mold after a flood moves fast and hits babies, elders and asthmatics hardest. Same-day service covers most calls, weekends included.',
   commonIntro:
     'In houses and apartments in Milford, the air complaints we hear most are these:',
   localFaqs: [

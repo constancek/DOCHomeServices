@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'A gut renovation is when a lot of recessed work in Mount Lookout gets done, with the old plaster already in a dumpster and the joists bare. Census figures date the median house to 1938, half were standing by 1939, and nearly four in five are detached, most lived in by their owners. That combination brings lath ceilings, tired cable and second floors tucked tight beneath the attic. Open framing makes the job easier. Either way, each can is marked and priced before anything gets cut.',
-  emergencyParagraph:
-    'A can that flickers off and on, a trim too hot to hold or a smell of melting plastic means that breaker gets switched off if reaching it is safe. Water running out of a housing after a downpour gets the same response. With smoke or fire, leave and phone 911. Most calls get a same-day crew, weekends included.',
   commonIntro:
     'Whole-house remodels near the Square and basements rebuilt after the summer storms bring most of our work here, and these four come first.',
   localFaqs: [

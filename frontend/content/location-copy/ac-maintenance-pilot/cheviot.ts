@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Most houses in Cheviot were standing long before anyone sold central air for them. Census figures put the median at 1946, with 44.9% from 1939 or earlier, which is why the ductwork we find was threaded in afterward, through closets and floor cavities, with long thin runs to the back bedrooms. Off Harrison Avenue, a condenser often has a foot or two of clearance against the siding. The tune-up price is fixed up front, and a system that’s fine gets a straight answer.',
-  emergencyParagraph:
-    'Ring for a repair, not a tune-up, when the house gets hotter by the hour, frost grows on the copper pipe, or the breaker flips after a reset. For frost, set the thermostat to off. A grandparent, a newborn or someone with asthma can’t ride out that heat, so most calls get a visit that same day, weekends too.',
   commonIntro:
     'These are the April and May calls we hear most often from Cheviot.',
   localFaqs: [
@@ -14,7 +12,7 @@ export const cheviot: LocationServiceCopy = {
     },
     {
       q: 'I rent one side of a two-family in Cheviot. Do I schedule the AC service?',
-      a: 'Your landlord does, if the air conditioner came with the place. Under Ohio law, ORC 5321.04 (A)(4), an owner who supplies air conditioning has to keep it in good and safe working order. Send the landlord a dated note about any drip or noise. We service air conditioners, not leases.',
+      a: 'That’s your landlord’s job when the AC came with the rental. Ohio’s ORC 5321.04 (A)(4) has an owner who supplies cooling keep it in good and safe working order. Send the landlord a dated note about the drip or the warm back bedroom. We fix air conditioners; leases stay between you and the owner.',
     },
   ],
   overrides: {
@@ -33,7 +31,7 @@ export const cheviot: LocationServiceCopy = {
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'The visit earns its fee when nobody can say who last opened the AC, when the deed is a few months old, or when a puddle shows up under the basement coil. A fresh buzz from the side yard counts too, and so does a landlord with a two-family wanting both halves done in one trip. Don’t spend it on a system someone tuned last spring that still cools the whole house. A unit blowing warm, or with frost on its pipes, needs AC Repair. If we’ve already called time on the system, AC Installation & Replacement is where that money should go. Window units we leave alone.',
+        body: 'Book it when nobody knows who last had the AC open, when you’ve owned the house only a few months, or when water collects under the basement coil. A new buzz from the side yard is a reason, as is a two-family landlord who wants both sides covered on one trip. A system tuned last spring that still cools every room can skip a year. An AC blowing warm air or frosting its pipes calls for AC Repair. When we’ve already told you the system is near the end, steer that money toward AC Installation & Replacement. Window units are outside our work.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Cheviot',
@@ -50,11 +48,11 @@ export const cheviot: LocationServiceCopy = {
       },
       {
         q: 'What time of year should I book AC maintenance?',
-        a: 'Book it in spring, once a year, while the calendar is still open and July is a long way off. The National Weather Service counts about 21 days a year at 90F or above around Cincinnati, and a dirty coil shows itself on those afternoons. Heat pump owners add a fall visit.',
+        a: 'Spring, once a year, while appointments are easy and July still feels far away. The National Weather Service counts about 21 days a year at 90F or hotter around Cincinnati, and those afternoons expose a dirty coil. Owners with a heat pump add a fall visit.',
       },
       {
         q: 'What can I look after on my own AC?',
-        a: 'Pull and replace the filter when it’s gray, rake leaves and trim plants back from the condenser, keep furniture off the floor registers and returns, and put fresh batteries in the thermostat. The panels on the outdoor unit and the copper refrigerant lines are ours to handle.',
+        a: 'Slide out the filter and fit a new one once it looks gray, rake leaves and cut back shrubs crowding the condenser, keep couches and rugs clear of floor registers and returns, and replace the thermostat batteries. Leave the outdoor unit’s panels and the copper refrigerant lines to us.',
       },
     ],
   },

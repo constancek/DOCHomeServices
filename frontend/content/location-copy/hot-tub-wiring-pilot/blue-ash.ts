@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Census figures put the middle house in Blue Ash at 1981, and the 1980s were the city’s busiest building decade. Panels from that stretch usually have an open position, so the real question is where the spa will sit and how long the conduit path gets. The 1950s ranches near the older streets are different and may need panel work first. Every job still involves a 240-volt GFCI line, a visible shutoff, bonding and a city inspection, and we price it from the spa’s spec sheet before digging.',
-  emergencyParagraph:
-    'Treat these as same-day problems in Blue Ash. A GFCI that drops again moments after a reset, a shutoff box that smells hot, a humming panel or a buzz felt through the water all qualify. Get people out, keep hands off the gear, and kill the breaker only if that’s safe. Smoke means 911. Weekend calls count too.',
   commonIntro:
     'Between the 1980s subdivisions and the condo buildings off Kenwood Road, these situations tend to bring us out to wire a spa in Blue Ash.',
   localFaqs: [

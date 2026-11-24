@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate LED lighting work is commercial: fluorescent troffers in offices and aging fixtures in warehouses near the rail yards. We swap troffers for LED panels, replace warehouse fixtures with LED high-bays and add occupancy sensors, after checking the existing circuits and ballasts.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The lighting here is mostly older commercial: inefficient fluorescent troffers in offices and aging fixtures in warehouse space, all of which draw heavily and burn out on a building owner’s dime. LED retrofits are the upgrade that pays off most in this kind of space.',
-      'The work is commercial in scale, swapping fluorescent troffers for LED panels, replacing warehouse fixtures with efficient LED high-bays, and putting areas on occupancy sensors to cut the draw further. We confirm the existing circuits and ballasts before retrofitting and install every fixture to code so a working building stays lit and running.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the LED work we handle most often is retrofitting inefficient fluorescent and warehouse fixtures with efficient LED panels and high-bays.',
-    localFaqs: [
-      {
-        q: 'Do you handle commercial LED retrofits in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we retrofit offices and warehouses with efficient LED panels and high-bays to code as licensed electricians.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF, LED lighting mostly goes into student rentals across Clifton Heights, University Heights and Fairview. Old fixtures in these 19th- and early-1900s houses burn out constantly under tenant use, so we fit durable, efficient LED in every unit and long-life fixtures in hallways and stairwells.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you handle an LED upgrade in South Cumminsville?',
         a: 'South Cumminsville is within our west-side service area in the Mill Creek valley, and we install recessed and basement LED there to code as licensed electricians, usually scheduled within days.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'LED lighting in English Woods usually means recessed cans in place of dated fixtures on the main floor and bright LED in dim lower levels and garages. Many hilltop lots here have walk-out levels the original build left dark, and some newer redevelopment units want modern recessed layouts.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here carry dated, inefficient fixtures, and the hilltop lots often have lower or walk-out levels the original build left dark, so recessed LED and bright lower-level lighting are the upgrades we install most.',
-      'We replace tired incandescent fixtures with recessed LED cans on the main floors, add bright, even LED in dim lower levels and garages, and set living areas on dimmable LED. With redevelopment bringing newer units into the mix as well, some jobs lean toward modern recessed layouts. Either way we confirm the wiring can carry the work and install every circuit to code.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the LED work we handle most often is replacing inefficient fixtures and lighting dim lower levels and garages.',
-    localFaqs: [
-      {
-        q: 'Can you upgrade my English Woods home to recessed LED?',
-        a: 'Yes. We install recessed LED cans and bright lower-level lighting in English Woods’ hilltop homes, confirm the wiring is sound, and install everything to code as licensed electricians.',
       },
     ],
   },

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'Summerside was built mostly in one long stretch: 87.7% of homes went up between 1960 and 1999, by Census figures, and very few since. That means panels and wiring from the 1960s through the 1990s, usually grounded but often short on circuits for today’s kitchens, home offices and electric heat. Of the housing here, 34.5% is in apartment buildings, and more is attached townhouses. We inspect the house or unit, give you a written report, and price any repairs before they happen.',
-  emergencyParagraph:
-    'Some Summerside calls shouldn’t wait for an inspection slot: a burning smell, a cover plate that’s warm or discolored, buzzing in a switch, sparks, or a breaker that won’t stay reset. Shut that breaker off. In an apartment, tell management too. Smoke or fire means everyone out and a call to 911. Most urgent calls get same-day service, weekends included.',
   commonIntro:
     'Summerside calls split between single homes, townhouses and apartment buildings, nearly all from the 1960s to the 1990s. What we find most:',
   localFaqs: [

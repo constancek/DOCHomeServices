@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Evendale is a single house its owner lives in. Census figures give 1982 as the median year, and the 1980s and 1990s account for most of the building. A lot of those houses have since retired the original air conditioner and furnace in favor of equipment controlled by circuit boards, plus a home office. That gear is what repeated surges wear out. We look at your panel first, say whether strips would suffice, and agree a fixed figure ahead of the work.',
-  emergencyParagraph:
-    'Phone us when a breaker snaps off again the instant it’s reset, or when a dishwasher or furnace smoked as the power returned. Lights that brighten and dim through every room are the electric utility’s to look at first. Smoke or fire means walking out and calling 911. Most of these get a same-day visit, Saturdays and Sundays included.',
   commonIntro:
     'In houses from the 1980s and 1990s, which make up most of Evendale, these signs usually come up first.',
   localFaqs: [

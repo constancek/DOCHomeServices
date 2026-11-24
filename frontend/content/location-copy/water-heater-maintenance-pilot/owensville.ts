@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Owensville is a small Stonelick Township village, and Census figures suggest most of its households rent, so the person booking a heater visit is usually a landlord. Houses lean toward the 1960s and 1970s, with 1974 as the median, and most homes heat with electricity, which means plenty of electric tanks: drain, anode, element test, relief valve. The small apartment buildings give each unit its own closet heater over a pan. You see the price before anything happens, and you’ll hear it from us if a tank is beyond servicing.',
-  emergencyParagraph:
-    'Puddle forming under the heater: close the cold line going in, then trip the breaker or shut the gas. Odor of gas: step outside, touch no switch, relight nothing, then reach the gas company. Carbon monoxide alarm: all out. A relief valve dribbling nonstop or a dead cold tap also means repair. Mostly same day, Saturday and Sunday included.',
   commonIntro:
     'Landlords and owners in Owensville tend to call us for a yearly visit once they notice one of these:',
   localFaqs: [

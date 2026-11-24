@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton is really two towns for light fixture work. Along Main Street and Church Street, the older frame houses and duplexes can have plaster, thin boxes and two-wire cable without a ground. Out in the subdivisions, where Census numbers put the halfway build year at 2002, owners mostly want a light for a bedroom that came with a switched lamp outlet or a better bar over the vanity. Either way we pull the canopy, test what is up there and hand you a set figure before work begins.',
-  emergencyParagraph:
-    'A drooping fixture, a canopy with a hot plastic smell or a breaker that trips the moment someone flips the bathroom light needs a look today. Turn that circuit off if the panel is easy to reach. With smoke or fire, leave the house and dial 911. Boone County calls usually get us same day, weekends too.',
   commonIntro:
     'These are the fixtures we hang most around Walton.',
   localFaqs: [

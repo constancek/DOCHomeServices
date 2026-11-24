@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale was first a 1940s subdivision put up by Dillon Builders, and Census figures show a median home of 1956, nearly all of them detached. Many still lean on a modest breaker box with few vacant slots, so the opening question is where a protector can go. What those boxes feed has changed, since gas furnaces now carry control boards and kitchens are full of electronics. Expect a look in the box before any quote, a straight answer when strips are enough, and a price settled ahead of the work.',
-  emergencyParagraph:
-    'Should the TV, furnace or anything smoke or spark as power is restored, phone us. A breaker that refuses to stay reset and an outlet or switch gone black count too. When every light pulses bright and dim, the electric utility needs to hear first. With smoke or flames, get out and dial 911. Weekends get same-day visits too.',
   commonIntro:
     'Owners of postwar houses in Dillonvale, next to Deer Park, usually see one of these before asking about surge protection.',
   localFaqs: [

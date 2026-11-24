@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'Nearly every water heater service in Montgomery is booked by its owner: Census figures put 90.1% of homes owner-occupied, most of them single-family, around a median build year of 1976. That points to a basement or garage tank with elbow room, and a visit made of a drain and flush, an anode check and a relief valve test, plus the vent and gas line on gas units. You hear the flat price before anything starts, and if servicing the tank would waste your money, we say so.',
-  emergencyParagraph:
-    'Water running out of the tank means a repair. Turn the cold supply off at the top, then the gas or breaker. Treat a relief valve that keeps releasing, or a house without hot water, alike. Gas smell: step outside, every switch left alone, call Duke Energy. Carbon monoxide alarm: all out. Same-day help on most calls, weekends too.',
   commonIntro:
     'Homeowners in Montgomery usually call us about one of these:',
   localFaqs: [

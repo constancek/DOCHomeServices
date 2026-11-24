@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Census figures show close to three in four households renting in Lincoln Heights, so a hot tub is usually the owner’s decision. The median house went up in 1973, and nearly half date from 1960 through 1979. Breaker boxes from then often have a blank but thin reserve, and that gets settled before the spa line. The tub then takes a dedicated 240-volt GFCI circuit, a shutoff, bonding and an inspector’s visit. We compare the panel with the spa maker’s wiring requirements and give the owner a price up front.',
-  emergencyParagraph:
-    'A tingle in the water, a spa breaker that drops again right after a reset and a shutoff box giving off a hot, burnt smell all mean everybody out. Switch off the breaker only if you can do it from dry ground, and ring 911 for smoke or fire. Same-day visits cover most calls, weekends included.',
   commonIntro: 'Owners and landlords in Lincoln Heights usually reach us over one of these.',
   localFaqs: [
     {

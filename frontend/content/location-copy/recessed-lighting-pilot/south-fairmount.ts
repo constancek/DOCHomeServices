@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'In South Fairmount, recessed lights mostly go into houses off Queen City and Harrison Avenues that went up before 1940. Census figures put the median home at 1938, so we plan around lath and plaster, shallow upstairs joists and a parlor wired for one pull-chain light. Around three in five homes here are rented, which puts most of these jobs in an owner’s hands. Before a saw touches the ceiling, the layout is chalked out and the price is written down.',
-  emergencyParagraph:
-    'A trim that scorches your fingertips, a brown halo spreading on the plaster, a smell like hot plastic, or water running out of a fixture needs attention today. Flip that breaker off if you can reach it safely. Smoke or flames mean leave and phone 911. We’re there same day on most calls, weekends included.',
   commonIntro:
     'Lath ceilings, rentals turning over between leases and basements nobody has touched in decades make up most of these calls:',
   localFaqs: [

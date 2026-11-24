@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'For most owners in Delhi Hills, a fall tune-up means a furnace in the basement of a detached house from the 1960s or 70s. Census figures put the median home at 1971 and show heat split almost evenly, 48.1% gas and 48.5% electricity, and that electric figure takes in heat pumps and baseboard too. So step one is confirming what heats your house. A furnace that age is often the second one in it. The price is set before work starts, and if yours needs nothing, we tell you.',
-  emergencyParagraph:
-    'In Delhi Hills, danger signs skip the tune-up. Smell gas: leave, switches untouched, and call the gas company from the street. A carbon monoxide alarm sends everyone outdoors. No warmth in a cold snap, a sputtering yellow flame or endless restarts are repairs too, more so with a newborn or grandparent inside. Same day on most, weekends included.',
   commonIntro:
     'Nearly every furnace we tune in Delhi Hills sits in an owner’s house built between the 1960s and 1990s. These are the usual reasons to book:',
   localFaqs: [

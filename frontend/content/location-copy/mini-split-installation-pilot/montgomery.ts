@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'Montgomery’s streets are lined with postwar and 1970s single-family houses, built around a 1976 median and owned by the people living in them 90.1% of the time, by Census figures. Those houses were built with ducts, but a later addition, a finished lower level or a sunroom often sits beyond what the original system can cool. A mini-split handles that room without reworking the ductwork. We price it before work starts, and if the room only needs better airflow, we tell you.',
-  emergencyParagraph:
-    'July’s normal high is 86F, says the National Weather Service, and an addition full of glass can climb well beyond it. That heat hits a grandparent, an infant or someone who’s ill hardest. Ductless installs get booked quickly; one room is usually a day. If an existing mini-split has failed, Mini-Split Repair answers most calls same day, weekends included.',
   commonIntro:
     'Off Montgomery Road and the side streets around it, the ductless work we quote usually starts with one of these:',
   localFaqs: [

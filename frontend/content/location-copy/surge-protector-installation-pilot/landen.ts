@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'Landen is almost entirely housing from 1960 to 1999, mostly from its last two decades, and all but about one home in ten heats with electricity, Census figures show. That puts the heat pump or electric furnace, working every season, at the top of what a spike can damage. Panels that age often have space, though later additions fill some, so the panel gets checked first. If strips would serve you as well, we’ll say so, and you see the price before work.',
-  emergencyParagraph:
-    'Call us when a breaker flips straight back off after you reset it, or when an outlet, switch or the panel smells hot after a surge. Kill that circuit only if you’re standing somewhere dry and the panel is safe to reach. For smoke or flames, leave and dial 911. Most visits happen the same day, weekends included.',
   commonIntro:
     'In the houses and townhomes from the 1980s and 1990s in Landen, these signs come up first.',
   localFaqs: [

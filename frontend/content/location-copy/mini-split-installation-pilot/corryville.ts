@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Corryville is a rental, 92.7% by Census figures, so a mini-split here is almost always the owner’s project. The housing splits two ways. A third of it predates 1940, and those old houses and small walk-up buildings rarely have ducts, so wall-mounted heads are the cleanest way to cool them. The large newer complexes run building systems that management controls. Owners get one flat price before work starts, and if ductless won’t pay off, we tell them.',
-  emergencyParagraph:
-    'A converted attic flat in Corryville can stay miserable after dark on the 21 or so days a year that reach 90F (National Weather Service). Elderly tenants, infants and people with asthma suffer first. Booking is quick, and one head usually takes a day. A failed mini-split needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the older houses and walk-ups between Short Vine and the University of Cincinnati, these are the situations that usually lead an owner to price ductless:',
   localFaqs: [

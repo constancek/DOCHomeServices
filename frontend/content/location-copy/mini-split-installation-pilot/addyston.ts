@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'In Addyston, 61.1% of households rent, by Census figures, and 27% of units are in buildings of five or more, which puts the ductless decision with whoever owns the building. The pre-1930 company houses on Main, Sekitan and Church went up for Addyston Pipe and Steel workers, long before ducted cooling, and their plaster and cramped attics resist new ductwork. A wall-hung ductless unit needs only a modest opening to its condenser outside. Expect a fixed quote ahead of any drilling, plus a straight answer if ductless won’t suit.',
-  emergencyParagraph:
-    'On the 21 or so days a year that hit 90F (National Weather Service), an upper flat with no cooling gets dangerous for grandparents, infants and anyone short of breath. Expect one day for a single indoor unit; several rooms need longer. A broken system you already own goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Between the riverbank and US 50, ductless requests we get from Addyston tend to start with one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Off Harrison Avenue, the usual lighting request is a room with one weak ceiling globe, or a bedroom lit only by a lamp plugged into a switched outlet. The box up there, the presence of a ground and whether wire already reaches the spot shape every job. Census numbers put the median home at 1958, and close to 500 went up in the 1950s alone. With 1,004 of 1,322 occupied homes rented, owners often book several units together. We inspect the box and write the cost before unscrewing anything.',
-  emergencyParagraph:
-    'A drooping fixture, the reek of hot plastic by a bulb, or a breaker that kicks out as a light comes on is worth a fast call. Kill that circuit if doing so is safe, and keep kids from below. If smoke or fire appears, leave and ring 911. A technician usually comes that day, Saturday or Sunday included.',
   commonIntro:
     'In the apartments and 1950s houses here, four requests fill most of our lighting calendar.',
   localFaqs: [

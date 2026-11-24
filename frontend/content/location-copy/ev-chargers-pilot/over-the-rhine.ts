@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'For people living in Over-the-Rhine, a charger at home starts with permission. Census figures put about six in seven homes in buildings of two or more units, and seven in ten are rented. Tenants need the owner’s written approval, condo owners need the association’s, and it only works where the car parks off the street. Many buildings were up by 1939, with an original service that may be small. We check the panel and the load first, say if the dealer cord is enough, and fix the price beforehand.',
-  emergencyParagraph:
-    'In a shared building, a scorched, melted or hot outlet or charger is everyone’s problem, so stop the charge and keep neighbors back. If the panel is dry and safe to reach, switch that breaker off and tell the manager. Smoke or flame means leave and call 911. We aim for the same day on most calls, weekends included.',
   commonIntro:
     'In Over-the-Rhine, rowhouses, condos and apartment buildings each raise the charger question in their own way, and these four come up most.',
   localFaqs: [

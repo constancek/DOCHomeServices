@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'California is a small corner of Cincinnati made up almost entirely of single houses, and close to nine in ten are owner-occupied, Census figures show. The median year built is 1968, and panels from that era have often filled up after decades of added circuits. Low streets near the river flood when the Ohio runs high, so a panel that sat in a wet basement gets checked before anything is added. Our electrician starts there, says so if outlet strips will do, and gives you a set price before work.',
-  emergencyParagraph:
-    'An outlet gone black around the slots, a breaker that refuses to stay up, or a furnace that smoked as power came back usually gets us out that same day, weekends included. Every light surging and sagging goes to Duke Energy Ohio first. Only kill a circuit with dry hands; with smoke or fire, get clear and dial 911.',
   commonIntro:
     'Along Kellogg Avenue and the side streets, owners in California tend to notice these signs first.',
   localFaqs: [

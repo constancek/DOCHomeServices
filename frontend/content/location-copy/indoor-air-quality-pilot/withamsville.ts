@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'In Withamsville, renters are the majority, more than half of households by Census figures, and about two in five homes are in buildings with five or more units, so the owner or manager makes the equipment decision. The houses split in age. Ones from the 1940s and 50s tend to have basements and ductwork that circulate dust; ones from the 1980s and 90s seal up and hold stale air. Readings come first, then a fixed price before work, and a frank word if a filter will fix it.',
-  emergencyParagraph:
-    'At the first sound of a carbon monoxide alarm, get everyone outdoors and dial 911. Should you smell gas, leave the lights alone and ring the gas company from outside. Turn the system off if it puts out a burning odor. Infants, older relatives and anyone with asthma face the most danger. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'In apartments and houses in Withamsville, the air complaints we hear most go like this:',
   localFaqs: [

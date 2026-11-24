@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'In Crescent Springs, the fan is usually there, just undersized or worn out. Census figures show a median build year of 1993, roughly half of homes stacked in buildings with five or more units and about four households in ten renting. Expect a builder’s entry-level fan, a duct path the building decided long ago and a motor that has been spinning for decades. We check the draw at the grille, find the duct’s end and give a firm price before any cutting.',
-  emergencyParagraph:
-    'If a fan smells scorched, has a melted or blackened housing, sparks, smokes, drips from the grille or trips its breaker on startup, shut it off by the wall switch or at the panel when that’s safe. Should smoke or flames appear, get everyone out and phone 911. An electrician can usually be there the same day, weekends included.',
   commonIntro:
     'With so many condos, apartments and townhouses in Crescent Springs, these are the fan problems owners and residents bring to us most:',
   localFaqs: [

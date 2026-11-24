@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Mount Repose is mainly owner-occupied houses from the 1960s and 1970s; Census figures give a median build of 1978, and 84.4% of units are detached homes. So the heater is usually in a basement or garage, likely the second or third one on that spot, hooked to gas pipe and a vent connector that have outlasted several tanks. The newer streets are simpler: drain, rod, valve. We put a number on it before starting and will tell you if your tank no longer earns a service.',
-  emergencyParagraph:
-    'Leaking from the tank body: turn the cold valve at its top, then shut fuel or power. Smelling gas: get out, leave every switch and the pilot alone, and phone the gas company outside. Hearing a carbon monoxide alarm: out first, questions later. Same for a relief valve stuck discharging or no hot water. Usually same day, weekends too.',
   commonIntro:
     'In owner-occupied houses across Mount Repose, a heater tends to drop these hints before it needs real repair:',
   localFaqs: [

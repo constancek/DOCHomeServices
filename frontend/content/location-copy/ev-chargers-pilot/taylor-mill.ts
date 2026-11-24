@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Taylor Mill is mostly owner-occupied single houses, about four in five detached by Census figures, so a charger is usually your own decision. The age of the house varies more than people expect. Roughly a third date from the 1940s and 1950s, when panels were small, and about four in ten from the 1980s and 1990s, which often have room. We test the panel against your actual load, admit it when the cord already copes, and settle the price before a single cable is cut.',
-  emergencyParagraph:
-    'Heat, a burnt smell or black marks anywhere from the plug to the wall unit end the session, as does a breaker that quits every charge or a run-over cable. Throw the breaker only with dry hands and dry footing. If there’s smoke or flame, leave and call 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Across the older streets and the newer subdivisions of Taylor Mill, these are the four charger situations we run into most.',
   localFaqs: [

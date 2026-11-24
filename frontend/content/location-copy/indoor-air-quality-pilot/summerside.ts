@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'In Summerside, nearly nine in ten homes went up between 1960 and 1999, by Census figures, with the median at 1981 and roughly a third of units in apartment buildings. Houses from those decades are tighter than pre-war ones, so cooking odors, shower steam and cleaning sprays hang around without better ventilation. Townhouses and apartments add shared walls that let a neighbor’s smoke drift in, and the owner or landlord decides on equipment. We test first, fix a flat price before installing, and recommend a filter swap when that’s enough.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means everybody leaves before anyone calls 911. If you smell gas, walk out leaving every switch alone and call the gas company outdoors. A scorched smell from the heat or AC means setting the thermostat to off. Mold after a leak is pressing for toddlers, grandparents and asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'In the townhouses, apartments and 1970s and 1980s houses around Summerside, the trouble usually starts with one of these.',
   localFaqs: [

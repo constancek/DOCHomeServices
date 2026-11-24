@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Drywall overhead makes recessed lighting fairly direct in Sharonville, a city that spills from Hamilton County into Butler County. Census figures put the median home at 1974, and the 1980s and 1990s added more housing here than any other stretch, so open kitchens and an insulated attic above the top floor turn up constantly. Detached houses make up about half the stock, and roughly 31 in 100 units are in buildings of five or more, where a condo board may want a say. Layout and flat price come before cutting.',
-  emergencyParagraph:
-    'Never shrug off cans that trip their breaker as they come on, a trim scorched brown, or a switch plate warm under your fingers. Where the panel is safely in reach, cut power to those lights. If smoke or flame shows up, everyone goes outside and someone calls 911. Sharonville usually gets a visit from us that day, weekends included.',
   commonIntro:
     'Across Sharonville, from 1970s split-levels to apartments and condos, these rooms get recessed lights from us most.',
   localFaqs: [

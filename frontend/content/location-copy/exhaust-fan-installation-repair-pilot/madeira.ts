@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'In Madeira, exhaust fan work means houses from the 1950s, the busiest building decade the city had, and Census figures put the median house at 1960. Plenty of those bathrooms were built with a window, and the fan arrived later, sometimes ducted only as far as the attic. Houses built since 2000 have fans, not always big enough for the room, and a remodel with a larger shower can leave an old fan outmatched. We trace the air and give you a firm price before any ceiling is cut.',
-  emergencyParagraph:
-    'Cut the fan’s power at the wall switch or breaker, if you can get to it safely, the moment you notice a burning odor, warped or scorched plastic on the housing, sparks or smoke. Smoke or flame means emptying the house and phoning 911. Same-day visits are normal for most of these, weekends included.',
   commonIntro:
     'On the 1950s streets and in the newer houses across Madeira, these are the four signs we run into most.',
   localFaqs: [

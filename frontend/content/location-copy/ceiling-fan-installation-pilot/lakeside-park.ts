@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Houses come from many eras in Lakeside Park. Census figures put the median house at 1964, yet roughly one in six went up in 1939 or before, and most are single detached houses lived in by their owners. One call is a plaster ceiling over a shallow pan box, the next a ranch bedroom with a light-only box. We look at it first, mention it when snugging the mount will cure a wobble, and settle the price before the fixture comes off.',
-  emergencyParagraph:
-    'A fan swinging wildly, a box sagging loose, a scorched smell from the housing or a breaker that won’t stay on can’t sit overnight. If you can reach the switch safely, shut it off, and keep everyone out from under it. With smoke or fire, get outside and call 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'From prewar plaster to 1960s ranches, these are the fan troubles we see most in Lakeside Park.',
   localFaqs: [

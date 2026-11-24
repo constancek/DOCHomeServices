@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Every one of the 978 homes in Day Heights is a detached house, and 51.1% were built from 1960 to 1979, by Census figures. Ductwork from that period was run for the furnace, and the air conditioner borrows it, with its coil stacked on the furnace cabinet. That puts most of our attention on the coil, its drain line and the condenser, not the ducts. We name a price before starting, and if the system is fine, we say so and pack up.',
-  emergencyParagraph:
-    'Call for a repair, not maintenance, if the house stops cooling in a heat wave or the condenser hums with its fan standing still. Ice on the coil or copper lines means thermostat off until it melts. Infants and older family suffer first in hot rooms. Most calls are same day, weekends included.',
   commonIntro:
     'Owners in Day Heights tend to schedule a spring check once they spot one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Across the river from downtown, recessed lighting in Covington tends to go into a long, narrow kitchen or a high-ceilinged parlor in a house that predates the Second World War. Census figures set the city’s median build year at 1947, and nearly half its homes date from 1939 or earlier, so plaster on lath and one center fixture per room are the starting point. About half of households rent, many in two- to four-unit buildings. Every can is laid out on the ceiling and priced before cutting.',
-  emergencyParagraph:
-    'A downlight that smells like melting plastic, a tan scorch on the plaster around a can or water trickling through a trim should be seen today. Turn that circuit off at the breaker if reaching it is safe. Smoke or flame means getting outside and calling 911. Most Kentucky-side calls get a same-day visit, weekends too.',
   commonIntro:
     'Narrow pre-war houses and small apartment buildings make up much of Covington, and these are the requests that follow.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Most Miamitown homes are rented, many in apartment buildings, and about two in three heat with electricity, Census figures show, so electrical inspections here are usually booked by owners and managers. The housing splits between pre-1940 buildings, where old wiring may still be in the walls, and 1980s and 1990s complexes with sound wiring but busy panels. Along the riverfront streets, Great Miami flooding adds another reason to check. We inspect, report in writing and price repairs before anything is done.',
-  emergencyParagraph:
-    'Treat these as urgent: a burning smell, an outlet or switch that’s hot, buzzing or blackened, sparks, or a breaker that trips again right after reset. Switch that breaker off and tell the landlord or manager at once. If there’s smoke or fire, get out and call 911. On most calls we’re in Miamitown the same day, weekends too.',
   commonIntro:
     'In Miamitown we mostly inspect small apartment buildings and multi-unit houses, for the owners who run them. The findings that come up most:',
   localFaqs: [

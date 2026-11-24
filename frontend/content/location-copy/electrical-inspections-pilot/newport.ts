@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Newport’s housing is old and dense, and that shapes every electrical inspection here. Census figures put 46.5% of homes at 1939 or earlier, and more than half are rented. In the Victorian houses of East Row and the apartments carved out of them, we find ungrounded outlets, leftover knob-and-tube wiring and panels added piece by piece. Newer infill is usually in good shape. Either way, we inspect the whole system, hand you a written report and quote fixes before any work.',
-  emergencyParagraph:
-    'Don’t book these for next week: a burning smell, sparks, an outlet that’s hot or blackened, or lights that sag hard when the microwave starts. A breaker that trips again right after a reset should stay off. Any smoke, get out and call 911. In Newport we reach most of these calls the same day, weekends included.',
   commonIntro:
     'Newport’s Victorian homes, split-up houses and apartment buildings give us these findings most often:',
   localFaqs: [

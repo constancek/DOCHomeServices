@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Close to seven in ten homes in Milford were standing before 1980, Census figures show, with 1968 as the median. In many of them the kitchen has outgrown circuits laid out decades ago, and some from the 1960s and 1970s may have aluminum branch wire. The 685 homes from 1939 or earlier may hide knob-and-tube without a ground. About half of households rent. We meter the circuits before quoting, tell you if they pass, and the scope and flat rate are signed off before plaster comes down.',
-  emergencyParagraph:
-    'Don’t ignore an outlet cover that’s hot or browned, a burning smell at a switch, sparks, a jolt from a fixture or a breaker that kicks straight back off. Most get a same-day visit, weekends included. Shut off that circuit only if your feet and hands are dry. When there’s smoke or flame, leave and phone 911.',
   commonIntro:
     'In a city where most houses and apartment buildings predate 1980, wiring trouble in Milford tends to surface this way:',
   localFaqs: [

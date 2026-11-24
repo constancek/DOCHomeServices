@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Bathroom updates in Cherry Grove tend to start at the vanity, where a long bar of exposed bulbs has hung since the house was new, and dining room refreshes start with the original chandelier. Along the streets off Beechmont Avenue, Census figures show nearly four in five homes date from 1960 to 1979, almost all detached and owner-occupied. Boxes from those years usually carry a ground, though many were never meant for real weight. We open the box first and quote before a single wire is undone.',
-  emergencyParagraph:
-    'A vanity bar tugging loose, a dining fixture that smells of hot plastic, or a switch that’s warm to the palm should get a visit today. Kill the breaker if that’s safe, and nobody stands underneath. Smoke or flame means everyone outside and a 911 call. Expect us the same day on most calls, weekends included.',
   commonIntro:
     'Houses from the 1960s and 1970s in Cherry Grove usually call for one of these fixture jobs.',
   localFaqs: [

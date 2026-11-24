@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Out along State Route 28, Mount Repose is mostly detached houses from the 1960s onward, which keeps an AC checkup simple. Census figures put the median home at 1978, with owners living in more than eight of every ten, so most systems were built with ductwork planned for them and the condenser on a slab in a roomy yard. The work is cleaning, testing and catching small faults early. Before we start, you get the flat price, and if your system is in good order, we’ll tell you plainly.',
-  emergencyParagraph:
-    'Hold off on a tune-up and ask for a repair if the house won’t cool on a scorching day, frost grips the refrigerant lines, water creeps across the basement floor, or the condenser hums without its fan turning. Switch it off. Seniors, infants and anyone who is sick feel the heat first. Same day on most calls, weekends included.',
   commonIntro:
     'In the ranches, split-levels and newer two-stories around Miami Township, these tend to be the first hints:',
   localFaqs: [

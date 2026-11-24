@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'By Census figures, almost half the housing in Walnut Hills was built in 1939 or earlier, and most units now sit in apartment buildings and two-family houses around Peebles’ Corner. Old bathrooms here often had a window and no fan, and fans added decades later were sometimes ducted into a wall cavity or the space over the ceiling. Close to four households in five rent, so owners and landlords usually book this work. We follow the air to its end and price the fix before plaster comes down.',
-  emergencyParagraph:
-    'Kill the power at the switch or breaker, when safe, if a fan smells burnt, its housing browns or softens, or it sparks, smokes, trips the breaker or lets water seep through the grille onto the plaster. Phone 911 for smoke or fire once everyone is outside. Most of Walnut Hills gets a same-day visit, weekends included.',
   commonIntro:
     'In Walnut Hills, owners and tenants report these four fan problems far more than any others:',
   localFaqs: [

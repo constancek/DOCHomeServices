@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Around here the typical fan call involves a unit that spins while its air piles up in the attic. Census figures put the median house in Spring Grove Village at 1938, and 519 of the 970 homes were standing before 1940, back when the neighborhood was Winton Place. Most are detached houses whose upstairs bath got a fan decades later, often on a stub of duct ending past the ceiling. Two households in five rent. We follow that air to its real destination and price the job beforehand.',
-  emergencyParagraph:
-    'Shut the fan off if its housing shows scorch marks, the room smells of burning wire, it sparks, the breaker drops as it starts, or water trickles from the grille. Use the switch or panel when that’s safe; smoke or fire means everybody out and a call to 911. Most get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'In the older houses along Winton Road and the streets off Epworth and Derby, the trouble tends to look like one of these.',
   localFaqs: [

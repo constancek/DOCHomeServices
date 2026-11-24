@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'Island pendants top our list in Oakley, usually because a kitchen remodel left one lonely ceiling box where three hanging lights now belong. Census figures show nearly half the housing stock predates 1940, so the ceiling above that new island may hold brittle cable and no ground. Around one unit in eight is from 2000 on, much of it apartments near Oakley Station, where boxes sit closer to modern spec. We look inside the box, trace the wiring, and lock in a price while the old light is still up.',
-  emergencyParagraph:
-    'Ring us that day if a pendant is tugging free of its mount, a switch plate buzzes warm, or a scorched smell drifts from a fixture. Throw the matching breaker if safe, and keep children and pets back. Smoke or flame calls for leaving the house and dialling 911. Same-day visits are normal for us, weekends too.',
   commonIntro:
     'Around Madison Road and the streets off Oakley Square, our fixture work mostly looks like this.',
   localFaqs: [

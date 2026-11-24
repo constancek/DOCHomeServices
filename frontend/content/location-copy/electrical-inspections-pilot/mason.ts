@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Mason wiring is mostly young, and people here tend to book us ahead of something: listing the house, closing on one, finishing a basement or mounting an EV charger in the garage. Census figures show half the city’s homes went up in 1996 or later, with just 232 from 1939 or earlier. Over a third heat with electricity, which can leave a 1990s panel nearly full before the new load arrives. We go through the whole system, put it in writing, and quote any fix up front.',
-  emergencyParagraph:
-    'These can’t wait for a visit next week: a smell like hot plastic near an outlet, a cover plate that’s warm or brown, a switch that spits sparks, a breaker that won’t hold, or lights that sag when the heat pump kicks on. Cut that circuit at the panel. Smoke or flame: out, then 911. Usually same day, weekends too.',
   commonIntro:
     'Mason’s houses are mostly from the 1990s and 2000s, so what we find tends to come from added loads and later work, not old wiring:',
   localFaqs: [

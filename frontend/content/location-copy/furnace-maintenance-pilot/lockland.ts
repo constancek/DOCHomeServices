@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'By Census figures, 47.9% of homes in Lockland were built before 1940, so the usual tune-up is a basement furnace that replaced older heat and vents up an old chimney. That flue and the heat exchanger are where we spend our time. Mid-century houses and apartment buildings make up much of the rest, and in those a closet furnace is the landlord’s to schedule. Gas heats 64.1% of homes. A flat price comes first, with a straight answer if nothing’s needed.',
-  emergencyParagraph:
-    'Gas odor means leave: nobody flips a light or tries the pilot, and someone calls the gas company from outside. A carbon monoxide alarm empties the house. A dead furnace in a freeze, a burner cutting in and out, or a yellow flame means repair. Babies and elders are most at risk. Most calls, same day, weekends too.',
   commonIntro:
     'Owners and landlords in Lockland tend to call after one of these:',
   localFaqs: [

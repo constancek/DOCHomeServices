@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'By Census figures, the median house in Deer Park was built in 1947, and close to a third of homes are from 1939 or earlier. Houses that age leak air around old windows, hold summer damp in the basement, and push that basement dust up through original duct runs. Most homes here burn gas for heat, and months of furnace use leave rooms dry. Our visit begins with readings, the price is fixed before work, and if a new filter fixes it, we say that.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm sounds, the family goes outside and someone dials 911. Smelling gas means walking out with every switch left alone, then ringing the gas company. A scorched furnace smell means switching the thermostat off. Mold spreading after flooding is pressing for babies, older relatives and asthmatics. Most calls see us that day, weekends too.',
   commonIntro:
     'In older houses across Deer Park, these are the usual reasons for a call:',
   localFaqs: [

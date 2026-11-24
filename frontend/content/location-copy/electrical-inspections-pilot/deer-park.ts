@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Deer Park is older than most suburbs around it. Census figures put the median house at 1947, and close to eight in ten were built before 1960. That means small panels, a circuit or two per room, and in the oldest homes, two-prong outlets and sometimes cloth-covered wiring. Those houses now run central air, home offices and bigger kitchens than they were wired for. Our inspection shows where the system is stretched and what it would take to fix, written down and priced.',
-  emergencyParagraph:
-    'Phone us at once for an outlet that’s warm, discolored or humming, sparks from a plug, the smell of something burning, a breaker that refuses to stay on, or lights that sag hard when the AC kicks in. Shut that circuit down. With smoke or flames, everybody out and call 911. Same-day help reaches most Deer Park homes, weekends included.',
   commonIntro:
     'Most Deer Park inspections are single-family houses from the 1940s and 1950s, with older ones in between. What we see most:',
   localFaqs: [

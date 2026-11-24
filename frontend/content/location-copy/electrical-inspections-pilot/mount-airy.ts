@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'A Mount Airy electrical inspection is usually for an apartment building or a 1960s house. The median home was built in 1964, and Census figures show half of them heat with electricity, so panels here carry heat all winter on top of everything else. Two in five units sit in buildings of five or more, which means landlords and managers book much of this work. We look for circuits near their limit, test protection, and give you the price first.',
-  emergencyParagraph:
-    'If something in your Mount Airy home smells like it’s burning, an outlet or switch cover feels hot or has gone dark, it buzzes or sparks, or a breaker keeps tripping as soon as you flip it back, don’t wait. Turn the breaker off. Smoke or fire means leave and call 911. Same day on most calls, weekends included.',
   commonIntro:
     'Mount Airy is mostly 1960s and 1970s housing, more apartments than houses, and these come up most:',
   localFaqs: [

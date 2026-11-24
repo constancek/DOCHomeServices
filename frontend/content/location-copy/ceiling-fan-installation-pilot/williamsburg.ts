@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Plaster and lath ceilings are what we plan for first on fan jobs in Williamsburg. The village dates to 1796, and by Census count over a quarter of its houses were standing before 1940. An old ceiling light usually sits on a shallow box hung for a lamp, and many bedrooms there never had a fan. Renters fill under two homes in five. We look at that box first, tell you if a snugged bracket is all it takes, and fix the price before the old fixture drops.',
-  emergencyParagraph:
-    'Treat it as urgent when a fan sways enough to crack plaster, sags from the ceiling, or smokes or smells hot at the motor. Kill the power at its switch or the panel if that’s safe, and keep people from under it. With flames, the family heads outside and phones 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Fans in Williamsburg tend to fail in a few familiar ways, especially in the older houses:',
   localFaqs: [

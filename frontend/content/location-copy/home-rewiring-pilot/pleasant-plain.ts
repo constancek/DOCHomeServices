@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Census figures place three of every four homes in Pleasant Plain before 1940, and nearly all are detached houses. Wiring retrofitted into houses that old may be knob-and-tube or cloth-jacketed with no ground, and none of it was planned for the electric heat many homes in the village depend on. An oil furnace needs a healthy circuit as well, since the burner won’t fire without power. Testing comes first, sound wiring gets called sound, and the scope and a flat-rate price are signed before any wall is opened.',
-  emergencyParagraph:
-    'A receptacle that smells hot, a scorched faceplate, wiring that sparks or hums, a breaker that trips on every reset, or a lamp that shocks you is a same-day call, and most calls get that, weekends too. Kill that circuit only where the floor by the panel is dry. With smoke or fire, leave and dial 911.',
   commonIntro:
     'In the older detached houses of Pleasant Plain, these are the wiring warnings we hear about most.',
   localFaqs: [

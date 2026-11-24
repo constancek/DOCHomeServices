@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'In Fort Mitchell, wiring a hot tub means pulling a 240-volt GFCI circuit that answers to the spa alone, hanging a disconnect within the bather’s view yet out of arm’s reach, and bonding the metal around the shell. Census figures put the median house at 1971, though streets near Dixie Highway hold houses from the 1910s and 1920s. Breaker boxes in those older homes often lack room for a spa, so that gets settled first. We check the box against the spa’s paperwork and quotes before conduit goes in.',
-  emergencyParagraph:
-    'In Fort Mitchell, a GFCI that trips the moment it’s reset, a breaker box that buzzes, a scorched disconnect or a tingle anyone feels in the water needs us that same day. Have everyone step out and keep hands off the spa and its controls. Kill the power only if you safely can, and call 911 if there’s smoke.',
   commonIntro:
     'From the older houses along Dixie Highway to the apartments and condos around them, these four situations usually lead to a spa call in Fort Mitchell.',
   localFaqs: [

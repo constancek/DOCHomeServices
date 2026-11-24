@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Houses in Union are young. By Census figures the median one was finished in 2007, and roughly four of every five date from 2000 on, so the air conditioner arrived with the drywall and its ducts were drawn for it. That makes our spring visit here mostly cleaning and testing. We rinse the condenser, flush the coil’s drain, meter the capacitor, then run it and watch the numbers. You know the flat price before we touch anything, and an AC that is fine gets told it’s fine.',
-  emergencyParagraph:
-    'In Union, an AC blowing warm during a heat wave calls for a repair, not a tune-up. Ice on the copper lines does too; switch it off and let it thaw. So does a ceiling drip, a burning smell or a breaker that won’t hold. Babies and grandparents feel the heat first. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Here’s what usually gets an owner in Union to book a spring visit.',
   localFaqs: [

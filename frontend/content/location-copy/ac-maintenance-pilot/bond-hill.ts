@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Bond Hill is mostly pre-war and 1940s houses, many of them doubles, and that decides how a spring tune-up goes. Census figures show 44.5% of homes here were built in 1939 or earlier, decades before central air, so ducts were threaded in afterward and the blower often lives in the attic or a cramped basement corner. Close to half the homes are rented, and on a double the owner usually books both sides at once. We name a flat price before starting, and say so when a system needs nothing.',
-  emergencyParagraph:
-    'Call in a repair crew, not a tune-up, when a house won’t cool in a heat wave. Refrigerant lines furred with frost also count; set the thermostat to off. Water through plaster, or a breaker that trips after a reset, means keep the AC off. Infants and older relatives are most at risk. Most calls get same-day visits, weekends too.',
   commonIntro:
     'These are what usually bring owners of pre-war singles and doubles to call us in Bond Hill:',
   localFaqs: [

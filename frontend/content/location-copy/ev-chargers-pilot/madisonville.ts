@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Madisonville is really two neighborhoods for charger purposes. In the older half, Census figures show about two-thirds of homes went up in 1939 or earlier and most are owner-occupied, so the question is whether an original service can spare a 240-volt line. The newer half is mostly rented, with large apartment buildings and houses built since 2000, and there the owner or manager decides. Either way we open the panel, do the load calculation, say if a Level 1 cord will do, and fix the price first.',
-  emergencyParagraph:
-    'Stop charging if a plug, outlet or charger is hot or blackened, or if there’s a burning smell. If the panel is safe to reach and nothing near it is wet or warm, turn the circuit off. Smoke or flames mean leaving the building and calling 911. Renters should alert management right away. A same-day visit is usual, weekends included.',
   commonIntro:
     'From pre-war houses to large newer apartment buildings, these four situations cover most charger calls we get in Madisonville:',
   localFaqs: [

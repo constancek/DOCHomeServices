@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Millville is a village of older single-family houses, with a median build year of 1958 by Census figures. Most got central air long after they were built, so the indoor unit shares the basement with the furnace and the ducts were designed for heat. The March 2026 flash flood put water in basements across the village, so on a tune-up here we also look for rust and water marks on the air handler. We set the price before starting, and a system that needs nothing gets told so.',
-  emergencyParagraph:
-    'A tune-up is the wrong call when cooling has stopped, frost has crept over the copper or water is running out from the basement unit. Ring AC Repair for those and click the thermostat off in the meantime. Babies, grandparents and anyone sick feel heat first. Most calls are reached the same day, weekends included.',
   commonIntro:
     'When the AC in an older house in Millville is due, these are the usual signs:',
   localFaqs: [

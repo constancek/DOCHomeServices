@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Ludlow is an old river town, and its wiring often shows it. Census figures put 60.5% of homes before 1940, and the median house dates to that same era. In houses that old we look for cloth-covered or knob-and-tube wiring still in the walls, two-prong outlets with no ground, and small fuse boxes or panels that later owners kept adding to. Two-family homes and attached houses are common too. We inspect the whole system, then quote any repair before starting.',
-  emergencyParagraph:
-    'In a Ludlow house, a burning smell, a hot or browned outlet, a switch that buzzes, sparks, or a breaker that won’t hold after you push it back are phone-call problems, not inspection ones. Flip that breaker off. If smoke or fire appears, get everyone out to the street and call 911. Most urgent calls are handled the same day.',
   commonIntro:
     'Six in ten Ludlow homes are pre-war, many of them two-families and attached houses. These are the findings that repeat:',
   localFaqs: [

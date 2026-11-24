@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'The 1960s and 1970s shaped most rewiring in Springdale. Census figures put about half of homes in those two decades, the median one built in 1971, and roughly four in ten households rent. Builders then gave a kitchen far fewer circuits than a modern one draws on, and some used aluminum branch wiring that’s worth checking now. Condos and apartments from that period show the same strain. Our electricians measure each circuit before quoting, tell you if it holds up, and hand over the scope and flat rate on paper.',
-  emergencyParagraph:
-    'We treat a scorched smell from a receptacle, a hot switch, arcing noises, or a breaker that won’t reset as urgent, along with any shock from an appliance. Kill that circuit if you’re dry. When there’s smoke or fire, leave and dial 911. We get to most of these the same day, weekends too.',
   commonIntro:
     'Houses, condos and apartment complexes built in the 1960s and 1970s in Springdale tend to show their wiring age in these four ways.',
   localFaqs: [

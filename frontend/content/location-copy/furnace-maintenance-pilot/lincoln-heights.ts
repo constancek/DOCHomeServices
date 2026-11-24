@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Most homes in Lincoln Heights are rented, 73.6% by Census figures, so a furnace tune-up here is usually booked by a landlord or property manager, not the tenant. The housing is mainly from the 1960s and 1970s, split between houses and apartment buildings, and heating divides almost evenly, with gas at 52.6% and electricity making up the rest. Closet furnaces in apartments and basement units in older houses get the same check. Owners hear the flat price first, and we say so if a furnace needs nothing.',
-  emergencyParagraph:
-    'Smell gas: get out, leave switches and pilot alone, phone the gas company from outdoors. Carbon monoxide alarm: the whole unit empties. Tenants report those to management, and also no heat in a cold snap, nonstop restarting or a yellow, lazy flame. Babies, older relatives and the sick are most at risk. Owners: same day on most calls, weekends included.',
   commonIntro:
     'In Lincoln Heights, most tune-ups are booked by owners and managers of rental units. These are the usual triggers:',
   localFaqs: [

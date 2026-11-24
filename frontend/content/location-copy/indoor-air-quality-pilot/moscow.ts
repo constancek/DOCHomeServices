@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'Moscow is a river village, and by Census figures most of its houses predate 1940 and are owner-occupied. Houses that age breathe through every gap, and a basement or crawl space so near the Ohio rarely dries out, which feeds mildew and a musty smell. Duct runs added decades later tend to leak dust. Many homes here run on electric or oil heat, so we check the system before suggesting anything. Testing comes first, the price before the work, and a plain answer if a filter is enough.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm goes, everyone leaves, then someone phones 911. If gas is in the air, leave without touching switches and call the gas company. A burnt smell from the furnace or AC means the thermostat goes off. Mold after high water is urgent around babies, elders or asthmatics. Most calls get help that day, weekends too.',
   commonIntro:
     'In older river houses in Moscow, these are the problems we see most:',
   localFaqs: [

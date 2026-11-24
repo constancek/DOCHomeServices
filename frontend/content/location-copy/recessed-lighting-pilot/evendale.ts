@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'In Evendale, most of our recessed lighting goes into 1980s and 1990s houses with drywall ceilings and an attic above, which keeps the work cleaner than in older homes. Census figures give a 1982 median, and every home in the village is detached, nearly all lived in by their owners. Plenty have open kitchens, family rooms with vaulted or tall ceilings and basements finished years after the builder left. We check insulation and circuit, chalk each opening and settle the cost before cutting.',
-  emergencyParagraph:
-    'Fingers that can’t rest on a trim, a brown scorch spreading across drywall near a can and a breaker that clicks off as the family room lights come up mean cutting power at the panel, if reaching it is safe. Flames or smoke send everyone outdoors to dial 911. Same-day visits on most calls, Saturdays and Sundays too.',
   commonIntro:
     'Open kitchens, vaulted family rooms and finished basements bring most of our recessed lighting calls in the village.',
   localFaqs: [

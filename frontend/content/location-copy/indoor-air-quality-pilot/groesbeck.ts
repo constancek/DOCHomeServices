@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'Groesbeck is mostly houses from the 1950s through the 1970s, with apartment complexes and some newer builds mixed in. Census figures put the median home at 1970 and show about a third of homes rented. Older ductwork here moves dust between rooms, while houses built since 2000 seal tighter and can hold stale air and cooking fumes. We test the air before we recommend anything, and every price is set before work starts. If changing the filter is enough, you’ll hear that from us.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm goes, leave and phone 911 from the lawn. Gas odors call for walking out without any switch and reaching the gas company outside. Burnt smells from the furnace or AC mean the thermostat goes to off. Mold that spreads after water damage endangers babies and asthma sufferers. Same-day service covers most calls, weekends included.',
   commonIntro:
     'Across houses, apartments and manufactured homes in Groesbeck, these complaints come up again and again:',
   localFaqs: [

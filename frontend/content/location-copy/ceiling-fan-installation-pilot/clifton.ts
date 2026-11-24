@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'In Clifton, around six in ten homes predate 1940 by Census figures, so the ceiling over your bed may be original plaster. Behind the old light there’s often a shallow pancake box made for a glass shade, and a fan’s constant sway loosens it. Close to two thirds are rented, many in apartment buildings where the owner decides. We open just enough plaster to see the box, say when balancing is the fix, and price it before the fixture comes down.',
-  emergencyParagraph:
-    'A fan orbiting wider each turn, a canopy ripping out of old plaster, a burnt motor smell or a humming switch plate won’t keep. Kill power at the switch or breaker if it’s safe, and keep people clear of the blades’ path. For smoke or flames, leave and dial 911. Most of these calls get a same-day visit, weekends included.',
   commonIntro:
     'These are the fan jobs that come up most in Clifton, in old single houses and apartments alike.',
   localFaqs: [

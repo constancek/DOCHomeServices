@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Almost every home on the Green Township side of Covedale is a detached house, Census figures show, the simple case when the car stays off the street. Age makes it harder. The median house there went up in 1959, and panels from the 1950s to 1970s are frequently packed. Across the city line, most houses predate 1940. Before quoting, we open the panel and work the numbers, tell you if the portable cord will do, and fix the price before wiring.',
-  emergencyParagraph:
-    'Burning-plastic smells at the plug, a browned receptacle, or a breaker that keeps dropping mid-charge means unplug and stop. Reach for the panel switch only if nothing near it is hot or wet. Smoke or flames mean get out and dial 911. Covedale gets a same-day visit on most calls, weekends too.',
   commonIntro:
     'In Covedale, most houses belong to the people living in them and date from the middle of the last century, and the charger calls we get usually start like this.',
   localFaqs: [

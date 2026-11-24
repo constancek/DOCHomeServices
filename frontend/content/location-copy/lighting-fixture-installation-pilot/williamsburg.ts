@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'General William Lytle founded Williamsburg in 1796 on the East Fork of the Little Miami, and close to three in ten of its homes still predate 1940. The rest run through ranches of the 1950s and 1960s and on to newer builds, which is how the Census arrives at a 1961 median. Around Main Street, expect plaster and lath above the dining room, with a ceiling box that may be shallow, nailed to lath and never grounded. We open it, see what it will carry and agree a price first.',
-  emergencyParagraph:
-    'Plaster cracking around a fixture that’s pulling down, a smell like hot plastic, a melted switch or lights stuttering on more than one circuit all mean today. Keep people out from under it and cut the breaker if safe. If smoke shows, get out and ring 911. We can usually reach the village that day, weekends too.',
   commonIntro:
     'Around the village and out toward the township, these jobs come up most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'In Greendale, most fans we hang replace a plain light fixture on a box sized for that fixture alone. Census figures put the median house at 1958, with more than half built before 1960, and the old streets around Ridge Avenue and Gages Lane even carry a National Register listing. Owners occupy almost nine in ten houses, so nobody else signs off. We test the box first, say so when tightening a few screws fixes it, and lock in the price before the old fixture comes off.',
-  emergencyParagraph:
-    'A fan that lurches, a sagging canopy, a burnt smell from the motor or a breaker that snaps off as the fan starts can’t wait. Kill it at the switch or panel if that’s safe and clear the floor. If there’s smoke or flame, get outside and call 911. Most calls in Greendale get us the same day, weekends too.',
   commonIntro:
     'Fan trouble in the postwar ranches and older two-stories of Greendale tends to look like one of these four.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Kenwood inspections mostly happen in houses and condos built from the 1950s through the 1970s; Census figures give a median of 1967. Those homes were wired before central air and large kitchens were normal, so the panel and the number of circuits per room are where we look first. With 38.3% of households renting, landlords book us as often as owners do. You get a written report, and any repair is priced before we start.',
-  emergencyParagraph:
-    'Some Kenwood calls can’t sit on the calendar. A scorched or buzzing outlet, a burning smell with no obvious source, or a breaker that won’t hold after one reset all mean turning that breaker off now. If there’s smoke or fire, everyone out, then call 911. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'Kenwood’s split-levels, ranches and condo buildings each have their habits. The findings we write up most often:',
   localFaqs: [

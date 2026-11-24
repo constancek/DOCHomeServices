@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Cincinnati annexed Walnut Hills in 1869, and Census figures show 2,103 of its homes, close to half, still date from 1939 or earlier. Around Peebles’ Corner and along Gilbert Avenue that means lath-and-plaster ceilings, rooms planned around one center light, and a top floor tucked tight under the roof. Newer blocks, including 167 units finished since 2020, are drywall and easy. Most homes are rented, so owners and condo boards book us. We look above each ceiling and price the layout before any plaster is scored.',
-  emergencyParagraph:
-    'A can with a brown stain spreading through the paint, a whiff of burning, a dimmer warm to the palm, or a breaker that snaps off whenever those lights come on needs us now. Shut that breaker if it’s safe to. Smoke or flame means leaving and calling 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Owners, landlords and condo boards around Peebles’ Corner hand us these four jobs most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Housing in Madisonville is split into two different halves. Across the neighborhood 45.9% of units date from 1939 or earlier, per Census figures. In those houses you usually find plaster and attics too shallow for duct runs, which makes a wall-mounted head the tidiest way to cool them. Newer sections include big apartment buildings, and with only 50.3% of homes owner-occupied, many decisions sit with landlords. One fixed price gets your okay before work, and we’ll speak up when ductless is a poor match.',
-  emergencyParagraph:
-    'July’s normal high is 86F (National Weather Service), and a third floor in an old house in Madisonville gets worse, hardest on older relatives, newborns and anyone sick. We book installs promptly; a one-head system wraps up in a day, bigger ones take longer. A mini-split that broke is a Mini-Split Repair visit, same day on most calls, weekends included.',
   commonIntro:
     'From the older blocks near Bramble Avenue to the newer apartment complexes, owners and tenants bring us these four situations most:',
   localFaqs: [

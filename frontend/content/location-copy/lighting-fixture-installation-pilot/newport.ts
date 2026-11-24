@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Dining room chandeliers under tall Victorian ceilings are a big share of our lighting work in Newport, and whether one can go up depends on the box overhead, a ground and whether that spot was ever wired. Close to half the city’s housing went up in 1939 or earlier, Census tables show, with a median of 1947. So we plan around horsehair plaster, pancake boxes and cloth wire with no ground. Roughly half the households rent. The price is set once we have opened the ceiling.',
-  emergencyParagraph:
-    'Plaster crumbling around a chandelier canopy, brown scorching on a switch cover, or lights pulsing across two floors of a row house need fast attention. Kill the breaker if the basement panel is safe to reach, and clear the dining table. When there’s smoke or fire, leave and dial 911. We usually get there that day, weekends included.',
   commonIntro:
     'High plaster ceilings, row houses split into flats and Victorian rooms still lit by a single old fixture drive most of our lighting work across Newport.',
   localFaqs: [

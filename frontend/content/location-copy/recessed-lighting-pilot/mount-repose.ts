@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'In Mount Repose, most recessed jobs happen beneath a walkable attic, off State Route 28 or out toward Buckwheat Road. Census figures put the median house at 1978, roughly four in ten were framed between 1960 and 1979, and more than four in five homes are detached, nearly all owner-occupied. Drywall ceilings with open attic space above make for tidier work than prewar plaster, yet the insulation lying up there still picks the housing. Can locations and a firm price come before any cutting.',
-  emergencyParagraph:
-    'If a can keeps cycling off, a trim is too hot to touch or the drywall around a housing has gone brown, shut that breaker when you can do it safely. Treat a scorched smell or a buzzing switch the same way. If smoke or flames appear, get out and dial 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Detached houses with attics overhead make up nearly all of our work along the Route 28 corridor, and four requests lead the way.',
   localFaqs: [

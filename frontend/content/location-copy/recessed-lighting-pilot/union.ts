@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Union had 233 residents in 1970 and 7,416 by the 2020 Census, so most ceilings we open here belong to houses put up since 2000. That helps. Trusses and loose-fill up top, drywall below, and a lower level often still bare give recessed cans an easy path. The usual request off Mount Zion Road or Hathaway Road is a builder-grade kitchen or a basement turning into a rec room. Before any drywall saw comes out, we pencil each light’s spot and you sign off on one price.',
-  emergencyParagraph:
-    'Heat trapped above a can shows as a tan halo on drywall, a scorched-dust smell, or a trim you can’t keep a fingertip on. A light that blinks out, cools, then relights is overheating. Flip its breaker if that’s safe. Smoke or flame means everybody leaves and someone dials 911. Same-day help covers most calls, Saturdays and Sundays included.',
   commonIntro:
     'Owners on Union’s newer streets bring us these four rooms more than any others.',
   localFaqs: [

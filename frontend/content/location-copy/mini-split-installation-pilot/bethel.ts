@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'Bethel was platted back in 1798, and its housing runs from that old village grid to apartment blocks of a few units each. Census figures put the median at 1958, with 26.6% from before 1940, and renters live in 51.7% of homes. The oldest places went up long before ductwork, so cooling an upstairs means a wall-hung head fed through one small bore in the siding. In a rented unit, the owner signs. We name our figure before drilling, and we’ll steer you off ductless when it’s wrong.',
-  emergencyParagraph:
-    'Weather Service normals put July highs at 86F, and an attic room in Bethel gets hotter than that by suppertime. Grandparents, infants and people who wheeze in heat suffer most. Our install calendar moves fast; a lone head takes a day. When a ductless unit quits, Mini-Split Repair usually gets there that day, weekends included.',
   commonIntro:
     'Around the village grid and the small apartment blocks of Bethel, here is what usually has someone phoning us about ductless cooling:',
   localFaqs: [

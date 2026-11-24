@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Housing in Burlington is young: Census figures give a median year of 1998, with 46.3% of homes built in 2000 or later. For a maintenance visit that means short work, with no seized unions or crumbling vent to fight. Apartments are the twist. Close to one home in five sits in a building of five or more units, each apartment usually with its own closet heater, booked by the owner or manager. You get a flat price first, and a straight word if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Not a tune-up job in Burlington: a tank dribbling onto the floor (cold supply off, then gas or breaker), a gas odor (leave, switches and pilot untouched, call the gas company from outdoors), a carbon monoxide alarm (everyone out), a relief valve stuck open, or no hot water. Same-day on most calls, weekends too.',
   commonIntro:
     'Young heaters in Burlington still wear out quietly. These are what usually prompt a call:',
   localFaqs: [

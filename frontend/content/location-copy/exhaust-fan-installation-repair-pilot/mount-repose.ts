@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Mount Repose is a place of owner-occupied, detached houses, 1,439 of its 1,704 homes by Census counts, and the median one was built in 1978. Houses that young nearly always came with bathroom fans. The catch is the size. Builders installed the smallest model that passed, so a primary bath with a big walk-in shower often outruns it, and some ducts were dropped near a soffit vent instead of fastened to a cap. We check the pull, trace the duct, and tell you the price before cutting into your ceiling.',
-  emergencyParagraph:
-    'A fan whose cover feels hot or looks melted, that smells of burning, sparks or smokes, keeps knocking the breaker off, or drips water through its grille needs attention today. Turn it off at the switch or breaker if that’s safe. With smoke or flames, get out and call 911. Expect us same day on most calls, weekends included.',
   commonIntro:
     'Along the subdivisions off State Route 28 and Buckwheat Road, owners usually call about one of these four problems:',
   localFaqs: [

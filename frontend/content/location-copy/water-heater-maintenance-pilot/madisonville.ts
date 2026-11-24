@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Madisonville is two neighborhoods, and a water heater service depends on which side you’re on. Near Whetsel and Bramble Avenues, Census figures show 65.9% of homes built in 1939 or earlier: think basement tank, aging vent and a drain valve that has sat for decades. Along Madison and Red Bank Roads the housing is newer and 69.2% of households rent, many in large complexes where landlords book the closet units. On either side, you hear the price first and an honest word if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Wet base on the tank? The tune-up becomes a repair: cold feed above it to off, then the gas knob or breaker. A relief valve that keeps blowing off, or no hot water, counts too. Smell gas: leave, hands off switches, ring the gas company from out front. Carbon monoxide alarm: all out. Most calls: same day, weekends too.',
   commonIntro:
     'Older houses near Whetsel Avenue and newer apartments near Red Bank Road both send us these:',
   localFaqs: [

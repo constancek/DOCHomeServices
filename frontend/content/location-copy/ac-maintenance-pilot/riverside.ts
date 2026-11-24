@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Riverside is a thin strip of homes between River Road and the hillside, and Census figures show about six in ten of them rented. Many are in apartment buildings put up around 1970, so most spring work here means an owner or manager lining up a dozen closet air handlers and their condensers in one go. The older houses along the strip are different, with cooling squeezed in long after they were built. Owners see a figure before any tools come out, and a sound unit gets marked fine.',
-  emergencyParagraph:
-    'A tune-up is the wrong booking when an apartment has gone warm in hot weather, frost coats the copper lines, or water runs out of a hall closet. Flip the thermostat to off. Tenants should tell management at once, sooner if a baby, an older relative or someone sick lives there. Most calls get a technician that day, weekends too.',
   commonIntro:
     'Building owners in Riverside tend to call us about a spring round after seeing one of these.',
   localFaqs: [

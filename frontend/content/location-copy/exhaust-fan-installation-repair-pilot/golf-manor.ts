@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'In Golf Manor, the usual complaint is a bathroom mirror still dripping well after everyone has finished showering. Census figures date the typical house to 1954, and nearly as many homes sit in two-family and four-unit buildings as in single houses. A bathroom of that vintage was often built with just a window. When a fan arrived decades later, the installer frequently ran its hose into the attic. We follow that hose, find out where the damp air lands, and name a price before any drywall comes down.',
-  emergencyParagraph:
-    'A burning smell, a blackened or sagging housing, sparks or smoke, a breaker that drops each time someone hits the switch, or water raining from the grille is dangerous. Kill the fan at its switch or the panel if that’s safe. Smoke or flames mean everybody outside and a 911 call. Most get a same-day visit, weekends included.',
   commonIntro:
     'Across the doubles, fourplexes and single houses of Golf Manor, four warning signs keep coming up.',
   localFaqs: [

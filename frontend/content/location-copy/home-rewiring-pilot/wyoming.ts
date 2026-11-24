@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Census counts put the median home in Wyoming at 1954, with about a quarter built before 1940. Many of those Victorian and early 1900s houses sit in the Village Historic District, and their cable may be knob-and-tube or cloth-wrapped, with no ground. The 1950s ranches in the Wyoming Hills have two-prong outlets and not enough kitchen circuits, and some 1960s or 1970s houses may have aluminum branch wiring. We test first, tell you if it’s sound, and put scope and flat price in writing before a wall opens.',
-  emergencyParagraph:
-    'Some faults in Wyoming need us today. Call if an outlet gives off a scorched smell, a plate has browned, a switch throws sparks, a breaker refuses to hold, or a fixture jolts you. Flip that breaker off only if the panel is dry. If there’s smoke or fire, get everyone out and call 911. We take weekend calls.',
   commonIntro:
     'In the Victorian houses of the Village and the post-war ranches up in the hills, old wiring usually shows itself like this:',
   localFaqs: [

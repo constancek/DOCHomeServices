@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'Ranch houses from the 1950s through the 1970s make up most of Groesbeck, with apartment buildings and newer homes mixed in. The Census median for a home here is 1970. In houses of that age the indoor coil rides on the furnace and the condenser sits on a slab, so the checkup centers on the coil, the drain and the electrical parts. Renters occupy roughly a third of homes, and their landlords schedule. A flat price is fixed in advance, and if your AC needs nothing, we say so.',
-  emergencyParagraph:
-    'With a July normal high of 86F, per the National Weather Service, an AC that stopped cooling isn’t a tune-up; it’s a repair. The same applies to an iced suction line or a condenser that hums but won’t spin its fan, so turn the system off. Elderly relatives and babies feel it first. Most calls get same-day service, weekends included.',
   commonIntro:
     'Around Groesbeck, owners and landlords calling for a spring visit usually mention one of these.',
   localFaqs: [

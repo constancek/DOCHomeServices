@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Ridge, a fall tune-up often means two furnaces under one roof. Two-family and small apartment buildings are common, and by Census figures 53.8% of homes date from 1939 or earlier, so each unit tends to have its own basement furnace venting into an old chimney. Those flues and heat exchangers get our longest look. Gas heats 74.0% of homes, which keeps the burner side busy. You agree to a flat price before we start, and if a furnace doesn’t need anything, we say so.',
-  emergencyParagraph:
-    'Some problems are past a tune-up. Gas smell: everybody out, no lights flipped, nothing relit, the gas company phoned from the street. Carbon monoxide alarm: leave first. A furnace blowing cold in a freeze, restarting over and over, or burning yellow needs a repair. Babies, older relatives and anyone ill need heat soonest. Most are same day, weekends included.',
   commonIntro:
     'In the two-families and older houses off Montgomery Road and Ridge Avenue, owners usually book after one of these:',
   localFaqs: [

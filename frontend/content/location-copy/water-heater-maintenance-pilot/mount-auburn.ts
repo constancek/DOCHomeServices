@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'On the hill above Over-the-Rhine, a water heater service means a cellar more often than not. By Census figures, 56.6% of the housing in Mount Auburn predates 1940, so the tank usually stands by the foundation with a flue worth checking at its seams, a stiff bottom drain and gas pipe that could be original. With 66.9% of homes rented, many in two-family houses, owners do most of the booking. You hear the flat price before we begin, and if your tank isn’t worth a service, we say so plainly.',
-  emergencyParagraph:
-    'A few things outrank any tune-up. Tank dripping: twist its cold supply shut, then gas cock or breaker. Gas smell: out you go, hands off switches and the pilot, and ring the gas company. Carbon monoxide alarm: everybody outside. A spitting relief valve or stone-cold taps also count. Most get seen the same day, weekends too.',
   commonIntro:
     'Owners and buyers in Mount Auburn usually ring us about a first service after one of these:',
   localFaqs: [

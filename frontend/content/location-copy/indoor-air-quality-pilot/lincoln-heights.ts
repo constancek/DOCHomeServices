@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'In Lincoln Heights, about three in four households rent, Census figures show, so indoor air work usually starts with an owner or manager. The median home was built in 1973. Buildings from that decade tend to have closet furnaces or air handlers, worn bath fans and filters left in too long, and the single-family houses here run similar systems. Tenants report problems in writing, and owners book the test. We price each fix before work and say so if a filter will do.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means clearing the apartment before calling 911. If you smell gas, go outside without flipping switches and phone the gas company. A burning odor from the furnace or AC means the thermostat goes to off. Mold spreading after a leak threatens babies, older neighbors and asthmatics. We come same day on most calls, weekends included.',
   commonIntro:
     'In Lincoln Heights, these are the air problems tenants and owners raise most.',
   localFaqs: [

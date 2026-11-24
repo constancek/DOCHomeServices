@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'North Bend is mostly newer houses. Census figures put the median at 1991, with about a third built in 2000 or later, though more than a quarter predate 1940 and a fair share are townhouses or condos. A house from recent decades usually has a smart thermostat, an air conditioner with its own control board and other things a surge can fry. Some older places are short on panel space. The panel gets opened first, we’ll be honest if strips cover it, and you approve one fixed number before work.',
-  emergencyParagraph:
-    'Call the same day if an outlet has gone brown and smells scorched, the panel gives off heat or a burning odor, or a breaker snaps off again straight after you push it back. Leave a sparking appliance unplugged. Smoke is a 911 call made from outside the house. We cover weekends too and get to most calls that day.',
   commonIntro:
     'Smart devices, newer cooling and a few short-on-space panels lie behind most of these signs in North Bend.',
   localFaqs: [

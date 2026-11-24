@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'Most of Linwood is prewar housing, so a rewire here usually means pulling wire that went in generations ago. By Census figures, roughly four homes in five date to 1939 or earlier, the median house to 1938, and renters fill more than half. Two-family houses are common. Wire that age may be knob-and-tube or cloth-covered, ungrounded behind two-prong outlets, and it was never meant for a modern kitchen. We test it, say plainly if it’s fine, and you get the scope and flat price in writing before plaster comes down.',
-  emergencyParagraph:
-    'Scorching smells near an outlet, a switch plate turning brown, sparks, a jolt, or a fuse or breaker that blows again all justify a same-day call, and most calls get one, weekends included. Only shut the circuit off if you’re dry and nothing near the panel is hot. With smoke or fire, get out and call 911.',
   commonIntro:
     'Older wiring in the prewar houses of Linwood tends to warn you in one of these ways.',
   localFaqs: [

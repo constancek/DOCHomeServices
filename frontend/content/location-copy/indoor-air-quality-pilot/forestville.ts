@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'Forestville has more 1980s and 90s housing than any other era, and the Census median sits at 1981. Houses that tight hang on to cooking smells, cleaning fumes and stale air, so better ventilation often helps more than a new filter. About a third of households rent, many in big complexes off Beechmont, where the owner or manager makes the equipment call. We test the air before recommending anything, agree a flat price with you, and say so if a filter swap is all it needs.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm goes off, get every person out, then call 911. A gas smell means walking out with lights untouched and phoning the gas company. Turn the thermostat off if the furnace or AC smells burnt. Fast-growing mold after water damage endangers infants, the elderly and asthma. Most calls are same day, weekends too.',
   commonIntro:
     'In the 1980s and 90s subdivisions along Five Mile and the complexes near Beechmont, these are the problems people describe to us.',
   localFaqs: [

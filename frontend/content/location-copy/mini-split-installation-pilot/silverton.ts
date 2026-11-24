@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Silverton is a postwar village, and Census figures put the median build at 1959, with 41.7% of homes from 1940 to 1959. Renters occupy 58.6% of homes, and 24.2% of units sit in three- and four-family buildings, where adding cooling is the owner’s decision. Those mid-century apartments rarely have space for new ducts, so a head per apartment is the simplest route. Early subdivisions used narrow lots, which limits where a condenser fits. The price is set before work, and we’ll say if ductless isn’t the fit.',
-  emergencyParagraph:
-    'July’s normal high is 86F by National Weather Service records, and in Silverton, a top-floor apartment running window units alone can stay stuffy overnight. Elderly neighbors, babies and anyone ill are most vulnerable. We line installs up quickly; a single head is done in a day. When a mini-split stops, Mini-Split Repair is same day on most calls, weekends too.',
   commonIntro:
     'Along Montgomery Road and the side streets off it, these are what most often lead to a ductless install in Silverton:',
   localFaqs: [

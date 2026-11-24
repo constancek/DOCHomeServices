@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Half the households in Mount Healthy rent, and by Census figures the median house went up in 1956, so the work here splits between landlords and owner-occupants. Pre-1960 houses run drafty, with damp basements and tired ducts that push grit between rooms. In a rental, the owner decides on equipment, and tenants in apartments report trouble to the landlord. Testing comes first, the flat price is set before we lift a tool, and when a new filter fixes it, we tell you.',
-  emergencyParagraph:
-    'When a carbon monoxide detector sounds, everyone leaves before anybody phones 911. A sulfur smell means stepping outside, switches untouched, and ringing the gas company. Turn a scorched-smelling furnace or AC off at its thermostat. Mold creeping after a burst pipe endangers babies, older folks and people with asthma. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Owners and renters in Mount Healthy tend to notice trouble in the air like this.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'West Chester is mostly subdivisions from the 1970s through the 1990s, median year built 1988 per Census figures, and those houses had ductwork from the start. Ductless here tends to cover what the duct runs shortchange, like a lower level finished later, a bonus room above the garage, or a three-season porch converted to living space. In condos and townhomes, an association can restrict where the condenser goes. A fixed price comes before any work, and if your ducts are the real problem, you’ll hear that from us.',
-  emergencyParagraph:
-    'With normal July highs of 86F (National Weather Service), a room above the garage outruns the rest of the house in West Chester by late afternoon. Older parents, infants and anyone with COPD or asthma suffer most. One-head installs finish in a day. If your ductless system quit, call Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'Between the subdivisions near Union Centre and the townhome communities around the township, these are the rooms we’re called about:',
   localFaqs: [

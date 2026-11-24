@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Nearly every house in Amberley is owner-occupied and detached, and Census figures place the median year built at 1959, with 41.1% dating from 1940 through 1959. Ductwork in those postwar houses was laid out for the original floor plan, so a sunroom, family-room wing or lower level added decades later often never cooled properly. A ductless wall unit fixes that without cutting into plaster ceilings or finished drywall. Our number is fixed before work begins, and if ductless isn’t the smart call, you’ll hear that plainly.',
-  emergencyParagraph:
-    'Roughly 21 days each year reach 90F (National Weather Service), and a west-facing glass sunroom becomes unusable on them. Elderly parents, newborns and anyone with a lung condition face real risk there. Installs get scheduled promptly; one wall unit takes about a day, multiple zones longer. Broken ductless equipment calls for Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Among mid-century houses along Ridge Road and the streets off it, owners in Amberley, most often, call us about one of these:',
   localFaqs: [

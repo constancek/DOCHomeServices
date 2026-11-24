@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Renters hold 51.2% of homes in Florence, and Census figures show two in three units were built before 1980, so ductless work splits two ways. In the 1960s and 70s houses we add a head where the ducted system falls short, often a garage turned den or a basement family room. In apartment complexes and condo buildings, the owner or the association decides where a condenser may hang. A fixed price comes before any drilling, and you’ll hear straight from us when ductless is the wrong call.',
-  emergencyParagraph:
-    'July’s normal high is 86F, the National Weather Service reports, and a top-floor condo runs above it. Older parents, babies and anyone with heart or lung disease feel it soonest. Install dates come fast; one-head systems take a day. Ductless units that already failed go to Mini-Split Repair, usually same day, weekends too.',
   commonIntro:
     'Between the mid-century streets and the apartment complexes near the mall in Florence, these are the usual reasons for a ductless install:',
   localFaqs: [

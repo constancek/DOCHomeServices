@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'In Northgate, most houses went up in the 1960s and 1970s, by Census figures, and more than four in five are single houses around Colerain Avenue and Springdale Road. A bedroom or dining room light from that time hangs on a box meant for a fixture, so a fan bolted to it starts swaying. About half the homes heat with electricity. We check the box first, say plainly if a tighter mount fixes it, and price the job up front.',
-  emergencyParagraph:
-    'A fan that swings wide, tears at its mount, gives off a burning odor or keeps tripping the breaker shouldn’t run another minute. Shut it down at the wall or panel without standing beneath it, and steer people out. Smoke or fire means getting out and calling 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'Single houses from the 1960s and 70s, many heated by electricity, bring in most of the fan work we do in Northgate.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'Moscow is a river village of old houses: Census figures show 81.0% of homes went up before 1940. Expect the heater in a low cellar or a back room off the kitchen, a drain spigot seized from neglect, and vent connectors and copper laid by several owners in turn. Few homes here heat with piped gas; on an electric tank we meter the elements and thermostats instead of tuning a burner. A set price comes before we start, and if your tank isn’t worth servicing, we say it.',
-  emergencyParagraph:
-    'Book a repair for these. Water seeping out: turn the supply valve atop the tank closed, then kill the breaker or gas. Gas odor: get outdoors, touch no switch, relight nothing, ring the gas company. Carbon monoxide alarm: people out first. Relief valve that keeps gushing, or no hot water: same. We’re usually out the same day, weekends too.',
   commonIntro:
     'Down by the river in Moscow, a heater that still runs may be hinting at these:',
   localFaqs: [

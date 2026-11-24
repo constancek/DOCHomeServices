@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Census figures count four of every five homes in Pendleton as pre-1940, and almost nothing was added from 1940 until 2010. The rowhouses and tenements may still have knob-and-tube or cloth-jacketed conductors without a ground, patched by a string of owners. Buildings from 2010 on rarely need more than one added circuit or a fix to a circuit that keeps failing. Each job opens with a test, healthy wiring gets a clean report, and scope and flat price are signed before any wall is cut.',
-  emergencyParagraph:
-    'Junction boxes or receptacles that smell of burning, a cover plate gone hot or black, sparking, a breaker that trips right back off, or a shock from a fixture need a same-day visit, which most calls get, weekends too. Switch off that circuit only from a dry spot at the panel. Smoke or flame means leaving and calling 911.',
   commonIntro:
     'In the rowhouses and older apartment buildings of Pendleton, these signs tend to bring us in.',
   localFaqs: [

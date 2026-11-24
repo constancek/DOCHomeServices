@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Plenty of bedrooms off Pippin Road were built with no overhead light, just a wall switch feeding one outlet for a lamp. Giving a room like that a ceiling fixture, or swapping a tired one, depends on the box up there, a ground, and whether cable already reaches the spot. Going by the Census, the middle house here dates from 1974, and most are detached ranches and split-levels. We look the ceiling over before quoting, and the old light stays put until you say yes.',
-  emergencyParagraph:
-    'If a light has started to tilt off the ceiling, gives off a scorched smell, or the switch beside it turns warm, don’t leave it. Flip that breaker if it’s safe and keep the family out from beneath it. Any smoke or flame, get outside and phone 911. We reach most calls the same day, weekends too.',
   commonIntro:
     'Around this corner of Colerain Township, the lighting work we get asked for usually looks like one of these.',
   localFaqs: [

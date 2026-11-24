@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'Bethel was platted in 1798, and Census figures date roughly one house in four to before 1940, with a median build year of 1958. Those oldest houses can hide knob-and-tube behind the plaster, ungrounded and brittle, while the postwar ones tend to run a kitchen off a single circuit. More than half the units are rentals, many in small apartment buildings. We start with a meter on every circuit, and if nothing is wrong you’ll hear that. Scope and flat price go on paper before any plaster comes down.',
-  emergencyParagraph:
-    'If a receptacle smells like hot wax, a cover plate feels warm, drywall crackles, or a lamp switch zaps you, we want to hear about it the same day, weekends too. Shut that circuit’s breaker only from a dry spot with dry hands. Flames or smoke mean get outdoors, then call 911.',
   commonIntro:
     'In Bethel, worn-out wiring in the older houses and small apartment blocks usually announces itself in one of these ways:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Park Hills was built out mostly from the late 1920s through the 1950s, and its wiring falls into two eras. Census figures put 31.4% of homes before 1940, where ungrounded outlets and old cloth-covered runs are still common, and another 29.5% between 1940 and 1959, when panels were sized for far less than a modern kitchen. About three in ten units are in apartment buildings. We go through the whole system and quote any repair before it starts.',
-  emergencyParagraph:
-    'In a Park Hills home or apartment, these mean call us now: a burning odor, a hot, buzzing or browned plate on a switch or outlet, any sparking, or a breaker that won’t stay reset. Shut that breaker off. If there is smoke or flame, leave and phone 911 from outside. Most are seen the same day, including weekends.',
   commonIntro:
     'Park Hills mixes 1920s to 1950s houses with sizable apartment buildings. Here is what we find most:',
   localFaqs: [

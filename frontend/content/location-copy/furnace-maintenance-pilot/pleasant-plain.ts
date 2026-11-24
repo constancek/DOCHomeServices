@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain is a small village of very old houses, and almost none of them have piped gas. Census figures put 76.1% of homes at 1939 or earlier, with heat split mainly between electricity, which counts heat pumps too, and fuel oil at 41.8%. The furnace we service here is usually electric, retrofitted into a house that predates ductwork, in a low cellar or a back room. Tell us your fuel when you call. The price is set before work, and a furnace that’s fine gets left alone.',
-  emergencyParagraph:
-    'Urgent means repair. Smell gas or oil smoke: clear the house, hands off switches and pilots, ring your supplier from the porch. Carbon monoxide alarm: outdoors first. A cold house in a cold snap, a furnace chattering off and on, or a lazy yellow flame too. Babies and the elderly suffer first. Most get same-day help, weekends included.',
   commonIntro:
     'Old village houses with electric furnaces added decades after they were built are most of what we see in Pleasant Plain. Calls usually follow:',
   localFaqs: [

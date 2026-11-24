@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'Two-story foyers and stairwell lights are a regular job for us in Forestville, and the height and the box set how the work goes. Census numbers give 1981 as the median year built, and the 1980s and 1990s account for more homes than any other stretch, so most boxes we open are newer and simpler to work with. Over a third of households rent, plenty of them in large complexes. We look over the box and wiring, then name a flat price before the old fixture is lowered.',
-  emergencyParagraph:
-    'Don’t let a foyer or ceiling light that’s pulling loose, a burning odor, scorch marks or a hot switch plate go overnight in Forestville. Throw its breaker if that’s safe and keep people from walking under it. Smoke or fire means everyone outdoors and a call to 911. Expect a visit the same day on most calls, weekends too.',
   commonIntro:
     'Most light fixture calls we get in Forestville are one of these.',
   localFaqs: [

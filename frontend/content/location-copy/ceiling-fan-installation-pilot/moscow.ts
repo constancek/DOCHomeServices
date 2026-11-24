@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'In Moscow, most homes predate 1940, according to Census figures, and almost all are detached houses. That means plaster ceilings, light boxes set long before ceiling fans caught on, and plenty of rooms that have never had a fan. An old box fixed to lath won’t hold a fan’s weight and motion for long, so we fit a fan-rated one where it’s needed. Porch fans need a weather rating. We check the box first, tell you if a wobble only needs tightening, and price it before anything comes down.',
-  emergencyParagraph:
-    'Stop using a fan that sways, hangs lower or is pulling at its box, and keep people out from under it. A smoking motor, a switch that sparks, and a breaker that trips at start-up are urgent too. Use the switch or breaker if that’s safe. With fire, leave and call 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'In the old river village of Moscow, these four fan problems come up most.',
   localFaqs: [

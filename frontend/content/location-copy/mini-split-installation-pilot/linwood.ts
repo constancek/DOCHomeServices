@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'Linwood is a small neighborhood of old houses, and 82.1% of them were built in 1939 or earlier, by Census figures. Many are two-families, and 54.9% of homes are rented. Houses that old went up long before central air, and their plaster walls and tight attics leave nowhere easy to run a duct. A ductless head needs only a small hole in an outside wall. Landlords decide on rentals. The price is flat and set before work, and if a mini-split is the wrong fit, we’ll say that.',
-  emergencyParagraph:
-    'The National Weather Service counts about 21 days of 90F or more a year, and a second floor under an old roof in Linwood holds that heat into the night. Babies, older relatives and anyone with breathing trouble take it hardest. Installs get scheduled fast. A mini-split that stopped needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the old houses and two-families of Linwood, these are what usually lead to a call about ductless:',
   localFaqs: [

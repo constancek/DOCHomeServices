@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Around Newtonsville, nearly every home stands alone on its own ground, and most were built in the 1970s or early 1980s, per Census figures. More than half heat with electricity, which can leave the panel working hard all winter before a spa arrives, and tubs often sit well out from the house. Each one needs a dedicated circuit at 240 volts behind a ground-fault breaker, a disconnect within view, and bonding. We check your panel against the maker’s list and price it before trenching.',
-  emergencyParagraph:
-    'Once the spa breaker trips the instant you reset it, the panel starts buzzing, or someone feels a tingle in the water, stop using the tub. Have everyone climb out and stay clear of the controls. Turn off the disconnect only if that’s safe, and dial 911 for smoke. Most calls get us out the same day, weekends included.',
   commonIntro:
     'Out on the roads of Wayne Township, these are the spa wiring calls we get most.',
   localFaqs: [

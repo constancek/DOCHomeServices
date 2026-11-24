@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'A spring tune-up in Withamsville is as likely to be ordered by a landlord as by a resident. More than half of households rent, Census figures say, and 41.4% of units are in buildings of five or more, so we often work down a row of apartments off Ohio Pike. Post-war houses had central air fitted later, through ducts that were never drawn for it. The 1980s and 1990s houses are simpler. The owner sees a fixed price first, and a system that needs nothing is left alone.',
-  emergencyParagraph:
-    'Forget the tune-up when cooling quits in a heat wave or frost grows on the lines; set the thermostat to off. A drip into the apartment underneath, or a breaker that pops right back off, means a repair visit. Babies and older relatives struggle soonest in heat. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'These are the things that tend to prompt a spring booking from owners and tenants’ landlords in Withamsville.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'Over half of Hamilton’s housing predates 1960, 57.7% by Census figures, and the median house went up in 1956. In those cellars we find flue pipe sagging toward the chimney, a spigot at the tank’s foot that nobody has opened in decades, and gas piping we’d like eyes on. Tenants occupy 45.7% of homes, plenty of them in doubles and fourplexes where each closet heater perches over a pan and the owner decides. Expect a fixed quote up front, and honesty if your tank doesn’t deserve the visit.',
-  emergencyParagraph:
-    'Tank puddling: shut the inlet valve over it, then the gas cock or breaker. A whiff of gas: walk out, hands off switches and pilot, phone the gas utility outdoors. Carbon monoxide alarm: everybody outside first. A relief valve that won’t stop spitting, or cold taps, means a repair. Usually we’re there that day, Saturdays and Sundays included.',
   commonIntro:
     'Calls for a yearly visit in Hamilton tend to start with one of these:',
   localFaqs: [

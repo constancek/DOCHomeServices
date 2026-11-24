@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Detached houses make up most of Lakeside Park, and Census counts set the median build year at 1964. Breaker boxes from the 1950s through the 1970s tend to be full already, so the opening question for a charger is simply whether there’s space. About one house in six is older, from 1939 or before, and may hang on to a small original service. We check the panel, run the load calculation, tell you when the car’s own cord will do, and settle the price before a single wire is pulled.',
-  emergencyParagraph:
-    'A charger that’s hot to touch, a scorched plug, a burning smell or a breaker that won’t hold through a charge means charging stops. Flip the circuit off if the panel is dry and safe to reach. Smoke or flames mean getting out, dialing 911. In Lakeside Park, we can be out the same day on most calls, weekends included.',
   commonIntro:
     'For houses in Lakeside Park, most of them built around the middle of the last century, these are the usual starting points.',
   localFaqs: [

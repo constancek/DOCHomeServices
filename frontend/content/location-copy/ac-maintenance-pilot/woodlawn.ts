@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Most AC work in Woodlawn is in newer apartments, booked by the owner, not the tenant. Census figures show 66.6% of households renting and a median build date of 1987, so the cooling was usually designed in, and the tune-up is about the coil, the drain and the electrical parts. The few older houses in the village sometimes had air added later and get extra attention to airflow. Each owner sees the price before we begin, and a system that needs no work is reported that way.',
-  emergencyParagraph:
-    'An apartment that stops cooling in a heat wave, or a coil that frosts over, needs repair work; shut the system off while the ice melts. Water through a ceiling, a scorched smell or a silent fan on a humming condenser can’t wait. Older tenants and anyone ill suffer first. Same-day visits are normal on most calls, weekends included.',
   commonIntro:
     'Apartment owners and homeowners in Woodlawn tend to schedule a spring check when they see something like this.',
   localFaqs: [

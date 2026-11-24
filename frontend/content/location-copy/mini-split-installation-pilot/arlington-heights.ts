@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights is a quarter-square-mile village hemmed in by the two halves of I-75, and Census figures put 64.7% of its homes at 1939 or earlier. Those houses predate central air by decades, so plaster walls and shallow attics leave ducts nowhere to go. A ductless wall unit sidesteps that, linked by copper lines through one modest opening to a condenser outside. Renters occupy 53.5% of homes, and there the owner chooses. Our figure is fixed before work starts, and if ductless is wrong for the house, we’ll say it.',
-  emergencyParagraph:
-    'About 21 days a year hit 90F (National Weather Service), and an old upstairs keeps that heat long after dark. Grandparents, babies and anyone who struggles to breathe are most at risk. Bookings move fast; one wall unit runs about a day, multi-zone longer. Ductless equipment that has broken goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Along Elliott Avenue and the short side streets nearby, residents of Arlington Heights tend to call about ductless for one of these reasons:',
   localFaqs: [

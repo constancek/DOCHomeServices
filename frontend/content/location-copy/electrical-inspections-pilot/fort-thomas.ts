@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Houses in Fort Thomas range from pre-1940 homes to post-war ones, and the inspection changes with them. Census figures put the median home at 1955 and about a third, 32.1%, before 1940. In the older houses we look for cloth wiring and ungrounded outlets. In the 1950s houses the usual problem is a panel and circuit count that can’t keep up with central air, a bigger kitchen or a car charger. We test everything and price fixes before you decide.',
-  emergencyParagraph:
-    'Heat, smell or sparks put a problem ahead of any planned visit. That means a scorched receptacle, a humming switch, an odor like hot plastic, or a breaker that drops again after one reset. Cut power there. If you see smoke, get out and call 911. Most urgent calls get a same-day visit, weekends included.',
   commonIntro:
     'Across Fort Thomas, from older homes to post-war houses and apartment buildings, these come up most:',
   localFaqs: [

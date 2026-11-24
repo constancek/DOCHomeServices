@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'In Loveland, housing skews newer than downtown suggests. Census figures give a median year built of 1985, and 5.4% of houses predate 1940, so ductless work here is mostly about single rooms. Think finished basements, sunrooms, space over the garage and additions the original equipment was never sized to serve. A handful of older houses near the river may have no ducts. For the 25.4% of homes that are rented, owners decide. The price is set up front, and we’ll steer you off ductless when it doesn’t fit.',
-  emergencyParagraph:
-    'Around 21 days a year reach 90F or more in Loveland, by National Weather Service counts, and sunrooms take the brunt, hard on seniors, babies and anyone ill. Our install calendar moves quickly, with one head taking about a day and extra heads longer. A stopped unit is a Mini-Split Repair job, same day on most calls, weekends included.',
   commonIntro:
     'Up in the hillside subdivisions and down near the old riverfront downtown, these four complaints start most ductless conversations in Loveland:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Most of Blue Ash was built in the 1970s and 80s, and Census figures put the median house at 1981. Houses from that era more often have a tall or sloped great room and a deck, so plenty of fan jobs here begin with choosing a down rod. Some builder bedrooms still carry a plain light box, and about a third of households rent, mostly in larger complexes. We check the box before quoting, tell you when a wobble is a loose blade, and set the price first.',
-  emergencyParagraph:
-    'If the fan swings wide on its rod, the canopy parts from the ceiling or the breaker drops as it starts, stop using it. Cut power at the switch or panel when safe and keep the floor underneath empty. Smoke or fire means getting out and calling 911. Same-day service covers most calls, weekends included.',
   commonIntro:
     'Great rooms with high ceilings, backyard decks and bedrooms wired for a single light cover most of what we see in Blue Ash.',
   localFaqs: [

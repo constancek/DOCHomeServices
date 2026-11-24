@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'The village was platted in 1875, and Census figures date about six in ten homes in Elmwood Place to before 1940. A house that age can still hide knob-and-tube or cloth-wrapped wire, two-slot receptacles and a basement fuse box. About six in ten homes are rented, plenty of them doubles and small multi-unit buildings, so landlords make many of our calls. We meter before quoting, tell you when the wiring is fine, and get the scope and flat price signed before any wall opens.',
-  emergencyParagraph:
-    'A scorched or hot receptacle, a burning smell in a wall, sparks, buzzing, a breaker that trips after a reset, or a jolt from a fixture shouldn’t wait. If you’re dry and clear of anything hot, turn that circuit off. Smoke or flames mean leave and call 911. We’re usually out the same day, weekends included.',
   commonIntro:
     'In the tightly packed doubles and cottages of Elmwood Place, rewiring usually starts with one of these.',
   localFaqs: [

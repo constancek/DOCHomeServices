@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'In Woodlawn, half the housing stock is younger than 1987 by Census numbers, and nearly a third dates from 2000 on. Panels that new usually have space for a 240-volt GFCI breaker, so the spa job turns on placement, namely where the tub lands and how much conduit it takes to reach it. A visible disconnect and bonded metal round it out. Two in three homes here are rented, which puts owners in charge of booking. We price it once the panel is checked against the spa’s spec.',
-  emergencyParagraph:
-    'A tingle from spa water is the signal to get out and stay away from it. Treat a breaker that refuses to stay reset, or a panel that buzzes, as urgent too. Throw the disconnect only when it’s safe, and leave and dial 911 if there’s smoke or flame. In Woodlawn, most owners get us that day, weekends included.',
   commonIntro:
     'Four spa situations bring owners and landlords in Woodlawn to us most.',
   localFaqs: [

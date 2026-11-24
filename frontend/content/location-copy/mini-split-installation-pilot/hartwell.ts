@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell was a railroad suburb before Cincinnati annexed it, and Census figures date half its homes to 1949 or earlier and a third to before 1940. Houses that old seldom have room behind the plaster for a new duct, so a wall head cools a bedroom without opening anything up. Most homes, 64.4%, are rented, many in large apartment buildings, which puts the decision with the owner or manager. We quote a flat price before drilling and say plainly when ductless isn’t the fit.',
-  emergencyParagraph:
-    'Top-floor apartments in Hartwell hold heat after dark, and the National Weather Service averages about 21 days of 90F or more each year. Older tenants, babies and anyone with breathing problems suffer most. Installs book fast; one zone is about a day. A stopped mini-split is a Mini-Split Repair call, normally same day, weekends too.',
   commonIntro:
     'From flats in large apartment buildings to older houses off Vine Street and Anthony Wayne Avenue, here’s what leads to a ductless quote in Hartwell:',
   localFaqs: [

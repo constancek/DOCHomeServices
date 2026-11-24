@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights is a village of a few hundred homes wedged inside I-75, and Census figures show close to two-thirds were already built by 1939, with a little over half of households renting. Many of those houses were wired long before anyone plugged in a car, and some still run on a modest original service. That decides whether a 240-volt line fits as is or needs load management or an upgrade. We measure first, tell you if the car’s cord is enough, and settle the price before wiring.',
-  emergencyParagraph:
-    'A plug that scorches, a cable that’s been driven over, a receptacle warming behind a Level 1 cord or a breaker that won’t stay on means unplug now. Only switch that breaker off if you’re dry, and leave for smoke or fire, then call 911. We get to most calls the same day, weekends included.',
   commonIntro:
     'Older houses and a high share of renters shape most of the charger questions we get in this small village, and these come up most:',
   localFaqs: [

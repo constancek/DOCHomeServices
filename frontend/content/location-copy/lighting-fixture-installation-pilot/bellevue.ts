@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'In Bellevue, across the river from Mount Adams, hanging a dining chandelier usually means working into a ceiling close to a hundred years old. Success rests on the box, the ground and whether the light replaces one or starts fresh. By Census count the median home dates to 1939 or earlier and almost two in three predate 1940, so plaster, undersized boxes and missing grounds turn up often. Owners occupy most homes. You hear the price before the old fixture is taken off.',
-  emergencyParagraph:
-    'Act right away on a fixture parting from the plaster, a switch running hot or crackling, scorching around a light, or flicker spreading over several circuits. Throw that breaker if it’s safe, and keep everyone clear. If smoke or fire shows, get out and ring 911. Expect us the same day on most calls, Saturdays and Sundays as well.',
   commonIntro:
     'From Fairfield Avenue up the hillside streets of Bellevue, these four requests come in most.',
   localFaqs: [

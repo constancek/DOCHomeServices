@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Owners live in 97.0% of homes in Terrace Park by Census figures, and nearly all are single-family houses, so the person booking is the one using the hot water. The median house went up in 1954, and 25.6% predate 1940. That puts most tanks in basements alongside an older flue and gas piping we look over, with a drain spigot we open slowly. Newer houses get a quick flush and anode check. You hear the flat price first, and if your tank isn’t worth servicing, we’ll say so.',
-  emergencyParagraph:
-    'These need repair. Tank weeping or pouring: shut the cold line at the top, then gas cock or breaker. Gas smell: out the front door, no switches flipped, nothing relit, phone the gas company. Carbon monoxide alarm: house cleared first. Same for a relief valve that won’t stop, or no hot water. Same day on most calls, weekends included.',
   commonIntro:
     'Terrace Park is almost entirely owner-occupied houses, many from the 1940s and 1950s. Tanks in them give these signs when service is due:',
   localFaqs: [

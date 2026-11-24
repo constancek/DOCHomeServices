@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Up on the hill in Mount Adams, the median home was built in 1938, by Census figures, and roughly two of every three are rented. That age shows in the air. Old plaster lets drafts whistle through, basements on the hillside hold onto summer damp, and ductwork retrofitted into doubles shuttles grit between floors. Tenants flag problems; owners pick the equipment. Our first move is a reading of your air, then a flat quote, and if a fresh filter would settle it, we say that instead.',
-  emergencyParagraph:
-    'Should a carbon monoxide detector start shrieking, herd everyone onto the sidewalk and ring 911. A rotten-egg odor means walking out, leaving switches untouched, and phoning the gas company outside. Scorched smells from vents mean shutting the thermostat off. Mold racing across walls after leaks can’t wait around newborns, grandparents or wheezy lungs. Expect a same-day visit, weekends too.',
   commonIntro:
     'Tenants and owners on the hill in Mount Adams tend to describe stale-building trouble this way.',
   localFaqs: [

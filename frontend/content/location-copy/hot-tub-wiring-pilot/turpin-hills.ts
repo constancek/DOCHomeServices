@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Off Bartels Road, Turpin Hills is close to all detached houses with their owners living in them. The Census Bureau dates the median one to 1977. A 1980s or 90s panel often has room, while a 1960s house that took on central air may be maxed out, in which case that’s fixed first. If not, the tub’s position on the lot and the trench length shape the job. We set the 240-volt GFCI circuit, outdoor shutoff and bonding to the tub maker’s specs and price it before digging.',
-  emergencyParagraph:
-    'A ground-fault breaker that won’t stay on, a warm cutoff box, a hum in the panel, or a prickle through the handrail are reasons to close the tub. Get bathers out without touching anything. Switch off the breaker if you safely can, and for smoke or fire, leave and call 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Owners of houses built from the 1960s to the 1990s fill Turpin Hills, and spa questions there tend to arrive in these forms.',
   localFaqs: [

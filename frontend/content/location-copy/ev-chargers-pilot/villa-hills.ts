@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Census figures count about four in five homes in Villa Hills as detached houses, with close to half of them dating from 1960 through 1979. Those panels have since picked up circuits for finished basements, remodeled kitchens or a heat pump, which can use up the slots a 240-volt charger wants. Houses from the 1980s and 1990s usually leave more slack. We open the panel and work the load calculation before anything else, say so if a Level 1 cord will do, and quote before pulling wire.',
-  emergencyParagraph:
-    'A scorched, melted or too-warm plug or outlet, a whiff of burning mid-charge, or a breaker that pops each time the car connects means charging stops. Cut power to that circuit only if the floor and your hands are dry. Smoke or flame means walk out and phone 911. Expect us that same day on most calls, weekends too.',
   commonIntro:
     'In Villa Hills, these four situations bring most homeowners to us about charging at home.',
   localFaqs: [

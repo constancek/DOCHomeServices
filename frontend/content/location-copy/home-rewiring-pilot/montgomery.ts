@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'The 1970s built more of Montgomery than any other decade did, by Census count, and about six in ten houses date from 1950 to 1979. A house from those years often powers its updated kitchen through circuits drawn up decades ago, and a portion from the 1960s and 1970s may contain aluminum branch wire, which tends to loosen at terminals and run warm. Prewar houses are scarce here. We test before advising, wiring in good shape stays, and your price is fixed on paper ahead of any drywall work.',
-  emergencyParagraph:
-    'Wiring that smells hot, a switch plate gone brown, sparks, a crackle in the wall, a tingle from a lamp and a breaker that snaps off again once reset are reasons to phone us today. Most get a same-day visit, weekends too. Shut the circuit off only from a dry spot. Smoke or flames mean leaving and dialing 911.',
   commonIntro:
     'With most of the city built between 1950 and 1979, Montgomery sees wiring trouble show up in these ways:',
   localFaqs: [

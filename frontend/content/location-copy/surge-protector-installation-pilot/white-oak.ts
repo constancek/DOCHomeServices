@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'Straddling Green and Colerain townships, White Oak is largely postwar housing, with Census figures putting the median house at 1968 and one home in five inside a bigger apartment building. Decades of updates mean a breaker panel sized for a simpler kitchen may now feed central air, a replacement furnace and appliances driven by electronic controls. That crowding decides where a suppressor can mount, so the panel gets looked at before anything else. If outlet strips would cover you, you’ll hear it, and the price comes in writing first.',
-  emergencyParagraph:
-    'Call us that day about a switch plate that’s warm with a scorched edge after a storm, or a breaker that won’t stay on. Flip that breaker only while standing dry and clear of anything hot. With any smoke or flame, everybody leaves and calls 911 from outside. Most visits happen same day, weekends too.',
   commonIntro:
     'Across the postwar streets and apartment complexes of White Oak, these clues tend to come before a call about a suppressor.',
   localFaqs: [

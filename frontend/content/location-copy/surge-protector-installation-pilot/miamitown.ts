@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'In Miamitown, whole-home surge protection is mostly an owner’s call. By Census figures, four out of five homes here are rented, most of them in buildings of five or more units, and the median dates to 1973, alongside a group of pre-1940 houses close to the Great Miami. Electricity heats most units, so a single surge can reach heaters across a whole building. Tenants can cover their own gear with plug-in strips. Owners get a panel check first, a straight answer on strips, and a set price.',
-  emergencyParagraph:
-    'A blackened outlet or burnt smell after a storm, a breaker that trips right after a reset, or a wall heater that sparked when power returned needs a visit today, weekends included. If lights across the building swell and fade, call the electric utility first. Flip a breaker only when dry. Smoke or fire means out and 911.',
   commonIntro:
     'With apartment buildings off Harrison Pike and older houses near Front Street, residents and owners report these signs.',
   localFaqs: [

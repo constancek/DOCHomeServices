@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Elsmere’s housing spans nearly every era. Census figures put the median house at 1970; one in eight dates from before 1940 and about one in five went up after 2000, with 344 manufactured homes as well. So one call is an old bedroom with a light-only box, the next a newer great room needing a long rod, the next a mobile home ceiling with light framing. Before any quote we open the box, say when tightening or balancing will do, and price it while the old fixture is still up.',
-  emergencyParagraph:
-    'If a fan is thrashing on its mount, the box has pulled loose, smoke comes from the motor, the switch buzzes or sparks, or the breaker trips when it starts, shut it down. Use the switch or panel if it’s safe, and clear the room. With fire, get out and dial 911. Same-day help covers most calls, weekends included.',
   commonIntro:
     'In Elsmere, fan problems show up in old houses, newer builds and manufactured homes alike, and these four lead the list.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Monroe has grown fast. Census figures date the typical house to 2001 and 53.3% of homes to 2000 onward. Whole-house ductless jobs are rare here. What we see is one stubborn room, like the bonus room over the garage, a basement finished after closing, a sunroom or an upstairs office facing west. Most homes are owner-occupied, so the call is yours. The flat price comes first, and if rebalancing the ducts would fix it, you’ll hear that before anything else.',
-  emergencyParagraph:
-    'Monroe sees about 21 days a summer hit 90F, the National Weather Service says, and in a 2000s two-story the bonus room bakes. Babies, aging parents and anyone who wheezes feel it first. Single-room installs go on the calendar fast and finish in a day. A broken mini-split is a Mini-Split Repair call, same day for most, weekends too.',
   commonIntro:
     'In the newer subdivisions and the older town core of Monroe, ductless calls tend to come from one of these:',
   localFaqs: [

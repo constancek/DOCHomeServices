@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Census figures put the typical home in East Westwood at 1958, and about three in four households rent, so the call usually comes from an owner or a building manager. Bathrooms here sit mostly in 1950s houses and mid-size apartment buildings off Harrison Avenue, where the first fan has often been painted over, disconnected or worn too weak to clear the room. Some first-floor baths never had a fan and still rely on a window. We test the fan, trace its duct and price the work before cutting anything.',
-  emergencyParagraph:
-    'A fan that smells burnt, looks melted, throws sparks or smoke, drips water or keeps killing the breaker deserves a same-day call to us. If the panel is reachable and safe, switch that circuit off. If smoke or flame appears, everybody leaves the apartment before anyone dials 911. Most calls are handled same day, including Saturdays and Sundays.',
   commonIntro:
     'Owners and tenants in East Westwood, mostly in 1950s houses and apartment buildings near Harrison Avenue, tend to report these.',
   localFaqs: [

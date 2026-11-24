@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Close to half of Cheviot’s houses date from before 1940, by Census figures, and the median is 1946. In those rooms the light hangs from a shallow box nailed into lath, sized for a glass globe and nothing heavier. Hang a spinning fan there and it loosens over a summer or two. Many upstairs bedrooms never had a fan. Our electrician opens that box before quoting, says plainly when a wobble only needs the blades evened out, and fixes the price while the old light is still hanging.',
-  emergencyParagraph:
-    'A fan swinging loose from the plaster, a dropped box, smoke or a scorched smell at the motor, or a crackling wall switch is urgent. Shut it off at the switch or panel if that’s safe, and stand clear. Flames or smoke mean leaving the house and dialing 911. We reach most calls that same day, weekends included.',
   commonIntro:
     'In Cheviot, most of what we see traces back to early-1900s rooms and the fixtures hung in them decades ago.',
   localFaqs: [

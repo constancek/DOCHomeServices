@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Delhi Hills sits on a bluff above the Ohio River, and nearly all of it is detached houses, many built in the 1960s and 1970s, with a median of 1971 in Census figures. Kitchens from that era are now being opened up, and the lone ceiling light over the old table gives way to pendants over a new island. Boxes from those decades usually have a ground and are easier to work on than pre-war ones. We look into the box before quoting, and you approve the price first.',
-  emergencyParagraph:
-    'If a light pulls away from the drywall in Delhi Hills, or a switch plate buzzes or runs hot, ring us that day. Flip that breaker off if the panel is safe to reach, and keep the floor beneath it empty. With smoke or fire, get the household out and dial 911. Most calls are covered that day, weekends included.',
   commonIntro:
     'These are the requests we hear most from owners in Delhi Hills.',
   localFaqs: [

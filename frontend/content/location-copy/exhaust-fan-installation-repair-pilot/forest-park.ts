@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Forest Park was built mostly in the 1960s and 70s, after the first homes opened in 1956, so the bathroom fans here are usually old enough to be tired. Census figures also show close to half of households rent, many in apartment complexes. That means a fan in Forest Park could be a homeowner’s, a landlord’s or a property manager’s problem. Whoever books it, we start by tracing the airflow from the grille to the vent, and the price is set before we cut into anything.',
-  emergencyParagraph:
-    'Around Forest Park, a bathroom fan that smells scorched, spits sparks, smokes, keeps knocking out its breaker or has a browned housing should be turned off at the panel if that’s safe. Water through the grille means a leak above. Get out and phone 911 if there’s smoke or flame. We’re out the same day on most, weekends too.',
   commonIntro:
     'Across the 1960s streets and the apartment complexes of Forest Park, these are the signs we see most often.',
   localFaqs: [

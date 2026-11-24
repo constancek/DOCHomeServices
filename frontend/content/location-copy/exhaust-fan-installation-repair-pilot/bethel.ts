@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'In Bethel, the call we take most is about a mirror still beaded with water long after somebody showered. Census figures date the village’s typical home to 1958, and roughly a quarter predates 1940, back when a bathroom relied on a window. Fans in those houses were retrofits, and a few of the retrofits blow into the attic and nowhere else. Renters now outnumber owners slightly. Our electrician walks the airflow from grille to exit and writes down a price before a ceiling gets touched.',
-  emergencyParagraph:
-    'A burning odor, a housing gone brown from heat, or a breaker that pops whenever the fan spins means flipping it off at the wall or panel, if that’s possible without risk. Water leaking from the grille counts too. With smoke or flames, leave and phone 911. Bethel usually gets us out the same day, weekends too.',
   commonIntro:
     'Between the old village center and the small apartment blocks on its edges, four signs keep turning up:',
   localFaqs: [

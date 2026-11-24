@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Most Wetherington homes don’t need an electrical inspection just for age. The neighborhood was built from the early 1990s on, and Census figures put the median home at 1998, so wiring is modern and grounded. Owners book us when something changes: a sale, a purchase, a finished lower level, a generator, a pool or a car charger. Most homes heat with gas, which leaves more panel room than in electric-heat areas, but a big new load still deserves a check. Findings come in writing, priced first.',
-  emergencyParagraph:
-    'New wiring can still fail at a bad connection. In Wetherington, a hot or discolored outlet, a buzzing switch, a smell of burning, sparks, or a breaker that trips again the second it’s reset all mean switching that breaker off and calling us. Smoke or fire: leave, then 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Newer houses still produce a short list, and in Wetherington these items show up most.',
   localFaqs: [

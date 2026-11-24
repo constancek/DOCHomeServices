@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'A long, narrow Italianate rowhouse hall lit by one weak dome is the classic fixture call in the West End. Census tables count 1,489 of the 3,878 homes here as built by 1939, and attached rowhouses outnumber detached houses 660 to 424. Tall plaster ceilings, boxes nailed to lath and ungrounded cable show up often, while the newer townhouses are simpler. With nearly every home rented, we mostly work for owners, landlords and associations. The ceiling gets opened first, and the quote is fixed before any work.',
-  emergencyParagraph:
-    'A fixture pulling plaster down with it, a scorched socket or a switch plate gone warm wants an electrician today, and renters should alert the owner right away. Shut off its breaker when reaching the panel feels safe. Smoke or flame means everybody out and a 911 call. We reach most calls near downtown same day, Saturday and Sunday included.',
   commonIntro:
     'Owners between Central Avenue and Dayton Street mostly ask for these.',
   localFaqs: [

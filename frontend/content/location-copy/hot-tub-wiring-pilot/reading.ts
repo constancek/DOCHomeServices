@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'For most houses in Reading, a spa means a new 240-volt line from a panel that went in after the war. Census figures date the median home to 1956, with close to a quarter older than 1940, and around seven in ten are detached houses on modest yards. Panels from those decades often have no empty slot left, so we settle the panel question before anything else. Our electrician checks it against the spa maker’s electrical sheet and gives you a fixed quote before conduit is run.',
-  emergencyParagraph:
-    'A GFCI that drops the instant it’s reset, scorching at the disconnect, crackling inside the panel, a jolt felt in the water, or a tub that sat in Mill Creek flood water can’t wait. Everyone gets out first, and nobody touches the equipment. If there’s smoke, leave and dial 911. Most visits happen the same day, weekends included.',
   commonIntro:
     'Between Reading Road and the Mill Creek side of town, these four bring most spa calls our way:',
   localFaqs: [

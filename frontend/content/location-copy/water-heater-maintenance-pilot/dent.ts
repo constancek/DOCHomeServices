@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Housing in Dent skews young: Census figures place the median home at 1995 and count 42.9% built in 2000 or later. For water heater service, that usually means a straightforward visit, with a drain-down, an anode inspection and a relief valve test. Townhomes and condo buildings make up a good share as well, so the heater often stands in a utility closet over a drain pan instead of an open basement. You hear the price before we begin, and if a tank isn’t worth the visit, we say so.',
-  emergencyParagraph:
-    'Book a repair instead for these. Tank leaking into its pan: twist the cold supply shut up top, then gas or breaker. Any hint of gas: leave, touch no switches, relight nothing, dial the gas company outdoors. Carbon monoxide alarm sounding: everyone exits. Relief valve dumping water repeatedly, or no hot water: repair too. Same-day on most calls, weekends included.',
   commonIntro:
     'Tanks in Dent are mostly in newer houses and condos, so the warning signs tend to be early ones:',
   localFaqs: [

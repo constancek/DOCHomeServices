@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Evanston has small, narrow grass lots, and Census figures show seven in ten of its houses went up before 1940. For a spa, that usually means a crowded panel, and freeing a slot with enough capacity for the spa breaker is the opening task. After that comes the 240-volt line meant only for the tub, a GFCI, a disconnect the tub is visible from but nobody in it can touch, bonding and an inspection. We price it against the spa maker’s specs before conduit goes in.',
-  emergencyParagraph:
-    'If the spa’s GFCI keeps snapping off, the disconnect box is blackened, or the panel buzzes, phone us; on most calls we’re there that same day, weekends included. Anyone who feels a tingle climbs out without grabbing a rail. Switch the power off only if you can reach it safely, and leave and dial 911 if there’s smoke.',
   commonIntro:
     'From the blocks near Xavier to the quieter streets off Woodburn Avenue, these four start most spa calls.',
   localFaqs: [

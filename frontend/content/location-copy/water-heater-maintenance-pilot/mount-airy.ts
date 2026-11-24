@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Mount Airy splits into two kinds of tank job. By Census figures, 39.1% of homes are in buildings of five or more units and 62.3% are rented, so many heaters stand in apartment closets over drain pans and get serviced when the owner schedules it. The houses, where the median home dates from 1964, keep the tank in the basement, and those visits run simpler. You’ll have the price before any work, and we’d rather tell you a tank is done than charge you to flush it.',
-  emergencyParagraph:
-    'These skip the tune-up. Leak from the tank: cold supply on top closed, then gas or breaker off. Gas smell: out of the unit, nothing switched, nothing relit, gas company called from outside. Carbon monoxide alarm: clear the building. A relief valve that runs constantly or zero hot water: repair. Most get seen same day, weekends included.',
   commonIntro:
     'Closet heaters and basement tanks in Mount Airy give the same few signs when they’re due:',
   localFaqs: [

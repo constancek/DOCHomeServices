@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Ludlow is an old river city, and Census figures date 60.5% of its homes to 1939 or earlier. So the heater we flush is usually at the foot of a basement stair, sharing the space with a flue, a drain valve and gas piping that have all seen decades. Row houses and two-family homes are common too, often one heater per side. Before any work, we name the price, and if a tank is past saving we’d rather say so than sell you a flush.',
-  emergencyParagraph:
-    'Leaks, gas odor and carbon monoxide aren’t tune-up jobs in Ludlow. Tank leaking: cold valve on top shut, then gas or breaker off. Gas smell: walk out, no switches, no relighting, phone the gas company from the sidewalk. Alarm sounding: everyone outside. A relief valve that won’t quit, or a cold tap, means repair, often same day, weekends included.',
   commonIntro:
     'In the older houses of Ludlow, these usually put a working tank on our list:',
   localFaqs: [

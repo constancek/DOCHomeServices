@@ -2,9 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const owensville: LocationServiceCopy = {
   localParagraph:
-    'In Owensville, the local twist on hot tub wiring is electric heat. Census figures suggest most homes in the village heat with electricity, and a panel already feeding a heat pump or electric furnace has less to give a spa breaker, so the load calculation carries real weight. Most houses went up between 1940 and 1979, with a median of 1974. We compare the panel with the spa maker’s numbers, then quote the GFCI-guarded 240-volt line, shutoff and bonding as one figure before any conduit is laid.',
-  emergencyParagraph:
-    'In Owensville, a spa that keeps knocking its GFCI off, a shutoff with scorch marks, a panel that buzzes, or water that tingles all mean the same thing. Get everyone clear and keep hands off the equipment. Shut power down only if there’s no risk, and phone 911 for smoke. Most calls get a visit that day, weekends too.',
+    'In Owensville, electric heat is what sets hot tub wiring apart. Census figures show most homes in this small Stonelick Township village are heated by electricity, so the panel is often feeding an electric furnace or heat pump before a spa ever arrives, and the load calculation decides the job. The typical house was built around 1974. We hold the panel up against the spa maker’s requirements and quote the GFCI-protected 240-volt circuit, disconnect and bonding as one price before any conduit goes down.',
   commonIntro:
     'In Owensville and out along the surrounding roads, these four bring most spa calls.',
   localFaqs: [
@@ -37,11 +35,11 @@ export const owensville: LocationServiceCopy = {
       },
       {
         title: 'DIY or a Licensed Electrician for Hot Tub Wiring in Owensville',
-        body: 'In Owensville, we’d steer even a skilled do-it-yourselfer away from a spa. The work opens the panel, adds a breaker and GFCI that feed only the tub, puts a shutoff and bonding outdoors, and must pass inspection, with 240-volt power near water the whole way. Errors burn out pumps, heaters and control boards, trip breakers again and again, or shock someone. A licensed electrician gets the breaker size right, counts your electric heat in the load figures, tests the GFCI, keeps hot and neutral apart, and makes a tight panel connection.',
+        body: 'In Owensville, even a handy owner should leave spa wiring to a licensed electrician. It means working inside a live panel, adding a breaker and GFCI that serve the tub alone, setting a disconnect and bonding outside, and passing an inspection, all with 240-volt power right next to water. Get it wrong and the pump, heater or control board fails early, the breaker trips over and over, or someone in the tub gets shocked. We size the breaker correctly, fold your electric heat into the load numbers, prove the GFCI works, keep the hot and neutral conductors separate and tighten every panel connection.',
       },
       {
         title: 'Hot Tub Wiring Outdoors Year-Round in Owensville',
-        body: 'In Owensville, a tub might sit on a back patio, a deck or well out in the open yard, so its wiring spends every season outside. Fittings and conduit are made for that exposure, the shutoff is mounted where the bather can see it but a few steps clear, and metal near the spa is bonded. Clermont County Building Inspection handles permits in the village, and its inspection comes before the tub is filled.',
+        body: 'In Owensville, tubs go on a back patio, a deck or out in an open yard, and the wiring lives outdoors through every season. We use weather-rated fittings and conduit, mount the disconnect within the bather’s line of sight but several steps back from the water, and bond the metal around the spa. Clermont County Building Inspection covers permits for the village, and its inspector signs off before the tub gets filled.',
       },
     ],
     whyTitle: 'Why Owners and Landlords in Owensville Choose Us for Hot Tub Wiring',
@@ -50,7 +48,7 @@ export const owensville: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What will hot tub wiring cost in Owensville?',
-        a: 'Expect a single quoted figure after we’ve opened the panel, and no work until you okay it. Electric heat that leaves little headroom, a tub far out in the yard, or a panel upgrade each raise it. Homeowners who qualify can finance the work.',
+        a: 'You get one flat figure after our electrician has checked the panel, and nothing starts until you approve it. The number climbs when electric heat leaves the panel little to spare, when the tub sits a long trench from the house, or when the panel needs replacing. Financing is open to qualifying homeowners.',
       },
       {
         q: 'Can hot tub wiring in Owensville be done in a day?',

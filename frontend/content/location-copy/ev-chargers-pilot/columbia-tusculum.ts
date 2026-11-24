@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Columbia was settled in 1788, and Census figures still put roughly four of every ten homes in Columbia-Tusculum before 1940, with about one in five dating after 2000. Most are detached, which keeps wiring simple where the car stays off the street. The oldest houses may carry a modest first service, whereas the newest generally have headroom or can use load management. We pull the panel cover and work the numbers before quoting, mention it when the car’s own cord is enough, and agree on a price before any wiring.',
-  emergencyParagraph:
-    'Any heat or melting at the charger, plug or receptacle, or a breaker that trips as soon as charging starts, is your cue to unplug and back away. Flip that circuit off at the panel only if it’s safe. At the first smoke or flame, get outside and dial 911. Columbia-Tusculum gets same-day help on most calls, weekends included.',
   commonIntro:
     'Old houses and new ones bring up different charger questions in Columbia-Tusculum, and these are the ones we hear most.',
   localFaqs: [

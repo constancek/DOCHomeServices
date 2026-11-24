@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Downtown Cincinnati is a neighborhood of big buildings. By Census figures, 3,453 of its 4,821 homes sit in buildings with 50 or more units, and close to nine in ten households rent. More than two in five units are in buildings from 1939 or earlier, which got bathroom fans only later, so the duct may end in a ceiling cavity. Towers finished since 2010 have fans, often undersized. For owners, landlords and boards, we map the duct run and hand over a price before a ceiling is opened.',
-  emergencyParagraph:
-    'Water falling through a bathroom fan grille, or a fan that smells of burning, sparks or smokes, needs attention fast. Turn the fan off at its switch or your unit’s breaker if that’s safe. With fire or smoke, leave by the stairs and call 911. Let building management know. We come the same day on most calls, weekends included.',
   commonIntro:
     'In the towers and prewar buildings of Downtown Cincinnati, these are the fan problems owners, boards and managers ask us about.',
   localFaqs: [

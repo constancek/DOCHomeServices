@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'In White Oak, many fans hang where a glass bowl light used to be. Census figures put the median house at 1968, and roughly two in three went up between the 1940s and the 70s, when bedroom ceilings often got a shallow pancake box screwed to one joist. That box was sized for a light, so a fan on it loosens, and we fix that with a hanger bar between joists. Around three households in ten rent. We look first, admit when tightening alone will do, and quote before work.',
-  emergencyParagraph:
-    'When a fan starts to rattle its glass shade, its box pulls loose, or a hot plastic smell drifts off the motor, shut it off at the switch or breaker if that’s safe. Keep children out from beneath it. Visible flames mean leave and phone 911. Most calls in White Oak get a same-day visit, weekends included.',
   commonIntro:
     'Fans hung decades ago in White Oak, and the light boxes above them, account for most of what we see:',
   localFaqs: [

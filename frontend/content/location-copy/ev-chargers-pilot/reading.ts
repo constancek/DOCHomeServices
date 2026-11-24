@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'In Reading, the bulk of the houses went up in the 1940s and 1950s, Census figures show, and around a quarter are older still. Later owners usually filled every slot in the postwar panels. In prewar houses, the original service may be small enough that a 240-volt run means rethinking the panel. About four in ten homes are rented, so the owner decides. We check that panel and total your load before quoting, tell you whether the cord in your trunk will do, and lock the price before work starts.',
-  emergencyParagraph:
-    'Quit charging when a plug, outlet or wall unit turns hot, browns or smells of smoke. A crushed cable or a breaker quitting mid-charge is as urgent. Switch the circuit off only when you’re standing on dry concrete and the panel cover is cool. If you see smoke, go outside before calling 911. We’re usually there that day, weekends included.',
   commonIntro:
     'Across the older streets and the postwar blocks alike, these are the reasons owners call us about charging.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'In New Richmond, furnace jobs come in two kinds. A third of homes date from 2000 or later, per Census figures, and those mainly want the standard look at filter, blower, burners and safety controls. Another 12.1% predate 1940, in the older part of the village, where the furnace shares a basement with an old chimney and sometimes a flood line on the wall. Electricity is the more common heating fuel, heat pumps included. The flat price comes before we start, and the truth if nothing is needed.',
-  emergencyParagraph:
-    'Repair, not maintenance, covers these. Gas in the air: walk out, leave switches and the pilot be, phone the gas company once clear of the house. Carbon monoxide alarm: everyone out. A cold furnace in a freeze, a burner that keeps going out, a yellow flame. Toddlers and grandparents feel it soonest. Same day on most calls, weekends included.',
   commonIntro:
     'Near the river and up the hill in the newer streets, owners in New Richmond tend to book after one of these:',
   localFaqs: [

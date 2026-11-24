@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Two-story foyers are where we do much of the work in Mulberry, swapping a builder’s fixture for something worth looking up at. Whether that’s simple depends on the box overhead, a ground in it and whether the light stays put. Census counts show the median home dates to 1988, and nearly three in four went up from 1980 on, split among apartments, townhouses and detached houses with islands and grounded boxes. About three in ten are rented. We check the ceiling and settle the price before the ladder goes up.',
-  emergencyParagraph:
-    'A light tugging free of the ceiling, a hot or humming wall plate, or black marks around a socket all warrant a visit that day. Switch off the circuit if your panel is easy to get at, and keep people clear underneath. With smoke or flame, leave the unit and phone 911. Weekends in Mulberry get the same treatment.',
   commonIntro:
     'In Mulberry, our light fixture calls are mostly one of these.',
   localFaqs: [

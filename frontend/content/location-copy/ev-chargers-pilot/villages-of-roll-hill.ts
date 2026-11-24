@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'A charger in the Villages of Roll Hill is management’s decision, because the neighborhood is essentially one managed complex of garden apartments and townhomes, and more than four households in five rent, Census figures show. Residents who want to charge at home should ask the office in writing. The buildings date from the 1960s and were renovated between 2010 and 2012, so we check each panel rather than assume. The load calculation comes first, we’ll say when a Level 1 cord is enough, and management gets the price before work.',
-  emergencyParagraph:
-    'Tell the office if an outlet or cord is hot, scorched or melted, if something smells burnt, or if a breaker quits with every charge, and stop charging. Only flip that breaker if the panel and floor are dry. With smoke or flames, leave the unit and phone 911. Management can usually have us there that same day, weekends too.',
   commonIntro:
     'These are the requests that usually bring management in the Villages of Roll Hill to ask us about EV charging.',
   localFaqs: [

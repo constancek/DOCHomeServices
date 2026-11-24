@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'In the West End, highway and Queensgate clearance took most of the old blocks, yet Census figures still count 1,489 homes from 1939 or earlier, many of them Italianate rowhouses near Betts-Longworth and Dayton Street. Those houses mean lath-and-plaster ceilings, narrow rooms built for one center fixture, and little space under the roof. About nine homes in ten are rented, so landlords book the work, often between leases. We check the cavity and fix a price before any plaster is cut.',
-  emergencyParagraph:
-    'In a plaster ceiling, a can that browns the paint around it, gives off a hot-dust smell, shuts itself off and comes back, or leaks water from an upstairs bath needs attention today. Kill its breaker if that’s safe. If smoke or flame appears, everyone leaves and someone calls 911. We can usually be there the same day, weekends included.',
   commonIntro:
     'Rowhouse owners and landlords near Ezzard Charles Drive and Linn Street ask us for these four.',
   localFaqs: [

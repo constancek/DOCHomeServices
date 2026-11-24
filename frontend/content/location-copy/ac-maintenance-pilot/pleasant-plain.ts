@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain is a village of old houses in Harlan Township, and Census figures date 76.1% of them to 1939 or earlier. Nearly all are detached houses, so cooling came as a retrofit, with ducts through a cellar or a borrowed closet, an attic air handler for the bedrooms, and the condenser wherever the yard had room. Many homes burn fuel oil for heat, so the AC coil often rides on an oil furnace. The flat price comes first, and an AC needing nothing is told so.',
-  emergencyParagraph:
-    'Put the tune-up aside if the house goes warm in a heat wave or the refrigerant lines grow frost; switch the system off until it thaws out. A wet ceiling, a burnt smell, or a breaker that trips twice is a repair call. Heat is roughest on infants and grandparents. We reach most calls the same day, weekends included.',
   commonIntro:
     'In the older houses around the village, these are the signs we usually hear about first:',
   localFaqs: [

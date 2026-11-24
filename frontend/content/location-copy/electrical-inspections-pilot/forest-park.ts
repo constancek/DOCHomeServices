@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Forest Park’s first houses opened in 1956, and most of the city went up through the 1960s and 1970s, so electrical inspections here usually deal with panels and circuits from that era. Census figures show almost half the homes heat with electricity, which leaves many panels with little spare capacity for an EV charger, a hot tub or a bigger kitchen. Landlords also book us; over four in ten households rent. We test the system and price any repair before work starts.',
-  emergencyParagraph:
-    'If an outlet or switch plate is hot, buzzing or charred, you see sparks, or the lights dim sharply whenever something starts up, switch off that circuit’s breaker. A breaker that trips again straight after a reset stays off too. Smoke or fire: everyone out, then 911. Most Forest Park calls are reached the same day, weekends included.',
   commonIntro:
     'Forest Park inspections cover the city’s single houses from the 1960s and 1970s as well as its apartment buildings. What we write up most:',
   localFaqs: [

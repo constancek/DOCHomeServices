@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Between Central Parkway and the river, recessed lighting Downtown starts as a building question. Census figures show about seven in ten homes sit in buildings of fifty or more units and most are rented, so owners, landlords and associations book the work. Units in older buildings near Fourth Street may have plaster or a shared space overhead, while condos built since 2010 tend to have drywall and soffits that are easier to open. We check what the building allows, then mark the layout and price it.',
-  emergencyParagraph:
-    'If a can smells scorched, a trim is too hot for a fingertip or water drips from a light, cut that circuit at your unit’s panel when it’s safe to, then tell building management. With smoke or flame, take the stairs out and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In condos near Fountain Square, in rentals and in the handful of houses here, owners ask for these four.',
   localFaqs: [

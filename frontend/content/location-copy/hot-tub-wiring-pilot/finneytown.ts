@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'In Finneytown, a spa hookup takes a 240-volt circuit dedicated to the tub, with a GFCI on it, a disconnect the tub can be seen from while staying well clear of it, bonding of the shell’s metal, and an inspection at the end. Census figures date the median house to 1959. Boxes put in around then are often short a slot or short on capacity, which we fix first. We hold the box up against the spa maker’s list and price it all before conduit goes in.',
-  emergencyParagraph:
-    'Some spa trouble can’t sit until Monday in Finneytown. One is a GFCI that won’t stay reset. Another is a hot or burnt smell at the disconnect, and the worst is anyone feeling a tingle in the water. Get people out and keep away from the controls. Kill the breaker only if that’s safe, and smoke means calling 911.',
   commonIntro:
     'Across the mid-century streets around Winton and Galbraith roads, these four signs come up most when owners call us about a spa in Finneytown.',
   localFaqs: [

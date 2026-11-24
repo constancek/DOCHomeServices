@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Every home in Wetherington was built from the 1980s on, most from the early 1990s forward, and gas heats about seven in ten of them, by Census figures. Nearly everyone owns. So a fall visit here is a check on a modern gas furnace: filter, blower, burners, igniter, flame sensor and safety controls, with plastic vent pipe instead of an old chimney. Many builder furnaces have been replaced once by now, and some haven’t. We set the price before starting and will tell you honestly if the furnace needs nothing.',
-  emergencyParagraph:
-    'In Wetherington, some signs call for repair instead. Gas odor: walk out, leave lights alone, relight nothing, call the gas company from the lawn. Carbon monoxide alarm: every person outside first. No heat in a cold snap, endless restarts, or a lazy yellow flame. Cold hits babies, older relatives and the sick hardest. Most calls same day, weekends included.',
   commonIntro:
     'In the gas-heated homes of Wetherington, these usually prompt a fall booking:',
   localFaqs: [

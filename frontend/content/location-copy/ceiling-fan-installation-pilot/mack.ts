@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Up on the ridge along Bridgetown Road, Mack is almost all owner-occupied single-family houses, and Census figures put the typical one at 1981. Plenty of them have a family room under a sloped or raised ceiling, which means a down rod and an angled mount, plus a deck off the kitchen that needs an outdoor-rated fan. Builders back then often left bedrooms with a plain lamp box overhead. We open that box before quoting, tell you when rebalancing settles a wobble, and agree the price before anything comes down.',
-  emergencyParagraph:
-    'Shut a fan down right away if it jerks on its bracket, sags out of the drywall, smokes, buzzes at the switch or kicks the breaker as the blades start. Use the switch or panel if safe and clear everyone away. If something burns, leave and dial 911. Most calls in Mack get a same-day visit, weekends included.',
   commonIntro:
     'Sloped family-room ceilings, back decks and bedrooms finished with only a lamp box overhead cover most of what homeowners ask us about in Mack.',
   localFaqs: [

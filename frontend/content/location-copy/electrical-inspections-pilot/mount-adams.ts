@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Plenty of Mount Adams homes have been renovated since the neighborhood began changing in the late 1960s, and the question is how far the electrical work went. Census figures put half the homes here at 1939 or earlier, and many older houses, doubles and small apartment buildings were updated room by room, so new circuits can sit beside old cloth wire on the same floor. We trace where the update stopped, test the panel and outlets. Then you get a written report with repairs priced first.',
-  emergencyParagraph:
-    'A few problems shouldn’t sit overnight: a burning smell, an outlet or switch that is warm, darkened or buzzing, sparks, or a breaker that keeps tripping as soon as it’s reset. Switch that breaker off. Smoke or flames mean get out and call 911. Same-day visits on most calls, weekends included.',
   commonIntro:
     'Mount Adams renovations leave a familiar pattern, and these are the findings on most reports:',
   localFaqs: [

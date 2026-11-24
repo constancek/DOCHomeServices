@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'In Landen, most fan work happens in houses from one era. Census figures show more than two in three were built between 1980 and 1999, around the lake and its subdivisions. Builders then liked vaulted family rooms, and a fan up there needs a rod sized to the pitch. Decks want a damp-rated model. The bedrooms often got a plain fixture box that was never meant to carry a fan. We test yours, say so if a rebalance is all it takes, and quote before the fixture comes off.',
-  emergencyParagraph:
-    'A swaying fan, a canopy pulling off the drywall, a burning smell from the motor or a breaker that kicks off when the fan runs can’t wait. Switch it off if that’s safe and clear the room below. With smoke or fire, get out and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Tall great rooms and outdoor decks show up again and again in our fan calls from Landen.',
   localFaqs: [

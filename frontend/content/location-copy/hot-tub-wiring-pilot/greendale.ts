@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Census figures date the typical house in Greendale to 1958, and more than half went up before 1960. Many panels from those decades are already full, or close to their rating, which leaves no room for a spa breaker until that’s solved. From there, the tub needs a line of its own at 240 volts, GFCI protection, a visible shutoff and bonding. You get a price once we’ve matched the panel to what the tub’s manufacturer asks for, and that comes before any conduit.',
-  emergencyParagraph:
-    'A GFCI that won’t hold, a disconnect with scorch marks, or a panel that buzzes needs a call. If someone feels a jolt, everyone climbs out. Floodwater-soaked pumps and heaters stay off until tested. Flip the breaker only from a safe spot, and dial 911 for smoke or flames. Most calls get a visit that same day, weekends too.',
   commonIntro:
     'Inside the 1940s and 50s houses of Greendale, these four signs bring most spa calls.',
   localFaqs: [

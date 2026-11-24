@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Most homes in Mulberry are young enough that a Level 2 charger goes in cleanly. Census figures put the median build year at 1988, with nearly three in four units built in 1980 or later, so panels usually have room or suit load management. Electricity heats over six in ten homes, a load the charger must share. Only 703 units are detached houses, which often puts an association or manager in charge. We tally the load, say if Level 1 will do, and fix the price ahead.',
-  emergencyParagraph:
-    'Stop using the charger once its plug, outlet or housing warms or scorches, a burning odor rises mid-session, the breaker quits with every charge, or the cable gets crushed. Kill that circuit only if the panel is dry and reachable. With smoke or fire, leave and dial 911. Most Miami Township calls see us that day, weekends included.',
   commonIntro:
     'Condos, townhomes and apartments make up much of Mulberry, and these are the situations behind most requests for charging at home there.',
   localFaqs: [

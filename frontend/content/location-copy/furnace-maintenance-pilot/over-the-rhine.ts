@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'Most furnaces we maintain in Over-the-Rhine are in 19th-century buildings split into apartments: 70.1% of homes predate 1940 and 85.7% sit in buildings of two or more units, by Census figures. Older basements mean old chimney venting and a furnace that has been swapped more than once, so the flue and heat exchanger get careful checks. Rehabbed units tend to have a closet furnace, booked by the owner. Gas and electricity heat about equal shares. You approve the price first, and we’ll tell you when nothing needs doing.',
-  emergencyParagraph:
-    'Smell gas in Over-the-Rhine: leave without touching switches or relighting anything, then call Duke Energy outside. A carbon monoxide alarm: clear the unit first. A unit with no heat when it turns bitter, or a flame burning lazy and yellow, is a repair. Babies, older residents and anyone ill can’t wait. Same day on most calls, weekends too.',
   commonIntro:
     'In the apartment buildings and rehabbed rowhouses of Over-the-Rhine, owners usually book after one of these:',
   localFaqs: [

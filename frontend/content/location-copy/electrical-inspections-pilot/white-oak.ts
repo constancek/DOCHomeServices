@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'Most White Oak inspections are in homes from the 1950s to the 1970s; Census figures put the median at 1968. Those houses were wired for a lighter load, so we often find a panel stretched with added circuits and bedrooms sharing a single circuit. It makes no difference whether your street is on the Green or Colerain Township side; the check is the same. We test the system, write it up, and give you a price on any fix before work starts.',
-  emergencyParagraph:
-    'Don’t hold out for a scheduled inspection if a White Oak outlet feels warm, a switch buzzes or has scorch marks, or the lights dim hard every time the furnace starts. Flip that circuit’s breaker off. Smoke or flames mean everyone leaves the house and someone calls 911. We reach most of these calls the same day, weekends included.',
   commonIntro:
     'White Oak’s 1950s ranches and 1960s split-levels tend to turn up the same findings:',
   localFaqs: [

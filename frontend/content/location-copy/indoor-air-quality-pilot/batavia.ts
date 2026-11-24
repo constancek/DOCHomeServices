@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'Batavia is the Clermont County seat, and its village houses are older than the subdivisions around it. The Census median house dates to 1955, a good share went up before 1940, and plenty are rented. Old houses near the East Fork tend to have damp basements, and their ducts often push dust from room to room. For rentals, the owner decides. We test before we recommend anything, the price is set before work starts, and if a filter swap is all it takes, we tell you.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means everyone gathers out front and someone calls 911. Smelling gas means leaving every switch alone, stepping outside and phoning the gas company. If the vents smell scorched, shut the system down at the thermostat. Mold creeping up from a flooded basement is urgent for babies. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'These are the problems we see most often in Batavia.',
   localFaqs: [

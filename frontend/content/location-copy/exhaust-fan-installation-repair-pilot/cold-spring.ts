@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'In Cold Spring, nearly every bathroom came with a fan, and the question is whether it’s any good. By Census figures the typical home here was finished in 1999, and close to half are from 2000 onward, which means plenty of builder-installed fans, often modest units straining against a shower and soaking tub. Townhouse-style attached homes make up almost a quarter of the stock, so a duct may run through a shared roof. Our electrician tests the draw, traces the duct and fixes a price ahead of any cutting.',
-  emergencyParagraph:
-    'Shut off a fan that smells burnt, shows a charred or drooping housing, sparks, smokes, leaks from the grille, or flips the breaker whenever it’s turned on. Use the wall switch or the breaker if you can without danger. With smoke or fire, everyone leaves and someone calls 911. We reach most calls that day, weekends included.',
   commonIntro:
     'Bathrooms in Cold Spring are usually newer, so the signs we see point to fans that are weak, worn or venting to the wrong place:',
   localFaqs: [

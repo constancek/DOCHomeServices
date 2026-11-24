@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'In Southgate, housing comes in three layers, Census figures show, with pre-1940 houses, a big run from the 1980s and 1990s, and apartment buildings holding about four in ten homes. Over half of households heat with electricity, which often makes the heat pump or electric furnace the priciest thing a surge could take out. In the oldest houses, a cramped or crowded panel can limit where the device fits. We open it first, say so if strips will do, and settle the price before work.',
-  emergencyParagraph:
-    'Don’t sit on a blackened outlet, a melting smell, or a microwave that smoked at power-up; we should see it today. House-wide flicker goes to the electric utility first. Leave the breaker alone if anything near it is damp or warm, and get out and phone 911 at any smoke. Most calls get a visit that day, weekends included.',
   commonIntro:
     'From apartment buildings to pre-1940 houses, these are what usually prompt a surge protection call here.',
   localFaqs: [

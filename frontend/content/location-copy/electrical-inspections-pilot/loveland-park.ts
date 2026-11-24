@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Loveland Park has two kinds of houses, and the inspection depends on which you own. Census figures put 37.1% of homes before 1960, some on the small riverside lots the Cincinnati Enquirer gave away in the 1920s, where two-prong outlets and undersized panels still turn up. The rest, mostly from 1980 on, usually have sound wiring and get inspected for a sale or a new load. Electric heat in nearly half the homes adds to that load. We test it all and price fixes before work.',
-  emergencyParagraph:
-    'Call right away in Loveland Park if you smell burning, see sparks, find a switch plate or outlet that’s hot, buzzing or scorched, or a breaker trips the second you reset it. Flip that breaker off. If there’s smoke or flame, get outside and dial 911. Most calls get a same-day technician, weekends too.',
   commonIntro:
     'Loveland Park findings split between the 1920s to 1950s houses near the river and the newer homes built since 1980. The ones we see most:',
   localFaqs: [

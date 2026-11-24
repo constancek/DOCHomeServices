@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Madisonville is two very different jobs. Around Whetsel and Bramble Avenues, 65.9% of homes predate 1940, so an inspection there often turns up ungrounded outlets, fuse panels and cloth-insulated runs. Along Madison and Red Bank Roads, much of the housing is newer, including large apartment buildings, where the wiring is usually fine and the question is whether a unit is safe to rent or sell. We inspect both, hand you a written report and price any fix in advance.',
-  emergencyParagraph:
-    'Hot plastic smells near an outlet, a spark when something plugs in, a switch plate gone brown, or a breaker that trips a second time right after reset: kill that breaker and call. If there is smoke or fire, get out first, then call 911. Most of these calls are same day in Madisonville, weekends included.',
   commonIntro:
     'Older Madisonville houses and newer apartment buildings each have their own problems. These come up most:',
   localFaqs: [

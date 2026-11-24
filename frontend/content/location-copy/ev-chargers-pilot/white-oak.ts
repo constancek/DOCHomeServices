@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'In White Oak, two-thirds of the houses went up between 1940 and 1979, Census figures show, with the median in 1968. Panels from that era were often filled breaker by breaker as kitchens, central air and finished basements came along, so a 240-volt charger circuit may find no open slot. Most homes are detached and owner-occupied, which keeps the job simple once the capacity is there. We start with a panel assessment and load calculation, mention it if Level 1 will do, and fix the price before pulling wire.',
-  emergencyParagraph:
-    'Unplug if the charger, plug or outlet is hot, discolored or going soft, or smells of melting plastic. A breaker that drops whenever charging starts is a warning. Only switch the circuit off if nothing near it is wet or hot. With smoke or flame, leave and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Around White Oak, on the Green and Colerain sides alike, these are the usual reasons a charger comes up.',
   localFaqs: [

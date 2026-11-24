@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Few towns we cover have housing as old as Bellevue. Census figures put 63.7% of homes at 1939 or earlier, and 81.6% burn gas for heat. The usual tune-up, then, is a gas furnace in a basement that has held two or three before it, its exhaust running into a chimney decades older than the furnace. That flue and the heat exchanger take the most time. The price is agreed first, and if nothing needs doing, you hear it.',
-  emergencyParagraph:
-    'In Bellevue, a gas smell means out the door, no switches, and a call to Duke Energy from the porch steps or beyond. A carbon monoxide alarm empties the house. A cold furnace in a freeze, one restarting without end, a flame turned yellow: those are repairs. Infants and older people suffer first. Mostly same day, weekend days too.',
   commonIntro:
     'With most homes here built before 1940, owners usually book in Bellevue after noticing one of these:',
   localFaqs: [

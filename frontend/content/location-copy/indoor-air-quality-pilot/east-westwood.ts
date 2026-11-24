@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Roughly three in four homes in East Westwood are rented, by Census figures, and many sit in apartment buildings, so the owner or manager usually decides what gets added to the system. The median home was built in 1958, which means many basements with a little damp and ductwork that has been carrying dust for decades. Tenants can still run fans and keep vents uncovered. Owners get readings first, a flat figure per fix, and a straight answer when a new filter would do.',
-  emergencyParagraph:
-    'With a carbon monoxide alarm, everyone goes outside, then someone calls 911. For a gas smell, get out without touching a switch and phone Duke Energy. Turn off a furnace or AC that smells burnt at the thermostat. Spreading mold after a leak is urgent for babies, grandparents and anyone short of breath. Same-day help on most calls, weekends included.',
   commonIntro:
     'Landlords and tenants on this side of Westwood mostly call us about these four.',
   localFaqs: [

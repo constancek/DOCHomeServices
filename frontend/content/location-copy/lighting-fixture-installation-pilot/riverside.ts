@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Along River Road, the stairwell of an apartment block lit by one weak globe is the lighting call we hear most in Riverside. What the job involves turns on the box, a ground conductor and whether a cable already runs to the spot. The Census median building here is from 1971, a quarter are older than 1940, and roughly six homes in ten are rented. The old houses have plaster and few grounds. Owners get a firm quote once we have opened the box.',
-  emergencyParagraph:
-    'Stop using a light that dangles from its wires or trips its breaker on switch-on. After the river has been into a basement, keep any fixture that got wet switched off. Cut the breaker if it is safe, keep tenants from walking below it, and call 911 for smoke or fire. Most calls see us the same day, weekends too.',
   commonIntro:
     'Building owners, landlords and the people living along this stretch of the river usually call about these.',
   localFaqs: [

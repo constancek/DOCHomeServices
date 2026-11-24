@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'Housing in North Bend is younger than most people guess. Census figures give a median of 1991, with roughly a third built after 2000, so the breaker box often still has open slots. Then the job hinges on where the tub lands on a slope and how far the line must travel. A spa needs a 240-volt circuit of its own on a GFCI, a shutoff in sight but back from the water, and bonding. Before trenching, we match your panel to the spa’s spec sheet and agree a price.',
-  emergencyParagraph:
-    'If the spa keeps knocking out its breaker no matter how often you reset it, or a bather feels a tingle, treat it as urgent. Everybody steps out, and nobody touches the equipment. Pull the disconnect only if that’s safe, and ring 911 if anything smokes. Our crews reach most calls that day, weekends included.',
   commonIntro:
     'On the hillside streets above the river and in the townhouse rows, these four bring most owners in North Bend to us.',
   localFaqs: [

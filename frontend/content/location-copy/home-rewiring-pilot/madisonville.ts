@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'For an electrician, Madisonville is really two places. Census figures date nearly half its homes to before 1940, mostly owner-lived houses where knob-and-tube or cloth-sheathed wire with no ground may still be in the walls. Much of the rest is newer, including rented apartments built since 2000, and those rarely need more than one circuit added or repaired. We test before we quote, say plainly when wiring is sound, and set the scope and flat price on paper before a single wall is opened.',
-  emergencyParagraph:
-    'If there’s smoke or flame, get the household out and call 911. A burning smell, an outlet that’s scorched or hot, sparks, a switch that buzzes or a shock off an appliance means cutting that circuit at the panel if you can stay dry and safe, then phoning us. Most calls in Madisonville see a same-day visit, weekends included.',
   commonIntro:
     'From prewar houses to apartments built since 2000, these are the faults we see most in Madisonville.',
   localFaqs: [

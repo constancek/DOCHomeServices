@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Evendale is nearly all owner-occupied houses, and 57.2% of them, by Census figures, were finished between 1980 and 1999. Gas heats 84.5%. So a tune-up here is almost always a gas furnace in a basement or utility room, often the second one the house has had, with a short vent run. Most of our time goes to the filter, blower, burners, flame sensor and safety switches rather than old venting. The price is fixed first, and if your furnace is in good order, we’ll say so and go.',
-  emergencyParagraph:
-    'Strong gas odor: walk the family out, flip nothing, relight nothing, phone the gas company from the driveway. Carbon monoxide alarm: outside first. When the furnace won’t heat in a freeze, shows a wavering yellow flame, or fires in bursts that never settle, that’s a repair. Babies, grandparents and the sick feel it soonest. Same day on most, weekends included.',
   commonIntro:
     'In Evendale, the job is nearly always a gas furnace in a 1980s or 1990s house. Owners usually ring us after spotting:',
   localFaqs: [

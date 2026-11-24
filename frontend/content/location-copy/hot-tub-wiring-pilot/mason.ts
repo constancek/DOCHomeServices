@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'For a spa in Mason, the wiring is a new 240-volt line of its own, GFCI protected, with a shutoff in view of the tub and nearby metal bonded. Census figures date the median house to 1996, and 3,992 went up in the 1990s alone, so many panels here still carry empty slots. On those houses the real question is the route from the panel out to the patio. We hold the panel up against the spa maker’s spec sheet and price it before any trenching.',
-  emergencyParagraph:
-    'Call us in Mason if the spa’s GFCI snaps off again right after a reset, the shutoff box smells scorched, or anybody gets a tingle off the rails or water. Clear the tub, touch nothing, and flip the breaker only when reaching it is safe. Smoke or flames mean dialing 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Out in the subdivisions off Tylersville Road and back toward the old town center, four situations account for most of the spa calls we get from Mason.',
   localFaqs: [

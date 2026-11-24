@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'In Northgate, 54.5% of homes were built in the 1960s and 1970s, by Census figures, and electric heat edges out gas. That electric count lumps in heat pumps, so step one is finding out what you own. A gas furnace here lives in the basement and is seldom the first one, which sends us to its vent connection and heat exchanger; an electric furnace means metering elements and checking wiring. You’ll know the flat price before work starts, and a healthy furnace gets a plain answer and no extras.',
-  emergencyParagraph:
-    'If you smell gas, the house empties: no switches, no relighting, and call the gas company from the sidewalk. A carbon monoxide alarm clears it too. No heat in a cold stretch, a weak yellow flame, or a furnace that keeps firing and stopping needs repair. Infants, elders and the ill feel it first. Same day on most, weekends included.',
   commonIntro:
     'Northgate is mostly 1960s and 1970s houses, about half on electric heat. These usually prompt a fall booking:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Kennedy Heights sits on high ground above the Little Miami valley, and 46.4% of its homes predate 1940, by Census figures. Most are owner-occupied. For a yearly tank service that means an older basement, a flue connector feeding a chimney that has served several heaters, and a drain valve stiff from years of nobody touching it. Postwar houses and apartment buildings go quicker. The price is on the table before we start, along with a straight answer if your tank isn’t worth the money.',
-  emergencyParagraph:
-    'These need a repair truck. Jacket leaking: turn the cold-water valve on top clockwise, then shut gas or flip the breaker. Gas smell: leave first, switches and pilot untouched, and call the gas company from the street. Carbon monoxide alarm: everybody out. Endless relief valve discharge or no hot water: repair. Usually same day, weekends included.',
   commonIntro:
     'Owners of older houses in Kennedy Heights tend to book a service on a working tank for one of these:',
   localFaqs: [

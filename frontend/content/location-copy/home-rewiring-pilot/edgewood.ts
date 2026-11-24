@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Edgewood is mostly 1960s and 1970s houses; Census figures put the median at 1976, with about half built in those two decades. Original circuits from that era were never sized for an induction range, a home office and a car charger at once, and some of those houses may have aluminum branch wiring. Newer homes call us for an addition or one circuit that won’t behave. Testing comes before any price, we’ll say if nothing needs replacing, and the scope and flat figure are signed before a wall is cut.',
-  emergencyParagraph:
-    'Smell burning at a switch or outlet, see a scorched plate, hear buzzing, or watch a breaker trip the second you reset it, and phone us. Unplug anything that shocked you. Flip that breaker off only with dry hands. Smoke or fire means getting out and calling 911. We arrive the same day on most calls, weekends too.',
   commonIntro:
     'In the ranches and two-stories that make up most of Edgewood, a rewire tends to begin with one of these.',
   localFaqs: [

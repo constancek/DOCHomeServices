@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'Western Hills is a name, not a town. It covers parts of Cincinnati, Cheviot and Green Township, and the houses are alike, mostly built from the 1940s through the 1960s; Census figures put the median at 1958 and 1962 for its two ZIP codes. Most got central air later, as a coil on the basement furnace and a condenser in the side or back yard, on ducts laid out for heat. You approve a flat price before work, and we say so if the AC needs nothing.',
-  emergencyParagraph:
-    'Around Western Hills, an AC quitting in a hot spell calls for a repair, not maintenance. If frost coats the copper lines, switch it off and wait for the melt. A burning smell, or a condenser humming with its fan stock-still, is a repair too. Older relatives and babies feel heat first. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'From Cheviot to Green Township, these are what usually bring owners in Western Hills to book a spring visit.',
   localFaqs: [

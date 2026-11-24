@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'Fan jobs come in two kinds in Oakley. Census figures put 2,923 of the 6,123 homes here before 1940, their plaster ceilings hiding a box sized for one bulb, not a spinning motor. At the other end sit 747 units in buildings of 50 or more and newer townhouses, where a tall living room can call for a down rod. We open the ceiling to check that box first, say so when a balance kit is the whole fix, and settle the price while the old fixture is still up.',
-  emergencyParagraph:
-    'Don’t wait on a fan swinging enough to clip the ceiling, a box sagging out of the plaster, smoke from the motor or a buzzing switch. If it’s safe, cut power at the switch or breaker and clear the floor below. If there’s fire or smoke, get out and dial 911. Most calls are seen the same day, weekends included.',
   commonIntro:
     'Pre-war bungalows and newer apartments sit a few streets apart here, and these four fan problems turn up in both kinds of home in Oakley.',
   localFaqs: [

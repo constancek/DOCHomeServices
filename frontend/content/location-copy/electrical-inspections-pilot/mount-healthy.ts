@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Half of Mount Healthy’s homes are rented, so landlords book many of our inspections, usually between tenants or ahead of a sale. Census figures put the median home at 1956, and close to three in ten predate 1940. In those pre-war houses we often meet ungrounded receptacles and circuits added one at a time over decades. The 1950s homes more often have small panels straining under central air and modern kitchens. Every finding goes on a written report with its own price.',
-  emergencyParagraph:
-    'Some calls shouldn’t be scheduled for next week: blackened or warm cover plates, crackling in a wall, a flash at the plug, a breaker that drops again right after reset, or lights that sag when the fridge starts. Kill that circuit. With smoke or fire, get out and ring 911. Most Mount Healthy calls get same-day help, weekends included.',
   commonIntro:
     'Mount Healthy calls come from pre-war houses, 1950s homes and apartment buildings. What we find most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'In Golf Manor, indoor air trouble usually begins one floor down. The housing is postwar, with a median home from 1954 by Census count, and roughly half of all households rent, often in doubles and four-unit buildings. Those 1950s basements hold summer damp, and aging ductwork lifts basement dust into the bedrooms and living rooms. Testing comes before any suggestion, and you’ll know the price before a tool comes out. When the only problem is a filter, we’ll say that plainly.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends everyone outdoors to dial 911. Gas in the air means walking out, lights untouched, and phoning the gas company from the curb. A scorched furnace smell means setting the thermostat to off. Mold racing across a wet wall is hardest on babies and asthmatic lungs. Most such calls get a same-day visit, weekends too.',
   commonIntro:
     'In the doubles, four-family buildings and single houses of Golf Manor, poor air usually announces itself in one of these ways:',
   localFaqs: [

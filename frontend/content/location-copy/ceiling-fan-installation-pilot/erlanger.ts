@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'Close to three in five homes in Erlanger were finished before 1980, Census figures show, with the median at 1976, and about a third came after 1990. The older houses have a lamp outlet in the bedroom ceiling on a thin box that was never sized for a spinning load, so a fan there will shimmy. Later subdivisions brought taller family rooms and back patios. We test the ceiling box before quoting, tell you if snugging it up will do, and agree the price while the old light still hangs.',
-  emergencyParagraph:
-    'Stop the fan when it rocks enough to pull at its canopy, gives off smoke or a hot smell, crackles at the switch or knocks out the breaker. If that’s safe, cut its circuit at the panel and keep everyone back. Fire or smoke means getting outdoors and phoning 911. We’re usually there that day, Saturdays and Sundays included.',
   commonIntro:
     'Bedrooms in mid-century houses and family rooms on newer streets bring most of our fan work in Erlanger.',
   localFaqs: [

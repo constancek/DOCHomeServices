@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Better than half of Mount Auburn was built in 1939 or earlier, Census figures show, and plenty of those Italianate and Second Empire houses have since been divided into flats. Cutting duct chases through their plaster means real demolition, so a ductless head on the wall is the gentler fix. Two units in three are rented, which hands the decision to the owner. Our flat price is on paper before the first hole, and if a mini-split is the wrong tool for the building, you’ll hear it from us.',
-  emergencyParagraph:
-    'In Mount Auburn, third-floor flats bake through July, which has a normal high of 86F, per the National Weather Service. That’s risky for a newborn, a grandparent or anyone with breathing trouble. We slot installs in fast; one head is normally a single day’s work. When an existing mini-split stops, book Mini-Split Repair, mostly same day, weekends included.',
   commonIntro:
     'Owners of the converted Victorians and newer apartment blocks in Mount Auburn tend to call us about these four things:',
   localFaqs: [

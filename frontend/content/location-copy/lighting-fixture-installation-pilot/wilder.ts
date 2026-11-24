@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'Wilder is mostly condos and apartments, with about six homes in ten in buildings of five units or more, and the Census dates its median home to 1992. That’s why a lot of our fixture calls here are for a bathroom vanity bar, a dining light in a townhouse or a kitchen fixture still holding its fluorescent tubes. Boxes from the late 1980s and 1990s are generally easy to get at and grounded. We check both anyway, then quote a price you agree to before the old fixture is unscrewed.',
-  emergencyParagraph:
-    'A fixture working loose from a condo ceiling, a switch plate that’s warm or buzzing, or a breaker that won’t hold with the light on should be handled today. Flip that breaker off if it’s safe to reach. If smoke shows up, leave, call 911 and warn your neighbors. Most calls get someone there the same day, weekends too.',
   commonIntro:
     'Around Wilder, condo owners and landlords ring us mostly about these.',
   localFaqs: [

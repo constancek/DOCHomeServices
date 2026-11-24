@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Nearly every AC tune-up in Camp Washington is booked by a landlord, because by Census figures about four in five homes here are rented and 88.9% were built in 1939 or earlier. Cooling reached those houses and doubles generations after the plaster dried. Ducts were squeezed through walls, blowers parked in attics or basement corners, and condensers jammed onto narrow side lots. Every owner sees a flat price before we start, and a system that needs nothing is reported as fine.',
-  emergencyParagraph:
-    'When a tenant has no cooling in a heat wave, the owner should book a repair, not a tune-up. Iced lines mean switching it off. Water through a ceiling or a breaker that trips twice means the system stays off. Older tenants, babies and anyone ill are most at risk. Same-day visits are usual, weekends too.',
   commonIntro:
     'For landlords with old houses and small buildings, these are the usual cues for a spring round in Camp Washington:',
   localFaqs: [

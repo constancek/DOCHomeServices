@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Kenwood is largely a 1960s and 70s place; Census figures give a median of 1967 and show over a fifth of homes inside condo or apartment buildings. Bedrooms from those decades were often lit by a lamp on a switched outlet, so plenty have no ceiling box, and the boxes that exist were sized for a fixture. Close to two households in five rent. Our first step is opening that box, and if your wobble is just loose blades, you hear that from us before any price.',
-  emergencyParagraph:
-    'Stop the fan now if it is thrashing, if the canopy has dropped, or if the motor gives off a hot plastic smell. Flip the wall switch or breaker if that’s safe, and move everyone out from underneath. Smoke or flame means leaving and calling 911. Our trucks run same day on most calls, weekends included.',
   commonIntro:
     'Fixture boxes from the 1960s and rooms that never had a ceiling light shape most fan calls in Kenwood.',
   localFaqs: [

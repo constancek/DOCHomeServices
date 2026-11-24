@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'In Hyde Park, the question with any fan is what’s hiding above the plaster. About half the housing predates 1940 by Census figures, back when a bedroom got a single fixture on a shallow box that was never meant to hold a spinning motor. A third of the units are in buildings of five or more apartments, where the owner makes the call. We open the box before quoting, tell you when a wobble needs nothing beyond rebalancing, and set a price before the old fixture is unscrewed.',
-  emergencyParagraph:
-    'Shut a fan down if it sways hard, its canopy is peeling off the plaster, the motor smells hot, or the switch plate crackles. Kill its circuit at the switch or the breaker, provided nobody has to stand beneath it. Flames or smoke mean everyone goes outdoors before anyone dials 911. We usually arrive the same day, weekends included.',
   commonIntro:
     'From the old single houses to the apartment buildings, these four fan problems bring us out most in Hyde Park.',
   localFaqs: [

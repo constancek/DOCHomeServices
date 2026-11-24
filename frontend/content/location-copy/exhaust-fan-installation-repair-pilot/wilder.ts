@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'Only 608 of the 1,649 homes in Wilder are detached houses, by Census figures. The rest are mostly condos and apartments in larger buildings, most put up after 1980, with 1992 as the typical year. So bathrooms here have fans, but often small builder ones, and in stacked buildings a duct can end in a chase or ceiling cavity instead of outdoors. Most units are owner-occupied, condos included. We find where the exhaust really goes and set the price before cutting drywall.',
-  emergencyParagraph:
-    'Sparks, smoke, a burning smell or a scorched, melted housing make a fan urgent. So do a breaker that trips with it and water from the grille, which in a condo may start upstairs. Switch it off at the breaker if that’s safe; with smoke or fire, leave and dial 911. Most calls are same day, weekends included.',
   commonIntro:
     'Between the condo buildings off Licking Pike and the houses on the side streets, these come up most in Wilder:',
   localFaqs: [

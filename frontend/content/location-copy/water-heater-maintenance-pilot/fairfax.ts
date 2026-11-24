@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Fairfax is a village of old basements. Census figures show 46.5% of houses built before 1940 and a median of 1942, with gas heat in most of them. So the heater we’re servicing usually sits on a basement floor beside a vent connector that has seen decades of exhaust, a gas cock of uncertain age, and a drain spigot that may not have turned since it was fitted. The visit costs a fixed amount you agree to first, and if the tank isn’t worth the money, we’ll say so.',
-  emergencyParagraph:
-    'If the floor is wet because the tank is leaking, that’s a repair call: shut its cold inlet, then the gas or breaker. A gas smell sends everyone outside, with no switches flipped, to call the gas company. A carbon monoxide alarm does the same, people first. Those calls get same-day help most times, weekend or not.',
   commonIntro:
     'Homeowners in Fairfax most often book a service after noticing:',
   localFaqs: [

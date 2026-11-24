@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Deer Park is mostly 1940s and 1950s houses with some older ones mixed in; by Census figures the median home was built in 1947. None had central air when new. It came later, usually as a coil set on the basement furnace, pushing cold air through ducts that were sized for heat. That’s why so many second floors here lag. A tune-up looks hard at that coil, its drain and the condenser outside. You get the price before we begin, and if the AC needs nothing, we tell you.',
-  emergencyParagraph:
-    'Ring us for a repair, not this tune-up, when the rooms won’t cool during a heat wave. Frost or ice along the copper running to the condenser means flip the thermostat to off until it clears. Any burning odor means the system stays off. Grandparents and newborns struggle soonest. We reach most calls the same day, weekends too.',
   commonIntro:
     'In Deer Park, owners usually book a spring visit after one of these.',
   localFaqs: [

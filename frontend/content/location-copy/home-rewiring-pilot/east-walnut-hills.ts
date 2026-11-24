@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Grounding is usually what’s missing in the large older houses around Woodburn Avenue. Close to half the homes here predate 1940, Census figures show, and a house that age may still carry knob-and-tube or cloth wire behind two-slot receptacles. The condo towers along Madison Road came later, and their complaint tends to be a remodeled kitchen hanging on too few circuits. We meter everything first, say so honestly if it’s fine, and settle a signed scope and fixed price before any plaster is touched.',
-  emergencyParagraph:
-    'A receptacle smelling like hot plastic, a blackened switch, sparks, a hum inside the wall or a breaker that won’t hold after one reset means call us today. If you can reach the panel without touching anything wet or warm, turn that breaker off. If there’s smoke, leave and call 911. We usually come the same day, weekends included.',
   commonIntro:
     'Between the old houses near DeSales Corner and the condos on Madison Road, these are the warnings we see most.',
   localFaqs: [

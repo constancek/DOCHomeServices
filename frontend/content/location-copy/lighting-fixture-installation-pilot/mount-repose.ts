@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Many owners in Mount Repose call because the original fixtures from the 1970s are still up and they want LED lights. The job depends on the box, the ground and whether each light goes where an old one was. Census figures put the median home at 1978, and most houses are detached and owner-occupied, so boxes are usually sound and grounded, with one ceiling light per room and plain hallways. We check the box and wiring, and you get a price before the old fixture comes down.',
-  emergencyParagraph:
-    'A fixture swinging on its wires, a socket ringed with melted plastic, or a breaker that pops at the switch can’t wait. Shut off that circuit if the panel is reachable, and keep everyone from below it. Smoke or flame means everyone out and a 911 call. We usually reach SR 28 addresses the same day, weekends too.',
   commonIntro:
     'In Mount Repose, these light fixture jobs are the ones we see most.',
   localFaqs: [

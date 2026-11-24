@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'In Kenwood, the 1960s and 1970s dominate. Census counts put its median home at 1967, with nearly half built across those two decades, and breaker boxes from that stretch are usually stuffed by now after years of add-ons. Nearly four in ten households rent, many in condo or apartment buildings. So the first job is opening the panel and doing a load calculation. You’ll hear if a slow cord is all your driving needs, and the price is settled before work starts.',
-  emergencyParagraph:
-    'When the breaker trips the moment the car starts charging, or the receptacle behind a Level 1 cord feels warm, quit charging. A melted plug or a burning smell means cutting that circuit at the panel, if you can do it dry and safely. Call 911 for smoke or fire. Our same-day visits cover most calls around Kenwood, weekends included.',
   commonIntro:
     'With houses from the 1960s and 1970s alongside condos and apartments in Kenwood, these four come up most.',
   localFaqs: [

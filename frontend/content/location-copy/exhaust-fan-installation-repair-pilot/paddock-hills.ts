@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'In Paddock Hills, the Dutch Colonial, Tudor and bungalow houses often date from before bath fans were common, so many bathrooms either have no fan or one added later and ducted into the attic. Census figures for the wider area, apartments included, put the typical home at 1951, with a large share from the 1960s and 1970s. Those newer units usually have fans that are too small for the room. No ceiling gets opened until we’ve checked the airflow and you’ve seen the price.',
-  emergencyParagraph:
-    'A scorched odor, a cover that’s blistered or sagging, sparks, smoke, a breaker that won’t hold, or a drip through the grille all deserve a call. First cut the circuit at the panel if reaching it is safe. With smoke or fire, everyone leaves and someone rings 911. Most calls in Paddock Hills see us the same day, weekends too.',
   commonIntro:
     'Around Paddock Road, in the older houses and the apartment buildings alike, we see these signs most:',
   localFaqs: [

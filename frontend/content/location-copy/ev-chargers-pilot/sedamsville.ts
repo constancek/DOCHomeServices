@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'In Sedamsville, nearly three in four homes were built in 1939 or earlier, according to Census figures, many of them worker cottages and two-family houses on the hill above River Road. Two in three are rented, so the owner has the final word. A few cottages gained new panels during rehabs, and the rest may still be on the modest service they started with. We open the panel, add up the load, tell you if the car’s own cord is enough, and fix the price first.',
-  emergencyParagraph:
-    'Stop charging if the outlet or wall unit is too hot to hold, the plug has burn marks, or the air smells scorched. A breaker dropping on each charge counts too. Touch the panel only with dry hands, and never if it’s warm. With smoke or flame, leave and phone 911 from outside. Most calls get same-day help, weekends included.',
   commonIntro:
     'Between the cottages, the two-family houses and the small apartment buildings along River Road, these are the four charging calls we hear most.',
   localFaqs: [

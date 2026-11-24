@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'In North College Hill, a good share of our cans end up in basements being turned into family rooms. Census figures put the median home at 1952, with about half the houses built from 1940 through 1959, so most are detached postwar homes with a cellar below and a crawlable attic over the bedrooms. The quarter dating from before 1940 can mean plaster and one lonely ceiling light per room. We check the joists and the circuit, then chalk the layout and settle a number before cutting.',
-  emergencyParagraph:
-    'Don’t sit on a can that smells overheated, has yellowed or browned the ceiling around its rim, or blinks out and returns on its own. Turn its breaker off if you can do it safely. For smoke or flames, get everyone out and call 911. We come same day on most calls, weekends included.',
   commonIntro:
     'In the postwar houses along Galbraith and Simpson, and the older homes tucked between, these are the recessed lighting jobs we see most in North College Hill.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Beckett Ridge was laid out as a planned community in the 1970s, and its Census median year is 1990, with most homes going up in the two decades after. Panels from that stretch usually have a slot free. The catch is winter, since about half the homes run on electric heat, and a heat pump working hard in January leaves less margin. One home in four is a condo or townhome. We check the panel and the load, say if your cord suffices, and price it first.',
-  emergencyParagraph:
-    'Leave the charger alone if its housing or plug is hot, the outlet behind a slow cord has browned, or something smells burnt. Keep the circuit off if its breaker drops whenever charging starts. Shut it off only while dry. With smoke or fire, get out and dial 911. We come the same day on most calls, weekends included.',
   commonIntro:
     'Houses from the 1980s and 90s, plenty of electric heat and a share of condos make for a distinct mix of charger requests in Beckett Ridge, mostly these:',
   localFaqs: [

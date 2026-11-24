@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'For a whole-home surge protector, the houses in Mason are mostly about what they hold. The median home dates from 1996, Census figures show, and more than half were built between 1990 and 2009, so central air, a gas furnace or heat pump and a kitchen full of control boards are standard. Many of those original systems are being replaced now. A finished basement can box in the panel, which is one reason we look at it first. We’ll say when strips are plenty and price it before starting.',
-  emergencyParagraph:
-    'If an outlet looks charred after a storm, or the basement panel gives off a hot plastic smell, that’s a same-day call for us most of the time, weekends included. A breaker that won’t stay on, or a dryer that threw sparks, is the same. Leave the breaker alone unless you’re dry. Smoke or flames mean leave and phone 911.',
   commonIntro:
     'Subdivisions near Kings Island and along Tylersville Road raise the same four surge questions again and again.',
   localFaqs: [

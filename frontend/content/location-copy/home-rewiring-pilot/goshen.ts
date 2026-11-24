@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Close to the Route 28 crossroads in Goshen, roughly one house in three predates 1940 by Census figures. Places that old can still hold knob-and-tube or cloth-jacketed cable with no grounding conductor anywhere. Farther out in the township the houses are mostly far younger, and they tend to need a circuit for an addition or a fix for one line that keeps quitting. We put a tester on everything before making a case for work, tell you if the wiring passes, and fix the plan and price in writing first.',
-  emergencyParagraph:
-    'A melting-plastic smell from a wall, a hot or tan cover plate, crackling at a plug, a jolt off a lamp, or a breaker that clicks back out as you reset it can’t wait. Most such calls get a truck that day, weekends too. Throw the breaker only with dry feet. With smoke, get out and call 911.',
   commonIntro:
     'Old houses near the center and newer ones across the township both show up in Goshen, and wiring trouble in either tends to look like this:',
   localFaqs: [

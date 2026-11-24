@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Cold Spring is young housing. Census figures put the median home at 1999, with 47.5% built since 2000, so most visits are a straight service on a tank that has room around it and modern fittings. Townhouses, close to a quarter of homes, are the exception: their heaters tend to live in a narrow utility closet where reaching the drain valve takes the most time. Either way, the price is agreed before work, and if we think a tank isn’t worth servicing, you’ll hear that from us.',
-  emergencyParagraph:
-    'Repair, not maintenance, in Cold Spring: a tank puddling (spin its cold valve shut, then gas or power), a gas smell (everyone out, switches and pilot untouched, gas company called from the yard), a carbon monoxide alarm (outdoors at once), a relief valve that won’t settle, or no hot water. Same-day on most calls, weekends included.',
   commonIntro:
     'Even a heater from the 2000s in Cold Spring wears its anode and gathers sediment. These usually get the call made:',
   localFaqs: [

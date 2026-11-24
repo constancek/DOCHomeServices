@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'East Walnut Hills inspections usually split two ways: big houses from around 1900, and mid-century apartment and condo buildings. Census figures put 49.3% of homes at 1939 or earlier, and in those we look for knob-and-tube or cloth wire, ungrounded outlets and panels added over older fuse boxes. The mid-century condo and apartment buildings tend to have panels sized for fewer appliances than people own now. We check the whole system, write up each finding and price any repair before work goes ahead.',
-  emergencyParagraph:
-    'Call us now, not next week, if an East Walnut Hills home has a burning smell, a hot or scorched dimmer, crackling in a wall box, or a breaker that won’t reset. Switch that circuit off at the panel. Smoke or fire means leaving the house and calling 911. Most calls get a technician that day, weekends included.',
   commonIntro:
     'Around DeSales Corner, large old houses sit near condo buildings of twenty units and up. What we find most often:',
   localFaqs: [

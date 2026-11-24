@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'In Bond Hill, most surge protector work starts with an old panel. The Census shows close to three in four homes went up before 1960 and nearly half before 1940, including the Tudor Revival houses on Bella Vista Street. Panels in houses that age are often undersized or stuffed, so where a protector fits is the first thing we settle. Almost half of homes are rented, many of them doubles, so owners decide. We look first, tell you if strips will do, and fix the price before any work.',
-  emergencyParagraph:
-    'If there’s smoke or flame, get everyone out and call 911. Otherwise, call us for a blackened receptacle, a breaker that won’t latch, or a TV that popped as power came back, usually that same day, Saturday and Sunday too. Lights pulsing everywhere go to Duke Energy Ohio first. Only throw a breaker with dry hands.',
   commonIntro:
     'From the doubles near Reading Road to the pre-war singles off Paddock Road, the same warning signs keep turning up in Bond Hill.',
   localFaqs: [

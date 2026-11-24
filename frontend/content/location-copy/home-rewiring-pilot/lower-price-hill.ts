@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Rewiring in Lower Price Hill means buildings from the 1850s onward, and most are rented. Census figures put roughly two out of three before 1940, a lot of them two-families and small apartment houses on State Avenue and West Eighth Street. At that age some may still have knob-and-tube or cloth-wrapped wire, no ground, and two-slot outlets in unit after unit. We test before quoting, tell the owner when the wiring holds up, and put a written scope and flat price down before any plaster is opened.',
-  emergencyParagraph:
-    'An outlet with black marks, a hot switch, a burning smell or a shock from a fixture needs an electrician that day. Tenants can flip the circuit off at the panel if they’re dry and it’s safe, then phone the landlord. Smoke or fire means leaving the building and calling 911. Owners get same-day service on most calls, weekends included.',
   commonIntro:
     'Across the rented flats and old rowhouses of Lower Price Hill, these warnings come up most.',
   localFaqs: [

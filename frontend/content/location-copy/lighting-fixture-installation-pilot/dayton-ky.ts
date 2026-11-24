@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Nearly half of Dayton’s homes went up before 1940, Census figures show, and that sets the terms for most light fixture work in this river city. Behind the old plaster you often find a shallow box held by lath, no ground, and a fixture heavier than its mount was ever meant for. Buildings from 2000 on are another story, with grounded boxes and easy ceilings. About four in ten homes are rented. We open the box first, then quote one price before the old light is lowered.',
-  emergencyParagraph:
-    'Call us that day if cracks spread around a light in Dayton, a switch smells burnt or a breaker trips with one light on. Shut the circuit at the panel if safe, and keep the floor under it clear. If there is smoke or fire, get onto the street and ring 911. Most callers see us that day, weekends too.',
   commonIntro:
     'Owners and landlords in Dayton call us most for these.',
   localFaqs: [

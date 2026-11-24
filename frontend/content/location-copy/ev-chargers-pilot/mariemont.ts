@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was laid out by John Nolen for Mary Emery in the 1920s, and Census figures show more than six in ten of its homes went up before 1950. Many of those still run on a modest original service with little slack for a 240-volt line. Its seven local historic districts mean we check with the village before a charger goes on an outside wall. We look in the panel and work through a load calculation first, mention it if the car’s cord is enough, and fix the price.',
-  emergencyParagraph:
-    'If the charger, its plug or the receptacle feels hot, looks charred or is melting, stop the session. A scorched smell mid-charge gets the same response. Cut that circuit only from dry footing with nothing warm in reach. Smoke or fire is a 911 call, made from the sidewalk. We’re out the same day on most calls, weekends too.',
   commonIntro:
     'Across Nolen’s planned village, where most houses date from the 1920s to the 1940s, these four requests account for most of our charger calls in Mariemont:',
   localFaqs: [

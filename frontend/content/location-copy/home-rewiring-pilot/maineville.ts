@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Most houses in Maineville are too new to need rewiring. Census figures put the median at 2004, and only a small share predate 1980. What brings us out is usually an addition, a basement finish, a kitchen remodel or a circuit that keeps tripping, often in a home heated by electricity that carries a heavy winter load. The few older houses may still have original wiring worth testing. We test first, tell you if it’s sound, and write the scope and flat price down before a wall is opened.',
-  emergencyParagraph:
-    'Even newer wiring can let you down. A burning smell at a wall or outlet, a hot or scorched switch plate, sparking, buzzing or a shock from an appliance is a reason to call. Flip that circuit off at the panel if you safely can. For smoke or fire, leave and call 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'In the newer subdivisions and the handful of older houses in Maineville, these are the signs we hear about.',
   localFaqs: [

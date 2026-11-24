@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Renters fill Miamitown: 80.3% of homes are rented, by Census figures, and most sit in apartment buildings, so the person booking a tune-up is usually a landlord or manager for several units. Roughly two in three homes heat with electricity, a figure that includes heat pumps and baseboard, so we sort out each unit’s system up front. Buildings from before 1940 may have a gas furnace in a basement, and that gets a slower look. Prices are flat and agreed first; a unit that needs nothing is left alone.',
-  emergencyParagraph:
-    'In Miamitown, many older residents live alone, and they, babies and anyone ill are hit first. No heat, a yellow wavering flame or a furnace cycling without pause is a repair. For a gas smell, leave, no switches, don’t relight, and phone the gas company outside. Carbon monoxide alarm: everyone out. Same day on most, weekends included.',
   commonIntro:
     'In Miamitown, most furnaces we see belong to landlords with apartment buildings. These are the usual reasons a manager books a fall round:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'At first glance, Landen is an easy place to add a spa. Census figures put the median year built at 1985, though nearly nine homes in ten heat with electricity, so the panel already shoulders a heavy winter load. A free slot for the breaker is common. Spare headroom is the real question, and we answer it first. After that it’s the tub’s location, the conduit distance, and a 240-volt GFCI circuit with a shutoff and bonding. You see a price before any trench is cut.',
-  emergencyParagraph:
-    'When a spa GFCI or breaker kicks off the second it’s reset, or someone feels a tingle from the water, close the tub. A buzzing panel is just as urgent. Get everyone out, pull the shutoff only if that’s safe, and call 911 for smoke or fire. Same-day visits are what most callers get, weekends included.',
   commonIntro: 'Around Landen, these four bring most of the spa calls.',
   localFaqs: [
     {

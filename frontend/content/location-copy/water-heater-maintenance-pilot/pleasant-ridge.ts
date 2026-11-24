@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'Pleasant Ridge runs to pre-war houses and two-families, and our water heater work here starts in basements. Census figures count 53.8% of homes from 1939 or earlier, and renters fill 45.0% of households. Off Ridge Avenue that tends to mean a cellar tank tied to an old flue connector, a drain spigot stuck in place and gas piping worth checking, sometimes two heaters next to each other, one per unit. You get a flat price before anything is touched, and a plain answer if a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Water under the heater means repair: spin its cold feed shut, then put the gas knob on off or kill its circuit. Same for a relief valve that won’t stop venting, or no hot water. Gas odor: go, leave the lights, ring the gas company outside. Carbon monoxide alarm: household out first. Same-day service on most calls, weekends included.',
   commonIntro:
     'Pre-war basements and two-families around Ridge Avenue tend to show these first:',
   localFaqs: [

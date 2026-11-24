@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'In Mount Auburn, housing splits by age. By Census figures more than half its homes went up in 1939 or earlier, many now split into apartments, and those leak drafts, trap cellar damp and push dust through ducts squeezed in long after construction. Roughly one unit in five dates from 2010 or later, and those sealed-up buildings trap cooking odor and stale air. Renters report; owners decide. We read the air before any proposal, give a flat price up front, and say so when a new filter is enough.',
-  emergencyParagraph:
-    'A shrieking carbon monoxide detector means clearing the building, then dialing 911. If the hallway smells of sulfur, leave without touching a light and ring Duke Energy outdoors. Scorched registers mean switching off at the thermostat. Mold climbing plaster after a leak is urgent for babies, grandparents and anyone with asthma. Most get same-day help, weekends too.',
   commonIntro:
     'From converted Victorians to larger new buildings in Mount Auburn, the complaints we hear tend to run like this.',
   localFaqs: [

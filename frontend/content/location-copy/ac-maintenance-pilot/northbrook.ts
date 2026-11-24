@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Northbrook, in Colerain Township, was mostly built in the 1960s and 1970s; Census figures put the median house at 1970. Houses from that era usually had ductwork from the start, so a tune-up here is mostly routine work on a condenser by the patio and a coil over the furnace. The apartment buildings are booked through their managers. We still check how well air reaches the end rooms. You agree to a flat price first, and a healthy AC gets left as is.',
-  emergencyParagraph:
-    'Book a repair instead of a tune-up when the AC gives out in a heat wave or the ceiling under a unit starts dripping. If something smells burnt, or a breaker trips again, keep the system off. Babies, older relatives and the sick are hit first by heat. Same-day help is the norm on most calls, weekends included.',
   commonIntro:
     'Across the 1960s and 1970s streets of Northbrook, a spring tune-up usually starts with one of these.',
   localFaqs: [

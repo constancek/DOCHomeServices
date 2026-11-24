@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Housing in Covington is far older than in the rest of Kenton County, and the air shows it. Census figures count 9,268 of 21,048 homes built in 1939 or before, with the median at 1947. Brick houses that old leak at every sash, hold river-valley damp in their cellars, and blow grit through ductwork retrofitted long after the plaster cured. Nearly half the households rent, so owners approve much of our work. We measure before quoting, fix the price, and admit it when a fresh filter is enough.',
-  emergencyParagraph:
-    'Should the carbon monoxide alarm sound, empty the house and phone 911 once outdoors. If you smell gas, walk out without touching switches and ring Duke Energy outside. Kill a furnace or AC that smells singed at the thermostat. Mold spreading after a flood or leak threatens asthmatics, infants and grandparents first. Most calls are same day, weekends too.',
   commonIntro:
     'From the narrow row streets by the floodwall to the bigger apartment buildings inland, four complaints dominate.',
   localFaqs: [

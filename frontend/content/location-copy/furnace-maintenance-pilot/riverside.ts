@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Housing in Riverside is newer than in Sedamsville next door. By Census figures half its homes went up between 1970 and 1999, and 61.2% are rented, many in apartment buildings where the furnace sits in a closet and the owner books the visit. Gas and electricity split the heating evenly, and electric heat here can mean a furnace, a heat pump or baseboard. For a newer furnace the visit is filters, blower, burner and safety controls. We price it first, and if your furnace needs nothing, you’ll hear that.',
-  emergencyParagraph:
-    'In Riverside, gas odor sends you outdoors without touching a light switch or pilot; ring the gas company once you’re out. A carbon monoxide alarm means nobody stays inside. A sooty yellow flame, or any furnace that floodwater touched, gets a repair visit, as does a cold unit with babies or older relatives. Most get same-day help, weekends too.',
   commonIntro: 'These are what tend to prompt a fall booking in Riverside, in apartments and houses alike:',
   localFaqs: [
     {
@@ -28,7 +26,7 @@ export const riverside: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What Furnace Maintenance Includes in Riverside',
-        body: 'Closet furnaces are common in Riverside’s apartment buildings, and they leave little elbow room, so we work methodically. Out comes the filter, replaced if it’s caked. We reach the blower to clean the wheel and check the motor, then run the thermostat up and down to prove the controls. Wiring gets tightened, and the limit switch, pressure switch and flame sensor must each trip or read as designed. On gas units, we watch ignition, judge the flame, look the heat exchanger over for cracks and follow the vent to where it leaves the building. A full cycle closes the visit. Every fix is quoted, and approval comes before parts.',
+        body: 'In Riverside, plenty of apartment furnaces sit in a closet with barely room to kneel. The filter comes out first and gets swapped if it’s caked. We brush the blower wheel, listen to the motor and cycle the thermostat to prove the controls. We snug up the wiring and make the limit switch, pressure switch and flame sensor each trip or read as designed. On a gas unit, we watch it light, judge the flame, inspect the heat exchanger for cracks and trace the vent out of the building. One full cycle finishes it. Every fix is quoted, and approval comes before parts.',
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
@@ -36,7 +34,7 @@ export const riverside: LocationServiceCopy = {
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Riverside',
-        body: 'Riverside is close to an even split between gas and electric heat, with a few homes on oil. Gas furnaces get the ignition sequence watched, the flame sensor cleaned, the supply fitting leak-tested, and the heat exchanger and vent pipe inspected. On an electric furnace we meter each element, test sequencers and wiring, and measure airflow. Some electric heat here is a heat pump or baseboard; heat pumps and boilers are separate services.',
+        body: 'Heating in Riverside runs about half gas and half electric, and a few still burn oil. With a gas furnace, we light it off and watch the sequence, polish the flame sensor, leak-check the fitting at the gas line, and look into the heat exchanger and up the vent. An electric furnace means a meter on every element, then the sequencers, wiring and airflow. Electric heat here can also be a heat pump or baseboard, which have their own service.',
       },
     ],
     whyTitle: 'Why Landlords and Residents in Riverside Book Furnace Maintenance With Us',

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Every home in Day Heights is a detached single-family house, by Census figures, and the typical one dates to 1969. If the bathroom of a house that age has a fan, it’s probably the one the builder put in, small, noisy, and sometimes ducted no farther than the attic. Basement baths added in later decades often got a weak fan or nothing. We see where the duct really goes and give you a price before a saw touches drywall.',
-  emergencyParagraph:
-    'When a fan gives off a burnt odor, spits sparks, smokes, or its housing has browned from heat, switch off its circuit at the panel or flip the wall switch, as long as you can reach either without danger. If flames or smoke appear, leave the house and phone 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Day Heights sits on the hill east of Milford, and the houses up here share a few fan complaints.',
   localFaqs: [

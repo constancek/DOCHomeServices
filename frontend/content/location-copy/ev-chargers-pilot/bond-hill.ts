@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Close to half of the housing in Bond Hill was built before 1940, by Census count, and an original small service in a house that age may barely have room for a 240-volt line. Plenty of the other buildings are doubles or three- and four-family places, so the question is often which unit’s panel would feed a charger. We open that panel and work through the load before any talk of hardware, point out when the cord in the trunk is enough, and fix a price up front.',
-  emergencyParagraph:
-    'Stop charging tonight if a plug is melting or discolored, a receptacle is warm, or a Level 1 cord runs through an extension cord. Kill that circuit at the panel only if the floor is dry and nothing you’d touch is hot. With fire or smoke, get clear and call 911. Expect same-day help on most calls, weekends too.',
   commonIntro:
     'Here are the charger requests we see most often in Bond Hill, across pre-war houses, doubles and newer infill.',
   localFaqs: [

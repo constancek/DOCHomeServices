@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'By Census figures, 53.4% of houses in Glendale were built in 1939 or earlier, and the historic district is full of Italianate and Second Empire homes with tall ceilings, plaster walls and no natural path for ducts. A ductless head cools those rooms through one small wall opening instead of chases cut through original trim. Newer houses in the village mostly need a head for a sunroom or addition. Every quote is a flat price set before work, and we’ll tell you when ductless is the wrong move.',
-  emergencyParagraph:
-    'Roughly 21 days a year climb to 90F or higher, according to the National Weather Service, and an old upper floor soaks up that heat. Aging parents, infants and anyone chronically ill are most vulnerable. We line up installs quickly; single-zone is generally a one-day job. A stopped mini-split gets Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'Among the nineteenth-century houses and the newer streets of Glendale, these are the situations that usually lead to a ductless install:',
   localFaqs: [

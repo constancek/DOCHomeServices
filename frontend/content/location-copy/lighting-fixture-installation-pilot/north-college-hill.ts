@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Owners in North College Hill often ask us about a dark hallway lit by one small glass bowl near the bathroom door, and brightening it depends on that box, its ground and how far new cable would have to travel. Half the houses off Galbraith Road and Simpson Avenue went up between 1940 and 1959, Census numbers show, with a median of 1952. Post-war builders gave most rooms one ceiling light, and a few older ceilings carry no ground. We inspect, then fix the price before touching the bowl.',
-  emergencyParagraph:
-    'A switch plate that feels warm, a bowl fixture leaning off its screws, or a breaker kicking out each time the hall light comes on needs us soon. Shut off that breaker if nothing blocks the panel, and steer people away from the hallway. Smoke or flame means leaving and phoning 911. Same-day help covers most calls, weekends included.',
   commonIntro:
     'Brick and frame post-war houses packed into a small city, many of them rented, set up most of our fixture work in North College Hill.',
   localFaqs: [

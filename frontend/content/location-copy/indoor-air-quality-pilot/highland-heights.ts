@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'In Highland Heights, apartment buildings and houses from the 1980s and 1990s make up most of the housing. Census figures place nearly half the homes in buildings with five or more units, and the median home is from 1985. The houses were built tight enough to keep stale air and cooking fumes in, and most run on electric heat, which leaves winter air parched. In apartment buildings, equipment calls belong to the owner or manager. We test, then price, and if a new filter is the cure, you’ll hear it.',
-  emergencyParagraph:
-    'Clear the house at the first carbon monoxide alarm and dial 911 outside. With a gas smell, get out without flipping switches and contact the gas company. Turn off a heat pump or AC that smells burnt, using the thermostat. Spreading mold after a leak is hardest on babies and asthma sufferers. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'In apartments and 1980s houses across Highland Heights, we see poor air show up in these ways:',
   localFaqs: [

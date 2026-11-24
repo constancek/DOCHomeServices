@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'Landlords book most of the AC maintenance we do in CUF, since 84.5% of homes here are rented, by Census figures. And 42.3% of the housing predates 1940, which means central air arrived as a retrofit; we find air handlers jammed under attic rafters or in a cellar corner, with duct runs snaking between plaster walls. The 1970s apartment buildings are tidier jobs. Each unit gets a fixed price before we open a panel, and units that need nothing are left as they are.',
-  emergencyParagraph:
-    'An apartment with no cooling in a heat wave, or water coming through a ceiling, needs a repair visit instead of a tune-up. With ice on the lines, switch the thermostat off until it melts. Tenants should tell the landlord in writing; elderly or sick tenants shouldn’t wait. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In CUF, property owners usually put a spring service on the books for one of these reasons.',
   localFaqs: [

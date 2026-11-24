@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Nearly nine in ten homes in Pleasant Run are single-family, and Census figures put the median one at 1974, with nothing standing from before 1940. So a ductless head here tends to fill a gap the original ducts left: a room addition, a basement finished after move-in, a sunroom, or a garage that became an office. Owners occupy 86.1% of homes, so the decision is usually yours. We fix the price on paper before any drilling, and if your central air only needs a repair, we’ll say that instead.',
-  emergencyParagraph:
-    'On a July afternoon, a sunroom in Pleasant Run can blow past the 86F normal high the National Weather Service lists. Elderly relatives, infants and anyone ill take it hardest. Installs get scheduled quickly, and a single head is usually a day’s job. Book Mini-Split Repair for a mini-split that stopped, same day on most calls, weekends included.',
   commonIntro:
     'In Pleasant Run, ductless calls usually start in rooms like these:',
   localFaqs: [

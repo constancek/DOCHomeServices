@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Kitchen counters are where most recessed lighting jobs start in Ross, since a ranch built along Hamilton Cleves Road in the 1970s seldom gave them decent light. Census figures show a median year built of 1972, with almost half the houses dating from the 1960s and 1970s and about 82 in 100 standing on their own lots. Those homes typically carry an attic over the main floor and a lower level finished later, so cabling each light is usually manageable. Your price and layout are settled before any cut.',
-  emergencyParagraph:
-    'If the switch for your cans crackles or feels warm, a breaker drops each time they turn on, or water shows around a fixture, deal with it today. Shut that breaker off when the panel is safe to approach. With smoke or flames, leave and call 911. Most calls out to Ross get a visit the same day, weekends included.',
   commonIntro:
     'Around Ross Township, most of the recessed lights we put in go into 1960s and 1970s family houses, in rooms such as these.',
   localFaqs: [

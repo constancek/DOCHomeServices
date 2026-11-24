@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Columbia-Tusculum was settled in 1788, before Cincinnati, and many of its houses are old. Census figures put the median home in the surrounding area at 1942, with 922 of 1,940 built in 1939 or earlier. Older houses on the hills let drafts through and carry dust in tired ducts, while the low ground around Delta Avenue has seen flash floods and sewer backups that leave basements damp and mold-prone. We test first, set a flat price before work, and tell you straight when a new filter is enough.',
-  emergencyParagraph:
-    'The moment a carbon monoxide detector wails, get everyone outside and dial 911. If you smell gas, leave without touching lights and phone Duke Energy outdoors. Shut down a furnace or AC that smells singed at the thermostat. Mold climbing walls after a backup threatens asthmatics, infants and grandparents. Expect us same day on most calls, weekends too.',
   commonIntro:
     'On the hillside streets and down in the low blocks near Delta Avenue, these four come up most.',
   localFaqs: [

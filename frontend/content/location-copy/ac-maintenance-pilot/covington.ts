@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Housing in Covington is old, and that shapes every AC tune-up here. By Census figures 44.0% of homes went up in 1939 or earlier, decades before anyone expected cooling, so the air handler was later hoisted into an attic or tucked under basement stairs, and the condenser found whatever patch of ground was left behind a narrow house. With 48.2% of homes rented, landlords book a good share of visits. You get the price before the work, and a system in good order gets a clean bill.',
-  emergencyParagraph:
-    'An AC that quits during a heat wave, or a brown water ring spreading on a bedroom ceiling below the attic unit, needs a repair visit. If the copper lines grow frost, flip the thermostat to off. Elderly neighbors, infants and anyone sick are in the most danger. Most calls get a technician that same day, weekends too.',
   commonIntro:
     'In older houses and rentals in Covington, these are what most often lead to a spring visit.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross is a place of detached family houses, about half of them built between 1960 and 1979, and the air inside reflects that age. Ducts from that era often leak at the joints and pull dust from basements and crawlspaces. Census figures show roughly one home in seven still heats with fuel oil, which is high for the area, so we check for odors around the burner too. Our test comes first, a flat price follows for each fix, and if a clean filter solves it, we say so.',
-  emergencyParagraph:
-    'Get everyone outside first if the carbon monoxide alarm goes off, then call 911. For a gas smell, leave without touching switches and call the gas company from the yard. Shut the system off at the thermostat if it smells of burning. Babies, older relatives and anyone with asthma are most at risk. Same day on most calls, weekends included.',
   commonIntro:
     'Around Hamilton Cleves Road and the older streets of Ross, these are the problems homeowners describe to us:',
   localFaqs: [

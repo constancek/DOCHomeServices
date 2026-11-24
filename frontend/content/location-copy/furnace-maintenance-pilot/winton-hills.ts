@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Winton Hills is rented, 97.0% by Census figures, and much of it is housing authority property at Winton Terrace and Findlater Gardens, where furnace upkeep runs through management. So our work here is mostly for owners of detached houses and two-family buildings. Electricity heats 58.4% of homes, a count that also takes in heat pumps and baseboard, so we confirm the system before quoting. The price is set before we start, and we’ll say so if a furnace needs nothing.',
-  emergencyParagraph:
-    'Tenants: these go to management. Owners: book a repair. A gas smell means out the door, no switches, no relighting, and call the gas company from outside. A carbon monoxide alarm means everybody out. A stone-cold unit in a freeze, endless restarts, a yellow flame. Small children and older neighbors can’t wait; most calls are same day, weekends too.',
   commonIntro:
     'Owners of houses and doubles book a fall visit in Winton Hills after one of these:',
   localFaqs: [

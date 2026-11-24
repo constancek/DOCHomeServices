@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'In Lakeside Park, we mostly trade out the frosted flush mounts that came with mid-century ranches on the quiet streets off Buttermilk Pike. Census tallies set the median home at 1964, yet roughly one house in six went up by 1939, and those can hide plaster, a skimpy box and no ground. The ranches are usually more forgiving. Most households own rather than rent. Our electrician opens each box and checks the splices, and you okay a set price before the first screw turns.',
-  emergencyParagraph:
-    'Treat a light sliding off its bracket, a crackling or warm switch, a melted socket, or a breaker tripping the instant a lamp clicks on as urgent. If it’s safe, cut that circuit and stay clear beneath the fixture. If smoke or flame shows, get out and dial 911. Same-day visits on most calls, weekends too.',
   commonIntro:
     'These four light fixture jobs keep coming up in Lakeside Park.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'In Mount Adams, exhaust fan calls usually start in a bathroom that was carved out of a closet or a back hall long after the house was framed. Going by Census figures, 536 of the 1,068 homes on the hill predate 1940, and the median was built in 1938. Plenty of those bathrooms got a window and little else, or a fan somebody aimed into the wall cavity. We chase the air from grille to dead end and price the fix before any plaster comes down.',
-  emergencyParagraph:
-    'Burnt-plastic fumes from the grille, a scorched casing, sparking, a breaker that snaps off whenever the fan runs, or water stains around the vent all put that fan out of action. Kill it at the switch or panel if that’s safe. For smoke or flame, get out and dial 911. Most calls see us that same day, weekends included.',
   commonIntro:
     'Up on the hill, between narrow doubles and three-flats stacked side by side, these four complaints account for most of our fan visits:',
   localFaqs: [

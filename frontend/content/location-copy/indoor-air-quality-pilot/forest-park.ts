@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Forest Park was planned from scratch, with its first homes opening in 1956, and Census figures put the median house at 1969. Many of those split-levels have unsealed duct joints that pull dust and basement air along with the heat. Nearly half of households rent, many in larger complexes, and there the owner or manager makes the equipment call. We test, quote a flat price, and say when a filter will do.',
-  emergencyParagraph:
-    'Treat a carbon monoxide alarm as an evacuation and call 911 outside. With a gas smell, go without flicking switches, then phone the gas company. A burning furnace or AC smell means the thermostat goes to off. Spreading mold after water damage puts babies, older relatives and asthma at risk. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'In the 1960s neighborhoods and the apartment complexes along Kemper and Waycross, these are the calls we take most.',
   localFaqs: [

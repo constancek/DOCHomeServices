@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'In West Chester Township, the typical house dates from 1988 by Census figures, and most went up in the 1970s through the 1990s. A hot tub needs a 240-volt feed on its own breaker, ground-fault interrupter protection, a disconnect in the soaker’s line of sight but beyond arm’s length, and bonded metalwork. Decades of finished basements and kitchen remodels have filled many of those panels, so space and capacity come first. We read the tub’s requirements, inspect the panel, and hand you a firm price ahead of any digging.',
-  emergencyParagraph:
-    'In West Chester, we treat a ground-fault interrupter that trips on every reset, a blackened disconnect, a sizzling sound from the panel, or a prickling in the water as same-day calls, weekends included. Get everyone out and leave the equipment alone. Flip the breaker off only when it’s safe, and if anything smokes, leave and phone 911.',
   commonIntro:
     'Between The Square at Union Centre and the cul-de-sacs around Keehner Park, these are the four spa requests we hear most in West Chester:',
   localFaqs: [

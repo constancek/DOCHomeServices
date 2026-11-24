@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'Of the 832 homes in North Fairmount, Census figures count 739 as detached houses and 532 as built in 1939 or earlier, many of them set on the hillside above the Mill Creek valley. Bathrooms there were often squeezed in after the fact, and the fan, when one exists, tends to be a later add-on aimed at the attic or a hollow wall. Half the homes are rented. We start by finding where that air ends up and give a price before any plaster is cut.',
-  emergencyParagraph:
-    'Stop using a fan that smells charred, has a housing gone dark or soft, sparks, smokes, knocks out the breaker or sends water down through the grille. Turn it off at the switch or breaker box when you safely can. Flames, or smoke filling the room, mean leave and phone 911. Most calls get us there that day, weekends too.',
   commonIntro:
     'Along Baltimore Avenue, Carll Street and the hillside blocks of North Fairmount, these four fan problems turn up most:',
   localFaqs: [

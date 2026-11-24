@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross is mostly 1960s and 70s ranches and split-levels, so an inspection here is less about old cloth wiring and more about whether the panel has kept up. Census figures put the median home at 1972 and only 3.1% before 1940. Houses from that era were wired for fewer circuits than a family now runs, and decades of add-ons tend to pile onto them. We test every circuit, note what’s safe and what isn’t, and price any repairs before work begins.',
-  emergencyParagraph:
-    'If a Ross outlet gives off a burnt smell, a switch plate is warm or crackling, a plug throws sparks, or a breaker flips straight back off after you reset it, don’t book an inspection: call for a same-day visit, which most calls get, weekends included. Kill power at that breaker meanwhile. Smoke or fire, everyone out, then 911.',
   commonIntro:
     'Mid-century houses around Hamilton Cleves Road tend to give us the same short list.',
   localFaqs: [

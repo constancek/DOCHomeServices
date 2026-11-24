@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'CUF is a neighborhood of renters. Census figures put more than four in five homes in renters’ hands, and about four in ten units are in buildings that went up before 1940, many with lath-and-plaster ceilings. The fixture box there is often a shallow pancake nailed to lath, which can’t hold a spinning fan, and a lot of bedrooms never had one. We open the ceiling to check it, tell the owner if a tightened bracket fixes the wobble, and agree the price before the old light comes down.',
-  emergencyParagraph:
-    'When a fan in a shared house starts swinging off its bracket or smells scorched, stop using it. Flip it off at the switch or the breaker if that’s safe, and clear the bed or couch beneath it. Smoke or flames mean everyone out and a call to 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'Lath-and-plaster ceilings in rented houses explain most of the fan work we take on in CUF.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Goshen has two housing stories. In the old center along Route 28, Census figures show 35.1% of homes predate 1940, and only about a fifth heat with gas. Across the wider township, half the houses are from 1983 or later, many with a bonus room or finished basement their builder’s ducts barely touch. An old house near the crossroads seldom has a path for ductwork, so a head on the wall does the cooling. The price is settled before we start, and we’ll tell you if ductless won’t help.',
-  emergencyParagraph:
-    'Expect July afternoons near 86F, the normal high on National Weather Service records, and in Goshen, a bonus room over the garage heats up first. That’s hard on a baby, a grandparent or anyone ill. We book installs fast, and one room usually takes a day. A broken mini-split is a Mini-Split Repair job, usually same day, weekends too.',
   commonIntro:
     'Between the old center on Route 28 and the subdivisions spread across the township, these rooms are behind most ductless calls in Goshen:',
   localFaqs: [

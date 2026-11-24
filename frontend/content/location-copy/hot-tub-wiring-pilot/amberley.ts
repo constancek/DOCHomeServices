@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Almost every house in Amberley is owner-occupied and detached, and Census figures date the typical one to 1959. Sixty-odd years of central air, kitchen remodels and finished basements have filled a lot of those panels. So with a spa, the first job is finding out whether a free slot and enough headroom exist. If they don’t, we sort that out before any trenching. Then the tub gets its own 240-volt GFCI circuit, a shutoff and bonding, all quoted in writing.',
-  emergencyParagraph:
-    'A ground-fault breaker that won’t stay set, scorch marks on the spa shutoff, or a prickly feeling in the water are reasons to call us today. Everyone climbs out, hands off the tub. Flip the breaker only if it’s easy and safe to reach. Smoke means leave and dial 911. We usually get there that day, weekends too.',
   commonIntro:
     'On the quiet residential streets across the village, these are the usual reasons people ask us about wiring a spa.',
   localFaqs: [

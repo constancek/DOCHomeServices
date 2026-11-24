@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Mount Washington is mostly post-war housing, and that shapes what an electrical inspection here finds. Census figures show 30.7% of homes went up between 1940 and 1959 and another 29.0% in the 1960s and 1970s. Wiring from those years is usually grounded and sound, but panels were sized for far less than a modern kitchen, a heat pump or an EV charger, and bedrooms often share one circuit. We check the whole system, tell you what it can carry, and price changes before any work.',
-  emergencyParagraph:
-    'If the lights dim hard every time something kicks on, an outlet cover is scorched or hot, or a breaker won’t stay on for even a minute after reset, shut that breaker off and call us. A burning smell counts too. With smoke or flames, leave the house and dial 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'Between the post-war houses and the apartment buildings, Mount Washington gives us a fairly steady list:',
   localFaqs: [

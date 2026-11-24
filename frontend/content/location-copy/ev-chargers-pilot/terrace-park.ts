@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Practically every home in Terrace Park is a detached house its owner lives in, so the charger question is about the panel, not permission. Census figures put the median build year at 1954, and over four in ten houses come from the 1940s and 1950s. Those panels have usually absorbed decades of remodels and cooling, and a quarter of houses are older still. Expect us to open the panel and total the load first, tell you if the trunk cord is plenty, and agree a price before drilling.',
-  emergencyParagraph:
-    'Scorching heat or blackening on the wall charger, plug or outlet, a whiff of burning, or a breaker that trips the moment the car connects should end charging. Shut that circuit off only if the panel area is dry. With smoke or flame, get out and call 911. Most calls get us out the same day, weekends included.',
   commonIntro:
     'In the postwar and prewar houses of Terrace Park, the charger calls we take usually start with one of these four.',
   localFaqs: [

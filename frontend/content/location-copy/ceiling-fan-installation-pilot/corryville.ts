@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Census figures show renters in more than nine of every ten occupied homes in Corryville, so an owner or manager books the fan. A third of units date from 1939 or earlier, where plaster ceilings often hide a light box sized for a single bulb. About two in five went up since 2000, mostly big managed apartment blocks. We open the box before anything is hung. If a loose bracket is the whole story, we say so, and the rate is fixed before anyone unscrews the old fixture.',
-  emergencyParagraph:
-    'A fan in Corryville that swings wide or sags, a loose box, smoke or a scorched smell from the motor, or a sparking wall switch can’t wait. Shut it off at the switch or breaker if that’s safe, and clear the room under it. For smoke or flames, leave and dial 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'In Corryville, old rented houses stand next to big new apartment blocks, so the fan trouble we see here comes from both.',
   localFaqs: [

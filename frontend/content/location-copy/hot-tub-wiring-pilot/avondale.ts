@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Most homes in Avondale are rented, and many sit in two-families and apartment buildings, so a hot tub here usually belongs to someone who owns a single-family house with a yard. Census figures show many of those houses predate 1940, and their panels often lack a free slot or the headroom a spa breaker needs. That gets fixed before anything else. Newer houses more often have room, so the work turns on the conduit route. We check the panel against the tub’s spec and quote it in writing.',
-  emergencyParagraph:
-    'A spa breaker that won’t stay reset, a scorched smell from the cutoff box, or a tingle felt in the tub means a same-day call. Help everybody out and keep hands off the water. The breaker can go off if you can reach it safely. Smoke means getting outside and calling 911. We take weekend calls as well.',
   commonIntro:
     'Among the single-family houses off Reading Road and Burnet Avenue, these are what usually lead to a spa wiring call.',
   localFaqs: [

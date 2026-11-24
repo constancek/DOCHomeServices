@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Goshen means two housing pictures. The small center along State Route 28 is old, with Census figures putting about a third of its houses at 1939 or earlier; heaters there sit in cellars with tired flue pipe and drain spigots. Across the wider township the median house dates to 1983, and those visits are a simple drain, anode pull and valve test. Mobile homes account for about 15% of township units, with heaters in snug compartments. Pricing gets settled first, and a tank not worth saving gets named as such.',
-  emergencyParagraph:
-    'Tank dripping from its shell: close its cold valve, then cut fuel or power. Any smell of gas: everyone outdoors, no switches, no relighting, then the gas company gets a call. Carbon monoxide alarm sounding: out of the house first. A relief valve that won’t shut off, or no hot water, is repair territory. Usually same day, weekends included.',
   commonIntro:
     'In the old center and the newer roads around the township, these hint that a heater in Goshen is due:',
   localFaqs: [

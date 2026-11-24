@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Mount Carmel is mostly post-war Union Township housing, with a Census median year built of 1973 and three homes in five dating from 1940 through 1979. Those houses tend to keep original or patched ductwork, so dust migrates between rooms, and the basement goes clammy from spring into fall. About a quarter of units are in apartment buildings, where management picks equipment. A meter reading comes before any recommendation, the price is flat and given first, and if a new filter does the job, you’ll hear that from us.',
-  emergencyParagraph:
-    'If the carbon monoxide detector beeps, gather everyone on the lawn, then phone 911. A rotten-egg smell means leaving switches untouched and ringing the gas company outdoors. Scorched odors from vents mean shutting things down at the thermostat. Post-flood mold can’t wait around babies, aging parents or asthmatic kids. We reach most the same day, weekends included.',
   commonIntro:
     'Inside the mid-century houses of Mount Carmel, air trouble tends to announce itself in one of these ways.',
   localFaqs: [

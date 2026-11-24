@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'Compared with much of Anderson Township, Forestville is young. Census figures put its median house at 1981, and a big slice of the stock went up in the 1980s and 1990s. Those homes rarely call for a full rewire; owners book us for an addition, a basement finish, a remodeled kitchen or a circuit that keeps quitting. The 1960s and 1970s houses here differ, because some may have aluminum branch wiring. We test before quoting, say so when nothing needs replacing, and put scope and flat price on paper first.',
-  emergencyParagraph:
-    'If a receptacle smells scorched, a switch cover is hot, you hear arcing inside a wall, a breaker trips again right after reset, or an appliance shocks you, call us without waiting. Turn off that breaker only from a dry spot. Smoke or fire means leaving the house and calling 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'In the 1980s and 1990s subdivisions and older streets of Forestville, wiring trouble usually starts with one of these:',
   localFaqs: [

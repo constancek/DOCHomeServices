@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'Most houses in Landen were built in the 1980s and 1990s, with a median year built of 1985 by Census figures, and they typically came with ducts. Electricity heats 88.4% of homes here, so a ductless system, which runs on electricity too, fits how most houses already work. The usual job is a finished basement, bonus room or sunroom the main system wasn’t sized for. HOA rules can limit outdoor units. We price it flat up front and tell you when a duct fix will do.',
-  emergencyParagraph:
-    'A sunroom or bonus room can lag behind the rest of the house on the roughly 21 days a year at 90F or higher (National Weather Service). Babies, older relatives and anyone with breathing problems need cool air. Single-zone jobs usually finish the day we start. A broken mini-split needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the subdivisions and townhomes around Landen Lake, these are the usual reasons people ask about ductless:',
   localFaqs: [

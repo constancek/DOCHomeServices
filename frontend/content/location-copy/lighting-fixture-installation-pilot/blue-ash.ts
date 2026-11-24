@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Kitchen islands drive a lot of lighting work in Blue Ash, usually a run of two or three pendants where the builder left a single can or nothing. The 1980s were the city’s heaviest building decade, and Census figures put the typical house at 1981, so ceiling boxes tend to be modern and easy to reach. Two-story entries ask for bigger fixtures and taller ladders. More than a quarter of homes sit in large apartment complexes. Every job still starts with opening the box, then a firm price.',
-  emergencyParagraph:
-    'A fixture dangling on its wires, a crackling switch plate or a breaker that snaps off with the light should not be left. Kill that circuit at the panel when it’s safe, and steer people away from underneath. Smoke or flame means getting outside and dialing 911. Blue Ash is usually a same-day trip for us, Saturdays and Sundays too.',
   commonIntro:
     'Islands, foyers, baths and builder-grade bedroom lights account for most of what we hang in Blue Ash.',
   localFaqs: [

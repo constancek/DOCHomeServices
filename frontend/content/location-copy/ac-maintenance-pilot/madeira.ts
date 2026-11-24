@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'The 1950s built more of Madeira than any other decade, and that sets the AC tune-up here. Census figures put 29.5% of homes in that one decade. Plenty of them got central air years afterward, as a coil set on top of the basement furnace feeding ducts first laid out for heat. Houses built since 2000 are a quicker check. We’ll quote the visit before starting, and if the system is in good shape we’ll just tell you.',
-  emergencyParagraph:
-    'Warm air from the vents in a hot spell is a repair job. Frost on the lines means switching the thermostat off until it melts. Leave a breaker off once it trips twice. Water across the basement floor is urgent too. Older relatives and babies feel heat first. Same day on most calls, weekends included.',
   commonIntro:
     'These are the usual reasons homeowners book a spring tune-up with us in Madeira.',
   localFaqs: [

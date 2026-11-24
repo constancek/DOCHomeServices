@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Taylor Mill, which merged with Winston Park in 1972, is mostly detached houses lived in by their owners. Census figures date the typical house to 1975, with big clusters from the 1940s and 1950s and again from the 1980s and 1990s. Four in ten households heat with electricity, which can mean a heat pump whose control board surges wear down. Some older houses here have small or full panels. We inspect the panel first, tell you if strips will do, and fix the price before work.',
-  emergencyParagraph:
-    'A breaker that kicks off again on reset, or an outlet smelling burnt after a surge, needs us that day. Should every light pulse up and down, the electric utility hears first. Keep clear of a wet or hot panel; at the first wisp of smoke, get outside and dial 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'From 1950s houses to the 1980s and 1990s subdivisions, these are the usual starting points for a surge protection call.',
   localFaqs: [

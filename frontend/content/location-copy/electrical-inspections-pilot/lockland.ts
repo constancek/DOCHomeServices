@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'Nearly half of Lockland’s homes were built in 1939 or earlier, Census figures show, and the median house dates from 1944. In houses that old, cloth-covered or knob-and-tube wiring may still run inside the walls, outlets often have two prongs and no ground, and some basements still hold a fuse box. Our inspection finds out which of those your house has, how much of it is left, and what it would cost to fix, in a report you keep.',
-  emergencyParagraph:
-    'A fuse that blows again right after you replace it, a breaker that won’t reset, a scorched or hot outlet, sparks, buzzing in the wall or a burning smell: shut off that circuit and call. If you see smoke or fire, get out and phone 911. Lockland calls are usually answered the same day, weekends included.',
   commonIntro:
     'In Lockland the age of the wiring drives most of what we find. These turn up again and again:',
   localFaqs: [

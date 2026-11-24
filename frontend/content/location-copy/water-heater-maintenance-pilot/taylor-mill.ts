@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Taylor Mill was built in two bursts. Census figures show 31.4% of homes dating from 1940 to 1959 and 39.4% from 1980 to 1999. In the postwar houses the heater usually stands in a basement near an aging drain valve, beside gas piping we inspect. In the later subdivisions it’s often a garage or utility room and a drain, anode and relief valve check. Apartment buildings add another layer, booked by their owners. We agree the cost before starting and tell you if a tank isn’t worth the visit.',
-  emergencyParagraph:
-    'Stop thinking tune-up if the tank leaks: shut the top cold-water valve, switch off gas or breaker. Gas smell: leave, operate no switches, don’t relight, call the gas company clear of the house. Carbon monoxide alarm: all out first. No hot water or a relief valve that keeps letting go: same-day help on most calls, weekends included.',
   commonIntro:
     'Owners in Taylor Mill, in older and newer houses alike, usually report one of these:',
   localFaqs: [

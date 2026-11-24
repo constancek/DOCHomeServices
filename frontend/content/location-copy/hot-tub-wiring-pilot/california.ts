@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'Owners live in most of the detached houses that make up California, and Census figures say the typical one was built in 1968. Mid-century panels from that period might show an unused space while lacking the amperage headroom a spa wants, so we prove the capacity before sketching the 240-volt GFCI run, the cutoff and the bonding. Close to the Ohio, placement counts as much as wire. Your tub’s spec sheet guides the sizing, and you approve a set price before a trench opens.',
-  emergencyParagraph:
-    'Ring us when a spa in this riverside neighborhood keeps popping its GFCI, the cutoff box shows scorching, the panel hums, a soaker feels a tingle, or floodwater reached the equipment. Climb out and don’t handle anything. Shut the breaker only when doing so is safe, and phone 911 if smoke appears. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Along Kellogg Avenue and the side streets climbing toward California Woods, homeowners usually call about a spa for one of these reasons.',
   localFaqs: [

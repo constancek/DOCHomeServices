@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Gas heats 79.6% of homes in the East End, by Census figures, so nearly every tune-up here is on a gas furnace. The houses split by age. 54.4% predate 1940, and in those the furnace sits in an old basement, often venting up the original chimney, so we spend longest on the flue and the heat exchanger. Newer homes along Riverside Drive mostly need the filter, blower, burner and controls checked. The price comes first, and we tell you if nothing’s needed.',
-  emergencyParagraph:
-    'Repair visits, not tune-ups, handle these. Smell gas and you leave: no switches, no relighting, Duke Energy called from outside. Carbon monoxide alarm: everybody out, then the call. No heat in a cold snap, a furnace stuck restarting, or flames burning yellow and lazy. Older relatives and babies feel it most. Most get a same-day visit, Saturday or Sunday too.',
   commonIntro:
     'In the East End, owners usually book a fall furnace check for one of these reasons:',
   localFaqs: [

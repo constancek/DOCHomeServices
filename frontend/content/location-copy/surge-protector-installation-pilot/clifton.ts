@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Of 4,500 homes in Clifton, 2,799 were built in 1939 or earlier, Census figures show, and roughly two of every three households rent. Those numbers pull the advice in two directions. The big old houses off Ludlow Avenue usually have breaker boxes that were updated piecemeal and may be short on room, while tenants in converted flats and apartment blocks are mostly better off with strips than with panel work. We open the box before quoting, tell you when strips cover it, and agree a flat price up front.',
-  emergencyParagraph:
-    'Scorch marks on a switch, a hot smell near the panel, a breaker that pops off again on reset, or a stereo that smoked as power returned all need us the same day, and most calls get that in Clifton, weekends included. Bright-then-dim lights across the building are a Duke Energy Ohio call first. Smoke means leave and phone 911.',
   commonIntro:
     'From the large single houses near Burnet Woods to flats carved out of old homes, these are the signs we see in Clifton.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'In Highland Heights, nearly half the dwellings sit in apartment complexes, by Census figures, and there the property manager signs off on electrical work. Owners of the detached houses, most built in the years around 1985, run into two other things. Their family rooms often rise high enough to want a down rod, and the builder sometimes left a box meant only for a light. We open that box first, admit it when tightening the mount will do, and quote before any fixture is unhooked.',
-  emergencyParagraph:
-    'Ring us that day when a fan lists or starts ripping its bracket out of the drywall, or when the motor smells scorched. Flip the wall switch or the breaker if you safely can, then empty the room. If there’s smoke or flame, go outside and dial 911. Same-day arrival covers most calls, weekends too.',
   commonIntro:
     'Around the NKU campus and on the house streets alike, these four fan problems are the ones we hear about most in Highland Heights.',
   localFaqs: [

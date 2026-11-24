@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Over half of Monroe is housing from this century: Census figures count 53.3% of homes built in 2000 or later, with 60.8% on gas heat. That puts most of our autumn checkups in front of a builder-grade gas furnace in a basement or utility closet, often the original. On those we hunt for early wear, like a glazed igniter or a blower bearing starting to growl. Electric heat covers a big slice too, heat pumps among it. Quote first, and an honest pass when nothing’s wrong.',
-  emergencyParagraph:
-    'Some calls are repairs. Gas in the air: walk out, flip nothing, light nothing, ring the gas company from the driveway. Carbon monoxide alarm: house empties first. A cold house mid-freeze, a burner quitting and relighting over and over, or a soft yellow flame too. Toddlers, elderly parents and anyone sick first. Same day for most, weekends included.',
   commonIntro:
     'Across the newer subdivisions on both sides of the county line, owners in Monroe tend to call us for a checkup after noticing:',
   localFaqs: [

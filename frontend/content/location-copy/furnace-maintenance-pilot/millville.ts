@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Millville is a small, old village: by Census figures more than half its homes predate 1960, and electricity heats half of them, gas most of the rest. When Indian Creek flooded in March 2026, the mayor said almost every basement in the village took water, and basements are where furnaces sit here. So our first fall question is whether water reached yours. If not, it’s an older-furnace tune-up, flue included on gas units. Price comes before the wrench, and we’ll say if it needs nothing.',
-  emergencyParagraph:
-    'These need repair in Millville, not a tune-up. Gas smell: clear out, flip nothing, relight nothing, phone the gas company outside. Carbon monoxide alarm: out first. No heat on a freezing night, a furnace restarting again and again, or a soft yellow flame. A baby, older parent or sick relative raises the stakes. Mostly same day, weekends included.',
   commonIntro:
     'Around the older streets of Millville, a fall visit usually follows one of these:',
   localFaqs: [

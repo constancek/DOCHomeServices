@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Cherry Grove was built in one burst: Census figures date 78.1% of homes to 1960 through 1979, median 1971, almost all detached houses. So the heater is usually in the basement of a house past fifty, often hooked to shutoffs and supply lines older than the tank. Our yearly visit drains the grit, checks the anode and works the relief valve. The price is quoted before we start, and if the tank isn’t worth the money, you’ll hear it from us first.',
-  emergencyParagraph:
-    'Water at the heater’s base: close the cold valve feeding it, then shut its gas or flip its breaker. Gas smell: go outside, hands off every switch, no relighting, then ring the gas company. Carbon monoxide alarm: family outside first. A relief valve that keeps letting go, or a cold tap, is a repair. Most are same day, weekends included.',
   commonIntro:
     'Fifty-year-old basements in Cherry Grove tend to give the same hints that a tank wants service:',
   localFaqs: [

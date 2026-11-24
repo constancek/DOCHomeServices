@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'In Mount Lookout, a fall tune-up usually means a trip down to the basement. Census figures date 50.9% of the houses to 1939 or earlier and show 73.1% heating with gas, so the typical furnace sits under a 1930s house, vents into an old masonry chimney and is not the first one that house has owned. Flue and heat exchanger come first on our list for that reason. The price is agreed before we lift a panel, and if the furnace needs nothing, we’ll say so.',
-  emergencyParagraph:
-    'A tune-up is the wrong booking for these. Gas odor indoors: go outside, flip no lights, and phone the gas company from the curb. Carbon monoxide alarm going off: get people out. Floodwater touched the furnace, a yellow flame, a house gone cold: repair work, first in line with a baby or grandparent. Most are same day, weekends too.',
   commonIntro:
     'In Mount Lookout, owners of older basement furnaces tend to call us after one of these:',
   localFaqs: [

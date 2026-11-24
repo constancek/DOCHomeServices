@@ -2,9 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const carthage: LocationServiceCopy = {
   localParagraph:
-    'Carthage is early 1900s houses along and off Vine Street, and almost none of them were built with central air. Census figures give a median build year of 1938, so the ductwork was fitted later through tight walls, and the blower often ended up in an attic or a basement corner. About four in ten homes are rented, with the owner booking. So airflow and the drain get most of our attention. The flat price is set before work, and we say so if nothing is needed.',
-  emergencyParagraph:
-    'Maintenance can’t help a system that quits cooling mid heat wave or grows ice on its lines; that needs a repair, and the thermostat should go to off meanwhile. Water dripping from a ceiling, or a condenser humming while its fan won’t turn, means leave it off. Babies and grandparents struggle first in heat. Same-day visits are usual, weekends included.',
+    'Carthage is mostly early 1900s houses on and around Vine Street, and hardly any came with central air. Census figures put the median year built at 1938, so ducts went in later through snug walls, and the blower usually landed in an attic or a basement corner. Renters occupy 43.4% of homes, and their owners make the booking. That history is why airflow and the drain take up most of our visit. You get a set price first, and a straight word if nothing is needed.',
   commonIntro:
     'Owners and landlords with older houses tend to call when one of these shows up in Carthage:',
   localFaqs: [
@@ -14,7 +12,7 @@ export const carthage: LocationServiceCopy = {
     },
     {
       q: 'I rent a house in Carthage. Whose job is the AC tune-up?',
-      a: 'When the landlord provided the air conditioning, booking its upkeep falls to them. Write to them about the drip, the noise or the rooms that won’t cool. Under Ohio’s ORC 5321.04 (A)(4), air conditioning a landlord supplies must stay in good and safe working order. We service air conditioners, not leases.',
+      a: 'If the landlord supplied the air conditioning, the landlord books its upkeep. Send a dated note describing the drip, the rattle or the bedroom that stays warm. Ohio’s ORC 5321.04 (A)(4) holds a landlord to keeping supplied air conditioning in good and safe working order. Our job is the equipment, not the lease terms.',
     },
   ],
   overrides: {
@@ -29,11 +27,11 @@ export const carthage: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in Carthage',
-        body: 'Both ends of the system get worked on. Outside, we wash the condenser coil and dig out leaves and grass from a unit that often sits in a narrow gap between houses. Inside, the filter is checked and changed, the evaporator coil looked over, the condensate line flushed and the pan inspected. Gauges read the refrigerant, and a low charge means a leak that we quote as a repair, not a refill. We meter the capacitor and contactor, check the wiring, then the blower and airflow, which matter most where ducts were retrofitted, and test the thermostat before a complete cooling run.',
+        body: 'We work both halves of the system. In the slot between neighboring houses where many condensers sit in Carthage, we rinse the coil and scoop out packed leaves and grass. Indoors, a fresh filter replaces a dirty one, the evaporator coil gets a flashlight, the condensate line is flushed and the pan checked. Refrigerant gauges come next, and a short charge means a leak, priced as a repair instead of a refill. The capacitor, contactor and wiring each get metered. Blower speed and airflow get extra attention in retrofitted ducts, and the thermostat is tested before one complete cooling run.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'A spring visit pays its way when the system has no paper trail, when you’ve just closed on the house, when water is showing near the indoor unit, when there’s a new buzz, or when the upstairs can’t keep pace. Landlords with a handful of rentals in Carthage do best booking them as one round. Skip it if a technician serviced the AC last year and nothing has changed. If it has quit cooling or iced up, call for AC Repair. A system we’ve already called due for replacing isn’t worth tuning. Window units aren’t ours. Owners can change filters and keep the gap around the condenser clear.',
+        body: 'Spring service earns its keep on an AC with no records, a house bought in the last few months, a damp patch by the indoor unit, a buzz that’s new, or an upstairs that never catches up. Landlords in Carthage with several rentals save a trip by grouping them. If a technician went through the AC last year and it runs the same, the visit can wait. An AC that has stopped cooling or frozen up belongs with AC Repair. Once we’ve said a system is due for replacing, tuning it wastes money. We don’t service window units. Changing filters and clearing the gap beside the condenser are owner jobs.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Carthage',

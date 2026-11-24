@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'Basements were never part of the original plans in Greenhills, so a tune-up here often means working in a crawl space or a utility closet instead. Central air came long after the federal townhomes and the postwar houses were finished, and Census figures put the median home at 1955. Roughly a third of homes are rented, and on those the landlord makes the appointment. Whoever books, the flat price is settled before work, and if the system needs nothing, we report exactly that.',
-  emergencyParagraph:
-    'Warm vents in hot weather, frost along the refrigerant lines, water dripping onto a tile first floor, or a breaker that pops after a reset all call for repair rather than maintenance. Switch the thermostat to off and let any ice thaw. Small children and elderly neighbors are the first to struggle. Same-day visits happen on most calls, weekends included.',
   commonIntro:
     'Spring calls from owners and landlords around Greenhills tend to follow one of these.',
   localFaqs: [
@@ -14,7 +12,7 @@ export const greenhills: LocationServiceCopy = {
     },
     {
       q: 'I rent in Greenhills, and the landlord owns the AC. Am I supposed to arrange its maintenance?',
-      a: 'No, that’s on the landlord when the AC came with the rental. Ohio’s ORC 5321.04 (A)(4) has owners keep supplied air conditioning in good and safe working order, so send your landlord a written note about any problem. We service air conditioners, not leases, and book the date with the owner or manager.',
+      a: 'No, the landlord handles that when the AC came with the rental. Under Ohio’s ORC 5321.04 (A)(4), owners must keep the air conditioning they supply in good and safe working order, so put any problem to your landlord in writing. We look after the equipment, not the lease, and set the date with the owner or manager.',
     },
   ],
   overrides: {
@@ -33,11 +31,11 @@ export const greenhills: LocationServiceCopy = {
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'It pays to book in Greenhills when the AC has no history you know of, after you’ve bought the place, when water appears near the indoor unit, or when a rattle or squeal is new. Uneven cooling between floors counts too. It doesn’t pay when a technician serviced the system inside a year and it cools normally, or when all you have are window units. No cold air, or iced lines, means scheduling AC Repair. If we’ve already said the system is due for replacement, AC Installation & Replacement is the better use of the money. Between visits, keep the filter clean and the vents open.',
+        body: 'In Greenhills, a tune-up earns its cost on an AC whose history you don’t know, in a house you’ve just bought, when water collects by the closet or crawl-space unit, or when a rattle or squeal is new. Uneven cooling between floors qualifies too. It earns little on a system a technician serviced within a year that still cools normally, and nothing on window units. No cold air, or frost on the lines, calls for AC Repair. If we’ve already said the system is due for replacement, put the money toward AC Installation & Replacement. Between visits, keep the filter clean and the vents open.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Greenhills',
-        body: '71.1% of homes in Greenhills heat with gas, so central air paired with a gas furnace is typical and gets one spring visit. A smaller share heats with electricity, and some of those homes run heat pumps, which need a spring visit for cooling and a fall visit for heating, including the reversing valve and defrost board. A ductless mini-split gets its indoor heads and filters washed.',
+        body: 'Gas heats 71.1% of homes in Greenhills, which makes a gas furnace with central air the usual setup, and that gets a single visit each spring. Electric heat covers a smaller share, and some of those homes have heat pumps, which get a spring check for cooling and an autumn one for heating, with the reversing valve and defrost board tested. Mini-split owners get the indoor heads and their filters washed.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in Greenhills Book AC Maintenance With Us',

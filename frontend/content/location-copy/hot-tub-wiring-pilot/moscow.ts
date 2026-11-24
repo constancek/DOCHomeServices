@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'Census figures show most homes in the village predate 1940, and nearly all are detached houses. A panel in a house that old has usually been swapped or added to over the decades, and many in Moscow also carry electric heat, so finding a slot and spare reserve for a spa breaker is step one. Step two is the tub’s own GFCI-protected 240-volt feed, a cutoff in view of it, and bonding. We hold the panel up to the spa listing and fix the price before any trench is opened.',
-  emergencyParagraph:
-    'Floodwater changes the rules in Moscow, since spa gear the Ohio has touched stays unpowered until we test it. Call about a GFCI that won’t latch, a buzzing panel, a blackened disconnect or a tingle. Get everyone out, kill the breaker only if safe, and dial 911 for smoke. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'On Water Street and the lanes running back from the river, these four spa problems come up most in Moscow.',
   localFaqs: [

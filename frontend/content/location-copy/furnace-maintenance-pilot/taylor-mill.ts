@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Taylor Mill has two furnace jobs. By Census figures, 31.4% of homes date from the 1940s and 1950s and 39.4% from the 1980s and 1990s. The postwar houses hide the furnace in a basement, flued into a masonry chimney, so that venting and the heat exchanger earn a slower look. The later houses want airflow, ignition and safety switches checked. Gas and electricity heat near-even shares of homes. The price is settled before we start, and a furnace in good shape gets a clean bill, not a sales pitch.',
-  emergencyParagraph:
-    'Gas in the air: walk out, leave switches and the pilot alone, and dial the gas company from the yard. A carbon monoxide alarm clears the house first. Book repair for a furnace gone silent in a cold snap, nonstop short cycling, or a weak yellow flame. Infants, elders and the ill matter most. Same day for most, weekends too.',
   commonIntro:
     'Across both the postwar streets and the newer subdivisions of Taylor Mill, these usually prompt a booking:',
   localFaqs: [

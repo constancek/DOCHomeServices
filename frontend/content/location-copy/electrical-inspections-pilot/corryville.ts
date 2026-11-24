@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Corryville inspections are mostly booked by landlords and property managers, because 92.7% of homes here are rented, according to Census figures. The housing is split. About a third went up before 1940, and those old houses and small walk-ups are where we find ungrounded outlets and tired panels. Another 40.2% was built in 2000 or later, mainly large apartment blocks whose wiring is usually sound. Either way, we go over the full system, put the findings in a report and price any repair before it starts.',
-  emergencyParagraph:
-    'Report these in Corryville straight away: a smell of burning plastic, a light switch that’s hot or crackling, sparking at a plug, or a breaker that trips the instant it goes back on. Leave the breaker off. For smoke or fire, get out and dial 911. Owners and managers get a technician the same day on most calls, weekends included.',
   commonIntro:
     'Near Short Vine, old student houses and newer apartment blocks sit on the same streets. What we find most in the older ones:',
   localFaqs: [

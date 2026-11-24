@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'A home charger in Mount Auburn is usually doable, though an old house and a new building get different plans. Census figures count 1,771 of 3,128 units built in 1939 or earlier, and a service that age may have little headroom for 240 volts. The 655 units built after 2010 generally have room or can use load management. With two in three homes rented, the owner says yes or no. We study the panel and load before quoting, mention it when Level 1 covers you, and settle the price beforehand.',
-  emergencyParagraph:
-    'Treat it as an emergency when the plug or receptacle runs hot, a faceplate shows scorch marks, burning odors creep up mid-charge, or the breaker quits each time the car connects. Kill that circuit only with dry hands. With smoke or fire, leave and phone 911. Most calls on the hill see us that day, weekends too.',
   commonIntro:
     'Italianate houses cut into flats sit a few doors from brand-new apartment blocks, and these are the reasons owners and residents ask us about charging.',
   localFaqs: [

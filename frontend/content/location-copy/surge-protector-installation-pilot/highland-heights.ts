@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Close to half the homes in Highland Heights are apartments, and the typical house was built in 1985, by Census figures. About two-thirds of households heat with electricity, which usually puts a heat pump or an electric furnace first in line for surge damage. Breaker boxes from the 1980s tend to have a spare slot or two, though the slot has to suit the device. An electrician opens yours before quoting, says so if a few strip protectors would cover you, and agrees the number up front.',
-  emergencyParagraph:
-    'Brown marks on a receptacle, a melted-plastic odor from the breaker box, or a microwave that popped when power returned all mean phone us that day. Lights pulsing through every room are Duke Energy Kentucky’s to look at first. Apartment residents, tell management too. Smoke or fire means leaving and dialing 911. Weekends included, we’re usually out that day.',
   commonIntro:
     'Between the apartment buildings, the 1980s houses and the newer builds in Highland Heights, these signs come up most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Florence is close to an even split between owners and renters, and Census figures show about four homes in ten are in buildings with two or more units. In an apartment, equipment is the owner’s call. The houses date mostly from the 1950s to the 70s, with a median of 1972, with the dust and damp that older ducts and basements bring. Gas and electric heat are close to even. We test the air before quoting, fix the price first, and tell you if a filter is enough.',
-  emergencyParagraph:
-    'Clear the unit when a carbon monoxide alarm sounds, then call 911. Smelling gas, go outside before you touch any switch, and phone the gas company. Shut off a furnace or AC giving off a burnt odor at the thermostat. Spreading mold after water damage hurts babies, older relatives and asthma first. Most calls get same-day help, weekends too.',
   commonIntro:
     'From the apartment complexes to the streets of 1960s ranches, these are the signs we see most.',
   localFaqs: [

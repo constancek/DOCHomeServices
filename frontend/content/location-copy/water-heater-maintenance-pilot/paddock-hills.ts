@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Paddock Hills has two kinds of heater job. Tudor Revival and Dutch Colonial houses, part of the 41.8% of homes built before 1940, keep theirs in the basement, where we inspect the flue, the gas union and a drain spigot possibly as old as the tank. Apartment buildings run one heater per flat or one big unit for everyone, management’s decision either way; Census figures put renters at 69.3% of households here. You’ll see a fixed price up front, and a frank answer when a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Leaking tank: rotate the cold valve on top shut, then gas or breaker off. Any gas odor: exit, flip nothing, and contact the gas company from the yard. Carbon monoxide alarm: the house empties first. A relief valve that keeps venting water, or hot water gone entirely, belongs in the repair column. Same day on most calls, weekends included.',
   commonIntro:
     'Owners and managers in Paddock Hills usually book after noticing one of these:',
   localFaqs: [

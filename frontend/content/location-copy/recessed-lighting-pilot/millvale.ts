@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'In Millvale, on the slope above Mill Creek, recessed lighting jobs nearly always come through an owner or a management office, since renters fill most homes. Census figures around Beekman Street and Moosewood Avenue put the median building at 1982, with rows of attached townhomes and small walk-ups, and about a third of residents live in public housing. Ceilings between joined units can be shared or fire-rated, so we look above before sketching anything. Owners approve the marked layout and the price before cutting.',
-  emergencyParagraph:
-    'A downlight smelling scorched, plaster or drywall browning around a trim, a can too hot to touch or water trickling from a light needs an electrician today. Residents, tell management immediately. Switch off that breaker only when it’s safe to reach, and with smoke, get out and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'Along the Beekman corridor, owners and managers mostly call us in Millvale for the following townhome and apartment work.',
   localFaqs: [

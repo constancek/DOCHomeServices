@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'In Moscow, most homes predate 1940 by Census figures, and nearly all are single-family houses. Bathrooms from that era were built with a window, not a fan, so any fan here was added later, often by a past owner who ran the duct only into the attic or a wall. The few newer houses usually have fans, though not always ones sized for the room. Either way, we follow the air to where it ends up and give you the price before opening any plaster.',
-  emergencyParagraph:
-    'In Moscow, a fan giving off a burnt odor, showing a charred cover, sparking or smoking should lose power at its switch or the panel, if you can do that safely. Flames mean getting out and dialing 911. Leaks through the grille and a breaker that trips with the fan are urgent too. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'In the old river houses of Moscow, these are the four signs we look for first.',
   localFaqs: [

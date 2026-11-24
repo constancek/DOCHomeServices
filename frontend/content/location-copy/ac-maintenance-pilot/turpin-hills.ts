@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Owner-occupied houses from the 1960s through the 1990s fill Turpin Hills. Census figures put the median at 1977 and show 89.5% of homes detached. Cooling was usually part of the build, so a visit here checks coil, filter, drain and wiring, often on a second-generation system. Air handlers tend to stand in a basement or utility room with space around them, which keeps the job simple. You get the price before any work, and if the AC is fine, you’ll hear that.',
-  emergencyParagraph:
-    'If the AC has quit cooling or ice is creeping along the copper, you want a repair. Shut an iced system down at the thermostat. A burning smell, or a condenser humming with its fan stopped, means leave it off. Heat hits older relatives, babies and the ill first. Most calls get same-day help, weekends too.',
   commonIntro:
     'In Turpin Hills, these are the usual reasons a homeowner books in spring.',
   localFaqs: [

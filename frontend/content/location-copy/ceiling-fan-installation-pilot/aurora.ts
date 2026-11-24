@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Fan jobs here usually start with an old ceiling. In Aurora, the typical house dates to 1952, per Census figures, and plenty are older still, so the box overhead was often set for a glass globe fixture and fastened to lath rather than a joist. Roughly a fifth of homes are in buildings of two to four units. We open that box first, tell you plainly when snugging the mount ends the wobble, and fix the price while the old light still hangs.',
-  emergencyParagraph:
-    'A fan knocking the plaster, hanging crooked from a loosened box, or giving off smoke or a burnt smell needs stopping now. Kill it at the wall or panel if safe, and move people from under it. Flames mean leave and call 911. Floodwater-soaked fans stay off until checked. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'These four fan complaints come up more than any others in Aurora, thanks to old plaster ceilings, river damp and small rental buildings.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'In Southgate, the ceiling you want to light may not be entirely yours. About two in five homes sit in buildings of five or more units by Census figures, and close to that share are rented, so association rules and fire separations between floors shape many jobs. The rest are detached houses split between prewar plaster and 1980s and 1990s drywall with an attic above. The median home dates from 1968. We work out who signs off, sketch the layout and fix the price first.',
-  emergencyParagraph:
-    'Brown scorch rings around a trim, a wall switch that buzzes or feels warm through the plate, or water seeping out of a fixture from the unit above should get a same-day look. Turn off that breaker if you can safely reach it. With smoke or fire, leave the building and call 911. Same day covers most calls, weekends too.',
   commonIntro:
     'Condo buildings, rental apartments and detached houses sit close together in this small Campbell County city, and these are the calls they send:',
   localFaqs: [

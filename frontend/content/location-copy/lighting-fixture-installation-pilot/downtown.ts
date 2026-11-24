@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Downtown Cincinnati is mostly high-rises, and Census figures put about seven in ten homes in buildings of fifty or more units, nearly nine in ten of them rented. The housing splits sharply in age. Roughly four in ten units are in buildings from before 1940, with plaster ceilings and old boxes, while about three in ten date from 2010 on. Lofts and condos want island pendants and a proper dining light. We check the box and price the work before the old fixture is lowered.',
-  emergencyParagraph:
-    'Call us that day for a fixture drooping from a ceiling, a burning odor at a switch or a breaker that will not reset. Turn that circuit off at your unit’s panel when safe, and keep neighbors clear. With smoke or fire, follow the building’s evacuation plan and call 911. We arrive the same day on most calls, weekends too.',
   commonIntro:
     'Jobs like these come to us from owners, landlords and associations in Downtown Cincinnati.',
   localFaqs: [

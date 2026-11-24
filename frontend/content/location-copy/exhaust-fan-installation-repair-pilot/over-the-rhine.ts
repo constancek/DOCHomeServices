@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'In Over-the-Rhine, most exhaust fan calls involve buildings from 1939 or earlier, which by Census figures is 2,951 of the 4,208 homes here. Bathrooms in those buildings were often added or rebuilt long after construction, and the fan sometimes ends in a wall cavity or the attic instead of outdoors. Seven in ten households rent, so we mostly work for owners, landlords and condo associations. Before we cut plaster, we follow the duct to its end and give a flat price.',
-  emergencyParagraph:
-    'A fan fire in one unit can spread, so in Over-the-Rhine, act on a burning odor, a browned housing, sparks, smoke, a breaker that won’t stay on or water leaking through the grille. Switch it off at the breaker if that’s safe. With smoke or fire, get out and call 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'In the rowhouses, flats and condos of Over-the-Rhine, these are the signs owners call us about:',
   localFaqs: [

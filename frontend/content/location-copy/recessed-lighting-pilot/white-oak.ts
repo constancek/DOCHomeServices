@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'Across White Oak, a recessed lighting job nearly always begins with a flashlight and the attic hatch. Census figures put the median home at 1968, with most built from the 1940s through the 1970s in both Green and Colerain townships, so we tend to meet a ranch or split-level with attic room over the living areas and a basement finished decades back. What lies in that attic picks the housing, and the basement reveals the joists and ducts. Each opening is marked and priced before we cut.',
-  emergencyParagraph:
-    'Water seeping around a can, a fixture that blinks out and relights by itself, or a warm, buzzing wall switch can’t sit until next week. Cut that circuit at the panel when it’s safe. If there’s smoke or fire, get out first and dial 911 from outside. We reach most of these calls the same day, weekends too.',
   commonIntro:
     'Postwar ranches and split-levels fill most streets here, and the same handful of rooms keeps coming up.',
   localFaqs: [

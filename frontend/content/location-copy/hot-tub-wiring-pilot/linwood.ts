@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'In Linwood, four out of five homes predate 1940, by Census figures, and plenty are two-families with a panel for each side. Panels that age have absorbed decades of add-ons, so a hookup here often begins with finding room, either a blank space or enough headroom on the service. Once that’s settled, the tub gets a 240-volt GFCI circuit nothing else shares, a shutoff and bonding. You see the spa maker’s requirements set beside your panel, and a price, before any digging.',
-  emergencyParagraph:
-    'Pull everyone from the water the moment a bather mentions a tingle. The same goes for a GFCI that won’t reset or a panel that buzzes or smells scorched. Throw the shutoff only when you can do so without risk, and ring 911 for smoke or fire. We reach most of these calls that same day, Saturdays and Sundays too.',
   commonIntro: 'Here’s what usually gets owners and landlords from Linwood on the phone.',
   localFaqs: [
     {

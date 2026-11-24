@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'In Norwood, 66.5% of the housing went up before 1940 by Census figures, which means any central air here was retrofitted into a house designed long before anyone cooled one. Expect ducts snaking through closets, an air handler shoved into a basement corner, and two or three condensers lined up behind one brick two-family. With 52.5% of households renting, owners often book several units at once. We quote the whole job up front, and a unit that’s fine is left alone.',
-  emergencyParagraph:
-    'Some calls can’t wait for spring. If cooling quits in a heat wave, or ice grows on the lines or coil, switch the system off to thaw. A dripping ceiling, a burning smell, or a still fan on a humming condenser means repair. Heat hits babies and older relatives hardest. We’re there the same day on most calls, weekends too.',
   commonIntro:
     'In a century-old house or a two-family with stacked units, these are the hints a tune-up is overdue:',
   localFaqs: [

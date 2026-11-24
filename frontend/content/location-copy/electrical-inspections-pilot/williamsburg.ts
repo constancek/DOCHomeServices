@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Williamsburg has two kinds of houses, and the inspection changes with each. Census figures show 28.8% of homes in the village were built in 1939 or earlier; the ones near Main Street can still carry cloth wiring, ungrounded outlets and screw-in fuses. The rest went up from the 1950s on, and there the usual finding is a panel short of circuits for a modern kitchen and electric heat. Either way, we test the system, write up what we see and quote any fixes before work starts.',
-  emergencyParagraph:
-    'A Williamsburg outlet hot under your palm, a switch that hums or has gone black at the edges, the smell of melting plastic, sparks, or lights that sag when the dryer starts: shut that circuit off at the panel today. Smoke or flame means leave and dial 911. Expect us the same day on most calls, weekends too.',
   commonIntro:
     'Old houses near the village center and newer streets around them give us a fairly steady list.',
   localFaqs: [

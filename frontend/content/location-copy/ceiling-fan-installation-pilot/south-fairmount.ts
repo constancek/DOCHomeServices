@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'In South Fairmount, hanging a fan usually starts with a question about the ceiling box, since the median house here was built in 1938, by Census figures, and close to three in four predate 1940. Behind that plaster, the box is often sized for a globe light. A motor spinning below it for years works it loose. Roughly six in ten homes in the neighborhood are rented, too. Our electrician opens the box, says plainly when balancing the blades will do, and quotes before the old light comes off.',
-  emergencyParagraph:
-    'Treat a lurching fan, a canopy sagging out of the plaster or a smoking motor housing as urgent. A crackling wall switch or a breaker that keeps tripping is urgent too. Cut the power if it’s safe, then clear the room. Fire or smoke means getting out and calling 911. Most of these get a same-day visit, weekends included.',
   commonIntro:
     'In South Fairmount, the fan calls we get mostly involve plaster, original ceiling boxes and rooms that began with one bare bulb.',
   localFaqs: [

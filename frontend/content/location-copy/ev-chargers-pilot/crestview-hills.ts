@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Census figures date the typical home in Crestview Hills to 1984, and a detached house from that era tends to have breaker space left for a 240-volt line. Roughly one home in four is an attached condo or townhome, so the association weighs in before we drill a hole. Electric heat runs in more than half of homes, and that heat counts first. Our electrician opens the panel, works through a load calculation, tells you when the Level 1 cord is plenty, and writes the price before wiring begins.',
-  emergencyParagraph:
-    'A charger housing too hot to hold, a blackened or softened plug, a smell like burnt plastic, or a breaker that quits whenever the car draws power means stop charging. Shut that line’s breaker if the panel is dry and reachable. If you see smoke or flame, leave and phone 911. We usually come the same day, weekends included.',
   commonIntro:
     'Townhome boards, electric-heat houses and new EV owners in Crestview Hills tend to reach us for reasons like these:',
   localFaqs: [

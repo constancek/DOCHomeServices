@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'Close to half of Oakley’s homes predate 1940, and Census figures count about one in eight from 2000 on, many of those apartments. In the older stock there may be knob-and-tube or cloth-wrapped wire with no ground at all. Midcentury houses usually have adequate wire but run a remodeled kitchen on circuits meant for far less. Newer buildings mostly call about one circuit that keeps quitting. Every visit starts with a test, we call healthy wiring healthy, and you get scope and flat price in writing before any work.',
-  emergencyParagraph:
-    'Most calls like these get a visit that day, weekends included: a receptacle with a scorched smell, a hot cover plate, sparking wires, a breaker that drops the instant it’s reset, or any jolt. With a dry floor and a clear path to the panel, shut that circuit off. Should smoke appear, get outside and dial 911.',
   commonIntro:
     'Between the older houses and the newer apartment buildings, these four come up most in Oakley.',
   localFaqs: [

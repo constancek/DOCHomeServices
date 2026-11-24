@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'Houses on the hills of Loveland run younger than the old downtown suggests. Census figures place the typical house at 1985, with the bulk built after 1980, so the panel usually has room and the house is loaded with what surges chew up, from a newer furnace and central air to smart speakers and a kitchen run on boards. Roughly one household in four in Loveland rents. We open your panel first, mention it when strips would do, and name the price before work.',
-  emergencyParagraph:
-    'If every light in the house swells bright, then fades, phone the electric utility before us. An outlet with burn marks, or a breaker that flips straight back off, needs us that day. Throw that breaker only with dry hands and floor. Flames or smoke mean leave and call 911. Same day on most calls, weekends included.',
   commonIntro:
     'From the older blocks near downtown to subdivisions up the hills of Loveland, these signs lead owners to ask about surge protection.',
   localFaqs: [

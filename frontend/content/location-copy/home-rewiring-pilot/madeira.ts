@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'In Madeira, more houses went up in the 1950s than in any other decade, by Census figures, and the median dates to 1960. Ranches from that era were wired before central air, dishwashers and microwaves were standard, so their circuits often max out once those all run. The few houses older than 1940 may still hold cloth-covered wire with no ground. Testing comes before any quote, we’ll say so if your wiring is sound, and the scope and a flat price are in writing before a wall is opened.',
-  emergencyParagraph:
-    'A switch that’s hot, a plug that sparks or browns its outlet, a burning smell or a breaker that trips the instant it’s reset means call us that day. Turn off the circuit at the panel only with dry hands and nothing warm nearby. If there’s smoke or fire, leave and dial 911. Same-day service covers most calls, weekends included.',
   commonIntro:
     'In the postwar ranches and the few older houses of Madeira, these signs usually mean the wiring needs a look.',
   localFaqs: [

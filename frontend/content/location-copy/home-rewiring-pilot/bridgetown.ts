@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'In Bridgetown, four houses in ten date from 1940 to 1959, Census figures show, and the median year built is 1962. A kitchen of that era held a fridge, a range and a toaster, so today the same couple of circuits carry a microwave, a dishwasher and an air fryer. Some 1960s and 1970s houses may have aluminum branch wiring. Our meter goes on first, you hear it straight if nothing’s wrong, and a written scope with a flat price comes before any wall is touched.',
-  emergencyParagraph:
-    'Ring us the same day if a breaker flips back off the instant you reset it, a receptacle is blackened or hot, a plug sparks, or there’s a burning odor you can’t trace. When the panel is dry and easy to get to, switch that circuit off. If smoke or flames show up, leave and dial 911. Weekends are covered.',
   commonIntro:
     'Along Bridgetown Road and the postwar streets around it, wiring that has fallen behind usually shows one of these:',
   localFaqs: [

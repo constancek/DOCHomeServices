@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'South Fairmount is old housing, plain and simple. Census figures put 788 of its 1,086 homes before 1940, with the median at 1938. Bathrooms that age were usually carved out of a pantry or a back bedroom long after the house went up, some with only a window, others with a fan whose duct quits somewhere above the ceiling. With 574 of 960 households renting, a landlord often makes the call. We chase the air from grille to wherever it really ends up and quote the fix before opening plaster.',
-  emergencyParagraph:
-    'Leave the fan off and get us out today if it smells scorched, its plastic has browned or bowed, it spits sparks, it snaps the breaker off at startup, or water leaks past the grille. Use the switch or panel only when safe; smoke or flame means out of the house and 911. Most calls are same day, weekends included.',
   commonIntro:
     'In the frame houses and brick doubles off Queen City and Harrison, the trouble usually shows up in one of these four ways.',
   localFaqs: [

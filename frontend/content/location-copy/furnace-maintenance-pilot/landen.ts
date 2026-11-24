@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'Gas is scarce in Landen. Census figures show 88.4% of homes heating with electricity, and that count lumps heat pumps together with electric furnaces, so our first question is what sits in your utility closet. Most houses around the lake date from the 1980s and 1990s, meaning the furnace has often been swapped once, and the townhomes and condos tuck theirs into narrow closets. A heat pump goes to heat pump service. You’ll hear a fixed price up front, and a straight answer if your furnace needs nothing.',
-  emergencyParagraph:
-    'Book repair for these. Gas odor: leave, touch no switches, relight nothing, phone the gas company outdoors. Carbon monoxide alarm: everyone out first. A furnace dead in a cold snap, tripping off and on, or burning lazy and yellow. Infants, aging relatives and the sick can’t wait. Same day for most, weekends too.',
   commonIntro:
     'In condos, townhomes and houses from the 1980s and 1990s around Landen Lake, these usually lead to a booking:',
   localFaqs: [

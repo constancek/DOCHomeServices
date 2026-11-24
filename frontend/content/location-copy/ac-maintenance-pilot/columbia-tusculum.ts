@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Columbia-Tusculum is one of the oldest corners of Cincinnati, and plenty of its houses stood for decades before anyone added cooling. By Census figures 39.1% of homes in the neighborhood predate 1940, so central air there is a retrofit, with ducts hidden in closets and an air handler squeezed into an attic or basement corner. Homes from the 1970s on were mostly built with cooling planned in. We name the price before a panel comes off, and a healthy system gets a short visit and an honest report.',
-  emergencyParagraph:
-    'Don’t hold out for a tune-up slot if the AC dies in a heat wave or a burnt smell drifts from the vents; switch it off. Frosted copper lines mean the thermostat goes to off until the ice drips. Little kids, older parents and anyone ill feel it first. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'These are the usual reasons for a spring visit to a house in Columbia-Tusculum.',
   localFaqs: [

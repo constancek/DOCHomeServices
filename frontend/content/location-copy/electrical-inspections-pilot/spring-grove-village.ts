@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Spring Grove Village, the old Winton Place, is mostly detached houses, and over half are older than 1940: Census figures put 53.5% of homes at 1939 or earlier and the median at 1938. That age is why inspections here can turn up ungrounded outlets, cloth-covered wire in basements and fuse boxes nobody swapped out. Houses from the 1940s to the 1970s make up about a third, and those tend to have panels sized for far fewer appliances. We go circuit by circuit and quote repairs before lifting a tool.',
-  emergencyParagraph:
-    'Book an inspection for planning; call us now for these: a burning smell, a cover plate that’s hot or blackened, sparks, a breaker that trips the instant you flip it back, or lights that sag when something big kicks on. Shut that breaker off. With smoke or fire, leave and call 911. Same day on most calls, weekends included.',
   commonIntro:
     'Spring Grove Village is mostly older single houses with a scattering of two-families and small apartment buildings. The problems we write up most:',
   localFaqs: [

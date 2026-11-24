@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Fort Wright is mostly postwar through 1990s housing; the Census median year built is 1974, so ductwork is almost always there already. Ductless jobs on this hilltop usually come down to one stubborn space, a walkout lower level, a bedroom perched over the garage, a glassed-in porch or a rear addition. Of all homes, 29.3% are rentals, where the landlord signs off. Sloping yards decide where an outdoor unit can safely go. Your flat quote comes before any drilling, along with a plain no if ductless won’t fix it.',
-  emergencyParagraph:
-    'National Weather Service normals put the July high at 86F, and a west-facing porch room bakes well past that. Toddlers, grandparents and anyone with asthma take it worst. Install dates come up fast here, and one head normally means one day. When a mini-split you own stops, book Mini-Split Repair, mostly same day, weekends included.',
   commonIntro:
     'On the hills and cul-de-sacs of Fort Wright, these are the rooms that most often send owners looking at ductless:',
   localFaqs: [

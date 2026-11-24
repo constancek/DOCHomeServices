@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Walnut Hills has some of the oldest housing on the east side, with 48.3% of units dating from 1939 or before, according to Census figures, long before anyone threaded ducts through plaster and lath. Ductless lets a rowhouse or a walk-up flat get cooling without opening those walls. Renters fill 78.6% of homes here, many in big apartment buildings, so the landlord decides. Owners approve one fixed number ahead of the drill, and if ductless won’t serve the building, we say it.',
-  emergencyParagraph:
-    'July’s normal high is 86F (National Weather Service), and a top-floor rowhouse room on Gilbert runs hotter still. Elderly tenants, newborns and anyone on oxygen or with asthma are most at risk. Single-room installs book quickly and finish in a day. When an existing ductless unit fails, Mini-Split Repair answers same day on most calls, weekends too.',
   commonIntro:
     'Between the rowhouses on Gilbert and the walk-ups near Peebles’ Corner, these are the calls we get in Walnut Hills:',
   localFaqs: [

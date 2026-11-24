@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Renters fill roughly three in four households in Lincoln Heights, Census figures show, and about a third of the homes sit in apartment buildings. That puts most fan decisions with owners and property managers. The median building went up in 1973, and plenty of bathrooms still have the fan installed back then, now grinding and weak, with a duct that may stop short in the attic or a chase. We test the fan, trace the duct and give the owner a price before anyone opens a ceiling.',
-  emergencyParagraph:
-    'A fan that smells burnt, shows a scorched or melted housing, throws sparks or smoke, keeps tripping its breaker or lets water through the grille needs a same-day look, weekends included. Turn it off at the switch or breaker if that’s safe. If smoke or fire appears, leave and dial 911. Tenants should also tell the owner or manager.',
   commonIntro:
     'In the apartment buildings and single houses around Lincoln Heights, owners and tenants most often report these fan problems:',
   localFaqs: [

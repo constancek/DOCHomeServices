@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Furnace tune-ups in Millvale are booked by owners and managers, not tenants. Census figures for the main blocks show 91% of homes rented and about 65% heated by electricity, a share that includes heat pumps and baseboard. Much of the housing is 1950s CMHA townhomes, many recently renovated, so a typical visit is a utility-closet furnace in a row of units. CMHA residents report heat concerns to management. For private owners, the price per furnace comes first, and we say so when a unit needs nothing.',
-  emergencyParagraph:
-    'CMHA residents report these to management; private owners book a repair. Smell gas: get out, flip no switches and call the gas company outdoors. Alarm for carbon monoxide: everyone out. No heat during a freeze, a furnace stuck restarting, a yellow flame. Babies, older neighbors and anyone ill are at greatest risk. Same-day help on most calls, weekends too.',
   commonIntro:
     'Owners and managers of townhomes in Millvale tend to book a fall visit after one of these:',
   localFaqs: [

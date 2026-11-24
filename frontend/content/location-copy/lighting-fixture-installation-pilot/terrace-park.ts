@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Kitchen remodels bring most of our lighting jobs in Terrace Park, often because the old ceiling fixture looks wrong over new cabinets and an island. The village is almost entirely detached houses, and Census data puts its median home at 1954, with roughly four in ten built in the 1940s and 1950s and a quarter before 1940. Postwar rooms tend to have one ceiling box each, and the oldest houses may add plaster and no ground. We open the box first and agree a price before demolition.',
-  emergencyParagraph:
-    'A fixture separating from the ceiling, char or melted plastic at a switch, a plate that buzzes, or flicker running through several circuits all need someone today. Throw the breaker when it’s safe to do so and keep the family from standing underneath. If smoke or fire shows up, leave and phone 911. Same day on most calls, weekends included.',
   commonIntro:
     'Around Terrace Park, these four light fixture projects come up again and again.',
   localFaqs: [

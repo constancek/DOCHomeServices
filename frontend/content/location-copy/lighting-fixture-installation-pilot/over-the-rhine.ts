@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'Between Central Parkway and Liberty Street, most fixture work in Over-the-Rhine is in rehabbed rowhouses, condos and walk-ups, and the first question is what the ceiling hides. Census figures say seven in ten homes here are pre-1940 and seven in ten are rented, nearly all stacked in multi-unit buildings. Nineteenth-century ceilings can conceal a shallow box with no ground, while units finished since 2000 behave better. Owners, landlords and condo boards make most calls. We inspect the box and conductors and agree a figure before anything old is unhooked.',
-  emergencyParagraph:
-    'With neighbours above and below, a sagging fixture, melted plastic around a socket or lights blinking on several circuits needs us the same day. Shut off that breaker if it’s safe, and keep residents out from beneath it. Smoke or fire means clearing the unit and calling 911. We reach most calls that day, weekends too.',
   commonIntro:
     'In Over-the-Rhine, owners, landlords and condo boards hand us these four fixture jobs again and again.',
   localFaqs: [

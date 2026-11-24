@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'East End housing comes in two kinds. Just over half the homes predate 1940, mostly older houses along Eastern Avenue, while newer condos and houses toward Riverside Drive went up from the 1990s on, according to Census figures. The older group is where we find cloth wiring, fuses and ungrounded outlets; the newer one is usually sound. The river is the other factor, since basements here flood when the Ohio runs high. We inspect, report in writing, and price any fix before starting.',
-  emergencyParagraph:
-    'Treat these as same-day problems: burning smells, an outlet gone hot or discolored, a switch that hums, sparks, a breaker that flips back off, or lights that sag when a big appliance starts. Switch that breaker off. Smoke or fire: outside, then 911. Same day on most calls, weekends too.',
   commonIntro:
     'Between the pre-war houses on Eastern Avenue and the newer homes by the river, these are the problems we find most:',
   localFaqs: [

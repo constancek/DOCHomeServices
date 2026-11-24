@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'In Bethel, most recessed lighting goes in under a postwar attic. The village was platted in 1798, but its median house dates from 1958 by Census figures. Of the 1,263 homes, 808 are single detached houses, and most of the rest are in apartment buildings, where a neighbor’s floor is often right above your ceiling. Expect loose fill in the attic, one center light per room and the odd plaster ceiling near Main Street. Each can is penciled on the ceiling and priced before any cutting.',
-  emergencyParagraph:
-    'Shut those lights down if a can smells like hot plastic, the paint around a trim has turned tan, or one light blinks off and back on. Flip its breaker if that’s safe. If smoke shows, everyone goes outside and someone dials 911. Most calls in Bethel get a visit that same day, Saturdays and Sundays as well.',
   commonIntro:
     'Bethel has more renters than owners, so landlords ask us about recessed lights as often as homeowners do. These four requests lead the list.',
   localFaqs: [

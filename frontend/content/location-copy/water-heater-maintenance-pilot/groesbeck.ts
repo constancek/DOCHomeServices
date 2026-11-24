@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'Most heaters we service in Groesbeck sit in a basement or utility room of a house from the 1950s through the 1970s; Census figures put the median at 1970. In those, the flue and gas piping can be older than the tank. Renters hold 33.9% of homes, many in apartment complexes where closet units rest on drain pans, and 225 manufactured homes add tight compartments. Post-2000 houses are a quick drain and anode pull. A flat price comes first, along with honesty when a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Call for repair, not a tune-up, if the tank drips or pours: turn off the cold-water valve on top, then gas or breaker. Gas smell: everyone outdoors, no switches, no relighting, dial the gas company. Carbon monoxide alarm: people out first. A relief valve that keeps firing, or hot water gone, is repair work. Most are same day, weekends included.',
   commonIntro:
     'Groesbeck holds 1950s to 1970s houses, newer builds, apartments and manufactured homes, and in every one of them these signs mean a tank is due:',
   localFaqs: [

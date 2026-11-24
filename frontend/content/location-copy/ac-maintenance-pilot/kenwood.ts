@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'In Kenwood, most housing went up in the 1960s and 70s; the median home is from 1967 by Census figures. Houses from those years tend to have a plain duct layout and an air handler in the basement or a utility closet, so a tune-up is mostly cleaning and testing rather than detective work. A good share of Kenwood is condos and apartment buildings, where an association or owner usually books it. The price is agreed before tools come out, and a healthy AC is left as it is.',
-  emergencyParagraph:
-    'Book a repair, not a tune-up, if the AC quits in the heat, ice grows on the suction line, or a ceiling drips. Let a frozen system thaw with the thermostat off. A breaker that trips twice should stay off. Babies, older relatives and anyone ill are most at risk. Same day on most calls, weekends included.',
   commonIntro:
     'Across the houses, condos and apartments of Kenwood, these are the usual reasons people book:',
   localFaqs: [

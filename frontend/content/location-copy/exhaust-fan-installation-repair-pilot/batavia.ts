@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'Batavia has an old village core and plenty of postwar houses, and each brings its own exhaust fan trouble. Census figures put the typical home at 1955, with about a third built before 1940. The oldest houses often have a bathroom added after the fact, with a fan venting into the attic. The postwar ones tend to have original fans that are worn and too small. A good number of homes are rented. We check the airflow and the duct and price the job before cutting in.',
-  emergencyParagraph:
-    'Don’t wait on a fan that smells burnt or has a scorched housing. Kill it at the wall or panel, provided that’s safe. Water creeping round the grille, or a breaker that refuses to stay up, is urgent too. Smoke or fire means everyone out and a call to 911. Same-day help covers most calls, weekends too.',
   commonIntro:
     'Around the village center and the streets beyond it in Batavia, these signs bring most of our calls:',
   localFaqs: [

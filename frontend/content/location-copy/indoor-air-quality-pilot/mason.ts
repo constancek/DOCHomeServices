@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Most houses in Mason were built from the 1990s on, and Census figures put the median year built at 1996, with about four in five lived in by their owners. Builders sealed those houses tight, so the smell of fried onions or bleach lingers and stale air has no way out, which is why ventilation is usually our starting point. The air gets tested before we suggest a thing, you see a fixed price ahead of any work, and if a new filter is the cure, we’ll tell you.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means everybody leaves before anyone dials 911. Smelling gas means walking out without touching a light switch and phoning the gas company outdoors. A scorched smell from the vents means switching the thermostat off. Mold creeping over drywall after a leak is urgent for infants, grandparents or asthmatics. We usually arrive the same day, weekends too.',
   commonIntro:
     'In newer houses in Mason, these four complaints come up again and again:',
   localFaqs: [

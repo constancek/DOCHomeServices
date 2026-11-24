@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Hyde Park inspections are usually booked around a sale, a purchase or a renovation in an older single house. By Census figures, 51.6% of homes here were built in 1939 or earlier, and many have been remodeled several times. That leaves newer circuits in the kitchen and baths alongside original cloth or knob-and-tube wire upstairs, sometimes still feeding ungrounded outlets. Buyers rarely know which they’re getting until someone opens the panel and follows the runs. We do that, put it in a written report and price fixes before work begins.',
-  emergencyParagraph:
-    'Don’t hold these for an inspection date in Hyde Park: a hot-plastic smell, a warm or discolored cover plate, buzzing or sparks from an outlet, a breaker that trips again within seconds. Turn the breaker off. If smoke or flames appear, get everyone outside and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Hyde Park is mostly owner-occupied, and 48.6% of its homes are detached single houses. On those, our inspections find these most often:',
   localFaqs: [

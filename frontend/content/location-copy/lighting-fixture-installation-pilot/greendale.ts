@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Laid out in 1852 next to Lawrenceburg, Greendale is mostly owner-occupied single-family houses, and Census numbers give a median build year of 1958. A common request here is a brighter bathroom, a vanity bar or a dim ceiling globe replaced with something that actually lights the mirror. Houses from the 1940s and 1950s usually came with small baths, one light per bedroom and, in the oldest houses near Ridge Avenue, plaster ceilings. We pop the canopy, judge the box and wiring, and agree a flat price before anything is unscrewed.',
-  emergencyParagraph:
-    'A fixture tugging loose, a switch plate that buzzes or runs warm, scorching on a canopy or a breaker that drops whenever one light goes on can’t wait. Shut that breaker if the panel is safe, and keep everyone clear. If there’s smoke or fire, get out and call 911. Most calls get us the same day, weekends included.',
   commonIntro:
     'Homeowners in Greendale usually reach out about one of these.',
   localFaqs: [

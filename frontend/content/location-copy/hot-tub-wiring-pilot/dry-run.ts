@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Census figures show nearly all of the 4,109 occupied homes in Dry Run are owner-occupied detached houses, with a median build year of 1986. Breaker boxes from the eighties onward tend to have a slot free for a spa breaker, so the job mostly rides on where the tub lands and how the conduit gets back to the house. A sixties or seventies house is likelier to need its panel sorted first. We hold the panel up to the spa maker’s spec and price everything before digging.',
-  emergencyParagraph:
-    'Spa problems that need us fast in Dry Run include a GFCI that won’t hold after a reset, a burnt smell at the shutoff, a buzzing panel and a tingle from the water. Get everyone out and leave the spa alone. Cut the breaker only if it’s safe; for smoke, call 911. Most calls are same day, weekends included.',
   commonIntro:
     'These four bring most spa owners in Dry Run to us.',
   localFaqs: [

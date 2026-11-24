@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'Most houses in South Lebanon are young enough that a Level 2 charger slots in without drama. Census figures show two-thirds were built in 2000 or later, and close to three in four are detached houses, so the panel often has room, or a load-management device covers the gap. The older core near the river is a different story, since its services may be smaller. We size up the panel and total the load before quoting, flag it when a plug-in cord will do, and hold the price once agreed.',
-  emergencyParagraph:
-    'Phone us when the charger casing or plug turns hot or misshapen, a scorched smell drifts up mid-charge, or the breaker quits each time the car connects. End the session. Shut off that circuit only when the panel is dry and nothing feels hot. With smoke or fire, get clear and ring 911. Most calls get same-day help, weekends too.',
   commonIntro:
     'Across the newer subdivisions and the older streets of South Lebanon, these are the usual reasons people ask us about a charger.',
   localFaqs: [

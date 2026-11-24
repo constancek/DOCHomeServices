@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'The first lots in Loveland Park were wooded parcels along the Little Miami, handed out by a newspaper in the 1920s with a subscription. Over a third of its houses predate 1960, and Census figures show over half went up in 1980 or later. The older houses often have a ceiling box set for a single bulb, not a fan. Newer ones bring two-story family rooms and screened porches. We check your box, tell you when a rebalance will fix the wobble, and price it before anything comes down.',
-  emergencyParagraph:
-    'Leave the fan off if it shakes hard, the fixture sags from the ceiling, the motor smokes or the switch plate crackles. Cut it at the wall or the panel if you can get there safely, and send everyone out of the room. Flames mean leaving the house and calling 911. Most calls are covered the same day, weekends included.',
   commonIntro:
     'Old river-lot homes and much newer houses sit side by side in Loveland Park, so the fan problems we see run both ways.',
   localFaqs: [

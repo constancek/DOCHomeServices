@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'In Spring Grove Village, ceiling fan jobs start in houses built before anyone planned for one. The median home dates to 1938, by Census figures, more than half predate 1940, and two in three are detached houses on their own lots along streets like Winton Road and Epworth Avenue. Many rooms never had a fan, and the box was often meant for a lamp. We open it before quoting, tell you if a tightened mount will settle a wobble, and price it before the old fixture comes down.',
-  emergencyParagraph:
-    'A fan jerking hard, a box that has slipped out of the plaster, smoke from the motor, or a spark at the switch needs a call; we reach most the same day, weekends too. Cut the fan off if it’s safe to, and make sure nobody stands underneath. With fire or smoke, leave the house and call 911.',
   commonIntro:
     'Around Spring Grove Village, the calls we get tend to involve original light boxes, worn plaster and bedrooms that have only ever had a bulb.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'Coke ovens and a steel mill built New Miami, and nearly all of its homes are detached houses, with a median year built of 1960 in Census figures. Roughly one in five was standing before 1940 and may still run knob-and-tube or cloth wire, ungrounded, behind two-prong receptacles. The rest came between the 1940s and 1970s, when builders gave a house a fraction of the circuits a kitchen now draws on. We meter first, admit it when the wiring passes, and write out scope and flat rate up front.',
-  emergencyParagraph:
-    'Smell burning at a receptacle or in a wall, see a blackened faceplate or sparks, or have a breaker pop right after reset, and you should call us today. A shock from an appliance counts too. If the panel is dry and reachable, cut that circuit. For smoke or fire, get everyone out and phone 911. Weekend calls are covered.',
   commonIntro:
     'Around the village, owners of the older detached houses mention these warnings more than any others.',
   localFaqs: [

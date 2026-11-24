@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Mount Auburn has two kinds of AC work. The bigger one is 19th-century houses split into flats; Census figures show 56.6% of homes built in 1939 or earlier, so central air was fitted later with long duct runs and an air handler tucked in an attic or cellar. The other is the newer buildings from the 2010s, which are a straightforward coil, drain and electrical check. Most homes are rented, so owners book. We set the price before work begins and say plainly when nothing is needed.',
-  emergencyParagraph:
-    'Warm rooms in a heat wave, frost on the copper, or a ceiling stain spreading under the attic unit all point to a repair crew rather than a checkup, so shut the thermostat off. Older tenants, small children and anyone sick struggle most in heat. Most calls get same-day service, weekends included.',
   commonIntro:
     'In the converted Victorians and newer apartment buildings up here, maintenance usually starts with one of these:',
   localFaqs: [

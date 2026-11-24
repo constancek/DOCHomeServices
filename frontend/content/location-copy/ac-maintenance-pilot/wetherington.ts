@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Spring service in Wetherington is quick work, since the neighborhood is young. It grew up around a golf club that opened in 1992, and by Census figures the median house dates to 1998. Ductwork was laid out as each house was framed instead of being forced in later, so we spend the visit on the coil, filter, drain line and the condenser’s electrical side rather than chasing airflow. Owners hear a set price before we lift a tool, and if nothing is wrong, we report that.',
-  emergencyParagraph:
-    'An AC that stops in a heat wave needs a repair, not maintenance. Ice on the refrigerant line means switching it off to thaw. A wet ceiling, a hot electrical smell or a tripping breaker belong in the same group. Babies and older relatives feel heat soonest. We usually come the same day, weekends included.',
   commonIntro:
     'Owners of the newer houses in Wetherington tend to ring us in spring for reasons like these.',
   localFaqs: [

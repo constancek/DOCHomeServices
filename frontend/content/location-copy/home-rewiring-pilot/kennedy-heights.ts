@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Grounding is the big rewiring question in Kennedy Heights. Census figures place the median house at 1944, and almost half predate 1940, so plenty may still run on two-wire circuits with nothing to carry a fault away. More than one home in five is a two-family or a small building of three or four units, and more than two in five households rent. Postwar houses were wired for far fewer appliances. Testing comes before any quote, sound wiring gets left alone, and the scope and flat price are agreed first.',
-  emergencyParagraph:
-    'Expect us the same day on most calls, weekends included, when a receptacle smells scorched, a switch cover turns brown or hot, a fixture arcs, someone feels a jolt, or a breaker won’t stay on. Only cut the circuit if your hands are dry and the panel isn’t warm. Smoke or flames mean getting out and calling 911.',
   commonIntro:
     'Two-wire circuits and patched-in additions in Kennedy Heights tend to announce themselves this way.',
   localFaqs: [

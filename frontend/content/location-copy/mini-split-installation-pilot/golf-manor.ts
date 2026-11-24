@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Golf Manor is a postwar village. The median home there dates to 1954 by Census figures, and many lots carry a two-family or a four-unit building rather than one house. Ducts from that era were drawn for a gas furnace, which is why the second floor runs warm in July, and a ductless head cools it with no ceilings opened. Half the units, 50.4%, are rented, so the owner signs off. You get a fixed price before we drill, and a straight answer if ductless isn’t worth it.',
-  emergencyParagraph:
-    'Most summers bring about 21 days of 90F or worse (National Weather Service average). In Golf Manor, the rooms under the roof of a two-family hold that heat late. Grandparents, infants and anyone sick suffer most up there. One room is normally a day’s install. A dead mini-split goes to Mini-Split Repair, usually same day, weekends too.',
   commonIntro:
     'From second-floor bedrooms to the back units of small apartment buildings in Golf Manor, here’s where ductless quotes usually begin:',
   localFaqs: [

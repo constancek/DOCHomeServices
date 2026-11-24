@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'In Monfort Heights, houses come from every era, and Census figures put the median at 1975, with roughly a quarter built since 2000. That spread changes the fan problem from one street to the next. A postwar house may have had its fan added later and ducted into the attic. A 1970s split-level often still runs the original fan, small and worn. A newer house has a fan, sometimes too weak for a large bathroom. Whatever we find, we trace the airflow and quote before cutting.',
-  emergencyParagraph:
-    'A hot plastic smell, a warped housing, sparks or smoke from the grille is a reason to cut power at the switch or panel, if safe. Fire or heavy smoke means leaving and phoning 911. A fan that pops the breaker or leaks needs a prompt visit. In Monfort Heights, we usually arrive that day, weekends included.',
   commonIntro:
     'Along North Bend Road, West Fork Road and the streets off them in Monfort Heights, these are the four signs we hear about most.',
   localFaqs: [

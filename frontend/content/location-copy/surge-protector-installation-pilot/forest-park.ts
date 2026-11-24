@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Close to six in ten houses in Forest Park were built from 1960 through 1979, and nearly half of households rent, Census figures show. Many of those subdivision houses are now rentals, each with its own furnace, air conditioner and kitchen appliances to replace when a surge slips through. Breaker boxes of that vintage are often crowded, so we open yours to see where a device can fit. A tenant may be fine with good strips, and we’ll tell you so. You get the price before any work.',
-  emergencyParagraph:
-    'Smoke from a furnace or fridge as the power returns after a storm is a same-day call. Cut that circuit only if the floor under you is dry. If flames appear, get everyone out of the house and dial 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'In Forest Park, houses and apartments from the 1960s and 1970s usually give these warnings before surge damage piles up.',
   localFaqs: [

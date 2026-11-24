@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Census figures show that half the houses in North College Hill were built from 1940 to 1959, and four in five stand detached with a yard behind. Breaker boxes from those years were laid out for a smaller household, so many lack a spare position or the reserve a spa wants, and we fix that first. After it comes a spa-only 240-volt run behind a ground-fault breaker, an outdoor disconnect within view, and bonding. We size it all from the tub’s paperwork and you okay the cost before anyone digs.',
-  emergencyParagraph:
-    'Phone us right away when the tub’s GFCI pops again seconds after a reset, the panel hums or crackles, or the disconnect gives off a scorched smell. Leave the spa and its gear alone. Kill the circuit at the breaker only if it’s safe, and call 911 if smoke appears. Same-day help reaches most homes, Saturdays and Sundays too.',
   commonIntro:
     'In the postwar blocks off Galbraith Road and Simpson Avenue, owners usually bring us one of these four.',
   localFaqs: [

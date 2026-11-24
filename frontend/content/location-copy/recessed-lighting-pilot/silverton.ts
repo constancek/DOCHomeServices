@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'In Silverton, recessed lighting most often rescues a living room that has gotten by on floor lamps since the Eisenhower years. Census figures put the median home at 1959, with about 42 of every 100 built from 1940 through 1959, so an attic over the top floor is normal and ceilings may be plaster or early drywall. Close to 59 in 100 homes are rented, plenty of them in three- and four-unit buildings on narrow lots, so owners book much of this. Layout and price get fixed before cutting.',
-  emergencyParagraph:
-    'Treat a charred odor drifting from a can, browning plaster or drywall circling a fixture, or a trim that stings your fingertips as urgent. Kill that breaker once you know the route to the panel is safe. Flames or smoke mean evacuating and dialing 911. Silverton calls usually get one of our electricians that day, weekends included.',
   commonIntro:
     'In Silverton, our recessed lighting work mostly lands in postwar houses and fourplexes, in rooms like these.',
   localFaqs: [

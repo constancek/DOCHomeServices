@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Homes in Elsmere come from every era. Census figures show 13.2% built in 1939 or earlier, 19.6% built since 2000, and 344 mobile homes counted alongside them. Each needs its own approach: a pre-war cellar with a tired flue and a spigot opened slowly, a newer house with an easy drain and anode pull, a mobile home where the heater hides behind a hatch. A quarter of households rent. The figure is agreed before work, and a heater not worth servicing gets an honest word from us.',
-  emergencyParagraph:
-    'Repair, not tune-up: for a leak, the cold-water valve on the tank’s crown goes off, then gas or power. For a gas odor, walk out, let switches and pilot be, dial the gas company from the yard. For a carbon monoxide alarm, the household exits first. Relief valve won’t quit, or zero hot water: usually same day, weekends included.',
   commonIntro:
     'From pre-war basements to mobile homes in Elsmere, these tend to prompt a call:',
   localFaqs: [

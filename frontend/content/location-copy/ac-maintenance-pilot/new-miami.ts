@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'Coke ovens and later a steel mill shaped the village of New Miami, and its streets hold small detached houses, nearly all built before 1980. Census figures date the median home to 1960, and gas heats about eight in ten, so the usual AC is a coil perched on a gas furnace with a condenser tucked against the siding, bolted on years after the house went up. Landlords book for the rentals. We agree a figure first and won’t sell a tune-up nobody needs.',
-  emergencyParagraph:
-    'Some problems mean a repair call, not maintenance. Rooms that won’t cool in July, ice along the copper lines, water pooling around the furnace, or an outdoor unit that hums with its fan stopped all count, so turn the AC off. Older relatives, infants and anyone sick or short of breath suffer most. Same day on most calls, weekends included.',
   commonIntro:
     'In the older detached houses around the village, these are what usually get people to book:',
   localFaqs: [

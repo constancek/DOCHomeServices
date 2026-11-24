@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Ownership comes before wiring in Walnut Hills. Census figures show close to four in five homes are rented and about three in five sit in buildings of five or more units, so landlords and condo boards decide most chargers. Nearly half the housing predates 1940, and a small original service may have no spare capacity for a 240-volt line. We size up the panel and total its load before quoting, tell you when the cord you own is enough, and lock the price before work.',
-  emergencyParagraph:
-    'If a charger smells burnt, a plug has gone hot or brown, the cable is flattened or the breaker trips with every charge, that spot stays unused until we’ve checked it. Kill the breaker only if the floor is dry. Flames or smoke mean leaving the building and dialing 911. We usually come that day, weekends too.',
   commonIntro:
     'From rowhouses near Peebles’ Corner to big apartment blocks, these are the charging questions we hear most in Walnut Hills.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'South Lebanon has two housing stocks. Census figures date 65.9% of homes to 2000 or later, and those visits are a straight drain, rod check and valve test on a garage or utility room tank. The older core by the river is another job: basement heaters, tired drain valves, venting and gas piping that need inspecting. Apartment buildings add closet units over pans, which landlords book. Both gas and electric are common. You sign off on the flat price first, and we’ll tell you if a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Leaking tank: the cold inlet valve on top closes first, the gas or breaker second. A whiff of gas means outside, with no switches touched and no relighting; phone the gas utility from the curb. A carbon monoxide alarm empties the house first. Nonstop relief valve discharge, or no hot water: same day on most calls, weekends included.',
   commonIntro:
     'From the subdivisions to the streets near the river, these bring most service calls in South Lebanon:',
   localFaqs: [

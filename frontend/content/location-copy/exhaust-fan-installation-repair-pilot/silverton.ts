@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Silverton is a village of mostly post-war houses, and Census figures put the median at 1959, with about four in ten homes built between 1940 and that year. Many began with one small bathroom, and a fan got squeezed in years later, often blowing into the attic because that was simpler. About a quarter of homes sit in fourplexes and three-flats, and nearly six in ten are rented, so owners book most of this work. We chase the duct to its end and price the fix before opening a ceiling.',
-  emergencyParagraph:
-    'The moment a bathroom fan smells hot, crackles with sparks or puffs smoke, shut it off at the wall or the breaker, provided getting there is safe. Water leaking from the grille, or a breaker that trips with it, needs a same-day look. If smoke or flames appear, leave and dial 911. We generally arrive that day, weekends included.',
   commonIntro:
     'Off Montgomery Road and along the narrow-lot streets near Village Hall, these four come up again and again in Silverton.',
   localFaqs: [

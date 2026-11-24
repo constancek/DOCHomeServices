@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'All of the housing in Evendale is single-family, by Census figures, and the median house was built in 1982, newer than most of the area. In a house that age, the ductless request is rarely the whole house. It’s the sunroom, the finished basement, the room over the garage or the addition that the original system was never sized for. One wall head gives that space a setting of its own. We price it flat before any work, and if the real fix is in the ductwork, we’ll say so.',
-  emergencyParagraph:
-    'A glassy sunroom in Evendale can sit well above the 86F normal July high (National Weather Service). That heat is rough on grandparents, infants and anyone sick or with asthma. We book installs promptly, and one head is usually a day’s work. For a broken mini-split, Mini-Split Repair comes same day on most calls, weekends included.',
   commonIntro:
     'In the 1970s and 1980s houses of Evendale, a ductless quote usually starts with one of these:',
   localFaqs: [

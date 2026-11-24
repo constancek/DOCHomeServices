@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Around the Boone County seat, most lighting calls are about retiring the builder fixtures a subdivision house came with. Census figures date the typical home in Burlington to 1998, and close to half went up after 2000, so the boxes are generally modern and grounded. Big foyers and kitchen islands are everywhere, and about a quarter of households rent, often in townhouses or apartment communities. Even so, we confirm the box can carry the fixture you picked, and you approve the cost before a ladder goes up.',
-  emergencyParagraph:
-    'A foyer fixture leaning off its bracket, a scorched wall plate, or a light that knocks out its breaker is urgent. Turn that circuit off if the panel is safe to reach, and send everyone to another room. Smoke or flames mean get out and ring 911. Most calls in Boone County see us the same day, weekends too.',
   commonIntro:
     'Subdivision houses and townhouses in Burlington tend to call for one of these lighting jobs.',
   localFaqs: [

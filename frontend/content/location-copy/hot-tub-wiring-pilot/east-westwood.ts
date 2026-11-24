@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'East Westwood is mostly mid-century, with Census figures putting the typical home at 1958, and roughly three in four homes are rented. A house built in the 1950s still has a panel sized for that decade, so carving out room and capacity for a spa breaker usually comes first. Houses built since 2000 more often have both, and the job then turns to where the tub goes and how the conduit reaches it. Owners get a price after we check the panel against the spa’s requirements.',
-  emergencyParagraph:
-    'If the GFCI won’t survive a reset, the panel buzzes or the shutoff smells of burning, leave the spa off and phone us. Anyone who feels a tingle climbs out by the steps, not the metal. Cut power only where it’s safe, and for smoke or fire, get out and dial 911. Same-day visits are normal, weekends included.',
   commonIntro:
     'For the houses and rentals of East Westwood, these are the spa problems that come up most.',
   localFaqs: [

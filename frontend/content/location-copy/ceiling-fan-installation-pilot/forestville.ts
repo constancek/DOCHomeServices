@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'Forestville sits along the Beechmont and Five Mile corridor in Anderson Township, and Census figures give its homes a median year of 1981. That means plenty of two-story family rooms and vaulted ceilings, where a fan hangs on a down rod, and covered decks that call for a weather-rated model. Over a third of households rent, many in big complexes. We read the box before mounting anything, say so if tightening finishes it, and quote before the old one is unhooked.',
-  emergencyParagraph:
-    'A fan that suddenly swings wide, a box coming away from a tall ceiling or a burning odor from the motor means switching it off at the wall or breaker. Treat a sparking switch or tripping breaker the same way, and keep everyone clear below. If smoke appears, leave and call 911. Same day service on most calls, weekends included.',
   commonIntro:
     'With so many tall rooms and newer subdivisions in this part of Anderson Township, these are the fan calls we get most.',
   localFaqs: [

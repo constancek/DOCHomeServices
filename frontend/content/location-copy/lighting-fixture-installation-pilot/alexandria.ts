@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Island pendants, a foyer chandelier over the stairs, or a swap for the builder-grade dome in a bedroom make up most of our fixture work in Alexandria, and what governs each is the ceiling box, the ground, and whether the location exists yet. Houses skew young. Census data gives a 1994 median, with roughly a third built since 2000, nearly all detached and owned, so boxes are usually grounded and reachable from an attic. Before the old fixture drops, we confirm the box and wiring and lock in your price.',
-  emergencyParagraph:
-    'Scorch marks on a cover plate, a pendant that has dropped on its cord, a dimmer too hot to touch, or several rooms flickering together mean switching off that breaker if that’s safe. Keep kids and pets clear. If smoke appears, everyone leaves and someone calls 911. We reach most callers the same day, Saturdays and Sundays included.',
   commonIntro:
     'Across the hills of Alexandria, we get asked for these four most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale went up mostly in the 1940s and 1950s: Census figures put 73.2% of homes in those decades, median 1956. A heater here usually lives in a basement that has held several tanks before it, beside an older flue connector, a gas line worth a look and a drain valve we test gently before opening. Gas service is common, so most visits include the burner and venting. You agree to the flat rate first, and if the tank is past the point where service makes sense, we say so.',
-  emergencyParagraph:
-    'Water seeping from the tank: shut its cold-water valve, then its gas valve or breaker. Gas smell in a 1950s basement: climb out without a switch or a match, then phone the gas company. Carbon monoxide alarm: household out first. Those, plus a relief valve that won’t stop or a cold tap, mean repair. Same-day repair on most, weekends too.',
   commonIntro:
     'In Dillonvale, where most houses date from the 1940s and 1950s, a tank tends to announce it’s due like this:',
   localFaqs: [

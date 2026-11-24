@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'In Bond Hill, close to half the houses are older than 1940, Census figures show, and doubles and small multi-family buildings mix in among them. Prewar panels like those rarely offer a free position or enough headroom for a spa, so that question gets answered before the 240-volt GFCI line, the shutoff and the bonding are drawn up. The few houses built since 2000 tend to have space. Either way, the spa maker’s sheet is our yardstick, and you see a fixed figure before a trench is dug.',
-  emergencyParagraph:
-    'Some spa faults can’t wait in Bond Hill. We come the same day on most calls, weekends included, when a reset GFCI trips again at once, the shutoff smells scorched, the panel buzzes, the rail tingles or gear sat in water. Clear the tub and touch nothing. Cut the breaker only if that’s safe, and call 911 for smoke.',
   commonIntro:
     'Between the Tudor houses near Reading Road and the doubles off California Avenue, these are the usual reasons for a spa wiring visit in Bond Hill.',
   localFaqs: [

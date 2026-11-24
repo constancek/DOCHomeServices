@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Owners, not occupants, book most tune-ups in Walnut Hills. By Census figures 78.6% of homes are rented, and a big share sit in buildings of five or more units, so a typical job is a row of closet tanks standing in pans, one per apartment, worked through on a landlord’s timetable. Nearly half the housing, 48.3%, predates 1940; those basements come with tired venting and an old bottom drain we treat carefully. The flat price is settled first, with a frank word if a tank isn’t worth the visit.',
-  emergencyParagraph:
-    'Around Peebles’ Corner, some calls jump the tune-up line. Tank dribbling water: close the cold valve and shut off its gas or power. Gas odor: leave, flip nothing, relight nothing, and reach the gas company. Carbon monoxide alarm: everyone out of the unit. A stuck-open relief valve or no hot water counts too. Most get a same-day visit, weekends included.',
   commonIntro:
     'Around Peebles’ Corner and in the bigger buildings, these usually prompt an owner in Walnut Hills to book:',
   localFaqs: [

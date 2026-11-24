@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Housing in North College Hill is mostly postwar. By Census figures, half of homes date from the 1940s and 1950s, another quarter are older, and 43.6% are rented. Ductwork in those houses usually serves the main floor well and the finished upstairs poorly, so the half-story bedrooms and enclosed dens run hot. One wall-mounted head handles a room like that with no new ducts. Rental owners decide for their units. You approve our price before work begins, and we’ll say so if ductless is a poor fit.',
-  emergencyParagraph:
-    'The National Weather Service counts about 21 days a year at 90F and up. A bedroom tucked under the roof holds that heat, which is hard on grandparents, newborns and people who wheeze. Installs go on the books fast, one head in about a day. A ductless unit that quit needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Across the postwar houses and older bungalows on these streets, a ductless estimate usually starts with one of these:',
   localFaqs: [

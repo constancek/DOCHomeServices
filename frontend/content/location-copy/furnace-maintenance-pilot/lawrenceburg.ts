@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Landlords and property managers book a big share of our furnace work in Lawrenceburg. Census figures show 41.6% of homes rented and 36.7% sitting in buildings of five or more units, so a typical day is a hallway of closet furnaces in apartments or townhomes. Electricity heats 54.4% of homes, heat pumps included, and gas most of the remainder. The older downtown streets add pre-1940 houses with cellar furnaces and aging flues. Each unit is priced before we start, and one that needs nothing is left alone.',
-  emergencyParagraph:
-    'Tenant or owner, some problems outrank a checkup. Gas odor: leave the unit, skip switches, relight nothing, call the gas company from the sidewalk. Carbon monoxide alarm: everyone out, then phone. No heat in a cold snap, constant on-off cycling, or a yellow flame means repair, quickest for babies or older relatives. Same day on most, weekends too.',
   commonIntro:
     'Closet furnaces in apartments and townhomes, and cellar units under the older downtown houses, make up most of our checkups in Lawrenceburg. Bookings usually follow:',
   localFaqs: [

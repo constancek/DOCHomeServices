@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Two numbers shape a furnace tune-up in Woodlawn. By Census figures, 66.6% of households rent, many of them in apartment buildings, and electricity is the main heating fuel at 56.4%, a share that also counts heat pumps and baseboard. Housing is fairly new, with a median year of 1987. So a typical visit is a landlord’s closet furnace in an apartment, or a filter, blower and safety-control check in a newer house. The price comes before the work, and if nothing’s needed, we’ll say so.',
-  emergencyParagraph:
-    'Everyone leaves on a gas smell, no switches, no relighting, and the gas company gets a call from outdoors. A carbon monoxide alarm means out first, phone second. No heat in a freeze, a furnace cycling without end, or a lazy yellow flame needs repair; tenants tell management. Babies, elders and the sick suffer first. Mostly same day, weekends included.',
   commonIntro:
     'Apartment owners and homeowners in Woodlawn tend to book for these reasons:',
   localFaqs: [

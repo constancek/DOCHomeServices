@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'In Cold Spring, close to half of today’s homes went up after 1999, Census figures show, and nearly a quarter are townhouses or condos. So the questions are height and weather, since two-story family rooms call for a down rod and covered decks for a fan built for damp air. A builder’s light box over a newer bedroom can still be too light for a fan. Before quoting, we open it up, tell you if rebalancing would do, and pin down the price ahead of removing the old fixture.',
-  emergencyParagraph:
-    'A fan rocking under a two-story ceiling, a canopy hanging by its wires, smoke curling off the motor, or a breaker that drops whenever the fan spins up is a same-day call. Flip the switch or breaker if it’s safe and herd everyone out. Smoke or fire means getting outdoors and calling 911. We come on weekends too.',
   commonIntro:
     'Newer houses and townhouses make up most of Cold Spring, and these are the fan problems they bring us.',
   localFaqs: [

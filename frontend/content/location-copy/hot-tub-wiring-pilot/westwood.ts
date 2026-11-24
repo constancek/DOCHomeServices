@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Westwood is the city’s biggest neighborhood, and Census figures show more than half its homes went up between 1940 and 1979, with about two in three rented. On a house with its own yard, a hot tub gets a 240-volt branch circuit protected by a GFCI, a means of shutting it off that’s within view of the tub but not within reach, and bonding. Mid-century panels are often full, so making space comes first. The owner approves a price, worked out from the tub’s ratings, before conduit is strapped.',
-  emergencyParagraph:
-    'In Westwood, ring us if a spa’s GFCI trips again on every reset, the shutoff point smells scorched, the panel buzzes, or anyone in the water feels current. Everyone should get out and leave the equipment be. Shut the breaker only if you can safely; for smoke, leave and call 911. Most visits happen same day, weekends too.',
   commonIntro:
     'Along Harrison Avenue, Montana Avenue and the side streets off Werk Road, these are the spa calls we take most from Westwood:',
   localFaqs: [

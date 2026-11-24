@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'In Independence, half the houses date from 2000 or later and the median build year is 1999, Census figures show. A panel that young usually has open slots, so mounting the protector is seldom the puzzle. The real question is the load of electronics on it, from the heat pump and the smart thermostat to the range and washer and their control boards. We check the panel before quoting, we’ll admit it if a few strips are all you need, and the price is locked before we start.',
-  emergencyParagraph:
-    'Ring us the same day if a breaker flips off the instant you reset it, or if an outlet or switch shows scorching after a storm. Only kill that circuit if the floor is dry and you can reach it safely. Fire or smoke means getting outside and phoning 911. Weekend calls usually get a same-day visit too.',
   commonIntro:
     'These four come up most in the subdivisions of Independence, where the houses are young but packed with electronics.',
   localFaqs: [

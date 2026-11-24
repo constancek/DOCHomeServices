@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'Of the houses in Independence, half went up after 1999; Census figures give 49.0% built since 2000. For a tune-up that is good news. A builder-era system usually puts the furnace and evaporator coil in the basement, with the condenser on a pad behind the house, and everything comes apart easily. We spend the visit cleaning, measuring and testing rather than chasing old ducts. You know the price before the first screw comes out, and if your system is fine, we leave without selling you anything.',
-  emergencyParagraph:
-    'About 21 afternoons a year top 90F (National Weather Service), and an AC that dies on one needs a repair, not a tune-up. Ice on the lines or a condenser humming with its fan still means the same; shut it off at the thermostat. Infants, older relatives and anyone ill feel heat first. Same-day help on most calls, weekends included.',
   commonIntro:
     'Newer houses in Independence still need looking after, and these are the usual prompts to book:',
   localFaqs: [

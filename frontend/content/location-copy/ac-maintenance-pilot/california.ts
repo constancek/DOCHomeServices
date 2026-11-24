@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'California is a pocket of single-family houses where the Little Miami runs into the Ohio, and the river shapes a spring tune-up. Census figures put the median build year at 1968 and 88.0% of homes in owners’ hands, so most jobs are central air in a 1950s or 1960s house, the coil sitting on a basement furnace. When high water has been in the yard or basement, that equipment is checked before it runs. The price is fixed first, and a sound system gets an honest pass.',
-  emergencyParagraph:
-    'If river water reached the condenser or the basement air handler, keep the AC off until it’s been inspected; that’s a repair call. So is no cooling in a heat wave, frost on the coil, or a breaker that trips again. Elderly relatives, babies and anyone short of breath suffer most in heat. We usually come same day, weekends included.',
   commonIntro:
     'Owners of houses along Kellogg Avenue and its side streets call us when something like this turns up in California:',
   localFaqs: [

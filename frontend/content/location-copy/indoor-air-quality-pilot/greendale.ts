@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Greendale is mostly owner-occupied houses from the 1940s and 1950s, and air problems here tend to start below the first floor. By Census figures, more than half the homes were built before 1960 and the median dates to 1958. Basements that age often stay damp, and most houses heat with gas, which dries the air hard in winter. We test first and price any work before it starts. When a filter swap is all the house needs, we tell you that.',
-  emergencyParagraph:
-    'Leave the house the moment a carbon monoxide detector sounds, then dial 911. For gas, get out with every switch left alone and ring the gas company outdoors. If the furnace or AC smells scorched, set the thermostat to off. Mold spreading after a flood is worst for babies and asthma. Most calls are same day, weekends too.',
   commonIntro:
     'Owners of mid-century houses in Greendale tend to notice one of these first:',
   localFaqs: [

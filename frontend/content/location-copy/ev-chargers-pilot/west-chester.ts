@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'Census figures put about seven in ten homes in West Chester as single detached houses, mostly in subdivisions from the 1970s through the 1990s, which usually keeps a charger install simple. Those panels have often filled as finished basements and new kitchens took slots. Houses from 2000 on usually have room or can use load management. Our electrician opens the panel and totals the load before anything else, tells you if the cord in the trunk covers your driving, and fixes the price before wire is pulled.',
-  emergencyParagraph:
-    'Quit charging if the plug, connector or outlet is scorched or melting, if a burning smell drifts up, if the cable is cut or crushed, or if a breaker trips each time. With the panel dry and cool, shut that circuit off. Smoke or fire means leave the house and dial 911. Most calls are answered that day, weekends too.',
   commonIntro:
     'These four situations account for most charger calls we take in West Chester.',
   localFaqs: [

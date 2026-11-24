@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Between North Bend Road and Petersburg Road, subdivisions spread across Hebron in the 2000s, and Census figures for the 41048 area give a median house of 2002. Nearly every home is a detached house, so the usual request is pulling the plain builder domes, brushed-nickel bars and foyer lanterns a house shipped with. Those ceilings usually have grounded boxes, but a builder box is seldom made for much weight. We open each canopy, check the box and connections, and give you one flat price before a ladder goes up.',
-  emergencyParagraph:
-    'Drywall cracking around a fixture, a melted smell near a light, a switch blackened at its screws or a light that pops its breaker deserves a visit today. If the garage panel is easy to get at, shut that circuit and keep the family clear. Smoke or flames mean leave and ring 911. Most calls get same-day help, weekends too.',
   commonIntro:
     'Out near CVG, most of our lighting work in Hebron is one of these four.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Kennedy Heights was laid out as a subdivision in 1885, and Census figures show nearly half its homes dating from 1939 or before. Those older ceilings are often plaster on lath, with a box set for one center light rather than a spinning fan. Two-family houses and small walk-ups line plenty of streets, and a little over four in ten homes are rented. We look at the box before quoting, tell you if tightening it will stop the wobble, and fix the price before any work begins.',
-  emergencyParagraph:
-    'When the blades wobble enough to rattle the shade, a scorched odor drifts from the motor or plaster dust falls around the canopy, shut the fan off without standing below it. A breaker that trips with the fan counts too. If there are flames, everyone leaves and someone calls 911. Most calls are same day, weekends included.',
   commonIntro:
     'Shallow boxes in prewar ceilings and fans added decades ago show up again and again in Kennedy Heights.',
   localFaqs: [

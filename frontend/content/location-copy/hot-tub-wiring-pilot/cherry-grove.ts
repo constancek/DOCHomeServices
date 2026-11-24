@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Cherry Grove is a detached house, and Census figures put the median at 1971, with most from the 1960s and 70s. Split-levels and ranches from that era often show a spare breaker space, yet close to half of them heat electrically, and that winter demand shrinks the margin a spa needs. We confirm the capacity before laying out the 240-volt GFCI feed, the cutoff and the bonding, size them from the tub’s spec sheet, and agree on a price before the ground is broken.',
-  emergencyParagraph:
-    'Phone us right away about a spa in Cherry Grove if the GFCI keeps letting go, the cutoff is scorched, the panel buzzes, or the water gives anyone a tingle. Everybody should get out, and nobody should handle the controls. Shut the breaker only when that’s safe, and dial 911 for smoke. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Throughout the split-levels and ranches along Beechmont Avenue, these are the situations that prompt a spa circuit call in Cherry Grove.',
   localFaqs: [

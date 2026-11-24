@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'New cabinets and counters in North Avondale often go in under the same lonely ceiling fixture the kitchen had decades ago, so relighting a remodelled kitchen is a common first call, and it turns on the box, the ground and whether new spots get wired. Census records give the area a median build year of 1938, which means lath and plaster, early boxes and ungrounded runs above Rose Hill and Clinton Springs. Plenty of residents live in apartment buildings. We open the ceiling, then commit to a price.',
-  emergencyParagraph:
-    'Plaster giving way around a fixture in a Queen Anne or Craftsman ceiling, melted plastic at a socket, or a humming switch warrants a quick visit. Shut that breaker if the panel is clear, and keep people back from beneath it. Smoke or fire means getting outdoors and calling 911. Most calls get help that same day, weekends included.',
   commonIntro:
     'Large pre-war houses off Rose Hill and Clinton Springs, two-families and apartment buildings near Reading Road set most of our lighting work in North Avondale.',
   localFaqs: [

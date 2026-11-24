@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Along the I-75 corridor in Monroe, recessed lighting usually lands in a basement finally getting finished, or in a subdivision house where the builder hung one dome per bedroom. Census figures set the median home at 2001, with more than half built since 2000, and close to nine in ten are detached and owner-occupied. Expect sheetrock ceilings, engineered trusses and loose fill blown over the top floor, all kinder to work through than old plaster. Positions and price are agreed before cutting.',
-  emergencyParagraph:
-    'Downlights that smell of melting plastic, scorch rings around a trim or a fixture flicking itself off and back on need us today, as does a can dripping water. If the panel is safe to reach, cut that breaker. With any smoke, leave and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'From newer subdivisions to the old town core laid out in 1817, this is what owners usually want lit around Monroe.',
   localFaqs: [

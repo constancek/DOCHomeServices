@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'The houses here mostly went up in the 1940s and 1950s, and Census figures set the median house in Deer Park at 1947. Ceiling lights from then hang from boxes sized for a fixture, and a bedroom in one of the 2,298 detached houses here may never have had a fan. Our electrician lowers the old light to see what holds that box, tells you if a snugged bracket settles the wobble, and prices the job before anything comes apart.',
-  emergencyParagraph:
-    'A fan that thumps against its mount, or a breaker that snaps off as soon as the blades turn, needs an electrician. Shut it off from the switch or the panel if you can safely, and keep everyone from standing underneath. If there’s smoke or fire, leave and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Small post-war rooms and old fixture boxes account for most of the fan calls we get in Deer Park.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'In Aurora, old riverfront houses sit beside mid-century ones. The Census median house dates to 1952, and more than one in five homes are in buildings of two to four units. The old houses run drafty, with low basements near the Ohio River that hold moisture and ducts that carry dust between rooms. In small multi-unit buildings and other rentals, the owner decides on equipment. We test first, agree a price before anything is fitted, and we’ll say so if a new filter is the whole answer.',
-  emergencyParagraph:
-    'A carbon monoxide alarm empties the house first, and the 911 call comes from the yard. Gas you can smell means leaving without touching a switch and phoning Aurora Utilities from outside. Registers giving off a scorched smell mean the thermostat goes to off. Mold after river water is urgent for babies. Most calls get same-day help, weekends included.',
   commonIntro:
     'In Aurora, most calls start with one of these.',
   localFaqs: [

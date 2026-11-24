@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'At the Villages of Roll Hill, management books electrical inspections, not residents. The complex of garden apartments and townhouse rows went up in the 1960s as Fay Apartments and was renovated from 2010 to 2012, and Census figures show 86.4% of homes in the area are rented. Whether that renovation replaced the wiring isn’t on public record, so we inspect each building as we find it. Management gets a written report per unit and a flat price for each repair before any work.',
-  emergencyParagraph:
-    'Two in three residents here are children, so a hot or scorched outlet, sparks, a burning smell or a breaker that trips right after a reset needs reporting to management at once. Switch that breaker off. With smoke or fire, get everyone out and call 911. When management sends us, we come the same day on most calls, weekends included.',
   commonIntro:
     'In the complex’s garden apartments and townhouses, these are the faults we check for first:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'In Groesbeck, 1950s houses sit beside newer builds, apartment complexes and many manufactured homes, and the Census puts the median house at 1970. Older breaker boxes here are often full, while the newer houses hold more of what surges hurt, such as central air, a smart thermostat and a kitchen full of electronic controls. A third of households rent, so the owner normally decides. We open your box before anything else, own up when a couple of strips would be plenty, and settle the price ahead of any wiring.',
-  emergencyParagraph:
-    'A hot-smelling breaker box, a burn-marked outlet, or a breaker that flips after every reset needs us that day. If brightness surges and sags across the house, Duke Energy checks first. Cut a circuit only while standing dry. Smoke or fire means everyone outside and calling 911. Weekend calls are usually same day too.',
   commonIntro:
     'Across older houses, apartment complexes and manufactured homes in Groesbeck, these four signs bring most of our surge calls.',
   localFaqs: [

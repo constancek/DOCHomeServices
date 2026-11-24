@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'In Fort Wright, houses date mostly from the 1960s through the 1990s; Census figures put the median at 1974. Homes of that era make for a straightforward checkup of coils, filter, condensate drain and electrical parts without much hunting. Several streets climb steep hillsides, which matters when a condenser pad rests on sloping ground. Renters occupy 29.3% of homes, and landlords book those visits. Prices are fixed beforehand, and a sound system gets a clean bill.',
-  emergencyParagraph:
-    'A tune-up can’t revive a split-level gone warm in a heat wave, nor thaw ice gripping its copper; set the thermostat to off. Drywall dripping overhead or a breaker popping repeatedly means leave power off. Grandparents, babies and anyone ill feel heat first. Expect us that day on most calls, weekends included.',
   commonIntro:
     'For homeowners in Fort Wright, one of these usually prompts the call.',
   localFaqs: [

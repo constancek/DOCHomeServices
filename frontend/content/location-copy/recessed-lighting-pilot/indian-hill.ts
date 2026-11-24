@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Renovation season is when most recessed lighting in Indian Hill gets done, because an opened ceiling lets cable run straight and housings sit exactly where the drawing puts them. Census figures show nearly every home in the city is a detached house, and about a third predate 1960, so a gut job off Shawnee Run Road can turn up plaster and shallow joists while a newer place has drywall and an attic. Either way, the layout gets marked and the price agreed before anything is cut.',
-  emergencyParagraph:
-    'A can that cycles dark and bright, blistered paint at a trim, a dimmer that buzzes, or a breaker that drops when the lights switch on means heat. Shut that breaker if it’s safe, and leave and dial 911 at the first sign of smoke. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In Indian Hill, recessed lighting usually arrives with a renovation or a large room the old fixtures never reached.',
   localFaqs: [

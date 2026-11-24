@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'In Linwood, recessed lighting often starts with unhooking a heavy old ceiling fixture and leaving flat plaster behind. Census figures put about four homes in five here at 1939 or earlier, many of them doubles along the streets between Eastern Avenue and Wooster Pike, so the cavity above upper floors is shallow and one family’s ceiling can be the other’s floor. Rooms were wired for one light apiece. We check overhead and the circuit, mark every can and agree the price before cutting.',
-  emergencyParagraph:
-    'Shut off a recessed light that smells scorched, has browned the plaster at its trim, or keeps cutting out and returning. A can dripping under a bathroom can’t wait either. Turn off its breaker if that’s safe, and leave and call 911 at any smoke. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In Linwood, these prewar rooms bring most of our recessed lighting calls.',
   localFaqs: [

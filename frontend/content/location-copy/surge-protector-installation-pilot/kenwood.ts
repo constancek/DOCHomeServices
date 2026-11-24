@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Kenwood is largely 1960s and 1970s housing, and close to one home in four sits in a complex of five units or more, Census figures show. Panels from that period have often been extended with add-on circuits, so finding a proper spot for the protector is the first job. Many of these houses have swapped in a new air conditioner or furnace, and that equipment is what spikes hit hardest. We open the panel before quoting, tell you if strips are all you need, and fix the price before work.',
-  emergencyParagraph:
-    'A scorched outlet or switch, or a panel giving off a burning smell after a storm, usually gets a visit the same day, weekends included. A breaker that won’t stay set gets the same treatment. Only flip it off if you can do so safely and nothing is wet. With smoke or fire, get outside and call 911.',
   commonIntro:
     'Between the 1960s houses and the larger condo and apartment buildings in Kenwood, these are the usual first signs.',
   localFaqs: [

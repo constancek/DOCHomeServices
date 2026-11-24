@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Dry Run is usually booked before a sale, a purchase or a big new load, not because the wiring is suspect. Census figures put the median home here at 1986, and almost none predate 1940, so the original wiring is usually sound. What we watch closely is the panel: an EV charger or a hot tub can ask more of it than the builder planned. We go through the house, write up what we find and price any fix before work starts.',
-  emergencyParagraph:
-    'Dry Run homeowners shouldn’t sit on certain warnings. Plastic burning in the walls, a cover plate warm enough to notice, a crackle or spark from a receptacle, a circuit that kicks off again seconds after you flip it on: shut that breaker and phone us. Smoke or flames: leave, then dial 911. Same-day visits on most calls, weekends too.',
   commonIntro:
     'In Dry Run the findings are usually small and come from how the house has been added to since it was built. What we see most:',
   localFaqs: [

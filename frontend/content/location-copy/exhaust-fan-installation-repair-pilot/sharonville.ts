@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'The housing in Sharonville leans newer, with Census figures putting the median at 1974 and a big share built between 1980 and 1999. Almost every bathroom here came with a fan, which sounds like good news until you hear one. Builders tended to fit a bargain unit, small for a roomy main bath and noisier every winter. Roughly three in ten homes are in buildings of five or more units, and over four in ten are rented. We trace the airflow, then price the fix.',
-  emergencyParagraph:
-    'A hot-plastic smell or a breaker that pops on every start means trouble, and so do sparks, smoke or water running out of the housing. Switch the power off at the wall or the panel if you can reach it safely. With flames or smoke, get everybody out and call 911. Our crew usually comes that day, weekends included.',
   commonIntro:
     'From the cul-de-sacs to the apartment complexes off Chester Road, these four complaints top the list in Sharonville.',
   localFaqs: [

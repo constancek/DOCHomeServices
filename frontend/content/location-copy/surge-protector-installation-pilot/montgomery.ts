@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'Montgomery is mostly 1970s houses that have been brought up to date inside. Census figures put the median at 1976, with that decade the largest by a wide margin, and nine in ten homes are owner-occupied detached houses. Decades of remodels added induction ranges, smart lighting, new condensers and home offices, while the original electrical panel often stayed put and filled up. So the panel decides where a surge device can land. We look at it before quoting, mention it when strips suffice, and settle the price first.',
-  emergencyParagraph:
-    'Phone us right away about a charred outlet, a hot smell from the panel after a storm, or a breaker that snaps off again after a reset. When every light in the house pulses, Duke Energy is the first call. Kill the circuit yourself only with dry hands and a safe path. Smoke or flame means everyone outside and 911.',
   commonIntro:
     'Updated houses on the cul-de-sacs off Montgomery Road usually show the need for surge protection in one of these ways.',
   localFaqs: [

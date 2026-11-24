@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'Kitchen islands put in since the subdivisions grew up the hill are where we hang a lot of pendants in New Richmond, and each one turns on the box, a ground and whether anything was ever wired above that counter. Census numbers give the village a median build year of 1986, with a third of houses added after 2000. Those ceilings mostly hold modern grounded boxes. The few older places along Front Street get more scrutiny. You hear the flat cost once we have looked inside.',
-  emergencyParagraph:
-    'Pendant cords slipping from their canopy, a crackling switch, or a breaker that drops whenever the island lights go on need a quick call. Cut that circuit at the panel if it’s safe and keep people back from the counter. Smoke or fire means everyone out and a call to 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Newer subdivision kitchens, two-story foyers and the river houses near Front Street account for most fixture jobs in New Richmond.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'In Finneytown, the typical house is a 1950s ranch or two-story; Census figures place the median at 1959, and most homes are detached single-family houses. Plenty of them were heated long before they were cooled, so the ducts were drawn for a furnace and the AC arrived later, with its coil stacked on that basement furnace and its condenser parked beside the foundation. You see a flat price before work begins, and if the AC is in good shape, we say so and leave.',
-  emergencyParagraph:
-    'Skip the checkup and get a repair booked if July heat finds the ranch refusing to cool, or white frost builds along the copper. Flip the wall control to off. Should a breaker pop twice, or something smell singed, keep power off. Newborns, grandparents and asthmatic kids are hurt soonest. Our vans typically arrive that day, Saturdays and Sundays too.',
   commonIntro:
     'Across Finneytown, these are the four things that most often prompt a tune-up.',
   localFaqs: [

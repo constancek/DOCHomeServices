@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Pendleton is small and old. Census figures show 558 of its 694 homes date from 1939 or earlier, and most occupied units are rented, many in rowhouses and small walk-ups. Buildings that age leak drafts at the window frames, keep their basements damp and pass dust between floors through ducts fitted later. A handful of units built since 2010 are sealed tight, and stale air is the trouble there. Tenants go to the owner. We test first, set the price before work, and tell you if a filter fixes it.',
-  emergencyParagraph:
-    'When the carbon monoxide alarm shrieks, go down to the street and call 911. Smell gas, and Duke Energy gets the call once you’re out, lights untouched. A scorched-smelling furnace or AC gets switched off at the thermostat. Mold growing after a leak can’t wait with a baby in the unit. Most calls see us same day, weekends included.',
   commonIntro:
     'In the rowhouses and small walk-ups, these are the air complaints we hear most from Pendleton.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'Water heater service in Reading tends to land in one of two places: a basement under a 1940s or 1950s house, or a closet in an apartment building. Census figures set the median home at 1956 and count 41.5% as rented. In the basements we check the flue, the gas piping and a drain spigot that may not have moved in years. In the closets it’s the pan and the supply lines. Either way the price is set first, and a tank not worth servicing gets an honest answer.',
-  emergencyParagraph:
-    'These go on the repair schedule. Spilling tank: shut the cold feed on top, then gas cock or breaker. Gas in the air: walk out, leave switches and pilot be, phone the gas company. Carbon monoxide alarm: clear the house. A relief valve that keeps letting go, or zero hot water: repair. Same day on most calls, weekends included.',
   commonIntro:
     'Reading has plenty of 1940s and 1950s houses and a fair number of apartments. Tanks in both usually show these signs first:',
   localFaqs: [

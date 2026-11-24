@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Harrison is mostly newer housing. Census figures put the median home at 1992, and roughly two in five went up in 2000 or later. Tight newer houses hold in stale air along with cooking and cleaning fumes, so ventilation is often the fix. About two thirds of homes heat with electricity, and winter air gets dry. After the August flood on the Whitewater, some basements need a moisture check too. We test first, price everything before work starts and tell you if a filter is enough.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends the family outdoors, where someone calls 911. With a gas odor, step outside before calling the gas company, and touch no switches. Burning smells from the furnace or AC mean switching off at the thermostat. Mold spreading after flooding threatens babies and older relatives. Saturdays and Sundays included, most calls get a same-day visit.',
   commonIntro:
     'From the older streets of Harrison to its newer subdivisions, these are the signs owners mention:',
   localFaqs: [

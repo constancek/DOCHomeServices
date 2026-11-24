@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'White Oak grew up in the postwar decades: Census figures give a median build year of 1968, with 66.4% of homes from 1940 through 1979. A tank in one of those houses usually stands near the furnace, on an old flue run and a brass or plastic drain valve that’s rarely been cracked open. Then there’s the 19.2% of homes in buildings of five or more units, closet heaters a landlord schedules. Either kind gets a flat quote up front, and a frank word if it isn’t worth the visit.',
-  emergencyParagraph:
-    'A tank dribbling onto the floor: close its cold-water supply, then gas cock or breaker. If gas is in the air, nobody touches a switch or relights; walk out and dial the gas company. Carbon monoxide alarm: people out, questions later. A relief valve that won’t settle, or no hot water, is a repair call, mostly same day, weekends included.',
   commonIntro:
     'On both the Green and Colerain sides of White Oak, a tank asking for service usually shows it like this:',
   localFaqs: [

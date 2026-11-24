@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'Old houses drive most of the rewiring work we do in Lockland. By Census figures the typical home here dates to 1944, and close to half are older than 1940, old enough that some may still hide knob-and-tube behind lath and plaster with no ground anywhere. The postwar houses from the 1940s and 1950s often came with one tired circuit feeding the whole kitchen. Our electricians test before quoting, admit it when the wiring is fine, and hand over a written scope and flat-rate price ahead of opening anything.',
-  emergencyParagraph:
-    'Ring us about an outlet that smells of hot plastic, a switch plate gone brown, a hum in a wall, or a breaker that snaps off right after a reset. Kill that circuit at the panel if you’re standing dry. With smoke or flames, get out and phone 911. Most calls in Lockland get a same-day visit, weekends included.',
   commonIntro:
     'Across the prewar houses and the apartment blocks of Lockland, these faults turn up again and again.',
   localFaqs: [

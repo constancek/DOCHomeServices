@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'In Owensville, the typical house went up in the 1960s or 1970s, and Census figures give a median year built of 1974, with most households renting. Houses from those decades are snugger than pre-war ones, so cooking smells and stale air hang around instead of leaking out. Electric heat is the norm by the same figures, and it leaves winter air dry. Renters bring problems to the owner, who chooses the equipment. We test first, fix the price before work, and tell you when a filter swap is enough.',
-  emergencyParagraph:
-    'A beeping carbon monoxide alarm means herding everyone outdoors before ringing 911. For a gas smell, leave the light switches alone and phone the gas company from the driveway. A burning smell means the thermostat goes to off. Mold spreading after a burst pipe hits infants and grandparents hardest. Expect us same day on most calls, weekends included.',
   commonIntro:
     'Village houses from the 1960s and 1970s, plus a few small apartment buildings, give us these four complaints most in Owensville.',
   localFaqs: [

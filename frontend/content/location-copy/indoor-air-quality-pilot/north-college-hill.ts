@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'In North College Hill, half the homes went up between 1940 and 1959, and another quarter are older still, by Census figures, so most are compact postwar and prewar houses with basements. After seventy-odd years, those basements often run damp and the original ducts leak dust into living rooms. Over four in ten homes are rented, which puts equipment decisions with the landlord. We test the air before suggesting anything, price each fix before work, and if the filter is the whole problem, we say so and leave.',
-  emergencyParagraph:
-    'Everyone leaves when a carbon monoxide alarm goes off, and 911 comes after. Smell gas, and step outside touching no switches before phoning the gas company. Switch a hot-smelling furnace or AC off at the thermostat. Spreading mold after a leak is urgent for babies, elders and asthmatics. Most calls are same day, weekends included.',
   commonIntro:
     'In the postwar houses and rentals of North College Hill, these are the usual warning signs:',
   localFaqs: [

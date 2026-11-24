@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'In Greendale, Census figures show a median house built in 1958, and most homes are single houses with owners living in them. Bathrooms from that period were often built with a window and no fan. When owners remodeled later, a fan was sometimes added and run into a wall cavity or the attic, which hides the problem rather than fixing it. Some basement bathrooms have no vent at all. We check where the air ends up and give you a price before opening the ceiling.',
-  emergencyParagraph:
-    'Treat a hot-plastic smell, a housing that’s browned or drooping, sparks, a breaker that refuses to stay on, or water leaking from the grille as urgent. Flip the fan off at the switch or panel if that’s safe. Smoke or fire means phone 911 from the yard. Most calls get us there the same day, Saturday and Sunday included.',
   commonIntro:
     'Greendale is mostly postwar single houses, and these are the exhaust fan problems they tend to have.',
   localFaqs: [

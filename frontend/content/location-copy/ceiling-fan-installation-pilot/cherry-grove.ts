@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Census figures date the median house in Cherry Grove to 1971, with close to four in five built in the 1960s and 70s and nearly all owner-occupied. Living rooms from those years often got a switched lamp outlet instead of a ceiling light, so a fan there needs a new box and cable. Bedroom fixtures sit on boxes meant only for a light. We open the box, say if snugging or balancing will do, and quote it before the old fixture comes down.',
-  emergencyParagraph:
-    'Shut a fan down now if it swings wide, its box creeps out of the drywall or the motor smokes. Use the wall switch or breaker if one is safe to reach, and steer family away from the floor beneath. Fire means everybody out and a 911 call. Same-day help reaches most calls, weekends included.',
   commonIntro:
     'Nearly every house here dates from the 1960s or 70s, and these four signs show up in them over and over.',
   localFaqs: [

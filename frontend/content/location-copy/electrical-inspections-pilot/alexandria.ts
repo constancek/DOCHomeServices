@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Most Alexandria homes are fairly young. Census figures put the median at 1994, and only about one in nine predates 1960, so original wiring is rarely the worry. People book us before listing a house, after buying one, or when they want a generator hookup, a pool or a shop in the garage. In houses this age, the panel’s size is usually the limit, not the wiring. We inspect, write it up and quote any fix before work begins.',
-  emergencyParagraph:
-    'Call us now if an Alexandria breaker trips again right after you reset it, an outlet or switch feels hot or looks scorched, a wall box buzzes, or lights dim hard when the air conditioner starts. Flip that breaker off. With smoke or flame, get out and call 911. Most urgent calls are seen the same day, weekends included.',
   commonIntro:
     'Nearly every Alexandria call is a detached house on its own lot, most built since the 1980s. These are the findings that come up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Almost nine in ten homes in Pleasant Run are detached houses, and the bulk of them were built from 1960 through 1979, Census figures show. Panels from those years tend to be packed with breakers, while houses put up after 2000 have slack or can use load management. Our first job is taking that panel cover off and totaling what the house already draws. If the cord that came with the car covers your driving, we’ll say it, and you get a set price before any cable goes in.',
-  emergencyParagraph:
-    'When the wall unit or its outlet gets too warm to hold, shows brown marks or smells burnt, quit charging. Do the same if the breaker snaps off during each session. Switch that breaker off only while standing somewhere dry. Smoke or flames mean a 911 call from outside. We’re usually there the same day, weekends too.',
   commonIntro:
     'Nearly every charger call we take begins with one of these four, here in Pleasant Run.',
   localFaqs: [

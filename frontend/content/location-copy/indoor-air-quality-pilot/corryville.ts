@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Nearly every household in Corryville rents, by Census figures, so the owner or manager is usually the one who books us. The buildings come in two kinds. Large apartment blocks put up since 2000 are sealed tight, trapping cooking smells, and most homes here heat with electricity, which dries winter air. Older houses near Short Vine, 756 of them from 1939 or earlier, run drafty with damp basements. We test the units first, price each fix flat before starting, and say so when new filters are all a building needs.',
-  emergencyParagraph:
-    'When a carbon monoxide detector shrieks, every tenant leaves before anyone dials 911. If you smell gas, walk out without touching switches and call the gas company outside. Shut a furnace or heat pump that smells singed off at the thermostat. Spreading mold after a leak endangers asthmatic tenants, infants and grandparents. Most calls are same day, weekends too.',
   commonIntro:
     'For owners and managers of apartment and house rentals east of the university, these are the four complaints tenants raise most.',
   localFaqs: [

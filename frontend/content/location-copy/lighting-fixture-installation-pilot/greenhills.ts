@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'Greenhills was built by the federal government between 1935 and 1938 as a Greenbelt town, and its row townhomes still sit beside the veterans’ houses added after the war. Census counts land the median build year at 1955. The original units were planned without basements, so a dark stairwell or an upstairs hall with one weak light is a classic request, and getting new cable to a ceiling takes planning. An electrician checks the box and the old wiring first, then you approve one flat price.',
-  emergencyParagraph:
-    'A stair light dangling by its wires, a switch plate you can feel heat through, a blackened socket or lamps flickering on several circuits shouldn’t be left overnight. Cut that breaker if it’s safe and keep the family off the stairs below. Smoke or fire means out the door, then 911. Most get a same-day visit, weekends too.',
   commonIntro:
     'In Greenhills, most of our fixture work starts with one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Census figures show four in five homes in Pendleton were built in 1939 or earlier, and roughly one in seven since 2010. Most units sit in rowhouses and multi-unit buildings, and most households rent. The old panels are often small or full, and space for a device is the first thing we look for. Rehabs and new builds carry more of what surges damage, like heat pumps and smart locks. An electrician opens the panel first, says if strips are enough, and agrees the price before work begins.',
-  emergencyParagraph:
-    'Burning smells from an outlet or the panel after a storm, and a breaker that drops out again as soon as it’s reset, call for help that same day; we reach most calls then, weekends too. When lights across the building flare and dim together, call Duke Energy first, then us. Smoke or fire means leaving and dialing 911.',
   commonIntro:
     'Rowhouses, tenement buildings and new construction all show up on our calls, and these are the usual signs in Pendleton.',
   localFaqs: [

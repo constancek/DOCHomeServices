@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Most Mount Carmel homes went up between the 1940s and the 1970s, and that shapes what an electrical inspection finds. Census figures put the median at 1973. Houses from that stretch often have panels sized for far fewer appliances, too few circuits per room, and outlets added over the years without GFCI protection. With 38.7% of homes rented, landlords book us too. We check the whole system, write it up and price repairs first.',
-  emergencyParagraph:
-    'Call the same day if a Mount Carmel outlet is scorched or hot, a switch hums, you smell something burning, you see sparks, or a breaker pops straight back off. Shut that circuit down at the panel. If smoke or flames appear, get everyone outside and phone 911. We reach most of them that day, weekends included.',
   commonIntro:
     'Mount Carmel calls come from mid-century single homes and from apartments and their owners. Most often we find:',
   localFaqs: [

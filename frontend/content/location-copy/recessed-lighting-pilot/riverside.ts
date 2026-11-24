@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Who owns the ceiling matters before anything else with recessed lighting in Riverside, the narrow riverfront strip that River Road runs the full length of. Census figures count about 61 rented homes in every 100, and more than a third of units stand in buildings with ten or more apartments, so owners and property managers book most of our work. The median building went up in 1971, yet one home in four predates 1940, bringing plaster and cramped upper cavities. We plot each light and price it flat before cutting.',
-  emergencyParagraph:
-    'Water seeping out of a can, a breaker that snaps off whenever the recessed lights come on, or a scorched halo around a trim calls for that circuit to be switched off at the panel, assuming it’s safe to reach. Any smoke or flame means walking out and dialing 911. Riverside usually gets a same-day visit from us, weekends included.',
   commonIntro:
     'In Riverside, our recessed lighting work splits between apartment buildings and the older houses near River Road, mostly in these rooms.',
   localFaqs: [

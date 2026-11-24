@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'St. Bernard is its own village inside Cincinnati, and its housing is a mix of pre-war doubles and 1950s and 1960s homes. Census figures put the median year built at 1955, with about a third of homes from 1939 or earlier, so we find both ungrounded circuits and postwar panels short on space. Roughly one home in six is in a two-unit building, which often means two meters and two panels in one basement. We inspect it all and give a flat price first.',
-  emergencyParagraph:
-    'In St. Bernard, call rather than book for burning smells, an outlet that’s hot or buzzing, a switch plate going brown or black, sparks, or a breaker that pops off again when reset. Flip it off. Smoke or fire means everyone out and a call to 911. We get to most of these the same day, weekends included.',
   commonIntro:
     'St. Bernard homes are mostly owner-occupied houses and doubles, and these are the problems we find most:',
   localFaqs: [

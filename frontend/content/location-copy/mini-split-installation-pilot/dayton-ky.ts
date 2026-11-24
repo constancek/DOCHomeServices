@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Dayton’s housing splits in two. Census figures date 47.5% of homes to 1939 or earlier, and those older houses seldom have space to hide ductwork, so ductless cooling goes in without tearing into plaster. Another 18.2% were built in 2000 or after, and there the request is usually a finished basement or a third-floor room. Since 42.9% of homes are rented, an owner often makes the decision. Before any work you see one flat figure, and if ductless is the wrong answer, you’ll hear it.',
-  emergencyParagraph:
-    'Upstairs rooms in older houses stay warm past midnight, and the National Weather Service counts about 21 days a year at 90F or more. Infants, aging relatives and anyone with breathing trouble feel it first. One wall unit goes in within a day. A broken system is a Mini-Split Repair call, reached same day in most cases, weekends included.',
   commonIntro:
     'From pre-war houses near Sixth Avenue to apartments and newer builds, these are the usual ductless requests we get in Dayton:',
   localFaqs: [

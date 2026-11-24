@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Loveland Park has two eras of housing. The little houses on the 1920s Enquirer lots by the river may carry cloth-sheathed wire or only a few circuits, which strain under the electric heat close to half the homes here use. Newer houses, the reason Census figures land the median at 1990, mostly need us for an addition, a basement finish or a single misbehaving circuit. Expect a test before any quote, an honest word if nothing needs doing, and a written scope and flat price before a wall is touched.',
-  emergencyParagraph:
-    'Shut down a circuit and phone us when an outlet feels hot, a switch crackles, a fixture zaps you or the room smells like melting plastic. Use the panel only if you’re dry and safe doing it. Get out and dial 911 for smoke or flames. On most calls we’re there that same day, weekends included.',
   commonIntro:
     'From the old river lots to the streets built since 1990, these are the faults we find in Loveland Park.',
   localFaqs: [

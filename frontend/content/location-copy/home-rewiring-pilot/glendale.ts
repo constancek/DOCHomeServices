@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Glendale was laid out beside the railroad in 1851, and just over half its houses still date from 1939 or earlier, according to Census figures. Behind the plaster of an Italianate or Second Empire house there may be knob-and-tube or cloth-sheathed wire, ungrounded, often spliced into newer runs by owners decades apart. Postwar houses in the village mostly lack circuits. We trace and test each circuit before recommending a thing, say so if the wiring is healthy, and write scope and flat price out before opening any plaster.',
-  emergencyParagraph:
-    'Call us now about a blackened receptacle, a switch cover you can feel heat through, a hum inside plaster, a breaker that pops right back off, or a tingle from a sconce. From a dry spot, shut that breaker. If smoke rises, everybody leaves and you ring 911. We reach most callers the same day, weekends too.',
   commonIntro:
     'In the nineteenth-century houses and later homes of Glendale, wiring that needs replacing usually announces itself like this:',
   localFaqs: [

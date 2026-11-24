@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Harrison is mostly newer, with a Census median of 1992 and more than two in five houses built since 2000, so open slots for a spa breaker are common. Most homes here heat with electricity, though, and that winter load already sits on the panel, so headroom gets as much scrutiny as space. Each tub gets a 240-volt GFCI circuit, a disconnect and bonding, and the route to the tub sets the rest. We quote once your panel is checked against the manufacturer’s list.',
-  emergencyParagraph:
-    'Get everyone out of the tub if a bather feels a tingle, a spa breaker or GFCI won’t stay set, or the shutoff shows scorching. Switch the breaker off only if you can reach it safely, and call 911 from outside for smoke or flames. Most calls get us out the same day, weekends included.',
   commonIntro:
     'Most of the spa wiring calls we get begin with one of these in Harrison.',
   localFaqs: [

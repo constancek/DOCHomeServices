@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'More than two-thirds of homes in Carthage were built before 1940, by Census figures, and about four in ten are rented. An old house along Vine Street leaks drafts, keeps its basement damp and runs ducts that carry dust between floors, so that’s what the air test usually finds. In the rentals and the larger apartment buildings, the owner picks the equipment. Every visit starts with readings, the price is set before work, and if a fresh filter is the fix, you’ll hear that from us.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends the household outdoors before anyone dials 911. With gas in the air, touch no light switch, step outside and phone Duke Energy. Scorching smells from the furnace or AC mean setting the thermostat to off. Mold spreading after water damage can’t wait around infants, elderly parents or asthmatic kids. Most get same-day help, weekends too.',
   commonIntro:
     'Around Carthage, the old houses and apartments tend to tell us something’s wrong in these ways:',
   localFaqs: [

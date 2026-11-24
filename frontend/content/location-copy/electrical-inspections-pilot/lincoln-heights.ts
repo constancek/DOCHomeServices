@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Most electrical inspections in Lincoln Heights are booked by landlords and property managers, because 73.6% of homes in the village are rented. Census figures put the median building at 1973, so we usually find wiring that’s workable and a panel carrying more than it was built for. Nearly half of homes, 47.4%, heat with electricity, and that load shows up fast in winter. We inspect the whole system, hand over a written report, and price each repair before any work begins.',
-  emergencyParagraph:
-    'If you live in Lincoln Heights and an outlet is hot, a switch buzzes, or you see sparks or smell burning, turn off that breaker and tell your landlord or building manager right away. Smoke or fire: get out and call 911. Owners and managers can book us, and we come the same day on most calls, weekends included.',
   commonIntro:
     'In Lincoln Heights apartments and rented houses, the problems we write up are mostly about load and upkeep:',
   localFaqs: [

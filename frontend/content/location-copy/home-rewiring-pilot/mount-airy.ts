@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Mount Airy is mostly mid-century housing, and Census figures give a median year built of 1964, with about as many units in apartment buildings as in detached houses. Cable from the 1950s through the 1970s was sized for a far lighter load, so kitchens run out of circuits, and some 1960s and 1970s buildings may hold aluminum branch wiring. We measure each circuit before quoting, admit it when nothing needs replacing, and hand the owner a signed scope and flat price ahead of any demolition.',
-  emergencyParagraph:
-    'A receptacle that smells scorched, a faceplate too hot to hold, sparks at a switch, or a breaker that flips straight back off needs us today. If the panel sits somewhere dry, shut that breaker off without leaning on anything hot. Smoke or fire means clearing the unit and calling 911. Most calls are same day, weekends as well.',
   commonIntro:
     'Along Colerain Avenue, in the apartment buildings and the mid-century houses around them, owners and tenants tend to notice these first.',
   localFaqs: [

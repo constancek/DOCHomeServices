@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'In Wilder, much of the recessed lighting we install goes into condos. Census figures show more than half the homes sit in buildings of five or more units, and four in five households own rather than rent. Most date from the 1980s and 1990s, so it’s drywall. Over a lower-floor condo, though, the space above the ceiling is somebody else’s floor rather than an attic, and that limits both the housing and the wire route. We draw the layout on the ceiling and set the price before any cut.',
-  emergencyParagraph:
-    'A breaker that kicks off whenever the cans switch on, a trim too hot to touch or water leaking through a light from the condo upstairs needs us that day. Flip that breaker off if you safely can. If there’s smoke or fire, leave the building and call 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Condo buildings and 1990s houses on the Licking River side of Campbell County bring us most of our work here.',
   localFaqs: [

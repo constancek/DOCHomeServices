@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'A good share of the houses in West Price Hill are due for at least some new wire. Census figures date more than a third of them before 1940 and nearly half to the three decades after. The oldest can hide knob-and-tube or cloth-wrapped conductors with nothing grounded, and postwar kitchens got a thin set of circuits. About half the homes are rented, often as two-families. Testing comes first, we say when it’s sound, and a scope and flat price are written before a wall is touched.',
-  emergencyParagraph:
-    'Waiting until Monday is a bad idea in West Price Hill when a receptacle smells scorched, a switch has gone warm, a fixture gives you a jolt, or a breaker won’t stay latched. We come the same day on most, weekends too. Kill the circuit only at a dry, cool panel. If smoke shows, get out and call 911.',
   commonIntro:
     'In the pre-war and postwar houses and two-families of West Price Hill, these are the complaints we hear most.',
   localFaqs: [

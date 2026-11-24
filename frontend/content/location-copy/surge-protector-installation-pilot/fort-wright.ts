@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Fort Wright at 1974, with most of the rest built from 1960 through 1999. About two in three are detached houses, and close to three households in ten rent. A lot of these homes have since had a kitchen redone or a new furnace and air conditioner put in, which adds circuit boards. A 1970s breaker box may be full, so we look first. When a power strip would cover you, we say that, and the price is set first.',
-  emergencyParagraph:
-    'An outlet with a scorch mark, or a burnt smell after a storm, means we should come today. If every light pumps bright and dim, Duke Energy Kentucky needs the first call. Flip that breaker only with dry hands. With smoke or flames, get out and phone 911. Most calls see a technician the same day, weekends too.',
   commonIntro:
     'Updated houses from the 1960s through the 1990s in Fort Wright tend to signal surge trouble like this.',
   localFaqs: [

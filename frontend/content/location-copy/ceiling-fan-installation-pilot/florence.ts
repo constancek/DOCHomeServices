@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Florence is close to half renters by Census count, and about four homes in ten sit in buildings with two or more units, so a lot of our fan work here is booked by a landlord or a manager. Two-thirds of the housing went up before 1980, median 1972, and bedrooms from those decades usually carry a plain light box with no fan rating. We open that box first, admit it when loose screws explain the wobble, and give a price before any tools come out.',
-  emergencyParagraph:
-    'In Florence, a fan shaking violently, a box dropping from the ceiling, a burning motor smell, sparks behind the switch or a breaker that will not stay on needs us today. Cut the power if safe and keep everyone out from under it. With smoke or flames, leave, then call 911. We aim to arrive the same day, weekends too.',
   commonIntro:
     'From apartment complexes to streets of 1960s and 1970s houses, these are the fan problems we see most here.',
   localFaqs: [

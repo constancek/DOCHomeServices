@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'In Madisonville, housing splits into two kinds, with different air problems. Around Whetsel, Bramble and Roe, Census figures show about two in three homes went up in 1939 or earlier, so damp cellars and old ducts carrying dust are the norm. Toward Madison Road and Red Bank Road, much of the housing is newer apartments, many in large buildings, and the owner or manager makes the equipment call. We test first, quote a flat price before work, and say so when a new filter covers it.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm goes, everyone goes out and 911 gets called from the street. A gas smell means the same quick exit with every switch left alone, then a call to Duke Energy. Scorched smells mean the thermostat goes to off. Spreading mold after water damage is urgent with asthma. Most calls are seen that day, weekends too.',
   commonIntro:
     'In Madisonville, older houses and newer apartments alike, people tend to call about one of these.',
   localFaqs: [

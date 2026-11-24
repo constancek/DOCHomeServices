@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Taylor Mill is mostly owner-occupied houses from two building waves. Census figures show close to a third went up in the 1940s and 1950s and nearly four in ten between 1980 and 1999, with the median at 1975. The older group tends toward drafts, basement damp and ducts full of dust; the newer group is tighter and holds stale air. Heating is split between gas and electric, with some oil. We test first, quote a flat price, and tell you if a filter will do.',
-  emergencyParagraph:
-    'Everyone should be out before anyone dials 911 for a carbon monoxide alarm. For a gas smell, go outside without touching a switch and reach the gas company from there. Shut off a scorched-smelling furnace or AC at the thermostat. Mold after water damage is urgent for infants, older parents and asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'In the older and newer houses of Taylor Mill, most of the air problems we’re called about look like one of these.',
   localFaqs: [

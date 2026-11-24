@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Nearly half of the housing in Kenwood, by Census count, went up between 1960 and 1979, and the median home dates to 1967. Many bathrooms here still run the fan the builder put in, which by now hums loudly, moves little and often blows into the soffit or onto the attic floor rather than outdoors. Condos and larger apartment complexes are common as well, with renters in nearly four households of every ten. Our electricians check that fan and trace the duct, then quote the repair up front.',
-  emergencyParagraph:
-    'Stop the fan if it smells scorched, throws sparks, smokes or has a warped, melted housing. Water dripping from the grille and a breaker that pops whenever the fan starts count as urgent. Kill power at the switch or panel when that’s safe; for smoke or flames, leave and dial 911. Same-day visits are the norm, weekends included.',
   commonIntro:
     'From the residential streets near Kenwood Road to the condo buildings around Montgomery Road, these signs account for most of our fan calls:',
   localFaqs: [

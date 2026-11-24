@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'In Mount Repose, a spa hookup tends to be light work at the panel and heavier work in the yard. Census figures date the median house to 1978, and more than four in five homes stand alone on their lots, so a free breaker space is common and the trench is usually the bigger piece. The tub still gets a 240-volt GFCI circuit, a shutoff you can see from it, and bonding. Your panel is read against the spa’s data plate, and the price is fixed before digging.',
-  emergencyParagraph:
-    'Should the panel hum while the jets run, or a GFCI let go again on the first reset, ring us in Mount Repose. Bathers climb out and leave the equipment be. Kill the breaker only if getting there is safe, and if smoke or fire shows, leave the house and phone 911. We’re typically out that same day, weekends included.',
   commonIntro:
     'Owners around Mount Repose and the rest of Miami Township usually call us for one of these.',
   localFaqs: [

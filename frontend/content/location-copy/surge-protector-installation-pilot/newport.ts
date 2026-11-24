@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'For many households in Newport, a few good plug-in strips are the honest answer. Just over half rent, and close to three in ten homes are in buildings of five or more units. Census figures date nearly half the housing to 1939 or earlier, often with a small, packed panel. Owners who have added central air or a newer furnace have more worth protecting. We start at the panel, say if strips will do, and fix the price before work.',
-  emergencyParagraph:
-    'A switch plate scorched after a storm, an appliance that threw sparks when power came back, or a breaker that refuses to stay on gets us out that day on most calls, Saturdays and Sundays too. Lights flaring and fading through the whole house are a Duke Energy Kentucky problem first. Smoke means leaving and calling 911.',
   commonIntro:
     'Old panels carrying new equipment produce these signs most often across Newport.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'In Reading, the air problems we find usually start in the basement. The median house dates to 1956 and nearly a quarter predate 1940, so many sit on old foundations that let in damp, and the city itself says Mill Creek flooding has troubled it since its founding. A wet basement feeds musty air into the ducts and up through every room. About two homes in five are rented. We test before recommending anything, give you one price for the fix, and say so if it only needs a filter.',
-  emergencyParagraph:
-    'Nobody should stay inside to investigate a carbon monoxide alarm; walk the family out and phone 911. A gas odor calls for the same exit, switches untouched, with the gas company called from outdoors. If the vents smell of burning, switch the thermostat off. Infants and people with asthma are hurt first. Most calls are seen same day, weekends included.',
   commonIntro:
     'Basements near the creek and older ductwork shape most of what we hear about from homes in Reading:',
   localFaqs: [

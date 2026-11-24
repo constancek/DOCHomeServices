@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Indian Hill has houses from every era, and that decides what a furnace tune-up there looks like. By Census figures, 11.5% predate 1940 and 22.2% went up since 2000, with the rest spread across the decades between. Older houses tend to hide the furnace in a basement, venting through masonry that may have outlasted more than one furnace, so draft and heat exchanger get scrutiny. A newer house is filter, blower, burners and safety controls. We name the price before starting, and we’ll tell you when nothing is needed.',
-  emergencyParagraph:
-    'A whiff of gas: outside, no switches, no relighting, and the gas company gets called from the lawn. A carbon monoxide alarm: clear the house first. Repair calls, not tune-ups: a furnace dead in freezing weather, a lazy yellow burner flame, or endless stop-start cycling. Infants and ill relatives are most exposed. Same-day visits on most, weekends included.',
   commonIntro:
     'In Indian Hill, pre-war houses sit beside ones finished this century, and owners usually ask us out after one of these:',
   localFaqs: [

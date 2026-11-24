@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Owensville at 1974, with about half the village’s homes built in the 1960s and 1970s. Houses from those decades usually have a ground wire, but they may be short on circuits, and some may have aluminum branch wiring that works loose at the terminals. Most homes in the village heat with electricity, which piles load onto old circuits. Testing comes before any quote, and if the wiring passes, we say so. The scope and flat-rate price are on paper before anything is opened.',
-  emergencyParagraph:
-    'A receptacle letting off a scorched odor, a faceplate you can’t keep a hand on, sparking, a breaker that refuses to latch, or a zap off a lamp is urgent. Most of these get us at the door the same day, weekends included. Shut that circuit off if the panel is dry. If smoke appears, get out and call 911.',
   commonIntro:
     'In the 1960s and 1970s houses and small apartment buildings of Owensville, these are the signs that come up most.',
   localFaqs: [

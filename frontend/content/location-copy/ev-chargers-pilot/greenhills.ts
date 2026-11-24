@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'The federal government built Greenhills in the 1930s as a Greenbelt town, and Census figures put the median house at 1955, with roughly one home in seven a townhome sharing walls. Units from the original build may still have a small service and little slack for a 240-volt circuit. The postwar houses tend to have full panels. A third of homes rent. Our first visit covers the panel and a load calculation, an honest word if the Level 1 cord will do, and a fixed price.',
-  emergencyParagraph:
-    'Unplug in Greenhills if a plug or the charger feels hot, an outlet carries black scorch marks, the air smells of burning, or one breaker keeps tripping whenever the car is connected. Kill the circuit only with dry hands and clear footing. If smoke or fire appears, take everyone outdoors before phoning 911. Visits are mostly same day, weekends included.',
   commonIntro:
     'In a historic village of townhomes and postwar houses, these are the situations that usually start a charger conversation with us in Greenhills.',
   localFaqs: [

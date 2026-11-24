@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Lawrenceburg has river-town houses next to newer apartments, so jobs here range from a whole house to one unit. Census figures put roughly one home in six before 1940, while more than a third were built after 2000 and over a third are in complexes of five or more units. The oldest houses may still hide ungrounded cloth-covered wire. Mid-century homes often lack circuits, and some may have aluminum. After testing, we leave sound wiring alone, and anything we find gets a written scope and flat price before work.',
-  emergencyParagraph:
-    'If a receptacle smells burnt, a switch cover looks charred, something sparks, a fixture shocks you or a breaker trips again on reset, call; most calls get a same-day visit, weekends too. Turn off that breaker only when you’re standing dry and the panel is cool. With smoke or flames, leave and dial 911.',
   commonIntro:
     'In older houses near the river and in newer apartments in Lawrenceburg, wiring trouble usually surfaces in one of these forms.',
   localFaqs: [

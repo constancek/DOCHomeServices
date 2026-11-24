@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Single-family houses make up most of Taylor Mill, with Census figures showing 80.9% of homes detached. They come from two building waves. In the 31.4% built in the 1940s and 1950s, central air arrived later through ducts that weren’t planned for it; the big group from the 1980s and 1990s had cooling designed in. Either way, the visit covers coil, filter, drain and electrical. You agree a flat price first, and we won’t sell work your AC doesn’t need.',
-  emergencyParagraph:
-    'Running without cooling in a heat wave means a repair visit. If ice forms on the lines, switch the thermostat off and wait. Leave it off for a ceiling drip, a burning smell or a still condenser fan. Older relatives, babies and the ill feel heat most. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Homeowners in Taylor Mill have usually noticed one of these first.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillon Builders put up Dillonvale in the 1940s, and Census figures count roughly three of every four houses here as built from 1940 through 1959. Wire from that era was strung for a few lamps and a radio. Many of these houses may still have two-prong outlets with no ground, and kitchens often share one circuit with other rooms. That doesn’t mean a full rewire. We test, tell you plainly if it’s sound, and you get the scope and flat price on paper before a wall is opened.',
-  emergencyParagraph:
-    'A switch that smells charred, an outlet that’s hot, sparks, a zap from a lamp or appliance, and a breaker that kicks off once pushed back all need attention now. If the panel is dry and safe, switch that circuit off. With smoke or flames, get out and call 911. Most calls see us that same day, weekends included.',
   commonIntro:
     'In the postwar houses off East Galbraith Road in Dillonvale, these signs usually appear first:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'In Melbourne, a hot tub usually lands on a panel that already works hard. Census figures put the median house at 1958, and 183 of the city’s 200 homes are detached houses, most heated by electricity. Winter heat plus a spa heater can crowd out one more breaker, so capacity is settled first. Next comes the tub’s private 240-volt GFCI circuit, a disconnect a bather can spot from the water, and bonding. Your quote is written once the spec sheet and panel have been compared, before anyone digs.',
-  emergencyParagraph:
-    'In Melbourne, call us about a GFCI that kicks out again immediately, a humming panel, a disconnect with burn marks, or a tingle while soaking. Climb out and touch nothing. Shut off power only from a breaker you can safely reach, and phone 911 at any smoke. We arrive the same day on most calls, weekends too.',
   commonIntro:
     'Along KY 8 and the side streets back from the river, these four situations bring most of our spa calls in Melbourne.',
   localFaqs: [

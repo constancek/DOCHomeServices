@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Counters lost in shadow are the usual reason for recessed lighting calls in Evanston, and in a house built before 1940 the ceiling writes the plan. Census figures show about seven in ten homes date from 1939 or earlier, many of them detached houses and two-families on narrow lots with plaster ceilings and rooms arranged around one light. Upper floors can leave little space overhead. We measure the depth, trace the old wiring above, chalk every opening and agree a price before cutting.',
-  emergencyParagraph:
-    'A can giving off a burnt smell, plaster darkening around a trim or a light that shuts down and comes back by itself means turning that circuit off at the breaker if that’s safe. With smoke or flames showing, get out and call 911. We come the same day on most calls, weekends included.',
   commonIntro:
     'Pre-war houses and two-families near Xavier make up most of our work here. These jobs repeat.',
   localFaqs: [

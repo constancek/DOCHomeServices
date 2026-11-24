@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Wetherington was built out around its golf club from the early 1990s, and Census figures put the median house at 1998. Nearly every household owns, mostly in detached houses. Panels that age generally have a spare slot for a 240-volt line, or can share one through load management. With gas heating most of these homes, there’s usually more headroom than in an all-electric house. First comes the panel check and load calculation, then an honest word if Level 1 suffices, and a set price before any wire is run.',
-  emergencyParagraph:
-    'Heat, scorch marks or a melting plug at the wall unit means the session ends now, and so does a burning smell mid-charge. Kill that circuit only when nothing near it is wet or hot. Smoke or flame means everyone out and a call to 911. Most calls see us the same day, weekends included.',
   commonIntro:
     'Around the club in Wetherington, owners usually bring us one of these four reasons.',
   localFaqs: [

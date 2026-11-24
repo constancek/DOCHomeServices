@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'In Columbia-Tusculum, much of our recessed lighting work lands mid-renovation, with an old house’s ceiling peeled back and fresh cable easy to pull. Columbia was settled in 1788, and the housing shows it. Census figures give the wider area a median build year of 1942, and nearly half its homes predate 1940, though newer houses have since climbed the Tusculum hillsides. Most residents own the detached house they live in. Open joists or finished plaster, we pencil each light onto the ceiling and agree the cost first.',
-  emergencyParagraph:
-    'A downlight giving off a hot smell, plaster browning around its rim or rainwater seeping through a trim after heavy rain should not be left on. Kill those lights at the breaker if it’s safe to reach. If there’s smoke or flame, get out of the house and call 911. Most calls here are answered same day, weekends included.',
   commonIntro:
     'Restored old houses on the low ground and newer homes up the hill both turn up on our list in Columbia-Tusculum.',
   localFaqs: [

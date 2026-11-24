@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Plaster is the first thing we think about for a fan job in Mount Adams. The median home dates to 1938 by Census count, and roughly half were standing before 1940, which means many ceilings hold a box meant for a glass globe rather than a turning motor. Two homes out of every three are rentals, mostly doubles and smaller walk-ups. Our electrician opens that box before anything else, says when a loose bracket is the whole problem, and quotes a firm figure ahead of removing your light.',
-  emergencyParagraph:
-    'A fan swinging hard enough to crack the plaster around its canopy, or a motor giving off smoke or a scorched smell, needs us now. If it’s safe, cut it at the wall switch or panel and keep everyone off the floor beneath it. With flames, get out and dial 911. We come same day on most calls, weekends included.',
   commonIntro:
     'Old plaster ceilings and rented flats are behind most of the fan calls we get from Mount Adams.',
   localFaqs: [

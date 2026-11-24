@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'In the Villages of Roll Hill, bathroom fan repairs are booked by the management office, not by residents. Census figures show about six of every seven nearby households rent. The complex was built in the 1960s as Fay Apartments and renovated from 2010 to 2012, so the fan in one townhome may date from the renovation while a neighbor’s has been swapped since. A resident reports the problem, the office calls us, and we check the airflow and send management a price before any ceiling is opened.',
-  emergencyParagraph:
-    'Act right away if the bath fan smells like burning, its cover looks scorched or melted, or it sparks, smokes, drips water or trips the breaker. Switch it off at the wall if that’s safe, then tell the office. With smoke or fire, get out and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Residents of the townhomes and garden apartments here report these four problems more than any others:',
   localFaqs: [

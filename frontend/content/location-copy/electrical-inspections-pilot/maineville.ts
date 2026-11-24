@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Most Maineville houses are recent. Census figures put the median year built at 2004, with 54.5% built since 2000, so the wiring is usually up to a recent code. Inspections here are about plans: a sale, a purchase, a finished basement, a generator or an EV charger. Over half the homes heat with electricity, so the panel is often busier than owners expect. We test the system, hand you a written report, and price any fix before work starts.',
-  emergencyParagraph:
-    'Planned visits are the norm in Maineville, with exceptions. A burnt smell, sparks from a receptacle, a switch cover that’s hot or blackened, crackling inside a wall box, or a breaker that trips off after a reset all need attention now. Turn that breaker off. Smoke or fire: get outside, call 911. We’re usually there same day, weekends included.',
   commonIntro:
     'Maineville inspections are mostly on 1990s and 2000s houses, plus a handful of older homes in the village. What turns up:',
   localFaqs: [

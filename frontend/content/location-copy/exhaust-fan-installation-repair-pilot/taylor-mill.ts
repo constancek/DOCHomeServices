@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Two generations of houses make up most of Taylor Mill, and their fans go wrong in opposite directions. Census figures count nearly a third from 1940 to 1959 and an even bigger slice from the 1980s and 1990s, roughly four in five of them detached and mostly owner-occupied. Postwar bathrooms leaned on a small window, so any fan was a later add-on, often aimed at the attic. The newer houses got fans that tend to be undersized. We follow the duct to its end and price the work up front.',
-  emergencyParagraph:
-    'Shut the fan down and call us if there’s a burning smell, the housing looks blackened or bent, it sparks or smokes, it knocks out the breaker, or water drips from it. Use the switch or breaker only when that’s safe. For smoke or fire, get out and phone 911. We reach most calls same day, weekends too.',
   commonIntro:
     'From the postwar ranches to the 1990s two-stories off Taylor Mill Road, these are the four signs we get called about most.',
   localFaqs: [

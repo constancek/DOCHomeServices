@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'In Evendale, every home in the Census count is a detached house, the median one built in 1982, and gas heats the large majority. A gas-heated house tends to leave more slack in the panel than an all-electric one, so a 240-volt charger feed often slots in, though years of added appliances can still crowd a box. Where capacity falls short, load management frequently beats new service on cost. We open the panel, add up demand, say if the factory cord suffices, and quote one flat price.',
-  emergencyParagraph:
-    'Unplug the moment a charger, plug or receptacle heats up, discolors, melts or smells scorched. Repeated tripping at the panel and a crushed cable are reasons to stop too. Flip the circuit off only when doing so is safe, and with smoke or fire, leave and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Owners across this village of 1970s, 1980s and 1990s houses mostly bring us one of the following.',
   localFaqs: [

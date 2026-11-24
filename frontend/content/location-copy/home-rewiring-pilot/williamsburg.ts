@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Williamsburg was founded in 1796, and by Census counts over a quarter of homes here predate 1940. Wiring in those may still be knob-and-tube or cloth-sheathed, ungrounded, feeding two-prong receptacles. The 1950s to 1970s houses tend to come up short on kitchen circuits, and a few from the later years could have aluminum branch wiring. Newer places mostly call us for an addition. Testing comes before any quote, we’ll say if your wiring is fine, and you get the scope and flat price in writing first.',
-  emergencyParagraph:
-    'In Williamsburg, some trouble can’t sit overnight. Call if a receptacle smells scorched, a plate turns hot or discolored, you hear sizzling, a breaker won’t stay reset, or a fixture shocks you. Shut that breaker off only if the panel is dry and safe to reach. Should smoke or flame appear, leave and call 911. We answer on weekends too.',
   commonIntro:
     'From the pre-war houses to the post-war ones, aging wiring around the village tends to show up like this:',
   localFaqs: [

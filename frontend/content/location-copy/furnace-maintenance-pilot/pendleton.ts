@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'In Pendleton, furnace maintenance is shaped by two kinds of building. Census figures show 80.4% of units date from 1939 or earlier: rowhouses and tenements where the furnace sits in a cellar and vents up a brick chimney, so the flue and heat exchanger get the hardest look. Most units sit in multi-unit buildings, where closet furnaces are common and the owner arranges service. The few new buildings mainly need filters, blowers and burners checked. You get the price first, and an honest no-work-needed when that’s true.',
-  emergencyParagraph:
-    'Not maintenance: repair. Gas smell: get out, flip nothing, light nothing, and reach Duke Energy from the sidewalk. A carbon monoxide alarm empties the apartment first. Furnace dead during a cold snap, burners cycling endlessly, or a flame that’s turned yellow and soft: book repair. Infants and older neighbors face the most risk. Same-day on most calls, weekends included.',
   commonIntro:
     'In Pendleton, a fall furnace visit usually starts with one of these:',
   localFaqs: [

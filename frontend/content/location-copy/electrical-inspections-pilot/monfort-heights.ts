@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'Monfort Heights has houses from nearly every decade of the last century and this one, and the inspection changes with them. Census figures show a median of 1975, yet 10.0% of homes predate 1940 and 23.4% went up in 2000 or later. In the prewar houses we look for ungrounded receptacles and fuse boxes. Newer subdivisions usually check out fine and get booked for a sale or a big appliance. Apartment buildings add landlords to the mix. Fixes are priced before work starts.',
-  emergencyParagraph:
-    'An inspection is something you plan. These aren’t: a receptacle or cover plate that’s warm, crackling or browned, a hot-insulation smell, sparks, or a breaker that kicks off as fast as you reset it. Leave that breaker off. Smoke or fire, everyone out and call 911. In Monfort Heights most of these get a technician same day, weekends too.',
   commonIntro:
     'Monfort Heights mixes prewar houses, newer subdivisions and apartment buildings, so findings vary. The usual ones:',
   localFaqs: [

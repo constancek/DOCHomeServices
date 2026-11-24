@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'For a light fixture in Covedale, it comes down to the box overhead, a ground or none, and whether the spot already had a light. The neighbourhood straddles Green Township and the city, and the two halves hand us different ceilings. On the township side, Census figures date the median house to 1959, nearly all detached, usually with one ceiling light a room and a dim hall. On the city side the median is 1938, with plaster and ungrounded boxes. We look, then quote.',
-  emergencyParagraph:
-    'Ring us that day when a ceiling light begins to droop, a hot-plastic whiff hangs near a fixture, or bulbs stutter in one room after another. Flip the breaker off if it’s safe, and herd the family away. Should smoke or flames appear, everybody leaves and someone phones 911. Weekend or weekday, most calls are seen on the day.',
   commonIntro:
     'Houses from the 1950s make up much of Covedale, and they bring us these four light fixture jobs most often.',
   localFaqs: [

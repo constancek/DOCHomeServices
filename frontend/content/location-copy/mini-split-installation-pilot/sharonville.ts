@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Sharonville is younger than most of the area, with a median build of 1974 by Census figures and 6.1% predating 1940. Houses from the ’70s and ’80s came with ducts, so ductless here tends to fix the rooms central air shortchanges, like a finished basement, a space above the garage or a later addition. Buildings of five or more apartments hold 30.7% of homes, and owners decide there. You get a flat price before work, and if a duct fix would do it for less, we say so.',
-  emergencyParagraph:
-    'The National Weather Service tallies 21 days a year at 90F or above, and in Sharonville, a room over the garage can turn into the hottest spot indoors. Seniors, babies and anyone ill take it worst. Installs are booked fast, one head in a day. Units that quit go to Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro: 'In Sharonville, ductless quotes usually begin with one of these:',
   localFaqs: [
     {

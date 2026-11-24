@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Two very different kinds of house make up Loveland Park. By Census figures, more than a third date from before 1960, some on the 1920s lots the Enquirer gave away along the Little Miami, and about half from 1980 on. Unusually, only about a quarter heat with gas; oil and electric heat are common, and some older places may have no ducts, which rules out a ducted purifier. We test, quote a flat price before any work, and tell you when a filter swap is all it takes.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm sounds, the household heads outdoors and calls 911. In a house on gas, a gas smell means leaving with switches untouched and phoning the gas company outside. A burnt odor means turning the system off at the thermostat. Spreading mold after a leak is urgent for anyone asthmatic. Most calls get same-day visits, weekends too.',
   commonIntro:
     'From the oldest lot houses to the newest builds in Loveland Park, poor air usually looks like one of these.',
   localFaqs: [

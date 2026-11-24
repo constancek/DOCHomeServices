@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Harrison is one of the newer towns we cover, and that shapes the visit. Census figures show 42.4% of its homes were built in 2000 or later, and 64.5% heat with electricity, so the panel is often doing a lot of work already. Wiring in those houses is usually sound. People book us before a sale or purchase, before adding a charger or hot tub, or after the river has been in the basement. We check everything and give you a price before any repair.',
-  emergencyParagraph:
-    'Some Harrison problems need us today. A burning smell, a charred or hot cover plate, sparks, or lights that drop when the electric heat kicks on all qualify. So does a breaker that trips again right after a reset; leave it off. Smoke or fire: get out and call 911. Same-day service on most calls, Saturday and Sunday too.',
   commonIntro:
     'Most Harrison homes are newer and heated by electricity, so the findings lean toward capacity and protection more than old wiring:',
   localFaqs: [

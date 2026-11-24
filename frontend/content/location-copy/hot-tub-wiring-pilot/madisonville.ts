@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Madisonville is two neighborhoods for an electrician. Around Whetsel, Bramble and Roe, the median house dates to 1938 by Census figures, and their breaker boxes are often too crowded or too small to seat a spa breaker. Closer to Madison Road and Red Bank Road, a big wave of building came after 2000, and those boxes usually have spare seats. The soaking tub still needs its own 240-volt GFCI circuit either way. We read your spa’s install manual against the box and quote before anything is touched.',
-  emergencyParagraph:
-    'Shut the spa down if its ground-fault breaker drops right after a reset or the disconnect shows burn marks. Everybody gets out, and nobody touches the water or the gear. Open the disconnect only if reaching it is safe, and phone 911 if there’s smoke. Most calls in Madisonville get a same-day visit, weekend ones too.',
   commonIntro:
     'In Madisonville, spa calls mostly trace back to these.',
   localFaqs: [

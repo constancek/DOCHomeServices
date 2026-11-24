@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Norwood is a city of old basements. By Census figures, 66.5% of homes went up in 1939 or earlier and 26.5% sit in two- to four-unit buildings, so the stairs off Montgomery Road often lead to one heater per unit lined against a wall. Plan on flue pipe to inspect, drain spigots nobody has turned and gas piping worth a look. With 52.5% of households renting, owners tend to book every tank at once. The flat price is settled first, and a tank past helping gets an honest verdict.',
-  emergencyParagraph:
-    'Leaking tank: close the cold supply over it, then shut the gas or its circuit, and book a repair. Do the same for a relief valve that keeps blowing, or taps that run cold. Gas in the air: leave, no switches, phone the gas company. Carbon monoxide alarm: everybody outside. Same-day visits on most calls, weekends too.',
   commonIntro:
     'In the old basements and two-families of Norwood, these are the usual triggers:',
   localFaqs: [

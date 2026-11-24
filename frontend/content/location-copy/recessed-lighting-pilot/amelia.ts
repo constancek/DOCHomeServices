@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Since the 2019 vote that dissolved the village, Amelia has been split between Pierce and Batavia townships, but the houses didn’t change, and for recessed lighting they’re mostly an easy read. Census figures give a 1995 median, with more than two of every five homes built this century, so ceilings tend to be drywall and attics have room. About a quarter of homes are in apartment buildings and close to two in five households rent. Before any hole, we chalk out each light and hand you a price.',
-  emergencyParagraph:
-    'Brown discoloring around a can, the odor of something cooking in the ceiling, a trim too hot for fingers, or a breaker that snaps off whenever the lights come on all need help today. Kill power at the panel if that’s safe. If there’s smoke or fire, leave and dial 911. Most calls get same-day help, weekends too.',
   commonIntro:
     'Newer houses, townhomes and apartment complexes from the 1980s on fill most of Amelia, and these four requests lead our list:',
   localFaqs: [

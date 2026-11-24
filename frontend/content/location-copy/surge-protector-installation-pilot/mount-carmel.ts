@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'In Mount Carmel, we’re usually looking at a house from the 1960s or 1970s that has collected newer equipment over the years. Census figures give a median year built of 1973, and about two-thirds of homes are detached. A panel that age can go either way, with open slots in one house and none next door after central air and extra circuits went in. We check yours first, say when a strip is all you need, and give a set price before anything is touched.',
-  emergencyParagraph:
-    'If every light surges bright and fades, the fault may sit on Duke Energy Ohio’s side, so call them first. A breaker that drops again after you reset it is ours, and most calls get a same-day visit, weekends too. Turn that circuit off only when the area is dry. Smoke or fire means getting out and dialing 911.',
   commonIntro:
     'These are the things that most often put a house in Mount Carmel on our surge protection schedule.',
   localFaqs: [

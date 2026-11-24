@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'In Mariemont, the air work follows the village’s age. Mary Emery’s planned village broke ground in 1923, and the median home, by Census figures, dates to 1945, with well over a third from 1939 or earlier. Those houses breathe through old sashes, sit over basements that turn damp by June, and push dust through aging duct runs. Apartment tenants here leave equipment to the owner. We take readings first, set a flat price before work, and admit it when a new filter is the whole fix.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends everybody to the sidewalk before anyone calls 911. If you smell gas, leave the switches as they are and call the gas company from outside. Any scorched smell means switching the thermostat to off. Mold spreading after a leak worries us most for older relatives. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Bad air in the older houses and apartments of Mariemont tends to show itself in these ways.',
   localFaqs: [

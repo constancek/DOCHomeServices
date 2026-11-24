@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Mack is mostly 1980s and 1990s houses: Census figures put the median at 1981 and 42.7% of homes in those two decades, almost all owner-occupied. For a service visit that’s usually an easy setup, a tank in the garage or an unfinished basement corner. The surprise is how many have never been drained, so the first flush can bring out a lot of silt and an old spigot can drip afterward. We quote a flat price before touching anything and say so when a tank isn’t worth it.',
-  emergencyParagraph:
-    'Here’s where maintenance stops and repair starts. A tank weeping from its seams gets its cold feed shut and its gas or breaker turned off. Rotten-egg odor: everybody out, no light switches, then a call to the gas company from the driveway. A carbon monoxide alarm clears the house first. Same-day help on most, weekends too.',
   commonIntro:
     'In Mack the heater usually stands in the garage or basement of a house from the 1980s or 1990s. Owners book a service when:',
   localFaqs: [

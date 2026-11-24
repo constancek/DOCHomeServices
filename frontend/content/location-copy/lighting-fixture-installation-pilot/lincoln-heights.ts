@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Landlords book most of the light fixture work in Lincoln Heights, since nearly three in four homes in the village are rented. Census counts give a median build year of 1973, with the largest group from 1960 to 1979, leaving many units with one ceiling globe per room and murky corridors. A third of homes sit in apartment buildings, where the office schedules repairs. Our electrician opens the box and traces the circuit, and the owner gets a firm figure before a single fixture is unhooked.',
-  emergencyParagraph:
-    'A ceiling globe hanging by its wires, a burnt odor, a switch plate warm to the palm, or flicker across several rooms should be reported at once. Tenants should alert the landlord. If it’s safe, switch off that breaker and send everyone into another room. In smoke or fire, leave and call 911. Same-day visits on most calls, weekends too.',
   commonIntro:
     'Owners and landlords in Lincoln Heights usually ask us about one of these.',
   localFaqs: [

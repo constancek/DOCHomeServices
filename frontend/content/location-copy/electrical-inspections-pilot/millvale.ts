@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'In Millvale, the building’s owner usually books the electrical inspection, because Census figures show 91% of homes in the area are rented. About a third of residents live in Cincinnati Metropolitan Housing Authority townhomes, where problems go to management. The rest is mostly townhouse rows and small apartment buildings, where the median home dates from 1982. Wiring that age is usually sound, so owners book us between tenants or before adding a big appliance. Repairs we find are priced before any work.',
-  emergencyParagraph:
-    'If an outlet in your Millvale apartment smells hot, buzzes, sparks or looks scorched, or a breaker trips again right away, switch that breaker off. Tenants should then call management at once; owners and managers can call us. Smoke or fire: get out and dial 911. Most calls we take are seen the same day, weekends included.',
   commonIntro:
     'Millvale’s townhouse rows and small apartment buildings tend to show the same few problems, often after years of tenant turnover:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Northbrook is mostly a check of 1960s and 1970s wiring against the way people live now. Census figures put the median home at 1970, and about a quarter went up between 1940 and 1959, when kitchens had two outlets and panels were sized for far fewer appliances. More than a third of homes here heat with electricity, which puts heavy loads on those panels. We walk the whole system and write down what we find before anyone talks about repairs.',
-  emergencyParagraph:
-    'In Northbrook, heat coming through a switch plate, scorch marks, a crackle or spark at a receptacle, or a breaker that snaps off again after a reset all mean that circuit stays dead: flip it off. Smoke or flames mean the family leaves first and phones 911. A technician usually reaches Northbrook the same day, Saturdays and Sundays too.',
   commonIntro:
     'Most of what we write up in Northbrook traces back to panels and circuits asked to carry far more than they were built for. What turns up most:',
   localFaqs: [

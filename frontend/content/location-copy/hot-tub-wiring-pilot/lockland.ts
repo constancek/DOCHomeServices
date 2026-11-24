@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'The age of the electrical panel shapes almost every spa job in Lockland. By Census figures the median house dates to 1944, and close to half were standing before 1940, when nobody wired a home for a backyard soaking tub. A spa wants its own 240-volt GFCI breaker, and a panel from those years tends to lack both an open slot and the headroom, so that gets settled up front. Our first visit compares your panel with the spa maker’s spec sheet, and the price comes before conduit is cut.',
-  emergencyParagraph:
-    'If the spa’s ground-fault breaker keeps snapping off or the water gives a tingle, the bathers climb out and nobody handles the equipment. Kill the breaker only if the path to it is safe, and treat smoke as a 911 call. Lockland gets a same-day visit on most calls, weekends too.',
   commonIntro:
     'Four situations account for most of the spa wiring calls we take from Lockland.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'A mini-split job in Bridgetown is usually about one part of a mid-century house. Census figures show a median year built of 1962, with four in ten homes from the 1940s and 1950s, and 89.7% are owner-occupied. Those houses mostly have ducts, but a finished basement, an enclosed back porch or a converted upstairs often sits outside what the furnace ducts reach. A ductless head handles that room alone. You approve a flat price before we begin, and we’ll say so if a duct fix would do the job.',
-  emergencyParagraph:
-    'Weather Service records show about 21 days of 90F a year, and a half-story bedroom under the shingles bakes through all of them. Older family, infants and the sick have it hardest. Booking an install takes little time, and one head goes in over a day. Ductless that died needs Mini-Split Repair instead, typically that day, weekends too.',
   commonIntro:
     'Across the mid-century houses along and off Bridgetown Road, these are the rooms we’re most often asked to cool with a ductless system:',
   localFaqs: [

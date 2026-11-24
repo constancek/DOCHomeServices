@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'In West Price Hill the typical inspection is a single house from the 1940s, 50s or 60s. Census figures put 48.1% of homes here in those three decades, when a modest panel and two or three circuits per floor were plenty. Today’s kitchens, window units and space heaters push those circuits hard, so overloaded breakers and cramped panels are the usual findings. The older homes, about a third of the total, add fuses and ungrounded outlets to the list. We test everything and quote repairs before starting.',
-  emergencyParagraph:
-    'Don’t wait on a scorched or hot outlet, a smell of hot plastic, a crackling switch, sparks, or a breaker that pops straight back off when you reset it. Lights dimming sharply when the microwave starts can point the same way. Kill that breaker, and if there’s smoke, leave and call 911. Same-day help on most calls, weekends too.',
   commonIntro:
     'West Price Hill is mostly postwar single houses with some apartments mixed in, and these come up on our reports again and again:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'By Census figures, Hebron has a median house built in 2002, nearly every home is detached, and almost nine in ten are owner-occupied. Builder-installed panels leave a slot or two for a 240-volt line more often than not, and when they’re short, load management can often make up for it. About a third heat electrically. Our first move is the panel and the load math, then a plain word on whether the Level 1 cord covers you, then a price that’s set before work begins.',
-  emergencyParagraph:
-    'Unplug at once in Hebron if a charger or outlet runs hot or shows soot, if something smells burnt, or if the breaker kicks off each time the car connects. Throw that breaker only with dry hands, clear of anything hot. Smoke or flames mean getting outside and calling 911. Same-day help is the rule on most calls, weekends included.',
   commonIntro:
     'In subdivisions full of owner-occupied houses from the 1990s and 2000s, these are the reasons we get called for a charger in Hebron.',
   localFaqs: [

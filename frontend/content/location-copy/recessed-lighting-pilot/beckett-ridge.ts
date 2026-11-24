@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Beckett Ridge was laid out on Beckett family farmland in the 1970s, once Ohio’s largest planned unit development, and its ceilings are friendly to recessed lights. Census figures place the median home at 1990, with most built across the 1980s and 90s and about one in four attached or inside condo buildings. Drywall overhead, blown insulation in the attic and the odd shared ceiling in a townhome are what we plan around. Each can is marked and the cost fixed before any opening.',
-  emergencyParagraph:
-    'Ring us if a can gives off a burnt smell, the drywall around it browns, a trim feels too hot to hold, or water drips through a light under an upstairs bath. Flip that breaker if you can reach the panel safely. Should smoke or fire show, leave and dial 911. We’re out same day on most calls, weekends included.',
   commonIntro:
     'Across the houses, condos and townhomes built around the golf course, recessed lighting requests in Beckett Ridge usually fall into these four:',
   localFaqs: [

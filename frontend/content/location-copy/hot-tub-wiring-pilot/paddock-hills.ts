@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'In Paddock Hills, hot tub wiring usually means a Tudor Revival, Dutch Colonial or bungalow whose electrical service predates backyard spas by decades. Census figures give the wider area a median build year of 1951, pulled newer by the apartments along Reading Road. In the older houses, the panel is often full, so room for a spa breaker gets sorted first. Then comes a GFCI-protected 240-volt line, a shutoff the bather can see and bonding, all priced before conduit goes in.',
-  emergencyParagraph:
-    'In Paddock Hills, a GFCI that refuses to reset, a breaker that won’t stay on, or a shutoff that smells hot means the tub is closed. If the water tingles, climb out without grabbing the rail. Kill power only if that’s safe, and 911 comes first for smoke. Most calls get a visit that day, weekends too.',
   commonIntro:
     'For homeowners in Paddock Hills, spa wiring calls tend to start with one of these four.',
   localFaqs: [

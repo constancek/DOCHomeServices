@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross is a community of single-family houses, 82.4% detached by Census figures, built mostly in the 1960s and ’70s around a median of 1972. Houses from that era usually came with ducts, so our ductless work here is mostly for spaces the original layout skipped, like a room over the garage, an addition or a finished lower level. Fuel oil heats 14.8% of homes, and some of those never got central air. A flat price is settled first, and if ductless isn’t the smart call, you’ll hear that.',
-  emergencyParagraph:
-    'July’s normal high at the Cincinnati station is 86F, per the National Weather Service, and a room over a garage in Ross can climb past that. Grandparents, babies and anyone who’s ill feel it soonest. We book installs quickly, one head in a day. For a stopped ductless unit, Mini-Split Repair visits same day on most calls, weekends too.',
   commonIntro: 'Around Hamilton Cleves Road, these are the usual starting points for ductless in Ross:',
   localFaqs: [
     {

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Lawrenceburg is a town of renters as much as owners: 41.6% of households rent, and Census figures place 36.7% of homes in buildings with five or more units. Each apartment there usually has its own closet heater over a drip pan, booked by the landlord or manager. Houses run from pre-1940 places near the old downtown, with cellar heaters and aging flues, to 2000s subdivisions with garage tanks. You see the flat price before anyone picks up a wrench, and a tank not worth servicing gets called out.',
-  emergencyParagraph:
-    'Spilling tank: turn the handle on the cold pipe above it, then kill the breaker or turn the gas cock off. Gas odor: walk out, no lights, no pilot, dial the gas utility from outside. Carbon monoxide detector sounding: people and pets out before anything. Relief valve dumping repeatedly, or zero hot water: we’re usually there same day, weekends included.',
   commonIntro:
     'In the apartment buildings and houses of Lawrenceburg, service usually starts with one of these:',
   localFaqs: [

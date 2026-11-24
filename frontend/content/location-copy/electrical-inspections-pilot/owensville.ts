@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Owensville is a small village, and most homes here are rented by Census figures, so landlords between tenants book a lot of our inspections. Of the homes, 50.8% date from 1960 to 1979, a period when panels were sized for a smaller load and a bedroom was lucky to get its own circuit. Electric heat is the norm in most homes too, which means the panel feeds the heat on top of the kitchen and laundry. We check it all, list findings in writing, and quote fixes before any start.',
-  emergencyParagraph:
-    'Don’t wait if you notice a hot-plastic smell, a warm or buzzing outlet, a cover plate going black, sparks, or a breaker that drops again right after you push it up. Switch that circuit off at the panel. Smoke or fire means leaving first and dialing 911 after. We reach most such calls the same day, weekends included.',
   commonIntro:
     'Owensville is a small village with a lot of rented houses and apartments. The problems we find most:',
   localFaqs: [

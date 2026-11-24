@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'North Fairmount sits on the hillside above the Mill Creek, and close to two in three of its homes went up before 1940, per Census figures. An electrical box in a house that old has usually been stretched already, so we make space or replace it first. The spa then gets its own 240-volt feed through a ground-fault breaker, a disconnect in sight of it, and bonding. We go by the tub maker’s published needs and settle the price before conduit is strapped up.',
-  emergencyParagraph:
-    'A spa that won’t hold its GFCI after a reset, a crackle from the panel, or a tingle off the tub’s metal edge is no wait-and-see problem. Get everyone onto dry ground and leave the controls alone. Shut the disconnect only if it’s safe, and call 911 for smoke. Most calls get a same-day visit, weekends as well.',
   commonIntro:
     'Up the hill from the Mill Creek, around Baltimore Avenue and Beekman Street, these four are the usual reasons for a call.',
   localFaqs: [

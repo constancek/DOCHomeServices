@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Newtonsville, in Wayne Township, is mostly owner-occupied houses from the 1960s, 1970s and 1980s, with Census medians between 1973 and 1981. Those decades often left a kitchen on one or two circuits, and some 1960s and 1970s houses may carry aluminum branch wire. More than half the homes around Newtonsville heat electrically, which leans hard on the original runs. We check everything with a meter first, say so if it passes, and write out the scope and a fixed price before anyone cuts drywall.',
-  emergencyParagraph:
-    'Sparks from a switch, a receptacle that hums or feels hot, the smell of melting plastic behind drywall, or a breaker that won’t hold after one reset are reasons to have us out that day. Only shut the circuit off if you’re dry and nothing is hot. Smoke or flame means getting out and phoning 911. We come weekends too.',
   commonIntro:
     'Out on the country roads and the side streets of the old village, here’s what usually gets people calling about wiring in Newtonsville:',
   localFaqs: [

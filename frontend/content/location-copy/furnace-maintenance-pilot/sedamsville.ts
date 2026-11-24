@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'Most fall tune-ups we do in Sedamsville are on a gas furnace in the basement of a worker cottage. Census figures put 72.8% of homes at 1939 or older, so that furnace has likely followed one or two before it into the same chimney, and the flue joint and heat exchanger are where we slow down. Roughly two homes in three are rented, which leaves the booking to the landlord. The price is fixed before tools come out, and if nothing’s wrong, the owner hears it plainly.',
-  emergencyParagraph:
-    'Gas odor in Sedamsville: walk out, leave every switch alone, don’t try the pilot, and reach the gas company outside. A carbon monoxide alarm empties the house before anyone phones. A cottage gone cold in a hard freeze, or a burner flame turned yellow, needs repair, soonest with infants, grandparents or someone sick inside. Same-day visits for most, weekends too.',
   commonIntro:
     'Cottage owners and River Road landlords in Sedamsville tend to book after noticing something like this:',
   localFaqs: [

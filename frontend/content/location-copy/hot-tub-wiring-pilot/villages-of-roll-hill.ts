@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'Most homes at the Villages of Roll Hill are rented in a managed complex, by Census figures, so a resident who wants a spa starts with the management office, not us. Owners of the houses and townhomes nearby, many from the 1960s, face a different question, whether a panel that age has room. A spa needs a 240-volt GFCI breaker, a disconnect posted where the tub is visible yet a safe stretch from the water, and bonding. We check the panel first and price everything before conduit is run.',
-  emergencyParagraph:
-    'Near the Villages of Roll Hill, a GFCI breaker that kicks out on every reset, scorch smell by the disconnect, a buzzing panel, or a shock in the water needs us fast. Climb out without touching the controls. Shut off the breaker only when safe; if smoke appears, get out and call 911. Same-day visits are usual, weekends too.',
   commonIntro:
     'Near the Villages of Roll Hill, owners and property managers bring us these four most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'Hamilton has a deep stock of old houses, and Census figures put more than a quarter of them before 1940. Those may still hide ungrounded knob-and-tube behind the plaster. Streets built after the war usually have wiring that still works but was laid out for a fraction of what a family plugs in now. Close to half the homes are rentals. Every job begins with a circuit test, you hear it plainly if nothing needs replacing, and the flat price and scope are signed off before any plaster comes down.',
-  emergencyParagraph:
-    'An outlet that’s melted or hot, a scorched smell inside a wall, a switch that crackles, a jolt from a lamp, or a breaker that refuses to reset needs us today; most get a same-day visit, weekends included. Shut the circuit down only if you’re on a dry floor. Once there’s smoke, leave the house and phone 911.',
   commonIntro:
     'Among the 19th-century houses and postwar blocks of Hamilton, worn-out wiring tends to give these warnings:',
   localFaqs: [

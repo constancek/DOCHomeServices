@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'On the slope west of Mill Creek, Millvale is mostly renters, by Census counts close to nine households in ten, and about a third of residents live in the housing authority’s 1950s townhomes, many recently renovated. Fans there go up only through management. Private owners along Beekman Street face one deciding question, which is whether the box overhead was ever meant for a fan. Usually it held a dome light. Our electrician opens it first, says if tightening settles things, and prices it while that light still hangs.',
-  emergencyParagraph:
-    'Switch off a fan that lurches or tears at the drywall, and steer kids away. Motor smoke, a sparking wall switch or a breaker tripping at startup are just as pressing. Real smoke or fire means getting out and calling 911. Tenants tell management. Owners in Millvale get same-day visits on most calls, weekends included.',
   commonIntro:
     'Across the townhome courts and small apartment buildings along Beekman Street in Millvale, these four come up most.',
   localFaqs: [

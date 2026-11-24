@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Newport is an old river city. Census figures place the median unit at 1947, with close to half built by 1939, so a brick house off Monmouth Street often has a crammed breaker box before any spa shows up. Sorting that out is step one. After that comes a GFCI-guarded 240-volt feed to the tub, a shutoff you can see from it, and bonded metal. Our electrician holds your panel up to the tub’s install manual and you get a number before conduit is cut.',
-  emergencyParagraph:
-    'Treat these as urgent. A reset GFCI drops out again, the shutoff box shows brown scorching, the panel hums, or a hand on the tub’s trim tingles. Get everybody out and leave the controls alone. Flip the breaker only if that’s safe, and ring 911 at the first smoke. We usually arrive that day, weekends too.',
   commonIntro:
     'From the East Row to the side streets near the floodwall, these four come up most when a spa is going in.',
   localFaqs: [

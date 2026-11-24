@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'In Crescent Springs, almost half of housing sits in buildings of five or more units, most of it built after 1980, with a median of 1993 by Census figures. Panels that young usually have a spare slot. What they feed matters more, since most homes heat with electricity, putting the heating gear on the same wiring as the appliances and smart devices. About four in ten households rent and may need only strips. We open the box first, say when strips will do, and set the price before work begins.',
-  emergencyParagraph:
-    'Phone us if an outlet or panel gives off a burnt smell after a surge in Crescent Springs, if a breaker won’t hold once reset, or if an appliance threw sparks when power came back. Renters should tell management too. If smoke shows, leave and call 911. Expect us the same day on most calls, weekends included.',
   commonIntro:
     'In the apartments, condos and newer houses across Crescent Springs, these are the signs that usually bring the question up.',
   localFaqs: [

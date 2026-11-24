@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'In California, the city’s southeasternmost neighborhood, recessed lighting usually means a mid-century house with an attic up top and a basement below. Census figures for the area put the median home at 1968, and 356 of its 369 homes are single detached houses, almost all owner-occupied. Many rooms still rely on one fixture in the middle. Lots near Eldorado Avenue and Kellogg Avenue can take river water, so lights going into a basement are picked for damp. We mark each light and fix the price before cutting.',
-  emergencyParagraph:
-    'Leave a recessed light off if it smells scorched, a brown halo has spread on the ceiling around it, or water drips from it once the Ohio rises. Flip its breaker if the floor is dry. With smoke or flame, get everyone out and call 911. We usually come the same day, Saturdays and Sundays as well.',
   commonIntro:
     'Nearly every home in California is a single house, most of them mid-century. These four jobs come up most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Ridge, spring service mostly happens in prewar houses, since Census figures date 53.8% of homes here to 1939 or earlier. Their central air was grafted on decades later, so expect an air handler hung in the attic or tucked beside the basement furnace, and a condenser between the driveway and the neighbor’s fence. Two-families and small apartment houses off Montgomery Road add a landlord to the picture, with 45.0% of households renting. We name the price before starting, and leave alone an AC that’s already fine.',
-  emergencyParagraph:
-    'Some calls jump the tune-up queue. When the AC gives out in a heat wave or the copper ices, turn the thermostat off to thaw it. A drip through plaster, a hot wiring smell, or a breaker that won’t hold is repair. Babies and aging parents wilt first. Most calls see us that day, weekends too.',
   commonIntro:
     'Along the side streets off Ridge Avenue and Montgomery Road, these are the usual nudges to book a visit:',
   localFaqs: [

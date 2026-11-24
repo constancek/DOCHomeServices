@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'In a village of 878 homes, nearly all detached houses, our light fixture calls start with a tired flush mount or kitchen globe someone wants gone. The work turns on the box, whether it has a ground and whether the new light sits where the old one did. The median house in New Miami dates to 1960, Census counts show, and about one in five predates 1940. One overhead light per room is typical, and close to four in ten homes are rented. We open the box, then quote.',
-  emergencyParagraph:
-    'Sagging fixtures, a hot-plastic odor off a ceiling light, or a breaker that kicks off every time the light is switched on get a same-day visit, Saturdays and Sundays too. Cut power to that circuit at the panel if nothing blocks the way, and send people out of the room. Smoke or flames mean everybody outdoors and a 911 call.',
   commonIntro:
     'From Whitaker Avenue to Riverside Drive, four light fixture jobs keep us busy in New Miami.',
   localFaqs: [

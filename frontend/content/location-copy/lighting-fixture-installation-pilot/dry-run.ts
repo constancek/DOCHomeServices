@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Dry Run, off Clough Pike in Anderson Township, is a suburb of the 1980s, 1990s and 2000s, with a median build year of 1986 in Census figures and nearly two thirds of homes built in 1980 or later. Almost every home is a detached house. Kitchens here are big and great rooms often have only one ceiling fixture or none. Boxes are usually grounded, though a tall foyer still needs one strong enough for a heavy chandelier. We check the box and set your price first.',
-  emergencyParagraph:
-    'If a fixture in a foyer or great room starts sagging in Dry Run, a switch looks scorched, or lights flicker on several circuits, call us that day. Kill that circuit at the panel if that’s safe, and keep everyone clear. When there is smoke or fire, get out and dial 911. We reach most calls that day, weekends too.',
   commonIntro:
     'In Dry Run, these are the fixture jobs owners ask about most.',
   localFaqs: [

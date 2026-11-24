@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Fort Wright is largely a mid-century town, and the panel is usually the story. Census figures place 55.2% of its homes between 1940 and 1979, with a median build of 1974. Houses from that stretch tend to have few circuits per room and panels sized before central air, electric heat or a car charger. Wiring is generally grounded and in decent shape, though, and only 4.4% of homes predate 1940. We inspect the full system and price any fix before work begins.',
-  emergencyParagraph:
-    'Skip the booking and call if your Fort Wright home has a burning smell, a hot or discolored switch plate, sparks, or lights that dim sharply when the air conditioner starts. A breaker that trips again right after a reset belongs here too; turn it off. Smoke or fire: everyone out, then 911. Most get a same-day visit.',
   commonIntro:
     'Most Fort Wright homes are 1950s to 1970s houses, with some apartments and condos. What we find most often:',
   localFaqs: [

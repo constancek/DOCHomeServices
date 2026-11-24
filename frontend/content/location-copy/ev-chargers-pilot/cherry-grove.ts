@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Cherry Grove sits in Anderson Township, and almost every home there is a detached house, nearly four in five of them built from 1960 to 1979, Census figures show. Those panels tend to be full by now. Close to half the households also heat with electricity, which can claim much of the service before a charger enters the picture. Some still have room, and some need a charging controller. We open the panel, total the load, tell you if the Level 1 cord covers you and quote before work.',
-  emergencyParagraph:
-    'Pull the car off the charger if the breaker trips the moment charging starts, the plug looks melted, the cable is pinched, or there’s a burnt smell. Switch that breaker off only when the panel is cool and you’re standing somewhere dry. For smoke or flames, get out and call 911. Weekends included, most calls get someone out that day.',
   commonIntro:
     'In a neighborhood of 1960s and 1970s houses that owners tend to hold onto, charger calls usually begin like this in Cherry Grove.',
   localFaqs: [

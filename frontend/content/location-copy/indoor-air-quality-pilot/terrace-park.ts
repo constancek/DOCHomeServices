@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Terrace Park is a village of owner-occupied single-family houses, most of them older than central air. Census figures put the median home at 1954, with about a quarter built before 1940 and roughly four in ten in the 1940s and 1950s. Those houses leak air at the windows, hold moisture in their basements and often carry ductwork added long after the plaster, so dust and damp travel through the rooms. We test first, give you a flat price before installing, and say so if a filter will fix it.',
-  emergencyParagraph:
-    'Get the household out when a carbon monoxide detector sounds, and call 911 outside. For a gas smell, walk out with the switches untouched and phone the gas company outside. Shut a burnt-smelling furnace or AC off at the thermostat. Mold after water damage is urgent for babies, aging parents and asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'In Terrace Park, owners of the older houses usually call us about one of these.',
   localFaqs: [

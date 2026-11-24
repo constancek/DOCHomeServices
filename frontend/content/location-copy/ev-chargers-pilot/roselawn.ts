@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Two of every three homes in Roselawn are rented, Census figures show, and three in ten sit in three- and four-unit buildings, so a charger usually begins with the owner’s yes. The typical building dates from the early 1960s. Panels from then were modest and have since been loaded with air conditioning and appliance circuits, and the prewar houses may have less room again. Our electrician sizes up the panel and the load first, mentions it if a Level 1 cord would do, and fixes the price before wiring.',
-  emergencyParagraph:
-    'Leave the charger off if the plug looks black or soft, the outlet is too hot for your hand, or you smell burning. A breaker that drops each time charging begins counts too. Touch the panel only when you’re dry and it’s cool. Smoke or fire means everyone out and a 911 call. We usually come that day, weekends included.',
   commonIntro:
     'Between the fourplexes, the larger complexes and the single houses, these four come up most often in calls from Roselawn.',
   localFaqs: [

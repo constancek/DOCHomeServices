@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Millvale is a neighborhood of rented townhomes and small apartment buildings. About a third of residents live in public housing, and along Beekman Street 91% of homes are rented, by Census figures. That puts any mini-split decision with the owner or the housing authority rather than the tenant. Many townhomes date from the 1950s, and a ductless head can cool a hot upstairs bedroom without new ductwork. Owners see the price before work starts, and we’ll say so if a mini-split isn’t the fit.',
-  emergencyParagraph:
-    'Upstairs townhome bedrooms soak up the roughly 21 days of 90F a year (National Weather Service), and they stay hot after sunset. Seniors, babies and anyone sick or asthmatic suffer most. An owner can get a ductless install booked fast, usually one visit per head. Broken mini-splits go to Mini-Split Repair, same day for most calls, weekends too.',
   commonIntro:
     'For owners and managers of the townhomes and apartments in Millvale, these are the usual starting points:',
   localFaqs: [

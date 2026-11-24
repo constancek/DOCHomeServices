@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'In Melbourne, the median home dates to 1958, Census figures show, and about three in ten were standing by 1939. Those oldest houses may still run on knob-and-tube or cloth-covered wire with no ground behind two-prong outlets. The postwar houses tend to be short on circuits, and that shows when electric heat, which warms more than half the homes here, runs alongside a modern kitchen. We test before suggesting anything, say when it’s fine, and put the flat-rate price and scope on paper before a wall is touched.',
-  emergencyParagraph:
-    'A scorched smell near an outlet, a switch plate too hot to hold, sparks, a humming box, a shock off an appliance or a breaker that pops again once reset shouldn’t sit overnight. Switch it off only from dry footing. If smoke appears, get everyone out and dial 911. Most calls are seen that day, weekends too.',
   commonIntro:
     'Along the river in Melbourne, where most houses are owner-occupied and plenty predate the war, a rewiring need usually announces itself like this:',
   localFaqs: [

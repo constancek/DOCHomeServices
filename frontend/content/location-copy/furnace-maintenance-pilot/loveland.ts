@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'Housing in Loveland is mostly from the 1980s and 1990s, median 1985 by Census figures, and very little predates 1940. Up on the hills, that’s a furnace in a basement or utility room where we clean and test rather than chase old venting. Apartments are the other big share: 26.7% of homes are in buildings with five or more units, each furnace tucked in a closet and booked by the owner. The price is set before we start, and an idle visit gets called idle.',
-  emergencyParagraph:
-    'Repairs, not maintenance: a gas smell (walk out, switches untouched, nothing relit, gas company phoned from outdoors); a carbon monoxide alarm (everybody out); a dead furnace while January lows hover near 23F, per NOAA normals; a burner that quits and relights over and over; a wavering yellow flame. Babies and ailing relatives suffer first. Same day on most, weekends too.',
   commonIntro:
     'Hillside houses from the 1980s and 1990s and closet furnaces in apartments fill most of our fall calendar in Loveland. The usual triggers:',
   localFaqs: [

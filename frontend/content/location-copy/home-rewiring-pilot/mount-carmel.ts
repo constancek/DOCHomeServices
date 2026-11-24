@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'In Mount Carmel, most houses went up between the 1940s and the 1970s, and Census figures set the median year built at 1973. That era wired kitchens for a fridge and a toaster, so today’s appliances often share too few circuits, and some 1960s and 1970s houses may carry aluminum branch wiring. Very little here predates 1940, so knob-and-tube is unlikely. We check every run before pricing, say plainly when it’s healthy, and write up the scope and flat rate before drywall gets cut.',
-  emergencyParagraph:
-    'A burning odor from a wall, a scorched cover plate, sparks, buzzing, a breaker that retrips right after reset, or a shock from an appliance belongs on today’s schedule. Flip that breaker off only if it’s safe and dry. Smoke or fire calls for getting out and dialing 911. We come same day on most calls, weekends too.',
   commonIntro:
     'In houses from the 1950s, 1960s and 1970s, these are the usual reasons people ask us about a rewire.',
   localFaqs: [

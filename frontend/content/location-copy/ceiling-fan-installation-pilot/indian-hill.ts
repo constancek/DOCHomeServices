@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Indian Hill is nearly all owner-occupied single detached houses. Census figures put the median at 1974, with roughly a third built before 1960 and about a fifth since 2000. Older houses often get a fan in a den that never had one, or on a box sized for a lamp. Newer ones bring tall great rooms that need down rods and screened porches that need weather-rated fans. We look at the box first, tell you if balancing the blades will settle it, and agree a price before anything comes down.',
-  emergencyParagraph:
-    'A fan lurching as it spins up, a box pulling loose or a scorched smell from the motor needs us today, as does a breaker that trips with the fan. Switch it off if that’s safe and keep the family clear below. Flames mean everyone leaves and someone calls 911. We usually come the same day, weekends included.',
   commonIntro:
     'Houses here run from prewar to brand new, and four signs cover most of the fan calls we take in Indian Hill.',
   localFaqs: [

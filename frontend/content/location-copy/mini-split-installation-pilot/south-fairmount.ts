@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'Census figures date 72.6% of the housing in South Fairmount to before 1940, and 59.8% of homes are rented, anything from a two-family on Queen City Avenue to a large building of 50 or more units. Builders back then left ducts out, and snaking them through old lath and plaster now is a bill few owners want. A wall-mounted head asks for one modest opening instead. On rentals, the landlord makes the decision. We agree a figure before starting, and if ductless is a poor match, we’ll tell you straight.',
-  emergencyParagraph:
-    'Expect a normal July high of 86F (National Weather Service), and an upstairs bedroom in South Fairmount with no cooling hangs onto it past midnight. Grandparents, newborns and the chronically ill are most at risk. Install dates come up fast; a one-head job fits in a day. A dead mini-split is a Mini-Split Repair visit, typically same day, weekends too.',
   commonIntro:
     'Up and down Queen City and Harrison Avenues, these are the usual openers for a ductless call in South Fairmount:',
   localFaqs: [

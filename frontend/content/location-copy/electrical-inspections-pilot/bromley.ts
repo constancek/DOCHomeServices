@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Bromley is small, old and close to the river, and both facts drive most electrical inspections here. More than half its homes, 51.7% by Census figures, were built before 1940, so ungrounded outlets, fuse boxes and leftover cloth wiring turn up often. Nearly every home is a detached house, and many have basements that have taken on Ohio River water. After a flood or before a sale, we check the system from the meter base in and quote repairs before doing any.',
-  emergencyParagraph:
-    'Some things in a Bromley house can’t wait for a planned visit: a burning smell, a hot or scorched cover plate, buzzing, sparks, or a breaker that trips the second you reset it. Switch it off and keep it off. Smoke or flames mean get out, then call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Most Bromley homes are pre-war houses on low ground by the river. The findings we see most:',
   localFaqs: [

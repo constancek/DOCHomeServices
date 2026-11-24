@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'After the March 2026 flash flood, when Indian Creek put water into nearly every basement in Millville, many inspections here start downstairs at the panel. Water that reached breakers, outlets or wiring can leave corrosion that fails later. The houses themselves are older too: Census figures put the median at 1958, with 23.4% built before 1940, so fuses, ungrounded outlets and small panels turn up even in dry basements. We check the whole system and price what needs fixing before work starts.',
-  emergencyParagraph:
-    'Some Millville calls can’t wait for a booked inspection: a burnt odor from a wall, an outlet or switch that’s warm, humming or charred, sparks, or a breaker that pops again right after you push it back. Shut it off. Smoke or flame: out, then 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Older houses near Indian Creek give us a recognizable list in Millville.',
   localFaqs: [

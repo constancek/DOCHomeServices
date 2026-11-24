@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'John Nolen laid out Mariemont for Mary Emery starting in 1923, and the lighting in those cottages, row houses and small apartment blocks along Wooster Pike was planned for a much dimmer age. The middle home dates from 1945. Owners now want sconces by the stair, a chandelier that suits a Tudor or Colonial dining room, and brighter baths. Behind the plaster we usually meet shallow pans and wiring without a ground, so we examine those before quoting.',
-  emergencyParagraph:
-    'Same-day help, weekends too, is the right call when a fixture begins dropping from the plaster, a shade smells burnt, a wall plate feels hot or a breaker trips when a light comes on. Turn off that circuit if you can reach the panel safely, and keep people clear below it. Smoke or flame means leave and ring 911.',
   commonIntro:
     'Inside the village’s planned streets and in Mariemont Gardens across the tracks, these four lighting jobs lead our list.',
   localFaqs: [

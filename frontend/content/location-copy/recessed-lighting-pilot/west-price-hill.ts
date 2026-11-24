@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'Cincinnati took West Price Hill from Delhi Township in 1902, and its houses show the next sixty years of building. Census figures count 2,825 homes from 1939 or earlier and 1,650 from the 1950s, mostly detached houses along Glenway Avenue, Rapid Run Road and the side streets between. The prewar ones bring plaster and rooms built around one ceiling light; the 1950s houses usually have a reachable attic and a basement finished later. Half the homes are rented. We look above the ceiling and price the layout before cutting.',
-  emergencyParagraph:
-    'A can that has turned the ceiling paint tan, a hot, plasticky smell, a trim that burns a fingertip or a breaker that trips with those lights on shouldn’t be left running. Turn the breaker off if you can get to it safely. Smoke or flames mean leaving and calling 911. Most calls are handled same day, weekends too.',
   commonIntro:
     'From prewar houses near Sunset Avenue to 1950s ones off Fehr Road, these four come up most in West Price Hill.',
   localFaqs: [

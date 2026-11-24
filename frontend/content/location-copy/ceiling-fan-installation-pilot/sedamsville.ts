@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'Sedamsville is a neighborhood of worker cottages from the 19th and early 20th centuries, and that sets the terms for a ceiling fan here. Census figures show about three homes in four predate 1940, and roughly two in three are rented. Plaster ceilings in those cottages usually hold a box meant for a light, and few rooms were ever given a fan. We check what’s up there before quoting. If tightening fixes it, we say so, and the price is settled before the fixture comes down.',
-  emergencyParagraph:
-    'A cottage fan that lurches, a canopy sagging off the plaster, a hot-plastic stink from the motor, or a breaker kicking off as the blades spin up can’t wait. Cut power at the toggle or panel if safe and empty the room. With smoke or flames, get outside before ringing 911. We usually arrive that day, weekends too.',
   commonIntro:
     'Cottages along River Road and up the hillside streets toward Price Hill send us these four fan problems most often in Sedamsville.',
   localFaqs: [

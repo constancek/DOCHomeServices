@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'Most of South Fairmount is old housing. Census figures put 72.6% of homes at 1939 or earlier, so the typical tune-up is on a replacement furnace in a basement, vented through a far older chimney. The flue path and heat exchanger get the closest inspection. Gas is the main fuel. There are also larger apartment buildings, where closet units or a central system are management’s to book. The price comes first, and if nothing needs doing, we’ll say so.',
-  emergencyParagraph:
-    'Book repair instead of maintenance for these. A gas smell: everyone out, hands off switches, no relighting, Duke Energy called from across the street. A carbon monoxide alarm: leave first. No heat in a cold snap, a burner that cycles nonstop, or flames gone yellow. Babies and older family can’t wait long. Same-day service on most calls, weekends too.',
   commonIntro:
     'Owners in South Fairmount tend to call for a fall check after noticing one of these:',
   localFaqs: [

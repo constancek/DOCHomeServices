@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'New Miami started as a coke-oven village beside the ARMCO mill, and its houses show it. The typical home here dates to 1960, Census figures show, and roughly two thirds went up from 1940 through 1979. Builders then gave each room a couple of circuits and fed the house from a small panel. Today those same circuits run window air, microwaves and space heaters. We trace each one, note what we find, and quote any fix before you commit.',
-  emergencyParagraph:
-    'Some New Miami problems can’t be booked for later. Smell something hot or burning, feel heat from a switch cover, hear an outlet buzz, see a spark, or watch a breaker snap off again after a reset: kill that breaker. Smoke or flames mean everybody outside and 911. Most calls get a same-day visit, including Saturdays and Sundays.',
   commonIntro:
     'Our New Miami write-ups mostly involve 1940s to 1970s houses that owners have added onto bit by bit. The usual list:',
   localFaqs: [

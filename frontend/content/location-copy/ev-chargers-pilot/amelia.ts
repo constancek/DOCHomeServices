@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Much of Amelia is newer than people assume. The Census median sits at 1995, and upward of two in five homes have gone up since 2000, so panel space is rarely the first obstacle. Electricity is. About three homes in five heat with it, and a charger asking for power on a January night competes with the heat pump or electric furnace. Load management often settles that. Our electrician reads the panel and the load first, says if Level 1 will do, and prices it before wiring.',
-  emergencyParagraph:
-    'A crushed cable, a softening plug, a burnt smell at the outlet or a breaker that gives up each charge means the car stays unplugged. Kill that breaker only from a dry floor with nothing hot nearby. With smoke or fire, get out first, then call 911. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'Newer houses, apartment complexes and plenty of electric heat shape the charger requests we see around Amelia, and four keep coming back:',
   localFaqs: [

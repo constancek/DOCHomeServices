@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton is two towns in one: the old streets around Main Street and the subdivisions that came later. Census figures show about one home in five predates 1960, and there the heater shares the basement with aging flue pipe, a drain valve that fights back and a gas line we like to inspect. More than half went up in 2000 or later and need only the standard service. You agree to the price first, and a tank that isn’t worth servicing gets called that.',
-  emergencyParagraph:
-    'Repair calls in Walton: a tank leaking (shut the valve where the cold pipe enters, then gas or breaker), the smell of gas (step out, leave lights and pilot alone, phone the gas company outside), a carbon monoxide alarm (out first), a relief valve that won’t quit, or a cold tank. Same day on most calls, weekends too.',
   commonIntro:
     'In Walton, the reasons people book differ between the old town and the newer streets. These come up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Alexandria were built in 1994 or later, going by Census figures, and owners live in nearly all of them. Houses that new are sealed well, which keeps drafts out and keeps everything else in, from frying-pan smoke to bleach fumes and shower steam. Close to half of them run on electric heat, and that leaves January air parched. We test before suggesting anything, you agree a price before we start, and if a fresh filter is the cure, we’ll say so.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends everyone to the driveway before 911 gets called. If you can smell gas, walk out without touching a switch and ring the gas company. A scorched-smelling heat pump or furnace gets shut off at the thermostat. Mold that spreads after a leak is hardest on toddlers. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'These are the signs owners notice first in Alexandria.',
   localFaqs: [

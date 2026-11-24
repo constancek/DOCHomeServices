@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'In Clifton, recessed lighting nearly always means working around old plaster, because the houses are old. Census figures put the median build year at 1938, and more homes predate 1940 than not. Tall ceilings, lath, a heavy pendant hung from a medallion and a cramped cavity under the third floor are typical. Roughly a third of homes are detached houses; the rest are flats and apartment blocks. Layout marks and a signed price come before the first cut.',
-  emergencyParagraph:
-    'Scorching on the plaster around a can, a trim hot enough to sting your fingers or a downlight that drops out and relights by itself needs a look today. Throw that breaker if the panel is safe to reach. If smoke shows, get out and dial 911. Most homes in Clifton get a same-day visit, Saturday and Sunday included.',
   commonIntro:
     'Tall plaster rooms with one old pendant each make up much of the neighborhood, and in Clifton, these are the requests we get.',
   localFaqs: [

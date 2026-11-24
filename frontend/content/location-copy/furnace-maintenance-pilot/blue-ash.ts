@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'In Blue Ash, a tune-up is mostly about houses from the 1970s and 1980s. Census figures put 46.3% of homes in those two decades, so the furnace sits in a basement or utility room, has often been swapped once already, and needs the filter, blower, burners and safety controls checked more than any old chimney. Gas heats 54.1% of homes; most of the rest use electricity, which counts heat pumps too. Apartment owners book the closet furnaces. The price comes first, and we’ll say so if a furnace needs nothing.',
-  emergencyParagraph:
-    'Some calls aren’t maintenance at all. Gas odor: out the door, hands off switches, the gas company phoned from the driveway. Carbon monoxide alarm: people out, then the call. A furnace dead in a freezing spell, cycling off and on, or burning yellow means a repair. Young children and older adults suffer most. Same day on most calls, weekends included.',
   commonIntro:
     'In the 1970s and 1980s houses and apartment complexes around Blue Ash, owners usually book after noticing:',
   localFaqs: [

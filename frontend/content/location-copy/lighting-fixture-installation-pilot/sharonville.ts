@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'In Sharonville, plenty of colonials from the 1980s and 1990s open into a two-story foyer, and changing the chandelier up there is a job we do often. Like any fixture, it rests on three questions: what the box can bear, whether a grounding wire is in place, and whether power already reaches that point. Census data gives a median home of 1974, and about three in ten homes are in apartment complexes. Builder boxes are usually workable. You hear the figure once the box is open.',
-  emergencyParagraph:
-    'If a fixture high over a foyer starts leaning, clear the floor and phone us. Do the same for a scorched smell or brown marks at a canopy, and switch that circuit off when it is safe to. For smoke or flame, leave and call 911. Most jobs like this get a visit that day, weekends no exception.',
   commonIntro:
     'From the older streets near Reading Road to the subdivisions toward the Butler County line, these are the usual requests.',
   localFaqs: [

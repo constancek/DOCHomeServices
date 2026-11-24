@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'In Fairfax, putting a spa behind a house takes its own 240-volt run, GFCI protected, plus a cutoff switch the bather can see but can’t lean over to, and bonded metal all around the shell. Census figures show the typical house here dates to 1942, and close to half are older than 1940. Breaker boxes that old tend to be stuffed, so we settle the panel question first. Your spa’s spec sheet gets matched to that box, and the price is yours before a single length of conduit is cut.',
-  emergencyParagraph:
-    'Call us when the spa’s GFCI won’t survive a reset, the cutoff box smells burnt, or a bather in Fairfax feels a buzz. Everyone gets out and leaves the controls alone. Reach for the breaker only if that’s safe, and if smoke shows, leave the house and dial 911. On most calls we come the same day, weekends included.',
   commonIntro:
     'Behind the 1940s houses between Wooster Pike and Red Bank Road, four problems account for the spa calls we usually take in Fairfax.',
   localFaqs: [

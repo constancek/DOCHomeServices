@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Every home in Day Heights is a detached house, per Census figures, and half were built between 1960 and 1979. The furnace is nearly always downstairs, rarely the original, and sometimes still flued into the masonry chimney the house was built with. That vent path and the heat exchanger are where we slow down. Gas is the main fuel, with oil in a few houses. You know the flat price before we pick up a tool, and if the furnace is in good shape, we tell you.',
-  emergencyParagraph:
-    'A few things can’t wait for a tune-up date. Gas smell: leave, touch nothing electrical, phone the gas company from outdoors. Carbon monoxide alarm: clear the house. Book repair if the heat dies in freezing weather, the burner keeps relighting and dropping out, or the flame looks yellow. Babies and older people suffer first. Mostly same day, weekends too.',
   commonIntro:
     'Up on the hill in Day Heights, owners tend to book after noticing one of these:',
   localFaqs: [

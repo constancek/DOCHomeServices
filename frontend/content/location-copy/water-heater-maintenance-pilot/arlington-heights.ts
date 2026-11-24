@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights is a pocket village of 448 homes inside the split lanes of I-75, and its housing is old: Census figures put 64.7% at 1939 or earlier, and 53.5% are rented. Most heaters we service here sit in a cellar under a pre-war house, alongside venting, gas pipe and a drain spigot of no particular age. Landlords decide when the work happens. You get our flat quote before we start, and a plain answer if a tank isn’t worth the visit.',
-  emergencyParagraph:
-    'A leak from the tank’s body is a repair: close the cold-water valve feeding it, then cut the gas or breaker. If gas is in the air, leave the building, touching no switch, and phone the gas company from the sidewalk. A sounding carbon monoxide alarm means every person out first. We come same day on most calls, weekends too.',
   commonIntro:
     'Landlords and owners in Arlington Heights usually ring us after one of these:',
   localFaqs: [

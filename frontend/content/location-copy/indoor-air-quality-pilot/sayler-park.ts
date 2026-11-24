@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Half the houses in Sayler Park were standing before 1940. Census figures count 638 of 1,256 homes from 1939 or earlier, so we mostly test air in drafty frame houses with stone or block basements and ductwork added long after they were built. Cold air leaks in around old windows, damp rises from below, and dust travels the ducts room to room. About two in five homes are rented. You get readings first, then a flat price per fix, and a straight answer if a filter will do.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm sounds, the family goes outside before 911 is called. Gas in the air means leaving the same way, switches untouched, and phoning the gas company outdoors. A furnace or AC that smells scorched gets turned off at the thermostat. Babies and asthmatic grandparents suffer first. Same-day visits on most calls, weekends too.',
   commonIntro:
     'In the older frame houses between the hillside and River Road in Sayler Park, we hear these most:',
   localFaqs: [

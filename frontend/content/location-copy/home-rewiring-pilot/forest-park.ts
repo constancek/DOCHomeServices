@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Warner-Kanter opened the first houses in Forest Park in 1956, and building peaked over the next two decades; Census figures give 1969 as the median year. Wiring from that stretch tends to run a whole kitchen, the laundry and electric heat off a few shared circuits, and certain 1960s and 1970s houses may contain aluminum branch wire. Nearly half the households rent, so landlords make many of our calls. We test before advising, call a healthy system healthy, and get scope and flat price signed before a wall opens.',
-  emergencyParagraph:
-    'A warm or blackened plate, a burning odor from a receptacle or wall, popping sounds, a breaker that won’t reset, or a shock from a fixture means calling us now. Switch off that circuit if the panel is dry. When smoke appears, go outside and dial 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Across the planned streets and apartment complexes of Forest Park, wiring that’s wearing out tends to show up like this:',
   localFaqs: [

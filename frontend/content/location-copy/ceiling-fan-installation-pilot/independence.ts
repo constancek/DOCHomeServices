@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'In Independence, about half the houses went up after 2000 by Census count, and the typical one dates to 1999. Most are detached and owner-lived. For a fan, that means a two-story family room where the blades need dropping on a rod, a builder’s bedroom fixture hung from a plastic box sized only for a light, or a covered patio waiting on a damp-rated fan. We open the box first, tell you if a loose screw is the whole story, and fix the price before your fixture comes off.',
-  emergencyParagraph:
-    'A canopy pulling away from the drywall, a down rod swinging hard, a burnt smell from the housing or a breaker that drops with the fan means the fan stays off. Flip the wall switch without standing under the blades. Fire or smoke means leaving and calling 911. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'Tall rooms, patios and builder-grade fans account for most of what we see in houses in Independence.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Deer Park is mostly 1940s and 1950s houses, plenty older still: Census figures put the median home at 1947 and 77.2% before 1960. So the water heater usually shares a basement corner with an old flue, gas piping worth inspecting, and a drain spigot that may not have turned since the tank arrived. Service runs at a flat price you approve up front, and when a tank isn’t worth the money, we tell you plainly.',
-  emergencyParagraph:
-    'A tune-up won’t help here. Tank dripping on the floor: crank the cold supply closed at the top, then gas or breaker off. Basement smells of gas: everybody outside, no switches, no relighting, gas company called from the driveway. Carbon monoxide alarm: house emptied first. Relief valve gushing repeatedly, or hot water gone: repair. Same-day on most calls, weekends included.',
   commonIntro:
     'Down in the 1940s and 1950s basements around Deer Park, these are the signs that a tank is due:',
   localFaqs: [

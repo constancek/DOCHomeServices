@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Along Eastern Avenue and Riverside Drive, the air trouble depends on which part of the East End is yours. Census figures date the typical house to 1938, so the old houses near the river leak air at the windows, stay damp in the basement and push grit through very old ductwork. The Riverside condos are the reverse, sealed so tight that last night’s fish dinner is still around at breakfast. We measure before quoting, the quote is flat, and sometimes the honest answer is just a cleaner filter.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm sounds, empty the house and ring 911 outside. Smell gas, and you walk out leaving switches alone, then phone Duke Energy. Shut a scorched-smelling furnace or AC off at the thermostat. Mold climbing a wall after a flood can’t wait where an infant, grandparent or asthmatic lives. Same-day visits on most calls, weekends too.',
   commonIntro:
     'Old river cottage or newer condo, these are the air complaints we hear most in the East End.',
   localFaqs: [

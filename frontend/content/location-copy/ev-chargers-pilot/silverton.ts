@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Close to six in ten homes in Silverton are rented, and about a quarter sit in three- and four-unit buildings, according to Census figures, so the landlord often decides on a charger. The typical home went up in 1959. Postwar panels were small and most filled up long ago, while newer buildings may have room or can use load management. An electrician reads the panel and tallies the load first, tell you if the cord that came with the car covers your driving, and set the price before wiring.',
-  emergencyParagraph:
-    'End the charge right away if the outlet, plug or charger is hot, looks melted or smells like burning, and do the same when the breaker trips each session. Kill that circuit only while you’re dry. Smoke or flames mean getting the household out, then dialing 911. We get to most calls that day, Saturdays and Sundays included.',
   commonIntro:
     'In a village of fourplexes, apartments and postwar houses, these four situations lead most of our charger calls.',
   localFaqs: [

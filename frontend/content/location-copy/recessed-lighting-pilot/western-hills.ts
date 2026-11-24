@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'People say Western Hills for the west side around Glenway Avenue and Ferguson Road, an area that crosses Cincinnati, Cheviot and Green Township. Census figures for its two ZIP codes put the median house at 1958 and 1962, and 45238 alone holds 5,496 homes from the 1950s. Houses from that era usually have an attic above the bedrooms and a basement finished years later, with plaster in the older ones. We look up there first, then mark each can and price it.',
-  emergencyParagraph:
-    'A recessed light that leaves a brown ring on the ceiling, smells like it’s cooking, has a trim too hot to hold, or sits on a switch that buzzes shouldn’t be left on. Flip its breaker if you can reach it safely. Should smoke or flames appear, get out and call 911. We usually arrive same day, weekends included.',
   commonIntro:
     'Between Western Hills Plaza and Ferguson Road, owners of mid-century houses hand us these four jobs most.',
   localFaqs: [

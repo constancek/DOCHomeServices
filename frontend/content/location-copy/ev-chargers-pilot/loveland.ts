@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'In Loveland, the usual charger question is whether one panel can feed two cars. Most houses have room, with Census figures showing close to six in ten built in 1980 or later. Electric heat is the wrinkle, since roughly four homes in ten use it, and heat plus a charger is a heavy draw. We size that up with a panel check and load calculation, tell you if the cord that came with the car suffices, and quote a fixed price.',
-  emergencyParagraph:
-    'Unplug the car if the charger, plug or receptacle has gone hot, discolored or soft, or the room smells scorched. Kill that circuit only from a dry spot, touching nothing warm. Smoke or flame means everyone out and 911 from the yard. An electrician can usually reach you the same day in Loveland, weekend or not.',
   commonIntro:
     'On the hills above the Little Miami, these four situations account for most charger calls in Loveland:',
   localFaqs: [

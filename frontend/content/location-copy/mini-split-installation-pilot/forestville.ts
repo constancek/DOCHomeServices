@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'Housing in Forestville is younger than many people assume. Census counts put the median year built at 1981, and those homes came with ducts, which leaves ductless for what the ducts miss, like a room over the garage, a sunroom, a lower-level office or an addition. Over a third of households rent, plenty of them in big complexes, so the landlord is the one to ask. You get one flat number ahead of any work, plus a straight answer if ductless won’t solve it.',
-  emergencyParagraph:
-    'In a normal July the afternoon high reaches 86F, per the National Weather Service, and a sunroom or upstairs office climbs higher. It hits grandparents, newborns and people with asthma hardest. Our install calendar moves quickly; one-room systems are normally a day. A unit you own that quit cooling needs Mini-Split Repair, most often same day, weekends too.',
   commonIntro:
     'Along the Beechmont and Five Mile corridor in Forestville, these are the spaces that most often need cooling the ducts can’t give:',
   localFaqs: [

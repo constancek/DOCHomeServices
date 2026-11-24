@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Almost every household in Winton Hills rents, by Census figures, and many live in the Winton Terrace and Findlater Gardens public housing, where the housing authority handles repairs through work orders. Tenants there, many in brick townhouses with basements, should report mold, moisture or a dead bath fan to management in writing. Private landlords and property managers can book an air test across their units. We test first, price each fix before work, and say so when fresh filters are enough.',
-  emergencyParagraph:
-    'Once a carbon monoxide alarm goes, get out and phone 911. A gas smell means the same exit and a call to the gas company, with no light switch flicked. If the heat or AC smells scorched, set it to off. Children, older neighbors and people with asthma are most exposed. Managers get same-day help, weekends too.',
   commonIntro:
     'In the townhouses and apartments of Winton Hills, these are the air complaints tenants and managers raise most:',
   localFaqs: [

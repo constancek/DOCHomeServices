@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'About six in ten homes in Mount Carmel went up between 1940 and 1979, by Census figures, and 38.7% of households rent. That mix sets the visit. A house from that era keeps its heater downstairs beside flue pipe that may be original, with a drain valve we try gently before trusting it and a gas line we want eyes on. Apartment units usually hide one tank per closet, sitting in a pan, and the landlord books those. Price first, and a straight answer if your tank is past helping.',
-  emergencyParagraph:
-    'Repair, not a tune-up, in Mount Carmel when water escapes the tank: close its cold inlet, then gas or breaker. A gas smell sends everyone out, hands off switches and pilot, to ring the gas company. A carbon monoxide alarm: house cleared first. Same for a relief valve that keeps dumping, or a cold tank. Usually same day, weekends too.',
   commonIntro:
     'In Mount Carmel, the reasons to book a visit split between older basements and apartment closets:',
   localFaqs: [

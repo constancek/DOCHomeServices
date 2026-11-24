@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'South Fairmount mixes old single-family houses with a few very large apartment buildings, and each gets a different visit. Census figures put 72.6% of homes at 1939 or earlier, so the houses off Queen City or Harrison Avenue keep their tanks below ground, with old venting and a drain valve we test before trusting. Nearly one home in five is in a building of 50 or more units, where management handles the heater. Expect a fixed quote up front, and a plain answer if the tank isn’t worth servicing.',
-  emergencyParagraph:
-    'A service assumes the heater works; these need repair. Tank leak: the cold-water handle up top closes first, gas or breaker second. Gas smell: leave, touching no switch or pilot, and phone the gas company from the sidewalk. Carbon monoxide alarm: get your household out. Also a relief valve that keeps going, or cold taps. Usually same day, weekends included.',
   commonIntro:
     'Between the old houses and the big buildings, these are what usually lead to a booking:',
   localFaqs: [

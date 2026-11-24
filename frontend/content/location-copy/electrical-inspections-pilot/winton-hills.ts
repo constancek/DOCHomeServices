@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Electrical inspections in Winton Hills are booked by owners and property managers, because 97.0% of homes here are rented, per Census figures. Most units are in CMHA’s Winton Terrace and Findlater Gardens, where the housing authority handles repairs through work orders. The rest are privately owned doubles, townhouses and small buildings, and the median home went up in 1955. More than half the homes heat with electricity, which puts heavy, steady load on old panels in winter. We quote a flat price before the visit.',
-  emergencyParagraph:
-    'Some things can’t wait for a work order or a scheduled visit: a burning smell, an outlet or switch plate that’s hot, buzzing or blackened, sparks, or a breaker that trips again right after reset. Turn that breaker off. If there’s smoke or fire, get everyone out and call 911. Owners get same-day service on most calls, weekends included.',
   commonIntro:
     'In the privately owned rentals of Winton Hills, these are the problems owners and managers ask us about most:',
   localFaqs: [

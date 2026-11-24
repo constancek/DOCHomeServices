@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Renters fill most homes in Millvale, a good share of them in CMHA townhomes, so spa work here gets booked by private owners and building managers. Census figures place the typical building near Beekman Street in 1982. Breaker boxes from that era sometimes have nowhere to put a spa breaker, or not enough capacity behind it, and that is solved before a 240-volt GFCI feed, a lockable disconnect and bonding go in. Owners see the panel matched to the tub’s install guide, with a quoted figure, ahead of any digging.',
-  emergencyParagraph:
-    'Phone us in Millvale when a spa GFCI refuses to hold, the disconnect smells hot, or anyone in the water feels a buzz. Renters should alert the landlord too. Get everyone out, keep hands off the equipment, and open the breaker only if that’s safe. Smoke means leaving and dialing 911. Owners get same-day help on most calls, weekends too.',
   commonIntro:
     'Owners and managers along Beekman Street tend to reach us about one of these four spa problems in Millvale.',
   localFaqs: [

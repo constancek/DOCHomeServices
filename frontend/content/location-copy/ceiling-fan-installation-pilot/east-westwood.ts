@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'East Westwood is mostly rented, with 1,004 of 1,322 occupied homes leased according to Census figures, so the person booking a fan is usually an owner or manager. The median building dates to 1958, and the ceiling boxes from that decade were sized for a lamp hanging still, not a motor turning for hours. The box gets checked before any quote, a shake that only needs its hardware snugged gets called what it is, and the owner signs off on one price before the old light is unscrewed.',
-  emergencyParagraph:
-    'Kill the power to a fan that is lurching, sagging away from the ceiling, giving off a scorched smell, making its switch buzz or spark, or tripping the breaker. Do it at the breaker if that’s safe, and empty the room. If there’s smoke or fire, get out and call 911. Most calls are same day, weekends too.',
   commonIntro:
     'In East Westwood, apartments and 1950s houses bring us these four fan problems again and again.',
   localFaqs: [

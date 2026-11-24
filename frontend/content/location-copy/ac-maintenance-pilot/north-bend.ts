@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'North Bend is a small village where newer homes outnumber old ones. Census figures put the median house at 1991, and 16.8% of homes are townhouses or condos, so a lot of our tune-ups here are on systems that went in with the house, with the condenser on a pad out back. The older homes in the village had cooling added much later and take more tracing of ducts. Whichever you have, the price is fixed before we begin, and an AC in good order is left as it is.',
-  emergencyParagraph:
-    'A tune-up is the wrong visit when the AC stops cooling on a hot afternoon, or the outdoor unit hums and its fan won’t spin. Turn it off and book a repair. Do the same if ice builds on the lines. Babies, older relatives and anyone ill are hit hardest. Most calls get us out the same day, weekends included.',
   commonIntro:
     'Townhouses, newer single-family homes and a few pre-war houses make up the calls we get in North Bend for spring service.',
   localFaqs: [

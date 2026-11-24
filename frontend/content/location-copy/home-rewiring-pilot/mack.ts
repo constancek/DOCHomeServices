@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Full rewires are rare in Mack. Census figures put the median house at 1981, and the bulk of the ridge was built out from the 1960s through the 1990s. The 1960s and 1970s houses can come up short on kitchen circuits, and a few may have aluminum branch wiring. Later houses mostly call ahead of a sale, for a basement finish or about one breaker that won’t hold. We test first, say so if nothing’s wrong, and write down the scope and flat price before opening a wall.',
-  emergencyParagraph:
-    'Burnt smells near an outlet, a switch plate that’s turned warm, a fixture that shocks you, or a breaker that flips back off are reasons to phone us now. Shut off that circuit when the panel is dry. If there’s smoke or fire, get outside and dial 911. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'Across the ranches and split-levels of Mack, these are the problems that usually start the call.',
   localFaqs: [

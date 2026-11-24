@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'About seven homes in ten in Evanston were put up in 1939 or earlier, per Census figures, mostly detached houses and two-families on narrow lots, plus apartments over the shops on Montgomery Road. Some parts are mostly rented, others mostly owned. Rooms that old usually have plaster ceilings with a pancake box hung for one bulb, and it won’t carry a turning fan. Our electrician opens it up before quoting, tells you if the wobble is just a backed-out screw, and sets the cost before your old fixture leaves.',
-  emergencyParagraph:
-    'A fan swinging or sagging out of old plaster, a motor that smokes or smells scorched, sparks from the switch and a breaker that trips at start-up are all reasons to shut it down. Use the wall control or panel if that’s safe, and step back. Fire means leaving and phoning 911. Same-day visits are the norm, weekends too.',
   commonIntro:
     'In Evanston, the usual fan call involves an old plaster ceiling and a box sized for a single bulb.',
   localFaqs: [

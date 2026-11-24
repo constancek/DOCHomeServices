@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Riverside is newer than its neighbors along River Road. Census figures put the median build year at 1971, and about half the homes went up between 1970 and 1999, so the wiring we open is usually sound copper on breakers. The older houses are the exception, with fuse boxes and ungrounded outlets still turning up. People here mostly book us for a sale, a landlord’s check on an apartment building, or a new heat pump or charger. We test everything, then quote fixes before starting.',
-  emergencyParagraph:
-    'If an outlet is hot to the touch, a cover plate has scorch marks, you hear crackling in a wall or smell burning plastic, cut power to that circuit and don’t reset it. A breaker that won’t stay on is telling you something. Fire or smoke: get out first, then call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Riverside’s mix of 1970s apartment buildings and older river houses gives us a short list of repeat findings:',
   localFaqs: [

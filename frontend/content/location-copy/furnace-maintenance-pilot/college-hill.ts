@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'Homes split roughly in thirds in College Hill: houses from before 1940, houses from the 1940s to the 1960s, and everything newer. By Census figures 35.4% predate 1940, and half of homes are rented. The oldest put a gas furnace in a basement on an aging chimney, where the flue and heat exchanger need care. Post-war houses are usually simpler, a filter, blower, burner and safety-control job. Electric heat covers many of the rest. We quote a price before starting, and say plainly when your furnace needs nothing.',
-  emergencyParagraph:
-    'Don’t wait on a tune-up for these. Gas smell: leave, keep hands off switches, relight nothing, call the gas company from the yard. Carbon monoxide alarm: everyone outside. No heat in a cold spell, repeated shut-off and restart, or a yellow, wavering flame means repair. Little kids, older parents and anyone ill feel it first. Usually same day, weekends included.',
   commonIntro:
     'From the older streets off Hamilton Avenue to the post-war blocks, homeowners and landlords in College Hill tend to call about:',
   localFaqs: [

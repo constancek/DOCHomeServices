@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Covington’s housing skews old: 44.0% of homes went up in 1939 or earlier, per Census figures. Upkeep on a heater in one of those houses usually happens in a cellar, beside vent pipe that may be rusting, a drain fitting unturned for years and a gas cock we test by hand. Renters fill 48.2% of households, and in apartment buildings a closet heater on its pan is the landlord’s decision. We fix the price before starting, and you’ll get a straight answer if a heater isn’t worth servicing.',
-  emergencyParagraph:
-    'Heater leaking: turn the cold inlet at its crown shut, then close the gas or throw the breaker. Gas smell: get out, leave every switch alone, no relighting, and ring Duke Energy outdoors. Carbon monoxide alarm: the whole house empties first. A relief valve letting go repeatedly, or hot water quitting, is a repair too. Usually same day, weekends too.',
   commonIntro:
     'Across Covington, a tune-up on a working heater usually starts with one of these:',
   localFaqs: [

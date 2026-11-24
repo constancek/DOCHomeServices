@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'College Hill splits between old and mid-century. Census figures put 35.4% of homes here at 1939 or earlier and 36.4% at 1940 to 1969, so one week’s tune-ups might take us to an early flue and a reluctant drain valve in a prewar basement, then to an easy flush in a 1950s utility room. Small apartment buildings along Hamilton Avenue stand their tanks in closets, in pans, and the owners book. Price comes before work, and a tank not worth servicing is called that.',
-  emergencyParagraph:
-    'Shelve the tune-up for these. Leaking tank: close the valve on its cold pipe, then gas or breaker. Gas smell: out the door, no switch flipped, nothing relit, then phone the gas company. Carbon monoxide alarm: everybody out. A relief valve that won’t quit, or no hot water, calls for repair. Most calls are same day, weekends included.',
   commonIntro:
     'People in College Hill usually book a first service after spotting one of these:',
   localFaqs: [

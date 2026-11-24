@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'Roughly two of every three homes in Carthage, Census figures show, went up before 1940. Most are single houses on the streets off Vine Street, with doubles and small apartment buildings scattered among them. In bathrooms that old, the fan arrived later, if at all. When we chase those ducts, they tend to stop in the attic or a wall cavity, and some newer replacements are simply too small for the room. We trace the airflow and price the repair before any plaster comes down.',
-  emergencyParagraph:
-    'Catch a whiff of burning, or spot a fan housing gone brown or soft, and the switch or breaker should go off if safe. The same goes when the breaker trips as it runs or water drips from the grille. For smoke or fire, leave and call 911. A same-day visit is normal for Carthage, weekends included.',
   commonIntro:
     'Along the side streets off Vine Street in Carthage, the same four problems keep coming up:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Miamitown is mostly apartments, and Census figures show about four in five homes are rented, so the owner or manager picks the equipment. The buildings span every era, with a median year built of 1973 and close to a third of homes from before 1940. Older units carry drafts and damp lower floors, while the 1980s and 1990s blocks trap stale air. We test first, the owner signs off on a flat price before work, and if a clean filter is all a unit needs, we say so.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm goes off, everyone gets out before calling 911. With a gas smell, leave without flicking switches and ring the gas company outside. Turn off a burning-smelling furnace or AC at the thermostat. Mold after floodwater is urgent around babies, elderly tenants or asthmatics. We’re out same day on most calls, weekends included.',
   commonIntro:
     'For landlords and tenants in Miamitown, these are the calls we get most:',
   localFaqs: [

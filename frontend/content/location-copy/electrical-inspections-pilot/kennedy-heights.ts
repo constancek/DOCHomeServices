@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Kennedy Heights is close to half pre-war houses and half postwar ones, and an inspection here usually tells you which wiring era you’re living with. Census figures date 46.4% of homes to 1939 or earlier, against a median of 1944, so one street can hold both knob-and-tube and 1960s grounded circuits. Most homes are owner-occupied, and owners tend to book us before a sale, a kitchen remodel or a new heat pump. We quote the visit at a flat price first.',
-  emergencyParagraph:
-    'Skip the booking and call if a Kennedy Heights outlet or switch plate runs hot, crackles or shows scorching, if anything sparks, if burning plastic is in the air, or if a breaker refuses to stay on after a reset. Switch it off. Smoke or fire: everyone out, then 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Kennedy Heights mixes pre-war and postwar houses on the same streets, and these are the findings that repeat:',
   localFaqs: [

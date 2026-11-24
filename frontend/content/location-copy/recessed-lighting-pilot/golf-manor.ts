@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Before we sketch a single light in Golf Manor, we climb into the attic or find out who lives upstairs. Census figures date the median home here to 1954, and close to half of all units share a building with a second household, which puts some ceilings directly under somebody else’s floorboards. Renters occupy about half the homes. A postwar attic usually offers fair working room. Every opening gets pencilled on the plaster or drywall, and you sign off on a fixed price, before our saw touches it.',
-  emergencyParagraph:
-    'A scorched odor drifting from one can, a ring of brown creeping across the ceiling or a downlight that blinks out and relights by itself won’t keep until Monday. Kill that circuit at the panel when reaching it is safe. Flames or smoke mean leaving the house and phoning 911. Most calls get us there same day, weekends included.',
   commonIntro:
     'Small postwar kitchens and lamp-lit front rooms account for most requests we get in Golf Manor. Here is what those calls tend to look like.',
   localFaqs: [

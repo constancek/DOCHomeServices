@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Charging an EV at home on this hill is usually possible, but each building sets its own terms. Half the housing in Mount Adams was built before 1940, Census figures show, and an original service from then may have little spare capacity for 240 volts. Two-unit buildings alone number 214, and 672 of 1,016 occupied homes are rented, so owners have the final say. We look inside the panel and total the load before quoting, admit when the Level 1 cord is plenty, and fix the figure before any wiring.',
-  emergencyParagraph:
-    'A few charging faults can’t wait. A hot, browned or soft plug counts, and so do a burnt-plastic smell mid-charge and a breaker that quits every time the car connects. Switch that breaker off only with dry hands. If smoke or flame shows, leave and ring 911. Most calls bring us the same day, Saturdays and Sundays too.',
   commonIntro:
     'Hillside doubles, prewar houses and small walk-up buildings make up most of the neighborhood, so the calls tend to look like this.',
   localFaqs: [

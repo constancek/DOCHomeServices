@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Elsmere has a little of every era, from houses older than 1940 to homes built since 2000, plus a few hundred manufactured homes. Census figures put the median at 1970, and about a quarter of homes are rented. The oldest run drafty over damp basements, the mid-century houses often move dust through tired ducts, and the newest are snug enough to trap stale air. We start with readings, write a flat price for any fix and tell you straight when a clean filter will do.',
-  emergencyParagraph:
-    'Once a carbon monoxide alarm shrieks, march everyone into the yard and ring 911. A gas smell sends you outdoors, switches untouched, to call the gas company. Switch a furnace or AC that smells like burning off at the thermostat. Mold spreading after water damage is urgent around infants, aging parents or asthmatics. Same-day visits for most callers, weekends too.',
   commonIntro:
     'Across the old, mid-century and newer houses here, the calls usually start with one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Melbourne sits on the Ohio with a lot of old houses: Census figures place 30.5% of homes before 1940. A furnace in one of those is down in the basement, is probably not the first one the house has had, and often exhausts into a masonry chimney, so we give the flue and heat exchanger the longest look. Gas heats just 15.2% of homes; electricity, which counts heat pumps and baseboard too, leads. The flat price comes first, and so does a plain answer if nothing needs doing.',
-  emergencyParagraph:
-    'With a gas smell, go outdoors, leave the switches untouched and phone the gas company. When the carbon monoxide alarm goes, everyone outside first. A furnace that won’t heat in a cold spell, keeps shutting off and starting again, or burns a yellow flame needs repair. Elderly neighbors and infants chill fastest. Most are seen same day, weekends included.',
   commonIntro:
     'In Melbourne, old basements and electric heat set the tone. Owners usually call about:',
   localFaqs: [

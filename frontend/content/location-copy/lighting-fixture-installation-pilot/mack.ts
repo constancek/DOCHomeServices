@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Up on the old Dry Ridge, the streets off Bridgetown Road in Mack are lined with houses from the 1980s and 1990s, and the middle one was finished in 1981. Nearly every home is a detached house its owner lives in, so most calls are about retiring the brass and frosted-glass lights that came with it. Those ceilings mostly have a ground, but the plastic boxes were sized for a dome, not a chandelier. Once we’ve checked the box and wiring, you get a fixed figure.',
-  emergencyParagraph:
-    'Drywall cracking around a fixture, a melted smell near a light, a switch blackened at its screws or a kitchen light that pops its breaker all deserve a visit today, weekends too. Where the panel is easy to get at, shut that circuit and keep the family out from below. Smoke or flames mean leave and ring 911.',
   commonIntro:
     'Along the ridge in Mack, these four lighting jobs come up more than any others.',
   localFaqs: [

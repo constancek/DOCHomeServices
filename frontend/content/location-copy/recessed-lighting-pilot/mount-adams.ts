@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Before we sketch any can layout in Mount Adams, we climb into the space over the plaster, because on this hill that space runs tight. Census figures put the median at 1938, with half of it standing by 1939, so lath ceilings, narrow joist pockets below upstairs floors and parlors centered on a single pendant show up often. Doubles and walk-up buildings near Eden Park outnumber detached houses. Pencil marks go on your ceiling, and a firm price goes on paper, ahead of the first saw cut.',
-  emergencyParagraph:
-    'Scorching around a can, a trim giving off a hot, burnt odor, or a light that blinks out and relights by itself means kill that circuit at the panel, provided the breaker is safe to reach. Water seeping from a housing counts too. Flames or smoke mean leave and phone 911. Most calls get a same-day crew, weekends too.',
   commonIntro:
     'Up the hill from downtown, plaster and tight joist pockets steer nearly each job, and four requests keep returning.',
   localFaqs: [

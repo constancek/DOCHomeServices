@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Union is mostly subdivisions built since 2000, so a full rewire is the exception. Census figures date the typical house to 2007 and show next to nothing older than 1960. Owners more often phone about a sunroom going on, a lower level being finished, a kitchen getting gutted, or a single circuit with a habit of quitting. Fewer than one home in five is rented. Testing comes before any proposal. If the wire checks out, you’ll hear that, and the written scope and flat-rate figure arrive before drywall gets cut.',
-  emergencyParagraph:
-    'Most calls in Union about a receptacle that smells of hot plastic, a browned cover plate, a breaker that snaps off right after a reset or a jolt from a switch get a same-day visit, weekends too. Kill that circuit only when the panel is dry and cool. If there’s smoke or flame, get everybody outdoors and phone 911.',
   commonIntro:
     'Young wiring still fails now and then, and these are the complaints that bring us out in Union.',
   localFaqs: [

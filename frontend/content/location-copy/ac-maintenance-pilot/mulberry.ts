@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'By local standards Mulberry is young, and a spring visit here usually finds equipment that arrived with the house. Census figures put the median build year at 1988, and under four homes in ten stand detached, so much of our time goes to townhouses and condos with a closet air handler and a line of condensers out back. Most homes heat with electricity, which brings plenty of heat pumps. You see the price before tools come out, and a healthy system stays untouched.',
-  emergencyParagraph:
-    'Call for a repair, not a tune-up, when the rooms won’t cool on a hot afternoon, ice crusts the outdoor coil, or water creeps from the utility closet into the carpet. Turn it off and keep it off after a burnt smell. Grandparents, toddlers and anyone unwell are most at risk in heat. Same day on most calls, weekends included.',
   commonIntro:
     'In the townhouses, condos and newer houses off State Route 28, these usually come first:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'Greenhills was laid out as a New Deal Greenbelt town, and Census figures put the median house at 1955, an age when breaker boxes were small by today’s standards, and many have filled since. The original plans left out basements, so the box may hang in a closet or utility room, and we look at the space around it as closely as the box itself. About a third of households rent. Before quoting, we open the box, tell you if strip protectors would do, and fix the price.',
-  emergencyParagraph:
-    'Ring us that day for a blackened outlet, a breaker box that smells scorched, or a furnace that crackled and quit when the lights came back. If brightness swings through every room at once, Duke Energy should look first. If there’s smoke or fire, get everyone out and call 911. Most calls, weekends too, get a same-day visit.',
   commonIntro:
     'In the original townhomes and the postwar houses that fill out Greenhills, these four signs come up most often.',
   localFaqs: [

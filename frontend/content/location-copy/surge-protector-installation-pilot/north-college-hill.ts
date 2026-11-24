@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Most houses in North College Hill are detached and went up in the 1940s and 1950s, with a median of 1952 in Census figures and a quarter even older. Panels from that period were often modest, and many have since been loaded with an air conditioner, a newer furnace and kitchen upgrades, which is exactly the equipment surges damage. Over four in ten households rent, so landlords often decide. Our first job is opening the panel. We’ll say if strips are enough, and you see the price before work.',
-  emergencyParagraph:
-    'Ring us if the house smells of hot plastic, an outlet has turned brown, a breaker won’t stay on after you reset it, or the microwave sparked when the power returned. Leave that circuit alone unless you can reach the panel dry. Smoke is a 911 call made from the yard. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Mid-century houses carrying modern equipment show these signs most in North College Hill.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Newtonsville, in Wayne Township, is a place of detached houses on open lots, and Census figures put 89.2% of them in their owners’ hands. The biggest share went up between 1960 and 1979, so a spring visit here is usually a straightforward one, with the condenser sitting in plain view on the lawn. Gas service barely reaches these roads, so the AC shares its ductwork with a heat pump, an oil furnace or electric heat. Your flat price comes first, and a system in good order gets told so.',
-  emergencyParagraph:
-    'No tune-up will fix an AC that quits during a heat wave, or a condenser humming away while its fan stands still, so book a repair. Ice on the lines means switching off at the thermostat so it can thaw. Elderly parents, infants and anyone ill take the heat worst. Same-day visits cover most calls out here, weekends included.',
   commonIntro:
     'On the roads around the old village, owners tend to call for one of these reasons.',
   localFaqs: [

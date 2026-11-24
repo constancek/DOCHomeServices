@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'In St. Bernard, the village that grew up around Ivorydale, the typical home went up in 1955, per Census figures. Roughly a third are older than 1940, and about one unit in six sits in a two-family building. Doubles and older houses often have cramped or crowded panels, limiting where a surge device mounts, and some doubles have two. Remodels hold more of what surges ruin, like central air and board-driven appliances. The panel gets opened first, you hear if strips are enough, and the price is fixed before work.',
-  emergencyParagraph:
-    'A warm or scorched panel cover after a storm, or a washer that threw sparks at power-up, needs us that day. Lights house-wide flaring and fading are Duke Energy Ohio’s problem first. Stay away from the breaker unless your feet are dry; with smoke or flame, get out and phone 911. We’re usually there the same day, weekends too.',
   commonIntro:
     'Across doubles, older single houses and newer remodels in the village, one of these usually comes first.',
   localFaqs: [

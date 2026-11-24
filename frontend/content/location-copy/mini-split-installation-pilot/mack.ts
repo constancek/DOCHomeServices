@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Out on the ridge west of Cincinnati, Mack is single-family country, 94.2% detached houses with a median year built of 1981, per Census figures. Ductless work here rarely covers the whole house. It’s for the room central air shortchanges, usually space over the garage, a finished lower level, a sunroom or an addition. Since 94.4% of homes are owner-occupied, the decision usually rests with you. The fixed price gets your signature before we start, and if the real problem is the ductwork, you’ll hear that instead.',
-  emergencyParagraph:
-    'In Mack, a room over the garage traps the worst of the roughly 21 yearly days at 90F or above (National Weather Service), and grandparents, babies and anyone ill feel it soonest. Booking is quick; a single head is usually a one-day job, multi-zone longer. A dead mini-split means Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Along Bridgetown Road and the residential streets branching off it, four complaints bring most homeowners to us for a ductless quote:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross is mostly owner-occupied houses from the 1960s and 70s, which shapes most ceiling fan work here. Census figures date the median home to 1972, and about four in five are detached houses. Many living rooms got a fan decades back, screwed to a box meant for a light that never moved. Later houses add vaulted family rooms and back decks. We open up the box before quoting, say if a few turns of a screwdriver will cure it, and agree the price before the fixture comes down.',
-  emergencyParagraph:
-    'In Ross, a fan swinging loose, a box sagging from the drywall, a scorched smell or sparks at the switch can’t wait. Shut it off at the switch or breaker if that’s safe, and clear the floor beneath it. Smoke or fire means everyone gets out and calls 911. We come out same day on most calls, weekends too.',
   commonIntro:
     'From living rooms to back decks in Ross, these four signs are what usually has an owner thinking about a new fan.',
   localFaqs: [

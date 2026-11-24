@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'Nearly nine homes in ten in Summerside date from the 1960s through the 1990s, with little built since. Census figures put the median at 1981 and roughly a third of homes in complexes of five units or more. We split our time: houses with the heater in a basement or utility room, where older flues earn a look, and apartment closets where a tank sits in its pan and the landlord makes the call. The price comes before the wrench, and a tank too far gone gets an honest verdict.',
-  emergencyParagraph:
-    'Beyond a tune-up in Summerside: A tank letting water go: shut the cold valve above it, then gas or breaker. A gas odor: step out, leave switches and the pilot alone, and reach the gas company outdoors. A carbon monoxide alarm: people out first. A relief valve that keeps opening, or no hot water. Most same day, weekends included.',
   commonIntro:
     'Here’s what tends to send people in Summerside to the phone, usually well before the heater actually quits:',
   localFaqs: [

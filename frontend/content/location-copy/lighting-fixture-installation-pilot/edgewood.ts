@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Kitchen remodels drive a lot of our lighting work in Edgewood, with a 1970s fluorescent box or smoked-glass dome giving way to pendants over a new island. Whether the ceiling box will take the new piece, whether it’s grounded, and whether cable reaches the spot set the job. The Census puts the median house here at 1976, and 3,260 of 3,458 homes are detached single-family houses, mostly with drywall and grounded wiring. We see what’s in the box and settle a figure with you before any fixture comes down.',
-  emergencyParagraph:
-    'A fixture sinking below the drywall, a melted socket or a bedroom breaker that keeps tripping deserves a prompt call. If the panel is safe to reach, cut that circuit, and clear the room. Should smoke or fire show, get everyone out and phone 911. Most calls see us at the door that day, Saturdays and Sundays included.',
   commonIntro:
     'Among the 1970s houses that make up most of the city, four lighting jobs keep coming back.',
   localFaqs: [

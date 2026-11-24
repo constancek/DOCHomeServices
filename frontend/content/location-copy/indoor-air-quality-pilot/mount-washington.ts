@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Mount Washington is mostly post-war housing; by Census figures six homes in ten went up between 1940 and 1979. Those houses tend to keep their first ductwork, which has spent decades collecting grit and blowing it back into bedrooms, along with basements that turn clammy each summer. About four households in ten rent, many in apartment buildings, where the owner decides on equipment. We meter the air first, quote a flat price for what it shows, and say so if a filter change settles it.',
-  emergencyParagraph:
-    'If a carbon monoxide detector goes off, move everybody outside, then dial 911. A sulfur odor means leaving, switches untouched, and calling Duke Energy outside. Scorched-smelling vents mean shutting off the furnace or AC at its thermostat. Mold spreading after a leak can’t wait when babies, elders or asthmatics live there. Most get seen the same day, weekends too.',
   commonIntro:
     'In post-war houses and apartments across Mount Washington, these complaints top the list.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'In Paddock Hills, Dutch Colonial, Tudor and bungalow houses set the character, and fitting recessed cans into them means dealing with plaster, sloped bedroom ceilings and rooms drawn up around one fixture. Census figures for the surrounding area show a median build year of 1951 and include larger apartment buildings, with about two in five units dating from the 1960s and 1970s. Old house or newer flat, the job begins above the ceiling. We pencil in each can and agree a set price before any plaster comes loose.',
-  emergencyParagraph:
-    'Book a same-day visit when a can smells of burning, paint around it turns brown, or it keeps cutting out. A breaker that trips each time those cans switch on belongs in that group. Turn that circuit off at the panel if safe, and with any smoke, get out and phone 911. We come out on weekends too.',
   commonIntro:
     'Along Paddock Road and the side streets of Paddock Hills, these four rooms come up first when people ask about cans:',
   localFaqs: [

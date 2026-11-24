@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'In Paddock Hills, a tune-up goes one of two ways. The Tudor Revival and Dutch Colonial houses went up long before home cooling, so their central air came later, usually with ducts squeezed into an attic and a condenser set against a side wall. Then come the 1960s and 1970s apartment buildings, and by Census figures 69.3% of households rent, so many visits are booked by a landlord or manager. Every quote is settled first, and an AC that needs nothing is told so.',
-  emergencyParagraph:
-    'Hold off on a tune-up when the AC dies in a heat wave or the copper frosts over; set the thermostat to off to thaw. A spreading ceiling stain, a burnt smell, or a breaker that pops again belongs to repair. Seniors and infants feel heat soonest. We’re out the same day on most calls, weekends too.',
   commonIntro:
     'From period houses off Paddock Road to the apartment blocks, these are the usual clues a system is due:',
   localFaqs: [

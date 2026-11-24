@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Half the job in Newtown is draining grit out of a tank that still works; the other half is testing what’s worn. Because the village’s median house dates to 1989, most heaters we open sit in a newer basement or attached garage and need little beyond that flush plus a look at the anode. The pre-1940 houses, 21.6% of homes by Census figures, take longer: original drain cocks, aging flue pipe, gas piping. You’ll know the cost up front, and we’ll be blunt when a tank isn’t worth it.',
-  emergencyParagraph:
-    'Skip the tune-up when trouble has arrived. Puddle round the tank: twist the cold inlet valve up top shut, then kill gas or power. Rotten-egg odor: walk out, flip nothing, light nothing, phone the gas company. Carbon monoxide alarm: everyone exits first. A relief valve spitting repeatedly, or zero hot water, is repair work. Most get same-day help, weekends included.',
   commonIntro:
     'Most of these bookings in Newtown come before anything breaks. What usually prompts one:',
   localFaqs: [

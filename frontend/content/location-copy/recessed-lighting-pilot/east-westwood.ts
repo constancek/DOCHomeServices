@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Much of the recessed lighting we fit on these streets goes into postwar houses with an attic above the top floor and a bare basement below. Census figures give a 1958 median, and roughly three in four homes are rented, so the caller is often a landlord refreshing a unit between tenants. Houses from that decade usually leave decent depth for housings, though the loose-fill up there decides which type is allowed. Positions get pencilled on the ceiling and the figure gets settled before any cutting.',
-  emergencyParagraph:
-    'Same-day help is the rule on most calls when a breaker drops each time those cans come on, a brown halo creeps out from a trim or something smells scorched. If the panel is safe to reach, switch that circuit off. If there is smoke or fire, everyone leaves and someone calls 911. Weekends are no exception.',
   commonIntro:
     'Landlords refreshing units and owners finishing basements bring us four jobs again and again.',
   localFaqs: [

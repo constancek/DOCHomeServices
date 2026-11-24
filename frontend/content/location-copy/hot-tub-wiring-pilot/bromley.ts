@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Bromley is a riverfront town of single houses, and Census figures put about half of them before 1940. A panel that old seldom has an empty position or reserve capacity for a spa breaker, so we deal with that before running the 240-volt GFCI feed, mounting the cutoff and bonding the tub. Low ground beside the Ohio also decides how high equipment and connections should go. The spa’s spec sheet drives our sizing, and you agree to a set price before any trench is opened.',
-  emergencyParagraph:
-    'Spa gear in Bromley that sat in floodwater stays unplugged until we’ve tested it. We also treat a GFCI that trips again right after resetting, a scorched cutoff, a humming panel or a tingle in the water as same-day calls, weekends included. Get out, leave the controls alone, and switch the breaker off only if that’s safe. Smoke means 911.',
   commonIntro:
     'On the streets running along the river in Bromley, these are what usually come before a call to wire a spa.',
   localFaqs: [

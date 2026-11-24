@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Pendleton is mostly Italianate town homes, carriage houses and old tenement buildings, and Census figures put about four in five units before 1940. Tall plaster ceilings in those rooms often carry a gas-era light outlet or a medallion, not a box built to hold a turning fan. Condos built since 2010 lean toward open lofts that want a down rod, and most units are rented. We check the ceiling box first, say if a tightened mount is all it needs, and fix the price before the old fixture comes down.',
-  emergencyParagraph:
-    'A fan swinging wide, a canopy parting from the plaster, a burnt odor from the motor or sparks at the switch can’t wait. Cut power at the wall or breaker if you can safely, keep people out from under it, and for fire, leave and phone 911. Same day on most calls, weekends included.',
   commonIntro:
     'High plaster ceilings, stacked flats and a handful of new lofts produce the four fan problems we’re called about most in Pendleton.',
   localFaqs: [

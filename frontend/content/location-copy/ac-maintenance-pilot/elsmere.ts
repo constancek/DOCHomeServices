@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'No two tune-ups look quite alike in Elsmere, because the housing covers decades. The median home dates to 1970 by Census figures, yet nearly a fifth went up in 2000 or later and a few hundred are mobile homes. Older houses usually had central air added after the fact, sometimes with an air handler in a crawlspace or basement corner; newer ones are a plain coil, drain and wiring service. The price is fixed before we start, and a sound AC gets an honest all-clear.',
-  emergencyParagraph:
-    'Call for a repair rather than a tune-up if the AC stops cooling on a hot day, the outdoor fan won’t spin while the unit hums, or you smell something burning (turn the breaker off and leave it). Babies, older relatives and anyone with breathing trouble need cool air first. Same day on most calls, weekends included.',
   commonIntro:
     'Owners in Elsmere tend to call for AC maintenance after spotting one of these:',
   localFaqs: [

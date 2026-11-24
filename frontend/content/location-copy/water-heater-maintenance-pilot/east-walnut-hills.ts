@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Around DeSales Corner, tune-ups split between two kinds of building. Census figures put 49.3% of homes in East Walnut Hills at 1939 or earlier; in those basements we find flue pipe from another era, a gas line due a look and a bottom drain we try gently first. The condo and apartment blocks keep heaters in closets over drip pans, with owners or an association setting the schedule, and 42.6% of homes are rented. Expect the flat figure before we begin, and honesty if a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Near DeSales Corner, these skip the tune-up. Leaking tank: turn its cold supply off, then the gas valve or breaker. Whiff of gas: walk outdoors, leaving switches and pilot be, and phone the gas company. Carbon monoxide alarm: people first, out the door. Relief valve discharging time after time, or taps running cold. Most are a same-day visit, weekends included.',
   commonIntro:
     'In East Walnut Hills, these are what usually lead someone to book a first service:',
   localFaqs: [

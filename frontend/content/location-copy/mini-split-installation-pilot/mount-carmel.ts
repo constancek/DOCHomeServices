@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Mount Carmel is a community of houses from the 1950s through the 1970s, with 1973 as the median year built in Census figures. Ducts were laid out for the floor plan as built, so a room over the garage or a sunroom added later rarely keeps up. One ductless head handles that space and leaves the furnace and ducts alone. Roughly a quarter of units are apartments, which owners decide on. The price is flat and written first, and if ductless isn’t right, we say so.',
-  emergencyParagraph:
-    'On about 21 days a year the thermometer reaches 90F or higher (National Weather Service), and a bonus room in Mount Carmel can feel like an attic. Keep infants, older parents and anyone short of breath out of it. Installs book quickly; one head takes a day. One that quit needs Mini-Split Repair, most often same day, weekends included.',
   commonIntro:
     'Around Mount Carmel, owners of mid-century houses and apartment buildings ask us to fix these four spaces most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Fort Mitchell holds more old houses than its 1971 median suggests. By Census figures about one home in six predates 1940, and the four National Register districts off Dixie Highway contain houses from around 1890 into the 1930s. Behind that plaster there may be knob-and-tube or cloth-jacketed wire, no ground at all, and two-prong outlets. Postwar houses here more often come up short on circuits. We test first, report a sound system as sound, and hand over scope and flat price in writing before cutting any opening.',
-  emergencyParagraph:
-    'A smoky smell near a receptacle, a cover plate gone hot or discolored, sizzling inside a box, a breaker that drops again after a reset, or a shock from a switch justifies a same-day call. From a dry floor, shut that breaker. Any smoke or flame means everyone out and 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'In the early 1900s houses, later homes and apartment buildings of Fort Mitchell, wiring past its prime tends to look like this:',
   localFaqs: [

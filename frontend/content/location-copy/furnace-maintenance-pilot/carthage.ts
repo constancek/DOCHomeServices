@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'Carthage is mostly houses from before the Second World War: by Census figures the median home was built in 1938, and 81.0% heat with gas. That means a furnace in a basement, the house’s second or third, often vented through a chimney older than anything attached to it. Venting and the heat exchanger get the most time on our visits here. About four in ten homes are rented, and there the landlord books. You get the price before work starts, and we’ll say so when a furnace needs nothing.',
-  emergencyParagraph:
-    'Repair, not maintenance. Gas smell: walk out, leave lights as they are, don’t relight the pilot, and phone Duke Energy from the sidewalk. Carbon monoxide alarm: everybody outside, then call. Also a furnace blowing cold in a hard frost, nonstop restarting or a lazy yellow flame. Babies and the sick feel it first; most get a same-day visit, weekends included.',
   commonIntro:
     'Most furnaces we tune up in Carthage sit in pre-war basements, and owners tend to call after seeing:',
   localFaqs: [

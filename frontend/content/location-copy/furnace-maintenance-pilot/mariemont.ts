@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was laid out in the 1920s and mostly filled in by 1950; Census figures put 36.8% of homes at 1939 or before and 26.3% more in the 1940s. A planned village that age keeps its furnaces in basements, and few are on their original one. Many still exhaust into masonry chimneys built long before today’s furnace arrived, so the flue connection and heat exchanger take most of our time. Apartment buildings are booked by their owners. You hear a price first, and if nothing’s needed, we tell you.',
-  emergencyParagraph:
-    'In Mariemont, a tune-up can wait; these can’t. Smelling gas: leave, hands off every switch, and phone the gas company from down the block. Carbon monoxide alarm: empty the house. Also a dead furnace in a freeze, a furnace stuck cycling, a wavering yellow flame. Babies and the elderly feel cold first. Same day for most calls, weekends included.',
   commonIntro:
     'In a village built mostly before 1950, owners give us these reasons for booking in Mariemont:',
   localFaqs: [

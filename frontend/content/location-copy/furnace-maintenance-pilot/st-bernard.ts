@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'St. Bernard is a village of mid-century houses and doubles. Census figures put the median home at 1955 and show gas heating about seven homes in ten. Furnaces mostly sit downstairs; in the older houses they often vent into a chimney first built for some earlier furnace, which is why the flue and heat exchanger get our attention. Roughly a third of homes are rented, many in two-family buildings where one owner books both units. The price is fixed before we start, and if nothing’s wrong, we say so.',
-  emergencyParagraph:
-    'Book repair for these. Gas smell: out of the house, no switch flipped, pilot left alone, and a call to the gas company from the sidewalk. Carbon monoxide alarm: everybody out. A furnace gone cold mid-freeze, one firing and quitting by turns, or a yellow flame. Babies and older relatives can’t wait; same day on most calls, weekends included.',
   commonIntro:
     'Owners book a fall visit in St. Bernard after noticing:',
   localFaqs: [

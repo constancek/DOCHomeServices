@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Post-war houses make up most of Mount Washington, and that shapes a spa job. Only about one home in nine predates 1940, by Census figures, and the median year built ranges from 1953 to 1976 by area, so a 1970s house off Corbly Road may have room while a 1950s box near Sutton Avenue is often full. Either way the tub gets its own 240-volt GFCI circuit, a shutoff in plain view, and bonding. Your quote comes after we line the panel up with the spa’s spec.',
-  emergencyParagraph:
-    'In Mount Washington, scorching on the spa shutoff or a tingle in the water is a stop-now problem. Have everybody step out and leave the controls alone. If the breaker is safe to get to, switch it off; if you see smoke or fire, get out and dial 911. Same-day service covers most calls, weekends included.',
   commonIntro:
     'From the Beechmont corridor to the side streets near the old water tower on Campus Lane, these four start most spa calls in Mount Washington.',
   localFaqs: [

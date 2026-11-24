@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'In Northgate, more homes heat with electricity than with gas, by Census figures, and most were built during the 1960s and 1970s. An electric furnace or heat pump already leans hard on the panel, so finding headroom for a spa is the first question we answer. If it’s there, the job becomes a 240-volt branch for the tub alone, ground-fault protected, run out to the deck, plus a nearby disconnect and bonding. Your panel is weighed against the spa maker’s numbers, and the price is settled before any conduit appears.',
-  emergencyParagraph:
-    'A few spa symptoms can’t sit until Monday. The GFCI flips off the instant it’s reset, the panel buzzes, or the disconnect looks scorched. Get out of the water, don’t touch the controls, and switch off the breaker only if that’s safe. Smoke or flames mean calling 911. We answer most calls the same day, weekends too.',
   commonIntro:
     'On the streets between Colerain Avenue and Springdale Road, these four account for most spa calls we get.',
   localFaqs: [

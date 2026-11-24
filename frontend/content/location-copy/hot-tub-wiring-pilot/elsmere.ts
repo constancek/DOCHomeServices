@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Elsmere’s houses come from every decade, and Census figures set the median at 1970, with roughly one in five built since 2000. A house from the 1950s through the 70s often has a panel with no empty slot and not much headroom, which gets sorted before the spa breaker. The newer builds usually have both, so the real variables are the tub’s spot and the length of conduit back to the panel. You see the figure only after we’ve matched the panel to the spa’s requirements.',
-  emergencyParagraph:
-    'Phone us the same day if the spa breaker refuses to stay on, the panel buzzes, or the shutoff box gives off a burnt smell. If the water or the frame tingles, everyone climbs out without touching metal. Flip the power off only if it’s safe to reach, and for smoke or fire, dial 911. Weekends are no different.',
   commonIntro:
     'Between the older streets by Dixie Highway and the newer houses deeper in, people in Elsmere tend to call about one of these.',
   localFaqs: [

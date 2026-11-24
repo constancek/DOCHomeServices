@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'North Fairmount is a hillside of single houses, most built before 1940 according to Census figures, with a second wave from the 1960s and 1970s and nothing new since 2000. In the older houses we look for cloth-covered or knob-and-tube wiring, fuse boxes and ungrounded outlets. In the postwar ones the usual issue is a small panel with too few circuits for a modern kitchen. Homes here are split about evenly between owners and renters. We inspect, explain, and price any work up front.',
-  emergencyParagraph:
-    'These can’t wait: an outlet too hot to touch, a cracked and scorched switch plate, a plug that sparks, the smell of burning insulation, a breaker that drops again the instant it’s reset, or lights that dip as an appliance starts. Turn that circuit off. Smoke or fire: everyone out, then 911. Most get a same-day visit, weekends too.',
   commonIntro:
     'In North Fairmount’s single houses, old and postwar alike, these faults turn up most:',
   localFaqs: [

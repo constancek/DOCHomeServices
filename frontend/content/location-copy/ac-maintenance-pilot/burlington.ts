@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Burlington is mostly young housing, which keeps a spring AC visit simple. Census figures show 46.3% of homes went up in 2000 or later, so the builder designed the cooling in, with the air handler in a basement or hall closet and the condenser on a slab by the garage. Our work is coils, filter, drain and the electrical side. Apartment complexes make up a real slice of town, booked by management. You see a flat price first, and a healthy system gets a clean bill.',
-  emergencyParagraph:
-    'Book a repair, not a tune-up, if the AC falls behind in a heat wave, frost grows on the indoor coil, or the air handler closet starts leaking; set the thermostat to off. A burning odor, or a breaker that keeps tripping, means it stays off. Infants and elderly family feel heat soonest. Same-day service is normal, weekends too.',
   commonIntro:
     'Across the subdivisions and apartment complexes of Burlington, these are the usual reasons for a spring call:',
   localFaqs: [

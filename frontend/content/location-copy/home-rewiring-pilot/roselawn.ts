@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Roselawn is mostly rented, Census figures show, and its typical building went up in the early 1960s. Nearly a third of homes are in three- and four-unit buildings, many dating from the 1960s and 1970s, when some builders ran aluminum branch wire. About a fifth of the housing predates 1940 and may have no ground at all. Few apartments were wired for the appliances tenants own now. Testing comes first, and the owner gets either word that the wiring holds up or a written scope and flat rate.',
-  emergencyParagraph:
-    'Don’t sit on a blackened outlet, a burning smell in a wall, buzzing, sparks, a jolt from an appliance, or a breaker that trips the moment it’s reset. Tenants should tell the landlord. Switch off the circuit only if the panel is safe and dry. Smoke means get out and dial 911. Most calls are same day, weekends included.',
   commonIntro:
     'Off Reading Road, in the fourplexes and older houses, wiring trouble tends to look like this:',
   localFaqs: [

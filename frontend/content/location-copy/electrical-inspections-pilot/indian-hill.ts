@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'In Indian Hill, wiring age changes sharply from one driveway to the next. Census figures show about one home in nine built before 1940 and more than one in five built since 2000, nearly all of them single houses on large lots. The older ones can still hide cloth-covered wiring behind later additions; the newer ones are usually sound and get inspected before a sale or a big new load. Either way, we test the whole system and put the findings in writing before quoting any repair.',
-  emergencyParagraph:
-    'Some signs can’t wait for a scheduled visit: a burning or hot-plastic smell, a buzzing or scorched outlet, sparks, or a breaker that won’t stay on after a reset. Cut that breaker and leave it. Smoke or fire means getting out and calling 911. Indian Hill calls usually get a technician the same day, Saturdays and Sundays too.',
   commonIntro:
     'Indian Hill inspections mostly turn up problems in places people rarely look: old circuits that were extended rather than replaced, and panels that were never resized. The usual findings:',
   localFaqs: [

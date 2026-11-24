@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'In Fort Thomas, wiring a spa starts with a 240-volt circuit that serves the tub and nothing more, then GFCI protection, then a disconnect you can spot from the water but not grab from it, and last, bonding of the metal close by. Census figures put the median house at 1955, and roughly six in ten predate 1960. Boxes that age often can’t fit or carry one more big breaker, so we deal with that before anything else. The price, checked against the maker’s specs, comes before any conduit.',
-  emergencyParagraph:
-    'A spa GFCI that falls off again right after a reset, a burnt-smelling or blackened disconnect, or a tingle from the tub’s rail is urgent in Fort Thomas, so ring us straight away. Get everyone out without touching the water. Flip the breaker off only if it’s safe, and phone 911 for smoke.',
   commonIntro:
     'On the older blocks and sloping yards of Fort Thomas, these are the four signs that usually bring us out for a spa.',
   localFaqs: [

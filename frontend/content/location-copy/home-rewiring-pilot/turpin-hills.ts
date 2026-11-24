@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Almost every house in Turpin Hills is owner-occupied, and most have cleared the 30-year mark. Census figures put close to half of homes in the 1960s and 1970s, with the median built in 1977. Builders of that era rarely planned for today’s kitchens and HVAC, and some may have used aluminum branch circuits. Newer houses tend to call when a remodel is planned or one circuit keeps quitting. A full test comes before any price, you hear it plainly if things are fine, and the scope is written out.',
-  emergencyParagraph:
-    'Ring us without delay about a scorched smell coming off a receptacle, a discolored switch, sparks, buzzing, a breaker that won’t reset, or a jolt from an appliance. Only shut the breaker if your hands are dry. If there’s smoke or fire, everyone goes outside and someone calls 911. We cover most calls the same day, weekends too.',
   commonIntro:
     'Across Turpin Hills, where most houses date from the 1960s to the 1990s, the wiring tends to warn owners in these ways.',
   localFaqs: [

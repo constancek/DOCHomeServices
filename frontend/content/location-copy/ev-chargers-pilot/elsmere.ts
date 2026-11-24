@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Elsmere’s houses span every decade. Census figures put the median year built at 1970, about one in five at 2000 or later, and roughly half of homes on electric heat, which eats into the spare capacity a charger needs in January. A 1950s to 1970s panel is frequently stuffed already, while newer builds generally have room or can share it through load management. Our electrician checks the box and runs the numbers first, says when the cord in the trunk is enough, and fixes the price.',
-  emergencyParagraph:
-    'Pull the plug when the outlet, connector or charger runs hot, scorches, melts or smells of burning. Don’t reset a breaker that trips with each charge, and retire a crushed cable. Switch the circuit off only if that’s safe. Smoke or fire means everyone out and a call to 911. We get to most calls that day, weekends included.',
   commonIntro:
     'From older houses near Dixie Highway to builds from the 2000s, these four reasons start most charger conversations.',
   localFaqs: [

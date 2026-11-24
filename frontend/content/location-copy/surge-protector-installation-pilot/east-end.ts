@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Census figures give a median build date of 1938 for the East End, and more than half the housing predates 1940, so plenty of cottages and rowhouses off Eastern Avenue still run on cramped panels. Out toward Riverside Drive, much was built from the 1990s on, and those houses hold central air, newer furnaces and rooms of networked gadgets. Either way, we open your panel before quoting, admit it when a couple of strips would suffice, and agree a price up front.',
-  emergencyParagraph:
-    'If Ohio River water reached your basement panel, keep it switched off until someone has checked it. An outlet that blackened during a storm, or a breaker that refuses to stay on, usually gets a same-day visit from us, weekends included. Should anything start smoking, leave the house first and phone 911 from a neighbor’s porch.',
   commonIntro:
     'Between the Humbert Avenue cottages and the Riverside Drive condos, these four situations usually start the conversation.',
   localFaqs: [

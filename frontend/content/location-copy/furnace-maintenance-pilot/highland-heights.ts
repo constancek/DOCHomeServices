@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Two kinds of furnace fill our fall calendar in Highland Heights. One sits in the basement or garage of a 1970s or 1980s house. The other stands in an apartment closet, one of many under a single owner. By Census figures, 48.8% of homes sit in buildings with five or more units, and 65.2% heat by electricity, a number that lumps heat pumps and baseboard in with electric furnaces. You hear the flat price before we lift a panel, and a straight answer if the furnace needs nothing.',
-  emergencyParagraph:
-    'Gas odor indoors: walk out, leave switches be, ring the gas company from the sidewalk. A carbon monoxide alarm: everybody out, then phone. A furnace gone cold in a hard freeze, one clicking on and off nonstop, or a floppy yellow flame means repair, not tune-up. Infants and grandparents feel a cold apartment first. Usually same day, weekends included.',
   commonIntro:
     'Near the university and on the older residential streets of Highland Heights, a fall booking usually follows one of these:',
   localFaqs: [

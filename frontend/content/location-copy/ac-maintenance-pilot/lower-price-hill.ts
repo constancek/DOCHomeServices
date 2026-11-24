@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Lower Price Hill is mostly rented, and its houses are old. Census figures put 82.7% of homes here in rental use and 64.9% at 1939 or earlier, much of it two-family houses and small buildings of three or four flats. Any central air in those was added decades after they were built, often with a condenser crammed into a back passage, so maintenance here is mostly booked by owners covering several units at once. Each building gets a quote first, and we’ll tell an owner when a unit needs nothing.',
-  emergencyParagraph:
-    'A flat with no cooling in a heat wave is a repair for the owner to book today. Iced lines mean the thermostat gets switched off. Water dripping into the flat below, or a burning smell, can’t wait. Older tenants, small children and asthmatics are most at risk. Repairs are same day on most calls, weekends included.',
   commonIntro:
     'For owners of rentals in Lower Price Hill, these usually prompt a round of tune-ups.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Mount Repose is mostly owner-occupied detached houses, 85.6% by Census figures, and its biggest building years were 1960 to 1979. The furnace usually sits downstairs and has been replaced at least once since the house was new. So a tune-up is a straight check of filter, blower, burners and safety controls, plus a closer look at the vent where it still runs into an original chimney. Gas heats nearly half the homes. You approve a flat price first, and we’ll say so if the furnace is fine.',
-  emergencyParagraph:
-    'If any of this happens, ask for repair. Gas smell: go outside, touch no switches, relight nothing, call the gas company. Carbon monoxide alarm: clear the house. No heat in a hard freeze, a furnace cutting out and refiring, or a weak yellow flame. Infants and elderly relatives raise the urgency. Same day on most calls, weekends included.',
   commonIntro:
     'In Mount Repose, homeowners along State Route 28 and the side streets book a tune-up after one of these:',
   localFaqs: [

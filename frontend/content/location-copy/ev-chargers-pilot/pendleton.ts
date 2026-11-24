@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Inside Pendleton, rowhouses and multi-unit buildings fill a small triangle north of downtown, and Census figures show about four in five homes there predate 1940. That older service may be small, leaving little for a 240-volt circuit. Condos and townhouses built since 2010 usually have room or can use load management, though the association has to approve first. We look at the panel and run the load calculation before anything, say if the dealer cord will do, and agree the price first.',
-  emergencyParagraph:
-    'If a Level 1 cord’s outlet turns warm, or the cord sits on an extension, end that today. A scorched charger or a breaker that quits with every charge needs a look. Cut the circuit only if nothing hot or wet is in reach. Smoke means get out and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In Pendleton, charger talk usually starts with one of these four situations.',
   localFaqs: [

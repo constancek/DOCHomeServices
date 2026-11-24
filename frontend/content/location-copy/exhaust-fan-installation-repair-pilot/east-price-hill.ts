@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'Landlords make many of the fan calls in East Price Hill, since Census figures show close to two in three households rent. About two in five buildings went up in 1939 or earlier, and in those two-families and four-unit walk-ups the bathroom often has a window and nothing else, or a fan wired in later that empties into a wall cavity. The 1960s apartment blocks tend to have fans that are tired or too weak. We find where the air exits and price it before any plaster comes down.',
-  emergencyParagraph:
-    'Shut the fan off once it starts smelling scorched, shows a warped or blackened housing, sparks, smokes or trips the breaker whenever it runs. A drip or brown ring at the grille counts as well. Flip the breaker if that’s safe; with smoke or fire, get out and phone 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In the walk-ups, two-families and single houses around Warsaw Avenue and beyond, owners and tenants usually notice these first.',
   localFaqs: [

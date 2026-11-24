@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'In Columbia-Tusculum, exhaust fan work splits between very old houses and a smaller set of new ones. Census figures show 922 of the 1,940 homes in the area went up in 1939 or earlier, and those bathrooms often got a fan decades later, run into the attic or a wall cavity. The 178 built since 2000 usually have a fan, though not always one big enough for the bathroom. Either way, we follow the duct to its end and quote the repair before anyone cuts into a ceiling.',
-  emergencyParagraph:
-    'A scorched odor, a cover that has browned or bowed, sparks, smoke, a dripping grille or a breaker that drops each time the fan starts all qualify as urgent. Cut power at the switch or panel when you can reach it safely, and with smoke or flame, leave and call 911. We usually arrive the same day, weekends included.',
   commonIntro:
     'Between the old houses climbing the Tusculum hills and the newer builds below them, these are the fan problems we’re called about most in Columbia-Tusculum:',
   localFaqs: [

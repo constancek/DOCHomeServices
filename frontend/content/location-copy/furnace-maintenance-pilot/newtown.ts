@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Furnace work in Newtown is split by house age. 21.6% of houses, on Census figures, predate 1940; in those basements we usually find a replacement furnace, often the second or third, tied to an old masonry chimney, which is why the flue and heat exchanger get the longest look. The median house is from 1989, and there the job is mostly filter, blower, burner and safety switches. Gas warms 70.2% of homes. Price comes before any wrench turns, and if the furnace needs nothing, you’ll hear that from us.',
-  emergencyParagraph:
-    'A gas odor means walk out: no light switches, no relighting, and phone the gas company once outside. A carbon monoxide alarm empties the house. Total heat loss in a cold spell, a burner that fires and quits repeatedly, or a lazy yellow flame is a repair call. Infants and grandparents chill fastest. Same-day on most calls, weekends too.',
   commonIntro:
     'Owners usually reach for the phone in Newtown over one of these:',
   localFaqs: [

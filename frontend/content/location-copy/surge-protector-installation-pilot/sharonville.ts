@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Much of Sharonville was built in the 1970s through the 1990s, with a median build year of 1974 in Census figures. Houses from those decades usually have a decent breaker box, and today they are packed with video doorbells, mesh routers, smart thermostats and appliances that run on circuit boards. Around four in ten homes are rented, many in apartment complexes, where strips are the tenant’s tool. We inspect the panel before anything is sold, tell you honestly if strips cover it, and you approve a price first.',
-  emergencyParagraph:
-    'Same-day help, weekends included, comes on most calls for a panel with a hot plastic smell, a scorched outlet, a breaker that kicks off on reset, or a dishwasher that smoked once power came back. Throw that breaker only with dry hands. With smoke or flame, leave and call 911. Pulsing lights house-wide go to Duke Energy Ohio first.',
   commonIntro:
     'These warning signs show up in houses and condos all over Sharonville before owners ask about protecting the whole panel.',
   localFaqs: [

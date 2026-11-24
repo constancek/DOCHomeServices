@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'In Hyde Park, a rewire usually means replacing original pre-war wire. Census figures date slightly more than half of homes to 1939 or earlier, with median build years running from 1938 to 1948. Wire from that era may be knob-and-tube with no ground, feeding two-prong outlets. About one home in three is in a building of five or more units, and those get rewired unit by unit. Testing comes first; sound wiring gets a plain yes, and anything else gets a signed scope and flat price before plaster is cut.',
-  emergencyParagraph:
-    'We reach most calls the same day, weekends included, when an outlet smells of hot plastic or sparks, a cover plate has gone brown, a switch shocks you or a breaker snaps off after a reset. Cut that circuit at the panel only on a dry floor with nothing hot nearby. Smoke or flame means everyone out, then 911.',
   commonIntro:
     'Pre-war wire in the houses of Hyde Park, and older circuits in its apartment blocks, usually give themselves away like this.',
   localFaqs: [

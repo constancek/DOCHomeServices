@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Clifton is the Gaslight District, and most of its houses were standing before 1940, so a light fixture job here starts in the ceiling. By Census count, 2,799 of roughly 4,500 homes date from 1939 or earlier, with 1938 as the median. Tall plaster ceilings in those homes often carry an old box that can’t bear a weighty chandelier and has no ground. Renters fill most units, so owners and associations book much of our work. We inspect the box and wiring and quote a fixed price first.',
-  emergencyParagraph:
-    'A chandelier slipping out of its canopy, plastic melting at a socket, or lights dimming and flaring across several rooms are problems for today. Shut the breaker off if it’s reachable without risk, and clear people from under anything dangling. With smoke or flames, leave the building and phone 911. We reach most calls the same day, including weekends.',
   commonIntro:
     'Big old rooms and divided apartment houses keep us busy in Clifton with these four light fixture jobs.',
   localFaqs: [

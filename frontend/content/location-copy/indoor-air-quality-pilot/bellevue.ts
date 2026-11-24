@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Bellevue has some of the oldest houses on the Kentucky side. Census figures show 1,900 of its 2,983 homes were built in 1939 or earlier, and most are owner-occupied. Houses that old leak air at windows and floors, their basements stay damp, and the ductwork added later carries dust through the rooms. Gas heat is the norm, and it leaves winter air dry. We test first, the price is fixed before work begins, and if a clean filter is the fix, we’ll tell you.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm goes off, everyone heads to the sidewalk before 911 is called. For a gas smell, leave without touching a switch and phone Duke Energy. Vents with a scorched smell mean switching the thermostat off. Mold after water damage worries us most with a grandparent home. Most calls are same day, weekends included.',
   commonIntro:
     'In Bellevue, these are the signs that usually lead to a call.',
   localFaqs: [

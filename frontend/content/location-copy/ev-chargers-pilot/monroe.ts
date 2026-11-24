@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Over half of Monroe’s housing dates from 2000 on, and close to nine in ten homes are detached, Census figures show. A panel that young usually has the slack for a 240-volt charger circuit, and when it doesn’t, load management tends to bridge the gap. About a third of homes heat with electricity, and that goes into the math. We open the panel and run the load numbers first, say so if your cord already does the job, and settle the price ahead of any wiring.',
-  emergencyParagraph:
-    'A charger case too warm to rest a palm on, a softened plug or a scorched odor at the receptacle ends the session. If the breaker trips whenever the car starts drawing power, leave it tripped. Smoke or fire means phoning 911 from outside. Most calls get us out same day, weekends included.',
   commonIntro:
     'In a city of mostly newer houses, the charger calls we field usually boil down to these four in Monroe.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'In South Fairmount, most rewiring happens in houses older than 1940. Census figures put nearly three of every four homes in that bracket, and almost six in ten households are renters. Wire of that age can be ungrounded knob-and-tube, ending at two-slot outlets sized for a radio and a lamp. Our first step is a test of the circuits. If they hold up, we tell you so, and nobody opens plaster until the scope and flat-rate price are written down.',
-  emergencyParagraph:
-    'Phone the moment a receptacle starts to smell scorched, a faceplate turns warm, a wall crackles, or a breaker snaps back off as soon as you push it on. With dry hands, switch that breaker off. Smoke or flame means leaving first and dialing 911 outside. Most calls get us there the same day, weekends included.',
   commonIntro:
     'Along Queen City and Harrison, in pre-war houses, doubles and big apartment blocks, tired wiring usually gives itself away like this.',
   localFaqs: [

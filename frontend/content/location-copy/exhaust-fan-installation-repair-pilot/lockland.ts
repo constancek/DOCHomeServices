@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'Steam that hangs in the bathroom long after a shower is the usual complaint we hear in Lockland. Close to half the village’s housing predates 1940, according to Census figures, and the typical house dates to 1944, so many bathrooms began life with no fan at all. The ones added since were often vented the short way, onto the attic floor or into a wall bay. Before anyone cuts a hole, we chase the airflow to its end point and hand you one firm price.',
-  emergencyParagraph:
-    'If the housing smells burnt, shows scorch marks or has begun to sag from heat, or if sparks or smoke come from the grille, kill the power at the wall switch or the breaker when that can be done safely. Smoke or flames mean everyone leaves and someone dials 911. Expect us the same day on most calls, including weekends.',
   commonIntro:
     'Lockland has old houses, newer ones and a fair number of apartment buildings, and these four signs turn up in all of them.',
   localFaqs: [

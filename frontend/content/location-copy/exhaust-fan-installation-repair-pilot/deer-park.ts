@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'The median house in Deer Park dates to 1947, by Census figures, and more than three in four went up before 1960. When those bathrooms were built, a window was the ventilation, so many fans here were added afterward, and some of them blow into the attic or a wall instead of outdoors. Other fans are tired originals that run loud and pull little. We measure the pull, find the end of the duct and quote the repair before opening anything.',
-  emergencyParagraph:
-    'A scorched housing, a smell like singed wiring, sparks, smoke or a breaker that won’t stay on all mean the fan should be off, at the wall switch or the panel, if you can get there without danger. If there’s fire, get the family out before phoning 911. Same-day service covers most calls here, weekends included.',
   commonIntro:
     'Deer Park is mostly 1940s and 1950s houses, and these are the fan problems that keep showing up in them.',
   localFaqs: [

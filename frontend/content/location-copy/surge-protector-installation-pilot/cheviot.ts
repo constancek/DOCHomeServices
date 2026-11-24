@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Out of 3,893 homes counted in Cheviot by the Census, 1,746 predate 1940, and the median house went up in 1946. Plenty of those houses have had their electrical service redone once or twice since, which leaves some breaker boxes crammed with no open slot. So a protector here starts with opening the box, not with a sales pitch. Two-family houses and renters are common too. If cheap strips would do for your setup, we’ll tell you, and the price is fixed before anyone picks up a screwdriver.',
-  emergencyParagraph:
-    'A scorched faceplate, a hot plastic smell from the breaker box, a breaker that snaps off again the second you push it back, or a microwave that popped and sparked when the lights returned all mean a same-day call, and most calls get one, weekends included. Flip that breaker only from dry footing. Smoke means everyone outside and 911.',
   commonIntro:
     'Around Harrison Avenue and the side streets off it, these four signs are the usual reason we get called to Cheviot about a protector.',
   localFaqs: [

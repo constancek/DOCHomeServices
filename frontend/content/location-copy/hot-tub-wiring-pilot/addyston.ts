@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'Addyston has company-town roots, and Census figures put the typical home at 1965, with most households renting. The small houses near Main and Church Streets tend to have the tightest panels in the village. If yours has no free slot or no headroom left for a spa, we fix that before a single length of conduit goes down. After that, the tub gets its own 240-volt line with ground-fault protection, a shutoff and bonding, at a written price.',
-  emergencyParagraph:
-    'Shut the tub down if the GFCI clicks off on every reset, the shutoff gives a scorched whiff, or a bather feels a buzz. Nobody stays in the water, and nobody fiddles with the controls. The shutoff can be pulled if it’s within safe reach. With smoke, get out and call 911. A same-day visit is the norm, weekends too.',
   commonIntro:
     'Between the river and the newer streets past Route 50, these are the things that usually get someone to call us about a spa.',
   localFaqs: [

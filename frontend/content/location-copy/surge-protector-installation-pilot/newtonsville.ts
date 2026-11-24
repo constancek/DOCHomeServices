@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Since the village dissolved in 2019, Newtonsville has been part of Wayne Township, and most houses around it are detached, owner-occupied and built in the 1970s or early 1980s, per Census figures. More than half heat with electricity, and some still burn fuel oil, so a heat pump or electric furnace is often the priciest thing a surge can reach. Panels from those years can be close to full. We open the panel first, say so if strips would be enough, and give the price before work.',
-  emergencyParagraph:
-    'Don’t let a charred outlet after lightning or a burning smell at the panel wait until morning, and the same goes for a breaker that won’t hold. When every light brightens and dims, the electric utility is the first call. Smoke means everyone gets out and calls 911. Most calls get a truck the same day, Saturday and Sunday included.',
   commonIntro:
     'Electric heat on panels from the 1970s accounts for most of what we find around Newtonsville.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Pendleton is mostly rowhouses and small apartment buildings from before 1940, with a cluster of new construction since 2010. Census figures put about four in five homes in the older group. In a building that age, cloth-covered or knob-and-tube wiring can still hide behind the plaster, often spliced to newer runs from a rehab. Many units also heat with electricity, a load old services weren’t sized for. We trace what’s there, write it up, and price any fixes before you commit to anything.',
-  emergencyParagraph:
-    'Some calls jump the queue: a switch that’s hot or crackling, an outlet with black marks, sparks when you plug in, a smell of melting plastic, or a breaker that refuses to stay on. Kill that circuit at the panel. Smoke or flame means everyone out to the street, then 911. Same-day visits on most, weekends included.',
   commonIntro:
     'In Pendleton’s rowhouses and walk-up apartments, these are the problems that come up most:',
   localFaqs: [

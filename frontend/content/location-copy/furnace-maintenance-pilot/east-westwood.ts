@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Most furnace tune-ups in East Westwood are booked by landlords. Census figures show 75.9% of homes rented and 61.9% heating with electricity, a share that also includes heat pumps and baseboard. Close to four in ten units sit in buildings of five or more, so a common job is a row of closet furnaces in an apartment building, each with little room around it. The older single houses keep a basement furnace on a chimney flue. The price is set first, and if a furnace needs nothing, we say so.',
-  emergencyParagraph:
-    'These need a repair visit; tenants call the landlord. Gas smell: leave, lights untouched, call the gas company outside. Carbon monoxide alarm: everyone outside. No heat in a freeze, a furnace that kicks off and on in a loop, a flame gone yellow. Babies, older relatives and anyone ill can’t wait. Same-day help on most calls, weekends too.',
   commonIntro:
     'These are the usual triggers for a fall furnace round among landlords in East Westwood:',
   localFaqs: [

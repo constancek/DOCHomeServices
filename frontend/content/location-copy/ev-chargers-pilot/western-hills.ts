@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'Western Hills is a name, not a town, and it spans parts of Cincinnati, Cheviot and Green Township, so we ask where your address falls. Census figures for its two ZIP codes show over half the homes are single detached houses, with the biggest share built from 1940 to 1969 and a quarter of homes in 45238 from the 1950s. Many of those panels are full. We check the panel and total its load, tell you if your plug-in cord will do, and fix the price before wire is pulled.',
-  emergencyParagraph:
-    'Stop charging if there’s a burning smell, a cable that’s been run over, a breaker that pops with each charge, or a plug or charger that’s scorched or too hot to hold. Kill that circuit only from a dry spot. If flames or smoke appear, go outside and phone 911. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Across Western Hills, these are the situations that most often lead to a call about charging at home.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Landlords book a good share of water heater service in Silverton, and for good reason: Census figures count 58.6% of homes as rented, with three- and four-unit buildings common on its narrow lots. Those buildings often run a separate closet tank for each apartment, sitting in a drain pan. The median home dates to 1959, so a basement heater usually has an older flue and a drain spigot we test gently. Each job gets a flat quote first, plus a frank word if a tank won’t repay the visit.',
-  emergencyParagraph:
-    'Some calls jump the queue. Leaking tank: close the cold feed on top, then cut gas or breaker. Gas odor: step outside, touch no switch, light nothing, phone the gas company from the sidewalk. Carbon monoxide alarm: clear the building. A relief valve venting over and over, or no hot water, means repair. Most get same-day help, weekends included.',
   commonIntro:
     'Most calls from Silverton come from owners of small apartment buildings or from people in 1950s houses. The usual prompts:',
   localFaqs: [

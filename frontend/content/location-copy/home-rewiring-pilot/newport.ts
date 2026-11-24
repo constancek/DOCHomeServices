@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median home in Newport at 1947, with close to half the stock older than 1940. Houses that age may still run knob-and-tube or cloth-wrapped cable with no ground, and their two-slot outlets weren’t built for a space heater and a microwave on one wall. Plenty have been cut into flats, so one weak circuit can serve two households. We test first, tell you if it holds up, and give the owner a written scope and fixed price before plaster is cut.',
-  emergencyParagraph:
-    'A cover plate too hot to touch, a burning odor from inside a wall or a jolt from a light fixture means a visit that day. Switch that circuit off only if the panel is dry and nothing near it is hot. If you see smoke, get every tenant out and call 911. We come on weekends too.',
   commonIntro:
     'From the tall Victorians of the East Row to the walk-ups near Monmouth Street, these are the wiring complaints owners and tenants bring us in Newport:',
   localFaqs: [

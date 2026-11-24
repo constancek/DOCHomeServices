@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'In Southgate, pre-war houses sit near 1980s and 1990s builds and many apartment buildings, so fan jobs vary. Census figures put roughly two in five homes in buildings of five or more units, and over a quarter of houses from before 1940. Those older houses tend to hide a light box that was never meant to hold a spinning load. In the complexes, owners and managers do the booking. We open the box first, admit it when a snugged mount is the cure, and quote before anything comes down.',
-  emergencyParagraph:
-    'Phone us the same day, weekends included, for a fan that thrashes on its mount, a ceiling box hanging by its wires, a motor giving off a burnt smell, or a switch plate that sparks. Turn it off at the switch if that’s safe, and keep the room empty. With smoke or fire, get out and dial 911.',
   commonIntro:
     'Prewar houses, condos and rented flats each bring their own version of the fan calls we handle in Southgate.',
   localFaqs: [

@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'electrical-inspections',
   serviceName: 'Electrical Inspections',
   localHeadingName: 'Electrical Inspection',
-  emergencyHeading: 'Urgent Electrical Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Electrical Inspections',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },

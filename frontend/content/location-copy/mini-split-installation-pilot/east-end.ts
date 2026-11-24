@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Over half the housing in the East End, 54.4% by Census figures, predates 1940, and the rowhouses and frame houses along Eastern Avenue went up with plaster and no ductwork. A wall-hung ductless head cools those rooms without one chase cut through old lath. Riverside Drive is the other story, with many houses from the 1990s on, where the ask is a third floor their original system misses. The price is fixed before we start, and we tell you if ductless is a poor match.',
-  emergencyParagraph:
-    'About 21 days a year top 90F (National Weather Service), and an attic bedroom in the East End stays stuffy past dark. Grandparents, infants and anyone sick or with asthma worry us most. Installs book fast, and one zone wraps up inside a day. A wall unit that died needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Along Eastern Avenue and up on Riverside Drive, a ductless quote usually starts with one of these:',
   localFaqs: [

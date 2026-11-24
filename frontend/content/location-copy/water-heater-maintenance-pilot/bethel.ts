@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'Bethel rents more than it owns: 51.7% of homes are renter-occupied by Census figures, and plenty are in fourplexes and small apartment blocks where each unit has a closet heater standing in a pan. Those are the landlord’s to schedule. The houses run older, median 1958, so a basement tank often has a crusty drain spigot, aging flue and a gas hookup worth inspecting. Before anything starts you get a fixed price, and if the tank isn’t worth the service, we tell you so.',
-  emergencyParagraph:
-    'Leaks call for a repair: turn off the water valve feeding the tank, then its gas or breaker. Gas in the air: get out, don’t touch switches or relight, and contact the gas company outside. Carbon monoxide alarm: everyone leaves first. Relief valve won’t stop, or no hot water: same. Usually that’s a same-day visit, weekends included.',
   commonIntro:
     'Landlords and owners in Bethel usually get in touch over one of these:',
   localFaqs: [

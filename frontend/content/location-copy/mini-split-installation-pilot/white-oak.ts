@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'Postwar building shaped White Oak. Two in three houses here date from 1940 to 1979 by Census count, so ducts and central air are usually there already. What they miss is the space added later, like a garage turned into a family room or a lower level finished for the kids. About one home in five is in a large apartment building, and the landlord decides there. Your price is fixed before anyone drills, and a poor fit gets an honest no from us.',
-  emergencyParagraph:
-    'In White Oak, a room over a garage gets brutally hot during the 21 or so days each year hitting 90F (National Weather Service). Infants, grandparents and the breathless shouldn’t sleep there. Installs get booked fast, one zone in a day and extra zones longer. A dead unit is a Mini-Split Repair job, typically same day, weekends too.',
   commonIntro:
     'Here is what usually starts the ductless conversation for owners in White Oak:',
   localFaqs: [

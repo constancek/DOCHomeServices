@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'In West Price Hill, owners and renters split almost evenly by Census figures, and most houses went up before 1970, more than a third in 1939 or earlier. Hardly any came with central air. It went in later, usually as a coil perched on the basement gas furnace, feeding ducts that struggle to reach the second floor, while the condenser sits in a slim side yard or on a sloping back lot. You see a flat price first, and you hear it if the system needs nothing.',
-  emergencyParagraph:
-    'On the hottest afternoons in West Price Hill, a dead AC is a repair job. Frosted lines are one too; shut the system down and wait out the ice. Water through a ceiling, or a breaker that won’t stay on, can’t wait. Babies and older relatives suffer first. We get to most of these the same day, weekends too.',
   commonIntro:
     'These are what tend to bring owners and landlords in West Price Hill to book a spring visit.',
   localFaqs: [
@@ -14,7 +12,7 @@ export const westPriceHill: LocationServiceCopy = {
     },
     {
       q: 'I rent in West Price Hill. Who books the AC tune-up?',
-      a: 'Your landlord does, if the air conditioning came with the rental. Send them a note about any problem. Under ORC 5321.04 (A)(4), Ohio landlords who provide air conditioning must keep it safe and working, so the call is theirs to make. We service air conditioners, not leases, and we work for the owner.',
+      a: 'If the AC was part of the rental, the owner books it, so tell them in writing when something seems off. Under ORC 5321.04 (A)(4), an Ohio landlord who supplies air conditioning has to keep it in good and safe working order. We work for the owner on those jobs and fix the equipment, not the lease.',
     },
   ],
   overrides: {
@@ -29,11 +27,11 @@ export const westPriceHill: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in West Price Hill',
-        body: 'In West Price Hill, the cooling coil usually sits on a gas furnace in the basement, so we begin downstairs. A dirty filter gets swapped and the coil gets a flashlight inspection. We run water through the condensate line to make sure it reaches the floor drain and look in the tray under the coil for rust. Outside, the condenser’s coil is rinsed, weeds are pulled back and we check that its pad hasn’t tipped on the slope. Gauges read the refrigerant charge, and a low one means a leak priced separately. Capacitor, contactor, wiring, blower and thermostat get tested, airflow upstairs gets measured, and parts wait for your yes.',
+        body: 'Most houses in West Price Hill have the cooling coil riding on the gas furnace, so the work starts in the basement. We replace a grey filter and put a light on the coil. Water poured into the condensate line should reach the floor drain, and the tray under the coil gets checked for rust. Outside, we hose the condenser coil, pull the weeds and see whether the pad has slid on the slope. Low refrigerant pressure means a leak, quoted on its own. We test the capacitor, contactor, wiring, blower and thermostat, measure airflow upstairs, run a cooling cycle and replace nothing without your yes.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'Book the spring visit in West Price Hill when the AC’s history is a blank, when the deed is fresh, when water collects on the basement floor beside the furnace, or when the second floor starts losing the fight on hot afternoons. Don’t bother if we saw the system within the past year and it still runs right. Warm air or iced lines are an AC Repair call, and a system we’ve already priced for replacement is better left while you save toward AC Installation & Replacement. Filters and a clear condenser are yours between visits. Once a year is enough.',
+        body: 'A spring visit pays off in West Price Hill if nobody knows who last serviced the AC, if you closed on the house this year, if a puddle shows up on the basement concrete next to the furnace, or if the upstairs bedrooms fall behind on hot afternoons. Skip it if our technician came out last spring and the system has behaved since. Warm air or frosted copper lines need AC Repair, and if we’ve already told you the unit is due for replacing, put that money toward AC Installation & Replacement. Between visits, you handle filters and the weeds around the condenser.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in West Price Hill',
@@ -42,7 +40,7 @@ export const westPriceHill: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners and Landlords in West Price Hill Book AC Maintenance With Us',
     whyParagraph:
-      'In West Price Hill, our AC work is mostly central air fitted to older houses with basement furnaces. Our people are licensed and insured, each one background-checked and drug-tested, and the price is fixed first.',
+      'Most of our AC jobs in West Price Hill are central air retrofitted into old houses, with the coil on a basement furnace. Every technician is licensed, insured, background-checked and drug-tested, and you approve a flat price first.',
     sharedFaqs: [
       {
         q: 'How is an AC tune-up priced in West Price Hill?',

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'Bethel rents more than it owns, by a small margin, and over a third of its units are in buildings with three or more apartments, per Census figures. That puts many charger decisions with landlords. Roughly half the houses predate 1960, and their panels tend to be crammed by now. Our first visit is a look inside that panel plus the math on what the house draws. If the Level 1 cord in your trunk is plenty, you’ll hear it, and the price comes before the drill does.',
-  emergencyParagraph:
-    'Pull the plug if an outlet feels hot, the charger face looks browned, or the breaker drops each time charging begins. Shut that breaker off yourself only from dry footing, with your hands nowhere near anything hot. If you see flames or smoke, get outside and call 911. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'In a village split nearly evenly between owners and tenants, the charger calls we take tend to look like this.',
   localFaqs: [

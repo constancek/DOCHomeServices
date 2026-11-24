@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Downtown inspections are mostly about single units, not whole buildings. Census figures show 71.6% of homes here sit in buildings of 50 or more units, where the main switchgear belongs to the building. What we check is your unit: its panel, circuits, outlets and fixtures. Age varies a lot, with 43.3% of units built in 1939 or earlier and many others since 2010, so a converted older building and a new tower get very different reports. We test, write it up and quote any fix before work starts.',
-  emergencyParagraph:
-    'A burning smell, an outlet or switch plate that’s hot, buzzing or blackened, sparks, or a breaker in your unit panel that trips again straight after a reset all need attention today. Turn that breaker off. Smoke or fire: leave by the stairs and call 911. We come out the same day on most calls, weekends included.',
   commonIntro:
     'Downtown units range from conversions of older buildings to towers built since 2010, and these are the issues we see most:',
   localFaqs: [

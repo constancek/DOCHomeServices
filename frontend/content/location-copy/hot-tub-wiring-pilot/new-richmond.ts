@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'New Richmond is newer than its riverfront suggests. The village’s median house dates to 1986 by Census figures, and a third of them were finished after 2000, which leaves many breaker boxes here with a couple of empty positions. For those owners, the real variables are which corner of the yard gets the spa and how much trench lies between it and the house. The wiring is a GFCI-guarded 240-volt feed, a shutoff kept in view, and bonded metal. Your quote follows a panel check against the tub’s install manual.',
-  emergencyParagraph:
-    'Once a reset GFCI lets go again straight away, treat the spa as off limits. The same goes for a hot, sharp smell around the shutoff box. Ask everybody to climb out, and nobody should reach for the pump or heater. Throw the disconnect if that is safe, and dial 911 for smoke. We usually arrive that day, weekends included.',
   commonIntro:
     'Along the riverfront streets and in the newer subdivisions above them, these are the jobs that bring us to a spa in New Richmond.',
   localFaqs: [

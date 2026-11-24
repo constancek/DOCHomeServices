@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Owners getting ready to sell make plenty of our calls in Fort Wright. Census figures put the median house at 1974, and most of the city went up between the 1960s and 1990s. Some 1960s and 1970s houses may hide aluminum branch wire, and 1950s ones on older streets starve a modern kitchen of circuits. Newer houses book us for a remodel or a breaker that keeps tripping. A test comes before advice, a clean result is reported as clean, and scope and flat price come before drywall gets cut.',
-  emergencyParagraph:
-    'Phone us that day about a hot smell from a receptacle, a browned plate, sparks at a switch, a jolt from an appliance, or a breaker tripping again once reset. Switch off that circuit only from a dry floor. With smoke or flames, get out and call 911. Most calls are covered the same day, weekends included.',
   commonIntro:
     'Across the hillside streets and subdivisions of Fort Wright, wiring that’s ready for work tends to show itself this way:',
   localFaqs: [

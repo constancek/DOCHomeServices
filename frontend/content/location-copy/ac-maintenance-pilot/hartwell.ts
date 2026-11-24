@@ -2,15 +2,13 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const hartwell: LocationServiceCopy = {
   localParagraph:
-    'A railroad suburb before Cincinnati annexed it, Hartwell has housing that mostly predates central air. The median home was built in 1949, by Census figures, so cooling was squeezed in later through basements, closets and attics, with the condenser set wherever the lot left room. Close to two thirds of homes are rented, a good share in apartment buildings, which makes landlords and managers the ones who book. The flat price is agreed before work begins, and if the AC needs nothing, we say so plainly.',
-  emergencyParagraph:
-    'An AC that quits in the heat is a repair, not a tune-up, and so is frost on the lines or water through a ceiling from the unit above; turn the system off. Tenants should tell their landlord or manager. Older relatives and babies are at risk first. A technician comes the same day on most calls, weekends included.',
+    'Hartwell was a railroad suburb before Cincinnati annexed it, and its median house dates from 1949 by Census figures, well before central air was standard. Cooling went in afterward, threaded through basements, closets and attics, with the condenser parked in whatever corner of the lot was free. Nearly two thirds of homes are rented, many in apartment buildings, so it’s usually a landlord or manager who calls. You agree a flat price before we start, and if the AC needs nothing, we tell you.',
   commonIntro:
     'Around Hartwell, landlords, managers and homeowners usually book a spring AC visit for reasons like these.',
   localFaqs: [
     {
       q: 'I rent an apartment in Hartwell. Can I book an AC tune-up?',
-      a: 'A landlord who supplies the AC also books its upkeep. Ohio’s ORC 5321.04 (A)(4) obliges owners to keep supplied air conditioning in good and safe working order, so send the landlord or manager a written note about any trouble. We service air conditioners, not leases, and arrange the visit directly with the owner.',
+      a: 'Usually not, because the AC belongs to whoever rents you the apartment. Under ORC 5321.04 (A)(4), an Ohio landlord who supplies air conditioning has to keep it in good and safe working order, so write to your manager about any trouble. Our job is the equipment, not the lease, and we set the visit up with the owner.',
     },
     {
       q: 'Can you handle every AC in an apartment building in Hartwell at once?',
@@ -33,7 +31,7 @@ export const hartwell: LocationServiceCopy = {
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'In Hartwell, booking makes sense for an AC with no history on file, a building that just changed hands, tenants reporting water near the air handler, a new buzz, or rooms that never even out. Landlords get the most from servicing every unit in a single spring pass. Skip it for a system that was serviced within the past year and runs fine, and for window units. A unit that has quit cooling or iced over is an AC Repair job, and one we’ve said is due for replacement belongs with AC Installation & Replacement. Between visits, owners can keep filters fresh and condensers clear.',
+        body: 'An owner in Hartwell gets real value from the visit when the AC has no paperwork behind it, when the building was just bought, when a tenant mentions a wet spot by the air handler, when a buzz starts up, or when one bedroom never cools like the others. A landlord does best booking the whole building for one spring day. Pass on it if we tuned the system last year and it behaves, and for window units. If it has stopped cooling or the lines have frosted, book AC Repair; if we’ve called it due for replacing, look at AC Installation & Replacement.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Hartwell',
@@ -54,7 +52,7 @@ export const hartwell: LocationServiceCopy = {
       },
       {
         q: 'What AC upkeep can owners or tenants do between visits?',
-        a: 'Tenants and owners can replace a dirty filter, keep trash and weeds away from the condenser, keep registers and returns clear, and put fresh batteries in the thermostat. Opening the outdoor cabinet, handling refrigerant lines or straightening coil fins is technician work.',
+        a: 'Swapping a filter once it looks dusty, pulling weeds and blown trash off the condenser, keeping furniture off the registers and returns, and changing the thermostat batteries are all safe for a tenant or owner. The outdoor cabinet panels, the copper refrigerant lines and bent coil fins are ours to deal with.',
       },
     ],
   },

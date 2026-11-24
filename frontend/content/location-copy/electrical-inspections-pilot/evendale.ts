@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Most Evendale houses went up in the 1980s and 1990s, so an electrical inspection here rarely uncovers antique wiring. Census figures put the village’s median home at 1982, and every home counted was a single-family house. Owners usually book us before selling, before adding a hot tub or EV charger to a panel sized in the 1980s, or after Mill Creek water reaches a basement. We go through the system, write up what we find and price nothing until you’ve read it.',
-  emergencyParagraph:
-    'Don’t wait for a booked inspection if you smell burning near an outlet or the panel, see sparks, or a switch plate is warm or buzzing. Switch off a breaker that trips again right after a reset and leave it off. Smoke or fire: get out, then call 911. Most Evendale calls are seen the same day, weekends included.',
   commonIntro:
     'Evendale’s wiring is mostly sound for its age; the problems we write up come from what owners have added since. The ones we see most:',
   localFaqs: [

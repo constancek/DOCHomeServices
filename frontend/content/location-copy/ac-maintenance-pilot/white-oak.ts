@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'Most tune-ups in White Oak are on a mid-century ranch or split-level that got air conditioning later. Census figures give a median build date of 1968, and 29.0% of houses date from 1940 to 1959. On those, the ducts were threaded in later, so the far bedrooms often trail behind and the condenser lives wherever a gap in the side yard allowed. Apartment buildings, about a fifth of the housing, are booked by their owners. Expect a quoted price up front, and a straight answer if nothing needs fixing.',
-  emergencyParagraph:
-    'Book a repair when the house won’t cool on a hot afternoon or frost forms on the lines; switch the AC off until the ice is gone. Water by the air handler, or a still fan on a humming condenser, is the same story. Older relatives feel it first. Same-day visits are normal, weekends included.',
   commonIntro:
     'Owners and landlords in White Oak tend to call for a spring visit when they notice one of these.',
   localFaqs: [

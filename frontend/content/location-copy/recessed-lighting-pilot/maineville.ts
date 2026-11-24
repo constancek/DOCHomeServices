@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Recessed lighting in Maineville usually means a house from the last few decades, and that keeps the work clean. Census figures put the median home in the village at 2004, with more than half built since 2000. Those houses typically have drywall ceilings, an insulated attic above the top floor, open kitchens and a basement left for later. There are fewer surprises above the ceiling than in an older house. We still mark each can and agree a flat price before cutting.',
-  emergencyParagraph:
-    'Book a look today in Maineville if a can gives off a burning smell, the drywall around a light has browned or a switch feels warm and buzzes. Shut that circuit at the panel when it’s safe. If smoke or fire appears, get out and call 911. Most calls are handled same day, weekends included.',
   commonIntro:
     'In Maineville, homes mostly came from the 2000s building wave, and these four jobs come up most:',
   localFaqs: [

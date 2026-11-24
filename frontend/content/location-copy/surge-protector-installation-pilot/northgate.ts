@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'Electric heat is the norm rather than the exception in Northgate, where Census figures show slightly more homes heating with electricity than with gas. That puts a heat pump or an electric furnace near the top of the list a surge can wreck. The typical house is a detached one from the 1960s or 1970s, and its original panel has usually picked up circuits over the decades. Our electrician opens the panel before quoting, says so when strips alone will do, and gives you a fixed figure up front.',
-  emergencyParagraph:
-    'Scorch marks on an outlet, a hot smell at the panel, a TV that smoked as power returned or a breaker that flips again after a reset need a call, and most get a same-day visit, weekends included. Lights pulsing in every room point to the service, so phone Duke Energy Ohio first. With smoke, go outside and dial 911.',
   commonIntro:
     'Electric heating and panels that have collected circuits for decades sit behind most of these signs around Northgate.',
   localFaqs: [

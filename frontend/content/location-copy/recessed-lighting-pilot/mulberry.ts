@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'East of I-275, recessed work in Mulberry is mostly about builder-era drywall and the neighbors on the other side of it. Census figures give a 1988 median, nearly three in four homes went up in 1980 or later, and only two in five stand detached, with the rest in townhouses, condos and apartment complexes. About three in five homes also heat with electricity, so panel capacity deserves a look. Shared ceilings and association rules shape the plan, and every can is priced before we cut.',
-  emergencyParagraph:
-    'Water leaking through a can, a trim too hot to keep your hand on or a switch that crackles and feels warm needs attention now. Flip that breaker off if the panel is safe to reach. Smoke or flames mean get everyone out and phone 911. We reach most calls along Route 28 that same day, weekends too.',
   commonIntro:
     'Condos, townhouse rows and newer detached houses off State Route 28 account for most of our requests, and four keep coming back.',
   localFaqs: [

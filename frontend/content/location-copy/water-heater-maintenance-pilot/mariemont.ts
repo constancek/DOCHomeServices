@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was laid out in the 1920s, and Census figures show 36.8% of its housing from 1939 or earlier plus 26.3% from the 1940s. So most heaters we service in the village stand in old cellars, beside flue pipe that needs a close look, a drain cock that may weep once opened and gas fittings we check by hand. A smaller share sits in apartment closets, where the owner makes the call. The figure is settled before tools come out, and we’ll flag any heater not worth servicing.',
-  emergencyParagraph:
-    'Seeping heater: close the cold inlet valve atop the tank, shut off gas or power, and book repair. Gas odor in the cellar: leave, flip nothing, don’t relight, phone the gas utility once outside. Carbon monoxide alarm: everybody out first. A relief valve discharging repeatedly, or hot water gone, also needs us. Same day on most, weekends included.',
   commonIntro:
     'Requests from the village usually trace back to one of these:',
   localFaqs: [

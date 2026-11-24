@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Hamilton often starts in a house older than anyone living in it. By Census figures, 57.7% of the city’s homes were built before 1960 and 27.4% before 1940. In the 19th-century houses of German Village, Dayton Lane and Rossville we look for knob-and-tube, cloth wiring and fuse boxes; in the 1950s houses, for panels and kitchens with too few circuits. Nearly half of Hamilton homes are rented, so landlords are a big part of our work. We report what we find and price repairs before starting.',
-  emergencyParagraph:
-    'Some Hamilton problems skip the inspection and need us today: hot plastic smell, a cover plate that’s warm, crackling or browned, sparks, a breaker that won’t stay reset, lights that dip hard as the furnace or AC kicks on. Turn that breaker off. Smoke or flames: everyone out, call 911. Same day on most calls, weekends included.',
   commonIntro:
     'In a city with this much old housing, a few findings appear in report after report.',
   localFaqs: [

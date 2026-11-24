@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Postwar building defines North College Hill. Census figures place about half its houses between 1940 and 1959, and eight in ten stand detached. Panels are another matter, because postwar panels have usually absorbed a dryer, central air and extra kitchen circuits over the decades and may be crammed. Over four in ten homes are rented, so owners often make the call. Our load calculation comes first, we’ll say if the slow cord will do, and the price is set before any work.',
-  emergencyParagraph:
-    'Quit using the charger when it, its plug or the outlet turns hot, darkens, melts or gives off a burnt smell, or when the breaker trips as a session begins. Cut the circuit only with nothing damp or hot close by. Smoke or fire calls for getting out and dialing 911. Most calls get a same-day truck, weekends too.',
   commonIntro:
     'Postwar houses on most streets plus a healthy share of rentals drive the charger work we do in North College Hill.',
   localFaqs: [

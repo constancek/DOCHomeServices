@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'Rewiring in the Villages of Roll Hill is management’s call, since more than four households in five rent and the apartments and townhomes form one managed complex. The buildings went up in the 1960s and were renovated between 2010 and 2012. We don’t assume what that work covered behind the walls, so each unit is tested first. Wiring from the 1960s often has too few circuits for a modern kitchen. If a unit tests sound, we say so, and management gets the scope and flat price first.',
-  emergencyParagraph:
-    'Tenants who smell burning, find a switch plate hot or scorched, see sparks or get a shock from a fixture should phone management right away. Switch that breaker off only if the panel is dry and cool. If there’s smoke or fire, leave the unit and call 911. Management gets us the same day on most calls, weekends included.',
   commonIntro:
     'These are the reports that tell management a unit in the Villages of Roll Hill should be tested for rewiring.',
   localFaqs: [

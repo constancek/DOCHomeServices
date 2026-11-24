@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Mount Healthy has a median year built of 1956, according to Census figures, and close to three homes in ten predate 1940. In the oldest of them, plaster walls and shallow attics make new ductwork a hard sell, which is where a wall-mounted head makes the most sense. Half the homes in the city are rented, so those owners make the call. Every quote is a flat price given before we begin, and we’ll tell you straight if a mini-split isn’t the answer.',
-  emergencyParagraph:
-    'An upstairs bedroom in Mount Healthy can hold the afternoon’s heat into the evening, and the National Weather Service puts July’s normal high at 86F. Watch older relatives, babies and anyone short of breath. Installs book fast; one head is one day’s work. A failed mini-split calls for Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'In the older houses and rentals across Mount Healthy, these four cooling problems come up again and again:',
   localFaqs: [

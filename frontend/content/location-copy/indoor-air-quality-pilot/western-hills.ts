@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'In Western Hills, which takes in parts of Cincinnati, Cheviot and Green Township, the largest share of houses dates from the 1940s through the 1960s. Census figures for the two main ZIP codes put the median house at 1958 and 1962. Houses that age tend to have drafty windows, basements that stay damp in summer, and ducts that have been moving dust for decades. Plenty are rented, and there the landlord decides. We test first, agree a flat price before work, and tell you if a filter change is enough.',
-  emergencyParagraph:
-    'Get the family out when a carbon monoxide alarm goes off, then dial 911. Gas smells mean going out without using a switch, then calling the gas company. When the vents smell of burning, set the thermostat to off. Children, older relatives and anyone with asthma are most at risk. We can usually be there the same day, weekends included.',
   commonIntro:
     'Across the older streets of Western Hills, these are the air complaints we hear most often:',
   localFaqs: [

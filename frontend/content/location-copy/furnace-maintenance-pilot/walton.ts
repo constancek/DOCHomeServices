@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton has two kinds of houses, and the tune-up differs between them. The old town along South Main Street has basement furnaces in houses from before 1960, often vented into an old chimney, so we spend longer on the flue and the heat exchanger. The newer streets, where Census figures place 55.3% of homes built since 2000, mostly need a filter, blower and safety-control check. Electricity heats 59.3% of homes, heat pumps included. You get a flat price before work, and we’ll say if nothing’s needed.',
-  emergencyParagraph:
-    'Smell gas and it’s a repair, not maintenance: get out, leave switches alone, and call the gas company once outside. Carbon monoxide alarm: clear the house. Same for no heat in a cold spell, a furnace that won’t stop cycling, or a yellow flame. A baby or older relative at home makes it urgent. Most are same day, weekends too.',
   commonIntro:
     'Old-town basements and post-2000 houses both show up on our list in Walton. The usual reasons to book:',
   localFaqs: [

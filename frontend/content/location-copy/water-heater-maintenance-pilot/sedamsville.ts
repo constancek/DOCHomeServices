@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'Down a cottage stair off River Road is where most tune-ups in Sedamsville happen. Census figures count 72.8% of the housing here as built before 1940, so we plan on a stone or block corner, a flue gone dull with age, a brass drain spigot nobody has cracked open in decades and a gas cock to inspect. Roughly 65.1% of homes are rented, plenty of them doubles with one heater per side. The figure is agreed before any wrench turns, and a tank not worth servicing gets an honest no.',
-  emergencyParagraph:
-    'Tank pooling water: twist its cold-water valve shut up top, then kill the gas or the breaker. Smell gas and you walk out, switches untouched, pilot left alone, ringing the gas company from the sidewalk. A carbon monoxide alarm empties the house first. A relief valve dribbling nonstop, or no hot water, means repair. Most get same-day help, weekends included.',
   commonIntro:
     'Most heaters we get called to along River Road and up Steiner Avenue still make hot water. A visit starts to make sense when you notice:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Census figures count eight in ten homes in Cleves as single detached houses, and the median house went up in 1972. Breaker boxes from the early 1970s seldom left room for a car, while one house in five here postdates 2000 and usually has capacity to spare or can lean on load management. Nothing gets quoted until we’ve had the cover off and done the arithmetic. If the trickle cord suffices, you’ll hear it, and the price is locked before cable is pulled.',
-  emergencyParagraph:
-    'An outlet or charger gone brown or hot, a cord flattened by a tire, or a breaker that quits on every charge means the car stays unplugged. Cut the circuit only when you safely can. Smoke or fire calls for getting out and phoning 911. Cleves gets same-day help on most calls, weekends too.',
   commonIntro:
     'Between the two rivers, in Cleves, charging requests usually trace back to one of these.',
   localFaqs: [

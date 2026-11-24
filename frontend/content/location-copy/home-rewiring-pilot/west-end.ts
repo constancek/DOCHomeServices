@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'A rewire usually begins with a landlord in the West End, because close to nine in ten homes here are rented. Buildings range from Italianate rowhouses to apartment blocks of the 1960s and 1970s, and Census figures put nearly two in five homes before 1940. The rowhouses may still have knob-and-tube or cloth wire with no ground, while the later buildings often fall short on kitchen circuits. We test before quoting, say when the wiring is fine, and the owner signs a scope and flat price before plaster comes off.',
-  emergencyParagraph:
-    'Tenants in the West End who smell burning, find a receptacle hot, feel a shock or watch a breaker trip right after a reset should alert the landlord at once. Switch that circuit off only if the panel is dry and cool. If smoke or flames appear, leave and call 911. Most get a same-day visit, weekends included.',
   commonIntro:
     'Up and down the rowhouses and apartment buildings of the West End, these are the reports we get most from tenants and owners.',
   localFaqs: [

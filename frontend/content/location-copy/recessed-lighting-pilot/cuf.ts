@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'South and west of UC’s campus, recessed lighting in CUF means one of two kinds of building. Clifton Heights west and Fairview hold the pre-1940 core, where plaster on lath and a cramped pocket under the top-floor roof are normal; elsewhere stand big 1970s apartment blocks. Census figures count about four in ten homes from 1939 or earlier and about five in six occupied homes rented, so landlords, owners and associations do most of the booking. We chalk the layout and agree a price before cutting.',
-  emergencyParagraph:
-    'A can that smells scorched, brown rings spreading on old plaster, or a light that winks out and comes back on its own means flipping that breaker off, if the panel is safe to reach. Tenants should alert management at once. With smoke or flames, get every person out and phone 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'From Fairview across Ravine Street into Clifton Heights, these are the four jobs landlords raise.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'Detached houses from the postwar decades fill most of Erlanger, and Census figures give a median year built of 1976, plus some apartment buildings. Breaker boxes of that era are often jammed by now, so the house’s total demand matters more than which charger you pick. Anything from the 1990s onward usually has headroom, or can split it via load management. Renters first need a landlord’s signature. We read the panel, add up the load, tell you if the factory cord will do, and lock in a price.',
-  emergencyParagraph:
-    'Plastic at the charger or its receptacle that’s hot, browned or softening, or a burning odor mid-session, means stopping and unplugging if that’s safe. Repeated trips and a damaged cable end charging too. Shut the circuit down only if you can. Smoke or fire means leaving and dialing 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Postwar detached houses and apartment complexes make up much of the city, and charger calls from there usually involve one of these.',
   localFaqs: [

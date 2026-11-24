@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'Every decade is represented in Monfort Heights, and that shapes how we handle surge protection. The median home dates from 1975 by Census figures, yet close to a quarter have gone up since 2000, and most are detached houses lived in by their owners. A newer build tends to be loaded with smart devices, central air and appliances that run on boards. An older ranch may have a cramped panel. In both cases we inspect the panel before anything, tell you if strips are enough, and fix the price first.',
-  emergencyParagraph:
-    'If a storm leaves an outlet charred or the panel smelling hot, or a breaker snaps off each time you reset it, we can usually be there that day, weekends too. When every light in the house brightens and fades, phone Duke Energy before us. Leave the breaker unless you’re dry. Smoke or flames mean out and 911.',
   commonIntro:
     'From mid-century ranches to houses built in the last twenty years off North Bend Road and West Fork Road, these are the four signs we see.',
   localFaqs: [

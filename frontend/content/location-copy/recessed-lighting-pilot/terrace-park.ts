@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'In Terrace Park, recessed lighting usually means climbing into the attic above a 1940s or 1950s ceiling before anything else. Census figures put the median home at 1954, and almost every home in the village is a detached house lived in by its owner. Those postwar houses tend to have attic access over the top floor and a basement finished in some later decade, while the older houses keep plaster and rooms planned around a single fixture. We map the lights and agree the price first.',
-  emergencyParagraph:
-    'Don’t wait on a can that gives off a hot smell, a trim that leaves a tan ring, a light that flickers off and back on unprompted, or water seeping around a fixture. Flip that breaker off if you can safely. If smoke or flame shows, leave and call 911. Most calls are same day, weekends included.',
   commonIntro:
     'Postwar houses with an attic overhead, plus some older plaster ceilings, make up our work in the village:',
   localFaqs: [

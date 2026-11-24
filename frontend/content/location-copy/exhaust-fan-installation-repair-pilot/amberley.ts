@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Exhaust fan calls in Amberley tend to involve fans that are as old as the house. Census figures put the typical home at 1959, and nearly every one is a single-family house owned by the people living in it. Bathrooms from the 1940s and 50s often got a small ceiling fan or just a window, and some of those original fans push air into the attic and nowhere else. We check where yours really vents and how well it pulls, and you see the price before anyone opens the ceiling.',
-  emergencyParagraph:
-    'If the motor smells like it’s burning, the grille or housing has melted, or water is running out of the fan, switch it off at the wall or the breaker as long as you can do that safely. Smoke or fire means getting out and calling 911. Same-day visits are available on most calls, weekends included.',
   commonIntro:
     'Inside the 1940s and 50s houses that make up much of Amberley, these are the complaints we hear first:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Ranches and split-levels from the decades after the war make up most of Mount Carmel, and a spring cooling visit here is rarely complicated. Census figures date the median home to 1973, and two of every three are detached, so the coil usually rides on a basement furnace and the condenser rests on a pad behind the house. Roughly a quarter of homes sit in apartment buildings, where owners do the booking. A flat figure is fixed up front, and a system with nothing wrong gets a clean bill.',
-  emergencyParagraph:
-    'Some trouble belongs to a repair crew. A house that stays warm on a hot afternoon, frost along the copper, or a puddle widening across the basement slab means shutting the AC off at the thermostat, and a scorched smell means leaving it off. Grandparents, babies and anyone ill take heat hardest. Same day on most calls, weekends included.',
   commonIntro:
     'In the ranches, split-levels and apartment complexes around Union Township, these are the usual nudges to book:',
   localFaqs: [

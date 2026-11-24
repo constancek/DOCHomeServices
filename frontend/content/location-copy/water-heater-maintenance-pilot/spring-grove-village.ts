@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Spring Grove Village, the old Winton Place, is mostly single-family houses with a 1938 median, per Census figures. A yearly service there usually finds a gas tank on the basement slab, a vent connector running back to a chimney from the house’s first years, a boiler drain that hasn’t moved in ages, and a gas cock worth testing. Doubles and small apartment buildings often carry a tank per unit, and 40.1% of homes are rented. We agree on price before starting and tell you if a tank isn’t worth it.',
-  emergencyParagraph:
-    'A puddle spreading from the tank means repair: turn the cold-water handle above it closed, then the gas cock or breaker. Where gas is smelled, the household walks out, switches untouched, and someone reaches Duke Energy outside. A carbon monoxide alarm means evacuate. Spitting relief valve, or no hot water: repair too. Same day on most calls, weekends included.',
   commonIntro:
     'In Spring Grove Village, people usually book while the water still runs hot, after spotting one of these:',
   localFaqs: [

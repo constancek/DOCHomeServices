@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'North College Hill is a city of postwar houses. By Census figures, 51.0% were built between 1940 and 1959, and most of them got central air years after the fact, with the coil set on top of a basement furnace and ducts sized for heat rather than cooling. That’s why second floors here often run warm. With 43.6% of homes rented, many tune-ups are booked by landlords with a few houses each. We name a flat price before starting, and an AC that needs nothing gets nothing.',
-  emergencyParagraph:
-    'Ask for a repair if the house won’t cool in a heat wave or a puddle keeps growing under the furnace coil. If a breaker won’t stay reset, leave the AC off. Elderly parents, infants and anyone sick suffer first in the heat. Expect us the same day for most calls, Saturdays and Sundays too.',
   commonIntro:
     'In the postwar houses of North College Hill, these are the reasons people most often book a spring visit.',
   localFaqs: [

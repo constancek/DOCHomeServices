@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Newer equipment is the rule for AC service in Amelia. By Census figures 43.1% of homes were built in 2000 or later, and roughly one in four sits in a building with five or more units, so townhomes and apartments make up a big share of what we see. For a rental, the landlord or manager schedules us. For a newer house, it’s a direct check of coil, filter, drain and electrical parts. The flat price is yours to approve first, and we’ll tell you if nothing’s needed.',
-  emergencyParagraph:
-    'If cooling stops on a hot day, water drips through a ceiling, or the outdoor unit hums while its fan sits still, skip the tune-up, switch the system off and call for a repair. Move babies, older relatives and anyone ill to the coolest room. We come the same day on most calls, weekends included.',
   commonIntro:
     'Here are the usual reasons homeowners and landlords call for a spring AC visit in Amelia.',
   localFaqs: [

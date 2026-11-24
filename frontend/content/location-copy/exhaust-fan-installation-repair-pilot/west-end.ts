@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'Owners, landlords and associations book most exhaust fan work in the West End, since Census figures show more than six households in seven rent. Late-1800s Italianate rowhouses stand near apartment buildings and townhouses from the 1960s through the 1990s. In the oldest rowhouses, a fan was usually added long after construction, and its duct may stop inside a wall or under the roof. Newer units have fans that are often too small. We trace the air and quote before opening a ceiling.',
-  emergencyParagraph:
-    'When a fan smells scorched, its cover sags or blackens, it sparks or smokes, it trips the breaker, or water drips out of it, turn the power off at the switch or panel, if safe. With fire or thick smoke, everyone goes outside and dials 911. Most calls in the West End are answered the same day, weekends too.',
   commonIntro:
     'Across the rowhouses, townhouses and apartment buildings of the West End, these four signs show up most:',
   localFaqs: [

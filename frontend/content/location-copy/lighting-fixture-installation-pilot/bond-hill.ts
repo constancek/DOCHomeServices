@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Bond Hill was a railroad suburb before the city took it in, and a dining chandelier going into one of its older houses usually means dealing with plaster and a tiny pancake box first. Going by Census figures, close to half the homes were built before 1940 and most of the remainder by 1960, so ungrounded ceiling wiring is routine. Doubles stand beside single-family houses, and renters fill nearly half the homes. We open the box and meter the wiring, then hand you a fixed price.',
-  emergencyParagraph:
-    'Plaster cracking around a fixture that’s pulling down, or a brown scorch or burnt smell at the canopy or switch, means stop using that light. Trip its breaker if that’s safe, and clear the family from below. When there’s smoke or fire, everybody goes outside and calls 911. Bond Hill gets same-day visits on most calls, weekend calls too.',
   commonIntro:
     'Tudor dining rooms, doubles between tenants and dim upstairs halls bring most of our Bond Hill calls.',
   localFaqs: [

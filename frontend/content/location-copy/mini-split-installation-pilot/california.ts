@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'California sits at the far southeast tip of Cincinnati, where the Little Miami meets the Ohio, and it is almost all single houses with owners living in them. Census figures give a median year built of 1968, mixing prewar houses with mid-century ones, so some were built with ducts and some never were. Ductless handles either case. Low lots by the river take on water at high stages, which decides where we hang the outdoor unit. You sign off on the price first, and a bad fit gets called out.',
-  emergencyParagraph:
-    'Cincinnati sees 90F or hotter on about 21 days a year, by National Weather Service counts, and a bedroom under a low roof bakes on each. Grandparents, infants and people with asthma take it hardest. We book installs soon, and one zone fits in a day. A mini-split that died needs Mini-Split Repair, usually same day, weekends too.',
   commonIntro:
     'Along Kellogg Avenue and the streets off it in California, these are the reasons people most often ask us about a ductless system:',
   localFaqs: [

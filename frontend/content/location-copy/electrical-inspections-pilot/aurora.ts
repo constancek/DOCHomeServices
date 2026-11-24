@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Aurora has some of the oldest housing we inspect. Census figures count 38.8% of homes as built in 1939 or earlier, and over a fifth of all homes sit in two- to four-unit buildings. That means cloth-covered or knob-and-tube wiring may still be live in the walls, outlets often lack a ground, and old fuse boxes are still around. Aurora’s riverfront has no levee, so after Ohio River flooding we check what got wet. We report it all and price fixes first.',
-  emergencyParagraph:
-    'Aurora’s older wiring makes these urgent: a burning smell, a hot, buzzing or blackened outlet or switch, sparks, a fuse that blows or a breaker that trips again after you replace or reset it. Shut off that circuit. If there’s smoke or fire, get everyone out and call 911. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'Aurora inspections mostly involve prewar houses and small buildings split into two to four apartments. What we see most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Terrace Park is almost entirely houses lived in by their owners, and most went up before 1960; Census figures give a median of 1954. In practice that means a basement furnace that has been replaced once or twice, and in the pre-war houses it often still vents up the original brick chimney, so that flue and the heat exchanger get our closest look. Gas heats 73.8% of homes. We settle the price before starting, and if the furnace needs nothing, we’ll tell you so.',
-  emergencyParagraph:
-    'Should you smell gas, get everyone out, leave switches and pilot alone, and call the gas company once outdoors. Same goes for a carbon monoxide alarm. A furnace that stops heating in a cold spell, restarts over and over, or burns yellow needs repair, sooner with a baby or older relative home. Same-day on most calls, weekends too.',
   commonIntro:
     'Calls for a fall checkup in Terrace Park are usually about one of these:',
   localFaqs: [

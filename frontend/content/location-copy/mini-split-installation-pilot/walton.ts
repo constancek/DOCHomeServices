@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton is really two towns. More than half its homes went up in 2000 or later, per Census figures, with ducts built in, so ductless there usually means a bonus room, a basement finished after move-in, or a back porch someone enclosed. Around Main Street, about one house in five predates 1960, and ducts there were an afterthought, if they came at all. Wall heads cool those rooms with no demolition. You approve a fixed figure first, and if ductless is wrong for the house, we say so.',
-  emergencyParagraph:
-    'Northern Kentucky averages about 21 days a year at 90F or above (National Weather Service), and a glassed-in porch heats fastest. Grandparents, babies and anyone with lung or heart trouble are most exposed. Single-head installs get scheduled quickly and take about a day. For a ductless unit that has quit, Mini-Split Repair handles most calls the same day, weekends included.',
   commonIntro:
     'From new subdivisions to the old houses along Main Street, here’s what brings people in Walton to us:',
   localFaqs: [

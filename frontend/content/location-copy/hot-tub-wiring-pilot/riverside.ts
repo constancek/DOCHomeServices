@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Riverside is a strip of homes squeezed between River Road and the hillside, and most spa jobs here are on its detached houses rather than the apartment blocks. The median home went up in 1971 by Census figures, about a quarter are older than 1940, and roughly six homes in ten are rented. That spread means one panel may have room while the next is long since full. We open yours, set it beside the spa maker’s electrical requirements and agree a price with you before any conduit is laid.',
-  emergencyParagraph:
-    'Call at once if the spa GFCI won’t hold after a reset, the disconnect looks scorched, the panel crackles, someone feels current in the water, or river water reached the tub. Clear everyone out. Shut off power only if that’s safe; with smoke or fire, get out and call 911. Most calls are same day, weekends included.',
   commonIntro:
     'Along River Road and up the slope behind it, these four spa calls come up most for us in Riverside:',
   localFaqs: [

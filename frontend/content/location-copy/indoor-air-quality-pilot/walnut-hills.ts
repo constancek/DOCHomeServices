@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'In Walnut Hills, 19th-century houses sit beside apartment buildings, and the air problems split the same way. Census figures count 2,103 of 4,357 homes here as built in 1939 or earlier; those leak air at every window, and many have damp basements and old ducts that carry dust room to room. In the bigger buildings, the owner or manager makes the equipment call. Either way, testing comes before any advice, each fix is priced before work starts, and we say so when a new filter is all it needs.',
-  emergencyParagraph:
-    'Nobody stays inside once a carbon monoxide alarm sounds; get out, then dial 911. Gas you can smell means the same, with switches left alone and Duke Energy called. A scorched smell from the registers means the thermostat goes to off. Newborns and tenants with asthma suffer first. Most calls get same-day service, weekends too.',
   commonIntro:
     'Between the old houses and the big apartment buildings in Walnut Hills, these are the complaints we hear most:',
   localFaqs: [

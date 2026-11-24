@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'In Fairfield, the bulk of houses date from the 1960s and 1970s, and Census figures set the median at 1978. Equipment in those homes is usually easy to get at, so a checkup means coils, drain, filter and wiring without much digging. A big slice of homes are apartments, with 36.8% rented, and there the owner sets up the appointment. Electric heat outnumbers gas here, so plenty of the outdoor units we clean are heat pumps. We name the price first and say so if nothing needs doing.',
-  emergencyParagraph:
-    'Ask for a repair, not maintenance, if the AC gives out in a heat wave or ice crusts the lines; switch it off at the thermostat first. A scorched smell, or a breaker that won’t hold, means it stays off. Older neighbors, infants and anyone sick feel heat soonest. Most calls are answered the same day, weekends included.',
   commonIntro:
     'Around Fairfield, these four situations bring most of the tune-up calls.',
   localFaqs: [

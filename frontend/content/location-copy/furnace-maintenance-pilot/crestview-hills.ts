@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Townhomes and 1980s houses make up most of the furnace maintenance we do in Crestview Hills. Census figures put 56.9% of homes in the 1980s and 1990s, and over a quarter are attached units, so the furnace often lives in a utility closet rather than a basement. A tune-up on that kind of system is airflow, burner or elements, and the switches that shut it down. Electricity heats 58.2% of homes, heat pumps included. Pricing is fixed up front, and if your furnace is fine, you’ll hear that plainly.',
-  emergencyParagraph:
-    'Gas smell: get out, leave the lights alone, relight nothing, and phone the gas company from across the street. Carbon monoxide alarm: people outside first. Repair, not maintenance, covers a furnace that died in a freeze, endless restarting or a soft yellow flame. Toddlers, grandparents and sick family come first. Same-day help on most calls, Saturdays and Sundays included.',
   commonIntro:
     'In Crestview Hills, townhome and house owners tend to book after noticing one of these:',
   localFaqs: [

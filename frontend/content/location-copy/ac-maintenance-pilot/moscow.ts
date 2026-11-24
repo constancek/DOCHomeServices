@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'In Moscow, most homes predate 1940, by Census figures, so central air came long after the houses were built. The ducts were fitted in wherever they would go, the air handler often ends up in a basement or attic, and the condenser sits wherever the yard allowed. Those are the places a tune-up here takes the most care, along with the drain from an indoor unit in an old basement. You get the price before we start, and we’ll say if nothing needs doing.',
-  emergencyParagraph:
-    'When the AC has quit, water is spreading from the indoor unit or a breaker won’t hold, call AC Repair and switch the thermostat off. If the Ohio River reached the condenser or the air handler, leave everything off until it’s checked. Babies, grandparents and anyone sick suffer first in heat. Same-day service covers most calls, weekends included.',
   commonIntro:
     'In the old houses in Moscow, an AC that’s due for service usually shows it like this:',
   localFaqs: [

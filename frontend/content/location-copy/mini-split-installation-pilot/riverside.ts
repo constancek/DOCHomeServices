@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'In Riverside, homes squeeze into a thin band between the Ohio and the hillside along River Road. Census figures show 61.2% of homes rented and 36.2% of units in buildings of ten or more apartments, so an owner or manager usually signs off on cooling. About a quarter of the houses date from before 1940, when nobody built in ducts, and wall heads handle those well. You’ll have a fixed price beforehand, plus a frank answer if ductless is the wrong move.',
-  emergencyParagraph:
-    'In Riverside, a normal July tops out at 86F, per the National Weather Service, and a top-floor apartment can run hotter. Elderly tenants, newborns and the sick take it hardest. We schedule ductless installs quickly, one head inside a day. If a mini-split you own has died, Mini-Split Repair comes same day on most calls, weekends too.',
   commonIntro:
     'From the river side of US-50 to the slope above it, these are the usual reasons people ask us about ductless in Riverside:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Most homes in Mulberry were built in 1980 or later, by Census figures, and well over half are townhouses or apartments rather than detached houses. That tight, newer construction bottles up stale air, cooking smells and cleaning fumes, so ventilation is usually the first thing we examine. In rented units the owner or manager picks the equipment. Electricity heats most homes here, and indoor air turns parched by midwinter. We meter before proposing anything, give a flat price up front, and tell you when a fresh filter is enough.',
-  emergencyParagraph:
-    'Clear everyone out, then phone 911, the moment a carbon monoxide detector sounds. A gas odor means walking outside, switches untouched, before calling the gas company. Shut the system down at the thermostat when vents smell scorched. Mold spreading from a leak threatens newborns, elderly parents and anyone short of breath. Same-day visits are the norm here, weekends included.',
   commonIntro:
     'These come up most from owners, landlords and renters in Mulberry.',
   localFaqs: [

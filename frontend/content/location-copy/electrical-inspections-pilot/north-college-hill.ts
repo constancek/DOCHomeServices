@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'North College Hill is mostly 1940s and 1950s houses, with an older layer underneath. Census figures give a median year of 1952, and 25.9% of homes are older still, from 1939 or before. The prewar ones can hide cloth-insulated cable and ungrounded receptacles; the postwar ones tend toward small panels and too few circuits per room. With 43.6% of homes rented, a lot of our inspection work here is for landlords. We go through the whole system and price fixes before starting.',
-  emergencyParagraph:
-    'A few problems skip the waiting list: a receptacle or switch plate that’s hot, humming or scorched, a smell of burning, sparks, or a breaker that won’t stay on once reset. Turn it off at the panel. If there is smoke or flame, everyone out, then 911. We reach most of these the same day, weekends too.',
   commonIntro:
     'North College Hill has prewar houses, postwar houses and apartment buildings. Here’s what we find most:',
   localFaqs: [

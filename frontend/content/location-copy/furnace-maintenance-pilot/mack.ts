@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Most houses in Mack are owner-occupied and fairly new: Census figures put the median home at 1981, with 42.7% built in the 1980s and 90s. Gas heats about two-thirds of them. On a furnace in a house like that, a tune-up is mainly the filter, blower, burners and safety controls, plus a look at whether the original furnace is still in place. Where electricity heats the house, it may be a heat pump rather than a furnace. You get the price first, and we’ll tell you if nothing needs doing.',
-  emergencyParagraph:
-    'For a furnace in Mack, some signs mean a repair, not a tune-up. Smell gas: go outside, touch no switches, then call the gas company. Carbon monoxide alarm: everyone out. No heat in a cold snap, a wavering yellow flame or nonstop restarts are urgent too, more so with infants or elders home. Most are same day, weekends included.',
   commonIntro:
     'Furnaces in Mack are mostly in owner-occupied houses from the 1980s and 90s. These usually prompt a booking:',
   localFaqs: [

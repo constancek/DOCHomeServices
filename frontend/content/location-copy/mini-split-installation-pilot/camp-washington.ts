@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Housing in Camp Washington is old almost without exception. Census figures show a median year built of 1938 and 88.9% built in 1939 or earlier, with nothing reported from 1980 on. That means small houses, doubles and small walk-ups that went up with no thought of central air, where ducts would mean gutting plaster. Ductless heads skip all that. About four in five homes are rented, so the building owner is the one who books us. We quote one price up front and tell owners when ductless doesn’t fit.',
-  emergencyParagraph:
-    'A Cincinnati July runs to a normal high of 86F (National Weather Service), and a top-floor flat holds that heat after dark. Elderly tenants, babies and anyone with lung trouble are at risk. Installs go on the books fast, a day per single head. A dead mini-split needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the doubles, walk-ups and small old houses between Colerain Avenue and the Mill Creek, these are the jobs owners call us about most:',
   localFaqs: [

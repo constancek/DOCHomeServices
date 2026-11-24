@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Wetherington was laid out around its golf club from the early 1990s, and by Census figures the median home dates to 1998, with 95.5% lived in by their owners. Houses that new were planned around ducts, so ductless covers what the original design missed, like a lower level finished after closing, a bonus room over the garage, or a sunroom full of glass. You approve a fixed price before work begins, and if a closed damper or a loose duct is the real problem, we tell you that instead.',
-  emergencyParagraph:
-    'The region sees about 21 days a year at 90F or above (National Weather Service), and a glass-walled sunroom takes the brunt. Older relatives, infants and anyone with breathing problems feel it first. Single-head installs get scheduled quickly and take a day. If an existing ductless unit stopped, Mini-Split Repair gets to most calls the same day, weekends included.',
   commonIntro:
     'In the houses and condos around the course in Wetherington, these are the spaces owners ask us to cool:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'In Cleves, the right wiring job depends on which decade your house belongs to. Census figures put the median build year at 1972, and roughly one home in four predates 1940. Those oldest ones may still hide ungrounded knob-and-tube. Ranches and split-levels from the late 1960s and 1970s sometimes got aluminum branch circuits, and anything newer mostly calls us about an addition. Our electrician tests first. Sound wiring gets left alone, and any work is written up with one flat number before a drywall saw comes out.',
-  emergencyParagraph:
-    'Call us the same day for an outlet that is hot or blackened, a smell like melting plastic near a switch, sparks or humming in a wall, a breaker that kicks off as fast as you reset it, or a tingle from the washer. Kill that breaker if your hands are dry. If smoke shows, go outside and call 911.',
   commonIntro:
     'From the old houses near the river to the newer streets up the hill, these are the signs that get a wiring review started in Cleves:',
   localFaqs: [

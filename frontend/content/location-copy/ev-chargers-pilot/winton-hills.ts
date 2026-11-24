@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'In Winton Hills, CMHA owns most of the homes, at Winton Terrace and Findlater Gardens, and Census figures show nearly every household rents. Any charger there is the housing authority’s decision, so residents should take it to management, not to us. Our charger customers are private owners of doubles, townhouses and the few detached houses. With a 1955 median, panels are often full, and electricity heats most units. We assess the panel and load first, say if Level 1 will do, and price before wiring.',
-  emergencyParagraph:
-    'Unplug and stop if a charger, plug or outlet runs hot, shows scorch marks or begins to melt, or smells burnt. So does a Level 1 cord on an extension cord. Switch that breaker off if it’s safe. Smoke or flames mean get out and dial 911. Owners usually see us the same day, weekends too.',
   commonIntro:
     'These are the situations that bring private landlords to us in Winton Hills.',
   localFaqs: [

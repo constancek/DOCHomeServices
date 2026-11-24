@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Hebron is mostly newer subdivisions, and Census figures for the 41048 ZIP put the median house at 2002. A panel that age usually has space and headroom for a spa breaker, so the work turns on where the tub goes and how far the line has to run. The tub still needs its own 240-volt circuit behind a GFCI, plus a shutoff in sight and bonding. Nearly every home here is owner-occupied. The panel gets checked against the spa’s paperwork, and you see a price before any conduit goes in.',
-  emergencyParagraph:
-    'Phone us that day when the spa’s GFCI keeps dropping after a reset, the disconnect shows scorching, the panel buzzes or a bather feels a tingle. Climb out and stay away from the equipment. Kill the breaker only when it’s safely reachable, and for smoke or fire, leave and call 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Across the subdivisions in Hebron, these are the reasons people call us about a spa.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median build date in Golf Manor at 1954 and count only about half the homes as detached houses. Two-family and three- or four-unit buildings make up most of the rest, and half of households rent. A 1950s panel tends to be stuffed with breakers, which makes space for a 240-volt line the opening question. Before quoting, we open the panel and total the load, and you’ll hear if the Level 1 cord is plenty. The price is settled before a single wire is pulled.',
-  emergencyParagraph:
-    'A charger smelling of hot plastic, a browned plug, a softened outlet or a breaker that snaps off every charge means stop now in Golf Manor. Cut power to that circuit only if the floor is dry and nothing you touch is hot. If smoke or flame shows up, leave and call 911. Same-day visits are usual, weekends too.',
   commonIntro:
     'Half the households rent and many panels date from the late 1940s and 1950s, so charger requests in Golf Manor tend to start one of these four ways.',
   localFaqs: [

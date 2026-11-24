@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Islands and counters stuck in shadow drive most recessed lighting requests we get from Mason, and the young housing makes them friendly jobs. Census figures peg the median home at 1996, and around seven of every ten addresses are detached houses with sheetrock ceilings, truss attics and blown-in fluff on top. Townhomes and condos off Tylersville and Mason-Montgomery Road fill much of the remainder, where an association or a shared ceiling can steer the plan. Pencil marks go up and the price gets settled before cutting.',
-  emergencyParagraph:
-    'Smell toasting at a downlight, see a tan halo on the drywall around its trim, or a trim too hot to touch, and phone us now. So does a breaker that drops with those lights. Flip it off if the panel is safe to reach; any smoke, leave and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'Subdivision kitchens, bonus spaces and half-finished lower levels make up most of what we wire for recessed light around Mason.',
   localFaqs: [

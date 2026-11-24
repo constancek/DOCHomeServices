@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'Addyston is older than its median suggests. By Census figures the median home dates from 1965, but 28.9% were built before 1940, many of them small company-era houses where the furnace sits in a basement and vents into an old chimney. Those get the closest look at the flue and heat exchanger. Most households rent, 61.1%, so a landlord usually books the visit. Gas leads, with electric heat close behind. The price is set before we start, and if the furnace needs nothing, we’ll tell you.',
-  emergencyParagraph:
-    'Smell gas and you leave: switches untouched, pilot left alone, gas company called from the street. When the carbon monoxide alarm sounds, everyone goes out. A furnace quitting in a cold spell, restarting nonstop or showing a yellow, lazy flame needs repair, soonest where babies, older relatives or sick people live. We come same day on most calls, weekends included.',
   commonIntro:
     'Old company-era houses and newer rentals both turn up on our tune-up list in Addyston. The usual reasons:',
   localFaqs: [

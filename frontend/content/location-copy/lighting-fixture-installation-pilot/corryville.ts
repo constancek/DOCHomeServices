@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Corryville sits just east of the University of Cincinnati, and almost every home here is rented, so owners, landlords and managers book most fixture work. The box a light hangs from, whether its circuit has a ground and whether the spot is new decide the job. Census figures count 756 of 2,263 homes from 1939 or earlier and 910 from 2000 on. The old houses bring plaster and ungrounded boxes, while the big newer blocks are straightforward. We check, then quote a fixed price.',
-  emergencyParagraph:
-    'Get someone out that day if a fixture dangles by its conductors, a light gives off a burning odour, or a switch crackles and sparks. If the breaker is safe to reach, switch it off and keep tenants from walking underneath. Smoke or fire means leave, call 911, then tell the building manager. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Landlords around Short Vine and the campus edge ask us for these four light fixture jobs again and again.',
   localFaqs: [

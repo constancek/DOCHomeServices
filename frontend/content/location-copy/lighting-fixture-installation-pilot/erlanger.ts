@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'A ceiling light for a living room or bedroom that has only ever had lamps is the call we get most from Erlanger. The ceiling box, a ground conductor and whether cable already reaches the spot decide how big that job is. The Census median for the city’s 8,180 homes is 1976, and 3,964 of them went up between 1950 and 1979, when a switched outlet often stood in for a ceiling light. Older blocks near Dixie Highway may be ungrounded. We open the box and agree the figure first.',
-  emergencyParagraph:
-    'Ring us soon about a fixture leaning out of its ceiling, a burnt odour near a light, or a breaker that pops at one switch. Kill that breaker if reaching the panel is safe, and clear the floor below. Smoke or fire means leave and dial 911. A technician can usually come that day, weekends included.',
   commonIntro:
     'From the mid-century streets to the apartment blocks near the airport, these four lighting jobs fill most of our Kenton County diary here.',
   localFaqs: [

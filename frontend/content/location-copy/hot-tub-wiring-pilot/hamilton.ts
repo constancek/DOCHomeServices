@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'In Hamilton, a spa runs on a 240-volt circuit nothing else shares, guarded by a GFCI, with a disconnect where you can see the tub but can’t reach it from the water, plus bonding and a city inspection. The median house here dates to 1956 by Census figures, and a box that age is often crowded, so space for the spa breaker comes first. Close to half of households rent, and the landlord often books. We check the box against the spa maker’s specs and quote before conduit goes in.',
-  emergencyParagraph:
-    'A tingle off the water, a spa GFCI that won’t stay set, a scorched disconnect or a humming breaker box gets a same-day visit in Hamilton on most calls, weekends included. Get people out and leave the water and gear alone. Shut the spa’s breaker only if that’s safe, and if there’s smoke, leave and dial 911.',
   commonIntro:
     'These are the most common reasons people call us about a spa in Hamilton.',
   localFaqs: [

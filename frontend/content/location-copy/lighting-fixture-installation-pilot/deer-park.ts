@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Deer Park is older than most suburbs around it. Census figures give a median build year of 1947, and more than three quarters of homes predate 1960. For light fixtures, expect small baths with one weak light over the mirror, plaster ceilings, and boxes set for nothing heavier than a glass shade. Grounds are often missing at the ceiling. About a quarter of homes are rented. We inspect the box first and agree a price with you before the shade comes off.',
-  emergencyParagraph:
-    'Call the same day if plaster is sagging around a light in Deer Park or a breaker keeps tripping once the light is on. If the panel is safe to reach, switch that circuit off, and steer everyone around the fixture. At any hint of smoke or fire, leave and call 911. Most calls see us that day, weekends included.',
   commonIntro:
     'In Deer Park, owners call us for these more than anything else.',
   localFaqs: [

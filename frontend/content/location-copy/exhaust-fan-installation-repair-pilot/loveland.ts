@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'Around Loveland, the fans we’re called about mostly sit in houses from the 1980s and 1990s up on the hills. Census figures put the median house at 1985, which means the bathroom almost always came with a fan, though often a modest builder unit facing a big master shower. A few were ducted no further than the attic. Plenty of people here live in apartment complexes, where the owner or the association arranges repairs. We map the air path, then price the fix ahead of any drywall work.',
-  emergencyParagraph:
-    'Don’t sit on these. A fan giving off a burning odor, throwing sparks or smoke, or with a housing gone brown or soft from heat should be powered down at its switch or breaker, provided you can get to it safely. Fire or smoke means leaving the house and phoning 911. We can usually be there that day, weekends too.',
   commonIntro:
     'Up in the subdivisions and down near the old downtown alike, the calls we get in Loveland tend to start with one of these.',
   localFaqs: [

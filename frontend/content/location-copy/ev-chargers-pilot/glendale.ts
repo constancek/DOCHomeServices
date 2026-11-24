@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Glendale was laid out in 1851, and by Census figures more than half its houses went up in 1939 or earlier. One may still lean on its first small service, the next on a panel bolted in decades later and now wall-to-wall breakers. Either way, a 240-volt charger line has to earn its slot, and outside mounting meets the historic district. We open the panel, add up the house, say so if the trunk cord suffices, and price it before a wire moves.',
-  emergencyParagraph:
-    'A plug too hot to hold, a receptacle browning at the edges, or a breaker that quits the moment the car asks for power means stop the charge. Throw that breaker only with dry hands and a cool panel. If smoke or flame appears, the household heads outside, then someone rings 911. We usually arrive the same day, weekends too.',
   commonIntro:
     'On the older streets of Glendale, these four situations bring most of our charger calls.',
   localFaqs: [

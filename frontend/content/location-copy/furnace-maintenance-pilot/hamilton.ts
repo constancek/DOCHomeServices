@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'Hamilton is an old city on the Great Miami, and its housing shows it: 57.7% went up before 1960 and over a quarter before 1940, by Census figures. Gas is the main heat. In a house that age, expect the furnace down a narrow basement stair, venting into a chimney older than any furnace it has served, likely on its second or third unit, so draft and the heat exchanger get the longest look. Close to half are rentals, booked by owners. Price first, and nothing sold if nothing’s due.',
-  emergencyParagraph:
-    'Smell gas in Hamilton: get everyone out, touch no switches, and ring the city’s gas utility from the sidewalk. Carbon monoxide alarm: out first. A dead furnace in a cold snap, one cutting out and refiring, or a yellow flame is a repair. Babies, elders and the sick can’t wait. Same day on most calls, weekends too.',
   commonIntro:
     'From German Village to Rossville, these tend to put a fall tune-up on the calendar in Hamilton:',
   localFaqs: [

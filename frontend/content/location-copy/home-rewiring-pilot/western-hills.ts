@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'Most houses in Western Hills are mid-century, and they usually need added circuits rather than an entire rewire. Census figures for the two ZIP codes put the typical house in the late 1950s or early 1960s, and nearly a third of the homes in 45211 are older than 1940. Postwar houses were wired lean, some 1960s ones may have aluminum branch wiring, and the oldest may have no ground at all. We test first, tell you if it’s sound, and quote the scope and a flat price before opening anything.',
-  emergencyParagraph:
-    'In Western Hills, we come the same day on most calls, weekends too, for a hot smell from a wall, a discolored switch plate, a breaker that flips back off after a reset, or a shock from a fixture. If the panel is dry and cool, switch that circuit off. If there’s smoke or fire, leave and call 911.',
   commonIntro:
     'In the mid-century houses across Western Hills, these signs show up most often.',
   localFaqs: [

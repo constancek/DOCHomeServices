@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'In Kennedy Heights, Census figures put the median build year at 1944, and close to half the homes went up in 1939 or earlier. Doubles and other two-family buildings are common, and a little over four in ten homes are rented, so a landlord often decides on equipment. Sash windows leak, basements soak up moisture, and ductwork retrofitted into old framing moves dust between floors. We take readings before suggesting anything, quote before work, and tell you when a new filter is the whole fix.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm goes off, the household gets outside, then dials 911. With a gas odor, leave without flipping switches and call the gas company. Burning smells from the furnace or AC mean shutting it off at the thermostat. Mold creeping after a leak can’t wait around infants, grandparents or asthma. Same-day service covers most calls, weekends included.',
   commonIntro:
     'On the hilltop streets of Kennedy Heights, air complaints usually sound like one of these.',
   localFaqs: [

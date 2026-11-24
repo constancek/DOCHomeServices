@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'In Hartwell, recessed lights nearly always go into an older ceiling, and that shapes the whole plan. Census figures put the median home at 1949, about a third predate 1940, and renters fill most homes in the neighborhood. Pre-war houses tend toward plaster, scant clearance above upstairs ceilings and rooms arranged around one middle light. Postwar ones more often give us an attic over the top floor and a basement ready for finishing. Every opening is marked and the cost agreed before our first cut.',
-  emergencyParagraph:
-    'A downlight that keeps dropping out and returning, a ceiling yellowed or browned around its can, or water dripping through a trim needs prompt attention. Switch those lights off at the breaker when you can reach it safely. If smoke or fire shows up, get everybody out and phone 911. We arrive same day on most calls, weekends included.',
   commonIntro:
     'Pre-war houses, postwar homes and apartment buildings all sit in Hartwell, and requests follow that blend. These turn up most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'In Mount Lookout, half the homes were built in 1939 or earlier, Census figures show, and most are detached houses. Central air arrived in those houses long after the plaster, so the third floor, the attic bedroom or the back sunroom is usually the last room it reaches. A ductless head cools that room by itself, without opening a single ceiling. You get a fixed price before work, and if a mini-split isn’t the right answer, we’ll tell you.',
-  emergencyParagraph:
-    'Roughly 21 days a year reach 90F or more, per the National Weather Service, and an attic bedroom in Mount Lookout is the first room to overheat. Babies, older relatives and anyone with breathing trouble belong downstairs. Installs get booked quickly; single-zone usually takes a day. Mini-Split Repair covers a unit that has stopped, often the same day, weekends too.',
   commonIntro:
     'On the hillside streets of Mount Lookout, these are the rooms owners of prewar houses most want cooled:',
   localFaqs: [

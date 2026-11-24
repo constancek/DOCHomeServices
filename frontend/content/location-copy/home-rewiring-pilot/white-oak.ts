@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in White Oak at 1968, and about two in three went up between 1940 and 1979. In the 1950s houses that usually means two-prong outlets with no ground and a kitchen on circuits never meant for today’s appliances. Houses from the 1960s and 1970s may have aluminum branch wiring, and the few older than 1940 may hide knob-and-tube. Every circuit gets tested first, you hear if the wiring is fine, and the scope and flat price are on paper before a wall opens.',
-  emergencyParagraph:
-    'Some faults shouldn’t wait in White Oak. Ring us that day if a receptacle gives off a burning odor, a plate is browned or too hot to touch, something sizzles, a breaker flips back off, or a lamp jolts you. Switch it off only from dry footing. If smoke appears, get out and dial 911. We come on weekends too.',
   commonIntro:
     'In the post-war houses here, wiring that’s due for work usually gives itself away in one of these ways:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'Many North Avondale electrical inspections are in large houses built before the Second World War, on streets like Rose Hill and Clinton Springs. Census figures put the median home at 1938, and 64.8% were built in 1939 or earlier. In houses that age we often find knob-and-tube or cloth-covered runs in the walls, plenty of two-prong outlets, and a panel that has been added to more than once. You get a written report and a flat price for anything worth fixing, agreed before we start.',
-  emergencyParagraph:
-    'If an outlet feels hot, a cover plate is browned, a switch hums, something smells scorched or sparks jump, or one breaker refuses to stay on after a reset, flip it off and phone us. With smoke or fire, everyone leaves first and someone dials 911. Most North Avondale calls are reached the same day, weekends too.',
   commonIntro:
     'North Avondale mixes large single houses, two-families and apartment buildings along Reading Road, and the older the building, the more of these we see:',
   localFaqs: [

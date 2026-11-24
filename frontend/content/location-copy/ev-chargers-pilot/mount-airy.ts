@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'In Mount Airy, the panel more than the car decides how a home charger goes in. Census figures put 1,781 of 4,127 homes in the 1960s and 1970s, an era whose panels tend to be crammed with breakers by now. About half the households heat with electricity, which eats into the capacity a charger wants. Most homes are rented, many inside larger complexes, so management has the final word. We size up the panel and load before quoting, flag it when Level 1 suffices, and price it all ahead.',
-  emergencyParagraph:
-    'A charger that turns hot, an outlet face gone brown, a scorched smell mid-charge or a cable pinched under a tire means unplugging now. If the panel is dry and within reach, flip that breaker. Smoke or fire means everyone leaves and someone calls 911. Saturdays and Sundays included, most calls in Mount Airy get a visit that day.',
   commonIntro:
     'Between the houses off Colerain Avenue and the bigger apartment buildings, these situations account for most of the charger requests we get.',
   localFaqs: [

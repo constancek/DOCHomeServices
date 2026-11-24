@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Cherry Grove is almost all detached houses, and Census figures date 78.1% of them to the 1960s and 1970s. A house that age is usually on its second or third furnace, often next to the water heater in the basement. Heating splits nearly down the middle: gas in 50.1% of homes, electricity in 45.0%, and that electric share includes heat pumps and baseboard. So we start by confirming what heats your house. The price is set before any work, and if nothing needs doing, you’ll hear that.',
-  emergencyParagraph:
-    'Gas smell: walk out with switches and pilots left alone, and phone the gas company from the street. Carbon monoxide alarm: household out. A stone-cold furnace in a freeze, one that won’t quit restarting, or a yellow, lazy flame needs repair, fast with a baby, an aging parent or someone sick at home. Most are same day, weekends included.',
   commonIntro:
     'Furnaces in Cherry Grove are mostly in houses from the 1960s and 1970s, and these are what get owners to book:',
   localFaqs: [

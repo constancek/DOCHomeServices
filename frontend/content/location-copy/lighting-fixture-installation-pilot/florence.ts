@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Bathroom vanity lights make up much of our fixture work in Florence, and each one depends on the box behind the mirror. According to Census counts, half the homes in the city predate 1972, and slightly more than half of households rent, many in apartment and condo buildings. Baths from that decade usually have a usable wall box and a ground, though past owners didn’t always use anything sturdy. We size up the box and leads, then quote a flat price before the old bar light is unscrewed.',
-  emergencyParagraph:
-    'In Florence, call us that day for a sagging light, a warm or buzzing switch plate, a scorched fixture or a breaker that won’t stay on with the light running. Cut that breaker if it’s safe and keep people back. If you see smoke or flames, leave and dial 911. We reach most calls the same day, weekends counted.',
   commonIntro:
     'Most requests from condo boards, landlords and homeowners in Florence are one of these.',
   localFaqs: [

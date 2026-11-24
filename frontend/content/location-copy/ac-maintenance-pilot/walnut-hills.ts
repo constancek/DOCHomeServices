@@ -3,14 +3,12 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Landlords book most of our tune-ups in Walnut Hills, and Census figures explain why, since 78.6% of homes here are rented. Close to half the housing predates 1940, when nobody was drawing ducts for cooling. So where central air was retrofitted, the air handler is tucked into a closet or attic at the end of a long duct run, and the condenser sits on a roof, behind the building or in a strip of side yard. Owners see a flat price first, and units that are fine stay untouched.',
-  emergencyParagraph:
-    'In Walnut Hills, warm air on a sweltering afternoon means a repair, not maintenance. Frost along the refrigerant lines does too; switch the system off and let the ice melt. Water through a ceiling, or a breaker that won’t stay on, belongs with those. Babies and older neighbors suffer first. Same-day service covers most calls, weekends included.',
   commonIntro:
     'In Walnut Hills, landlords and managers usually book a spring round after seeing one of these.',
   localFaqs: [
     {
       q: 'I rent in Walnut Hills and the AC drips. Who do I call?',
-      a: 'Send your landlord or building manager a written note about the drip. Ohio law, ORC 5321.04 (A)(4), makes a landlord who supplies air conditioning responsible for keeping it in good and safe working order, so arranging the repair falls to them. We service air conditioners, not leases, and we’re happy to take the landlord’s call.',
+      a: 'Write to your landlord or building manager about the drip, and keep a copy. If the landlord supplies the air conditioning, ORC 5321.04 (A)(4) puts the upkeep on them under Ohio law, keeping it in good and safe working order, and that includes calling for the repair. We work on equipment, not leases, and we’ll gladly take the landlord’s booking.',
     },
     {
       q: 'Why is central air a struggle in older buildings in Walnut Hills?',
@@ -33,11 +31,11 @@ export const walnutHills: LocationServiceCopy = {
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'A landlord in Walnut Hills gets the most from a spring visit on units nobody has records for, a building that just changed hands, an apartment where a tenant mentions water near the air handler or a new rattle, and top floors that never quite cool. Skip it for a unit we serviced last spring that behaves. Warm air or ice on the lines calls for AC Repair. A system we’ve already said should be replaced is better left alone while the money goes toward AC Installation & Replacement. We don’t service window units. Between visits, owners can keep filters fresh and condensers clear. Yearly is the usual advice.',
+        body: 'In Walnut Hills, the spring round is worth the owner’s money for apartments with no paper trail, a building with a new owner, a tenant who has reported a drip by the closet unit or a fresh rattle, and top floors near Peebles’ Corner that never catch up. A unit we went through last spring that runs quietly can wait a year. No cooling or frost on the copper means AC Repair, and if we’ve already written a unit off, hold the money for AC Installation & Replacement. We don’t service window units. Between visits, building staff keep filters fresh and condensers clear, and one visit a year covers it.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Walnut Hills',
-        body: 'In Walnut Hills, electricity heats 63.2% of homes by Census figures. That includes electric furnaces and baseboard, so it isn’t a heat pump count, though heat pumps fill a good share of our calendar here. A central air unit only cools and needs a spring visit. A heat pump does double duty, so it gets a spring visit and a fall one, with its reversing valve and defrost controls tested on the second.',
+        body: 'Census figures put electric heat in 63.2% of homes in Walnut Hills. That share mixes heat pumps with electric furnaces and baseboard, so it isn’t a heat pump count, but heat pumps fill plenty of our spring and fall days here. Cooling-only central air needs us each spring. A heat pump works both seasons, so it gets a fall visit as well, when the reversing valve and defrost controls are put through a test.',
       },
     ],
     whyTitle: 'Why Landlords in Walnut Hills Book AC Maintenance With Us',

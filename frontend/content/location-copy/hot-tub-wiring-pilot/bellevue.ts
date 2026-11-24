@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Bellevue sits across the Ohio from Mount Adams, and its housing is some of the oldest around. Census figures show the median house dates to 1939 or earlier, and most are owner-occupied. When a panel has been in service that long, there’s rarely a slot going spare, let alone room for a heater and pumps. We deal with that first. Next comes a spa circuit in conduit with GFCI protection, a cutoff by the tub and a bonding wire. The price is fixed on paper before any digging.',
-  emergencyParagraph:
-    'Stop the soak and phone us that day when the tub’s breaker won’t survive a reset, the cutoff gives off a burning odor, or a bather notices a tingle. Climb out and leave the controls be. Use the breaker only if reaching it is safe. Smoke means everyone outside and a 911 call. Saturday and Sunday calls are fine too.',
   commonIntro:
     'From the side streets off Fairfield Avenue to the blocks near the river, these are the signs that call for spa wiring.',
   localFaqs: [

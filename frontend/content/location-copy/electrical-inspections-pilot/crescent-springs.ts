@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Most Crescent Springs wiring is fairly young. Census figures put the median building year at 1993, so few homes here have the cloth wiring or fuse boxes we find in older towns. What people book us for is a change: a condo sale, a townhouse purchase, a hot tub, an EV charger. With 61.8% of homes heated by electricity, the panel already carries a heavy load, and a new appliance can push it over. We check it, report back, and quote any work before we start.',
-  emergencyParagraph:
-    'Don’t wait on these in Crescent Springs: a warm or scorched outlet, a switch that buzzes, a smell like hot plastic, sparks, or a breaker that won’t stay reset. Flip that breaker off and leave it off. Smoke or flames mean get everyone outside and dial 911. We get to most calls the same day, Saturdays and Sundays too.',
   commonIntro:
     'About half the homes in Crescent Springs are in buildings of five units or more, and the rest are mostly houses from the 1970s on. The findings we see most:',
   localFaqs: [

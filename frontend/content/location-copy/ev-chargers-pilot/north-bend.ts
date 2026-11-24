@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'Newer houses dominate North Bend. Census figures date a third of them to 2000 or later and set the median at 1991, so many panels have spare room for a Level 2 circuit or can lean on load management. Roughly one home in six is a townhouse or condo, putting an association in the loop. Prewar houses may still have a small original service. We check panel and load first, say when the trickle cord suffices, and agree on the price before starting.',
-  emergencyParagraph:
-    'We can usually come that day if the charger or its plug runs hot, shows scorch marks or melting, smells like burning, or trips its breaker each session. Switch that circuit off only with a dry floor underfoot and nothing hot within reach. Smoke or fire means leaving and calling 911. Weekends are no different.',
   commonIntro:
     'Newer houses, townhouses and a slice of far older homes account for the charger questions arriving from North Bend.',
   localFaqs: [

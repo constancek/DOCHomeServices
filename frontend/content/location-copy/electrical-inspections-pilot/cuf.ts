@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'Most CUF inspections are booked by landlords, since Census figures show about 85% of homes here are rented. The housing splits two ways. Older houses in Fairview and western Clifton Heights, most from before 1940, can still have cloth or knob-and-tube wiring and ungrounded outlets. Larger buildings from the 1970s tend to have small unit panels feeding electric heat. We inspect one unit or a whole building, write up what we find, and price the fixes before work starts.',
-  emergencyParagraph:
-    'Book these for today, not next week: a plug face that’s warm or melting, a switch that hisses or throws sparks, a hot-plastic smell, or a breaker that pops the moment it’s flipped back. Turn that circuit off. Smoke or fire: get out, then call 911. We reach most calls the same day, Saturdays and Sundays included.',
   commonIntro:
     'Between CUF’s old houses split into flats and its larger apartment buildings, these are the faults we find most:',
   localFaqs: [

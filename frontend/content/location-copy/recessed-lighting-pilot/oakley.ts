@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'Catch a kitchen mid-remodel in Oakley, and recessed lighting is about as simple as it gets, because joists, insulation and old cable all sit in plain sight. The neighborhood holds two very different stocks. Census figures date almost half its homes to 1939 or earlier, many of them bungalows with plaster and tight space under the roof, while apartments and houses added since 2000 have drywall that cuts cleanly. Either way, every can position gets marked and priced before a saw touches the ceiling.',
-  emergencyParagraph:
-    'Trapped heat is what turns a can into an emergency. Look for a toasted brown halo on the paint, a trim too hot for a palm, an acrid smell, or a breaker that pops with that switch. Snap the breaker off when that’s safe, and with smoke, clear the house and dial 911. Same-day help covers most calls, weekends too.',
   commonIntro:
     'Around Oakley Square and the bungalow streets off Madison Road, these four requests dominate our recessed lighting calendar:',
   localFaqs: [

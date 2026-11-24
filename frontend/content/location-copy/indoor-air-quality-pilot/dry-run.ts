@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Dry Run at 1986, and almost every home is detached and owner-occupied. Houses from the 1980s on are sealed tight, so stale air and summer humidity stay indoors, and a fresh-air ventilation upgrade is often the answer. Gas furnaces heat most homes, drying winter air. Anderson Township describes its soils as poorly draining, so a damp basement is worth a look. We test first, fix the price before work, and tell you if a new filter is enough.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends everyone onto the lawn before anyone phones 911. For a gas smell, leave the switches alone, walk out, and ring the gas company. Burning smells from the registers mean the thermostat goes off. Mold spreading after a leak is serious for babies, grandparents and asthmatics. Most calls get us there that day, weekends too.',
   commonIntro:
     'Owners of 1980s and newer houses in Dry Run tend to call us about one of these:',
   localFaqs: [

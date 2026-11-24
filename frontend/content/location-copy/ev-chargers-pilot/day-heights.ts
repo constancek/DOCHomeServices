@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Day Heights is all detached houses, Census figures say, most of them owner-occupied and built across the 1960s and 1970s, around a 1969 median. That makes a charger at home the simple scenario, with one catch. Panels from those years have often absorbed decades of added breakers, so open slots can be scarce. We open yours, work a load calculation, say plainly when the Level 1 cord suffices, and quote before a single wire is run.',
-  emergencyParagraph:
-    'If the charger or its receptacle turns hot or brown, if a burnt smell drifts from the wall, or if the breaker trips the moment charging begins, stop charging. Kill power to that circuit at a dry, easy-to-reach panel. With smoke or fire, get everyone out and call 911. Same-day visits are usual on most calls, weekends included.',
   commonIntro:
     'In Day Heights, owners of houses from the 1960s and 1970s near State Route 131 usually call for one of these:',
   localFaqs: [

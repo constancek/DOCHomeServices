@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'In Northgate, getting recessed lights right is mostly about gaps between them, so nobody chops vegetables inside their own shadow. Census figures put the typical house here at 1969, with over half dating from the 1960s and 1970s, which usually means a drywall ceiling under an attic you can crawl and a lower level somebody finished decades after the builder left. Big apartment blocks sit off Springdale Road as well. Before one saw touches drywall, we pencil each spot overhead and you sign off on a fixed figure.',
-  emergencyParagraph:
-    'Ring us now for a can giving off a hot, acrid odor, a tan halo spreading across the drywall near a trim, a fixture you can’t hold a palm against, or drips falling through one. Flip that breaker if reaching it is safe. Smoke or flame means everybody outside and 911. We’re out same day on most calls, weekends included.',
   commonIntro:
     'Split between ranch kitchens, raised basements and a few big apartment complexes, Northgate keeps us busy with requests like these.',
   localFaqs: [

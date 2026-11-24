@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'In Moscow, most of the hundred or so houses went up before 1940, by Census figures, and nearly every one stands on its own lot. Electric heat is the norm in the village, with some fuel oil still around. A house that old may have had its panel swapped decades ago or never at all, and that decides where a surge device fits. River water that reached a basement changes things too. We open the panel before quoting, admit when strips will cover you, and fix the price up front.',
-  emergencyParagraph:
-    'An outlet or panel that’s blackened or smells hot after a storm gets a same-day visit on most calls, weekends included. So does a breaker that won’t hold after a reset, or a heater that sparked when power returned. Flip the breaker only if you’re dry and nothing near it is hot. Smoke or flames mean leaving and dialing 911.',
   commonIntro:
     'Along Water Street and up the hill from the Ohio, older houses tell us they need surge protection like this.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Three things settle a lighting job along Eastern Avenue: what the ceiling box can bear, whether a bare copper ground reaches it, and whether wire already runs to that spot. Of 777 homes counted by the Census, 423 predate 1940, and those riverside rowhouses and two-families mostly have plaster on lath with a shallow pan up top. Houses on Riverside Drive from the 1990s onward hide sturdier boxes behind drywall. Before a canopy screw turns, we open it up, look, and write your price down.',
-  emergencyParagraph:
-    'Ring us fast when a canopy droops off the plaster, a fixture smells of hot plastic, or the breaker snaps off as the light comes on. Flip that breaker if the panel is safe to reach, and keep everyone from beneath it. Smoke or flame means everyone outside and 911. Most visits happen that same day, weekends too.',
   commonIntro:
     'From Eastern Avenue up to Riverside Drive, the requests sort into four kinds.',
   localFaqs: [

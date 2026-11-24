@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Mulberry is mostly newer, so the wiring here is usually sound and inspections tend to come before a sale, a purchase or a big new load. Census figures put the median home at 1988, with 73.2% built since 1980. What changes the job is electricity: it heats 61.5% of homes, so heat strips, a heat pump and an EV charger can all end up on one panel. We check whether yours has room, write up what we find, and price any work before it starts.',
-  emergencyParagraph:
-    'When an outlet runs hot, a switch buzzes or looks singed, or the house smells burnt, don’t wait for a scheduled inspection; phone us. A breaker that snaps off again the moment it’s reset counts too. Shut it off. For smoke or fire, get outside and dial 911. Most such calls get someone there that day, weekends too.',
   commonIntro:
     'Mulberry’s townhomes and apartments sit beside newer single homes, and most calls are about added load, not old wiring. What we find:',
   localFaqs: [

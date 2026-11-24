@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Few suburbs nearby have houses as old as Deer Park. By Census count the median one was built in 1947, and roughly three of every four predate 1960. Boxes installed in the forties and fifties rarely leave a spare position, let alone headroom for a hot tub, so that’s the first fix. With the panel squared away, price follows the trench to the spa. Our electrician reads the tub’s wiring sheet against your box and writes a number before anyone digs.',
-  emergencyParagraph:
-    'Call us straight away in Deer Park when a spa GFCI pops again after reset, the panel hums or smells burnt, or a rail or the water gives someone a tingle. Have everyone step out. Switch off the breaker only if that’s safe, and dial 911 for smoke or fire. We’re there same day on most calls.',
   commonIntro:
     'In the forties and fifties houses of Deer Park, these four start most spa jobs.',
   localFaqs: [

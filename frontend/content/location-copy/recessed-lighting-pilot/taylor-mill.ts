@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'In Taylor Mill, a lot of our can lights end up in basements being turned into a playroom or a TV room at last. Census figures place the median home at 1975, with roughly four of every five a detached house and most owner-occupied. Houses from the 1950s, many older than the 1972 merger with Winston Park, usually keep an attic over the top floor, and the 1980s and 1990s builds add open kitchens and drywall. Each light gets marked and priced before we cut.',
-  emergencyParagraph:
-    'Get us out today for a downlight that winks off and comes back on its own, a trim ringed with scorch marks, or a breaker that pops whenever the lights go on. Shut that circuit at the panel if it’s safe. Smoke or flame means everybody outside and a 911 call. Same-day service reaches most homes, weekends included.',
   commonIntro:
     'Basements being finished, 1950s houses with attics and newer open kitchens bring most of our work in this Kenton County city:',
   localFaqs: [

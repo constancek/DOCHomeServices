@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Census figures put close to half the houses in Bond Hill before 1940 and most of the rest before 1960, which means a lot of wiring that never had a ground wire. The oldest may still have knob-and-tube in an attic or a wall. Doubles and three- and four-unit buildings are a big part of the stock, and many are rented. Testing comes first. If the wiring is in good shape, we’ll tell you, and nothing gets opened until you’ve signed off on a written scope and flat price.',
-  emergencyParagraph:
-    'Scorch marks on a receptacle, a smell like burning dust from a wall, a switch that buzzes, or a tingle from an appliance all deserve a same-day call, Saturdays and Sundays included. If it’s safe to reach the panel and nothing there is damp or hot, shut that breaker. Any smoke means everyone goes outside and someone calls 911.',
   commonIntro:
     'From the Tudor Revival houses on Bella Vista Street to the doubles off Reading Road, wiring in Bond Hill that needs replacing tends to show these signs:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Owensville is a small village in Stonelick Township. Census figures show most of its homes rented and most heated by electricity, and half the housing dates from 1960 to 1979, a mix of houses and small apartment buildings. The typical tune-up, then, is an electric furnace or air handler tucked in a hall closet, booked by the owner, frequently several units in one trip. Gas units are few. We name the flat price before touching anything, and if a furnace is fine, you’ll know.',
-  emergencyParagraph:
-    'These need a repair visit today. Gas odor: get out, no switches, phone the gas company once you’re clear of the building. Carbon monoxide alarm: everyone leaves. An apartment gone cold in a freeze, a furnace clicking on and off, or a burner flame turning yellow. Tenants with infants or older parents come first. Same-day on most calls, weekends included.',
   commonIntro:
     'For landlords and owners in Owensville, these are the usual reasons to book a fall visit:',
   localFaqs: [

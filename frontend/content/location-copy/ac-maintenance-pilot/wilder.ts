@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'In Wilder, a lot of our spring tune-ups happen inside condos and townhomes. Census figures show 59.1% of units in buildings of five or more, yet 80.8% of households own, so the person who books is usually the person who lives there. Most of the city went up after 1980, with cooling designed into the building, which keeps the visit focused on the coil, the drain, the filter and the electrical parts. You approve a flat price before we start, and if the system needs nothing, you’ll hear that.',
-  emergencyParagraph:
-    'A condo that won’t cool in a heat wave, or a coil furred with ice, needs a repair; switch it off and let it thaw. Water reaching the unit downstairs is urgent too. Babies and anyone with breathing trouble feel heat soonest. We come the same day on most calls, weekends included.',
   commonIntro:
     'Condo owners and homeowners in Wilder tend to book a spring visit after spotting one of these.',
   localFaqs: [

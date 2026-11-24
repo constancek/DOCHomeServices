@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Put a house in Greendale on the market and the buyer’s inspector will open the panel. Census figures give a median build year of 1958, and more than half the stock went up before 1960. Houses from the fifties seldom have enough kitchen circuits for today, and the oldest may still carry ungrounded cloth cable behind the plaster. We run tests before suggesting a thing, say so when the wiring is fine, and commit the scope and a flat price to paper ahead of any demolition.',
-  emergencyParagraph:
-    'Ring us right away for a receptacle that smells singed, a switch too hot to rest a finger on, sizzling inside a box, a zap from the washer, or a breaker that won’t hold. Most of those get a same-day visit, weekends too. Throw the breaker if nothing near it is damp. With smoke, leave and call 911.',
   commonIntro:
     'Much of Greendale was built in the 1940s and 1950s, and wiring from that period tends to wear out in these ways:',
   localFaqs: [

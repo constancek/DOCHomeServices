@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'In Mount Adams, half the housing predates 1940, with a median year of 1938 by Census count, so a rewire usually means a double or a little apartment building on the slope, with plaster walls. Wiring that old may be knob-and-tube or cloth-wrapped, ungrounded, feeding two-prong outlets. A few units added during the 1960s and 1970s may hold aluminum branch circuits. Our electrician meters every circuit first. When the wiring checks out, we say so, and you sign a written scope and flat rate before plaster comes down.',
-  emergencyParagraph:
-    'Plastic-smelling smoke from a receptacle, a cover plate gone brown, or crackling behind plaster is a same-day call. Kill that one breaker if the panel is dry and you can reach it without brushing anything warm. Flames or visible smoke mean everybody leaves and someone dials 911 outside. Most calls get an electrician out that day, Saturdays and Sundays too.',
   commonIntro:
     'On the hill, wiring in the doubles and small apartment buildings usually gives itself away in one of these ways.',
   localFaqs: [

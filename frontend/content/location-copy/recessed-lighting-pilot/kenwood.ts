@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Ranches and split-levels from the Johnson and Nixon years make up much of Kenwood, and their attics decide how recessed lighting goes in. Census figures put the median home at 1967, with close to half built during the 1960s and 70s, so most top floors sit under a reachable attic and many basements were paneled decades ago. Condos and apartments near the Towne Centre account for a big slice too. We check that attic, pencil the layout below it and agree a price before drilling.',
-  emergencyParagraph:
-    'If a trim scorches your fingers, a tan halo spreads across the ceiling around a can, or the breaker pops each time those lights come on, something is cooking. Cut that breaker if it’s safe to reach. Should smoke show, walk everyone out and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Across Kenwood, these four rooms account for most of our recessed lighting calls.',
   localFaqs: [

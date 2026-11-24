@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Renters and owners in Milford are about evenly split, Census figures show, with detached houses down the street from buildings of ten apartments or more. Roughly one in five homes dates back to 1939 or before, when a small service was normal. Houses from the postwar decades make up much of what’s left, and their panels are often full. Our electrician reads the panel and works out the load, owns up when your existing cord is enough, and names a price before the first cable is run.',
-  emergencyParagraph:
-    'Stop charging if the breaker trips as the car connects, a plug comes out soft or melted, or the outlet feels hot. Cross only a dry floor to the panel, then flip that circuit. Smoke or flame means get outside and phone 911. Most callers see us that day, Saturdays and Sundays too.',
   commonIntro:
     'Most of the charger work we see starts with one of these four from owners, landlords and condo residents in Milford.',
   localFaqs: [

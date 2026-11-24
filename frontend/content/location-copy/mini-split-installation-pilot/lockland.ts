@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'Lockland’s housing is old. By Census figures, 47.9% of houses predate 1940 and the median one dates to 1944, so plaster, low attics and framing that never planned for a duct trunk are the rule. Rather than cut chases through finished ceilings, we mount a slim head inside and run copper out a single small opening to the condenser. Renters occupy 43.3% of homes, where the owner has the say. Your price is fixed before the drill comes out, and if ductless is the wrong buy, we say so.',
-  emergencyParagraph:
-    'The National Weather Service puts Lockland at about 21 days a year of 90F or more, and old attic bedrooms soak it up, hardest on grandparents, infants and the sick. We schedule fast, and a single head goes in within a day; larger systems take longer. A quit unit means Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In Lockland, most requests we get start with one of these four complaints, from an owner or from a tenant:',
   localFaqs: [

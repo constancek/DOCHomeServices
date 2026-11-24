@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'Just over half of Bethel rents, so we test as many rentals here as owner-occupied houses. Census figures count more rented homes than owned ones in the village, and over a third of units are in buildings of three or more apartments. The houses from before 1940, roughly a quarter of the stock, are where we find damp cellars and drafts. We test before we quote and quote before we work; a clogged filter gets called a clogged filter, and that’s the end of it.',
-  emergencyParagraph:
-    'A sounding carbon monoxide detector or a gas smell means everybody goes out without touching switches, then phones 911 or the gas company. A furnace or AC with a burning odor gets shut off at the thermostat. Mold creeping over wet drywall is urgent too, worst for infants, grandparents and asthmatics. We come same day on most, weekends too.',
   commonIntro:
     'Owners and tenants in Bethel tend to describe the same handful of complaints:',
   localFaqs: [

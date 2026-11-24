@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'Cincinnati annexed Carthage in 1911, and two-thirds of the homes here predate 1940, with a Census median year built of 1938. Panels in houses like these are often too small or out of spaces, so the panel check settles where a protector can go. About four in ten homes are rented, so landlords make many of these calls, and the rest come from owners of single houses along Vine Street and the side streets. We look first, say when strips will do, and fix the price before any work.',
-  emergencyParagraph:
-    'If you see smoke or flames, leave and phone 911 from outside. Otherwise, a scorched outlet, a breaker that drops again after a reset, or a microwave that sparked at power-up gets a same-day visit on most calls, weekends included. If all the lights pulse, call Duke Energy Ohio first. Switch off a circuit only when it’s dry.',
   commonIntro:
     'Along Vine Street and the older blocks around it, these are the signs that usually come before a surge protection call in Carthage.',
   localFaqs: [

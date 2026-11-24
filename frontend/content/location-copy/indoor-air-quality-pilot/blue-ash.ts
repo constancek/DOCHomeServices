@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'In Blue Ash, the usual air complaint is stale, not damp. Census figures make the 1980s the city’s biggest building decade, with a median year built of 1981, and houses from then were sealed tighter than pre-war ones, so cooking smoke, cleaning sprays and shower steam linger until better ventilation moves them. More than a quarter of units are in apartment buildings of five or more, where management decides. The quote comes after testing and before any work, and an overdue filter gets named as just that.',
-  emergencyParagraph:
-    'A carbon monoxide alarm or a whiff of gas means everyone leaves, no switches flipped, and calls 911 or the gas company outside. Shut off a furnace or AC that smells scorched at the thermostat. Mold spreading after a leak is urgent around babies, older parents and weak lungs. Same-day service covers most of these, weekends included.',
   commonIntro:
     'Tight 1970s and 1980s houses in Blue Ash tend to tip us off in these ways:',
   localFaqs: [

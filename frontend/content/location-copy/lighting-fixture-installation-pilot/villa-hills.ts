@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Up on the bluff in Villa Hills, we spend a lot of time taking down smoked-glass dining chandeliers and gold-trim flush mounts that went up with the house. Census counts put the middle build year at 1981, and nearly every home is a detached split-level, ranch or two-story from the 1960s through the 1990s. Grounded cable is normal at that age, but many bedrooms got one center light and the halls were left gloomy. We open the box before quoting, and you sign off on a firm number first.',
-  emergencyParagraph:
-    'A dining light drooping on its chain, scorched plastic smell at a canopy or a dimmer too hot to touch needs a call right away. Flip off that breaker if it is easy to reach and clear the table underneath. Should smoke or flame appear, leave and dial 911. Most Kenton County calls get a same-day visit, weekends too.',
   commonIntro:
     'Around Villa Hills, these four come up again and again.',
   localFaqs: [

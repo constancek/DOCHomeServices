@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'Loveland’s housing is younger than its downtown suggests. The Census median year built is 1985, so a whole-house rewire is unusual here. The exception is the houses from the 1960s and 1970s, whose kitchens were wired for a fraction of today’s gadgets and some of which may have aluminum branch circuits. Later homes ring us about remodels, additions or a breaker that won’t behave. We test before quoting, say so if things are fine, and lay out the scope and flat price on paper before a wall is opened.',
-  emergencyParagraph:
-    'Don’t sit on a switch too hot to hold, an outlet with scorch marks, sparks when a plug goes in, or a breaker that refuses to stay set. If you can reach the panel without touching anything wet, switch that circuit off. If smoke or fire appears, leave and dial 911. A same-day visit covers most calls, weekends included.',
   commonIntro:
     'In the hillside ranches and newer subdivisions of Loveland, these faults show up most often.',
   localFaqs: [

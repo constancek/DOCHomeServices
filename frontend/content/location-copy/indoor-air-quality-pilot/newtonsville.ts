@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Around Newtonsville, in Wayne Township, the typical house is a 1960s or 1970s place its owner lives in, going by Census figures. Fifty years of settling opens duct joints and small gaps, so dust moves between rooms and humidity rises and falls with the seasons. Hardly anyone out here has natural gas; electricity and fuel oil do most of the heating, and a forced-air system running all winter leaves the house dry. Testing comes before any quote, and a dirty filter gets called a dirty filter.',
-  emergencyParagraph:
-    'Leave with everyone the moment a carbon monoxide alarm sounds, then call 911. Smell gas, and go out without flipping switches before phoning the gas company. Kill the furnace or AC at the thermostat if it smells scorched. Mold racing across a wet basement can’t wait for babies, grandparents or asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'Out in Wayne Township around Newtonsville, the calls usually start with something like this:',
   localFaqs: [

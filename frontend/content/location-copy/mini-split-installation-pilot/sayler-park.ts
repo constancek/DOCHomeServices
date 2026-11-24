@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Half the housing in Sayler Park, 50.8% by Census figures, was built in 1939 or earlier, most of it detached houses on the strip between the steep hills and US 50. Houses of that age were built without ducts, and retrofitting means opening plaster. A ductless head skips that and cools one room at a time. With 60.9% of homes owner-occupied and many two-family houses, each floor can get its own system. We set the price first and say so if another option suits better.',
-  emergencyParagraph:
-    'Cincinnati averages 21 days a year at 90F or above (National Weather Service), and in Sayler Park, the third floor of an old house collects that heat. Older relatives, little ones and anyone ill face most risk. Installs are scheduled fast, one head in a day. Mini-Split Repair handles a broken system, same day on most calls, weekends too.',
   commonIntro: 'Between the hillside and US 50, these jobs come up most in Sayler Park:',
   localFaqs: [
     {

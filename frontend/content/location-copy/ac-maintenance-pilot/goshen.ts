@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'The name covers two housing stocks in Goshen. Census figures date the median house in the old village center to 1957, and plenty there predate cooling altogether, so their ducts were threaded in afterward through closets and floor joists. Out across the township the median moves to 1983, and those systems usually came with the house, which makes the checkup quicker. Wherever you live, we name a flat price first and admit it when the AC needs nothing.',
-  emergencyParagraph:
-    'On a 90F afternoon, one of about 21 a year by National Weather Service counts, a dead AC calls for repair, never a tune-up. If ice crusts the suction line or the condenser hums while its fan sits still, shut it off. Infants and elderly parents suffer first. Expect us the same day on most calls, including weekends.',
   commonIntro:
     'Around Goshen, spring calls usually start with one of these.',
   localFaqs: [

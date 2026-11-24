@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Developers started on Park Hills in 1926, beside Devou Park, and the typical house dates from 1953, going by Census figures. Some 31.4% predate 1940. Those prewar and postwar homes tend toward plaster, low attics and stairways that leave nowhere to hide a duct, which is exactly the gap a ductless head fills. Houses from the 2000s bring us bonus rooms over garages. Apartment owners make their own call. Expect a written figure ahead of any drilling, and an honest no if ductless won’t help.',
-  emergencyParagraph:
-    'A bedroom under the roof in Park Hills can climb past the 86F July normal high that the National Weather Service lists. Grandparents, babies and the sick fare worst. We pencil installs in promptly, and one indoor head is typically a one-day job. A mini-split that died goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Around the older streets and newer builds of Park Hills, ductless quotes usually trace back to one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Close to half of Hebron, 44.8% of homes by Census figures, was built between 2000 and 2009, nearly all of it detached houses. So the heater we meet is usually in a basement or garage and often still the builder’s original. Tanks that age are at a fork: a service shows whether one has more life worth protecting or whether it’s time to budget for a replacement. You hear the price before work starts, and if your tank isn’t worth servicing, we’ll be straight about it.',
-  emergencyParagraph:
-    'Not for a tune-up: Puddle under the heater: turn the cold valve above it, then cut gas or power. Gas odor: everyone leaves, no light switches, no pilot, and someone phones the gas company from the curb. Carbon monoxide alarm: out of the house. Relief valve gushing repeatedly, or a heater gone cold: repair. Mostly same day, weekends too.',
   commonIntro:
     'Houses from the 2000s hold most of the heaters we service in Hebron. Owners usually call after noticing:',
   localFaqs: [

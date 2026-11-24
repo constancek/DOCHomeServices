@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'basement-lighting',
   serviceName: 'Basement Lighting Installation',
+  localHeadingName: 'Basement Lighting Installation',
   eyebrow: 'Lighting',
   hubLabel: 'Basement Lighting',
   parentCrumb: { label: 'Indoor Lighting', href: '/services/indoor-lighting' },
@@ -77,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'Do you handle wiring and electrical work as part of the installation?', a: 'Yes. Our electricians complete all required electrical work, including wiring and fixture installation.' },
     { q: 'How long will the installation take?', a: 'Most basement lighting installations can be completed within one day, depending on the number of fixtures and the layout of the space.' },
   ],
+  steps: {
+    heading: 'What to Expect From Basement Lighting Installation in {neighborhood}',
+    items: [
+      { icon: 'pencilRuler', title: 'We Look at the Ceiling and Circuit First', text: 'What sits above the ceiling, how damp the room gets and the circuit the lights will run on.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before any work begins.' },
+      { icon: 'bulb', title: 'Installed, Wired and Tested', text: 'Each fixture wired to code, then tested for even light across the basement.' },
+    ],
+  },
   related: [
     { label: 'Basement Lighting (overview)', href: '/services/basement-lighting' },
     { label: 'Indoor Lighting', href: '/services/indoor-lighting' },

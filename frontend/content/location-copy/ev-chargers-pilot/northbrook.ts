@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Census figures date most of Northbrook to the 1960s and 1970s, with a 1970 median and about seven in ten houses standing detached. Panels from those decades tend to be packed already, and over a third of households run electric heat, which squeezes what’s left for a car. A second EV doubles the squeeze. Our load calculation comes before any quote, we’ll tell you when the car’s own cord will do, and the price is written down before work begins.',
-  emergencyParagraph:
-    'Halt charging if a charger or receptacle grows hot, a plug turns scorched or melted, a breaker pops each session, or a cable got driven over. Kill that circuit only while everything around you is dry. With smoke or fire, everybody leaves and somebody dials 911. Expect us the same day on most calls, weekends too.',
   commonIntro:
     'Houses from the 1960s and 1970s, many on electric heat, set up most charger jobs we handle in Northbrook.',
   localFaqs: [

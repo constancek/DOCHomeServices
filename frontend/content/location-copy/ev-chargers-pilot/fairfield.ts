@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'By Census figures, electricity beats gas as the heating fuel in Fairfield, and the median house went up in 1978. A heat pump or electric furnace already leans hard on the service, and plenty of 1960s and 1970s panels ran out of slots long ago. Roughly a quarter of homes are apartments, where management makes the charger call. For a house or townhome, the panel gets opened and the load worked out before any quote, the trunk cord gets an honest verdict, and the price is locked before wiring.',
-  emergencyParagraph:
-    'Charging should end the moment one breaker keeps dropping as the car plugs in, or the cable has been run over, pinched or split. Shut that circuit off only if the path to the panel is dry and safe. If smoke or flame shows, the household walks out before anyone phones 911. Same-day visits happen on most calls, weekends too.',
   commonIntro:
     'In Fairfield, these four situations bring most of our charger calls from houses and townhomes.',
   localFaqs: [

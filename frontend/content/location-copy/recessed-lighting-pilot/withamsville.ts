@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Around Withamsville, the cheapest recessed lighting job is a kitchen or basement someone has already gutted for a remodel. Off Ohio Pike the housing comes in two batches, Census figures say. Postwar houses from the 1940s and 1950s, many with an attic over the main floor, sit beside a bigger batch from the 1980s and 1990s, and apartment buildings hold a large slice of the homes. Renters run slightly more than half the households. In any of them, we pencil each light onto the ceiling and settle the cost first.',
-  emergencyParagraph:
-    'Phone us when the cans keep knocking the breaker out, a trim scorches your fingertips or a dark ring creeps around one. Kill power to that room at the panel if it’s safe. With smoke or flame, everybody leaves and someone dials 911 from the yard. We reach most of these calls same day, weekends included.',
   commonIntro:
     'Postwar houses, homes from the 1980s and 1990s and the apartment buildings each send us different requests.',
   localFaqs: [

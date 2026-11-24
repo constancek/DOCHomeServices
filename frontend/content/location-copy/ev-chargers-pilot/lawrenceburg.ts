@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Lawrenceburg’s housing is newer than the riverfront downtown implies. Census counts place the median home at 1983, roughly a third went up after 2000, and over a third of units sit in buildings with five or more. A recent house generally has spare room or can lean on load management, while anything from before 1940 may still carry its small first service. Panel check and load calculation happen first, you hear when a Level 1 cord suffices, and the job is priced before any wiring starts.',
-  emergencyParagraph:
-    'A warm receptacle under a Level 1 cord, or that cord plugged into an extension, means charging from it ends today. Cut the circuit at the panel only when it’s safe and dry, and if smoke or fire appears, leave the building and phone 911. Same-day visits are the norm for most calls in Lawrenceburg, weekends included.',
   commonIntro:
     'With newer houses, townhomes, apartments and an older core by the river in Lawrenceburg, these are the situations we see.',
   localFaqs: [

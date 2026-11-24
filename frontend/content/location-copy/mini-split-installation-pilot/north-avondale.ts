@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'Most of North Avondale was built before central air was a thing. Census figures put the median year at 1938, with nearly two-thirds of units from 1939 or earlier, so the big houses off Rose Hill and Clinton Springs often have plaster, ornate trim and attics with little crawl room. A ductless head cools a room without cutting into any of that. In apartment buildings, the owner or manager decides. Before any work, you get a price to approve, and we’ll be honest when ductless isn’t your best move.',
-  emergencyParagraph:
-    'The National Weather Service records around 21 days a year at 90F, and a third floor under an old roof bakes on each of them, worst for elderly relatives, infants and anyone with asthma. Installs are booked fast, one head in about a day. A mini-split that failed needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the large pre-war houses and apartment buildings of North Avondale, these are the situations that most often lead to a ductless estimate:',
   localFaqs: [

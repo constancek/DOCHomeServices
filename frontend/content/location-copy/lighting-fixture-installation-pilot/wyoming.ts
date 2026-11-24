@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Much of our fixture work in Wyoming is a chandelier over a dining table. Victorians and early 1900s homes cluster around the Village, and roughly a quarter of the city went up before 1940, yet the 1950s built more houses than any other decade, so the Census median lands on 1954. Close to nine houses in ten stand on their own lot. In the older ones, expect plaster and a ceiling box nobody ever grounded. We open it, judge what it can carry and quote a number first.',
-  emergencyParagraph:
-    'Anything hanging crooked or drifting down from a ceiling gets priority, so nobody stands under it. A switch that smells hot, a scorched plate or flicker across several rooms ranks the same. Flip the breaker if you can reach it without risk. If there’s smoke, everyone leaves and someone phones 911. We’re usually out that day, weekends too.',
   commonIntro:
     'Fixture requests from around the city usually look like one of these.',
   localFaqs: [

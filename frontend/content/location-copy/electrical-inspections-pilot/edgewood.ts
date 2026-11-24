@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Edgewood is a town of 1960s and 1970s houses, and that sets what we look for. Census figures show 53.0% of homes here were built between 1960 and 1979, and 94.3% are detached single-family houses. Panels from that era were sized for a different kitchen and no air conditioning, and many have been added onto since. An inspection tells you if yours can take what you plan next. We check the whole system and price any repair before we touch it.',
-  emergencyParagraph:
-    'Don’t sit on these in an Edgewood house: a cover plate gone hot or black, a switch that buzzes, sparks, the smell of something burning, or a breaker that drops the second it goes back on. Shut it off. Smoke or flame: get the family out, then dial 911. Most get a visit that day, weekends as well.',
   commonIntro:
     'Almost every Edgewood home is an owner-occupied house from the 1960s or 1970s. What we find in them most:',
   localFaqs: [

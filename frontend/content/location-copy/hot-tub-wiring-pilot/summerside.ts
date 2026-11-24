@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'The Census Bureau dates the typical house in Summerside to 1981, and nearly nine in ten went up from 1960 to 2000. Those panels tend to have a bit of slack, but a spa draws heavily, so we measure what’s left before saying yes. A short panel gets fixed before the tub breaker. If yours has room, where the tub goes and how long the trench runs set the work. The 240-volt circuit, its GFCI and the bonding are matched to the maker’s sheet and quoted first.',
-  emergencyParagraph:
-    'A ground-fault breaker that clicks off with every reset, a humming panel, scorch marks on the cutoff box, or prickly water are signs to get everyone out and leave the equipment alone. Flip the breaker only when it’s dry to reach. Smoke or fire calls for leaving and dialing 911. Expect us the same day on most calls, weekends too.',
   commonIntro:
     'Houses from the 1960s through the 90s, townhouses and apartment buildings fill Summerside, and spa wiring here usually starts with one of these.',
   localFaqs: [

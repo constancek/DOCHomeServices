@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'West Price Hill is a neighborhood of pre-war and postwar houses, with Census figures counting 2,825 of 7,720 homes from 1939 or earlier and most of the rest from the 1940s to the 1960s. Basements run damp, windows leak drafts, and old ducts carry dust room to room. About half the homes are rented, so for those the landlord decides on equipment. We test before recommending anything, set the price before work, and tell you when a clean filter is all it takes.',
-  emergencyParagraph:
-    'A sounding carbon monoxide alarm means everybody goes outside before anyone dials 911. Treat a gas odor the same way, leaving switches alone and ringing the gas company from the porch. Should the vents smell scorched, set the thermostat to off. A newborn, an aging parent or asthma raises the urgency. Most visits are same day, weekends too.',
   commonIntro:
     'In West Price Hill, the older houses and the rentals tend to show bad air in these ways:',
   localFaqs: [

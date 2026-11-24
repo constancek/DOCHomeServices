@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'In Greendale, the success of new recessed lights gets decided in the attic long before anyone looks up from the floor. Census figures place the median home at 1958, and owners live in the large majority of these mostly detached houses. A house from those years typically carries an attic above the top floor, packed with insulation that narrows our choice of housing, plus a basement waiting decades to be finished. The very oldest add plaster to the mix. Each light is mapped and the cost agreed before cutting.',
-  emergencyParagraph:
-    'Brown discoloring spreading from a can, a trim that scalds your palm or a light that quits and returns on its own all suggest heat collecting inside the ceiling. Cut that circuit at the breaker if you can do so safely, and ring 911 if smoke appears. Same-day visits are normal for most calls, weekends included.',
   commonIntro:
     'In Greendale, a great many houses date from the 1940s and 1950s, when ceilings were lit for a different sort of evening. These requests arrive most often.',
   localFaqs: [

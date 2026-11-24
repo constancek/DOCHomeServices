@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'A good share of the houses in Erlanger were built from 1950 to 1979, a newer third has gone up since 1990, and Census figures show about three in ten homes are rented. Mid-century basements tend to stay clammy, and their return ducts drag that cellar air and dust up to the bedrooms. Newer builds are snug, so cooking smells and paint fumes hang around. We take readings first, quote a flat figure before installing, and give you a frank word if a clean filter will do.',
-  emergencyParagraph:
-    'Get everyone out, then call 911, when a carbon monoxide alarm goes off. For a gas odor, leave switches untouched and phone the gas company outside. Kill a scorched-smelling furnace or AC at the thermostat. Mold fanning out after water damage needs fast action around infants, elderly relatives or asthmatics. Same day on most calls, weekends too.',
   commonIntro:
     'Whatever the age of the house in Erlanger, these four complaints come up most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'By Census figures the median house in Groesbeck was built in 1970, the stretch when some builders used aluminum for branch circuits. That metal swells and shrinks more than copper, so screws at plugs and switches back off and run warm. The earlier postwar houses usually have copper but too few kitchen lines. About a third of homes are rentals. We meter the circuits before recommending work, say so when nothing needs replacing, and lock in a written plan and flat price before any cutting.',
-  emergencyParagraph:
-    'An outlet cover that’s charred, a switch hot under your finger, a burnt smell in a wall, arcing, a tingle off a fixture, or a breaker that trips the instant it’s reset all need us today. Most get a same-day visit, weekends too. Kill the circuit only from a dry spot. With smoke, get everyone out and call 911.',
   commonIntro:
     'Among the postwar and 1970s houses and apartment buildings of Groesbeck, worn wiring tends to show itself in these ways:',
   localFaqs: [

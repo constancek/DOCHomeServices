@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Homes in Downtown Cincinnati are mostly apartments and condos in large buildings, and Census figures show close to nine in ten are rented. The stock splits two ways. Units in buildings from before 1940 may still have original wiring, two-prong outlets or circuits too small for a modern kitchen, while units finished since 2010 rarely need more than one circuit added. Risers and the main service belong to the building. We test the unit, say when its wiring is sound, and set the scope and flat price before work begins.',
-  emergencyParagraph:
-    'Residents should tell building management if an outlet gives off a scorched odor, a plate darkens, something sparks, a breaker drops after reset, or a fixture delivers a shock. When the breaker box is safe to reach, flip that circuit off. For smoke or fire, take the stairs and call 911. Owners get same-day visits on most calls, weekends included.',
   commonIntro:
     'In the prewar buildings and the newer towers of Downtown Cincinnati, these are the signs that bring owners and managers to us:',
   localFaqs: [

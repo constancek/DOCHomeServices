@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Burlington is the Boone County seat, but almost all of its housing is modern. Census figures show just under 1% of homes predate 1960, and the median was built in 1998. Older houses cluster in the original town grid, now a National Register historic district. Everywhere else, wiring is usually sound, and the real question is load: 60.1% of homes heat with electricity, which can leave little room in a panel for an EV charger. We check, write it up and quote any work first.',
-  emergencyParagraph:
-    'Book a regular inspection for most things, but not these: a burning smell, a warm or discolored outlet, buzzing from the panel, sparks, or a breaker that pops again right after reset. In Burlington, turn that breaker off. With smoke or flames, everyone out and call 911. We reach most urgent calls the same day, weekends included.',
   commonIntro:
     'Burlington calls split between single homes built since the 1980s, apartments and condos, and a few older houses in the old town. Most often we find:',
   localFaqs: [

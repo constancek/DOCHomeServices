@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Who owns the panel is usually the first question in East Westwood. Census figures show about three in four homes are rented, the typical building went up in 1958, and roughly three in five homes heat with electricity. That last fact matters most, since electric furnaces and heat pumps carry the boards a surge ruins. Crowded 1950s panels mean the check decides where a device can go. We do it first, tell you if strips will cover you, and fix the price ahead of any work.',
-  emergencyParagraph:
-    'Burning smells at an outlet, or a toaster or fridge that smoked once power returned, are worth a same-day look, and on most calls we manage it, Saturdays and Sundays included. Kill that circuit at the panel only when doing so is safe. Flames or smoke mean everyone goes outside and someone calls 911 from there.',
   commonIntro:
     'In the apartment blocks and 1950s houses of East Westwood, these four signs come up again and again.',
   localFaqs: [

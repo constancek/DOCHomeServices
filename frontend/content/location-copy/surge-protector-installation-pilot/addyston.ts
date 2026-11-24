@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'In Addyston, the old pipe-works company houses along Main Street sit beside houses and small apartment buildings from the 1960s through the 90s, and Census figures put the median home at 1965. Roughly six of every ten households rent, so building owners decide. A panel guard is only as useful as the box it bolts into, and the older ones here are frequently crammed. Our electrician opens yours before naming a number, says when two decent outlet strips beat the whole idea, and writes the figure down first.',
-  emergencyParagraph:
-    'Smell hot plastic at a receptacle or the breaker box, or watch a breaker refuse to latch twice, and we come that day. The same goes for a microwave or furnace that crackled once power came back. Reach for the panel only from a dry floor. Smoke sends everybody outdoors to dial 911. Same-day service covers most calls, weekends too.',
   commonIntro:
     'Much of Addyston is rented, and much of it is older than the equipment inside, so owners usually call us after spotting one of these.',
   localFaqs: [

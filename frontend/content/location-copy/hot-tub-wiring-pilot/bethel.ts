@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'Roughly half of Bethel rents, and Census figures date the middle house in the village to 1958. A panel installed back then was sized for lights and a range, so it seldom has a spare slot or the headroom a spa heater needs. Sorting that out is step one. After it come a 240-volt line with GFCI protection, a shutoff you can see from the tub, bonding and an inspection. We read the spa’s spec sheet against your panel and hand you a number before any pipe is laid.',
-  emergencyParagraph:
-    'Phone us straight away in Bethel when a reset GFCI drops again, the shutoff box looks charred, the panel hums, or the water stings. Get everybody out and leave the equipment be. Flip the spa breaker off only if that feels safe, and dial 911 at the first sign of smoke. Same-day help covers most calls, Saturdays and Sundays too.',
   commonIntro:
     'Across the village and its small apartment blocks, here’s what tends to prompt a spa wiring visit in Bethel.',
   localFaqs: [

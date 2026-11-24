@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'Two out of three homes in North Avondale were standing before 1940, according to Census figures. The big Queen Anne and Craftsman houses here have had their panels added onto for generations, and plenty have no room left for one more heavy breaker, so that comes first. Then a hot tub gets a circuit of its own at 240 volts, ground-fault protected, plus a disconnect within eyeshot and bonding. We hold your panel up against the spa’s published requirements, and the figure is fixed before conduit is laid.',
-  emergencyParagraph:
-    'A GFCI that drops out the second it’s reset, heat or scorching at the panel, or a tingle from the handrail needs us right away. Climb out, keep hands off the controls, and cut the disconnect only when that’s safe. Smoke means leaving and calling 911. Expect us that same day for most calls, Saturdays and Sundays included.',
   commonIntro:
     'Behind the big houses off Reading Road and Clinton Springs Avenue, owners usually reach out about one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell was platted beside a railroad depot in 1868, and its median house went up in 1949 by Census figures. One home in three is older than 1940, so a fair number may still hide knob-and-tube or cloth-sheathed cable that never had a ground wire. Close to two in three homes are rented. We start by metering each circuit, admit it when the wiring is in decent shape, and give you a written scope and a fixed price before a single wall is cut.',
-  emergencyParagraph:
-    'A plug that’s hot to pull out, a smell of burnt insulation, a charred cover plate, crackling in a box, a jolt from a switch, or a breaker that trips the second you reset it gets a same-day visit on most calls, weekends included. Only cut the circuit if you’re dry. When there’s smoke, go outside and dial 911.',
   commonIntro:
     'In the older houses, doubles and apartment buildings around Hartwell, tired wiring usually gives itself away with one of these:',
   localFaqs: [

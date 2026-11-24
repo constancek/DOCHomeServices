@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Most houses in Monroe are young, with Census figures showing over half built since 2000, and nearly every one came with bathroom fans. The weak spot is the fan the builder chose. A basic model was often installed, and in a large primary bath it simply can’t keep pace. After twenty years, those motors also wear. A handful of older houses near Main Street are different and may have no fan, or one ducted into the attic. We test the draw and price the job before touching the ceiling.',
-  emergencyParagraph:
-    'If your fan smells burnt, looks scorched or melted, sparks or smokes, switch it off at the wall or breaker if safe. Any smoke or fire means getting out and calling 911. A fan that trips the breaker or drips from the grille should be seen soon. In Monroe, most calls get a same-day visit, weekends included.',
   commonIntro:
     'In the newer subdivisions and around the original town center in Monroe, homeowners tend to call about one of these four things.',
   localFaqs: [

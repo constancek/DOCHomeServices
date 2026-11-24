@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Covedale is a neighborhood of owner-occupied houses, and many date from the building boom after the war. On the Green Township side, Census figures count 915 of 2,766 homes from the 1950s alone, and 2,639 are single detached houses. Bathrooms from that era often got a small fan, or none, and later fans were sometimes run into the attic. On the Cincinnati side, the houses are older still. We check where the duct ends and how much air the fan pulls, then quote the fix before we cut.',
-  emergencyParagraph:
-    'Stop using the fan if you smell burning, the housing looks warped or melted, it sparks or smokes, water drips through the grille, or the breaker trips when you switch it on. Cut the power at the switch or breaker if that’s safe. For fire or smoke, leave and call 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Most houses in Covedale are lived in by their owners, and these are the fan problems those owners call us about most often:',
   localFaqs: [

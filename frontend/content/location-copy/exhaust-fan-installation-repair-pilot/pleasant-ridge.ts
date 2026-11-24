@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Ridge, prewar houses and two-families line the streets off Montgomery Road, and Census figures date just over half the homes to 1939 or earlier. Bathrooms in those houses frequently have no fan, or one fitted during a later remodel that exhausts into the attic. The postwar houses usually do have a fan, but it’s often too weak for the room. A little under half of households rent. Our electrician checks the pull and the duct’s exit, then quotes the fix before any ceiling work.',
-  emergencyParagraph:
-    'A fan in Pleasant Ridge that stinks of overheated plastic, has a cover that’s scorched or drooping, crackles with sparks, smokes, kicks the breaker off or drips through its grille needs its power cut at the wall or panel, if that’s safe. With smoke or flames, get out and call 911. Most calls are seen the same day, weekends too.',
   commonIntro:
     'From the two-families off Montgomery Road to the older houses near Ridge Avenue, these signs come up most:',
   localFaqs: [

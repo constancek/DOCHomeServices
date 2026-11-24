@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Wyoming is mostly single houses, 2,758 of its 3,095 homes by Census figures, with 1954 as the typical build year. In the Village area, the Victorian houses had bathrooms long before bath fans were common, so a fan was usually added later and often ducted to the attic. Over in the Wyoming Hills, the 1950s houses tend to keep a small original fan. We track the exhaust to its end in either case and price the fix before any plaster is cut.',
-  emergencyParagraph:
-    'Don’t leave a fan on if it smells of burning, sparks, smokes or its housing has scorched or softened, or if the breaker trips on it. Turn the breaker off if that’s safe. A drip from the grille deserves the same hurry. Fire or heavy smoke means leaving and calling 911. Most calls are same day, weekends included.',
   commonIntro:
     'From the Victorian houses in the Village area to the 1950s streets of the Wyoming Hills, these are the signs we see most:',
   localFaqs: [

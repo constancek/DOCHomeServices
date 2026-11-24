@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Housing skews young in Dent.Half its houses postdate 1995 by Census count, and over two in five arrived in 2000 or after, which usually leaves a spare breaker position for a spa. So on most lots here, the deciding question becomes how long the conduit trench out to the tub must be. Townhome and condo owners, a sizable group here, start with the association’s permission. We hold the spa’s wiring sheet up to your panel and put a figure in writing ahead of any shovel.',
-  emergencyParagraph:
-    'Phone us quickly in Dent when a spa breaker refuses to stay on, the shutoff gives off a hot odor, the panel buzzes, or a bather feels tingling. Everybody climbs out, and nobody touches the controls. Switch power off only when that feels safe; smoke means leaving and dialing 911. We reach most calls that same day.',
   commonIntro:
     'Newer houses and townhomes make up much of Dent, and their spa calls usually look like these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'In Lower Price Hill, most charger requests start with the building owner, since Census figures show more than four in five homes here are rented. The housing is old, too, with nearly two-thirds built in 1939 or earlier, much of it in two-families and small multi-unit buildings. Their services were sized long before anyone plugged in a car. When an owner calls, we open the panel, do the load calculation, say if a 120-volt cord will do, and price it before any work.',
-  emergencyParagraph:
-    'Charging should stop if a plug or outlet runs hot or black, something smells burnt, or the car’s cord is on an extension cord. Go to the breaker only if nothing near the panel is wet or warm. Should smoke or flame appear, get outside and call 911. Tell the landlord; we can usually come that day, weekends as well.',
   commonIntro:
     'Owners of two-families and small apartment buildings tend to call about one of these in Lower Price Hill:',
   localFaqs: [

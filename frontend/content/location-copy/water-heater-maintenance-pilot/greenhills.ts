@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'The original homes in Greenhills were planned without basements, so the water heater often sits on the main floor, and in some units the mechanicals are in a crawl space. Census figures put the median home at 1955, with 52.1% built between 1940 and 1959, so we expect older flue pipes, drain valves and gas lines around the tank. A tight space changes how we drain and flush, not whether we can. You get the price first, and we’ll say if a tank isn’t worth it.',
-  emergencyParagraph:
-    'A leaking tank on a main floor soaks the tile: close its cold-water valve, kill gas or breaker, book a repair. Gas smell in a townhome: out, no switch flipped, nothing relit, gas company called from outside. Carbon monoxide alarm: house empties first. Relief valve discharge that won’t quit, or a cold tap, needs repair. Same-day on most, weekends too.',
   commonIntro:
     'With no basements in the original plans, a water heater in Greenhills is easy to overlook. These signs mean it’s due:',
   localFaqs: [

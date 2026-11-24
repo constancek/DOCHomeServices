@@ -9,7 +9,6 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'water-heater-maintenance',
   serviceName: 'Water Heater Maintenance',
-  emergencyHeading: 'Water Heater Problems That Can’t Wait in {neighborhood}',
   eyebrow: 'Plumbing',
   hubLabel: 'Water Heater Maintenance',
   parentCrumb: { label: 'Plumbing', href: '/services/plumbing' },

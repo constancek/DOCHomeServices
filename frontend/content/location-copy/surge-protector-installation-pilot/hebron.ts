@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Census numbers for the 41048 ZIP show the typical house was built in 2002, nearly half went up during the 2000s, and almost all are single houses, about a third of them heated with electricity. Houses this new are full of what surges wear down, like heat pumps, furnace boards and smart thermostats. Breaker boxes from those years usually have room, but we confirm placement before quoting. We start with the box, tell you if strip protectors would cover what you have, and set the price before any work.',
-  emergencyParagraph:
-    'Call us today if the breaker box smells burnt, an outlet has gone black, or an appliance smoked when the power returned. If lights through the house surge and dim, your electric utility should check first. Turn that circuit off only while dry. Smoke or flames mean getting out and calling 911. Same-day visits are usual, weekends too.',
   commonIntro:
     'In the subdivisions of 2000s houses around Hebron, these four signs are what we hear about most.',
   localFaqs: [

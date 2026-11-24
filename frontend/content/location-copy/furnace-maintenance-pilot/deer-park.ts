@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Deer Park at 1947, and gas heats 77.4% of homes. So the furnace we tune is almost always gas, down in a basement, and seldom the first one that house has owned. Its vent pipe tends to run into a chimney that went up with the house, which is why the flue connection and heat exchanger take most of our attention. The price is set before a panel comes off, and a furnace that needs nothing gets told so.',
-  emergencyParagraph:
-    'Gas smell: everyone walks out, nobody touches a switch or the pilot, and the gas company gets called from the sidewalk. A carbon monoxide alarm clears the house the same way. Furnace dead in a hard freeze, cycling every few minutes, or burning a yellow, wavering flame: that’s repair. Babies and grandparents chill first. Same-day on most calls, weekends too.',
   commonIntro:
     'From Deer Park, most of our fall calls start with one of these:',
   localFaqs: [

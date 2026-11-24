@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'Western Hills is a loose name, not one town, so a fan job here may land in Cincinnati, Cheviot or Green Township. Most houses date from the 1950s and 1960s, and Census figures for the 45238 ZIP show about six in ten are single detached homes. Kitchens and bedrooms in those houses usually have one center fixture on a shallow pancake box, and dens added later often have none. We check the box first, say when tightening is enough, and price it before anything comes down.',
-  emergencyParagraph:
-    'Get us out the same day if a fan lurches hard, the box has dropped from the joist, or the motor smokes or smells hot. If it’s safe, shut it off at the switch or panel and keep kids clear of it. If anything burns, get out and call 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'On the postwar streets around Glenway Avenue and Ferguson Road, these are the fan complaints we hear first.',
   localFaqs: [

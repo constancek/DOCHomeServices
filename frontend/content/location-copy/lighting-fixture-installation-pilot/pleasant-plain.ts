@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Parlours and back bedrooms that have made do with table lamps are what bring us out to Pleasant Plain, and adding a first overhead light rests on threading cable up through old walls. Census figures for this small Harlan Township village put roughly three of every four before 1940, almost all freestanding. Homes of that vintage tend toward plaster ceilings, few boxes and nothing grounded overhead. Owners live in most of them. Once we’ve seen the wiring, you get one firm number.',
-  emergencyParagraph:
-    'Plaster cracking round a fixture, a scorched odour from a socket, or a toggle humming warm shouldn’t wait for Monday. If the panel is safe to reach, shut off that circuit and steer everyone away from below. Flames or smoke, leave first, then dial 911. Out here we usually manage it that same day, Saturdays and Sundays too.',
   commonIntro:
     'Out in Harlan Township, the fixture jobs we see most in Pleasant Plain are these four.',
   localFaqs: [

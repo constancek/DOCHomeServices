@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Just east of I-275, Mulberry is younger than most places we work. The Census median year built is 1988, and attached houses and apartments outnumber detached ones. Boxes from the 1980s and later often still have an open space, and these homes are full of what spikes harm, from electric heat and central air to appliances run by control boards. Condo owners should clear the work with the association first. We look at the panel, say when a strip is enough, and agree the price before work begins.',
-  emergencyParagraph:
-    'Phone us if an outlet looks scorched or gives off a hot smell after a storm, or if a breaker trips the instant it’s reset. Most calls are covered the same day, weekends included. Turn the circuit off only if you can do it without risk, and if you see smoke or fire, leave the unit and dial 911.',
   commonIntro:
     'In the townhouses, apartments and newer houses near Meijer Drive and State Route 28, these are the signs that bring us out for surge protection in Mulberry.',
   localFaqs: [

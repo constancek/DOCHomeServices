@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'A charger in Turpin Hills is usually a homeowner’s project on a 1970s or 1980s house. Census figures show nearly nine in ten homes are detached and more than nine in ten are owner-occupied, with the median built in 1977. Houses of that vintage often have a panel already crowded with heat, cooling and kitchen circuits, yet many still have enough capacity once the numbers are run. We check the panel and the load before anything else, admit it when the slow cord suffices, and commit to the price beforehand.',
-  emergencyParagraph:
-    'A receptacle, plug or charger that’s too hot to touch, charred or sagging, a burning odour near the wall unit, or one breaker tripping on every charge all mean unplug and wait for us. Flip it off at the panel only from dry ground. Smoke or fire means leaving and dialling 911. Most calls get help that day, weekends included.',
   commonIntro:
     'Among the owner-occupied houses of Turpin Hills, the requests we get for a charger tend to fall into these four.',
   localFaqs: [

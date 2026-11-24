@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'In Hyde Park, half of the housing predates 1940, by Census figures, and the panels in those basements were filled up long before anyone pictured a backyard spa. So the first question on a spa job here is whether that panel can take one more large breaker, physically and in load. If it can’t, we fix that first. The spa itself gets its own 240-volt run, GFCI protected, with a shutoff and bonding, and an inspector signs off. You see our number, panel included, before a single trench is dug.',
-  emergencyParagraph:
-    'Call if the spa’s GFCI won’t hold, if the shutoff box by the tub smells scorched, or if a bather says the water feels electric. Climb out and kill the breaker only when you can reach it without risk. Smoke means everyone leaves and someone dials 911. We send someone the same day on most of these, weekends too.',
   commonIntro: 'Four things tend to put an owner in Hyde Park on the phone with us.',
   localFaqs: [
     {

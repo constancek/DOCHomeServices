@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Newtonsville is now part of Wayne Township, and nearly every house out here stands on its own lot, with 89.2% owner-occupied by Census figures. Natural gas barely reaches the area, and about one household in six burns fuel oil. So a ductless system does double duty, cooling the rooms the old ducts skipped and giving an oil-heated house a second, electric heat source. Additions, basements and manufactured homes get heads too. Our number is settled before anyone drills, and if ductless won’t pay off for you, we say so.',
-  emergencyParagraph:
-    'Around 21 afternoons a year top 90F, per the National Weather Service, and a back bedroom with no airflow turns risky for an aging parent, a newborn or someone short of breath. New installs are booked fast, one head in about a day. An existing unit that quit needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'On the farm roads and side streets around Newtonsville, ductless estimates usually begin with one of these:',
   localFaqs: [

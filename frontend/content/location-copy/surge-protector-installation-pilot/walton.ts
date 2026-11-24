@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton has two kinds of housing. Census figures show about one home in five predates 1960, in the historic core near South Main Street, while more than half went up after 2000. In older houses, the breaker box may be small or crammed, and what’s inside it governs where a protector can mount. The newer ones hold more to lose, from heat pumps to washers with touch panels. We look in the box before quoting, say when strips will do, and settle a flat price with you before starting.',
-  emergencyParagraph:
-    'If the furnace or washer threw sparks as the power came back, an outlet gives off a hot plastic smell, or a breaker drops again after you reset it, call us; most of those calls get a same-day visit, Saturdays and Sundays included. Switch that breaker off only if it’s dry, and if there’s smoke, get out and phone 911.',
   commonIntro:
     'Both the old-town houses near South Main Street and the newer subdivisions turn up these four signs in Walton.',
   localFaqs: [

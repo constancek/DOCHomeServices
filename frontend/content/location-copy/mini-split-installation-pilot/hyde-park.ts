@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Hyde Park has plenty of houses older than central air. By Census figures, 51.6% of homes here were built in 1939 or earlier, and those plaster walls and third floors were never framed with a duct path in mind. A ductless head cools such a room without a chase cut through anything. Around a third of households live in apartment buildings with five units or more, and there the building owner decides. You get a flat price before we drill, and an honest no if ductless won’t help.',
-  emergencyParagraph:
-    'A third-floor bedroom in Hyde Park stays miserable through the roughly 21 days a year above 90F that the National Weather Service records. Babies, aging relatives and anyone ill need a cooler room. Single-zone jobs get scheduled soon and mostly take a day. A ductless unit that quit is a Mini-Split Repair visit, usually same day, weekends too.',
   commonIntro:
     'In Hyde Park, a ductless quote usually starts with one of these rooms:',
   localFaqs: [

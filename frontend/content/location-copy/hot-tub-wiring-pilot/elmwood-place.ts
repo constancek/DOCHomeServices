@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'In Elmwood Place, a lot of houses sit on little ground, and Census figures put the typical one at 1938, with most homes rented. A panel in a house that old is usually full or close to its ceiling, so we clear space and capacity for the spa breaker first. Narrow lots keep the conduit run short but leave little room to set the tub and its shutoff off the fence line. We match your panel to the spa maker’s numbers and price it up front.',
-  emergencyParagraph:
-    'Leave the spa off if its GFCI won’t reset cleanly, the shutoff smells scorched, or a bather notices a tingle, and get everybody out without grabbing metal. Kill power only when safe, and dial 911 for smoke or fire. Spa gear that sat in Mill Creek flood water stays unpowered until we test it. Same-day calls are routine, weekends too.',
   commonIntro:
     'Along the tight streets off Vine Street, these four bring us most spa work.',
   localFaqs: [

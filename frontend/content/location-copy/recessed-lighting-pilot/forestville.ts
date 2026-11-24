@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'We fit a lot of recessed lighting over islands and long counter runs between Beechmont Avenue and Five Mile Road. Census figures date the typical house in Forestville to 1981, and drywall under an attic is the usual top-floor ceiling, which cuts cleanly. Just over half the homes are detached; the others are mostly townhouses, condos and big apartment complexes, where an owner or board signs off on ceiling work. We pin down positions and price ahead of the first cut.',
-  emergencyParagraph:
-    'Water dripping from a downlight, a scorched drywall ring around a can, or a breaker that kicks off as those lights come on is urgent. Flip that circuit off if the panel is safe to get to. With smoke or flames, get the household out, then phone 911. Most calls get a visit that day, Saturday or Sunday included.',
   commonIntro:
     'Off Beechmont Avenue and Five Mile Road, most of the homes we light date from the 1980s and 1990s. The recessed lighting jobs below are the usual ones.',
   localFaqs: [

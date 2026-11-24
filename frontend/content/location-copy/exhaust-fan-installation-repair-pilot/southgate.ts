@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Southgate’s housing falls into three groups, each with its own fan trouble. Census figures show more than a quarter of homes built before 1940, a large wave from the 1980s and 1990s, and about two in five units in apartment and condo buildings. The prewar houses often got a bathroom fan only during a later remodel, frequently vented to nowhere useful. The newer ones have fans that are simply worn or too small. We find out where the air goes and give you the price before touching drywall.',
-  emergencyParagraph:
-    'Stop using a fan with a charred or drooping housing, a burning odor or sparks, one that pops its breaker, or one dripping water onto the ceiling. Shut it off at a safe switch or breaker, and for smoke or flames, go outside and call 911. We come same day on most calls, weekends included.',
   commonIntro:
     'Across the older houses, the 1980s and 1990s streets and the condo buildings in Southgate, these four signs show up most.',
   localFaqs: [

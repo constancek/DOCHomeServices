@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Census figures show two-thirds of the housing in Norwood was built in 1939 or earlier, and a little over half the households rent. Houses that old have soaked up a century of electrical add-ons, so open room in the panel can be scarce and our check settles where a surge device goes. Owners who retrofitted central air or bought new appliances have the most riding on it. You’ll get a flat price before any work, plus a plain word if strips are all you need.',
-  emergencyParagraph:
-    'Call that day about a switch cover turned brown, an acrid odor at the panel, a breaker that snaps off each reset, or a washer that smoked as power returned; most calls get a visit that day, weekends counted. Rooms brightening and fading at once mean phoning the electric utility first. Smoke or flames mean calling 911 from outside.',
   commonIntro:
     'Retrofit cooling and side-by-side two-families shape most of what we see, and these four signs tend to show up first in Norwood.',
   localFaqs: [

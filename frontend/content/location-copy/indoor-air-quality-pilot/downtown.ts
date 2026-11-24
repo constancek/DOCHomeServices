@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Census figures show nearly nine in ten homes in Downtown Cincinnati are rented, most of them apartments in large buildings, so a manager or owner usually makes the equipment call. The stock splits between prewar buildings and towers finished since 2010. The old ones can be drafty, and the new ones are sealed tight enough that stale air stays put. Electric heat is the norm, which dries winter air. We test first, quote a fixed price before work, and say so when a filter change will do.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm sounds, clear the unit and ring 911. Smelling gas means leaving with every switch untouched and phoning the gas company outdoors. A burnt odor from the vents means turning the thermostat off. Mold spreading after an upstairs leak is urgent for babies, older relatives and asthmatics. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Residents, condo owners and managers bring us these problems most in Downtown Cincinnati:',
   localFaqs: [

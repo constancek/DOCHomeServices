@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Most of Park Hills was built from the 1920s to the 1950s, with a median home of 1953 in Census figures. On those hillside lots the water heater tends to sit in a basement whose drain valve and vent connector have some years on them. Apartments make up 30.1% of homes, a closet heater in each unit, booked whenever the landlord says. Gas is common here, so burners feature on most visits. Price first, and a straight answer if the tank isn’t worth the spend.',
-  emergencyParagraph:
-    'Some things in Park Hills skip maintenance and go to repair. Leaking tank: cold valve at the top off, then gas or breaker. Gas smell: everybody out, hands off switches and pilot, gas company called from the street. Carbon monoxide alarm: out first. A relief valve that keeps dumping, or no hot water: most get same-day help, weekends included.',
   commonIntro:
     'Here’s what tends to put a working water heater in Park Hills on our list:',
   localFaqs: [

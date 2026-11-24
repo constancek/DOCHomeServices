@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'Households in California tend to own the heater they live with. Census figures show 88.0% of homes owner-occupied and no apartment buildings at all, with the median house dating to 1968. So a maintenance call here is mostly a gas tank in the basement or laundry room of a split-level or ranch off Kellogg Avenue, a drain valve stiff from disuse and gas piping we trace from the meter in. Before we begin you’ll know the figure, and if the heater is past helping, we’ll tell you plainly.',
-  emergencyParagraph:
-    'Not tune-up material. Tank leaking: shut the cold inlet up top, then the gas or breaker. Smell gas: walk out, flip nothing, relight nothing, and phone the gas company from the yard. A carbon monoxide alarm empties the house first. A relief valve that keeps running or a cold tap needs repair too, usually same day, weekends included.',
   commonIntro:
     'Most heaters in California are working when we arrive. These are what get owners to book anyway:',
   localFaqs: [

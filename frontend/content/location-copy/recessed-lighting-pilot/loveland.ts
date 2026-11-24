@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'In Loveland, most houses climb the hills around a river-valley downtown, and Census figures put their median at 1985, with well over half built from 1980 forward. Ceilings from those decades are usually drywall under an attic, and the kitchens tend to be open, so cans go in cleanly. A handful of older homes near the Little Miami still carry plaster and tight cavities. Each job starts with can locations marked on the ceiling and a flat price you approve.',
-  emergencyParagraph:
-    'Shut the breaker for any recessed light in Loveland that smells like burning, has a trim too hot to hold or has scorched the drywall around it, so long as the panel is safe to reach. Smoke or flame means getting out and calling 911. Most calls get a visit that same day, weekends included.',
   commonIntro:
     'Since most homes in Loveland date from the 1980s on, these four requests fill our schedule there:',
   localFaqs: [

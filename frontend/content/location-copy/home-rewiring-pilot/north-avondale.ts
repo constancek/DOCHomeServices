@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'Close to two in three homes in North Avondale are older than 1940, and the Census median is 1938. Behind the plaster, original knob-and-tube may survive, or cloth-insulated cable that was never grounded, feeding two-slot receptacles in rooms that now hold home offices and window units. Many apartment buildings in the neighborhood are just as old. Nothing gets priced until we’ve metered it. If the original wiring checks out, you hear that, and the scope and fixed price come in writing before a wall is touched.',
-  emergencyParagraph:
-    'Same-day calls include a receptacle that’s turned black or hot, a switch that buzzes, a burnt smell coming from a ceiling and a breaker that keeps refusing to reset. Only shut that circuit off if the panel is dry and easy to reach. Smoke or fire means getting everybody onto the sidewalk and calling 911. Weekends are no exception.',
   commonIntro:
     'In the big pre-war houses along Rose Hill Avenue and Clinton Springs Avenue, and the apartment buildings near them, aging wiring tends to announce itself like this:',
   localFaqs: [

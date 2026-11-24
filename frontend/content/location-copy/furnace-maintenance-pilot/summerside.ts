@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'Most homes in Summerside were built from the 1960s to the 1990s, and by Census figures about a third sit in buildings of five or more units. That gives us two kinds of tune-up: a basement or garage furnace in a house that has likely already replaced its first one, and a closet furnace in a condo or apartment, which the owner or landlord books. Gas heats 59.1% of homes, so burners and venting are part of most visits. We price first and tell you if your furnace needs nothing.',
-  emergencyParagraph:
-    'Gas smell: go, keep your hands off the switches, and ring the gas company once you’re out. With a carbon monoxide alarm, empty the house first. No heat in a cold snap, a furnace that keeps dropping out, or a yellow flame means repair. Babies and older relatives are most at risk. Most get a same-day visit, weekends included.',
   commonIntro:
     'Across the houses, condos and apartment buildings of Summerside, a fall booking usually starts with one of these:',
   localFaqs: [

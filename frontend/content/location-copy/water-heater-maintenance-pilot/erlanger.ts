@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'Most of Erlanger went up from the 1950s on; the median year built is 1976, by Census figures, and 32.9% dates from 1990 or later. Those houses usually need a plain drain, an anode look and a relief test on a heater in the garage or basement. The older houses get extra care at the drain fitting and flue, and apartment buildings have the landlord book each closet heater. You get the price first, and an honest no if servicing won’t pay.',
-  emergencyParagraph:
-    'Some problems need a repair, not a tune-up. Leaking tank: close its cold-water inlet on top, then the gas or breaker. Gas smell: get out, hands off switches, don’t relight, phone the gas utility outside. Carbon monoxide alarm: the household out first. A relief valve dribbling nonstop, or no hot water, can’t wait. Most are same day, weekends included.',
   commonIntro:
     'People in Erlanger usually book a service for one of these reasons:',
   localFaqs: [

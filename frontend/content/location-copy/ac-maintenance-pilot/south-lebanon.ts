@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'Subdivisions built since 2000 hold most homes in South Lebanon; Census figures show 65.9% went up in that span, with a median of 2007. Cooling there came with the house, so a visit is mostly coil, filter, drain line and wiring, plus a hard look at builder-grade parts now well into their run. The older streets near the Little Miami got their air later and need more care. You hear the price first, and a system that needs nothing is left alone.',
-  emergencyParagraph:
-    'Call for repair, not upkeep, if the house keeps heating up with the AC on. Frost on the lines means thermostat off until it thaws. Leave it off if water collects under the air handler or a breaker won’t hold. Babies, aging parents and the sick feel it soonest. Most calls get same-day help, weekends included.',
   commonIntro:
     'Around South Lebanon, a spring visit tends to start with something like this.',
   localFaqs: [

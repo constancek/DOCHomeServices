@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Milford is an old river city, and its housing pulls surge protection two ways. Census figures put the median home at 1968, about one in five went up in 1939 or earlier, and roughly half of households rent, many in larger apartment buildings. The older houses near Main Street often have small or full panels, so the panel check comes before any talk of devices. Newer units carry more electronics worth guarding. If strips would do, we tell you, and the flat price is agreed before work begins.',
-  emergencyParagraph:
-    'Don’t sit on a charred switch, a panel that smells like hot plastic after a surge, a breaker that pops again on reset, or an appliance that sparked as power returned. Cut the circuit only if the floor is dry and the panel is cool. With smoke or flames, leave and dial 911. Same-day visits on most calls, weekends too.',
   commonIntro:
     'From pre-war houses by the Little Miami to apartment buildings and newer homes, these four signs come up most in Milford.',
   localFaqs: [

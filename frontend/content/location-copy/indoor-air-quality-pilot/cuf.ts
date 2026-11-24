@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'Census figures count more than four in five homes in CUF as rentals, so the owner or manager usually decides what goes on the system. Clifton Heights and Fairview are mostly pre-1940 houses, many now flats, and they leak air through old windows, collect damp below ground and push dust through tired ductwork. The large 1970s blocks suffer stale, recycled air instead. We read the air before suggesting anything, quote a fixed price ahead of the work, and tell the owner if a filter swap is all it needs.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means clearing the flat before calling 911. If gas is in the air, leave the switches alone and ring the gas company from outside. If the heating smells scorched, set the thermostat to off. Mold spreading from a leak upstairs is urgent for babies, older tenants and asthmatics. Most calls are seen that day, weekends too.',
   commonIntro:
     'Around CUF, landlords and tenants report these most often:',
   localFaqs: [

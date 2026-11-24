@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain is a small village where Census figures show about three in four homes were built in 1939 or earlier, nearly all of them single houses. Panels in houses that old are often small or full, so room for the device is never a given. Almost no homes have piped gas, so heat comes from electric systems or oil furnaces with control boards that surges wear on. Expect a panel check before anything else, a straight answer if strips will do, and a price set before work starts.',
-  emergencyParagraph:
-    'A scorch mark on an outlet or panel, a burning smell after a storm, or an oil furnace that smoked when the power came back needs us that day, and most calls get it, weekends included. Shut that circuit off only if you can stay dry doing it. Smoke or fire means leaving the house and calling 911.',
   commonIntro:
     'With nearly every home here built before 1960, these are the signs we look for in Pleasant Plain.',
   localFaqs: [

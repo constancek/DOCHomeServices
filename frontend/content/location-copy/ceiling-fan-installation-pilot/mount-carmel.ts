@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Most fan work in Mount Carmel means a postwar ranch or split-level whose bedroom still carries the shallow box behind a flat glass light. Census figures date the median home to 1973, and roughly one home in four is an apartment in a larger building. That shallow box was sized for a light, not a motor that spins and pulls. We look at it first, admit it when a snug bracket is the whole cure, and fix the price while the old light still hangs.',
-  emergencyParagraph:
-    'Kill the power to a fan that is swinging wide, sagging off the drywall, smelling like hot plastic or knocking the breaker out, using the panel if you can reach it safely, and keep the room underneath empty. A fire is a 911 call from outside the house. We’re usually there the same day, weekends included.',
   commonIntro:
     'Postwar ranches, 1970s split-levels and the larger apartment buildings bring us most fan calls in Mount Carmel.',
   localFaqs: [

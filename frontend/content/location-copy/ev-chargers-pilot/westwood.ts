@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Westwood is Cincinnati’s largest neighborhood, and much of its housing is apartment buildings. By Census figures about two in three homes are rented and one in three is a single detached house, so plenty of charger requests start with a landlord or manager. Over half the housing went up from the 1940s through the 1970s, and panels of that age are often crowded. We look inside the panel and tally the load before quoting, tell you if the cord you own is enough, and price the job up front.',
-  emergencyParagraph:
-    'Renters who find a plug, outlet or wall unit hot or darkened, smell burning, notice a crushed cable or watch a breaker keep tripping should stop charging and tell the landlord. Owners can flip that breaker off if the floor is dry. Get out and call 911 at any sign of smoke or fire. Most calls are same-day, weekends too.',
   commonIntro:
     'In Westwood, these are the requests and problems that usually lead to a call about charging.',
   localFaqs: [

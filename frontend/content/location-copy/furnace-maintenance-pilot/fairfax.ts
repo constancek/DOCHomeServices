@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Nearly half the houses in Fairfax, 46.5% by Census figures, were built before 1940, and 77.2% of homes heat with gas. The usual job here: a gas furnace down in the basement, probably the house’s second or third, its flue running into an old masonry chimney. That flue, the chimney joint and the heat exchanger get the longest look, after the filter and blower. You agree to the price before anything starts, and a furnace that needs nothing is left alone.',
-  emergencyParagraph:
-    'A furnace in Fairfax needs a repair, not maintenance, when it shows danger. Gas smell: walk out, flip nothing, call the gas company from outside. Carbon monoxide alarm: everyone out. A lazy yellow flame, constant restarting, or no heat in a freeze count too, above all with a baby or older parent home. Most are same day, weekends included.',
   commonIntro:
     'Older gas furnaces in pre-war basements make up most of our fall work in Fairfax. Owners tend to book after noticing:',
   localFaqs: [

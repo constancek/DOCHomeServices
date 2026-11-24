@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Dent is young for the west side, with a Census median build year of 1995 and 42.9% of homes from 2000 or later. Ductless here rarely means a house with no ducts. It’s the room the builder’s system shortchanges, such as a finished basement, the space over the garage or a sunroom. Another 25.9% of homes sit in buildings of five or more units, where an association or owner has the final word. We set a flat figure before work, and we’ll say so if ductless isn’t needed.',
-  emergencyParagraph:
-    'A room over a garage can climb well past the 86F July normal high the National Weather Service lists. Older relatives, babies and anybody with breathing trouble need watching. We fit installs in fast, and one wall unit takes about a day. A dead system you own needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Across the newer houses, townhomes and condos of Dent, these are the spaces behind most ductless requests:',
   localFaqs: [

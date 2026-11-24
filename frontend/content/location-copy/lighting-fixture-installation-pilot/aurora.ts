@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'In Aurora, plenty of fixture calls come from people done squinting under incandescent globes and ready for LED fixtures that brighten a whole room. The ceiling box, a ground wire and whether the spot already has a light decide how simple that is. Census figures set the middle home in this river city at 1952, with nearly two in five raised before 1940, often under plaster with worn boxes and no ground. Duplexes and fourplexes are common. We quote after opening the box, before anything is unhooked.',
-  emergencyParagraph:
-    'A fixture working loose, the smell of hot insulation, melted plastic by a switch, or lamps dimming and surging in several rooms deserve a look today. Flip that breaker if reaching it is safe, and nobody should linger beneath the light. With smoke or fire, get outside and dial 911. Weekends included, Aurora usually sees us the same day.',
   commonIntro:
     'From the hillside streets to the riverfront, Aurora keeps us busy with these four.',
   localFaqs: [

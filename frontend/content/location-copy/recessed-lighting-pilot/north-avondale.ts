@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'In North Avondale, most calls about cans begin with a heavy old pendant or chandelier somebody is tired of. Census figures put the median house at 1938, with nearly two-thirds built in 1939 or before, so the big Queen Anne and Craftsman homes along Rose Hill and Clinton Springs tend to have plaster ceilings, deep joists and parlors centered on one fixture. Apartment buildings toward Reading Road bring shared ceilings into it. We look above first, then pencil the layout and fix the figure before cutting.',
-  emergencyParagraph:
-    'A can giving off a singed odor, plaster turning brown around a trim, or a fixture hot enough to sting your palm shouldn’t wait until Monday. Shut the breaker off if it’s safe. If you see smoke or fire, get out and dial 911. We’re there same day on most calls, weekends included.',
   commonIntro:
     'These are the jobs we do most often in the older houses and apartment buildings of North Avondale.',
   localFaqs: [

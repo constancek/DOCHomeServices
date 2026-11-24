@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Most houses in Bellevue were built before 1940, according to Census figures, and very few bathrooms then had fans. Over the years, owners added fans during remodels, and many were ducted into the attic, a wall cavity or the space between floors. That moisture has nowhere to go but back into the house. Most homes here are owner-occupied, and plenty still have plaster ceilings and tight framing. We follow the duct to its real end and quote the repair or a new fan before cutting into plaster.',
-  emergencyParagraph:
-    'Burnt odor, sparks or a sagging, melted housing mean the fan gets switched off at the wall, or at the panel if reaching it is safe. Treat a grille that drips or a breaker that keeps dropping just as seriously. Smoke or flames mean leaving and dialing 911. An electrician is usually out the same day, weekends too.',
   commonIntro:
     'In the prewar houses near Fairfield Avenue and across Bellevue, these signs come up most:',
   localFaqs: [

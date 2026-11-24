@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'In North Avondale, a furnace tune-up usually happens in the basement of a big house from before the war. Census figures date 64.8% of homes to 1939 or earlier, and 58.9% heat with gas. Houses that old are often on their third furnace, still venting through the original masonry, so the draft and the heat exchanger take most of our time. The apartment blocks along Reading Road are booked by their owners. Pricing comes first, and we’ll tell you if a furnace needs nothing.',
-  emergencyParagraph:
-    'Never a tune-up: gas you can smell (get out, no switches, call the gas company from the street) or a carbon monoxide alarm (everybody outside). Same for a furnace gone cold in a freeze, a burner that lights and quits repeatedly, or a yellow flame. Infants, elderly parents and the sick suffer first. Same-day visits on most calls, weekends included.',
   commonIntro:
     'Owners of the big pre-war houses and doubles in North Avondale tend to call after spotting one of these:',
   localFaqs: [

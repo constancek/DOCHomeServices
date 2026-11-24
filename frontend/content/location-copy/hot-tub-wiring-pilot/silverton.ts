@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Silverton is a village of mid-century houses on slim lots, so a spa here usually means a tight backyard and a panel installed around the Eisenhower years. Census figures place the median home at 1959, and only about half the housing is detached houses. Panels from that era have often run out of spare positions, so clearing room for the spa breaker happens first. We line your panel up with the tub maker’s electrical sheet and set a price before conduit meets siding.',
-  emergencyParagraph:
-    'Get us out fast if the spa GFCI flips off the moment it’s reset, a burnt odor hangs around the shutoff, the panel crackles, or a bather feels a tingle. Everyone out, equipment left alone. Use the shutoff only when it’s safe; smoke or fire means getting out and calling 911. Most calls are same day, weekends too.',
   commonIntro:
     'On the slim lots off Montgomery Road, these spa jobs come up most for owners in Silverton:',
   localFaqs: [

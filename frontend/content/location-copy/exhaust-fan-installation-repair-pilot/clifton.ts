@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Clifton has some of the oldest housing we work in. Census figures show 2,799 of its 4,500 homes were built in 1939 or earlier, so many bathrooms started out with a window and a radiator and got a fan only when someone remodeled, often ducted into the attic or between joists. Renters hold 2,585 of the 4,079 occupied homes, which puts a lot of these fans in the hands of landlords. We find where the air actually goes and price the work before we open any plaster.',
-  emergencyParagraph:
-    'A fan that smells of scorching, a cover gone brown or droopy, sparks, smoke, water seeping through the grille or a breaker that trips each time the fan starts should be shut off at the wall or panel if that’s safe. Smoke or fire means getting out and calling 911. Expect a same-day visit on most calls, weekends too.',
   commonIntro:
     'In Clifton, fan calls split between old houses with plaster ceilings and apartment buildings with tired fans, and these four signs keep coming up:',
   localFaqs: [

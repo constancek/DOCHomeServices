@@ -120,8 +120,9 @@ export default function LocationServicePage({
       .split('{area}').join(site.serviceArea);
 
   const faqs = [...copy.localFaqs, ...config.sharedFaqs];
-  // One-format (rewritten) town pages have both a local and an emergency paragraph.
-  const oneFormat = Boolean(copy.localParagraph && copy.emergencyParagraph);
+  // One-format (rewritten) town pages have a local paragraph; most also have an
+  // emergency paragraph (the lighting services leave it out, so no urgent section).
+  const oneFormat = Boolean(copy.localParagraph);
 
   const businessSchema = {
     '@context': 'https://schema.org',
@@ -196,19 +197,24 @@ export default function LocationServicePage({
               {fill(config.promo)}
             </div>
           )}
-          {copy.localParagraph && copy.emergencyParagraph ? (
+          {copy.localParagraph ? (
             <>
-              {/* One-format layout: two headings, one paragraph each. */}
+              {/* One-format layout: a local heading and paragraph, then (where the
+                  service has one) an emergency heading and paragraph. */}
               <h2 className="section-title text-brand-700">
                 Local {config.localHeadingName ?? config.serviceName} Pros Who Know {loc.neighborhood}
               </h2>
               <p className="mt-4 text-[17px] leading-relaxed text-ink/75">{copy.localParagraph}</p>
-              <h2 className="mt-10 section-title text-brand-700">
-                {config.emergencyHeading
-                  ? fill(config.emergencyHeading)
-                  : `Emergency ${config.emergencyHeadingName ?? config.serviceName} in ${loc.neighborhood}`}
-              </h2>
-              <p className="mt-4 text-[17px] leading-relaxed text-ink/75">{copy.emergencyParagraph}</p>
+              {copy.emergencyParagraph && (
+                <>
+                  <h2 className="mt-10 section-title text-brand-700">
+                    {config.emergencyHeading
+                      ? fill(config.emergencyHeading)
+                      : `Emergency ${config.emergencyHeadingName ?? config.serviceName} in ${loc.neighborhood}`}
+                  </h2>
+                  <p className="mt-4 text-[17px] leading-relaxed text-ink/75">{copy.emergencyParagraph}</p>
+                </>
+              )}
             </>
           ) : (
             <>

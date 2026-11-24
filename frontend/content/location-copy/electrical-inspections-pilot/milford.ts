@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'In Milford the age of the house usually sets the inspection. Census figures show 69.7% of homes in the city went up before 1980, and nearly one in five before 1940. In those prewar houses near the river, cloth-covered or knob-and-tube wiring can still be in the walls, along with two-prong outlets and fuse boxes nobody upgraded. About half of Milford households rent, so landlords book us as often as owners. We test the whole system and put every finding in writing before quoting a fix.',
-  emergencyParagraph:
-    'Phone the same day if a Milford outlet is hot or humming, a switch plate shows scorch marks, something smells like burning insulation, sparks jump, or a breaker refuses to stay on. Shut off that circuit at the panel. If smoke or flame shows up, everyone outside, then 911. We usually get there that day, Saturdays and Sundays included.',
   commonIntro:
     'Milford calls split between prewar houses near Main Street and the city’s larger apartment buildings. What we find most:',
   localFaqs: [

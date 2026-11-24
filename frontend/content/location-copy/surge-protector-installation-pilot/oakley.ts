@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'Oakley is two neighborhoods in one. Census figures put nearly half the housing at 1939 or earlier, while roughly one home in eight is from 2000 on, many of those in apartment blocks. In the older houses the panel tends to be small or stuffed, which narrows the choice of where a protector can mount. The newer units hold more of what surges destroy, from heat pumps to app-controlled thermostats. We look before quoting, say so when strips are plenty, and lock the price in advance.',
-  emergencyParagraph:
-    'If an outlet shows scorch marks or a breaker drops the instant it’s reset, shut that circuit off, but only from dry ground. An appliance that smoked as the power came back needs us that same day, and most calls get one, weekend or not. If there is smoke or flame, leave first and call 911 from outside.',
   commonIntro:
     'Older houses off Madison Road and the newer buildings near Oakley Station show different signs, and these four come up most in Oakley.',
   localFaqs: [

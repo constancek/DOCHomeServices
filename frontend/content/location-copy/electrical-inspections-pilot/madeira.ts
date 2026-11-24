@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'Madeira is a city of 1950s houses, and that is what an electrical inspection here works around. Census figures give a median build year of 1960, with 29.5% of homes from the 1950s alone. Those houses were wired for far less than a household uses now: often a 60-amp or 100-amp panel, one or two circuits per bedroom, and grounding that may stop short of some outlets. We test the system, write down what it can and can’t carry, and price changes before work starts.',
-  emergencyParagraph:
-    'If a plug or switch is too warm to touch, buzzing or charred, if something smells scorched, or a breaker kicks off again the second you reset it, that circuit needs attention today. Shut its breaker off. With smoke or fire, get everybody out and call 911. We can usually be there the same day in Madeira, weekends included.',
   commonIntro:
     'In Madeira’s mid-century single-family homes, these are the findings we write up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Mount Washington sits on the city’s east edge, and its housing is mainly postwar, which sets the tone for a spring cooling visit. Census figures put just one home in nine before 1940, against nearly a third from the 1940s and 1950s, so lots of AC coils perch on furnaces whose ducts were laid out for heat alone. Renters hold four homes in ten, and their owners schedule. Hillside lots off Beechmont can tilt a condenser pad. You know the price beforehand, and sound equipment is left alone.',
-  emergencyParagraph:
-    'Warm air on a hot day, ice sleeving the lines, water running off the basement coil or a breaker that won’t hold means shut it down and book a repair. Some 21 days a year top 90F, per the National Weather Service, and the elderly, babies and the sick suffer first. Same day on most calls, weekends included.',
   commonIntro:
     'Along the postwar streets and among the apartment complexes up here, people tend to ring us about one of these:',
   localFaqs: [

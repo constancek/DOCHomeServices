@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'Plenty of bedrooms and dens around Colerain Avenue and Springdale Road were finished with a lamp outlet on the wall switch and nothing overhead, so wiring a first ceiling light into one of them is steady work in Northgate. Census figures date the middle house here to 1969, and over half went up during the 1960s and 1970s. Those ceilings usually hide a grounded cable, yet the joist bay above may be empty. We trace that route, open whatever box exists, and quote a fixed figure before drilling.',
-  emergencyParagraph:
-    'A canopy dropping from the drywall, a switch cover gone brown, or a breaker that snaps off whenever that light goes on can’t sit. Kill it at the panel if the way there is clear, and move everyone from beneath it. With flames or smoke, leave and phone 911. We can usually reach Northgate that same day, weekends included.',
   commonIntro:
     'Ranches and split-levels put up while Colerain Township filled in account for most fixture calls here, plus some units in the big complexes.',
   localFaqs: [

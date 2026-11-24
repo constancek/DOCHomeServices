@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Mount Healthy are rented, so landlords call us about fans about as often as owners do. Census figures date the median house to 1956, with close to three in ten built before 1940. In those rooms the ceiling box usually went in for one bare bulb and was never braced for something that spins all summer. We open it before quoting, say so when a loose blade or bracket is the only trouble, and price the job before the fixture comes down.',
-  emergencyParagraph:
-    'A fan bucking on its mount, a canopy tearing loose from plaster, a smoking motor or a sparking switch should be turned off right away. Use the switch or breaker if you safely can, and steer people around the floor under it. When there’s fire, go outside and call 911. Same-day help is normal for most calls, weekends too.',
   commonIntro:
     'Pre-war houses, 1950s houses and plenty of rentals drive most of the fan work we do in Mount Healthy.',
   localFaqs: [

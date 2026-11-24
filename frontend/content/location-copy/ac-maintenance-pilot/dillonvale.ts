@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale was laid out as a subdivision in the 1940s, and 73.2% of its homes were built between 1940 and 1959, by Census figures. None of those houses had central air when the first owners moved in. It was added later in most of them, sharing the furnace’s ducts, with the coil perched on top of the basement furnace. The tune-up focuses on that coil, its drain, the filter and the outdoor unit. We quote a flat price before any work, and if the system is sound, we say so.',
-  emergencyParagraph:
-    'Maintenance can wait; these can’t. An AC that stops cooling in a heat wave, ice on the refrigerant lines, a burning smell or a breaker that keeps tripping after a reset all need a repair visit. Set the thermostat to off if you see ice. Babies and older relatives suffer first. Same day on most calls, weekends included.',
   commonIntro:
     'In Dillonvale, these are the usual reasons a homeowner books a spring tune-up.',
   localFaqs: [

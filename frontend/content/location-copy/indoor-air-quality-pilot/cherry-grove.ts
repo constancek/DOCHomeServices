@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'In Cherry Grove, an air test usually points to the ducts or the lower level. Nearly every house here is a single-family home from the 1960s or 1970s off Beechmont Avenue; Census figures put the median year built at 1971, and nearly half of homes heat with electricity. Houses from that era often still run their original ductwork, which spreads dust room to room, and a lower level that turns damp in summer. We test before recommending, quote before working, and tell you if a new filter will do.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm sounds, the family steps out before calling 911. Gas in the air means walking out, switches untouched, to call the gas company. Should the furnace or AC smell burnt, turn the thermostat off. Spreading mold after a leak is urgent near infants, older parents and asthmatics, and most calls get a same-day visit, weekends too.',
   commonIntro:
     'Houses from the 1960s and 1970s in Cherry Grove tend to show air trouble in a few familiar ways:',
   localFaqs: [

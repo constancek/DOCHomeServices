@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Deer Park is mostly 1940s and 1950s houses, with a median of 1947 in Census figures, and a lot of them still run on a breaker box with hardly a slot to spare, so opening yours is step one. Gas heats most homes in the city, which means the furnace downstairs, with its control board and blower motor, is often the priciest thing a jolt could kill. We’ll say so if a strip or two covers what matters to you, and the price is fixed before work.',
-  emergencyParagraph:
-    'Burn marks on the panel or an outlet, or a breaker that trips the instant it’s reset, need us today, weekends included. Lamps throughout the house swelling and fading are Duke Energy Ohio’s to check first. Shut that circuit off if your hands, the floor and the panel are dry and cool. Smoke or flames mean leaving and calling 911.',
   commonIntro:
     'In Deer Park, owners of older houses tend to notice one of these before the subject of surge protection comes up.',
   localFaqs: [

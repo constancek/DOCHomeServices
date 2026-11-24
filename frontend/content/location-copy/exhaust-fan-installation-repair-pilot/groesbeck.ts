@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'Groesbeck’s housing peaked in the postwar decades. Census figures put the typical house at 1970, and a lot of those homes still carry the bathroom fan the builder installed, a small unit that gets noisier and feebler with age. Houses added since 2000 have fans as well, some of them too small for the bathroom. Apartment buildings account for much of the remaining stock. We locate where the air ends up and give you a repair price before a ceiling is opened.',
-  emergencyParagraph:
-    'Shut the fan off at the panel, if that’s safe, when it smells hot, looks scorched or warped, sparks, or kills the breaker as it starts. A drip from the grille also needs a look soon. Smoke or flames mean everyone leaves and calls 911 from outdoors. Most calls get us there that day, including weekends.',
   commonIntro:
     'Across the older houses, newer builds and apartment complexes of Groesbeck, four fan problems lead our list.',
   localFaqs: [

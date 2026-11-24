@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'In Millville, houses skew old. Census figures date the median one to 1958, and close to a quarter were built by 1939, so some may still carry knob-and-tube or cloth-sheathed wire without a ground. The 1960s and 1970s houses often lack enough kitchen circuits, and a few could have aluminum branch wiring. The March 2026 flood soaked many basements, so the wiring down there is worth testing. You get our findings, a straight answer if it passes, and a written scope with a flat price before any wall opens.',
-  emergencyParagraph:
-    'An outlet that smells scorched, a switch cover hot or charred, sparks, a shock off an appliance and a breaker that drops again after a reset get a same-day visit on most calls, weekends too. Keep clear of a wet basement panel, and touch any breaker only with dry hands. For smoke or flame, get out and phone 911.',
   commonIntro:
     'In a village of mostly prewar and postwar houses with basements, Millville tends to show wiring trouble in these ways:',
   localFaqs: [

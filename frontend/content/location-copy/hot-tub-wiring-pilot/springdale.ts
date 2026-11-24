@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Along the streets off Kemper Road and Springfield Pike, half of Springdale’s houses date from the 1960s and 70s, and Census figures put the median at 1971. A panel that age has often taken on central air and a kitchen remodel, so space for the tub’s breaker may be gone, and that’s fixed first. Where there’s room, we run the 240-volt ground-fault circuit, mount an outdoor cutoff and bond the tub. The panel is checked against the spa’s requirements and the price is set before conduit goes down.',
-  emergencyParagraph:
-    'Don’t reset a spa GFCI that keeps dropping out, and don’t ignore a scorched cutoff box or a tingle from the water. Get everyone out and leave the controls alone. If the breaker is dry to reach, switch it off, and if there’s smoke or fire, leave and call 911. We come same day on most calls, weekends included.',
   commonIntro:
     'Detached houses, townhouses and big apartment complexes share Springdale, and spa calls there usually start in one of these places.',
   localFaqs: [

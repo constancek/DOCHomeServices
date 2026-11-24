@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Covington is an old river city, and ductless fits it well. Census figures count 9,268 of its 21,048 homes as built in 1939 or earlier, with a median year built of 1947. Many of those houses were never ducted for cooling, and cutting chases through plaster across several floors is slow and costly. A wall head needs one small opening. With 48.2% of homes rented, owners make many of these calls. The quote is locked before drilling, and we’ll flag it if ductless won’t pay off.',
-  emergencyParagraph:
-    'On a July afternoon the area’s normal high is 86F, says the National Weather Service, and an attic flat in Covington gets hotter than that. Grandparents, infants and sick people are hurt first. Ductless installs are booked fast, and one head is a day’s work. A broken system goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'From the old houses around MainStrasse to the apartments in converted older homes, these are what usually start a ductless conversation:',
   localFaqs: [

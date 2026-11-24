@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Bond Hill was a railroad suburb before the city annexed it, and its housing shows that age. Census figures put nearly half of homes before 1940, with many doubles and small multi-family buildings among them. In houses like that, the air test tends to find a damp basement, drafts at old windows and ductwork that sends dust between floors. Where a landlord owns the double, the landlord picks the equipment. We test, quote a flat price before any work, and if the filter was the whole problem, we say that.',
-  emergencyParagraph:
-    'Nobody waits on a carbon monoxide alarm; walk out, then dial 911. If the house smells of gas, leave the lights alone and ring Duke Energy from the sidewalk. Smoke smells from the furnace or AC mean setting the thermostat to off. Mold spreading after water gets in hurts babies, grandparents and asthmatics most. Most get same-day help, weekends included.',
   commonIntro:
     'In the doubles and older houses of Bond Hill, these complaints come up again and again:',
   localFaqs: [

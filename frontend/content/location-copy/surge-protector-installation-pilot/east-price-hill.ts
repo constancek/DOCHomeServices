@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'In East Price Hill, most surge work begins with a landlord, because Census figures show close to two in three homes are rented. About two in five units date from 1939 or earlier, and their panels are often too small to take another device without rearranging. Houses put up in the 1960s, or gutted and redone since, hold more electronics worth guarding. We size up the panel ahead of any quote, admit when strips would serve a tenant just as well, and fix the price in writing first.',
-  emergencyParagraph:
-    'An outlet that smells like burnt plastic, or an appliance that popped when the lights came back, should bring us out, most often the same day, weekends too. When every light in the building pulses bright then dim, ring Duke Energy before us. Flip that breaker off only if it’s dry and reachable. Smoke means leave and call 911.',
   commonIntro:
     'Owners of walk-ups and two-families along Warsaw Avenue and the side streets tend to call us about these four things.',
   localFaqs: [

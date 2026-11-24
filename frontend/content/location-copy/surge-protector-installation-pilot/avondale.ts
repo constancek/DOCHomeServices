@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Three of every four households in Avondale rent, according to Census figures, and a large share live in three- and four-family buildings or bigger apartment blocks along Reading Road. Many of those buildings went up before 1940, so the panels feeding each flat tend to be small, and a protector has to fit beside whatever is already there. Owners and managers make that decision. Tenants usually need nothing more than good strips, and we’ll say so. For owners, we check every panel involved and quote one flat rate before work.',
-  emergencyParagraph:
-    'If every flat’s lights go bright and dim together, call Duke Energy, then us. Ring us that day for a blackened outlet, a panel smelling of burnt plastic, or a breaker that clicks off at once. Touch the breaker only if you’re dry. With smoke, leave and call 911. We respond same day to most calls, weekends included.',
   commonIntro:
     'Most of what we see in Avondale is rental housing, from old three-families to managed apartment buildings, and these are the signs that bring owners and tenants to us.',
   localFaqs: [

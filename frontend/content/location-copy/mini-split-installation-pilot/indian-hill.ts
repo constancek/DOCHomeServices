@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Indian Hill is a single-family house its owner lives in, and the median one dates to 1974, by Census figures. Houses of that era were generally built with ducts, so our ductless work here is mostly a finished lower level, a converted attic, a guest suite or a glass-walled sunroom. The 11.5% of homes from before 1940 can lack upstairs ducts entirely. You see a flat price before any drilling, and we’ll tell you if ductless isn’t worth it.',
-  emergencyParagraph:
-    'On the roughly 21 days a year at 90F or above (National Weather Service), afternoon sun turns a sunroom unbearable, and a top-floor guest suite isn’t far behind. Older relatives, babies and anyone ill take that heat hardest. Install dates come fast. A mini-split you own that quit needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In Indian Hill, owners usually reach out about one of these spaces:',
   localFaqs: [

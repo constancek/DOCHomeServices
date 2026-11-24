@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'In Bridgetown, recessed lighting work starts in the attic or the basement, depending on the room. The median house here was built in 1962 by Census figures, and 4,662 of the 5,930 homes are single detached houses, mostly built between the 1940s and the 1970s. That usually means an attic over the top floor with years of insulation in it, and a basement finished after the fact with a low, dark ceiling. We trace the route, lay out the lights and quote you before any drywall is cut.',
-  emergencyParagraph:
-    'Ceiling paint going brown around a can, a trim you can’t hold a hand near, or lights that drop out and return on their own are reasons to phone us that day. Throw that breaker if it’s safe. If smoke appears, get everybody out and call 911. Most calls in Bridgetown get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'In Bridgetown, recessed lighting mostly goes into postwar houses owned by the people living in them. These four jobs come up most.',
   localFaqs: [

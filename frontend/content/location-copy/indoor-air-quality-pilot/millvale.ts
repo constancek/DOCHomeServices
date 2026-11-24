@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Millvale is mostly rented, about nine in ten homes by Census figures, and roughly a third of residents live in public housing, largely 1950s townhomes, many of them recently renovated. That means the owner or the housing authority decides on air equipment, not the tenant. Renovated townhomes can be snug enough to hold stale air and cooking fumes, while older private rentals run drafty and dusty. For owners and managers, we test first, price each fix before work, and say so when a filter change is enough.',
-  emergencyParagraph:
-    'A carbon monoxide detector going off means emptying the unit, then calling 911. Smelling gas means walking out with switches untouched and phoning the gas company. Burnt odors from the heating or cooling mean turning the thermostat off. Mold creeping after a leak is serious for infants, seniors or asthmatics. Most calls see us that day, weekends too.',
   commonIntro:
     'Tenants and managers in Millvale tend to raise one of these:',
   localFaqs: [

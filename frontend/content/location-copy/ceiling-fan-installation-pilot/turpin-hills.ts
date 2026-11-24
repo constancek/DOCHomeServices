@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'In Turpin Hills, ceiling fan work follows the houses, which are mostly detached, owner-occupied and built from the 1960s through the 1990s on Anderson Township’s hill ground. The median one dates to 1977, by Census figures. That era often brought family rooms with cathedral ceilings that want a down rod, decks and screened porches that need a weather-rated fan, and bedroom boxes not always made to carry one. We check the box first, say when a tightened mount is enough, and fix the price before the fixture comes down.',
-  emergencyParagraph:
-    'A fan swaying on its rod, a box that has shifted, a sparking wall switch, or smoke or a scorched smell off the motor all count as urgent, and most get a same-day visit, weekends included. If you can reach the switch without walking under the fan, turn it off. Fire or smoke means leaving the house and calling 911.',
   commonIntro:
     'Two-story houses, tall family rooms and decks shape the fan calls we answer in Turpin Hills.',
   localFaqs: [

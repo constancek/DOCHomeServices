@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Corryville is mostly rentals, so most exhaust fan work here is booked by owners and landlords. Census figures show 1,824 of the 1,968 occupied homes are rented. The housing runs two ways. There are older houses, 756 of them from 1939 or earlier, where a bathroom fan was added late or never added, and large apartment buildings put up since 2000 with fans that are often small for the room. In both, we check where the air goes and give the owner a firm price before opening a ceiling.',
-  emergencyParagraph:
-    'Tenants should switch off a fan that smells burnt, shows a scorched or melted housing, sparks, smokes, leaks water through the grille or trips the breaker, using the wall switch or breaker if that’s safe, then tell the landlord or office. Smoke or fire means get out and call 911. Owners can book same-day help on most calls, weekends included.',
   commonIntro:
     'In Corryville, owners and managers usually hear about these four problems from tenants before anything else:',
   localFaqs: [

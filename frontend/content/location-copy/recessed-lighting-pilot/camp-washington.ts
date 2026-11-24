@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'In Camp Washington, recessed lighting is mostly a job for owners of old rental buildings. Census figures count 569 of the 640 homes here as built in 1939 or earlier, and 435 of the 548 occupied homes are rented, many in two-family and small apartment buildings. So we tend to find plaster ceilings, floor joists with another unit right above, and rooms wired around one light in the middle. When a unit is gutted between tenants, the ceiling is open and the work is simpler. Layout and price come first.',
-  emergencyParagraph:
-    'A can that smells charred, a tan scorch ring on the plaster, water from upstairs trickling out of a light, or a switch that buzzes warm all mean stop. Throw the breaker if you can do it safely. If smoke shows up, leave the building and dial 911. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Camp Washington is mostly old two-family and small apartment buildings with some single houses. These four recessed lighting jobs come up most.',
   localFaqs: [

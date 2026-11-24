@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Mount Washington went up after World War II: Census figures put only 11.4% of homes at 1939 or earlier, and 40.6% of households rent. The heater we service off Beechmont Avenue is usually in a 1950s or 1960s basement, ready for a flush, an anode pull and a relief valve test, plus a look at the flue and gas line. Apartment heaters sit in closets over pans, and the owner books those. The price is set first, and we’ll tell you if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Tank leaking? Change the booking to a repair, and turn the cold inlet off at the top, then kill the gas or breaker. Same for a stuck-open relief valve or no hot water. Gas odor: get out, leave switches alone, ring the gas company. Carbon monoxide alarm: everyone outside. Same day on most calls, weekends too.',
   commonIntro:
     'Up on the hills of Mount Washington, these are the usual reasons a service gets booked:',
   localFaqs: [

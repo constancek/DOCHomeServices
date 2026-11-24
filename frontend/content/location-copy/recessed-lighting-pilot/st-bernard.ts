@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'In St. Bernard, a lot of recessed lighting goes into doubles, where one family’s ceiling is the next family’s floor. Census figures put the median home at 1955 and about one in six homes in a two-unit building, many on the streets that grew up around Ivorydale. A third of the houses predate 1940 and keep plaster and shallow joists, while the postwar ones usually offer an attic and a basement worth finishing. We map every light and agree the price before cutting.',
-  emergencyParagraph:
-    'Call us today about a fixture that smells scorched, a ceiling going brown around a trim, a breaker that trips the moment the lights go on, or water dripping through a can from the unit upstairs. Shut that breaker if you can safely. With smoke or fire, get out and call 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'Doubles, postwar houses and older plaster make up most of what we light in the village:',
   localFaqs: [

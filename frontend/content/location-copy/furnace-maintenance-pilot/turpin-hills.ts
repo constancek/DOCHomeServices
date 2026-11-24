@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Detached houses from the 1960s to the 1990s make up most of Turpin Hills, with a median build year of 1977 in Census figures. By now many of them have swapped furnaces once or twice, and the paperwork rarely survived the sale. With gas heating 74.1% of homes, our time goes to burners, flame and flue, then blower and safety switches. You hear a flat number before we start, and if your furnace is fine as it stands, that’s what we’ll tell you.',
-  emergencyParagraph:
-    'Gas in the air: everybody out, hands off switches and pilot, then ring the gas company from the yard. A sounding carbon monoxide alarm gets the same response. No heat in a cold snap, endless on-off cycling or a yellow, floppy flame calls for repair. Toddlers and elderly parents feel it soonest. Most are same-day, Saturday and Sunday too.',
   commonIntro:
     'Owners book a fall checkup in Turpin Hills after spotting one of these:',
   localFaqs: [

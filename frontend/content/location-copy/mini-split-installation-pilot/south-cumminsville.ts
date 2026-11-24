@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'South Cumminsville is a neighborhood of owners, 72.3% by Census figures, living mostly in detached houses around Dreman Avenue and Elmore Street. Close to half of those houses, 45.5%, date from 1939 or earlier, and a second wave followed in the 1950s. The prewar ones often have no duct runs, and a ductless head cools them without opening plaster. The handful built since 2010 usually have central air and need us only for a room it misses. The price comes first, and we’ll be straight if ductless isn’t worth it.',
-  emergencyParagraph:
-    'Around 21 days a year reach 90F or more, by National Weather Service counts, and in South Cumminsville, an uncooled second floor stays stuffy after dark. Grandparents, infants and anyone in poor health suffer first. A one-head install fits in a day, and we book them quickly. Mini-Split Repair answers most breakdown calls the same day, weekends too.',
   commonIntro:
     'Near Beekman Street and the blocks off Dreman Avenue, these are the usual reasons for ductless in South Cumminsville:',
   localFaqs: [

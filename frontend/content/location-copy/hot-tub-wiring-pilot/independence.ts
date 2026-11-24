@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'Houses are young in Independence, by local standards. Census figures give a median year built of 1999, and about half are from 2000 or later, which tends to mean a panel with breathing room. Then the bill depends on where the tub goes and how much conduit the trip takes. Every spa still needs a 240-volt GFCI circuit nobody else shares, plus a shutoff and bonding. We read your panel against the spa’s spec sheet and hand you a price before anyone digs.',
-  emergencyParagraph:
-    'Close the spa if its breaker drops again the moment it’s reset, if the panel hums, or if a bather feels a buzz in the water. People come out first. Use the shutoff only if you can reach it safely, and phone 911 for smoke. Expect us the same day on most of these, weekends too.',
   commonIntro: 'Across Independence, these four account for most spa calls.',
   localFaqs: [
     {

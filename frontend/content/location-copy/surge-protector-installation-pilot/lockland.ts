@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'Half the housing in Lockland was standing by 1944, by Census figures, and nearly as much predates 1940, which shows at the panel. Old boxes in Lockland are often crowded, so we settle where the protector lands by opening yours. Remodeled houses carry the pricier targets, like central air, a gas furnace’s control board and a modern fridge. Nothing gets quoted until we’ve seen the panel, you’ll hear it when a few good strips would do, and the price is locked before work.',
-  emergencyParagraph:
-    'Call us today if an outlet looks scorched, a switch smells burnt, or a breaker kicks back off the moment it’s flipped on. Switch that breaker off only with dry hands. If smoke or flame shows, get the household outside and phone 911. Most calls in Lockland get a same-day visit, weekends included.',
   commonIntro:
     'Lockland holds older single houses and a fair share of apartment buildings, and owners in both usually spot these first.',
   localFaqs: [

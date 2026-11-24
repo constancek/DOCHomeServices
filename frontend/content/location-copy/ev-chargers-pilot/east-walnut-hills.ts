@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Large condo buildings and pre-war houses share the streets around DeSales Corner, and Census figures date about half of all housing in East Walnut Hills to 1939 or earlier. In one of those older detached houses, the original service might leave little slack for a 240-volt run. Condo owners clear the plan with their association first, and shared parking stays the association’s call. We inspect the panel and do the load math first, say so when the slow cord suffices, and fix the price before any cable moves.',
-  emergencyParagraph:
-    'Stop the charge and unplug when the charger body or its receptacle feels hot, shows scorch marks or melted plastic, or smells of burning. A breaker dropping every session counts too. Cut that circuit only if the panel is safe to reach. If there’s smoke, get everyone outdoors and ring 911. We answer most calls that day, weekends included.',
   commonIntro:
     'From association-run buildings to the old houses off Madison Road and Woodburn Avenue, charging calls here usually start with one of these.',
   localFaqs: [

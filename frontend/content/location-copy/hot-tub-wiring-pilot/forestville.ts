@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'In Forestville, a spa hookup is a 240-volt GFCI circuit serving only the tub, a disconnect placed in the bather’s line of sight but a safe step off, and bonded metal around the shell, finished with an inspection. Census figures date the median house to 1981, and boxes from the 1980s and 1990s more often have open room. That shifts the job toward where the tub sits and how long the trench or conduit run gets. We match the box to the spa’s specs and quote before digging.',
-  emergencyParagraph:
-    'A GFCI that won’t stay reset, a hum or scorched odor at the box, or a tingle in the water puts a spa call at the top of our list in Forestville. Get everybody out and stay clear of the equipment. Switch the power off only where that’s safe, and if smoke appears, leave and phone 911.',
   commonIntro:
     'Around the Beechmont and Five Mile corridor, from 1980s houses to condo rows, these four situations usually start a spa job in Forestville.',
   localFaqs: [

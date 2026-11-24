@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Next to the forest, Mount Airy is mostly 1960s and 1970s building, with a median year built of 1964 in Census figures. Apartment complexes hold about as many homes as detached houses do, and roughly three in five households rent. Panels from those decades are a mixed bag. A ranch that later took on central air and a heat pump may have filled every space, while another has room to spare. We look first, say when a strip will do, and price it flat up front.',
-  emergencyParagraph:
-    'When power returns and a microwave or furnace control pops, smokes or smells scorched, call us. A breaker that won’t latch after one reset counts too. If the floor by the panel is dry, flip that circuit off. If you see smoke or flame, get everyone out and dial 911 from outside. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Between the complexes off Colerain Avenue and the ranches on the side streets, these are the calls we take most in Mount Airy.',
   localFaqs: [

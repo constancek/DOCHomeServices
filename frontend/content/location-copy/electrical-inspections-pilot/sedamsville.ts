@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Sedamsville usually means a worker cottage or double from before 1940, with wiring that may not have been opened up in decades. Census figures count 72.8% of Sedamsville homes as built by 1939, which is why we expect cloth insulation on the wire, ungrounded receptacles and a fuse panel tucked under the basement stairs. Most homes are rented, and landlords book a lot of these visits. Every finding goes on paper, and each repair carries its price before a single wire is touched.',
-  emergencyParagraph:
-    'Phone us now if a Sedamsville outlet smells like it’s cooking, a cover plate feels warm or has gone brown, something hums inside the wall, you see a spark, or one breaker refuses to stay up. Leave that circuit dead. Smoke or flame means out of the house, then 911. Same-day service on most calls, Saturdays and Sundays too.',
   commonIntro:
     'In the old cottages and doubles between River Road and the hillside, these findings come up most:',
   localFaqs: [

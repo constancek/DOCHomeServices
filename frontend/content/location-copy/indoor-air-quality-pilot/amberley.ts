@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Amberley is almost all single-family houses lived in by their owners, and the Census median dates to 1959. A house from the 1940s or 50s tends to have a basement that turns clammy in July and ducts that have hauled dust between rooms for decades. Gas furnaces heat most of the village and dry the air. The usual answer is a mix of a dehumidifier, a humidifier and better filtration. We test before suggesting any of it, price it up front, and say when a filter swap is enough.',
-  emergencyParagraph:
-    'Carbon monoxide alarms come first, so herd everyone onto the lawn, then call 911. For a gas smell, touch no switches; get out and ring the gas company. Scorched-smelling vents mean shutting the system off at the thermostat. Mold after a leak is urgent with an older parent at home. Most calls are same day, weekends included.',
   commonIntro:
     'In Amberley, we hear the same handful of complaints again and again.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Most furnaces we tune in Mount Washington sit in post-war houses. Only 11.4% of homes predate 1940 by Census figures, and the bulk went up between 1940 and 1979, so the usual job is a basement or utility-room furnace that has been swapped since the house was new: filter, blower, burner and safety controls. Gas heats 60.8% of homes. The apartment buildings put furnaces in closets that landlords book in batches. The price is set before work, and we’ll say if nothing’s needed.',
-  emergencyParagraph:
-    'A tune-up isn’t the answer here. Gas smell: everyone into the yard, light switches untouched, the gas company phoned from outside. Carbon monoxide alarm: out first, questions later. No heat during a cold snap, a furnace short-cycling all evening, a yellow flame: book a repair. Infants and elderly relatives are hit hardest. Same day on most calls, weekends too.',
   commonIntro:
     'From the 1950s houses near Beechmont Avenue to the apartment buildings, these are the usual reasons for a booking in Mount Washington:',
   localFaqs: [

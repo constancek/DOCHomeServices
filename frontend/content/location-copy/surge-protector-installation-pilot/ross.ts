@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross is mostly owner-occupied single houses, and Census figures put the median one at 1972. That age means a lot of original breaker boxes still hang in basements and garages while the furnace, air conditioner and kitchen around them have been swapped for models with control boards. Heating is split between gas, electric and, in roughly one house in seven, fuel oil, and every one of those systems has electronics a surge can kill. We check your box first, mention it if strips are plenty, and price the work beforehand.',
-  emergencyParagraph:
-    'A scorch-marked outlet or panel, a breaker that drops after a reset, or an oil burner that smoked as power returned needs a look today, and we come the same day on most calls, weekends included. Cut that circuit only if you’re dry. Leave and call 911 for smoke or flame. House-wide pulsing lights go to the electric utility first.',
   commonIntro:
     'Around Hamilton Cleves Road, these are the signs that usually start a conversation with us about protecting a whole house.',
   localFaqs: [

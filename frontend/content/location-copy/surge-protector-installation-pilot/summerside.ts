@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'In Summerside, the old East Mount Carmel, nearly all the houses went up between the 1960s and the 1990s, with a median of 1981 in Census figures, and apartment buildings hold about a third of homes. Many of those houses have replaced a furnace or air conditioner at least once, and the newer equipment leans on circuit boards that surges damage. A panel of that age deserves a look before anything is added. We check yours first, say plainly when strips are enough, and settle the price before work.',
-  emergencyParagraph:
-    'Scorch marks on a switch, a burnt odor, or a breaker that won’t hold after a storm means we should come that day. If lamps swell and fade everywhere, call Duke Energy Ohio first. Flip that breaker only when nothing around it is wet or warm, and phone 911 from outside if smoke appears. Weekends included, most get same-day visits.',
   commonIntro:
     'Owners of 1960s to 1990s houses and residents of the apartment buildings both tend to call after one of these.',
   localFaqs: [

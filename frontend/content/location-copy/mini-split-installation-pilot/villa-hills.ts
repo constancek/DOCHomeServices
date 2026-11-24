@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Half the houses in Villa Hills are newer than 1981, by Census figures, and almost none predate 1960, so the ductwork is there already. What it misses is the lower-level family room, the space above the garage, or the four-season room someone added off the kitchen. Ductless fills those gaps. Owners live in 84.4% of homes, so you make the call yourself. Before a single bracket goes up you get one fixed price, and when your existing ducts could do the job instead, we say that.',
-  emergencyParagraph:
-    'Northern Kentucky’s normal July high is 86F (National Weather Service), and the room above the garage beats that by supper. Grandparents, infants and people with asthma or COPD struggle most. One-head jobs book fast and wrap up in a day. If a ductless unit died, Mini-Split Repair comes same day for most calls, Saturdays and Sundays too.',
   commonIntro:
     'From lower-level family rooms to spaces above the garage, here’s what tends to bring owners in Villa Hills to us:',
   localFaqs: [

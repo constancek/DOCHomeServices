@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'Almost all of Wilder was built in one stretch, and that shapes the inspection. Census figures put 69.4% of homes in the 1980s and 1990s, and 59.1% are in buildings of five units or more, mostly owner-occupied condos. Wiring that age is generally sound, so owners book us before selling, after buying, or before adding an EV charger. With 62.4% of homes heated by electricity, panel capacity is the usual question. We check the system, report back and price any fix first.',
-  emergencyParagraph:
-    'In Wilder, these can’t wait: a burning smell, a cover plate that feels warm or looks brown, a switch that crackles or sparks, a breaker that kicks off as soon as you flip it back. Leave it off. With smoke or flame, get out, pull the condo alarm and dial 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Wilder is mostly 1980s and 1990s condos and houses, with few rentals. What we find in them most:',
   localFaqs: [

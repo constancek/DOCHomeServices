@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Landlords and managers book most rewiring in Lincoln Heights, where Census figures show roughly three homes in four rented and a third of units in buildings of five or more. The typical building dates to 1973. Wiring from then often runs short of circuits for microwaves, space heaters and window units, and a few buildings may have aluminum branch circuits. Some older houses may still lack grounds. We test, admit it when nothing’s wrong, and the owner signs a scope and flat price first.',
-  emergencyParagraph:
-    'Call the same day about a scorched smell at a receptacle, a darkened or hot cover plate, sparks, a jolt off a switch, or a breaker that won’t reset and hold. We usually make it that day, weekends too. Kill the circuit only if you’re dry and the panel isn’t warm. With smoke or flames, get out and dial 911.',
   commonIntro:
     'Across apartments, townhomes and houses in Lincoln Heights, owners and tenants usually first notice wiring trouble in one of these ways.',
   localFaqs: [

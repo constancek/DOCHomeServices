@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'In Carthage the median home was built in 1938, and Census figures place 68.5% of homes before 1940. For a tank service that means a cellar corner, a flue connector into an old chimney, a drain cock that may crumble at the first turn and gas pipe worth tracing back to the meter. Renters hold 43.4% of homes, a share of them in doubles off Vine Street. The price is fixed before any wrench turns, and a tank not worth the money gets that verdict instead.',
-  emergencyParagraph:
-    'Leave the tune-up if any of these happen. Leak from the tank: cold valve on top off, then gas cock or breaker. Gas smell: get out, hands off switches and the pilot, phone the gas company outdoors. Carbon monoxide alarm: everybody outside first. Relief valve running nonstop or no hot water: repair. Most are seen same day, weekends included.',
   commonIntro:
     'Pre-war cellars in Carthage keep tanks out of sight and out of mind. Book a service when you notice:',
   localFaqs: [

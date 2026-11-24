@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'In Union, the population went from 233 in 1970 to 7,416 in 2020, and Census figures put the typical house at 2007. Nearly every bathroom here was built with a fan. The catch is that builders often fit one entry-level model throughout a subdivision, and in a big owner’s suite with a soaking tub and a walk-in shower it can’t keep up. A duct flattened under attic insulation fogs the mirror just as badly. We trace where the air goes and set a price before any drywall is cut.',
-  emergencyParagraph:
-    'Cut the fan at its switch or breaker, if safe, once it gives off a hot-plastic smell, its housing goes soft or brown, it sparks or smokes, or the breaker trips as it spins up. A dripping grille counts too. Smoke or flame means leave, then phone 911. Union is inside our same-day area for most calls, weekends too.',
   commonIntro:
     'In subdivisions off Mount Zion Road and Old Union Road, homeowners usually describe one of these four:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Plenty of houses in Mount Healthy can add a Level 2 charger, though a 1950s panel is often crowded already. Census figures put the median home in this small city at 1956, and 1,707 of its 2,987 homes are freestanding, which suits charging when the car parks off the street. Close to half are rented, so a landlord usually decides. Our visit opens with the panel and a load calculation, includes a frank word if the Level 1 cord covers you, and closes on a price you approve first.',
-  emergencyParagraph:
-    'Quit charging when a plug, outlet or charger heats up or blackens, a burning smell shows up, the breaker snaps off whenever the car connects, or the cable gets crushed. Flip that one breaker only if the panel is dry and safe. Smoke or fire means everybody out, then 911. Same-day help reaches most calls in Mount Healthy, weekends included.',
   commonIntro:
     'Close to half the houses in this city are rentals and plenty went up during the 1950s, which shapes the four requests below.',
   localFaqs: [

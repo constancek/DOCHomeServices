@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Half the houses in Wetherington are newer than 1998, by the Census count, and they went up around a golf club that opened in 1992. So the trouble here is rarely old wiring. It’s reach and scale, a two-story foyer, a great room or a long island the builder lit with one modest fixture. We climb up, look at the box and how it’s fixed to the framing, test the ground, and give you a firm number while the old light is still up.',
-  emergencyParagraph:
-    'A big foyer fixture that has dropped or tilted is urgent, so nobody should walk beneath it. A scorched smell or a crackle at a switch is too. Kill that breaker if you can get to it safely, and if smoke appears, leave and dial 911. We can usually be there that day, Saturday and Sunday included.',
   commonIntro:
     'Owners around the club usually ring us about one of these jobs.',
   localFaqs: [

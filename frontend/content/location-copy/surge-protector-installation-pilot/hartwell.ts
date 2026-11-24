@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell was a railroad suburb before Cincinnati annexed it, and a third of its housing dates from 1939 or earlier, with the typical home from 1949, by Census count. Breaker boxes in houses that old are often cramped, so the space in yours decides where a protector goes. Fewer than half the homes are detached houses, and nearly two-thirds of households rent, which puts owners and managers in charge. An electrician opens the box before quoting, says when strip protectors will do, and sets the price up front.',
-  emergencyParagraph:
-    'A scorched switch, a breaker box that smells hot, or a breaker that refuses to reset needs us today. If lights across the building swell and sag, call Duke Energy first, and tenants should tell the manager. Switch the circuit off only if you’re dry. If there’s smoke, get out and call 911. Weekends included, most calls are same day.',
   commonIntro:
     'In the apartment buildings, two-families and older single houses of Hartwell, these are the signs that usually come up.',
   localFaqs: [

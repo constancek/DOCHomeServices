@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'About four in five homes in Camp Washington are rented, so whether to add a whole-home surge protector is normally the owner’s call. The Census shows close to nine in ten were built before 1940, many as two-families and small apartment buildings, and their panels tend to be undersized or out of spaces, which is why the panel check decides where a device can go. Residents of the Fashion Frocks lofts go through management. We open the panel first, mention when strips suffice, and settle the price beforehand.',
-  emergencyParagraph:
-    'With smoke or fire, get everyone out and call 911. Call us for a scorched outlet, a breaker that won’t reset or a fridge that sparked when power came back; we get to most calls the same day, weekends included. When every light swells and fades, ring Duke Energy Ohio first. Shut a circuit off only if it’s dry.',
   commonIntro:
     'Tenants and owners in Camp Washington tend to describe the same few warning signs, whether the building is a two-family or a small walk-up.',
   localFaqs: [

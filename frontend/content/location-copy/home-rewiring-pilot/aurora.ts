@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'In Aurora, the age of the house sets the job. Census figures show close to four in ten homes predating 1940, and half were up by 1952. Houses that old may still have cloth-wrapped cable or knob-and-tube running without a ground. Post-war houses through the 1970s were wired before microwaves and dishwashers were standard, and the later ones may hide aluminum branch cable. We meter before suggesting work, leave healthy cable in place, and give you a flat figure and written scope before opening a wall.',
-  emergencyParagraph:
-    'If an outlet gives off a charred smell, a plate is too hot to touch or scorched, something sparks or buzzes, a breaker refuses to stay set, or anything electrical shocks you, call. We get there the same day on most calls, weekends too. Throw that breaker only when your hands are dry. Smoke means everyone out, then 911.',
   commonIntro:
     'Here’s how worn wiring tends to show itself in the older houses and small apartment buildings of Aurora:',
   localFaqs: [

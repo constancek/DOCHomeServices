@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Bellevue sits on the Ohio across from Mount Adams, and Census figures put 63.7% of its homes at 1939 or earlier, against a Campbell County median of 1972. Those houses were finished generations before central air, and their plaster walls and shallow attics leave ducts no clean path. A ductless wall unit reaches its condenser through one modest opening, so ceilings and trim stay untouched. On rentals, owners choose. You approve our fixed figure before drilling, and if ductless won’t serve the house, we’ll tell you.',
-  emergencyParagraph:
-    'July’s normal high is 86F (National Weather Service), and an attic bedroom under an old roof runs hotter still. Grandparents, newborns and anyone ill or winded feel it worst. Installs book fast; one wall unit usually takes a day, multi-zone longer. Ductless equipment that quits cooling goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'On Fairfield Avenue and the residential blocks climbing toward Fort Thomas, these are the reasons we hear most about ductless from people in Bellevue:',
   localFaqs: [

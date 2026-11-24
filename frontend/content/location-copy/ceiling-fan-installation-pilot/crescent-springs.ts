@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'In Crescent Springs, fan requests mostly come from condos and apartments. Census figures put the median building year at 1993, and about half of the 2,173 homes in the city sit in buildings of five or more units. Builders there usually hung a bedroom light on a box sized for that light, not for a spinning fan. Detached houses, 783 of them, add the odd tall great room. We open the box first, admit when tighter screws will do, and quote before anything comes down.',
-  emergencyParagraph:
-    'Stop a fan that thrashes on its mount, smells like burnt plastic, sparks at the switch, or trips a breaker. Shut it off from the wall or the panel if that’s safe and clear the floor beneath. Apartment residents should alert the manager as well. With smoke or flames, leave and dial 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Builder light boxes in condo bedrooms and tall great rooms in the detached houses are behind most of the fan trouble in Crescent Springs.',
   localFaqs: [

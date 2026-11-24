@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Columbia-Tusculum climbs from the Delta Avenue bottoms up into the Tusculum hills, and the housing runs from very old to quite new. Census figures count 39.1% from 1939 or earlier and 19.6% from 2000 on. Older ones hide the heater in a basement beside rust-thinned flue pipe, a drain spigot nobody trusts and gas piping that deserves a look. Newer ones are a quick drain, anode pull and valve test in a utility room. Price comes before the wrench, and a tank past helping gets told so.',
-  emergencyParagraph:
-    'Leak at the tank? Book a repair: twist the cold feed above it shut, then set the gas knob to off or trip breaker. A relief valve dumping repeatedly, or cold taps, count too. Whiff of gas: walk out, flip nothing, phone the gas company down the block. Carbon monoxide alarm: everyone outdoors. Most calls: same day, weekends included.',
   commonIntro:
     'From the Delta Avenue flats to the hillside streets of Tusculum, these usually get a service on the calendar:',
   localFaqs: [

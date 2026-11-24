@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'Census figures count more than a quarter of the houses in Hamilton as built in 1939 or earlier, and close to half of households rent. A pre-war house may still be on its first small service, leaving little headroom for a charger’s 240-volt line, and a 1950s panel is often packed tight. Owners in newer neighborhoods usually have more to work with. We start with the panel and a load calculation, tell you straight if the Level 1 cord covers your driving, and get your sign-off on the price first.',
-  emergencyParagraph:
-    'In Hamilton, pull the plug if the charger runs hot, the outlet looks melted or charred, the cord jacket is crushed, or the breaker drops on every charge. Cut that circuit only if you can keep dry and clear of heat. Call 911 from outside if there’s smoke or fire. We come out same day on most calls, weekends included.',
   commonIntro:
     'From pre-war houses near downtown to rentals and newer neighborhoods, these are the charger requests we get most in Hamilton.',
   localFaqs: [

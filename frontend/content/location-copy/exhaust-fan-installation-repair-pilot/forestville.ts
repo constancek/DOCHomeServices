@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'Forestville is newer than most of its neighbors. Census figures put the typical home at 1981, with the 1980s and 90s the biggest building years, so most bathrooms here have a fan. The trouble is usually its size. Builders often fit a small unit even in a large primary bath, and those fans run for years without ever clearing the room. Townhouses and apartment complexes along Beechmont and Five Mile add association and management rules. We check the airflow first and price the fix before touching the ceiling.',
-  emergencyParagraph:
-    'Some faults in Forestville mean the fan goes off now, at the panel if you can safely get there. That covers a burnt smell, sparks, smoke, a scorched housing, water seeping around the grille and a breaker that won’t hold. With flames or smoke, get out first, then ring 911. Most of these get a same-day visit, weekends included.',
   commonIntro:
     'In the subdivisions, townhouses and complexes of Forestville, these are the signs behind most of our calls.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Right on the Indiana line, Harrison has grown fast, and Census counts put its median house at 1992, with a big share finished after 2000. That means tall foyers, open kitchens with islands and ceiling boxes that are normally grounded, though builders tended to leave plain domes and strip lights behind. Townhouses and apartment buildings make up a real slice of the city too. An electrician still looks inside each box and checks the feed before quoting one flat number, so nothing comes down on a guess.',
-  emergencyParagraph:
-    'A light slipping from its ceiling, a hot or humming switch plate, burnt plastic smell or a breaker that won’t stay on needs a same-day call. Switch that breaker off if it’s safe, then keep people back. Smoke or fire means get out and dial 911. We usually make it that day, weekends too.',
   commonIntro:
     'For houses and townhouses in Harrison, the calls usually sound like these.',
   localFaqs: [

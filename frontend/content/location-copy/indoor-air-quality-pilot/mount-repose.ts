@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Mount Repose is mostly owner-occupied houses along and off SR 28, and the median year built is 1978, by Census figures. Newer houses here were built tight, so cooking smells, cleaning fumes and stale air hang around, and fresh-air ventilation often beats any gadget. The 1960s and 1970s houses usually keep original ducts and basements that sweat in July. A meter reading comes before any equipment talk, the flat price comes before work, and if a new filter is the only fix, you’ll hear it.',
-  emergencyParagraph:
-    'If the carbon monoxide detector sounds, the household heads outside, then calls 911. A rotten-egg smell means walking out to the driveway, switches untouched, before phoning the gas company. Scorched vents mean killing the system at the thermostat. Mold spreading after water damage puts toddlers, grandparents and asthmatic family members at risk. Most are handled the same day, weekends included.',
   commonIntro:
     'These problems come up most with owners in Mount Repose.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Fairfax homes run old, and Lower Fairfax floods. Census figures show 46.5% of the village’s houses were built before 1940, with a median of 1942. Behind those walls we still find cloth-wrapped cable, porcelain knob-and-tube, two-slot receptacles and the odd fuse box. Then there’s Little Duck Creek, which has sent water into basements more than once, soaking panels and circuits down there. An inspection here sorts out what’s safe to keep using. Every repair gets priced before anyone picks up a tool.',
-  emergencyParagraph:
-    'Some calls are for today, not next week: a receptacle that’s warm or browned, a switch that hums, sparks, the smell of melting insulation, or a breaker that won’t stay on. Turn that breaker off. With smoke or fire, everyone leaves and someone phones 911 from outside. In Fairfax we cover most of these the same day, weekend days included.',
   commonIntro:
     'Two things shape what we find in Fairfax: houses from before 1940, and basements that have taken on creek water:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Every home in Evendale is a detached single-family house, Census figures show, and 57.2% were built between 1980 and 1999. Those houses were designed around central air, so the ductwork fits, the air handler sits in a basement or utility room with room around it, and the condenser has a clear pad in the yard. A tune-up here is a straight cleaning, drain and electrical check, with fewer surprises than in older suburbs. You hear a flat price before we begin, and if nothing needs doing, we won’t invent anything.',
-  emergencyParagraph:
-    'An AC that has given out on a sweltering afternoon needs a repair, and so do lines crusted in ice (switch it off and let it thaw) and a breaker that won’t hold. If Mill Creek floodwater reaches the condenser, leave it off. Older relatives and babies come first. We come same day on most calls, weekends included.',
   commonIntro:
     'For a homeowner in Evendale, one of these is usually what prompts a tune-up:',
   localFaqs: [

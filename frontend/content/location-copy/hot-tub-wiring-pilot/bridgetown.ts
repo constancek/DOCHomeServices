@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'In Bridgetown, nearly nine in ten households own, and Census figures date the median house to 1962. A postwar ranch or Cape Cod usually came with a modest panel that’s since filled up, so finding a home for one more large breaker is the first task. After that, the spa takes a 240-volt GFCI feed, a cutoff, bonding and an inspection. Newer houses tend to have room, and there the trench decides the cost. We quote from your tub’s spec sheet before digging.',
-  emergencyParagraph:
-    'In Bridgetown, most calls about these spa faults get a same-day visit, weekends included. The GFCI won’t hold, the cutoff looks burnt, the panel buzzes, or a bather feels current. Everyone climbs out and keeps clear of the controls. Shut the breaker only if you can reach it safely, and dial 911 for smoke.',
   commonIntro:
     'On the mid-century streets between Bridgetown Road and Race Road, these are what people usually mention before a tub gets wired.',
   localFaqs: [

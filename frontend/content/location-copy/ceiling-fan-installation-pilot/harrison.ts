@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'In Harrison, fan work mostly happens in newer houses. By Census figures the median home dates to 1992 and roughly four in ten went up after 2000, so tall family rooms needing a down rod and covered patios needing a weather-rated fan are everywhere. Even in a house that new, the box a builder left for a light may not be rated for a fan. We check it before quoting, say so when snugging the mount will cure it, and fix the price before the old fixture is lowered.',
-  emergencyParagraph:
-    'A great-room fan that swings hard, tears loose from the drywall or smells like burning plastic can’t wait. Neither can sparks behind the switch plate. Kill power at the wall or the panel when you can reach it safely, then clear the room. Smoke or fire means a 911 call. We’re out the same day on most calls, weekends too.',
   commonIntro:
     'Across the subdivisions and the few older streets near downtown, these four fan complaints reach us most in Harrison.',
   localFaqs: [

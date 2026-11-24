@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'By Census figures, only 1.7% of housing in Fairfield is pre-1940 and the median year built is 1978, so nearly every house came with ducts. Ductless work in this city is about the spaces those duct systems shortchange, like a bonus room above the garage, a basement rec room or a sunroom. A quarter of units are in apartment buildings, and their owners decide. Expect a firm price up front, and a frank no from us if new ducts or a repair would serve better.',
-  emergencyParagraph:
-    'July’s normal high is 86F, per the National Weather Service, and the room over a two-car garage runs hotter. Seniors, infants and anyone with COPD or asthma feel it most. Install slots open quickly, one-head jobs normally wrapping in a day. A ductless unit that has quit calls for Mini-Split Repair, usually same day, weekends included.',
   commonIntro:
     'In the split-levels, ranches and newer subdivisions around Fairfield, these are the spots the central air usually misses:',
   localFaqs: [

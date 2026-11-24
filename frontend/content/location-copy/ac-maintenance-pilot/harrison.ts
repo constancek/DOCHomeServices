@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Newer houses are the rule in Harrison. By Census figures, the median home here dates to 1992 and 42.4% went up in 2000 or later, so most systems arrived with the house and the checkup is a straightforward pass over coil, filter, drain and wiring. Apartments and the older houses take a bit more reaching. You hear a flat price before we begin, and if the AC needs nothing, we tell you that.',
-  emergencyParagraph:
-    'Around 21 days a year top 90F locally, per the National Weather Service, and an AC that dies on one of them needs fixing, not a tune-up. An iced line, or a breaker that won’t hold after a reset, can’t wait; shut the system down. Seniors and infants feel heat soonest. Same-day help comes on most calls, weekends included.',
   commonIntro:
     'In Harrison, a spring AC call from an owner or landlord usually traces back to one of these.',
   localFaqs: [

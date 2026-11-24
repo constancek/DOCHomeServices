@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'Most houses in White Oak were finished between the late 1940s and the 1970s, and Census numbers place the middle of the pack at 1968. Many still rely on the service panel they shipped with, so finding a slot and enough spare capacity for a spa usually comes first. After that we run a 240-volt circuit with ground-fault protection, hang a disconnect where the tub can be seen, and bond the nearby metal. The spa maker’s sheet sets the specs, and you see the price first.',
-  emergencyParagraph:
-    'If the ground-fault breaker for the spa won’t hold after a reset, or anyone in the water feels a buzz, call us that day. Have everybody climb out, keep away from the controls and flip the breaker only if that’s safe. Smoke means 911. In White Oak, we arrive the same day on most calls, weekends too.',
   commonIntro:
     'On both the Green and Colerain sides of White Oak, four reasons bring most spa calls.',
   localFaqs: [

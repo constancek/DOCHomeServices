@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Monroe is mostly newer houses, which is good news for a spa. Census figures date the median home to 2001 and count 4,770 detached houses, so many breaker boxes still have unused positions. With room at the panel, the job turns on placement, meaning how far from the house the tub lands and what the trench crosses on the way. The tub still needs its own GFCI-protected 240-volt feed, a cutoff it can be seen from, and bonding, priced after we read the panel against the spa listing.',
-  emergencyParagraph:
-    'In Monroe, treat it as urgent if the spa’s GFCI refuses to stay on, the panel starts humming, the disconnect feels warm, or somebody soaking notices a shock. Have everyone leave the tub and switch the breaker off only when you can safely. Smoke is a 911 call. On most calls we show up that day, weekends included.',
   commonIntro:
     'Newer subdivisions and the older blocks near South Main Street produce these four spa calls more than any others in Monroe.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Fort Mitchell has two kinds of ductless job. Early 1900s houses off Dixie Highway, around Beechwood and Fort Mitchell Heights, tend to have plaster walls and cramped attics, so wall heads cool the top floor without tearing into either. Elsewhere the median home dates from 1971 by Census figures, and the job is usually a sunroom or basement the ducts shortchange. With 41.7% of homes rented, many owners are landlords. We quote a flat price up front and say so when ductless is the wrong tool.',
-  emergencyParagraph:
-    'The National Weather Service lists a July normal high near 86F, and old third floors stay stuffy past midnight. Elderly parents, infants and the chronically ill get hit first. A lone head generally goes in over one day. Units that already failed belong with Mini-Split Repair, mostly same day, Saturday and Sunday included.',
   commonIntro:
     'From the older streets near Dixie Highway to the apartment buildings around town, these are the usual reasons for a ductless call in Fort Mitchell:',
   localFaqs: [

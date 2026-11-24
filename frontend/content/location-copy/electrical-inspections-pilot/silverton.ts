@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'In Silverton, an electrical inspection is as likely to cover a fourplex as a house. Census figures show more than half the homes are rented and almost half sit in buildings of three or more units. The median home dates from 1959, an era of small panels and few circuits per room, and those panels now carry window units, space heaters and modern kitchens. We check each unit and the shared service, then give the owner a written report with repairs priced.',
-  emergencyParagraph:
-    'In an apartment, a scorched receptacle, sparks, a hum from a switch, a burning-plastic smell or a breaker that keeps dropping can’t wait. Tell the landlord and call us. Flip that breaker off if the panel is in your unit. If there is smoke or fire, leave and ring 911. We reach most Silverton calls the same day, weekends too.',
   commonIntro:
     'Silverton work splits between mid-century houses on narrow lots and small apartment buildings. What we find most:',
   localFaqs: [

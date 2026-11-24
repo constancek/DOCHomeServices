@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'Fairfield’s housing is mostly from the 1960s through the 1990s, with a median year of 1978 by Census figures, so old cloth wiring is rare and the questions are about capacity. More homes here heat with electricity than gas, 53.4%, and those panels carry a lot before anyone adds a charger or a hot tub. About a quarter of homes are in apartment buildings, where owners book us between tenants. We test the system, put it in writing and price any fixes first.',
-  emergencyParagraph:
-    'Some Fairfield calls aren’t inspections at all. A burnt smell at an outlet or the panel, a scorched or hot cover, crackling, sparks, a breaker that won’t hold, or lights that sag every time the electric heat cycles on: switch that breaker off and call. Smoke or fire, get outside and dial 911. Most calls are same day, weekends too.',
   commonIntro:
     'Across Fairfield’s subdivisions and apartment complexes, these findings come up more than any others.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Half of the housing on this hill dates to 1939 or earlier, Census figures show, and much of it is doubles and small walk-ups rather than single houses. Plaster over lath and attics you can barely crawl into leave ductwork no path, so in Mount Adams, a head hung on the wall usually wins out. Two thirds of units are rentals, so building owners sign off. Before any drilling you see one flat number, and if ductless is a poor match for the building, we say that plainly.',
-  emergencyParagraph:
-    'July’s normal high is 86F, per the National Weather Service, and in Mount Adams that heat climbs stairwells and settles in top-floor flats. Grandparents, infants and neighbors with asthma shouldn’t sleep up there. One-head installs get booked quickly and generally take a day. A mini-split you already own that quits needs Mini-Split Repair, often same day, weekends as well.',
   commonIntro:
     'These are the requests we hear most from owners of the older walk-ups and doubles in Mount Adams:',
   localFaqs: [

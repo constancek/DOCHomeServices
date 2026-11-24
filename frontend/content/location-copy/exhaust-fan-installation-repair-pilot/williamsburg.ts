@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Williamsburg dates to 1796, and Census figures show more than a quarter of the village’s homes predate 1940. Plenty of those got their bathroom later, frequently with only a window, or with a fan cut in during some remodel and ducted just past the ceiling joists. Newer houses are scattered among them, and renters live in a good many homes, so landlords phone us too. We find where the exhaust actually stops and quote the work before any plaster gets cut.',
-  emergencyParagraph:
-    'A burning smell, sparks, a wisp of smoke or a cover gone brown and soft means power off, at the breaker panel if that’s safe. So does a breaker that pops whenever the fan starts, or water trickling from the grille. With flames or smoke, go outside and dial 911. Most calls are covered same day, weekends included.',
   commonIntro:
     'Between the older houses off Main Street and the newer homes around the village, these are what people in Williamsburg call about:',
   localFaqs: [

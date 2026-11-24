@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Addyston were standing by 1965, Census figures show, and six of every ten households rent. Company houses on Main and Church Streets went up before 1930, so original cloth-wrapped wire without a ground conductor is possible behind their walls. Houses from the 1960s and 1970s tend to run a kitchen on too few circuits, and a few could hide aluminum branch runs. Our meter goes on every circuit first. Sound wiring gets left alone. You approve a written scope and flat price before anything is cut.',
-  emergencyParagraph:
-    'Phone us that day if an outlet gives off a hot, burnt odor, a switch cover is hot or browned, a receptacle crackles or spits sparks, a breaker snaps off again after a reset, or somebody gets zapped. Turn off that circuit only with dry hands. Smoke means everybody outside and 911. Most get a same-day visit, weekends too.',
   commonIntro:
     'Down by the river, company cottages and apartment blocks alike tend to flag tired wiring in one of these ways in Addyston:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Census figures put nearly half the housing in Walnut Hills at 1939 or earlier, and renters live in close to four homes in five, many in buildings of 50 units or more. Walk-up breaker boxes from that time were small, and many have no empty slots left, which limits where a protector can mount. Rehabbed flats and the newer buildings carry more of what surges ruin, heat pumps and smart thermostats among them. We open the box, say when strips are enough, and fix the price before anything starts.',
-  emergencyParagraph:
-    'A switch plate or outlet with brown scorching after a storm, a range or fridge that smoked when the power came back, or a breaker that clicks off the instant it’s reset all get a same-day visit on most calls, weekends included. Tell the landlord too. If anything smokes in the flat, leave the building and call 911.',
   commonIntro:
     'Between the old walk-ups and the newer buildings of Walnut Hills, these are the signs that start the conversation.',
   localFaqs: [

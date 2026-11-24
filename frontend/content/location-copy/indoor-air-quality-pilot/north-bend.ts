@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'In the village of North Bend, a third of the houses are from 2000 or later and the median is 1991, by Census figures, yet more than a quarter date to before 1940. Newer houses and the townhouses here are built tight, so cooking smells, cleaning fumes and moisture linger without good ventilation. The older houses lean the other way, drafty above and damp in the basement. A test comes first, then a flat price, and a plain answer if all you need is a filter.',
-  emergencyParagraph:
-    'Clear everyone out if a carbon monoxide alarm sounds, and ring 911 from the street. With a gas smell, walk out leaving switches alone and call the gas company outside. Kill a burnt-smelling furnace or AC at the thermostat. Mold spreading after water damage is urgent for babies, elders and asthmatics. Most calls are same day, weekends included.',
   commonIntro:
     'In North Bend, old houses and new alike, these come up most:',
   localFaqs: [

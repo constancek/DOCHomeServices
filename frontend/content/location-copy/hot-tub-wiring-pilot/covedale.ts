@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Covedale is mostly owner-occupied single houses from the middle of the last century. Census figures for the Green Township side give 1959 as the median year built, and 915 of 2,766 homes date from the 1950s. A panel that age might still accept a 240-volt spa breaker, or decades of additions may have filled it, so we open it before planning anything else. After that we lay out the GFCI circuit, a disconnect facing the tub, bonding and the inspection, quoted to the maker’s specs before conduit goes in.',
-  emergencyParagraph:
-    'A spa GFCI in Covedale that won’t hold after a reset, a scorched smell at the disconnect or a tingle in the water can’t wait. Have everyone step out without grabbing the rails. Flip the disconnect if you can reach it dry, and dial 911 from the yard if there’s smoke. We get to most the same day, weekends too.',
   commonIntro:
     'From Glenway Avenue to the streets off Cleves Warsaw Pike, these are the spa wiring calls we answer most in Covedale.',
   localFaqs: [

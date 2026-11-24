@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Six in ten households in Riverside rent, and roughly a third of the homes are in buildings with ten or more units, Census figures show. If that’s you, a charger starts with a talk with the building’s owner. The detached houses strung along River Road range from prewar houses to 1970s builds, and either can hide a crowded or undersized panel. We open it and work out the load before quoting, tell you plainly when the Level 1 cord will do, and set the price before any wiring begins.',
-  emergencyParagraph:
-    'Unplug and stop if the charging handle, the outlet or the charger box runs hot, darkens or smells like something melting. A flattened cable or a breaker that trips on each charge also needs us. Turn that circuit off only from somewhere dry. If smoke appears, leave and call 911. Most calls are seen the same day, weekends included.',
   commonIntro:
     'In a neighborhood where most people rent, these are the four charging situations that bring owners and residents to us.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Lakeside Park’s typical house is mid-century, with a median build of 1964 by Census figures, and its AC usually means a coil sitting on the basement furnace and a condenser at the side of the house. Those are quick to service. The exceptions are older; 17.5% of homes predate 1940, including the big post-WWI houses on Dixie Highway, where cooling came later through attic ducts that need more attention. We quote a flat price before starting and tell you straight when the system needs nothing.',
-  emergencyParagraph:
-    'In a normal July the afternoon high reaches 86F (National Weather Service), and a system that gives out then needs fixing, not cleaning. Frozen lines, a wet floor by the furnace or a breaker that won’t hold count too; switch the AC off. Babies, older people and the sick suffer most. Same day on most calls, weekends included.',
   commonIntro:
     'In the mid-century houses and older homes of Lakeside Park, these usually come before a booking:',
   localFaqs: [

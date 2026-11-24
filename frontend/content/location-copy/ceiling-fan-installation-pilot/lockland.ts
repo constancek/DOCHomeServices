@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'In Lockland, hanging a fan usually means working through plaster. Census figures date the typical house to 1944, and close to half went up before 1940, back when a ceiling box only had to hold a glass shade. A fan weighs more and never stops moving, so that old box is the first thing we test. Many bedrooms here have never had a fan. If yours only needs its blades balanced, we’ll say it, and the cost is agreed before your light comes down.',
-  emergencyParagraph:
-    'Smoke from the motor, a canopy sagging off the plaster or a fan swaying hard can’t wait, and neither can sparks behind a wall switch or a breaker that trips with the fan. Shut it off if that’s safe and keep people clear underneath. With flames, get out and phone 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Plaster ceilings and rooms built long before anyone thought of a fan explain most of our work in Lockland.',
   localFaqs: [

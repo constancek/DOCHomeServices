@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'About a third of Millvale’s residents live in public housing, mostly 1950s townhomes run by the Cincinnati Metropolitan Housing Authority, and most households rent, Census figures show. For those residents a charger is management’s decision, not a service call to book. Owners of private houses and small rental buildings can call us themselves. We look inside the panel and total the load first, own up when a plug-in cord covers the driving, and give a fixed price before anything is wired.',
-  emergencyParagraph:
-    'A resident who finds a hot or scorched outlet, or smells something burning while the car charges, should unplug and tell management right away. Owners can switch that circuit off at the panel when it’s safe to reach. Smoke or fire means leaving the building and calling 911. Owners get a same-day visit on most calls, weekends included.',
   commonIntro:
     'Charger requests here mostly reach us through owners and managers, and these four come up most often in Millvale.',
   localFaqs: [

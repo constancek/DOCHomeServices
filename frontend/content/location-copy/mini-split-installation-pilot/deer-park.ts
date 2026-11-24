@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Deer Park is old for a suburb, with a Census median build year of 1947. Where central air was added to houses that age, the ductwork was often laid out for heat rather than cooling, so second-floor bedrooms and finished attics fall behind. A wall unit fixes those rooms without breaking open plaster or the attic floor. The 25.4% of homes that are rented need the owner’s go-ahead. You’ll have a flat figure before any work, and if the real fix is in the ducts, we’ll tell you.',
-  emergencyParagraph:
-    'At the National Weather Service’s airport station, the July normal high is 86F, and a finished attic in a 1940s house climbs far past that. Elderly relatives, babies and anyone ill struggle most. One wall unit takes about a day, and we book fast. A stalled ductless system is a Mini-Split Repair call, same day on most calls, weekends included.',
   commonIntro:
     'For 1940s and 1950s houses in Deer Park, owners mostly ask about ductless for these rooms:',
   localFaqs: [

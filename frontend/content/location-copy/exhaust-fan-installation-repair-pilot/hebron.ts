@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Hebron is mostly newer houses. Census figures for the area put the median house at 2002, and nearly all are single houses with owners living in them. That means most bathrooms have a fan, but builders in that era often used small ones that can’t clear a larger primary bathroom, and roof cap dampers stick over time. Some ducts sag or come loose in the attic. We trace the airflow from grille to cap and quote the fix before cutting into a ceiling.',
-  emergencyParagraph:
-    'Kill power at the switch or panel, provided that’s safe, if the fan gives off a scorched-plastic smell, looks warped or browned, sparks, or knocks out the breaker on startup. A drip from the grille needs prompt attention. If smoke or fire shows up, everyone goes outside and someone calls 911. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Around the post-1990 subdivisions of Hebron, four fan complaints show up most.',
   localFaqs: [

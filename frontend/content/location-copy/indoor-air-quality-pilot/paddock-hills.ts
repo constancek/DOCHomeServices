@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Tudor and Dutch Colonial houses share Paddock Hills with apartment buildings. Census figures for the area count 302 of 723 homes built in 1939 or earlier and 462 of 667 occupied homes rented. The older houses leak drafts, hold basement damp and spread dust through their ducts. In the apartments, the owner or manager picks the equipment, and tenants take complaints to them. We test before suggesting anything, fix the price before work, and say so when a filter is enough.',
-  emergencyParagraph:
-    'The moment a carbon monoxide alarm chirps, empty the house and dial 911. Gas smells call for leaving the switches alone and phoning Duke Energy from across the street. Cut a scorched-smelling furnace or AC off at the thermostat. Mold spreading after a leak is rough on asthmatic lungs. We reach most calls the same day, weekends included.',
   commonIntro:
     'Between the period houses and the apartment buildings, these four complaints reach us most from Paddock Hills.',
   localFaqs: [

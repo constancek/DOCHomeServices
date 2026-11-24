@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell is a Cincinnati neighborhood of older houses and apartment buildings. Census figures put the median home at 1949, and most households rent. In the prewar houses, a bathroom fan was usually added long after the bathroom, often run into a wall cavity or the attic. In the apartment buildings, many fans have run for decades. Since so many units are rented, landlords make most of these calls. We trace the duct and set the price before cutting a ceiling.',
-  emergencyParagraph:
-    'Kill the fan at the switch or breaker, provided it’s safe, if you smell burning, see scorch marks or a melted housing, notice sparks, or the breaker drops whenever the fan runs. Water dripping through the grille also needs fast attention. For smoke or fire, leave and call 911. Most calls get a technician there the same day, weekends included.',
   commonIntro:
     'Between the prewar houses and the apartment blocks of Hartwell, four fan complaints come up over and over.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Owners along Reading Road usually call us about recessed lighting in Roselawn because a hallway or galley kitchen has limped along on one weak fixture for decades. Census figures place the median building around 1961, and nearly a third of homes sit in three- and four-unit buildings, with close to 64 of every 100 rented. A fourplex from that era has either an attic or a neighbor upstairs, and which one decides the housing. Every light gets marked and the flat price set before we drill.',
-  emergencyParagraph:
-    'A recessed light that blinks out and returns by itself, a trim hot enough to sting, or a burnt odor near a can should not wait. Flip off that breaker if reaching it is safe. With smoke or fire, get everybody out and dial 911. We reach Roselawn on the same day for most calls, Saturday and Sunday too.',
   commonIntro:
     'In Roselawn, recessed lighting mostly goes into fourplexes and 1950s and 1960s houses, and these rooms lead the list.',
   localFaqs: [

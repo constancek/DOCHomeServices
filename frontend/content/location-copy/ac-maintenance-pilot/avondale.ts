@@ -2,9 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const avondale: LocationServiceCopy = {
   localParagraph:
-    'Landlords and managers book most of the AC maintenance we do in Avondale, since Census figures show 76.1% of homes here are rented. Many sit in three- and four-unit buildings or the big apartment blocks along Reading Road, where cooling might be a closet air handler per unit or a building system the owner schedules. The older single-family houses, many from before 1940, got central air later through tight ducts. Every building gets a flat price before we start, and a unit that needs nothing is left alone.',
-  emergencyParagraph:
-    'When an apartment stays hot through a heat wave, or water drips from a ceiling under the unit upstairs, book a repair visit, not maintenance. Tenants should tell management right away; owners can phone us. Older residents, babies and people with asthma or other breathing problems are most at risk. Same-day visits are normal on most calls, weekends included.',
+    'Rental owners and property managers book most of our AC maintenance in Avondale, where Census figures count 76.1% of occupied homes as rented. Cooling in the three- and four-flats and the larger blocks on Reading Road is often one closet air handler per apartment, or a central plant the owner schedules. Older single houses got their air long after they went up, through narrow ducts. Each building is quoted as one flat job before work begins, and units in good order are left untouched.',
   commonIntro:
     'Owners and managers usually book a building-wide spring service after one of these in Avondale.',
   localFaqs: [
@@ -29,11 +27,11 @@ export const avondale: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in Avondale',
-        body: 'Unit by unit in Avondale, a grey filter comes out and a clean one goes in, the evaporator coil gets a look and the condensate drain is flushed, then the pan is checked. In stacked apartments, a full pan is what ends up as a stain on the ceiling downstairs. Outside, each condenser coil is washed and cleared of trash and leaves. Meter checks on the capacitor, contactor and wiring come next, with refrigerant pressures and blower airflow. A low reading is a leak, quoted separately for the owner to approve. Every system gets a thermostat test and a full cooling run before we move to the next door.',
+        body: 'Apartment by apartment in Avondale, we swap the dusty filter, look over the evaporator coil, flush the condensate drain and check its pan. In stacked units, an overflowing pan becomes a brown ring on the ceiling of the flat below, so we take that step seriously. Out back, each condenser coil is rinsed and cleared of litter and leaves. Next come meter readings on the capacitor, contactor and wiring, plus refrigerant pressures and blower airflow. A low charge signals a leak, priced separately for the owner’s approval. Each unit’s thermostat is tested and the AC runs a full cooling cycle before we knock on the next door.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'An owner in Avondale whose units cool but have never been serviced gets the most from one spring round through the whole building. A buyer taking over a building with no records does too, as does an owner whose tenants report leaks, noise or uneven cooling. There’s no point for a system serviced within the year that runs normally. A unit that has quit cooling or iced up needs AC Repair, and one already marked for replacement belongs with AC Installation & Replacement. Window units don’t warrant a visit. Yearly service is the usual advice.',
+        body: 'In Avondale, the biggest payoff goes to an owner whose apartments still cool but have never had a service, with one spring pass through every unit. A buyer inheriting a building without records benefits the same way, and so does a landlord fielding tenant complaints about drips, rattles or one hot bedroom. A system serviced in the past year that behaves normally gains little. Units that have stopped cooling or frozen over need AC Repair, and anything already flagged for replacement belongs with AC Installation & Replacement. Window units aren’t worth a visit. Once a year is what we recommend.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Avondale',

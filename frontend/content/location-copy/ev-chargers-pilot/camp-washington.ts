@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Roughly four households in five rent in Camp Washington, and nearly nine homes in ten were built in 1939 or earlier, Census figures show. A charger there usually begins with the landlord, and the panel may be a small original service with little room for a 240-volt line. Detached houses are only about a third of the stock, and doubles and apartment buildings are the rest. We look at the panel and the load first, say if the slow cord will do, and set a price before the job starts.',
-  emergencyParagraph:
-    'If a plug, outlet or charger turns hot or changes color, or someone has a trickle cord running off an extension cord, quit charging. Shut the breaker only when the floor is dry and nothing at the panel is hot, then let the landlord know. Fire or smoke means getting out and phoning 911. Same-day help is usual, weekends too.',
   commonIntro:
     'Pre-war doubles, apartment buildings and a few detached houses make up the neighborhood, and these charger questions come up most in Camp Washington.',
   localFaqs: [

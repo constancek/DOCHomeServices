@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Houses in Crestview Hills are fairly young; 56.9% went up between 1980 and 1999, by Census figures. They were framed with supply and return ducts meant for cooling, so our attention goes to the machinery rather than the ductwork. Condos and townhomes make up 26.3% of homes, and there an association often decides who may reach a shared row of condensers. Before any wrench turns you get a flat figure, and a healthy system earns an honest note saying it needs nothing.',
-  emergencyParagraph:
-    'Skip the tune-up and ask for a repair if the house can’t keep cool in a heat wave. Frost or ice on the copper line set means the thermostat should go to off while it melts. Heat hurts grandparents, infants and anyone short of breath first. We get to most calls the same day, weekends too.',
   commonIntro:
     'Owners of houses and townhomes in Crestview Hills tend to pick up the phone for a spring check after one of these.',
   localFaqs: [

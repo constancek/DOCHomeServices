@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'In Hyde Park, most bathroom fan calls start with a mirror that stays fogged in a house built before the Second World War. Census figures put 3,655 of the neighborhood’s 7,089 homes in the 1939-or-earlier group, and many of those bathrooms were laid out with a window, not a fan. When a fan went in later, the duct often stopped in the attic. About a third of homes here are apartments. We follow that duct to its end first, and you get a price before any plaster comes down.',
-  emergencyParagraph:
-    'A hot or burnt smell, a warped or browned housing, sparks, a breaker that drops whenever the fan kicks on, or water dripping onto the floor needs a visit today. Turn the fan off if the switch is easy to reach. Where there’s smoke or flame, leave and phone 911. Most calls are seen same day, weekends included.',
   commonIntro:
     'From the blocks around Hyde Park Square to the apartment buildings near Observatory Avenue, these are the signs behind most of our fan calls here:',
   localFaqs: [

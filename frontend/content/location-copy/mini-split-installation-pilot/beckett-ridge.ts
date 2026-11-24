@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'In Beckett Ridge, the planned community started in the 1970s and mostly filled in through the 80s and 90s, and Census figures put 59.5% of homes in 1980 through 1999. Builders then ducted the houses, so ductless work here targets a bonus room, a finished lower level, a sunroom or an addition the original trunk line shortchanges. Roughly one unit in four is attached or condo-style, where an association may weigh in on condenser spots. Expect our fixed figure before work, and a plain answer if ductless isn’t the fix.',
-  emergencyParagraph:
-    'About 21 days each year hit 90F (National Weather Service counts), and a room above an attached garage absorbs the worst. Babies, older relatives and anyone ill shouldn’t sleep there then. Booking moves fast; a lone wall unit is ordinarily a day, multi-zone longer. For ductless equipment that has stopped, Mini-Split Repair comes same day on most calls, weekends included.',
   commonIntro:
     'Around the fairways, cul-de-sacs and condo courts of Beckett Ridge, these spaces account for most of our ductless calls:',
   localFaqs: [

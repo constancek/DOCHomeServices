@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Along State Avenue and West Eighth Street in Lower Price Hill, the lighting we’re called about is usually a common stair or a flat that still runs on a porcelain socket. Many buildings here date from the 1850s, and the middle one was finished by 1938. Most units are rented, in two-families and three- or four-flat buildings. Behind that plaster sit shallow pans, aging wire and rarely a ground. So we pull the canopy, read what’s there and price the work for the owner ahead of time.',
-  emergencyParagraph:
-    'A hall light dangling by its wires, a brown heat ring around a socket, a switch that sparks or a breaker dropping nightly can’t wait for tenant turnover. If the panel is safe to reach, shut that circuit and clear the stairs below. Smoke or flame calls for 911 from the sidewalk. Most calls get same-day help, weekends too.',
   commonIntro:
     'For owners keeping up the old buildings of Lower Price Hill, these four requests come first.',
   localFaqs: [

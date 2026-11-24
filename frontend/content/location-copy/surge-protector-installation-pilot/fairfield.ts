@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'Electric heat outnumbers gas in Fairfield, according to Census figures, and the middle house went up in 1978. Heat pumps and electric furnaces lean on circuit boards and blower motors, and a steady trickle of small surges wears them out. Roughly one home in four sits in an apartment building, and over a third of households rent. Breaker boxes from the 1970s are often full, which limits where a device goes. We start at the panel, say so if a good strip covers you, and quote before the job.',
-  emergencyParagraph:
-    'A fridge or furnace that smoked or threw sparks when the power returned needs us today. So does a breaker that won’t stay on. Only cut that circuit if you can stand somewhere dry and the box feels cool. If there’s fire, leave and phone 911. We can usually come that same day, weekends as well.',
   commonIntro:
     'Heat pumps run in a great many houses and apartments here, and these are the warnings we hear about before surge damage gets costly.',
   localFaqs: [

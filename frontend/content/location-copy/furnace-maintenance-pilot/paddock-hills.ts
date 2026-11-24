@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'In Paddock Hills, furnace work splits two ways. Census figures date 41.8% of homes to before 1940: the Tudor Revival, Dutch Colonial and bungalow houses, with a basement furnace that often vents into the original chimney, so the flue and heat exchanger get the closest look. Much of the rest is apartments from the 1960s and 1970s, where a closet furnace or building system is the landlord’s to book. Heat is close to half gas, half electric. The price comes before the work, and if nothing’s needed, we say so.',
-  emergencyParagraph:
-    'Book a repair, not a tune-up, for these. Gas odor: get out, don’t flip switches, ring the gas company once outside. A carbon monoxide alarm: everybody leaves first. No heat during a freeze, a burner cycling on and off, a lazy yellow flame. Infants, elderly relatives and sick family members feel it first. Same day on most calls, weekends too.',
   commonIntro:
     'In Paddock Hills, homeowners and building managers tend to book a fall visit after noticing one of these:',
   localFaqs: [

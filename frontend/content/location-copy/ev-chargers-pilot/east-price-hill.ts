@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'The first question on a charger in East Price Hill is who owns the building. Census figures show close to two in three households here rent, so the landlord signs first. For owners, the street matters. Blocks dating from 1938 can still run on an undersized original service, while houses from the 1960s usually arrive with panels crammed full of circuits. Our electrician reads the breakers, weighs the household demand, says outright when the factory cord will cope, and names a fixed price ahead of any wiring.',
-  emergencyParagraph:
-    'A flattened charging cable, a plug too hot to hold, or a burnt odor near the charger means unplugging now. Quit resetting a breaker that drops with each plug-in. Flip that one circuit off only if the panel is safe to reach. For smoke or fire, leave and phone 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Between rented flats and owner-occupied houses on the hill, these four situations bring most charger requests our way.',
   localFaqs: [

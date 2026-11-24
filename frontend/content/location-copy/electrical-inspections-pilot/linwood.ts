@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'Nearly every house in Linwood predates the Second World War. Census figures put 82.1% of homes at 1939 or earlier, with a median of 1938. Along Eastern Avenue and Wooster Pike that means two-family houses and frame singles where the original wiring may still feed some rooms, often behind a panel added decades later. Two-prong outlets and circuits shared between floors are common finds. We trace what’s there, write it up and price any repair before work begins.',
-  emergencyParagraph:
-    'A few electrical problems need us now, not on a booked inspection date: heat or scorch marks at an outlet, a switch that buzzes, any sparking, or a breaker that won’t stay reset. Shut that breaker off. If you see smoke or flames, get out first and phone 911. We arrive the same day on most calls, including weekends.',
   commonIntro:
     'Linwood’s housing is old and split between owners and renters, with many two-family houses. What we find most:',
   localFaqs: [

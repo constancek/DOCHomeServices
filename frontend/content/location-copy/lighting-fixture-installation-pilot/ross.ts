@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Off Hamilton Cleves Road, many kitchens in Ross were opened up and given an island, yet the ceiling above it was never wired for pendants. Hanging them, or any new fixture, depends on the box, a ground and whether cable already reaches that spot. The typical house in the Census dates from 1972, about four in five are detached, and most are ranches and bi-levels with one light per room. We look over the box and cable first, then give you a figure.',
-  emergencyParagraph:
-    'A fixture working loose or smelling hot is a today job. After the flash flooding that hit the township, treat any light that got wet as off limits. Trip its breaker if you can reach it safely, keep the family clear, and call 911 for smoke or fire. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Most of the lighting calls we take from this part of Ross Township look like these.',
   localFaqs: [

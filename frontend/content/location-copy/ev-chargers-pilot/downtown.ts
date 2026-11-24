@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Downtown Cincinnati is an apartment or condo, most in buildings of 50 or more units, and Census figures put renters at almost nine in ten households. That makes a charger here a building decision. Tenants need the landlord’s written approval, condo owners need the association’s, and chargers in shared garages are the owner’s or manager’s call. The building’s service has to carry it, so we review the panel and run a load calculation, tell you if Level 1 will do, and fix the price first.',
-  emergencyParagraph:
-    'If a charger, plug or receptacle feels hot, looks scorched or is melting, or the breaker quits on every charge, residents should stop charging and alert management. Cut that circuit if the panel is safe to reach. With smoke or fire, get out of the building and call 911. Managers usually see us the same day, weekends included.',
   commonIntro:
     'From condo owners to building managers, these are the charger requests we get in Downtown Cincinnati:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Census figures show just over half of households in Florence rent, and about four in ten homes sit in buildings with two or more units. Houses date to a median of 1972, and nearly half the homes heat with electricity. Tenants are often best served by a good power strip. Owners of 1960s and 1970s houses may have a crowded breaker box, which decides where a surge unit fits. We open it before quoting, say when a strip is enough, and fix the price first.',
-  emergencyParagraph:
-    'Lights that swell and sag in every room at once are a job for the electric utility first, then us. A burnt smell at an outlet or the breaker box can’t wait either. Only touch that breaker from a dry floor. If flames show, walk out and call 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Across the apartments, condos and houses in Florence, these are the warnings that a home could use surge protection.',
   localFaqs: [

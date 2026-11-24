@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'In Crescent Springs, plenty of recessed lighting jobs start inside a condo rather than a house, and that sets the first question. Census figures give the city a median build year of 1993, with roughly half its homes in complexes of five units or more, so your kitchen ceiling might double as a neighbor’s floor and carry a fire rating. Detached houses here are mostly drywall under a blown-in attic. Either way, pencil marks go up and the quote gets signed before the saw comes out.',
-  emergencyParagraph:
-    'A hot, plasticky smell near a downlight, drywall going tan around its rim or a drip from the trim means somebody should see it today. Flip that breaker if reaching the panel is safe. Should smoke appear, leave the unit and phone 911 from outside. Most homes in Crescent Springs get a visit the same day, Saturdays and Sundays too.',
   commonIntro:
     'Condo owners, renters with willing landlords and people in 1990s houses tend to ask us for these.',
   localFaqs: [

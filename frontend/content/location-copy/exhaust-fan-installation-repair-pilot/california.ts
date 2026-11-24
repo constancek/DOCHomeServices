@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'California is a neighborhood of single houses, almost all owner-occupied, and Census figures put the typical one at 1968. Bathrooms from the 1950s and 60s often came with a small fan that was never sized for the room, and some of those ducts end in the attic instead of outdoors. Houses closer to the river add a wrinkle, since a basement bathroom fan may have sat under high water. We trace the airflow first and give you a price before we cut into the ceiling.',
-  emergencyParagraph:
-    'A burnt smell, sparks or melting plastic around the fan means cutting it off at the switch or breaker, if safely reachable. A breaker that trips as it starts, or drips falling from the grille, also needs attention. With smoke or flame, step outdoors and ring 911. Most calls in California get us out that day, weekends too.',
   commonIntro:
     'Along Kellogg Avenue and the side streets toward Eldorado Avenue, four exhaust fan problems account for most of our calls in California:',
   localFaqs: [

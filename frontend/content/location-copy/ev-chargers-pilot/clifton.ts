@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Census figures show six in ten homes in Clifton were built in 1939 or earlier, and almost two of every three households rent. A family in a detached house with parking off the street usually has the simplest job. Prewar houses still on their first modest service are harder, because a 240-volt line has to fight for space. Our electrician checks the panel and does the load calculation before quoting, points out when the Level 1 cord will cope, and agrees the price before cable goes in.',
-  emergencyParagraph:
-    'Blackened outlet plates, a plug too hot to grip, a whiff of scorched insulation, or a breaker that drops each time charging starts all say stop. Reach the panel only without danger, then switch that circuit off. If smoke or fire appears, leave the building and call 911. Clifton gets a same-day visit on most calls, weekends included.',
   commonIntro:
     'Apartments, two-families and prewar houses all share the streets of Clifton, and the charging requests that come out of them tend to look like these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'The village of New Miami was built around coke ovens and a steel mill, and its houses are mostly older. By Census figures, 51.1% went up before 1960 and 80.1% burn gas for heat. So our fall visit there usually means a gas furnace down a basement stair, often the second or third that house has owned, venting into a chimney older than it. You’ll know the price before a panel comes off, and if the furnace is fine, we’ll leave it alone and say so.',
-  emergencyParagraph:
-    'Wrong call for a tune-up: a whiff of gas (everybody out, hands off switches and the pilot, phone the gas company outside), a carbon monoxide alarm (people out first), a dead furnace in a freeze, one clicking off and on, or a floppy yellow flame. Worst for infants and the elderly. Most get a same-day visit, weekends too.',
   commonIntro:
     'Down the basement stairs of the village’s older houses, these are what usually get a gas furnace put on our fall list in New Miami:',
   localFaqs: [

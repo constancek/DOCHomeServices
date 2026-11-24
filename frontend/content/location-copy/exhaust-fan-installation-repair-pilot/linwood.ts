@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'Linwood is small and old. By Census count, close to four homes in five date from 1939 or earlier, two-families are common, and renters slightly outnumber owners. Those houses predate the bathroom fan, so plenty of bathrooms here still lean on a window. Where a fan arrived decades later, its duct frequently gives up inside the attic or a wall. We trace the air to wherever it lands and price the fix before any plaster is disturbed.',
-  emergencyParagraph:
-    'We’re out the same day on most calls, weekends included, when the fan gives off a hot, burnt odor, its housing blackens or sags, it sparks or smokes, the breaker trips as it starts, or water trickles from the grille. Shut it off at the switch or panel when that’s safe. With smoke or flames, leave and call 911.',
   commonIntro:
     'In the old houses and two-families along Eastern Avenue and Wooster Pike, these are the fan problems that bring people in Linwood to us:',
   localFaqs: [

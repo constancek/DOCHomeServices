@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'By Census figures, most homes in Moscow were built before 1940, and few burn natural gas; electricity heats most, with fuel oil next. So a tune-up here usually means an old house with the furnace down in a basement on low river ground. An electric furnace gets its elements and wiring tested. A fuel-burning one in a house this age often vents into an old chimney, so flue and heat exchanger get our hardest look. The price comes before we start, and so does a plain answer if nothing’s needed.',
-  emergencyParagraph:
-    'These are repairs in Moscow. Gas odor: out, no light switch, no pilot, gas company rung from the street. Carbon monoxide alarm: everyone outdoors first. No heat in a freeze, a furnace cycling off and on, or a flame gone yellow and floppy. Infants, grandparents and the ill take cold worst. Same-day help on most calls, weekends included.',
   commonIntro:
     'Along the river in Moscow, where most houses are old, owners usually book a fall visit after one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Most Sayler Park inspections are for owners: a family buying one of the older single houses, or someone adding a big load to a panel that dates from the 1940s. Census figures show half the homes here were built in 1939 or earlier, and more than a third heat with electricity, which already asks a lot of an old service. Before an EV charger, heat pump or addition goes in, we check whether the panel and wiring can carry it, then quote any upgrade up front.',
-  emergencyParagraph:
-    'Even on the city’s far west edge, we reach most Sayler Park calls the same day, weekends included. Ring us right away for a scorched odor, a receptacle that’s warm or blackened, a humming switch, sparking, or lamps that sag hard each time the furnace fires. Shut off that circuit. Smoke or fire means leave, then dial 911.',
   commonIntro:
     'Sayler Park houses range from pre-war frame homes to postwar houses, and these are the faults we turn up most:',
   localFaqs: [

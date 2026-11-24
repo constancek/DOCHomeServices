@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'In Montgomery, an electrical inspection usually comes before a change: selling, buying, finishing a lower level, or adding a car charger, generator or hot tub. Census figures show 34.6% of the city’s homes were built in the 1970s, and 63.0% before 1980. Wiring from that era is grounded and generally holds up, but the panels were sized for a different household, and decades of owner add-ons can hide in basements. We go through all of it, put it in writing, and price fixes before work.',
-  emergencyParagraph:
-    'These can’t wait until next week: an outlet or switch that is hot, buzzing or discolored, sparks, a burning smell, or a breaker that trips the instant it’s reset. Lights dimming hard when the air conditioning starts count too. Turn the breaker off. With smoke or fire, leave and call 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'Montgomery’s 1960s and 1970s single-family homes tend to produce the same few findings:',
   localFaqs: [

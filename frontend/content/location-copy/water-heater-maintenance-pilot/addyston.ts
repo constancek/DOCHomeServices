@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'Addyston is a small village with two kinds of water heater jobs. Census figures put 28.9% of homes at 1939 or earlier, including the old company houses, where the tank sits low in the house with an old flue, a tired drain valve and a gas line worth checking. And 61.1% of households rent, so many tanks are in apartments or rental houses and the landlord books the service. The visit is priced before work starts, and if a tank isn’t worth servicing, we’ll say that.',
-  emergencyParagraph:
-    'A leaking tank needs repair: close the cold supply at the top, then the gas valve or breaker. Gas in the house: everyone out, touching no switch or pilot, then ring the gas company. Carbon monoxide alarm: out, then phone. A relief valve repeatedly dumping water, or a cold tap, also needs repair. Expect same-day help on most, weekends included.',
   commonIntro:
     'Here is when a tank in Addyston is due for its yearly service:',
   localFaqs: [

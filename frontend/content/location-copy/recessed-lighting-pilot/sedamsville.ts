@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'A rehab with the old ceiling torn back to its joists is the cleanest chance for recessed lighting in Sedamsville. Census figures show close to 73 of every 100 homes went up in 1939 or earlier, many as Italianate worker cottages off Steiner and Delhi Avenues, and roughly 65 in 100 are rented. Expect plaster, a shallow cavity under the roof and rooms planned around one bare bulb. The Port has single-family rehabs underway here in 2025 and 2026. We pencil the layout and lock the price before cutting.',
-  emergencyParagraph:
-    'Water dripping from a can, a trim too hot to touch, or a light that drops out and comes back on its own needs a call soon. If you can reach the panel without risk, shut off that breaker. Smoke or fire means getting out and calling 911. Most calls in Sedamsville are answered the same day, weekends included.',
   commonIntro:
     'In Sedamsville, recessed lighting mostly goes into cottages and two-family houses near River Road, many of them mid-rehab, in rooms like these.',
   localFaqs: [

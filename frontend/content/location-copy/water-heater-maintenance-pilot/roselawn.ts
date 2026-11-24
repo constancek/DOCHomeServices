@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Roselawn has a lot of three- and four-unit buildings, and a maintenance day here often means one landlord and four tanks. Census figures put 30.7% of homes in buildings that size and 64.2% of homes as rented, with the median built in 1961. Those heaters tend to sit side by side in a common basement or in unit closets over drain pans. Detached houses get a simpler visit: flush, anode, valve test. Every tank is quoted first, and we’ll flag any that aren’t worth servicing.',
-  emergencyParagraph:
-    'Book a repair instead in these cases. Tank leaking: close its cold inlet up top, then gas or breaker. Gas smell: leave, flip nothing, light nothing, and ring the gas company outside. Carbon monoxide alarm: everyone out. Relief valve won’t quit, or nobody has hot water: repair. Same day on most calls, weekends included.',
   commonIntro:
     'Fourplex owners and homeowners in Roselawn usually reach for the phone after one of these:',
   localFaqs: [

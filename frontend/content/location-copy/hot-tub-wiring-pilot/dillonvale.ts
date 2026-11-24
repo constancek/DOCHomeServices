@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillon Builders laid out Dillonvale in the 1940s, and by Census count close to three of every four houses here were finished between 1940 and 1959. Breaker boxes from that stretch were never sized with a backyard spa in mind, so the first task is making room or adding headroom in the panel. After that, the price follows the trench from the house to wherever the tub will sit. Our electrician compares the spa’s wiring sheet with your panel and writes up a figure before a shovel goes in.',
-  emergencyParagraph:
-    'Ring us the same day in Dillonvale if the spa GFCI keeps snapping off, the cutoff box smells scorched, the panel crackles, or the water gives anyone a prickle. Bathers should step out and leave every switch alone. Throw the breaker only if that’s safe, and at the first sign of smoke, leave and dial 911. Weekends count too.',
   commonIntro:
     'These are the spa jobs that come up most in Dillonvale, next door to Deer Park.',
   localFaqs: [

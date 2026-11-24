@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Edgewood is a detached house, and most belong to the families inside. Census figures place the typical build at 1976. Those 1960s and 70s houses have had decades to fill their panels with add-ons, so our first check is for an empty slot and leftover capacity. Many 1980s and 90s builds pass that easily, and the bigger question becomes how deep in the yard you want the tub. We quote after matching the panel to the spa’s spec sheet.',
-  emergencyParagraph:
-    'It’s urgent when the GFCI won’t stay reset, the shutoff box smells hot, the panel buzzes, or someone in the water feels a prickle. Get everybody out and leave the equipment alone. Kill the power only if the breaker is safe to reach, and dial 911 for smoke or fire. We usually come that same day, weekends too.',
   commonIntro:
     'Off Dudley Road and around the St. Elizabeth campus, spa calls tend to start with one of these.',
   localFaqs: [

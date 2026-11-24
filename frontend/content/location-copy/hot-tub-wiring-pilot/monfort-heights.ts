@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'With a spa in Monfort Heights, the decade your house was built tells us a lot. Census figures put the median at 1975, and the stock runs from prewar houses to subdivisions finished after 2000, most of them owner-occupied single homes. An older panel may need clearing out or replacing before it can hold a spa breaker. A newer one usually has space, and then the trench route drives the job. Either way, the panel is read against the tub’s install sheet and priced before a shovel goes in.',
-  emergencyParagraph:
-    'Ring us that day in Monfort Heights over a GFCI that won’t latch, a panel giving off a hum, a cutoff box that’s warm or blackened, or a prickle from the water or grab rails. Have the bathers climb out, open the breaker only when it’s safe, and phone 911 for smoke. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Up and down North Bend Road and West Fork Road, four spa questions keep reaching us from Monfort Heights.',
   localFaqs: [

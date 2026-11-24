@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'North Fairmount is mostly detached houses on the hill above the Mill Creek valley, and Census figures date nearly two-thirds of them to 1939 or earlier. Electric service in houses that age was often upgraded in stages, so the panel can be small, packed or an odd mix of old and new. That is why the panel decides where a surge device could go. About half of households rent. We open the panel first, tell you if strips are the smarter buy, and fix the price before work.',
-  emergencyParagraph:
-    'On the hill, a burning smell from the panel or a switch plate gone brown shouldn’t wait, and nor should a breaker that refuses to stay up. Duke Energy Ohio gets the first call if every light pulses. Smoke is a reason to leave and dial 911. Most of these visits happen the same day, weekends included.',
   commonIntro:
     'Old houses on the hill, plenty of them rented, show these signs most often in North Fairmount.',
   localFaqs: [

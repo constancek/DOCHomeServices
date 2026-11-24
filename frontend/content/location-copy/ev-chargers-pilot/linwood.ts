@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'In Linwood, Census figures show about eight in ten homes were built in 1939 or earlier, and just over half are rented. A house that old may still be on the service it was first wired with, which leaves little spare capacity. Nearly every home here heats with gas, so heating doesn’t compete with a charger for power. Our electrician unscrews the panel cover and totals the load before quoting, says so if the slow cord can carry your driving, and settles the cost before work begins.',
-  emergencyParagraph:
-    'Stop charging once the charger or its plug turns hot or browned, a burning odor shows up, or the breaker kicks off each time the car begins. Turn that circuit off at the panel only if you can stay dry doing it. Leave and call 911 for smoke or fire. In Linwood, we usually arrive the same day, weekends included.',
   commonIntro:
     'Older houses and two-families make up most of Linwood, and these are the four situations that usually bring an owner to us.',
   localFaqs: [

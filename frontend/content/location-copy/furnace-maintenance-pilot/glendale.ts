@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'In Glendale, 53.4% of houses predate 1940, by Census figures, many of them Italianate or Second Empire houses in the historic district. Under those houses, the furnace lives in an old basement and often exhausts into a masonry chimney, and it’s commonly the house’s second or third heating system, so venting and the heat exchanger get our longest look. Newer houses in the village mean a simpler visit: filter, blower, burners and safety controls. You agree to a flat price before work, and we’ll say if nothing is needed.',
-  emergencyParagraph:
-    'Gas smell: everyone walks out, nobody touches a switch or relights the pilot, and someone phones the gas company across the street. Carbon monoxide alarm: out the door. No heat in a cold spell, a yellowish flame, or a furnace stuck firing and quitting: repair. Toddlers, aging parents and the ill are hit hardest. Usually same day, weekends too.',
   commonIntro:
     'Many furnaces in Glendale run in basements under houses from before 1940. These are the usual reasons owners book a fall visit:',
   localFaqs: [

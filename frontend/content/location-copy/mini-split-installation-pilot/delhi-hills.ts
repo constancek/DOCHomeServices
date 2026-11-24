@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Delhi Hills is a detached house, most from the 1960s and 1970s with a Census median of 1971. Houses that age have ducts, so ductless usually solves one trouble spot, such as a walkout lower level on a hillside lot, a room over the garage or an addition. Heating splits almost evenly, 48.1% gas and 48.5% electric, which shapes how a wall unit fits beside the existing system. You get a flat figure before work, and we’ll tell you if ductless isn’t the fix.',
-  emergencyParagraph:
-    'Westward additions and garage rooms turn stifling in Delhi Hills when it passes 90F, about 21 days annually per the National Weather Service. An aging parent, an infant or someone sick struggles there first. Installs get booked fast, and a lone wall unit takes a day. If a ductless system quits, Mini-Split Repair reaches most homes that day, weekends included.',
   commonIntro:
     'Across Delhi Hills, these trouble spots in 1960s and 1970s houses bring most of our ductless calls:',
   localFaqs: [

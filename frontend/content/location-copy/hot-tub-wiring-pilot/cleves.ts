@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Housing in Cleves is younger than people guess. By Census figures the median house dates to 1972, and 976 of the village’s 1,144 homes are detached. A service panel from the 1970s or later often has a free space and margin for a 240-volt spa breaker, so the real variables are the tub’s spot and the conduit run to it. Roughly one house in four is prewar, and those panels tend to be jammed. We measure yours against the tub maker’s requirements and quote before any digging.',
-  emergencyParagraph:
-    'A spa GFCI that clicks off the moment it’s reset, a humming panel or a scorched smell at the disconnect needs us fast. Ask everyone out of the water and not to touch the tub. Shut the breaker off only if reaching it is safe, and if smoke shows, leave and call 911. Most such calls are same-day, weekends too.',
   commonIntro:
     'Off Miami Avenue and on the newer streets alike, these are the spa situations that lead people in Cleves to call.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'In Mount Airy, most fan trouble traces back to equipment installed when the house was new. Going by Census counts, 1,781 of roughly 4,100 homes here date from between 1960 and 1979, with 1964 as the median. Builders back then hung small, droning bathroom fans, and some stopped the flex duct at the attic floor. Decades on, those motors are tired and the ducts sag or have pulled loose. We map where the air really travels, ceiling to sky, and quote the repair before we touch the drywall.',
-  emergencyParagraph:
-    'A housing gone soft from heat, a hot-wire odor, sparking, smoke at the grille, a breaker that drops as the fan spins up, or water leaking through the vent can’t wait. Kill power at the switch or breaker if that’s safe. Smoke or flames mean getting out and calling 911. We come same day on most calls, weekends included.',
   commonIntro:
     'From the mid-century streets off Colerain Avenue to the bigger apartment buildings, these four problems keep turning up:',
   localFaqs: [

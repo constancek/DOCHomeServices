@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Housing in Southgate is split almost evenly between standalone houses and multi-unit buildings, which decides most charger jobs. Census figures put a little under half the homes as detached, and about four in ten rent. A detached house where the car parks off the road is straightforward. A condo or apartment needs the association’s or owner’s sign-off. Some houses predate 1940 and may carry a modest original service. We read the panel and run the load numbers, tell you if the factory cord suffices, and lock in pricing early.',
-  emergencyParagraph:
-    'Any melting or blackening on the plug, a charger too hot to keep a hand on, a cable that’s been crushed or frayed, or a breaker snapping off each charge calls for unplugging now. Touch the breaker only with dry hands, standing somewhere dry. Smoke or fire means walking out and phoning 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'From single houses to units in larger buildings, these are the charger requests we get most in Southgate.',
   localFaqs: [

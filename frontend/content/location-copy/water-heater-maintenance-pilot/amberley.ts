@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Amberley is nearly all owner-occupied houses: 99.4% single-family and 98.1% owned, per Census figures, with a median of 1959. Most went up between 1940 and 1979, and gas heats the large majority. For our visit that means a gas tank in a basement or utility room, often near finished living space where a slow drip ruins carpet and drywall. So we pay close attention to the relief valve pipe. The fee is set before we start, and if the tank isn’t worth it, we say so.',
-  emergencyParagraph:
-    'These need a repair, not a service. If the tank’s shell is leaking, close the cold-water line into it and turn off gas or power. If the house smells of gas, step outside without touching a switch, then call the gas company. If a carbon monoxide alarm sounds, clear everyone out. Most are fixed same day, weekends too.',
   commonIntro:
     'Most heaters we service in Amberley are in single-family houses from the middle of the last century. Owners usually call when:',
   localFaqs: [

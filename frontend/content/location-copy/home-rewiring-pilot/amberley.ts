@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Capacity, more than danger, drives most rewiring in Amberley. Census figures place the typical home at 1959, and roughly three of every four were built from 1940 through 1979, back when a kitchen held a range, a fridge and a toaster. Today’s appliance load swamps circuits laid out for that, and houses from the late 1960s and 1970s might have aluminum branch cable. We meter every line first, say so plainly if it’s healthy, and hand you the scope with a flat price before any plaster is touched.',
-  emergencyParagraph:
-    'A receptacle smelling of melted plastic, a cover plate that’s scorched or hot, sparks or buzzing, a breaker that trips on reset, or a shock from an appliance shouldn’t wait for a weekday. We get to most of these the same day, weekends included. Shut that circuit off only if nothing is wet. If smoke shows, leave and call 911.',
   commonIntro:
     'Mid-century houses have their own tells, and these are the ones we see most often in Amberley:',
   localFaqs: [

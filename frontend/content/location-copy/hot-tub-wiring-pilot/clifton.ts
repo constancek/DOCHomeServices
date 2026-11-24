@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'In Clifton, most spas we wire end up behind old houses. Census figures put the median build year at 1938, and 2,799 of roughly 4,500 homes date from before 1940. A panel after decades of add-ons rarely has a spare position or the margin for a 240-volt spa breaker, so that is dealt with first. After it come the GFCI circuit, a disconnect in sight of the tub, bonding, and an inspection. We set your panel beside the tub maker’s requirements and price the lot before conduit goes in.',
-  emergencyParagraph:
-    'Feeling a tingle from the spa means everyone should climb out and stay clear. A GFCI that refuses to reset or a disconnect smelling burnt is pressing too. Kill the breaker only if that’s safe; at any smoke, go outdoors and dial 911. We’re usually there the same day, weekends included.',
   commonIntro:
     'Between the Ludlow Avenue shops and the streets around Burnet Woods, these are the spa calls we get most in Clifton.',
   localFaqs: [

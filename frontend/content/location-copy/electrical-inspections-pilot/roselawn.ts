@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Roselawn electrical inspections mostly land on 1960s and 1970s buildings. Census figures date 46.6% of homes here to those two decades, and nearly a third sit in three- and four-unit buildings. Wiring from that era is usually grounded and in decent shape, but panels were sized before central air, electric dryers and EV chargers were normal, and each unit often got just a few circuits. We check what the panels can carry and price the visit up front.',
-  emergencyParagraph:
-    'Book nothing and call us now if you smell burning, find a cover plate that’s warm, buzzing or brown around the edges, see sparks, or have a breaker that won’t reset without tripping again. Leave that breaker off. If smoke or flames appear, get outside and call 911. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'Roselawn is mostly 1960s and 1970s housing, much of it rented, and these are the problems we find most:',
   localFaqs: [

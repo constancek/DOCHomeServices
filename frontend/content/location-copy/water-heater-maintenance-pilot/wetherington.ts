@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Wetherington was built from the early 1990s on, around its club’s course, and Census figures put 41.1% of homes at 2000 or later. No pre-war cellars to contend with: a typical visit is a drain, a sediment rinse, an anode inspection and a relief valve check on a basement or garage heater. Gas service is common here, so burners and venting get a look too. If the tank came with the house and nobody has emptied it, that’s the visit to book. The quote comes first.',
-  emergencyParagraph:
-    'For a leak, book a repair: close the water valve on top, then the gas or power. A gas smell means stepping out, leaving switches and the pilot alone, and calling the gas company. Carbon monoxide alarm: family out first. A relief valve venting repeatedly, or no hot water, can’t wait. We’re typically there that day, weekends too.',
   commonIntro:
     'Even in the newer houses of Wetherington, a working heater gives a few signs it’s due:',
   localFaqs: [

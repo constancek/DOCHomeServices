@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Milford’s housing mostly predates 1980, 69.7% by Census figures, and 19.6% goes back before 1940. The oldest houses around Main Street were built with no ducts at all and are the clearest fit for ductless. Houses from the 1950s through the 1970s often carry small ducts that never cooled an upstairs well. About half the city’s households rent, so in apartments the owner makes the call. You get a fixed price before work, and we’ll say so when ductless isn’t the right answer.',
-  emergencyParagraph:
-    'Second floors of old riverside houses trap heat on about 21 days a year that top 90F (National Weather Service). Toddlers, grandparents and people with lung or heart conditions take it hardest. Ductless installs land on our schedule fast; one room wraps in a day. A broken mini-split needs Mini-Split Repair, same day for most calls, weekends too.',
   commonIntro:
     'From the old houses off Main Street to the larger apartment buildings across Milford, these tend to start a ductless quote:',
   localFaqs: [

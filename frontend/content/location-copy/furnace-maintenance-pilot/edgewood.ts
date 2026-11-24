@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Edgewood is close to all houses, nearly all owner-occupied: Census figures show 94.3% of homes are detached, the median one built in 1976. So the furnace is usually down a basement stair or in a utility room, often the second unit the house has had. Our hour goes to filter, blower, burners or elements and safety controls. Gas and electricity each heat roughly half of homes, electric counting heat pumps. You okay a set price first; a furnace with nothing wrong gets a short report and no upsell.',
-  emergencyParagraph:
-    'Gas smell means exit: out the door, switches left alone, pilot left alone, phone the gas company from across the street. Same with a carbon monoxide alarm. For a furnace stone cold in January, a burner that lights and drops, or a lazy yellow flame, book repair. Babies, older parents and anyone ill come first. Most same day, weekends too.',
   commonIntro:
     'Across Edgewood, owners tend to call about a tune-up for reasons like these:',
   localFaqs: [

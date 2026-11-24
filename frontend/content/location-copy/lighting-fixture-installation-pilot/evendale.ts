@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Most of what we do for lighting in Evendale is upgrading, be it a grander chandelier hoisted into a two-story foyer or three pendants strung over a kitchen island. The capacity of the ceiling box, a ground conductor and whether cable already runs to the spot decide each job. Every one of the 1,006 homes here is a single-family house, and with a Census median of 1982, grounded wiring and decent boxes are the norm. Foyers need staging. We open the box and quote before any old fixture comes down.',
-  emergencyParagraph:
-    'A canopy separating from the drywall, a hot plastic odour or a breaker that flips off whenever one light comes on shouldn’t sit. Kill that circuit at the panel if it’s safe, and steer the family away from underneath. Smoke or fire means leave and call 911. We usually arrive the day you call, Saturdays and Sundays too.',
   commonIntro:
     'Across the village, from Reading Road to the streets near Gorman Heritage Farm, four lighting jobs lead the list.',
   localFaqs: [

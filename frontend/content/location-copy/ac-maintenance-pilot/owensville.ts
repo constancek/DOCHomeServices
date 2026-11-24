@@ -2,15 +2,13 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const owensville: LocationServiceCopy = {
   localParagraph:
-    'In Owensville, spring service tends to be plain work, because the village grew up largely between 1960 and 1979. Half were standing by 1974, going by Census figures, so ducts were planned with the house and the condenser rests on its own pad out back. We check coil, drain, charge and wiring. The village’s apartment buildings change who calls, since most households rent and owners want every unit done in one trip. Our quote comes before the tools do, and if the AC needs nothing, we leave it be.',
-  emergencyParagraph:
-    'Some calls skip the tune-up in Owensville. One is a house that won’t cool in a heat wave. Another is ice on the copper; turn the thermostat off so it melts. Water staining drywall, a hot-wiring smell or a breaker that trips belong there too. Grandparents and infants suffer first. We usually come the day you phone, weekends too.',
+    'In Owensville, spring service tends to be plain work, because the village grew up largely between 1960 and 1979. Half were standing by 1974, going by Census figures, so ducts were planned alongside the framing and the condenser sits on its own pad out back. We check coil, drain, charge and wiring. The village’s apartment buildings change who calls, since most households rent and owners like the whole building seen on one morning. Our quote comes before the tools do, and a system with nothing wrong is left alone.',
   commonIntro:
     'Around the village and Stonelick Township, owners mention one of these when they book a tune-up:',
   localFaqs: [
     {
       q: 'I rent an apartment in Owensville. Should I call you about the AC?',
-      a: 'Tell the landlord before anyone else, and do it on paper or by email. Ohio’s ORC 5321.04 (A)(4) puts air conditioning the landlord provides on the landlord, who has to keep it in good and safe working order. We service air conditioners, not leases, and we’ll happily take the owner’s booking.',
+      a: 'Your landlord should hear about it first, by letter or email. If the cooling was supplied with your apartment, ORC 5321.04 (A)(4) makes keeping it in good and safe working order the landlord’s job under Ohio law. We’re here for the machine, not the rental agreement, and we’re glad to book the visit with the owner.',
     },
     {
       q: 'Is it worth servicing an AC from the 1970s or 1980s in Owensville?',
@@ -29,24 +27,24 @@ export const owensville: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in Owensville',
-        body: 'Out at the pad, we hose the condenser coil from the inside out and rake back the clippings, mulch and leaves that drift against it. In the utility closet or basement, the evaporator coil gets a look, the drain line is blown clear and the pan checked for standing water. Gauges go on the refrigerant ports; a low charge always means a leak, which we quote as a separate repair. We meter the capacitor, inspect the contactor, snug the wiring, check blower speed and airflow, confirm the thermostat, fit a clean filter and watch one complete cooling run. Swapping any part waits for your approval and price.',
+        body: 'Outside, we hose the condenser from the inside out and rake away clippings, mulch and leaves piled against the pad. In the utility closet or basement, we look over the evaporator coil, blow out the drain line and make sure no water sits in the pan. Gauges on the refrigerant ports show whether there’s a leak, and a leak is quoted as its own repair. We meter the capacitor, tighten the contactor and wiring, measure blower airflow, confirm the thermostat, fit a clean filter and watch a full cooling run. No part changes until you’ve seen the price and said yes.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'The visit makes sense for a system with no sticker or receipt from its last service, for a house you moved into this year, for a puddle by the indoor unit, or for a buzz that’s new. Back bedrooms that run warmer than the rest also justify it, and a landlord with a building of units saves trips with one spring round. Leave it if we serviced the system within the year and it cools as it should. An AC that’s quit or iced over needs AC Repair. One we’ve said is worn out deserves the money going to AC Installation & Replacement. We don’t service window units.',
+        body: 'In Owensville, the spring visit earns its keep on a system with no service sticker or receipt, in a house you bought this year, where water pools by the indoor unit, or when a new buzz starts. A warm back bedroom counts as well, and a landlord with an apartment building saves trips with one spring round for every unit. Hold off if we were out within the last year and it cools fine. If it has quit or frozen over, book AC Repair, and if we’ve called it worn out, the money is better spent through AC Installation & Replacement. Window units aren’t something we service.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Owensville',
-        body: 'Electricity heats most homes in the village, so a heat pump is a common thing to find bolted to the pad. That one machine cools in July and heats in January, which is why it gets a visit each spring and another each fall, when the reversing valve and defrost board are put through their paces. Straight central air, used only for cooling, gets by on the spring trip alone.',
+        body: 'Most homes in the village heat with electricity, so the unit on the back pad is often a heat pump rather than a plain condenser. Because it cools through July and heats through January, it needs us twice, in spring and again in fall, when we put the reversing valve and defrost board through a test. A cooling-only central air system is covered by the spring trip by itself.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in Owensville Book AC Maintenance With Us',
     whyParagraph:
-      'Most of our work in the village is 1970s ranch houses on heat pumps and small apartment buildings. Our technicians carry licenses and insurance, every employee is screened and drug-tested, and you see a flat price first.',
+      'Around the village, we mostly service heat pumps on 1970s ranches and units in small apartment buildings. Every technician is licensed and insured and has passed a background check and drug test, and the flat price comes first.',
     sharedFaqs: [
       {
         q: 'What does AC maintenance cost in Owensville?',
-        a: 'Expect one flat figure before we start. Heat pump or central air changes it, and so does reach; a closet air handler behind a water heater takes longer than one in an open basement. If we turn up a worn part, it gets its own price and nothing moves without your nod.',
+        a: 'You get a single flat number up front. It moves with the equipment, heat pump or plain central air, and with how easy it is to get at; a closet air handler behind the water heater takes more time than one in an open basement. A worn part we find is quoted separately, and we wait for your go-ahead.',
       },
       {
         q: 'How often does a heat pump or AC need maintenance?',
@@ -54,7 +52,7 @@ export const owensville: LocationServiceCopy = {
       },
       {
         q: 'Is there anything I can maintain myself?',
-        a: 'Slide in a new filter once the old one looks grey, keep the yard trimmings and shrubs a step back from the condenser, leave registers and returns uncovered, and put fresh batteries in the thermostat. Leave the cabinet screws and copper refrigerant lines for us.',
+        a: 'Put in a fresh filter when the old one has gone grey, keep mulch, clippings and shrubs a step back from the condenser, leave the registers and returns open, and change the thermostat batteries when they run low. The cabinet screws and the copper refrigerant lines stay closed to everyone but us.',
       },
     ],
   },

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Newtown has two kinds of house. Roughly one in five was standing before 1940, and those older panels often have nowhere to fit another big breaker, while homes from the 1980s onward usually do, by Census figures. Old or new, a hot tub wants one 240-volt line reserved for it with ground-fault protection, a disconnect in plain view, and bonding. On newer lots, the tub’s spot and the trench length shape the work. We compare your panel with what the spa’s maker lists and agree a price before digging.',
-  emergencyParagraph:
-    'Ring us straight away if a reset GFCI lets go again within seconds, the shutoff box smells singed, or the spa sat under floodwater. Everybody climbs out, and nobody touches the equipment. Throw the breaker only if it’s safe, and phone 911 for smoke. Expect a visit the same day on most calls, Saturdays and Sundays too.',
   commonIntro:
     'From the old houses on Main Street to the newer streets off Church Street, these are the usual reasons spa owners call us in Newtown.',
   localFaqs: [

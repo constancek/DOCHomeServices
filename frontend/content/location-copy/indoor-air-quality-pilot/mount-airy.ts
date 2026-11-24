@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Housing in Mount Airy is a mix of 1960s houses and big apartment blocks, and Census figures show roughly three households in five rent. In a rented unit, management chooses any new equipment. Many houses date from 1960 to 1979 and keep their first ductwork, which by now coughs dust into bedrooms, while their basements turn clammy every summer. We meter the air before proposing anything, attach a flat price to whatever the meter supports, and tell you plainly if a filter swap is the whole cure.',
-  emergencyParagraph:
-    'Once a carbon monoxide detector wails, shepherd the family outdoors before dialing 911. For a sulfur-like gas odor, exit with lights untouched and call Duke Energy outside. Scorched smells from registers mean switching the system off at its thermostat. Mold spreading after a flood endangers infants, elderly relatives and asthmatic lungs. Most get a technician the same day, weekends too.',
   commonIntro:
     'We hear these most from owners, managers and residents in Mount Airy.',
   localFaqs: [

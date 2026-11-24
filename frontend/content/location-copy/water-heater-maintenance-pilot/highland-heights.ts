@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Nearly half the homes in Highland Heights, 48.8% by Census figures, are in buildings with five or more units, and a lot of those are rented out around Northern Kentucky University. So a typical visit here is a landlord’s closet tank sitting in a drain pan, one per apartment, flushed and checked in turn. The houses mostly date from 1980 to 1999 and give us more room to work. Before any wrench comes out, you have the price, and a tank that’s not worth the trouble gets called that.',
-  emergencyParagraph:
-    'Book repair, not upkeep, when a tank in Highland Heights drips: twist the cold supply shut up top, then the breaker or gas. Gas odor: get outdoors, leave switches and pilot be, and phone the gas utility from the lot. Carbon monoxide alarm: people out. Nonstop relief valve flow or zero hot water, too. Usually same day, weekends included.',
   commonIntro:
     'A working heater in Highland Heights can still be overdue. Here is what tends to prompt the booking:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was John Nolen’s plan for Mary Emery, with groundbreaking in 1923, and Census counts put close to two thirds of its houses before 1950. A fan here usually goes onto plaster, where the original box was set for a period lantern and not a heavy spinning motor. Plenty of bedrooms off Wooster Pike still lack one. Our electrician inspects that box ahead of any quote, says plainly if a screw or blade weight solves things, and fixes the cost in writing first.',
-  emergencyParagraph:
-    'A fan rocking until plaster flakes off around its canopy should be shut off at once, from the wall or the panel when safe. The same holds for motor smoke, a hot electrical odor or a sparking switch. Keep people clear. Fire means everybody out and a 911 call. Most calls in Mariemont get a same-day visit, weekends included.',
   commonIntro:
     'Plaster ceilings from the Nolen plan, bedrooms that never had a fan and apartments along the edges of the village account for most fan calls in Mariemont.',
   localFaqs: [

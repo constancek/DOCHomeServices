@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'The Villages of Roll Hill is essentially one complex, garden apartments and townhomes on a hilltop above the Mill Creek valley, opened in the 1960s as Fay Apartments and rebuilt between 2010 and 2012. Census figures for the area show 86.4% of homes rented. That puts any ductless upgrade with the owner and the management office, not the tenant. For an owner, the draw is cooler upstairs bedrooms with no wall demolition. The office approves a fixed price first, and we’ll say if ductless is the wrong tool.',
-  emergencyParagraph:
-    'Around 21 days a year reach 90F or more (National Weather Service), and a townhome’s upper floor holds that heat past bedtime. Kids, most of the residents here, and grandparents with breathing trouble feel it worst. After approval, a one-room install wraps in a day. Units that stopped working go to Mini-Split Repair, same day for most calls, weekends too.',
   commonIntro:
     'Across the townhome rows and garden buildings on President Drive, these are the requests management hears most often:',
   localFaqs: [

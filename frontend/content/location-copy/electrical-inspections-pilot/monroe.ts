@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Monroe’s houses are mostly young, so our inspections there are planning visits. More than half the homes, 53.3% by Census figures, date from 2000 or later, and their wiring tends to be fine. People call before selling, after buying, or before adding an EV charger, a hot tub or a finished basement, when the question is whether the panel has room. Electric heat in about a third of homes already eats into that panel. We check, write it up and price any work first.',
-  emergencyParagraph:
-    'Even a young Monroe house can throw an urgent fault. A burning odor, an outlet that’s hot or humming, sparking at a switch, lights that sag when the AC compressor starts, or a breaker that won’t hold after a reset: shut that breaker. Smoke or fire, leave and call 911. Same-day visits on most calls, Saturdays and Sundays included.',
   commonIntro:
     'Monroe’s 2000s subdivisions and its homes from before 1980 turn up different findings. These come up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Loveland Park has housing from two eras. The 1920s river lots and the houses built between 1940 and 1959, 29.8% of the stock, sit beside newer streets that pull the median year built up to 1990, per Census figures. Fuel oil still heats 10.4% of homes, a hint that some older places never got ducts. Newer houses call us for the bonus room or finished basement the central unit can’t keep up with. We fix the price before starting and will tell you plainly if ductless is a poor match.',
-  emergencyParagraph:
-    'July here averages an 86F high (National Weather Service), and a room above the garage in Loveland Park runs hotter. Elderly parents, infants and anyone unwell handle it worst. Installs book fast; a one-head system is usually a single day, and more heads take extra. Mini-Split Repair handles an existing unit that failed, same day on most calls, weekends included.',
   commonIntro:
     'Between the original river lots by Loveland Castle and the subdivisions added since 1980, four situations account for most of our ductless quotes:',
   localFaqs: [

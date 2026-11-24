@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'In Amelia, Census figures show more than four in ten homes went up in 2000 or later, and around six in ten heat with electricity, mostly through heat pumps or electric furnaces whose control boards soak up every jolt. Apartments and townhouses are common, and nearly four in ten households rent. A recent breaker box usually has room for a protector. Our electrician confirms that in person, admits it when a couple of outlet strips would serve you better, and puts one flat number on paper before starting.',
-  emergencyParagraph:
-    'Black marks on a switch plate or outlet, a breaker box with a burning odor, or a breaker that snaps off the instant it’s reset means call us that day. Only work the breaker from dry ground. Smoke changes everything, so leave and call 911. Most calls get same-day help, weekends too.',
   commonIntro:
     'All-electric houses and newer subdivisions shape the surge calls we get from Amelia, and these clues come up most.',
   localFaqs: [

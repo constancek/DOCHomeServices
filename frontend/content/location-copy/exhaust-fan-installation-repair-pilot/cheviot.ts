@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Most fan work in Cheviot means a bathroom that holds its steam. By Census figures, 1,746 of the 3,893 homes in the city date to 1939 or earlier, and the median year is 1946. Builders then trusted a bathroom window to let steam out, so a fan arrived later if at all, and whoever installed it often aimed the duct at the attic floor and walked away. Our electrician starts at the grille, finds where that air really ends up and writes the price down before touching drywall or plaster.',
-  emergencyParagraph:
-    'If you smell scorching, see the housing browned or sagging, spot sparks or smoke, find the grille dripping or watch the breaker drop when the fan kicks on, switch it off at the wall or panel if you safely can. Smoke or flames mean everyone leaves and someone calls 911. We try for the same day, weekends too.',
   commonIntro:
     'These are the four fan complaints we hear most from the houses, doubles and apartment blocks of Cheviot:',
   localFaqs: [

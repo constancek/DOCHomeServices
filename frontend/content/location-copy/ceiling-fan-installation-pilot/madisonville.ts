@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'In Madisonville, a fan job depends on your side of the neighborhood. Off Whetsel Avenue, Census figures put 1,757 of 2,666 homes at 1939 or older, and the plaster there usually hides a box sized for a glass globe, not a spinning motor. Near Red Bank Road, much of the housing went up after 2000 in large managed buildings. We look at the box before anything else, say so when a loose screw is the whole problem, and quote the job before your old light comes off.',
-  emergencyParagraph:
-    'Owner or tenant, cut the power to a fan, if that’s safe, when it sways hard, pulls away from the ceiling or smokes. A sparking switch or tripping breaker means the same. Keep people out from under it. If it burns, leave and call 911. We arrive same day on most calls, weekends included.',
   commonIntro:
     'Pre-war houses on one side and big apartment buildings on the other give us a real mix of fan calls in Madisonville.',
   localFaqs: [

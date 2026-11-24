@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale began as a 1940s subdivision, and Census figures put 73.2% of its homes in the 1940s and 1950s. Houses of that era were wired with few circuits per room and small panels or fuse boxes, and many have been added to piece by piece since. That patchwork is what most inspections here turn up. People book before a sale or purchase, or before adding central air or a car charger. We find the faults and price each repair before work starts.',
-  emergencyParagraph:
-    'A Dillonvale outlet that’s warm, a switch that crackles, a scorch mark on a cover plate, or lights that drop hard when the air conditioner kicks on: switch off that breaker and call us. Smoke or flames mean you leave and call 911. Most of these calls get a technician the same day, weekends included.',
   commonIntro:
     'Dillonvale’s postwar houses were built close together in time, so their wiring tends to age the same way. Common findings:',
   localFaqs: [

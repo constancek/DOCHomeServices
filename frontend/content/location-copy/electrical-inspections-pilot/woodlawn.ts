@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Woodlawn is mostly newer housing, with a median build year of 1987 in Census figures, so the wiring itself is usually in good shape. Inspections here are about load and upkeep. Electricity heats 56.4% of homes, more than gas does, and 66.6% of households rent, many in large apartment buildings. Landlords book us between tenants or before a sale; owners book before adding a charger or a heat pump. We check everything, write it up, and price fixes before starting.',
-  emergencyParagraph:
-    'Some Woodlawn problems need us now, not an inspection next week: a burning smell, a cover plate that’s hot or discolored, sparks, or a breaker that trips the moment it’s reset. Turn that breaker off. If there’s smoke or fire, get out and call 911. Tenants should alert their landlord. Most calls are same day, weekends included.',
   commonIntro:
     'In Woodlawn’s apartments and newer houses, the findings are mostly about wear and heavy electric loads:',
   localFaqs: [

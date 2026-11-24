@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Paddock Hills is known for its Tudor Revival, Dutch Colonial Revival and bungalow houses, and their plaster ceilings decide most fan jobs here. Census figures date 302 of the 723 homes in the area to 1939 or earlier, and the boxes tucked into that plaster were set for a light, not a fan’s heft and motion. Apartment buildings along Reading Road add plenty of renters. We open the old box first, say so if a snug screw cures the sway, and you have our price before anything comes down.',
-  emergencyParagraph:
-    'Some fan trouble can’t sit overnight, like a canopy jolting loose, a plaster box drooping, or haze curling out of the motor. Shut it down at the switch or the breaker panel if you safely can and keep everyone out from beneath it. Flames mean everybody outside and 911. Most calls here get us that day, weekends included.',
   commonIntro:
     'Plaster ceilings in period houses and a mix of owners and renters account for the four fan complaints we hear most in Paddock Hills.',
   localFaqs: [

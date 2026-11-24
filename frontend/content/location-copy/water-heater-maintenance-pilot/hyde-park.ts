@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Census figures show 58.3% of homes in Hyde Park are owner-occupied and 51.6% date from 1939 or earlier. A tune-up there usually means basement steps down to a tank by the foundation wall, a flue connector that has seen decades, a gas cock nobody has turned lately and a drain spigot we treat gently. Closet units in the flats around the Square are the landlord’s to book. Expect a set price up front, and a straight answer if your tank isn’t worth the money.',
-  emergencyParagraph:
-    'Skip the tune-up; these need a repair. Water from the tank: shut the cold inlet, then gas or breaker. Gas odor: out, hands off switches and pilot, phone the gas company from the sidewalk. Carbon monoxide alarm: everyone outdoors before anything. Also a hissing safety valve, or zero hot water. Same day on most calls, weekends included.',
   commonIntro:
     'Homeowners in Hyde Park tend to call us for a first tune-up after noticing one of these:',
   localFaqs: [

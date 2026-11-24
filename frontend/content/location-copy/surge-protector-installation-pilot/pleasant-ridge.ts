@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'Census figures date just over half the homes in Pleasant Ridge to 1939 or earlier, and one unit in seven sits in a two-family. In houses that age, panels are often small or full of added circuits, so we can’t promise a spot for the device until the cover is off. Owners who have put in central air, a gas furnace or smart devices have more to protect. Our first step is the panel, we’ll say if plug-in strips are enough, and the price is set before work begins.',
-  emergencyParagraph:
-    'Lights that surge and sag everywhere are a Duke Energy call first. A scorched switch, a hot smell at the panel following a storm, a breaker that won’t hold, or a dryer that sparked as power returned should get a visit that day, and most do, weekends included. If you see smoke or fire, leave and call 911.',
   commonIntro:
     'Along Montgomery Road and Ridge Avenue, in single homes and two-families alike, these are the signs we see most in Pleasant Ridge.',
   localFaqs: [

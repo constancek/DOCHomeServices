@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights is a few hundred homes hemmed in by I-75, and Census figures date close to two-thirds of them to 1939 or before, with the median at 1938. In houses that age the breaker box is often small or stuffed full, so the box itself decides whether a protector can go in and where. Just over half of households rent, leaving the call to owners. We take the cover off first, say so when outlet strips are the sensible spend, and fix the number before any wiring.',
-  emergencyParagraph:
-    'Soot around an outlet’s slots, a hot smell at the breaker box, or a breaker that won’t stay up after a storm means phone us that day. Kill that circuit only if the floor is dry and nothing feels warm. With smoke or flame, leave first and call 911. Same-day visits are the norm for most calls, including weekends.',
   commonIntro:
     'Prewar houses, cramped breaker boxes and plenty of tenants shape the surge questions from Arlington Heights, and these are the clues people report.',
   localFaqs: [

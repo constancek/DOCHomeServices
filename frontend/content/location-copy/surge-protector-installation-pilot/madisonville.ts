@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Madisonville is two neighborhoods in one for surge work. On the streets around Whetsel Avenue, most houses predate 1940 and their panels tend to be tight or full. Toward Red Bank Road, much was built after 2000, a lot of it apartments packed with central air and board-run appliances. By Census figures, about half of households rent, so the landlord often decides. Opening the panel shows where a protector can go, we say when strips will do, and the price is set before work.',
-  emergencyParagraph:
-    'A breaker that lets go after a reset, an outlet browned by heat, or anything that sparked when power returned needs us that day. If every light swells and sags together, call Duke Energy Ohio first. Kill that circuit only when dry. With smoke or fire, leave and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'From century-old houses near Whetsel Avenue to new apartment buildings in Madisonville, these are the signs people mention most.',
   localFaqs: [

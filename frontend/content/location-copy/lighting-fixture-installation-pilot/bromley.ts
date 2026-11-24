@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Bromley is a small river city beside Ludlow, and nearly every home is a detached house, many built before the 1937 flood. Census figures put more than half the houses before 1940. Above most ceiling lights you’ll find plaster, a small box sized for a lighter fixture and wiring with no ground. Owners live in roughly three of every four houses. We open the box and test the wiring, and you approve one firm number before work starts.',
-  emergencyParagraph:
-    'If a ceiling light is tearing away from the plaster, smells hot or has brown rings around its base, leave it off. Kill the breaker only if you can reach it without standing in water, and keep clear of the fixture. Fire or smoke means leaving and dialing 911. Bromley usually gets a same-day visit, Saturdays and Sundays included.',
   commonIntro:
     'River-town houses in Bromley tend to need one of four lighting jobs.',
   localFaqs: [

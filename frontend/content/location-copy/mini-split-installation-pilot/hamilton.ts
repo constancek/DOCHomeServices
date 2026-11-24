@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'Nearly three in ten homes in Hamilton, 27.4% by Census figures, were standing by 1939, and the 19th-century houses of German Village, Dayton Lane and Rossville are older again. Running ducts through their plaster means tearing walls apart. A ductless head goes in through one small hole instead. Of the city’s homes, 45.7% are rented, and with those the owner signs off. We fix a price before any drilling, and if a mini-split is a poor fit for your house, you’ll hear that before you spend a cent.',
-  emergencyParagraph:
-    'In Hamilton, July afternoons average a high of 86F on National Weather Service records, and a third floor keeps that heat past supper. Grandparents, newborns and anybody with asthma or a heart condition shouldn’t sleep up there. Install dates come quickly; one zone is generally a day. A dead mini-split calls for Mini-Split Repair, mostly same day, weekends too.',
   commonIntro:
     'From the historic districts near downtown to the postwar streets farther out, these are the rooms that start most ductless jobs in Hamilton:',
   localFaqs: [

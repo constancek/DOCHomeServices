@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Close to half the homes in Kennedy Heights were built before 1940, 46.4% by Census figures, and gas heats about two in three. In those older houses the furnace sits in the basement and usually vents into the original chimney, often as the house’s second or third furnace, so the flue and heat exchanger are where we spend our time. Most homes are owner-occupied, though doubles and apartment buildings add many landlord bookings. You hear the price before work starts, and if your furnace needs nothing, we’ll say that.',
-  emergencyParagraph:
-    'Book a repair for these instead. Gas in the air: go out without using switches or relighting, then phone the gas company from outside. Carbon monoxide alarm: everybody out first. No heat with a freeze outside, cycling on and off without end, a flame gone soft and yellow. Infants and grandparents can’t wait long. Most are same day, weekends too.',
   commonIntro:
     'The furnaces we see in Kennedy Heights are mostly in old basements, and owners call after spotting:',
   localFaqs: [

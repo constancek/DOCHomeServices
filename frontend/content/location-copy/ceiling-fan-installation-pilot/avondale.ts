@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'In Avondale, most fans hang in flats rather than single houses. About three homes in four are rented, per Census figures, and over four in ten units date from before 1940, back when a ceiling box was a shallow pan for a globe light pinned into plaster and lath. Fan work in the big Reading Road and Burnet Avenue buildings goes through management. We look into that pan first, say so if a tightened bracket cures the shake, and price it before the old globe comes off.',
-  emergencyParagraph:
-    'A fan rocking loose from the plaster, a motor puffing smoke, or a switch that crackles at a touch can’t wait. If you can reach the switch or breaker safely, cut the power and shoo everyone from underneath. Anything burning means leave the building and dial 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'These four fan complaints reach us over and over from the prewar flats, walk-ups and rehabbed apartment buildings of Avondale.',
   localFaqs: [

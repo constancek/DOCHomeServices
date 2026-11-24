@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Edgewood is a city of owner-occupied single homes, and Census figures put the median at 1976, with about half built during the 1960s and 1970s. Many have since picked up a heat pump or fresh central air, a redone kitchen and a growing pile of connected devices, all things surges chip away at. Panels of that age differ, so we begin by checking yours for an open space and a good mounting spot. If strips would serve, we say so, and the price comes before anything is done.',
-  emergencyParagraph:
-    'Phone us if one breaker won’t quit tripping, or a faceplate or the panel gives off a scorched odor, and switch that circuit off only if it’s safe. Lights swinging bright then dim house-wide are a job for Duke Energy Kentucky first. Smoke or fire means leave and call 911. Most of these see us that day, weekends too.',
   commonIntro:
     'In the 1960s and 1970s single homes that fill most of Edgewood, these signs tell us a panel device is worth pricing.',
   localFaqs: [

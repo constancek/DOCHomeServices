@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'People use the name Western Hills for a stretch of the west side that crosses the Cincinnati line into Cheviot and Green Township. Its houses are mostly postwar, and Census figures for ZIP codes 45211 and 45238 put the typical one at 1958 and 1962. A bathroom built then often got a tiny ceiling fan or nothing, and later fans were commonly run up into the attic and left there. We chase the air from grille to outlet and quote before the ceiling is opened.',
-  emergencyParagraph:
-    'Kill power to the fan once it gives off a burnt odor, its housing scorches or sags, it drips water, spits sparks or smoke, or its breaker trips on start-up, if the switch or panel is safe to reach. Flames or smoke mean get out, then phone 911. Most calls here are seen the same day, weekends included.',
   commonIntro:
     'In the postwar houses across Western Hills, these four fan signs bring most of our calls:',
   localFaqs: [

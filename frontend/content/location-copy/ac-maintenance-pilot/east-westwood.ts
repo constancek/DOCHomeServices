@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'In East Westwood, the person booking an AC tune-up is usually a landlord. Census figures show about three in four homes are rented, and roughly two in five sit in buildings of five or more units, so the work is often a run of closet air handlers and a row of condensers behind one building. The single-family houses here mostly date from the 1950s, with central air added later. Owners hear a flat price per unit first, and a unit that needs nothing is listed that way.',
-  emergencyParagraph:
-    'Some calls belong with AC Repair. An apartment without cooling in a heat wave, water dripping into the flat below, or a burning smell all qualify, and with that smell the breaker stays off. Elderly tenants, infants and residents with breathing problems are in the most danger. Expect us the same day on most calls, Saturdays and Sundays as well.',
   commonIntro:
     'These are the problems that bring building owners in East Westwood to us for maintenance:',
   localFaqs: [

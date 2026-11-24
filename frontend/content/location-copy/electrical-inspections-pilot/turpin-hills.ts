@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Turpin Hills houses mostly date from the 1960s and 1970s, and that era shapes what we find. Census figures put the median home at 1977, with almost half built between 1960 and 1979. Panels from those years were sized before central air, a second refrigerator and a car charger were normal, and kitchens often got just a couple of counter circuits. The 1980s and 1990s homes usually pass with little to fix. You leave with a written report and a price for each item.',
-  emergencyParagraph:
-    'Book an inspection for slow problems, but phone us for heat or a burning odor at an outlet, a buzzing switch, sparks, a breaker that won’t hold, or lights that sink each time the air conditioner starts. Shut that breaker. Smoke or flame: everyone out, then 911. Most Turpin Hills calls see a technician that day, weekends too.',
   commonIntro:
     'Nearly every Turpin Hills call is a single-family house, and the findings follow the decade it was built. These come up most:',
   localFaqs: [

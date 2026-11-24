@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Mount Washington is mainly postwar. Census counts put 2,175 of its 7,075 homes in the 1940 to 1959 window and only 805 before that, with plenty more from the 1960s and 1970s. Bathrooms from the late 1940s and 1950s often had a window and no fan, and the fan that a later owner added may blow straight into the attic. Newer townhouses tend to have fans, just small ones. We start by finding where the air actually goes, then quote the fix before opening the ceiling.',
-  emergencyParagraph:
-    'A singed odor, a housing that’s scorched or drooping, sparks, smoke, a breaker that trips on every start, or water leaking through the grille takes the fan out of service today. Kill it at the switch or breaker if that’s safe. With smoke or flames, get out and call 911. We reach most of these the same day, weekends too.',
   commonIntro:
     'From the side streets off Beechmont Avenue to the townhouse rows and apartment buildings, these four signs come up most:',
   localFaqs: [

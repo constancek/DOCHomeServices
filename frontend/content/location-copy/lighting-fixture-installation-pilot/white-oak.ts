@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'In White Oak, half the homes predate 1968, going by the Census, and the bulk went up from the 1940s through the 1970s. Those ranches often have a single small light in the middle of each ceiling, a hallway that stays gloomy even with it on, and a living room wired for lamps only. About one unit in five sits in an apartment building. A box from those decades might hold a simple light and nothing heavier, so we open it up before you see a number.',
-  emergencyParagraph:
-    'When a fixture starts to sag or hang by its wires, keep clear of it. Melted plastic, scorch marks or a buzzing switch can’t sit either. Shut off that circuit if it’s safe, and get out and ring 911 at any sign of smoke. We aim to arrive that same day, including on weekends.',
   commonIntro:
     'Around White Oak, the fixture calls we get tend to fall into these four.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'In Glendale, over half the houses were built in 1939 or earlier, and nearly nine in ten stand on their own lots, Census figures show. Many of those Italianate and Second Empire homes now hold a new kitchen and central air, all wired back to a panel nobody planned for them. A small or full box limits where a surge unit can go, so we open it first. If a power strip would do the job, we’ll say so, and you get the price up front.',
-  emergencyParagraph:
-    'A breaker that won’t stay on, or an outlet giving off a burnt smell, needs us that day. When the lights everywhere brighten and fade, the electric utility gets the first call. Touch the breaker only from a dry spot. If smoke or fire appears, leave and phone 911. We can usually be there the same day, weekends too.',
   commonIntro:
     'Historic houses in Glendale that now carry modern equipment tend to show surge trouble in these ways.',
   localFaqs: [

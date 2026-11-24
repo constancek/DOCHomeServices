@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'About three households in four rent in Lincoln Heights, and buildings of five or more units hold a third of the homes, Census figures show. Much of the housing went up in the 1960s and 1970s, and many panels have been added onto since, so an electrician has to open the panel before anyone knows if a protector fits. For tenants, good strips are often the honest answer. Owners and landlords get the panel check first and a set price before any work.',
-  emergencyParagraph:
-    'Renters should ring the landlord and owners should ring us when an outlet, switch or panel smells scorched after a surge, or a breaker won’t stay on. Lights throbbing in every room point to the electric utility, so call it first. Smoke or fire means leaving at once and dialing 911. Owners usually see us the same day, weekends included.',
   commonIntro:
     'In the rentals, apartment complexes and owner-occupied houses of Lincoln Heights, these four come up again and again.',
   localFaqs: [

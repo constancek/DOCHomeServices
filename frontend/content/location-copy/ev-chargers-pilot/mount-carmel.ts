@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Most houses in Mount Carmel can take a Level 2 charger, though a 1960s or 1970s panel may be stuffed full. Census figures peg the median home in this township community at 1973, and 1,519 of 2,262 homes are detached, the simple case when the car parks off the street. About a quarter sit in buildings of five or more units, where a manager or association decides. Expect a panel review and load math before any quote, candor when Level 1 suffices, and a price fixed before work.',
-  emergencyParagraph:
-    'A plug gone soft or melted, soot around an outlet, a burnt odor mid-charge, a breaker that pops the moment the car draws power and a crushed cable all need us today. Stop charging and shut that breaker off if it’s safe. With smoke or flame, get out and call 911. Most calls are seen that day, weekends too.',
   commonIntro:
     'Nearly all these calls in Union Township come from houses built between the 1950s and the 1970s, and they tend to start one of four ways.',
   localFaqs: [

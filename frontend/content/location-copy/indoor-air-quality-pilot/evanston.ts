@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Evanston is a neighborhood of old houses, some of them two-family, and Census figures show seven in ten were built before 1940. Drafts pull street dust in, cellars stay damp from spring into fall, and the ductwork is often old enough to spread whatever it picks up. Some pockets of the neighborhood are mostly rented, and there the owner decides on equipment. We test before recommending anything, set a flat price before installing, and say so when a filter change will fix it.',
-  emergencyParagraph:
-    'Should the carbon monoxide alarm go off, everybody leaves, then dials 911. Noticing gas means walking out with the lights untouched and calling Duke Energy. Switch off a furnace or AC giving off a burnt smell. Mold spreading after a leak can’t wait with babies, grandparents or asthmatics in the house. Same-day help on most calls, weekends too.',
   commonIntro:
     'Pre-1940 houses near Xavier and along Montgomery Road usually tell us the air needs work in one of these ways.',
   localFaqs: [

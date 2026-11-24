@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'Northgate is mostly houses from the 1960s and 1970s, with a Census median of 1969. Kitchens wired back then rarely planned for today’s appliances, and roughly as many homes here heat with electricity as with gas, which leans hard on the original runs. Some may also carry aluminum branch circuits. Testing comes before any quote. If the wiring passes, you’ll hear that from us, and the scope and fixed price arrive in writing before a wall is opened.',
-  emergencyParagraph:
-    'Have us out the same day for a burnt odor at a receptacle or inside drywall, a switch plate that’s scorched or hot, sparking, crackling or a jolt from a fixture. Throw the breaker for that circuit only when you’re dry and away from anything hot. Smoke or flames mean getting out first, then calling 911. Weekends are covered.',
   commonIntro:
     'Along the streets off Springdale Road and Colerain Avenue, where most houses are from the 1960s and 1970s, these are the warnings we see most in Northgate:',
   localFaqs: [

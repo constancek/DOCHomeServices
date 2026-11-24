@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'In Sharonville, most of the housing went up after 1960, with a median build year of 1974 by Census figures, so central air was usually part of the house from the start. That makes our spring visit plain coil, drain and wiring work rather than chasing ducts someone forced in later. Roughly three in ten homes sit in apartment complexes, where one owner or manager books the lot. Electric heat is common, so heat pumps are too. A fixed quote comes first, and a healthy system gets an honest all-clear.',
-  emergencyParagraph:
-    'No tune-up will rescue a system blowing warm in a heat wave, or copper lines frosted white. Turn the thermostat off and wait for the thaw. A burning odor, a puddle by the air handler or a breaker that won’t reset means leave it off. Grandparents, infants and the sick suffer first. Most calls are reached that day, weekends included.',
   commonIntro:
     'Spring calls from homeowners and property managers in Sharonville tend to begin with something like this.',
   localFaqs: [

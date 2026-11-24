@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Off Colerain Avenue in Mount Airy, a typical spa install means one new 240-volt breaker, a GFCI, a shutoff that stays in view of the tub, and bonding around it. Census figures date the median home to 1964, and a panel that old has often taken on air conditioning and a finished basement since, so its spare capacity is the first thing we measure. About three in five homes are rented, putting the call with owners. Before conduit is cut, you have a price matched to the spa’s spec.',
-  emergencyParagraph:
-    'A burnt smell at the spa shutoff, or scorching on its cover, means the soak is over in Mount Airy. Bathers climb out and leave the water and pump alone. If the breaker can be reached without risk, switch it off; if there’s smoke or flame, go outside and dial 911. Most callers see us the same day, weekends included.',
   commonIntro:
     'Spa owners near Mount Airy Forest and along Kirby Avenue tend to reach us after one of these four.',
   localFaqs: [

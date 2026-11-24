@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Delhi Hills is a detached house its owner lives in, and Census figures put the median at 1971. About half heat with electricity, which usually means a heat pump working summer and winter alike, and its control board is precisely the part repeated jolts grind down. A breaker box from the early 1970s may be crowded or due for attention, so we look inside before anything else. If strips would cover your needs, we’ll say so, and the price comes before any work.',
-  emergencyParagraph:
-    'Phone us if a heat pump or appliance smoked or sparked as power came back, a receptacle carries scorch marks, or a breaker gives up right after a reset. Lights everywhere swelling and fading together are a job for the electric utility before us. If smoke or flame shows, leave and call 911. Weekends included, same-day visits are the norm.',
   commonIntro:
     'Houses from the 1960s and 1970s on the bluff in Delhi Hills, many of them on heat pumps, tend to show these signs first.',
   localFaqs: [

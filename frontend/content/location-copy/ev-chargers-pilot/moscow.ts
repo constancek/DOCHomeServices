@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'Census figures show that most of the housing in Moscow was built before 1940, and almost every house is detached and lived in by whoever owns it. A good share still run on a modest original service with little margin for a 240-volt circuit, and over half of households heat electrically off that supply. We study the panel and tally the load first, mention it if the cord from the car covers your driving, and agree on a price before a tool comes out.',
-  emergencyParagraph:
-    'Anything the Ohio touched, charger or outlet, stays unplugged until we’ve tested it. A hot plug, a scorch mark or a burning whiff means the same. Kill the circuit only from somewhere dry with clear access to the panel. With smoke or flames, leave, then ring 911. Most calls get a visit that same day, Saturdays and Sundays too.',
   commonIntro:
     'In a small river village of mostly pre-war houses, these four reasons account for most charger calls in Moscow.',
   localFaqs: [

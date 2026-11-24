@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'In Dillonvale, most fan jobs start with a ceiling box that Dillon Builders put up for a light, not a fan. The median house dates from 1956 on Census figures, and about nine in ten are single detached homes. Builders of that era gave each bedroom one fixture and no fan bracing, so a fan hung on that box can rock and loosen. We open the box first, say so when a few turns on the mount will do, and settle the price while the old light is still up.',
-  emergencyParagraph:
-    'A fan in Dillonvale that swings hard or drops needs help fast, as does a scorched motor smell, a sparking wall switch, or a breaker that trips when the fan starts. Kill the switch or breaker if that’s safe, and keep everyone clear. Smoke or flames are a 911 call from outside. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Post-war houses next to Deer Park, most with one light per room, make up nearly all the fan work we see in Dillonvale.',
   localFaqs: [

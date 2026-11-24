@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Most homes in Downtown Cincinnati are apartments and condos; 71.6% of units sit in buildings of 50 or more, by Census figures. Many rely on a building system that management services, so the landlord or manager books the visit. Where a unit has its own air handler in a closet and an outdoor section on the roof or a balcony, we service it, and in the pre-war buildings those closets are often tight. The price is set before we start, and we say so if the system needs nothing.',
-  emergencyParagraph:
-    'If a unit stops cooling in a heat wave, water drips into the apartment below, or a breaker trips again after a reset, that calls for a repair visit, not a tune-up. Leave that breaker off. Tenants should tell management in writing, sooner if an older or ill resident is home. Same day on most calls, weekends included.',
   commonIntro:
     'For condo owners, landlords and managers in Downtown Cincinnati, these usually prompt a spring service.',
   localFaqs: [

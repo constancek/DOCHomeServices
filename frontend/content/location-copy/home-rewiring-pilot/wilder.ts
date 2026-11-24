@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'Most of the housing in Wilder, by Census counts, went up in the 1980s and 1990s, and over half of it sits in buildings of five or more units. So most jobs here stay inside one condo or house. About six in ten homes heat with electricity, which leans hard on circuits laid out decades back. Some of the 1960s and 1970s houses may have aluminum branch wiring. We test first, say if it’s fine, and quote scope and flat price on paper before any wall opens.',
-  emergencyParagraph:
-    'Call us that day in Wilder if an outlet smells like melting plastic, a faceplate is too hot to touch, the wall crackles, a breaker kicks right back off, or a switch gives you a jolt. Touch the panel only from a dry floor. For smoke or fire, get out and call 911. Weekends are no exception.',
   commonIntro:
     'In condos and houses across Wilder, wiring that needs attention usually shows up as one of these:',
   localFaqs: [

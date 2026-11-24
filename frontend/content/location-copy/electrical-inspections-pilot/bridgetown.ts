@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'A Bridgetown electrical inspection usually means a house built in the 1950s or early 1960s. Census figures give a median of 1962, and 40.0% of homes date from 1940 through 1959. Builders then ran a couple of circuits per room off a modest panel, years before central air, island kitchens and EV chargers came along. Some bedrooms still have two-slot receptacles. We test the system end to end, write up the results and quote any fix up front.',
-  emergencyParagraph:
-    'Some Bridgetown problems need us today: a smell like burning insulation, sparks, a receptacle or switch gone hot or black, or a breaker that keeps kicking off right after reset. Shut that breaker off and leave it. Smoke or fire means everyone out and a 911 call. Most of these get a same-day visit, Saturdays and Sundays included.',
   commonIntro:
     'Most Bridgetown homes are postwar, and their wiring shows it. These come up most:',
   localFaqs: [

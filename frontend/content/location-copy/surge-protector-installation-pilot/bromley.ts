@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'In Bromley, a surge protector often goes onto a panel that has seen a lot. The Census puts the median year built at 1938, so about half the houses predate 1940, and nearly all are single detached homes on low ground beside the Ohio River. Old panels here tend to be small or full, and some sit in basements that took water in recent floods. We check the panel first, tell you if outlet strips will cover what you need, and set the price before work begins.',
-  emergencyParagraph:
-    'Get out and call 911 if there’s smoke or fire. For a charred receptacle, a breaker that clicks off again on reset, or a washer that crackled as power returned, call us; most calls see us that day, weekends included. Should the lights brighten and sag house-wide, tell Duke Energy Kentucky first. Only touch the breaker when everything is dry.',
   commonIntro:
     'In a river town of older single houses, these are the warnings that bring people to us about surge protection in Bromley.',
   localFaqs: [

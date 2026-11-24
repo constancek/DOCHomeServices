@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Most of Northbrook was built in the 1960s and 1970s, around Colerain Avenue and Pippin Road, and Census figures give a median of 1970. Around a third of homes heat with electricity. Many of those houses have replaced their original air conditioner since, so the newest equipment in the house is often hooked to the oldest panel. About one in five households rent, some in apartment buildings. We start at the panel, say plainly when strips are enough, and agree the price before we touch anything.',
-  emergencyParagraph:
-    'Smell something burning at the panel, or find an outlet browned after a storm, and it’s a same-day job, weekends included, on most calls. So is a breaker that clicks off seconds after a reset. Lights swelling and fading house-wide are Duke Energy’s to fix first. Keep away from wet breakers. If smoke shows, leave and call 911.',
   commonIntro:
     'New equipment wired to old panels drives most of the signs we see in Northbrook.',
   localFaqs: [

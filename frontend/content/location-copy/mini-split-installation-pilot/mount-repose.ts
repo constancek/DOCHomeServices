@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Mount Repose is mostly houses from the 1960s on, with a median year built of 1978 by Census figures and close to nine in ten homes owner-occupied. In houses of that age, a ductless system is usually for the space the ducts skip, such as a finished basement, a sunroom or a garage turned workshop. One head cools it without reworking the ductwork. We set a flat price before we start, and if fixing the airflow would do the job, we’ll say so.',
-  emergencyParagraph:
-    'A sunroom in Mount Repose can become the hottest room in the house, and the National Weather Service sets July’s normal high at 86F. Babies, older relatives and anyone with breathing trouble shouldn’t sit out there. Installs go on the schedule quickly, usually one day for single-zone. If a mini-split quit, book Mini-Split Repair, often same day, weekends too.',
   commonIntro:
     'In the 1960s and 1970s houses and newer subdivisions of Mount Repose, these are the spaces owners most often want cooled:',
   localFaqs: [

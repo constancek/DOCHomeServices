@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Most of the tune-up work in Hyde Park is on cooling that was retrofitted. Census figures date 51.6% of homes here to 1939 or earlier, decades ahead of central air, so ductwork got squeezed through closets later and the air handler usually ended up in the attic. About a third of the housing is apartments, booked by their owners. The price is fixed and agreed up front, and an AC in good shape gets told it’s in good shape.',
-  emergencyParagraph:
-    'A tune-up is the wrong booking for a dead AC in a hot spell, frozen lines or a dripping ceiling. Shut a frozen system off at the thermostat to thaw. A burning smell or a breaker that won’t stay reset calls for a repair. Babies, older relatives and anyone ill suffer first. Same-day repair on most calls, weekends too.',
   commonIntro:
     'Across the prewar streets and apartment blocks of Hyde Park, owners usually call about one of these:',
   localFaqs: [

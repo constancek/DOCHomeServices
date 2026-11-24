@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'In Walnut Hills, most light fixture calls start under a high plaster ceiling, where someone wants a real chandelier in a dining room that has held a bare porcelain socket for decades. Of the 4,357 homes counted by the Census around Peebles’ Corner, 2,103 were standing by 1939, and 1,142 more sit in buildings of fifty or more apartments. Old horsehair plaster, cloth-wrapped wire and boxes nailed to lath are routine. We open that ceiling first and write the quote before anything is unscrewed.',
-  emergencyParagraph:
-    'Plaster cracking around a canopy, a singed smell at an old socket or lights dimming across several rooms should not wait. Cut that circuit if the panel is safe to reach, and keep people from beneath it. If smoke or fire shows, get out and call 911. Most city calls get us same day, weekends also.',
   commonIntro:
     'Requests for light fixtures in Walnut Hills usually fall into four camps.',
   localFaqs: [

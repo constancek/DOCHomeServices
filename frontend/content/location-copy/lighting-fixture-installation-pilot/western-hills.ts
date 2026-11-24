@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'Around Glenway and Ferguson, much of our work in Western Hills is taking a postwar ranch or Cape Cod from one frosted globe per room to LED fixtures that actually light it. Census numbers put the midpoint build year at 1958 for ZIP 45211 and 1962 for 45238, where 5,496 homes date from the 1950s alone. Grounded cable is common at that age, but hallways are dim and boxes small. Older houses nearer Cheviot may have plaster and none. We inspect overhead, then commit to a written price.',
-  emergencyParagraph:
-    'Lights dimming across the house, a crooked globe, a burnt smell from a hallway fixture or a switch that feels warm should be checked without delay. Cut power to that circuit when the panel is safe to reach. Smoke or flame means everyone leaves before anyone dials 911. West side calls are usually answered same day, weekends included.',
   commonIntro:
     'For postwar houses on the west side, these jobs top the list.',
   localFaqs: [

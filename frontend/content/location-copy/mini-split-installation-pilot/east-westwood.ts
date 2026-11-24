@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Three in four homes in East Westwood are rented, by Census figures, so a ductless project here usually begins with an owner or property manager. Housing is younger than most of Cincinnati, with a median year built of 1958, and many units sit in apartment buildings. There, a wall head replaces the window unit with no ductwork. In the 1950s houses, it reaches back bedrooms the first system missed. The owner approves a flat price first, and we say so if a mini-split won’t solve it.',
-  emergencyParagraph:
-    'An upper-floor apartment in East Westwood can run hotter than Cincinnati’s 86F normal July high (National Weather Service) by afternoon. Elderly tenants, infants and anyone with asthma are most exposed. We book installs quickly, and a single head goes in within a day. A broken one goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the apartment buildings and 1950s houses of East Westwood, owners usually call about one of these:',
   localFaqs: [

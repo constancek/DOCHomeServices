@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'For most recessed lighting in Groesbeck, the house dates from the 1960s or 1970s and has an attic sitting right over its top-floor rooms. Census figures put the median home at 1970, and roughly a third of households rent, many in apartment buildings among the houses. That kind of attic generally means decent access, though its insulation dictates which housing fits. Basements in these Colerain Township houses often get finished years later, and that ceiling is the easiest of all. We chalk each spot and quote before cutting.',
-  emergencyParagraph:
-    'Stop using the downlights if a breaker drops each time they switch on, a trim burns to the touch or water beads around a can. Cut the circuit at the panel when that’s safe. Visible smoke or fire means getting out and calling 911. Same-day help reaches most calls, weekends included.',
   commonIntro:
     'In Groesbeck, calls arrive from 1960s and 1970s houses, newer builds and apartments alike. These rooms top the list.',
   localFaqs: [

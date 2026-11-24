@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Houses and apartments split close to evenly in Withamsville, and by Census count 53.7% of homes are rented, which puts many mini-split decisions with a landlord or property manager. The houses run from postwar builds to the 1980s and 1990s, and most came with ducts. So the ductless work here is mainly the space those ducts shortchange, like a sunroom, a basement rec room or a room over the garage. One price is agreed before work, and if a mini-split won’t solve it, we tell you.',
-  emergencyParagraph:
-    'On the 21 or so days a year that reach 90F (National Weather Service), an upper-floor apartment off Ohio Pike can turn stifling. Seniors, babies and anyone breathing poorly need relief first. We schedule quickly, and one head is typically a single day, multi-zone more. A failed unit goes to Mini-Split Repair, usually that day, Saturdays and Sundays included.',
   commonIntro:
     'Apartments along Ohio Pike and the houses on the streets behind them bring us these requests most often in Withamsville:',
   localFaqs: [

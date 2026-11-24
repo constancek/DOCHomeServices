@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Woodlawn was platted in 1876, but its homes skew young, with a median of 1987 and close to a third finished since 2000, per the Census. Two households in three rent, and about half the units sit in apartment buildings, so the people calling us are often property managers trading tired builder lights for LED fixtures across a building. Single-family houses mostly have grounded boxes within easy reach, though the handful from before 1960 may not. We test the box first and price it before any fixture is touched.',
-  emergencyParagraph:
-    'Call us the same day for a light sliding off its box, a scorched or melted switch, or a breaker that drops every time one fixture comes on. Until we arrive, leave that breaker off if reaching it is safe and keep people from walking below. Smoke or flame means out of the building and 911 first. Weekends count too.',
   commonIntro:
     'Most fixture calls we take from around the village fit one of these four.',
   localFaqs: [

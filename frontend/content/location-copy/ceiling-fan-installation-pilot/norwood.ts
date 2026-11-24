@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Hanging a ceiling fan in Norwood means working with a ceiling put up before the Second World War. Census figures date 6,701 of the city’s 10,084 homes to 1939 or earlier, and more than half are rented, often as one flat stacked over another. A ceiling box from that era was set to hold a light, and a fan’s weight and wobble ask more of it. We open that box first, admit it when one loose screw is the trouble, and lock the price before the old light comes off.',
-  emergencyParagraph:
-    'Shut off any fan that jerks its canopy loose, hangs from a box that has dropped, or smells scorched, using the switch or breaker if that’s safe, and keep clear beneath it. Sparks or buzzing at the wall plate count too. With fire or smoke, get out and dial 911. Expect us the same day on most calls, weekends too.',
   commonIntro:
     'Stacked flats, pre-war ceilings and landlords juggling an upstairs tenant and a downstairs one account for most fan calls we take in Norwood.',
   localFaqs: [

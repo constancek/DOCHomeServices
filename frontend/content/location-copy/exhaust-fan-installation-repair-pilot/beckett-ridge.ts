@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Beckett Ridge was begun in the 1970s and mostly built in the 1980s and 90s, so many bathroom fans here are original to the house and have run for decades. Census figures put the typical home at 1990. Those fans were often small to begin with, and their motors and switches wear out. About one home in four is a condo or townhouse, where an association may weigh in on new vents. We test the airflow, find where the duct ends and quote the fix before any ceiling work.',
-  emergencyParagraph:
-    'Cut power to a fan that smells singed, sparks or smokes, using the switch or breaker if that’s safe. Treat a breaker that won’t hold with the fan running, or a water mark across the ceiling, as urgent. Smoke or fire means getting out and calling 911. Electricians reach most calls the same day, weekends too.',
   commonIntro:
     'Across the golf-course streets, condos and townhouses of Beckett Ridge, owners tend to notice these first:',
   localFaqs: [

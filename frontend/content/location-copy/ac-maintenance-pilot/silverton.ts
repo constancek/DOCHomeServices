@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Silverton was platted on skinny lots, many about 25 feet across at the curb, and its typical house is a 1940s or 1950s build. Cooling came decades later, so the condenser tends to sit in a slot of side yard barely wider than the unit, with ductwork snaked through a basement or closet. Renters outnumber owners in the village, and a lot of them live in three- and four-family buildings. You hear our number before the work, and a system that is doing fine is left as it is.',
-  emergencyParagraph:
-    'If the AC gives out in a heat wave, or ice rings the lines, book a repair. Switch it off so the ice melts. A dripping ceiling or a breaker that pops after reset means it stays off. Heat is roughest on grandparents, infants and anyone with weak lungs. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In Silverton, a tune-up call from an owner or landlord tends to start with one of these.',
   localFaqs: [

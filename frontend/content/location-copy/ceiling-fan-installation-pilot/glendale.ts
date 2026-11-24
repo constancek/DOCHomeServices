@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Glendale was laid out in 1851 around the railroad, and more than half the houses in the village still date from before 1940, with a Census median of 1938. In those rooms the ceilings run tall, the plaster is old, and whatever box sits above the center light was put there for a lamp, not a spinning fan. The box gets opened before any quote, you hear it when the wobble is just a few loose screws, and the price is fixed before a single wire comes loose.',
-  emergencyParagraph:
-    'Under a tall ceiling in Glendale, a fan that starts swinging, tugs at the plaster or smells hot should go off at its switch or the breaker, with the room cleared. Sparks at the switch or a tripping breaker deserve the same. Smoke means leave the house and phone 911. Expect us the same day most times, weekends included.',
   commonIntro:
     'With so many nineteenth-century houses and deep porches in the village, these are the fan problems we see most.',
   localFaqs: [

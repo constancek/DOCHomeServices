@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Three housing eras overlap in Southgate. Census figures put 28.9% of homes before 1940, plaster-walled and built without ductwork, so a head high on the bedroom wall gets cool air in without cutting a chase. The houses from 1980 to 1999 usually came with ducts and call about a lower level or an addition. Apartment buildings of five units or more hold a big share of homes, and their owners make the choice. You get the price before we drill, and an honest no if ductless won’t suit.',
-  emergencyParagraph:
-    'An upstairs flat in Southgate holds heat past dark, and about 21 days a year reach 90F (National Weather Service). Infants, older relatives and anyone with asthma have the hardest time. Installs go on the calendar quickly, and one head is usually a day. A stopped mini-split is Mini-Split Repair work, same day on most calls, weekends included.',
   commonIntro:
     'Pre-war plaster, 1990s lower levels and apartment blocks each bring their own ductless call in Southgate, and these are the usual ones:',
   localFaqs: [

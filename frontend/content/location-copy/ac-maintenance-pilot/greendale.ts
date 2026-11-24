@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Owners live in most houses in Greendale, and a lot of those houses date from the 1940s and 1950s. Census figures set the median at 1958, so cooling arrived later, riding ducts first laid out for a gas furnace. In practice that puts the AC coil in the basement on top of the furnace and sends cold air a long way to the bedrooms upstairs. We look at the whole path, quote a flat price first, and tell you straight when nothing needs doing.',
-  emergencyParagraph:
-    'If the house is heating up and the AC can’t keep up, or water spots a ceiling, or there’s a scorched smell, that’s a repair visit. Shut cooling off at the thermostat when frost coats the lines, and give it time to melt. Grandparents and newborns handle heat worst. Most calls get a technician the same day, weekends included.',
   commonIntro:
     'Here is what usually prompts a spring call from homeowners around Greendale.',
   localFaqs: [

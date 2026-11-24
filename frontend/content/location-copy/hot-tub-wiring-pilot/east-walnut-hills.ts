@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'East Walnut Hills has big prewar houses alongside townhouses and condo towers, and Census figures put roughly half its homes at 1939 or earlier. In those older houses the panel is usually crowded, so a slot and spare capacity for the spa breaker come first. Townhouses and later homes tend to have room, which makes tub placement and the conduit path the main questions. For condos, the association’s rules come before any of it. We read your panel against the spa’s spec sheet and quote before work.',
-  emergencyParagraph:
-    'When the GFCI won’t reset, the panel buzzes, the shutoff box looks scorched or the water tingles, the tub is done for today. Use the steps to get out and throw the shutoff only if that’s safe. Smoke or fire means leaving and phoning 911. Expect us the same day on most calls, weekends included.',
   commonIntro:
     'Around DeSales Corner and the streets off Madison Road, spa owners usually reach us over one of these.',
   localFaqs: [

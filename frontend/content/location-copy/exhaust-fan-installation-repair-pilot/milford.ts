@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'In Milford, roughly half of households rent and half own, and Census figures put the median building at 1968. The old houses close to Main Street usually got a bathroom fan decades after they went up, and some of those blow into the attic. Ranches and apartment complexes from the 1950s through the 1970s came with fans, mostly small ones now near the end of their run. Our electricians check the airflow and quote the repair before a ceiling gets opened.',
-  emergencyParagraph:
-    'Cut power at the switch or breaker, if that’s safe, when a fan smells like burning, sparks, smokes, looks scorched, trips its breaker or leaks water through the grille. For smoke or flames, everyone gets out and someone calls 911. In Milford, most calls get a same-day visit, weekends included.',
   commonIntro:
     'From the streets near the Little Miami River to the apartment complexes in Milford, these four signs are behind most of our calls.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'South Cumminsville, around Dreman Avenue and Elmore Street, is mostly detached houses with owners living in them. Census figures for the area show close to half built in 1939 or earlier, alongside a newer cluster from 2010 on. The old houses had cooling bolted on long after the fact, ducts squeezed through closets and attics and a condenser in a small yard. The new ones were built with it. Either way, the price is set before we begin, and we’ll tell you when a system needs nothing.',
-  emergencyParagraph:
-    'A house that turns stuffy in a heat wave with the AC running, or copper lines furred with ice, needs a repair visit. Set the thermostat to off to thaw it. A burning smell or a breaker that trips twice means keep it off. Babies, grandparents and anyone sick are hit first. We reach most calls that day, weekends included.',
   commonIntro:
     'Owners in South Cumminsville tend to call for a spring visit once they notice something like this.',
   localFaqs: [

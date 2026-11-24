@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Cold Spring has young housing, so a tune-up here is usually a quick one. By Census figures the median home dates to 1999 and 47.5% were built in 2000 or later, which means the ducts were laid out for central air from day one and most condensers sit on a pad with room to work. The visit is coils, filter, drain and wiring. Townhouse rows often have their condensers lined up a few feet apart. You get a fixed price first, and a system that needs nothing gets told so.',
-  emergencyParagraph:
-    'A condenser that hums while its fan sits dead, or a house warming up through a heat wave, is a repair call. Frost on the copper line means setting the thermostat to off until it melts. Babies, grandparents and anyone with a heart or lung condition suffer first. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'For newer homes and townhouses in Cold Spring, spring bookings tend to start like this.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Around Mount Carmel, the bathroom fan we get called about is usually the one the builder chose around 1973, the median year Census counts give for homes here. Most of the housing is detached, 1,519 of 2,262 units, so there’s an attic over the main bath and a good chance its duct was laid loose across the insulation and never reached a roof cap. The fans themselves were often too small from the start. We pull the grille, follow that duct and hand you a price before cutting any drywall.',
-  emergencyParagraph:
-    'A melted-looking housing, a burnt odor, sparks, smoke, a breaker that refuses to hold while the fan runs, or brown rings spreading around the grille all count as urgent. Flip the wall switch or the breaker off when that’s safe. Smoke or flame means leaving and dialing 911. Most of these calls see us the same day, weekends too.',
   commonIntro:
     'Across the subdivisions and apartment communities of this part of Union Township, four warning signs bring most homeowners to us:',
   localFaqs: [

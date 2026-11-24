@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Ridge, kitchen remodels on Woodford and Losantiville often stall at the ceiling, leaving one yellowed fixture over new cabinets, and the box and cable above decide the swap. Census figures place the typical house between 1938 and 1944 depending on the street, with a bit over half built before 1940, so plaster, undersized boxes and missing grounds turn up regularly. Two-families are a familiar sight and somewhat under half of households rent. We test what’s there, then hand you a set price while the old light still hangs.',
-  emergencyParagraph:
-    'A fixture easing off the ceiling, browned plastic at its base, a toggle buzzing hot, or lights stuttering in several rooms call for a visit that day. If the panel is safe, cut that circuit and keep people from beneath. Smoke or flame means leaving first and phoning 911. Most such calls get us there that day, weekends as well.',
   commonIntro:
     'Near the Montgomery Road and Ridge Avenue business district, our lighting calls mostly fall into these four.',
   localFaqs: [

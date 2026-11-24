@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Full rewires are rare in Amelia, because half its homes were built in 1995 or later, Census figures show. Electricity heats more homes than gas, so the circuits feeding heat pumps and electric furnaces matter. Our usual job is an addition, a remodel or a breaker that keeps letting go. Houses from the 1960s and 1970s can come up short on circuits, and some may have aluminum branch cable. You get test results, an honest all-clear if they’re good, and a written scope at a flat price before any cutting.',
-  emergencyParagraph:
-    'Ring us right away for a scorched odor at an outlet, a switch plate that’s blackened or hot, sparks or a crackle, a breaker that won’t reset, or a shock from any fixture. Shut that circuit down only if you can do it dry. Get out and dial 911 if there’s smoke. Most visits are same day, weekends included.',
   commonIntro:
     'Between the newer subdivisions, apartment complexes and mobile homes around Amelia, these are the wiring complaints we hear most:',
   localFaqs: [

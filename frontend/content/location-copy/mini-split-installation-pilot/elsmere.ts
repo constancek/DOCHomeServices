@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'In Elsmere, houses span nearly every decade, from the 13.2% built before 1940 to almost a fifth put up since 2000, and Census figures place the median at 1970. That spread changes the ductless job. Pre-war houses were built without ducts, so a wall head cools an upstairs without opening plaster. Newer houses usually need help in one space, such as a basement, a porch closed in as a room, or an addition. You get a flat price before work, and a straight answer if ductless isn’t worth it.',
-  emergencyParagraph:
-    'An addition the main ducts never reached can pass 86F, the normal July high (National Weather Service). Grandparents, infants and anyone unwell notice first. We put installs on the books quickly, and one zone is mostly a day. If a ductless unit you own stops cooling, Mini-Split Repair is out the same day on most calls, weekends too.',
   commonIntro:
     'With houses from nearly every decade in Elsmere, the ductless calls we get tend to look like these:',
   localFaqs: [

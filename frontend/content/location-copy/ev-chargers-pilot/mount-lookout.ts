@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'Most owners in Mount Lookout can have a Level 2 charger, and the panel sets how much work that takes. Census figures count 1,140 detached houses among 1,454 homes in its core, which helps when the car parks off the street. Half were built in 1939 or earlier, and an original service from those years may leave little room for 240 volts. We start by opening the panel and working the load numbers, then tell you if Level 1 will do, then agree the price before wire goes in.',
-  emergencyParagraph:
-    'If a charger, plug or outlet turns hot or soft, or the breaker gives out each time charging begins, unplug and stop. Anything floodwater touched this past summer stays off until we’ve tested it. Cut power at the panel only when that’s safe. Smoke or flames mean leaving and calling 911. Weekends count, and most calls see us that day.',
   commonIntro:
     'Owner-occupied houses line most streets around the Square, and these are the requests we hear from people there who want to charge at home.',
   localFaqs: [

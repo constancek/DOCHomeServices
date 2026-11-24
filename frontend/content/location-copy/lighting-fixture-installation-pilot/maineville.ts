@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Families from Maine settled this corner of Hamilton Township, yet almost everything standing in the village today is young. The middle house in Maineville was finished in 2004, and more than half went up after 2000. So the call is rarely about bad wiring. It is about the bare-bones lights the builder left, a single foyer lantern two stories up, one box over an island that needs three pendants. Those ceilings are grounded, but the boxes were cheap. We confirm what they’ll carry, then price it.',
-  emergencyParagraph:
-    'If a foyer lantern starts swaying, a light gives off a melted smell, a dimmer turns hot or a breaker drops when a light switches on, get a same-day visit, weekends too. Kill that breaker when the panel is safe to reach, and keep family away from the spot below. Smoke or flames mean everyone out and 911.',
   commonIntro:
     'Off State Route 48 and in the subdivisions around it, these four lighting upgrades top the list for owners in Maineville.',
   localFaqs: [

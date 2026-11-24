@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Clifton is old housing almost everywhere you look. By Census count, 2,799 of roughly 4,500 homes went up in 1939 or earlier, and renters outnumber owners. Behind the plaster of a big Victorian or a carved-up apartment house, there may still be knob-and-tube or rubber-and-cloth wire with no ground, feeding bedrooms full of two-prong outlets. Often one bathroom got updated decades ago and the rest never did. Testing comes before any quote, a healthy system gets an honest pass, and the work and its fixed price go on paper first.',
-  emergencyParagraph:
-    'Don’t sit on a receptacle that’s hot or browned, a switch cover that’s warm, a smell of burning from inside a wall, crackling or sparks, a breaker that won’t hold, or a shock off a switch. Shut off that breaker only if the floor is dry. With smoke or fire, get everyone out and call 911.',
   commonIntro:
     'In the large pre-war houses and apartment buildings of Clifton, worn-out wiring tends to show up like this:',
   localFaqs: [

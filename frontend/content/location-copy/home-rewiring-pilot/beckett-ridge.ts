@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Beckett Ridge is too young for most whole-house rewires. Half its homes were finished by 1990, Census figures show, and building peaked in the 1980s and 1990s, though the first sections from the 1970s might carry aluminum branch cable. What owners ask for is a lower level being finished, a remodel, an addition, or a condo or townhome circuit with a habit of tripping. We test before recommending anything, a healthy system gets a straight all-clear, and you have a flat price and written scope before drywall is cut.',
-  emergencyParagraph:
-    'Get in touch for a melted-plastic odor at a receptacle or switch, a faceplate that’s warm or off-color, sparks or a hum, a breaker that keeps tripping on reset, or a shock from any fixture. Most are handled the same day, weekends included. Shut off that circuit if you’re dry and it’s safe. With smoke, leave and dial 911.',
   commonIntro:
     'Even in houses, condos and townhomes from the 1980s and 1990s, Beckett Ridge sees its share of wiring complaints, mostly these:',
   localFaqs: [

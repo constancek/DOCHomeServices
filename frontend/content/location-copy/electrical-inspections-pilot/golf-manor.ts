@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Golf Manor was laid out in the 1920s and filled in after the war. Census figures put the median home at 1954, and 57.0% were built from 1940 through 1959. That era gave most houses a handful of circuits and a modest panel, fine for a radio and a fridge, tight for window units, a microwave and a home office. A third of the units sit in three- and four-family buildings, and about half are rented. We go through each unit and quote any fixes in advance.',
-  emergencyParagraph:
-    'Not everything waits for a scheduled date. Warm or buzzing receptacles, a scorched cover plate, a burnt-wire smell, or a breaker that pops again right after reset all mean shut that breaker off and get us out. If there’s smoke or fire, clear the building and dial 911. Golf Manor gets same-day service on most of these, weekends too.',
   commonIntro:
     'Golf Manor mixes postwar single homes with two-families and fourplexes, and the same faults turn up in both:',
   localFaqs: [

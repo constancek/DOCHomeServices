@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Four in five homes in Union are single detached houses, and roughly as many went up in 2000 or later, by Census figures. That makes it one of the easier places we wire. Panels from the 2000s tend to have spare slots, and where one is getting crowded, a load-management device often spares you a bigger service. We open the panel and add up what the house draws. If the slow cord in your trunk is plenty, you’ll hear it, and the price is settled before wire goes in.',
-  emergencyParagraph:
-    'If the plug or wall unit is scorched, soft or too warm to hold, if charging brings a burning odor, or if the breaker drops each session, stop charging. Kill that breaker if the panel is dry and cool. Smoke or flame means everybody goes outside and someone dials 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'One of these four usually starts a charger call from a homeowner in Union.',
   localFaqs: [

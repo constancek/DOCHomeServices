@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'In Forest Park, a planned community begun in the 1950s, most houses went up during the 1960s and 1970s; Census figures set the median at 1969. In those split-levels and ranches the equipment is generally easy to reach, so the checkup is quick and thorough. Many residents live in apartment buildings and 45.2% of homes are rented, which is why landlords book a good share of our visits. Each job starts with a fixed quote, and if your AC needs nothing, we won’t invent work.',
-  emergencyParagraph:
-    'Phone us for repair work, not upkeep, once a split-level sits warm through a heat wave or rime whitens its refrigerant tubing; dial the thermostat to off. Brown rings spreading across drywall overhead mean the same. Seniors, toddlers and chronically ill neighbors overheat quickest. Technicians commonly reach you that afternoon, weekends included.',
   commonIntro:
     'For residents of Forest Park, these four things are the usual reasons to book.',
   localFaqs: [

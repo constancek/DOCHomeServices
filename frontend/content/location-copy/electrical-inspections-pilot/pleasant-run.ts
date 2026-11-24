@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'No home in Pleasant Run predates 1940, Census figures show, and most went up in the 1960s and 1970s, with a newer group built since 2000. That makes knob-and-tube unlikely, and inspections focus on capacity. Nearly half the homes heat with electricity, so an older panel may already be close to full before an EV charger or addition goes in. In newer houses the wiring is usually sound and people book before a sale. You get written findings and a price before any work.',
-  emergencyParagraph:
-    'Skip the booked inspection and get us out sooner when a receptacle or switch runs hot, hums or turns brown, you notice a burning odor, something sparks, or a breaker drops again the second it’s reset. Leave that breaker off. Flames or smoke: out of the house, then 911. Pleasant Run calls usually get a same-day visit, weekends too.',
   commonIntro:
     'Pleasant Run inspections are mostly about what a 1970s panel can still take on. What we tend to find:',
   localFaqs: [

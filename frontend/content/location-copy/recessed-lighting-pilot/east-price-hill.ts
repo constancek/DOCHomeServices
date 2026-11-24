@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'Up on this hill, most recessed lighting jobs swap a lone centre fixture for light that reaches every corner, and the house’s era decides the route. Census figures show roughly two in five homes went up in 1939 or before, usually with plaster ceilings and rooms planned around a single pull-chain or switch light. Streets filled in during the 1960s lean toward drywall with attic space above. Close to two of every three homes are rented. Positions get pencilled overhead and the figure gets agreed before any cutting.',
-  emergencyParagraph:
-    'Trims too hot for a fingertip, a ceiling ring gone brown or a scorched odor all mean flipping off that run of lights at the panel, as long as getting there is safe. Seeing smoke or flame means leaving straight away and phoning 911. We reach most calls on the same day, Saturdays and Sundays too.',
   commonIntro:
     'Pre-war houses, two-families near Warsaw Avenue and the newer 1960s blocks each hand us a different ceiling. Four jobs dominate.',
   localFaqs: [

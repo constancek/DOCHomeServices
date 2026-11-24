@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'In Landen, close to nine in ten homes heat with electricity, Census figures show, and the median build year is 1985. Most are houses and townhomes from the 1970s and 1980s, so stale air and lingering cooking smells come up often. So does dry winter air. Townhome and condo units usually keep the air handler in a narrow closet, which limits what fits. We take readings before suggesting anything, set the price before work, and say so when a new filter is the whole answer.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm sounds, people leave before dialing 911. In the few homes here on gas, a gas smell means leaving without touching switches and calling the gas company. If the heat pump or AC smells of burning, switch the thermostat off. Spreading mold hurts babies, grandparents and asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'Around Landen Lake and the subdivisions near it, these four air complaints come up most.',
   localFaqs: [

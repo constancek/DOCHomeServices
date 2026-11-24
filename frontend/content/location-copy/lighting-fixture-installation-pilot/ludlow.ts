@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Off Elm Street and through the river blocks of Ludlow, a typical call is a small bathroom with one weak light above the medicine cabinet. The town’s middle house was built by 1938, and well over half predate 1940, many as narrow detached or row houses. Expect plaster on wood lath, a shallow pan meant for a glass shade, and two-wire circuits with no ground. Before any vanity bar or chandelier is promised, we reach up, see what the box is tied to, and put the price in writing.',
-  emergencyParagraph:
-    'River-town wiring gets a same-day visit from us, weekends too, when a ceiling fixture eases out of its plaster, a socket rim has melted, lights pulse in several rooms or something smells scorched. Shut off that circuit if the panel is safe to reach, and nobody stands underneath. Smoke or fire means walk out and phone 911.',
   commonIntro:
     'Across the older streets of Ludlow, these four lighting jobs fill most of our work orders.',
   localFaqs: [

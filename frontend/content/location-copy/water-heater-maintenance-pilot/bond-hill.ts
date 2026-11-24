@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Doubles and fourplexes are a bigger part of Bond Hill than its single-family reputation lets on, and Census figures date 44.5% of homes to 1939 or earlier. So our visits split three ways: cellar gas tanks with aging flues in the pre-war houses, two to four heaters at a time in the multi-unit buildings, and a fast rinse-and-valve call in houses built since 2000. Renters fill 44.9% of homes, so landlords book plenty of our work. Price comes first, plus a frank word when a tank isn’t worth it.',
-  emergencyParagraph:
-    'It’s repair, not upkeep, when the tank drips from its body (twist the cold-water handle shut, then gas or breaker), gas is in the air (everybody outside, switches untouched, call from there), a carbon monoxide alarm sounds (people out first), the relief valve keeps letting go, or every hot tap runs cold. Same day on most calls, weekends included.',
   commonIntro:
     'Owners in Bond Hill usually pick up the phone after one of these:',
   localFaqs: [

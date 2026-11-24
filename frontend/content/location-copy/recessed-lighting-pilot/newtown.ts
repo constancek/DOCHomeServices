@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'The smartest moment for cans in Newtown is while a remodel has the ceiling torn down to studs and joists. Census figures place the village’s middle home at 1989, so most houses have sheetrock ceilings and attics that are friendly to work in. Roughly one in five went up before 1940, though, and those older places near Main Street and Church Street can mean plaster and rooms laid out around one center light. Whichever you own, we pencil each can overhead and fix the price before any saw starts.',
-  emergencyParagraph:
-    'A can that smells singed, a brown halo on the drywall or a trim too hot for a fingertip needs attention right now. Flip that circuit off at the panel if you can do it without risk. Smoke or flames mean everybody out and a call to 911. We come same day on most calls, weekends included.',
   commonIntro:
     'Remodels in 1980s and 1990s houses, plus older homes close to the Little Miami, account for most recessed lighting we install in Newtown.',
   localFaqs: [

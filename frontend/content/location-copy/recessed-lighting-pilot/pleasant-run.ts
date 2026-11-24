@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Over a ranch or split-level in Pleasant Run, the attic is what we study first, because that is where a recessed light really lives. Colerain Township built most of this place between 1960 and 1979, the median house dates to 1974 by Census figures, and owners live in 86 of every 100 homes. So expect insulation lying across the drywall and joists you can crawl to. Lower levels here often wait years to be finished. Before the hole saw touches anything, the layout is penciled and your price is fixed.',
-  emergencyParagraph:
-    'Pull the breaker for those cans, if you can reach the panel safely, when a trim scorches, the drywall around a light goes tan, or a light flickers out and relights itself. Smoke or flame means everybody outside and 911 from the driveway. Our electricians usually reach homes in Pleasant Run on the same day, Saturdays and Sundays too.',
   commonIntro:
     'In Pleasant Run, our recessed lighting requests come mostly from 1960s and 1970s houses and tend to look like this.',
   localFaqs: [

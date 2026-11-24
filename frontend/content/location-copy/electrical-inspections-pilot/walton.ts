@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton has two kinds of houses, and they raise different questions. Census figures show one home in five was built before 1960, while 55.3% went up in 2000 or later. In the older ones we look for cloth-covered wiring, ungrounded two-prong outlets and fuse boxes or small panels. In the newer subdivisions the question is usually whether the panel can take what you want to add. Either way, you get a written report and prices before any work.',
-  emergencyParagraph:
-    'Some Walton warnings can’t sit until a booked inspection: a blackened or hot outlet, crackling behind a cover plate, sparks, or a fuse or breaker that goes again right away. Turn that circuit off. With smoke or fire, leave the house and call 911. We get to most urgent calls the same day, weekends included.',
   commonIntro:
     'Walton calls come from older houses in the original town, two-family homes, and the newer subdivisions. These come up most:',
   localFaqs: [

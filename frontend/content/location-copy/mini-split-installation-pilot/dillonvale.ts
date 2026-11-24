@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale was laid out in the 1940s as a Dillon Builders subdivision, and Census figures date 73.2% of its homes to 1940 through 1959. In houses of that era the duct system often favors the main floor, so a back bedroom, a finished basement or a converted attic gets left out. A wall unit cools those spaces without new duct runs. Gas heats 82.9% of homes here, and the furnace stays where it is. You get a flat figure before work, and we’ll say if ductless isn’t right.',
-  emergencyParagraph:
-    'Heat climbs the stairs of a 1950s house and parks in the bedrooms, and 90F shows up on about 21 days a year (National Weather Service). Infants, grandparents and the sick handle that poorly. We book fast, and one room is normally a day’s work. A mini-split that has quit needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the 1940s and 1950s houses that make up Dillonvale, these spaces usually raise the ductless question:',
   localFaqs: [

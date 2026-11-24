@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Finneytown is mostly owner-occupied houses, and Census figures show more than half went up between 1940 and 1959. Those bedrooms usually got one ceiling light on a small round box, fine for a fixture but not for a fan that turns all summer. Ceilings tend to be lower, so a flush mount often fits best. We open the box before we hang anything, let you know if snugging the bracket is enough, and agree the price before the old light comes off.',
-  emergencyParagraph:
-    'A fan in Finneytown that rocks hard enough to pull at the ceiling goes off now at the switch or panel, with everyone out from below. So does a motor giving off smoke or a hot smell, or a switch that crackles. Flames mean leave and ring 911. Most of these get a visit that same day, weekends too.',
   commonIntro:
     'Mid-century bedrooms and low ceilings shape most of the fan calls we take in this part of Springfield Township.',
   localFaqs: [

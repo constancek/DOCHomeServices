@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'A house from the 1980s or 1990s is the usual setting for surge protection in Newtown, where Census figures put the median home at 1989, though about one in five were built before 1940. The newer houses hold central air, furnaces with control boards and kitchens full of electronics, while some older ones near Main Street have tight panels. More than a third of households rent. The panel gets opened before any talk of devices, strips get recommended when they’re enough, and the price is settled up front.',
-  emergencyParagraph:
-    'Floodwater in the panel means it stays off, and you call us before anyone turns the power on. Treat a burning smell, a scorched switch or a breaker that trips again the same way. Only flip a breaker from dry footing with nothing hot. Smoke means leaving and calling 911. Most calls get us there the same day, weekends included.',
   commonIntro:
     'Here are the signs that most often lead to a panel check in Newtown.',
   localFaqs: [

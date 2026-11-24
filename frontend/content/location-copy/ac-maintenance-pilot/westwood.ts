@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Westwood is the biggest neighborhood in Cincinnati, and two-thirds of its homes, 65.7% by Census figures, are rented. The most common building holds 10 to 19 apartments, so much of our spring work here is a landlord’s list, door after door. The houses lean mid-century, built mostly between the 1950s and 1970s, and central air was retrofitted with a condenser jammed into a side yard. Owners hear a flat figure before anything starts, and an apartment that’s fine gets marked fine.',
-  emergencyParagraph:
-    'In Westwood, an apartment that stays hot on a scorching afternoon needs a repair call. Frost on the lines means switching it off until the ice is gone. A leak into the unit downstairs, or a breaker that pops again, belongs with those. Babies, older neighbors and anyone sick feel heat first. Same-day visits cover most of these, weekends too.',
   commonIntro:
     'In Westwood, a spring booking usually follows one of these.',
   localFaqs: [

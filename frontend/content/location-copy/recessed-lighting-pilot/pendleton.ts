@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'The neighborhood of Pendleton holds Italianate town homes, carriage houses and old tenement blocks in a triangle between Liberty and Sycamore, and recessed lighting in any of them starts overhead. Census figures show about four in five homes here date from 1939 or earlier, most share a building with other units, and a handful of new builds appeared after 2010. Old plaster with a neighbor’s floor above is typical, while the new units have drywall and room to maneuver. We chart every can and agree a fixed figure before cutting.',
-  emergencyParagraph:
-    'Don’t sit on a can that’s scorching its plaster, smells like melting plastic, or fades and returns on its own whim. Water creeping through a trim belongs on that list. Where the panel is safe to reach, kill that circuit. If smoke curls out, leave and call 911. Our crews reach most addresses same day, Saturdays and Sundays included.',
   commonIntro:
     'Across Pendleton, from Broadway to the blocks near the old St. Paul Church, these four jobs come in most:',
   localFaqs: [

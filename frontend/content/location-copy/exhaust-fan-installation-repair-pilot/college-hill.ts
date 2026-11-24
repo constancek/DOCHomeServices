@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'Two kinds of houses drive fan calls in College Hill. Census figures count 1,659 of its 4,692 homes from 1939 or earlier, and another 1,708 from the 1940s through the 1960s. In the oldest, the bathroom frequently has no fan. In the mid-century ones, the original fan is usually rattling, barely pulling or blowing into the attic. Roughly half of households rent, so owners book much of this work. We check the draw at the grille and the duct’s path, and the price is set before a saw comes out.',
-  emergencyParagraph:
-    'A scorched smell, a warped or hot fan cover, sparks, smoke, water running from the grille or a breaker that won’t stay on with the fan on count as same-day problems. Flip it off at the wall or panel when that’s safe. Fire or smoke means getting out and calling 911. Most get a visit that day, weekends included.',
   commonIntro:
     'From the big early-1900s houses off Hamilton Avenue to the mid-century streets and apartment blocks in College Hill, these are the four signs owners and tenants mention most:',
   localFaqs: [

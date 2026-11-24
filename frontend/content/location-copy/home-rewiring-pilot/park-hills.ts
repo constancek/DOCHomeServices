@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Building began in Park Hills in 1926, and Census figures put the median home at 1953. The earliest houses may hide knob-and-tube or cloth-wrapped conductors with no ground. Postwar houses were wired for a fraction of what a kitchen and laundry pull now. Roughly one home in five dates from 2000 or later, and those owners usually call about an addition or a single stubborn circuit. Our visit opens with testing, healthy wiring gets a clean report, and you sign scope and flat price before we open anything.',
-  emergencyParagraph:
-    'Most calls get a same-day visit, weekends too, and these should never wait: a receptacle that smells like something cooking, a hot or browning switch cover, sparks, a breaker that trips instantly, or a jolt from a lamp. Shut that circuit off if the panel area is dry. If smoke appears, leave and call 911.',
   commonIntro:
     'Across the older streets of Park Hills, the houses that need wiring work usually show one of these.',
   localFaqs: [

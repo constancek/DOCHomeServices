@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'In Milford, the age of the building tells us where the heater sits. Census figures date roughly one home in five here to 1939 or earlier; in those, the tank tends to share a cellar corner with a crusty drain spigot, an aging flue and gas pipe we trace by hand. About a third of homes are in buildings with ten or more units, which means closet heaters on pans and an owner who schedules. Expect a firm figure first, and candor if servicing is wasted money.',
-  emergencyParagraph:
-    'A tank dripping from its steel wall is a repair call. Close its cold line, then fuel or breaker. Notice gas? Get out without touching a switch or the pilot, then dial the utility. A carbon monoxide alarm clears the house first. Nonstop relief valve discharge or a fully cold tank counts too. Most get seen that day, weekends included.',
   commonIntro:
     'Near the river or well away from it, these are the reasons people in Milford put a heater on the yearly list:',
   localFaqs: [

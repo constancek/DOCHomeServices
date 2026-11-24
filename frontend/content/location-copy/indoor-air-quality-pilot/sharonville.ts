@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'In Sharonville, 1970s and 1980s houses sit beside a large share of apartments, and air complaints follow that split. Houses built then seal better than pre-war ones, so stale air and cooking fumes linger. Roughly three units in ten are in larger complexes, where management picks the equipment. The city says about one property in five lies in the FEMA floodplain along Mill Creek, so damp basements turn up often. Testing comes first, every fix gets one flat price, and a filter swap gets recommended when that alone will do.',
-  emergencyParagraph:
-    'Once a carbon monoxide alarm sounds, empty the house and call 911 outside. With a gas smell, walk out, leave the lights alone and phone the gas company. Kill the system at the thermostat if burning odors come out. Infants, elderly parents and asthma sufferers feel these first. Most calls are seen same day, Saturdays and Sundays too.',
   commonIntro:
     'Across the subdivisions and apartment complexes of Sharonville, these are the problems we see most:',
   localFaqs: [

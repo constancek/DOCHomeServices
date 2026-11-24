@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Most of Deer Park was built in the 1940s and 1950s, and plenty is older; per Census figures the median house dates to 1947. A prewar house here might still be running knob-and-tube, or wire wrapped in cloth that never had a ground. Postwar ones were wired when a kitchen meant a fridge and a toaster, so today’s microwave and laptop end up crowded onto the same line. We test first, leave sound wiring alone, and hand you the scope and flat price before any wall is touched.',
-  emergencyParagraph:
-    'In Deer Park, call about an outlet that smells burnt, a blackened cover, crackling, sparks, a shock off an appliance, or a breaker that won’t hold once reset. Only kill that circuit at the panel if you can do it dry and safely. With smoke or fire, get out and call 911. Most calls see us same day, weekends included.',
   commonIntro:
     'On the side streets of Deer Park, in houses from the 1940s and 1950s, these are the problems owners usually call about:',
   localFaqs: [

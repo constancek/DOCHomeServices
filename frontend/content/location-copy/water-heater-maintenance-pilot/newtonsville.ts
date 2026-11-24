@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Most houses around Newtonsville were built between the 1960s and 1990s; Census figures count only 7.6% from before 1940. That puts the heater in a garage, laundry room or ranch basement with space to run a hose, so a visit is mostly flush, anode, relief valve. Gas heat is rare out here, and on an electric unit we test elements and thermostats. Manufactured homes tuck the heater into its own narrow closet. You get a fixed quote first, and a straight answer if the tank isn’t worth it.',
-  emergencyParagraph:
-    'Skip the tune-up for these. Wet floor under the tank: close the cold feed on top, then the breaker or gas. Gas smell: step outside, don’t flip switches or relight, phone the gas company. Carbon monoxide alarm: everybody out. Relief valve venting nonstop, or no hot water: call for a repair. We usually arrive the same day, weekends too.',
   commonIntro:
     'Out along the back roads of Wayne Township, these are what usually prompt a service call near Newtonsville:',
   localFaqs: [

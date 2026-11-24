@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Census counts put close to half of the housing in Newport at 1939 or older, with 1947 as the median. Houses from that era let drafts in up top and hold damp air in the cellar, while ductwork added later spreads cellar dust to the bedrooms. Renters fill just over half the homes, and in an apartment the owner or manager makes the equipment call. We take readings before quoting, fix the price before work, and if a clean filter solves it, that’s our answer.',
-  emergencyParagraph:
-    'With a carbon monoxide alarm going, get everyone onto the sidewalk and phone 911. A whiff of gas means leaving switches alone and calling Duke Energy Kentucky outdoors. A furnace or AC smelling scorched gets shut down at the thermostat. Mold spreading after a leak is urgent for infants, elders and asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'In older houses and apartments around Newport, these are the complaints we hear most:',
   localFaqs: [

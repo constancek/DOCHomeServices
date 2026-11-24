@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'In Summerside, most charger jobs are about fitting a new line into a 1980s panel. Census figures date the median home to 1981, so spare capacity is common, and when it runs short a load-management device usually costs less than a new service. Only about half the homes are detached, and roughly a third are in buildings of five units or more, where an association or owner signs off. Panel review and load figures come first. The plain cord gets a fair hearing, and pricing is fixed upfront.',
-  emergencyParagraph:
-    'Charging should end immediately when the casing, plug or receptacle is hot, singed or bent out of shape, when something smells burnt, or when the breaker drops on connection. Touch that breaker only from a dry spot. Smoke or fire means getting out and calling 911. Most calls see us the same day, weekends too.',
   commonIntro:
     'Between the detached houses and the condo and apartment buildings of Summerside, these four come up again and again.',
   localFaqs: [

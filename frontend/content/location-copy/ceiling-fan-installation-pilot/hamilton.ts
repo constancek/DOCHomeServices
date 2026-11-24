@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'There’s a lot of plaster overhead in Hamilton. Over a quarter of the city’s houses went up before 1940 and the median is 1956, per Census figures, so many bedrooms still have the box that once fed a single pendant light. Close to half the homes are rented. A fan tugs and twists on that old box in ways a pendant never did, so we look at it first, tell you if a loose mount is the whole story, and agree the price before anything is taken down.',
-  emergencyParagraph:
-    'Sway that keeps growing, or plaster crumbling around the canopy, means the fan stays off. A hot motor smell, a sizzling switch plate, or a breaker that trips with the fan gets a same-day visit on most calls, weekends included. Cut power if that’s safe, keep people from beneath it, and call 911 for smoke or fire.',
   commonIntro:
     'From the old blocks near the Great Miami to the newer streets on the edges, these four fan problems bring most of our calls in Hamilton.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'No single decade defines Monfort Heights. The median home dates to 1975, yet 23.4% went up after 2000, per Census figures, and some streets go back before the war. That spread means we might rinse a basement tank on old venting at one stop and a garage unit barely ten years old next. Apartment buildings hold 15.7% of homes, and in those, heaters sit in closet pans and the landlord makes the booking. You get a firm price before work and an honest word on whether the tank deserves it.',
-  emergencyParagraph:
-    'Skip the tune-up for these. Water coming out of the tank itself: shut the valve feeding it and switch off its fuel or power. Any gas odor means getting out with lights left alone and phoning the gas company from the yard. A sounding CO detector: everyone outside. Most get a same-day repair visit, weekends too.',
   commonIntro:
     'Calls for a tune-up in Monfort Heights come from old basements, new garages and apartment closets alike, usually after:',
   localFaqs: [

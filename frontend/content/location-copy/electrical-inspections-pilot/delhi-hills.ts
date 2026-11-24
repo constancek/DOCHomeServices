@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Delhi Hills sits on a bluff above the Ohio River, and its houses are mostly 1960s and 1970s builds. Census figures give 1971 as the median year. Wiring from that period is generally grounded and in decent shape; the weak spot is panel capacity. Electricity heats 48.5% of homes here, so adding a heat pump, an EV charger or a hot tub can max out a box that was never planned for it. We go over everything, put it on paper and quote fixes ahead of time.',
-  emergencyParagraph:
-    'Book an inspection for planning. Call for the same day when a receptacle feels warm, a switch crackles, there’s a scorched or melting smell, or one breaker keeps throwing itself off. Kill that breaker at the panel. Smoke or visible flame: everybody outside, then 911. Most Delhi Hills calls like this are covered same day, including Saturday and Sunday.',
   commonIntro:
     'Delhi Hills is nearly all single homes from the 1960s and 1970s, so capacity questions lead the list:',
   localFaqs: [

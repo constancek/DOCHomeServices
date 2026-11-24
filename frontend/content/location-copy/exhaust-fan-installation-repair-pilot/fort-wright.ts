@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Fort Wright sits mostly in the middle of the age range. Census figures put the typical house at 1974, with building spread from the 1940s through the 1990s, and two in three homes are detached. That means a mix of bathrooms, from a 1950s one whose worn fan blows into the attic to a 1990s one with a builder-grade fan too weak for a big shower. Whatever the age, our first step is finding where the air goes, and the price comes before any ceiling work.',
-  emergencyParagraph:
-    'Switch off a fan in Fort Wright at the wall or breaker, if that’s safe, once it smells hot, sparks or smokes. A scorched housing, a breaker that won’t stay on or water running out of the grille also calls for a visit soon. For smoke or fire, get outside and dial 911. Most get a same-day visit, weekends included.',
   commonIntro:
     'Across the hillside streets of Fort Wright, from 1950s houses to 1990s subdivisions, these signs come up most.',
   localFaqs: [

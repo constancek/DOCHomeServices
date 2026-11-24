@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'Monfort Heights has a spread of housing, from postwar ranches to recent subdivisions. Census figures put the median year built at 1975, and about four in five homes are lived in by their owners. The older ones are drafty, with basements that run damp and ducts that push dust around. The newer, tighter ones trap stale air and cooking smells, so ventilation comes up more there. Expect a test before any recommendation, a flat price before work, and a straight answer if replacing the filter is enough.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm goes off, get everyone outdoors, then phone 911. A rotten-egg smell means leaving without touching switches, then calling the gas company. A furnace or AC smelling of burning goes off at the thermostat. Spreading mold after water damage is urgent near babies, elders and asthmatics. We’re there same day on most calls, weekends included.',
   commonIntro:
     'Owners in Monfort Heights tend to call us about one of these:',
   localFaqs: [

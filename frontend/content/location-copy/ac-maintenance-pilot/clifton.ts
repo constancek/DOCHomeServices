@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Clifton was built before air conditioning was something a house came with. By Census figures 62.2% of homes went up in 1939 or earlier, so cooling was squeezed in later, often an air handler in a hot attic feeding ducts dropped through closets and chases. Many homes are apartments in old buildings, and 63.4% are rented, so a lot of our work around Ludlow Avenue is a landlord booking the whole building at once. We quote before we start, and if a system needs nothing, you’ll hear exactly that.',
-  emergencyParagraph:
-    'Water spreading across a plaster ceiling under an attic unit can’t wait for spring, and neither can an apartment that won’t cool in a heat wave. If frost covers the lines, turn the thermostat off and let it thaw. Older neighbors, infants and anyone with breathing trouble are hit hardest. Most calls get a technician the same day, weekends included.',
   commonIntro:
     'These are the problems that bring us to old houses and apartment buildings in Clifton.',
   localFaqs: [

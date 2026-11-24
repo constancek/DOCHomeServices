@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'Mount Lookout is mostly owner-occupied single houses, and Census figures date 740 of the 1,454 homes in its core to 1939 or earlier. Those bathrooms have usually been remodeled at least once. The tile and fixtures get upgraded, yet the fan is often the cheapest one on the shelf, and its duct may end a short reach into the attic. Third-floor and finished-basement baths add their own puzzles. Before anyone touches the new tile or the ceiling, we follow the airflow out and give you a fixed price.',
-  emergencyParagraph:
-    'A smell of hot plastic, a browned or sagging housing, sparks, a wisp of smoke, a breaker that trips at the switch, or water dripping from the cover means the fan goes off now, at the switch or breaker if that’s safe. Leave and call 911 for smoke or flames. We’re there same day on most calls, weekends too.',
   commonIntro:
     'On the hillside streets around the Square, in houses that have seen a remodel or two, these are the complaints we hear:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Height is usually the puzzle in Mason. Census figures show about half its houses were finished between 1990 and 2009, when two-story family rooms were in fashion. A fan that high rides on a long down rod, with its box tied into framing. A covered patio wants a fan built for damp air. Many bedrooms were handed a basic light box and no fan. We inspect that box, admit when a loose screw is the whole story, and quote while the old fixture still hangs.',
-  emergencyParagraph:
-    'A fan whipping, sinking lower or wrenching its box loose must stop, as must a motor that smokes or smells scorched, a crackling switch or a breaker that pops on start-up. Cut power at the switch or panel if you safely can and keep people clear. Flames mean leaving and dialing 911. We usually arrive the same day, weekends too.',
   commonIntro:
     'Off Tylersville Road and Mason-Montgomery Road, four fan complaints top the list in Mason.',
   localFaqs: [

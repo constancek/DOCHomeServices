@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'Remodelled kitchens in California, the city’s southeasternmost neighborhood, often end up with new cabinets under one tired center light, and swapping that light is where plenty of our work begins. Census figures put the typical house at 1968, and almost every home here is detached and owner-lived. Houses of that vintage tend to have a single fixture per room and patches of ungrounded ceiling wiring. A box check and a wiring test come before any quote, and the quote comes before the old light leaves.',
-  emergencyParagraph:
-    'Ring us that day if a light has worked free, a switch hums and feels warm, or a canopy shows scorch marks. Switch its breaker off if that’s safe, with nobody lingering below. Leave basement lights dark if Little Miami backwater touched them. Smoke or fire means getting out and phoning 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Owners of the mid-century houses in California often ask us for one of these fixture jobs.',
   localFaqs: [

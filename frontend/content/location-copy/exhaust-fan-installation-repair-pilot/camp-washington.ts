@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Almost every building in Camp Washington, by Census figures, went up before 1940, and about four in five homes are rented, mostly in doubles and small apartment buildings. Bathrooms from that era had a window, not a fan. When a landlord added one later, the duct often went into the attic, a wall cavity or a chase and stopped there. For owners and landlords, we follow the airflow to where it actually ends and put a price on the fix before anyone opens plaster.',
-  emergencyParagraph:
-    'Switch the fan off at the wall or breaker, if safe, when you smell burning, see sparks or find the housing scorched. A breaker tripping with the fan, or water browning the ceiling by the grille, is urgent too. With smoke or fire, get everyone outside and call 911. Camp Washington usually gets a same-day visit, weekends included.',
   commonIntro:
     'In the doubles and small apartment buildings across Camp Washington, these are what tenants and owners report most:',
   localFaqs: [

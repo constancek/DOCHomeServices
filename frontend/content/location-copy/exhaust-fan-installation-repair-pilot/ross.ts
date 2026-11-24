@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross is mostly detached houses from the 1960s and 1970s, with Census figures putting the median at 1972. That leaves many bathroom fans running on motors older than the people showering under them, and some were undersized from the start. A few builders ran the duct only to a soffit, where the damp air gets drawn right back into the attic. Around three in four homes are owner-occupied, so it’s your attic and your choice. We trace where the air goes and price the repair before cutting a ceiling.',
-  emergencyParagraph:
-    'Burnt smells, sparks, smoke or a breaker that won’t stay on are signs to kill the fan’s power at the wall or the panel, if getting there is safe. Water dribbling out of the grille can’t wait either. If there’s smoke or flame, everyone goes outside and calls 911. In most cases our electrician comes that same day, weekends included.',
   commonIntro:
     'Off Hamilton Cleves Road and the streets around it, these four signs account for most exhaust fan calls from Ross.',
   localFaqs: [

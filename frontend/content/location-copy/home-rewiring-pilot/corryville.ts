@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Corryville is overwhelmingly renters, so a rewire here is normally an owner’s call on an old house carved into flats. The Census places 756 of the 2,263 homes at 1939 or earlier, and a conversion that old can still be hiding knob-and-tube, ungrounded receptacles and hidden old splices. The large blocks put up since 2000 seldom need more than one circuit looked at. We put a meter on it first, tell the owner straight if it passes, and agree the job and price before a wall is cut.',
-  emergencyParagraph:
-    'Renter or owner, ring us that day about a receptacle that smells burnt, a scorched faceplate, sparks, a box that hums, a breaker that flips back as soon as it’s pushed, or a zap from a fixture. Only reach for the breaker if you’re dry and nothing feels warm. If smoke appears, get out and phone 911.',
   commonIntro:
     'In the converted houses and older apartments of Corryville, these are the signs owners and tenants report most:',
   localFaqs: [

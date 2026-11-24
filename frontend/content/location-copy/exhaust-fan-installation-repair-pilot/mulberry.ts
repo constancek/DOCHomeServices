@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Mulberry is young housing by local standards. Census counts give a median build year of 1988, and only 703 of the 1,802 homes are detached houses, with the rest split among townhouses, condos and apartment buildings. Almost every bathroom here has a fan. The trouble is that builders bought them by the case, the smallest that met the plan, and some ducts were left short of the outside wall. Our electrician measures what your fan pulls, finds where the duct ends, and prices the fix before any drywall is cut.',
-  emergencyParagraph:
-    'Bathroom fans rarely have a plug, so use the wall switch or breaker, if that’s safe, when the housing smells burnt or has melted, the motor sparks or smokes, the breaker keeps tripping, or water drips from the grille. Smoke or flames mean getting out and calling 911. We come same day on most calls, weekends included.',
   commonIntro:
     'In the townhouses, condos and newer houses between I-275 and Mount Repose, these are the problems owners describe to us:',
   localFaqs: [

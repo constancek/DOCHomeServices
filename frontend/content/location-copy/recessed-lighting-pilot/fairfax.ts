@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Before any can goes into a ceiling in Fairfax, we learn what sits over the plaster. Census figures date the median house in the village to 1942, with close to half older than 1940, so lath, shallow joist bays under a second story and a lone center light per room are common. Most lots on either side of Little Duck Creek hold a detached house with an attic on top, the friendlier ceiling to light. Each opening gets pencilled on, and the price agreed, before our saw touches anything.',
-  emergencyParagraph:
-    'Plaster browning around a can, a trim too hot for a fingertip or a downlight that blinks out and returns on its own needs a call to us. Flip that breaker off if the panel is safe to reach. Smoke or flames mean leaving the house and phoning 911. Most calls get a visit that day, Saturdays and Sundays too.',
   commonIntro:
     'Plaster overhead and a single fixture per room describe most of the houses we fit with downlights around Fairfax. Four requests stand out.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Columbia was settled in 1788, a month before Cincinnati, and the old houses on the Tusculum hills show it. In Columbia-Tusculum, the box above the light, a ground wire or the lack of one, and whether the fixture is reusing an old spot decide the job. In the neighbourhood’s core, Census figures count 285 of 729 homes from before 1940, which often means plaster, an undersized box and no ground. The newer houses are simpler. We check and quote before anything comes down.',
-  emergencyParagraph:
-    'Same-day trouble looks like a fixture working loose from the plaster, melted plastic at a socket, or a breaker that drops the instant the switch is flipped. Turn that circuit off if it’s safe and keep everyone clear underneath. With smoke or flames, get out and ring 911. We get to most calls that same day, weekends among them.',
   commonIntro:
     'Between the river-founded streets and the newer homes up the hill, these four light fixture jobs come up most in Columbia-Tusculum.',
   localFaqs: [

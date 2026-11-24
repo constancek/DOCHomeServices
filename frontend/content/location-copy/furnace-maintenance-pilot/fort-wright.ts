@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Fort Wright is ranch and split-level country: the median home dates from 1974, by Census figures, and hardly any predate 1940. Gas heats 65.3% of homes. Expect a furnace in the basement or a utility room, likely the second the house has owned, vented through metal pipe rather than an old brick chimney. That makes our visit mostly cleaning and testing: filter, blower, burners, safety switches. Rented apartments are a landlord’s booking. You hear the price before we lift a panel, and nothing gets sold to a furnace that’s fine.',
-  emergencyParagraph:
-    'Gas odor means leaving the house without flipping lights or relighting the pilot, then calling the gas company from the curb. A carbon monoxide alarm means everybody out. No heat in a cold snap, restarts that keep coming, a yellow flame that wavers: all repairs. Babies, older parents and the ill feel it first. Same day on most, weekends included.',
   commonIntro:
     'Ranches and split-levels from the 1960s and 1970s, plus apartment buildings, supply most of our furnace work in Fort Wright. Bookings tend to follow:',
   localFaqs: [

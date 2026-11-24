@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'Summerside was built out in two big waves, and its bathroom fans show it. By Census figures nearly nine homes in ten went up between 1960 and 1999, the median in 1981, with very little since. That puts a lot of builder fans at or past the end of their working life, groaning, slowing and leaving the mirror wet. About a third of units sit in apartment buildings and many more are attached condos. We trace each fan’s air to its exit and settle the price before any ceiling work.',
-  emergencyParagraph:
-    'Cut the power and phone us that day for a scorching smell, a melted or warped housing, sparks, a breaker that kicks out when the fan starts, or water dripping through the grille. Only touch the switch or breaker if it’s safe. Smoke or fire means getting outside and calling 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'In the 1970s and 1980s houses, the condos and the apartment buildings around Summerside Road, these four signs show up the most.',
   localFaqs: [

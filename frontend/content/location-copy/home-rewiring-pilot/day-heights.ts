@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'In Day Heights, rewiring calls usually involve houses from the 1950s, 1960s and 1970s; the median house dates to 1969 in Census figures. That wiring often still works, yet it was planned for a fraction of today’s appliances, so kitchens and garages come up short on circuits. Some 1960s and 1970s houses may have aluminum branch wiring, which works loose at the terminals. We test before quoting, tell you if the system is sound, and put scope and flat price on paper first.',
-  emergencyParagraph:
-    'Ring us when an outlet smells scorched, a cover plate turns hot or dark, something crackles or throws sparks, a breaker refuses to reset, or anybody gets zapped by a fixture. Kill that circuit at the panel if doing so is safe. If smoke or flame appears, leave and call 911. Most calls get us there same day, weekends included.',
   commonIntro:
     'In the 1950s to 1970s houses on and off State Route 131 in Day Heights, owners tend to spot these first:',
   localFaqs: [

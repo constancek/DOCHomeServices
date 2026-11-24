@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'South Cumminsville is a small pocket of mostly owner-occupied single houses around Dreman Avenue and Elmore Street, and the Census estimate for those blocks puts nearly half of them before 1940. Plaster ceilings in those houses usually hide a little metal pan nailed up for a light, nothing a spinning fan should hang from, and back bedrooms often never got a ceiling fixture. We open the old box before quoting, admit it when tightening is the fix, and the price is settled before the globe comes down.',
-  emergencyParagraph:
-    'A fan rocking its canopy loose, a box sagging out of old plaster, a motor that smokes or smells like a hot iron, or a toggle that sparks gets a same-day visit on most calls, weekends too. Shut it down at the switch or breaker if you safely can. Fire means getting out, then calling 911.',
   commonIntro:
     'Around Follett and Dreman Avenues, the older houses hand us these four most often.',
   localFaqs: [

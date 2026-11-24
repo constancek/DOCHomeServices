@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Paddock Hills is known for Dutch Colonial, Tudor Revival and bungalow houses, yet Census figures for the area show apartments too, with about four in ten homes from 1939 or earlier, four in ten from the 1960s and 1970s, and most households renting. Those older houses often hide a small or overfilled panel, and the free room in it, or lack of room, dictates where a protector can be mounted. Expect us to open it first, to say when strips will do, and to settle a price before anyone starts.',
-  emergencyParagraph:
-    'An outlet with scorch marks, a breaker that trips again instantly, a melted-plastic smell at the panel after a storm, or a microwave that sparked when power came back is a same-day problem, weekends included, and we reach most of them that day. Apartment residents report it to management first. With any smoke or fire, leave and call 911.',
   commonIntro:
     'The older single homes and the apartment buildings each give their own warnings, and these four come up most in Paddock Hills.',
   localFaqs: [

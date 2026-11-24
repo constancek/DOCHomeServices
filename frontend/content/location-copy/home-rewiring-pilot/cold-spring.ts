@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Most houses in Cold Spring are too young to need a full rewire. Census figures put the median build year at 1999, and nearly half of the city’s homes were built after 2000. Those owners usually call about a finished basement, a sunroom or a circuit that keeps dropping out. The older ranches from the 1960s and 1970s are a different story, because some may have aluminum branch wiring. We test before we price anything, say plainly when nothing needs replacing, and write up the job at one flat rate.',
-  emergencyParagraph:
-    'Some calls should not wait for Monday. That includes a burnt odor from an outlet, a blackened or hot cover plate, popping or buzzing in a box, a breaker that refuses to stay on, and a shock from any switch or appliance. If you can get to the panel dry, turn that breaker off. Smoke means leave and call 911.',
   commonIntro:
     'In the newer subdivisions and townhouses of Cold Spring, as well as the older houses near Alexandria Pike, these signs come up most:',
   localFaqs: [

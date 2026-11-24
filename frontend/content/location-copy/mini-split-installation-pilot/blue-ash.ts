@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Blue Ash did most of its building in the 1970s and 1980s. Census figures give a median year built of 1981, and the 1980s alone produced 27.6% of today’s homes, so ducted forced air is the starting point in most houses. Ductless comes in for what that system was never drawn to serve, like a garage bonus room, a sunroom or an addition. Renters, in 35.1% of homes, go through the owner. You get a fixed figure first, and a duct fix when it beats new equipment.',
-  emergencyParagraph:
-    'Roughly 21 days a year pass 90F (National Weather Service), and a glass-walled sunroom turns into an oven. Aging parents, babies and anyone with asthma feel it worst. Installs book fast, and one head is a day’s job. For a ductless unit that already died, Mini-Split Repair answers that day on most calls, weekends too.',
   commonIntro:
     'Across the 1970s and 1980s subdivisions of Blue Ash, here are the spaces that most often get a ductless head:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'New Richmond inspections usually follow one of two things: a home sale, or Ohio River water. Census figures put the median home at 1986, with a third built since 2000, so most wiring here is sound. The 12.1% built before 1940 are different; cloth-covered wiring and ungrounded outlets can still turn up in those. After high water, any outlet or panel that sat in it needs checking before the power goes back on. We test everything, write it up and quote any work before starting.',
-  emergencyParagraph:
-    'Don’t pencil these in for later: burning odors, a cover plate that’s hot or browned, an outlet that buzzes, sparks, or a breaker that keeps tripping after a reset. Cut power to that circuit at the panel; with smoke or fire, get clear of the house and dial 911. We reach most of these the same day, weekends too.',
   commonIntro:
     'New Richmond calls come from older village houses, homes built since 2000, and homes that took river water. What we see most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Most tune-ups in Crescent Springs are on young equipment in compact spaces. Census figures date the median home to 1993, and nearly half of units are in buildings of five or more, so the furnace is more likely behind a bifold closet door than down a basement stair. Electricity heats 61.8% of homes, a number that lumps in heat pumps and baseboard. For a furnace this new, the hour goes to airflow, the heat source and safety switches. The quote comes first, and when nothing’s wrong, that’s what we report.',
-  emergencyParagraph:
-    'Gas odor indoors: get out, touch no switch, phone the gas company from the parking lot. A carbon monoxide alarm empties the place first. A cold furnace in a hard freeze, a burner that won’t stay lit, or a lazy yellow flame needs repair. Infants, older family and anyone sick can’t ride it out. Mostly same day, weekends too.',
   commonIntro:
     'In the apartment buildings and newer houses of Crescent Springs, these are what usually prompt a booking:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Fort Mitchell has two kinds of AC jobs. Older streets off Dixie Highway hold houses from roughly 1890 to 1935, put up generations before anyone cooled a house with ducts, so the system there was squeezed in afterward, often with an air handler perched among attic rafters. Elsewhere sit 1960s and 1970s homes and apartment blocks, and 41.7% of homes are rented, meaning landlords arrange those appointments. You approve a flat figure before we start, and a healthy system gets a clean bill and no upsell.',
-  emergencyParagraph:
-    'Rafters dripping onto a bedroom ceiling, an AC dead during a heat wave, or ice furring the copper all call for repair, not upkeep. Kill power at the thermostat. A scorched smell means it stays off too. Elderly parents, infants and anyone ill are most at risk. Usually our technician gets there that day, weekends included.',
   commonIntro:
     'Across Fort Mitchell, owners and landlords tend to call for a tune-up after noticing one of these.',
   localFaqs: [

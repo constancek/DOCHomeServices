@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Along Mount Carmel Tobasco Road and the streets around it, recessed cans most often go into a lower level someone is finally finishing. Census figures put the median house in Mount Carmel at 1973, and two in three homes stand detached, many pairing an attic above the main floor with a basement full of ductwork and a steel beam. About a quarter of households live in apartment buildings. Low clearance and trunk lines decide where each can fits, so the layout and price are settled before cutting.',
-  emergencyParagraph:
-    'Water trickling out of a can means switching off that circuit at the breaker, provided the panel is safe to reach. A trim too hot to touch, a whiff of burning or a breaker that drops when the cans come on is urgent too. With smoke or fire, leave and dial 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Mid-century and newer houses across Union Township keep us busy, and these four requests come up the most.',
   localFaqs: [

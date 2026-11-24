@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Cleves has two kinds of mini-split job. About a quarter of homes date from 1939 or earlier, by Census figures, and those older houses often have no ducts and tight attics, so a wall-mounted head cools a room without tearing anything open. The median house went up in 1972, and in those a finished basement, an addition or a bonus room over the garage is what the central air misses. Your flat price is set before any drilling, and we’ll say so if ductless doesn’t suit.',
-  emergencyParagraph:
-    'A garage-top bedroom in Cleves can bake in July, when the normal high sits at 86F by National Weather Service figures. Infants, grandparents and anybody sick feel that heat sooner. We book ductless installs quickly, and one head is a one-day job. A broken mini-split is a Mini-Split Repair visit, same day on most calls, weekends included.',
   commonIntro:
     'From the older houses near the village center to the newer streets built since the 1980s, these are the spaces that usually lead to a ductless quote:',
   localFaqs: [

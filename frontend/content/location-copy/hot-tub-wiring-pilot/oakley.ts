@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'In Oakley, two kinds of houses mean two kinds of hot tub jobs. Census figures show close to half of homes here were built in 1939 or earlier, and their panels often have nowhere to put a spa breaker until that’s fixed. Roughly one home in eight dates from 2000 or later, and those panels usually have space, so the work centers on where the spa sits and how far the conduit travels. In both, we compare the panel to the spa’s spec and quote before starting.',
-  emergencyParagraph:
-    'In Oakley, a GFCI that won’t survive a reset, a burnt odor near the shutoff, or a tingle in the water means the spa goes off and everyone gets out. Leave the gear alone. Throw the shutoff only if you can reach it dry, and dial 911 if smoke appears. Most calls get a visit that day, weekends too.',
   commonIntro:
     'For owners in Oakley, spa wiring questions tend to begin with one of these.',
   localFaqs: [

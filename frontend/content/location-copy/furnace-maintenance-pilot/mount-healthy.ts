@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Mount Healthy are rented, 50.3% by Census figures, so landlords call us about as often as owners do. The housing is mostly mid-century or older, with a median of 1956; that usually means a basement furnace on its second or third unit, some still venting into the original chimney. In apartment buildings the furnace can be a closet unit, and the owner schedules the visit. You get a set price before work, and a plain word if your furnace needs nothing.',
-  emergencyParagraph:
-    'Any whiff of gas: walk out, leave switches and pilot alone, and ring the gas company from a neighbor’s porch. A carbon monoxide alarm clears the house. A furnace that dies during a freeze, one cycling nonstop, or a yellow, lazy flame calls for repair. Babies and older relatives feel it first. Most calls are same-day, weekends too.',
   commonIntro:
     'Most fall bookings we get from Mount Healthy are for one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'In Turpin Hills, a good share of our recessed lighting work happens mid-remodel, with the kitchen or family room ceiling already down to the joists. Census figures put the median home at 1977, nearly all of them detached and lived in by their owners, mostly built from the 1960s through the 1990s. That brings drywall, attics over the top floor and basements ready to finish, plus early kitchens with one fixture and dim counters. Every light is planned and priced before any ceiling is cut.',
-  emergencyParagraph:
-    'Crackling from a downlight, a trim hot enough to pull your hand back, a warm switch plate, or a breaker that drops whenever the lights come on need a call right away. Turn off that circuit at the panel if you safely can. With smoke or fire, get out and call 911. Same day on most calls, weekends too.',
   commonIntro:
     'Remodels, finished basements and kitchens from the 1970s make up most of our work in this part of Anderson Township:',
   localFaqs: [

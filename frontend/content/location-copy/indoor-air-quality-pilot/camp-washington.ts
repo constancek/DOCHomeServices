@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Camp Washington is old, mostly rented housing, so the owner usually books our air test here. Census figures show nearly nine in ten homes built before 1940 and about eight in ten rented, from doubles to the loft apartments in the old Fashion Frocks complex. Houses that old are drafty, with damp basements and ductwork that moves dust room to room. Tenants report problems to the landlord, and the owner picks the equipment. We test first, quote before working, and say so if a filter is all it needs.',
-  emergencyParagraph:
-    'Everyone walks out the moment a carbon monoxide alarm sounds, then calls 911. If a unit smells of gas, touch no switches, get out and call Duke Energy. A furnace or AC smelling of burning gets turned off at the thermostat. Mold spreading after a leak is urgent for babies, older neighbors and asthmatics. Same-day help covers most, weekends included.',
   commonIntro:
     'In Camp Washington, tenants and owners bring us these problems most:',
   localFaqs: [

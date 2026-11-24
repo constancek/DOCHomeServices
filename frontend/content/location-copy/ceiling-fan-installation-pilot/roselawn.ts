@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'In Roselawn, plenty of the ceiling fans we hang go into flats in three- or four-unit buildings. By Census count, close to two homes in three are rented, and nearly half the housing dates from the 1960s and 70s. Ceiling boxes in those flats were sized for a plain globe light, so a fan screwed to one tends to work loose. We open that box first. If a loose bracket is the whole story, you hear it, and the price is fixed before the old light comes off.',
-  emergencyParagraph:
-    'Switch off a fan that sways enough to rattle its canopy, hangs lower than yesterday, smells burnt or makes the wall switch buzz. Use the switch or the panel if you safely can, and move people from underneath. If smoke or fire shows, take everyone out and ring 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Along Reading Road, in small apartment buildings and the houses between them, four signs account for most fan calls in Roselawn.',
   localFaqs: [

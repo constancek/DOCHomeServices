@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Highland Heights is a mix of houses and apartment buildings, with Northern Kentucky University in town. Census figures put the median home at 1985, and many of those houses still have the bathroom fan they were built with. Fans from that period were small and are wearing out, and some were ducted into the attic. In the apartments and condos, management or the association decides on new vents. We trace the airflow and quote the fix before cutting into a ceiling.',
-  emergencyParagraph:
-    'A scorched smell, a brown or soft housing, sparks, or a breaker that trips with the fan calls for shutting it off at the switch or panel if that’s safe. Water dripping from the grille belongs on the same list. With smoke or fire, get outside, then dial 911. Most calls get a visit that same day, weekends counted.',
   commonIntro:
     'In the 1980s houses, apartments and condos around Highland Heights, these exhaust fan problems come up most.',
   localFaqs: [

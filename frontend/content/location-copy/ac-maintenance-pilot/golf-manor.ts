@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Postwar single houses share the streets of Golf Manor with small two-family and four-unit rentals, and the spring visit differs a little between them. By Census figures the median home went up in 1954, when central air was rare, so the cold air here mostly rides through retrofitted ductwork. Half the occupied units are rented, which puts the booking with the owner. Your flat price comes before any tool comes out, and if the system needs nothing, that’s what we report.',
-  emergencyParagraph:
-    'Some calls skip the tune-up. Warm air during a heat wave, frost creeping along the lines, or a breaker that won’t stay set are repair jobs. Kill the system at the thermostat so any ice melts, and leave a tripping breaker alone. Heat wears on babies and grandparents fastest, and most calls get a same-day visit, weekend calls included.',
   commonIntro:
     'Around Golf Manor, owners and landlords tend to call for a spring visit after noticing things like these.',
   localFaqs: [

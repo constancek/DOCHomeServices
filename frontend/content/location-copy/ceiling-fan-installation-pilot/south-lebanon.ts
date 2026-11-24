@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'In South Lebanon, the newer subdivisions decide most fan jobs. By Census figures, about two homes in three were built after 2000, and the median dates to 2007, which often means tall great rooms that need a down rod and roofed back patios that call for a weather-rated fan. Houses on the older streets near the Little Miami have their own boxes to inspect. Either way we look up there first, tell you if a loose canopy is the whole story, and quote before any fixture is unscrewed.',
-  emergencyParagraph:
-    'If it’s safe, shut a fan down and call us when it whips on its rod, the mounting plate has dropped, or a scorched smell rises from the motor. Sparks behind the wall control are just as pressing. Keep everyone out from under it. If smoke or flames appear, leave and call 911. Same-day visits on most calls include weekends.',
   commonIntro:
     'Great rooms, covered patios and a few older houses by the river make up the bulk of our fan calls around South Lebanon.',
   localFaqs: [

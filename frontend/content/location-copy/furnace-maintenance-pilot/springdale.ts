@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'In Springdale, 40.9% of homes are rented, by Census figures, and 1960s and 1970s houses share the city with townhouse rows and big apartment complexes. A furnace may stand in a basement, a townhouse utility closet or an apartment closet, and in a rental the owner arranges the visit. Most houses have long since replaced their first furnace, so filter, blower, burners and safety controls take most of the time. A flat price comes before work, and if nothing is needed, you’ll hear that honestly.',
-  emergencyParagraph:
-    'Gas smell, apartment or house: out the door, switches untouched, nothing relit, a call to the gas company from the lot. Carbon monoxide alarm: same exit. No heat during a cold snap, a yellow flame, or a furnace that keeps dropping out and relighting: book repair. Babies, grandparents and anyone ill feel it first. Mostly same day, weekends too.',
   commonIntro:
     'In Springdale, owners of 1960s and 1970s houses and landlords with apartments and townhouses usually book after one of these:',
   localFaqs: [

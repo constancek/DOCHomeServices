@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Newtonsville, now part of Wayne Township, is mostly houses from the 1960s through the 1990s, and natural gas barely reaches it: under 5% of homes use gas, by Census figures, while electricity and fuel oil heat the rest. That makes a fall visit here mostly electrical work on newer equipment: filter, blower, heating elements, wiring and safety controls. If your house burns fuel oil, say so when booking. We quote before touching anything, and a system that’s fine gets left alone.',
-  emergencyParagraph:
-    'In Newtonsville, book a repair instead for these. Gas smell: walk out, flip no lights, relight nothing, call from outside. Carbon monoxide alarm: everyone out first. No heat in a hard freeze, endless restarting, or a yellow flame, urgent with babies, older parents or someone sick. Same day on most calls, Saturdays and Sundays too.',
   commonIntro:
     'Most fall bookings we get in Newtonsville, Ohio, begin with one of these:',
   localFaqs: [

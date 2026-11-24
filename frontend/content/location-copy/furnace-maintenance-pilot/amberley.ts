@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Almost every home in Amberley is an owner-occupied, detached house, and gas is the heat in 85.9% of them, by Census figures. The median house dates from 1959, with most built from the 1940s through the 70s. A tune-up here is nearly always a gas furnace in a basement, often replaced once or twice while the venting stayed, so the flue and heat exchanger get a careful look after the filter, blower and controls. The price is agreed before any work, and we say so if nothing needs doing.',
-  emergencyParagraph:
-    'In Amberley, a gas odor, a carbon monoxide alarm, a dead furnace in deep cold, a yellow, floppy flame or a burner that keeps quitting is a repair job. For gas or CO, get everyone outside before phoning the gas company, and leave switches alone. Infants and elderly parents chill fastest. Expect us same day on most, weekends too.',
   commonIntro:
     'Owner-occupied houses from the 1940s to the 70s, nearly all on gas, are most of our fall work in Amberley. Common reasons to book:',
   localFaqs: [

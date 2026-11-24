@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'In Crestview Hills, most of the housing dates from the 1980s and 1990s, Census figures give 1984 as the median, and townhomes with shared walls are common. Houses from that era were sealed better than older ones, which keeps heat in and also traps cooking fumes. Electric heat outnumbers gas here, which parches January air. Our visit opens with a reading of the air. Each fix carries a set price you see beforehand, and if a fresh filter would settle it, you’ll hear that from us.',
-  emergencyParagraph:
-    'When the carbon monoxide detector sounds, everyone leaves and someone dials 911. For a gas smell, walk out without flipping a switch and phone the gas company outdoors. A scorched smell means the thermostat goes to off. Mold creeping after a leak hits babies, older parents and asthmatics hardest. Most calls get a visit that day, weekends too.',
   commonIntro:
     'Across Crestview Hills, owners of houses and townhomes mention these first:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Census figures date nearly half the homes in Walnut Hills to 1939 or earlier, and about four in five are rented. For the owners of houses and two-families with a yard, a spa means a 240-volt circuit behind GFCI protection, a disconnect the person in the tub can see but not grab, and bonding. Panels in prewar houses tend to be packed, so we sort that first, then quote the job against the tub maker’s figures before conduit goes up.',
-  emergencyParagraph:
-    'In Walnut Hills, call us when a GFCI throws again on reset, the disconnect looks charred, the panel snaps, or the water gives a tingle. Get out of the tub and stay clear. Turn the breaker off only if that’s safe, and call 911 from outside if there’s smoke. Most of these get a same-day visit, weekend or not.',
   commonIntro:
     'From the rowhouses on Gilbert Avenue to the side streets near Peebles’ Corner, these four come up when owners plan a spa in Walnut Hills:',
   localFaqs: [

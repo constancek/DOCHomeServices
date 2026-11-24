@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Most fan jobs in Fairfax are decided above the plaster, by whatever box the last electrician left. Census figures date the typical house in the village to 1942, and nearly half stood before 1940, so we usually find a shallow pan that held one globe and was never asked to carry a spinning motor. Many bedrooms here never got a fan at all. We open that pan before quoting, say so when a snug screw or reweighted blade settles it, and fix the price before anything comes down.',
-  emergencyParagraph:
-    'Kill a fan at the wall if it swings in circles or the canopy drops, and keep people out from under it. Do the same for a scorched motor smell, a pop behind the switch plate or a breaker that kicks at start-up. For smoke, get out and dial 911. We usually come that same day, weekends too.',
   commonIntro:
     'Houses in Fairfax that kept their original ceilings send us four complaints again and again, and each one traces back to how the fan was hung.',
   localFaqs: [

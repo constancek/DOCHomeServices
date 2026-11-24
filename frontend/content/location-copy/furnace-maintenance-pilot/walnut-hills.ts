@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Landlords and building managers book nearly every furnace visit we make in Walnut Hills. Census figures show 78.6% of homes rented and 48.3% built in 1939 or earlier, so the work splits between old houses with a basement furnace on an old chimney and apartment buildings where each unit has a closet furnace or shares a central system. Electricity is the most common heating fuel, which also covers heat pumps and baseboard. Prices are agreed before work, and units that need nothing are left alone.',
-  emergencyParagraph:
-    'Tell management these are repairs. Gas odor: leave the apartment, no switches, no relighting, Duke Energy called from the street. Carbon monoxide alarm: the unit empties. No heat through a cold snap, a closet furnace chattering on and off, or a yellow, lazy flame. Infants, elderly tenants and anyone ill are most exposed. Same day on most calls, weekends too.',
   commonIntro:
     'Near Peebles’ Corner and across the larger buildings, owners in Walnut Hills tend to book after:',
   localFaqs: [

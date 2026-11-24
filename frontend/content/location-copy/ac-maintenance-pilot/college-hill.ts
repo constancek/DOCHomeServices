@@ -3,14 +3,12 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'College Hill has two kinds of houses, and the tune-up follows the house. Census figures show 35.4% predate 1940; in those, cooling showed up decades after the plaster dried, with an attic air handler and ducts fished through closets. Most of the rest went up between the 1940s and 1960s, with furnace, coil and short trunk lines together downstairs. Rentals make up 50.2% of homes, so landlords book many visits. The price is set before we start, and if your system needs nothing, we’ll tell you.',
-  emergencyParagraph:
-    'A tune-up is the wrong call when a brown stain spreads on the ceiling under an attic unit, or when the rooms keep climbing during a heat wave. If the copper lines frost over, put the thermostat on off. Grandparents, infants and anyone sick struggle first in that heat. We come the same day on most calls, weekends included.',
   commonIntro:
     'In College Hill, these are the spring calls we get most.',
   localFaqs: [
     {
       q: 'I rent in College Hill and the AC came with the house. Who books the service?',
-      a: 'That one falls to your landlord. Ohio’s landlord statute, ORC 5321.04 (A)(4), makes an owner who provides air conditioning responsible for keeping it in good and safe working order. Email or write about any drip or rattle so there’s a date on it. We service air conditioners, not leases.',
+      a: 'Your landlord handles that one. In Ohio, ORC 5321.04 (A)(4) leaves an owner who furnishes air conditioning in charge of keeping it in good and safe working order. Report any drip or rattle by email or letter so the complaint carries a date. Our work is the cooling equipment, not the lease.',
     },
     {
       q: 'Is it worth tuning up an older AC in College Hill?',
@@ -33,7 +31,7 @@ export const collegeHill: LocationServiceCopy = {
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'Pay for the visit when the previous owner left no receipts, when last summer’s drain overflow stained the basement ceiling, when the blower starts to squeal, or when the second floor runs a few degrees behind the first. A landlord holding three or four rentals along the side streets saves a lot of driving by lining them up on one morning. Save your money if a technician went through the system last spring and it still holds the house cool. Warm air or ice means AC Repair, and a system we’ve already written off belongs with AC Installation & Replacement. Window units we skip.',
+        body: 'A previous owner who left no receipts is the classic reason in College Hill. Others include a basement ceiling stained by last summer’s drain overflow, a blower that has begun to squeal, and a second floor trailing the first all afternoon. Landlords holding three or four rentals off Hamilton Avenue cut the driving by stacking them into one morning. A system a technician serviced last spring that still keeps the house cool can wait a year. Warm air or ice signals AC Repair, and equipment we’ve already written off belongs with AC Installation & Replacement. Window units are outside our work.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in College Hill',
@@ -46,7 +44,7 @@ export const collegeHill: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does an AC tune-up cost in College Hill?',
-        a: 'It’s one flat rate, quoted before we start, based on the system and how hard it is to reach; an attic unit up a narrow stair takes more time than a basement one. Anything we find is priced on its own line for your yes.',
+        a: 'A single flat rate, given before any work, set by the system you have and how awkward it is to reach; a 1920s attic unit up a narrow stair takes longer than a basement one. Each problem we spot is listed separately and waits for your yes.',
       },
       {
         q: 'What’s the best time of year for AC maintenance?',

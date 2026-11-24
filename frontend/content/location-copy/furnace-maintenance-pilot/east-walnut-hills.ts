@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Half of East Walnut Hills is old houses and half is apartment and condo buildings, and the tune-up differs between them. By Census figures 49.3% of homes date from 1939 or earlier; those keep a gas furnace in the basement, vented into a chimney that has outlived a few furnaces, so the flue and heat exchanger come first. The mid-century and later buildings use closet furnaces, electric or gas, or a central plant. Before any work you get a fixed price, and a furnace that’s fine is called fine.',
-  emergencyParagraph:
-    'Put these on a repair call. Gas odor: leave, touch no switch or pilot, phone Duke Energy. Carbon monoxide alarm: the whole household steps out. A cold furnace in a freeze, a burner starting and quitting again and again, or a soft yellow flame. A newborn or frail parent raises the stakes. Mostly same day, weekends included.',
   commonIntro:
     'Around DeSales Corner and along Madison Road, owners in East Walnut Hills tend to book once they notice:',
   localFaqs: [

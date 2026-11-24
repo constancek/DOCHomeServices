@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'North Bend runs younger than its river-town reputation. Census figures put the median house at 1991, and about a third went up in 2000 or later, which is where we meet great rooms tall enough that a fan drops on a down rod, and decks that want a weather-rated one. Over a quarter of homes predate 1940, though, and their old ceiling boxes rarely carried more than a light. We check that box first, say so if a tightened mount is all it takes, and agree the price up front.',
-  emergencyParagraph:
-    'Shut down a fan that shakes hard, sags away from its canopy, gives off a burning smell or knocks out the breaker. Do it from the wall switch or the panel, as long as you aren’t standing under the blades. Smoke or fire means getting out and calling 911. Most calls in North Bend get a same-day visit, weekends included.',
   commonIntro:
     'Townhouses, newer homes with tall rooms and a handful of pre-war houses make up most of our fan calls in North Bend.',
   localFaqs: [

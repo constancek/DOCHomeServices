@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Spring Grove Village was a railroad town long before it joined Cincinnati, and Census figures show about half its houses predate 1940, with two in three standing on their own lot. A backyard spa is realistic here, but the panel in a house that old is usually crowded, and the spa breaker waits until that’s sorted. Then come the 240-volt ground-fault circuit, a cutoff box in view of the tub, and bonding. We read the panel against the tub’s install manual and quote before any conduit.',
-  emergencyParagraph:
-    'A spa that throws its breaker as power returns, a buzzing panel, a burnt odor at the shutoff, or a tingle in the water means bathers come out and the equipment stays untouched. Turn the breaker off when it’s safe to reach, and phone 911 from outside for smoke or flame. Most calls see us the same day, weekends too.',
   commonIntro:
     'Between Winton Road, Epworth Avenue and the cemetery grounds, these are the spa calls we take most in Spring Grove Village.',
   localFaqs: [

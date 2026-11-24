@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Fort Thomas is mostly mid-century and older: the median home dates to 1955, per Census figures, and 32.1% predate 1940. The pre-war houses put the heater in a basement corner near older vent pipe, with a drain fitting we open slowly; 1950s houses are usually an easy drain, anode pull and relief check. Apartment closets are the landlord’s to schedule. The figure is set before we begin, and a heater past saving gets an honest no.',
-  emergencyParagraph:
-    'A leak means repair, not maintenance: shut the tank’s cold inlet up top, then its gas or breaker. Gas in the air: leave without touching any switch or the pilot, then call the gas utility. Carbon monoxide alarm: all out first. A relief valve that keeps releasing, or no hot water, is repair work. Same day on most, weekends too.',
   commonIntro:
     'In Fort Thomas, service visits usually get booked for one of these reasons:',
   localFaqs: [

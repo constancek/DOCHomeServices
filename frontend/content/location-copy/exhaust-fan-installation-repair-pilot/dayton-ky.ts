@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Census figures show nearly half the homes in Dayton date from 1939 or earlier. A bathroom that old was planned around a window, and the fan came along later, often with a duct that quits in the attic or between wall studs. Close to a fifth of the city’s homes were built from 2000 on; they have fans, but small ones are common. We find out where your fan’s air actually goes and quote it before any plaster comes down.',
-  emergencyParagraph:
-    'A fan that smells scorched, sparks, smokes or has a melted housing has to be shut down, at the switch or the breaker, if that’s safe. If there’s fire or real smoke, everyone leaves and you call 911. A brown stain or drips coming through the grille need prompt attention. Most calls in Dayton get same-day service, weekends too.',
   commonIntro:
     'From the older blocks near Sixth Avenue to the buildings put up since 2000, the same few fan problems turn up for homeowners and landlords in Dayton.',
   localFaqs: [

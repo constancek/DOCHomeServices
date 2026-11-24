@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Housing in Mulberry is fairly new, with half of it from 1988 or later by Census figures, and townhouses and apartments outnumber detached houses. In newer housing like this, a mini-split usually goes in a loft, a finished lower level or a sunroom the system can’t keep up with. In townhouses and apartments, an association or the owner decides where an outdoor unit may go. We fix the price before work, and if a repair to the existing system would do, we’ll say so.',
-  emergencyParagraph:
-    'Heat rises in a townhouse and parks in the loft, and in Mulberry that bites on the roughly 21 days a year at 90F or higher (National Weather Service). That’s hard on babies, older relatives and anyone short of breath. Installs book quickly; single-zone takes a day. Mini-Split Repair handles one that stopped, usually same day, weekends included.',
   commonIntro:
     'In the townhouses, condos and newer houses of Mulberry, these are the spaces that most often need help:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Houses from the 1970s and 1980s make up nearly half of what stands in Blue Ash, and panels of that vintage generally leave space for a 240-volt breaker. Electric heat is the wrinkle. More than two homes in five run on it, Census figures say, and a heat pump can already be eating much of the service. So we total up what the house draws before anything is promised. If the Level 1 cord covers your miles, we’ll say that, and you’ll have a fixed price before work starts.',
-  emergencyParagraph:
-    'A charger housing that’s hot to touch, a smell like burnt plastic, or a cable that a car has rolled over are all signs to stop charging today. Flip that circuit’s breaker only if you’re standing dry and nothing nearby is hot. Smoke or fire means leaving the house and dialing 911. Same-day help covers most calls, weekends too.',
   commonIntro:
     'Between the 1980s subdivisions and the larger condo and apartment buildings, a few requests come up again and again in Blue Ash.',
   localFaqs: [

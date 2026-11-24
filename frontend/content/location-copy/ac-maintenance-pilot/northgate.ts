@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'In Northgate, more homes heat with electricity than with gas, 50.3% against 45.2% by Census figures, so a spring AC visit here is often a heat pump visit. Most houses went up between 1960 and 1979 as detached family homes, with the outdoor unit set on a slab in the back yard and the air handler in a basement or utility closet. Renters in the large apartment complexes go through management. We quote a fixed price before starting, and when the system checks out fine, we say that plainly.',
-  emergencyParagraph:
-    'Skip maintenance and call for a repair if cooling fails during a heat wave or water drips from the ceiling. When ice forms on the copper lines, set the thermostat to off and let it melt. Heat is dangerous for babies, the elderly and anyone ill. We reach most calls the same day, including weekends.',
   commonIntro:
     'Spring calls from houses around Northgate tend to come down to one of these situations.',
   localFaqs: [

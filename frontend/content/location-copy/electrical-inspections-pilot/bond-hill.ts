@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Bond Hill’s housing spans a century, so an electrical inspection here depends on which house you’re in. Census figures put 44.5% of homes at 1939 or earlier, where we look for ungrounded outlets and old cloth-sheathed wire, and 28.7% from 1940 to 1959, where the panel is often too small for central air and a modern kitchen. Many are doubles and three- or four-unit buildings, so we check each unit’s circuits separately. Every repair we find comes with a price before work begins.',
-  emergencyParagraph:
-    'These are urgent. Kill the breaker and call us if an outlet or switch plate is hot, scorched or humming, if you see sparks, smell burning, or a breaker trips again the moment it’s reset. Smoke or fire means getting everyone out and calling 911. Bond Hill calls are seen the same day in most cases, weekends included.',
   commonIntro:
     'Bond Hill has single houses, plenty of doubles and small multi-unit buildings, and the electrical findings follow the building’s age. These come up most:',
   localFaqs: [

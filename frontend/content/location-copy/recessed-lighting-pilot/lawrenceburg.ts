@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'In Lawrenceburg, recessed lighting splits two ways, old plaster in the blocks around Walnut and High streets or newer drywall with an attic overhead. Census figures put the median home at 1983, and about a third went up after 2000, much of it townhouses and apartment buildings. Older houses inside the levee may have little space above the upper floors and rooms wired for one light. Many homes are rentals, so the owner usually books. We mark the layout and agree the price before cutting.',
-  emergencyParagraph:
-    'Ring us that day about a can that fades out and comes back, a trim hot enough to sting, a brown stain spreading from a fixture, or a roof leak dripping through one. Throw its breaker when doing so is safe, and if smoke appears, go outdoors and phone 911. We answer most calls same day, weekends too.',
   commonIntro:
     'In Lawrenceburg, the calls divide between older houses downtown and newer townhouses and apartments.',
   localFaqs: [

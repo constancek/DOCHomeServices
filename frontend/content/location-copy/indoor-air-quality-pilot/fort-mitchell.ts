@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'In Fort Mitchell, housing spans a century. Houses on the Beechwood and Fort Mitchell Heights streets date from the 1890s to the 1930s, drafty and often damp below, though the Census median is 1971. About four households in ten rent, and over a third of homes sit in buildings of three or more units, where the owner decides on equipment. We test first, fix a flat price before work, and tell you if a new filter is all it takes.',
-  emergencyParagraph:
-    'When the carbon monoxide alarm beeps, walk everyone onto the porch and dial 911. For a gas smell, leave without touching lights and call the gas company outside. Shut off a furnace or AC giving off a scorched smell at the thermostat. Flood mold spreading near a newborn, grandparent or asthmatic gets a same-day visit on most calls, weekends too.',
   commonIntro:
     'From the old houses near Dixie Highway to the apartment buildings around them, these are the signs we see most.',
   localFaqs: [

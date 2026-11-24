@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'In Erlanger, Census figures date about half the homes to the 1950s through the 1970s, and three in ten are rented. Kitchens from those decades were wired for a toaster and a percolator, not a microwave and an air fryer, and some houses from the 1960s and 1970s may have aluminum branch wiring. A few prewar places near Dixie Highway may have no ground at all. We meter first, give you the all-clear when it’s deserved, and fix the scope and flat price on paper before cutting in.',
-  emergencyParagraph:
-    'Call us today about a switch plate that’s warm or browning, a receptacle that smells like it’s cooking, a crackling wall, a breaker that keeps flipping after a reset, or a fixture that zapped you. Turn the breaker off only if the panel is dry. If smoke or fire shows, get outside and dial 911. We come weekends too.',
   commonIntro:
     'In the mid-century houses and apartment complexes of Erlanger, rewiring usually starts with one of these.',
   localFaqs: [

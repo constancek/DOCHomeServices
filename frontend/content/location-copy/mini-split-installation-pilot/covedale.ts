@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'In Covedale, ductless work depends on which side of the line you live on. On the Green Township side, 95.4% of homes are detached houses, mostly owner-occupied and mostly built from the 1940s through the 1960s, per Census figures. Most heat with gas, often through ducts, so the mini-split usually goes in a finished attic, a lower-level den or an addition. Toward Glenway, inside city limits, older houses may never have had ducts. You agree a fixed price before we start, and we’ll say if ductless is wrong.',
-  emergencyParagraph:
-    'On the 21 or so days a year at 90F (National Weather Service), an attic bedroom in Covedale is the hottest room in the house. Keep older relatives, infants and anyone ill out of it. Install dates come quickly, and one head takes a day. A failed unit is a Mini-Split Repair call, same day on most calls, weekends included.',
   commonIntro:
     'Across the mid-century streets on the township side and the older houses near Glenway Avenue, these are the rooms that usually prompt a ductless quote:',
   localFaqs: [

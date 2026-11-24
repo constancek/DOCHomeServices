@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Most Amelia homes are new enough that the wiring is usually sound, so people book inspections for a sale, a purchase or something big going in. Census figures put the median home at 1995, with 43.1% built since 2000. Electricity heats 60.8% of homes, which means a heat pump and its backup heat strips already lean on the panel before an EV charger or hot tub joins them. We check what your panel can carry and price any work before it starts.',
-  emergencyParagraph:
-    'Treat these as same-day problems: a cover plate that’s warm or charred, an outlet that sizzles, sparks, a smell like melting plastic, or a breaker that snaps off again as soon as it’s reset. Switch off that breaker. For smoke or fire, get out and call 911. Most of these we see that same day, weekend or not.',
   commonIntro:
     'Amelia is mostly newer houses, with apartment buildings and some manufactured homes in the mix. The problems we see most:',
   localFaqs: [

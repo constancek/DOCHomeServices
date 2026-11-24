@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'Furnace maintenance in Wilder is a check on systems from the 1980s and 1990s, which hold 69.4% of homes by Census figures. More than half of units sit in buildings of five or more, and about one home in five is rented, so plenty of owners book a tune-up for the furnace in their own unit. With almost no pre-war housing, the visit centers on the filter, blower, controls and heat source. Electric heat leads, heat pumps included. The price comes before the work, and we’ll say if nothing’s needed.',
-  emergencyParagraph:
-    'Gas smell: walk out, leave the switches alone, call the gas company from the lot. If the carbon monoxide alarm sounds, everyone leaves. A furnace without heat during a freeze, one that won’t stay on, a flame that’s yellow and wobbly: book repair. Babies, older relatives and anyone ill are most exposed. Same-day on most calls, weekends too.',
   commonIntro:
     'In Wilder, owners usually book a fall visit after noticing one of these:',
   localFaqs: [

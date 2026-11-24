@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'In Monfort Heights, houses come from every decade. By Census count about one in ten predates 1940, and those can still hide ungrounded knob-and-tube. Roughly a quarter are from the 1940s and 1950s and another fifth from the 1960s and 1970s, a stretch when kitchens got fewer circuits than they need now and some may have aluminum branch wire. Newer houses rarely need more than a circuit. Testing decides, healthy wiring gets a clean bill, and the price is fixed in writing before any cutting.',
-  emergencyParagraph:
-    'If you smell something burning near an outlet, feel heat through a switch plate, notice sparks, get shocked by a fixture, or watch a breaker trip again after resetting, phone us. We reach most the same day, weekends included. Turn off the circuit only if nothing around you is wet. If smoke or fire appears, leave and call 911.',
   commonIntro:
     'Because houses range from prewar to recent in Monfort Heights, the signs vary, but these come up most:',
   localFaqs: [

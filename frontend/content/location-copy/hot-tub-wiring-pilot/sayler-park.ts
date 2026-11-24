@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'In Sayler Park, a hot tub usually lands behind an old frame house pinned below the steep hills to the north. Census figures show about half the homes were standing by 1939, and roughly six in ten belong to the people living there. A house that age tends to have a panel stuffed with circuits added one owner at a time, so finding a home for the spa breaker gets settled first. We read your panel against the tub maker’s list and price the job before conduit is fastened.',
-  emergencyParagraph:
-    'Ring us urgently if the spa GFCI drops again right after a reset, the disconnect shows burn marks, the panel buzzes, or a bather feels a tingle. Bathers out, hands off the tub. Use the disconnect only if that’s safe, and leave and call 911 for smoke or fire. Same-day visits on most calls, weekends included.',
   commonIntro:
     'On the old streets between US-50 and the hillside, owners in Sayler Park tend to call about a spa for one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Bromley is small, mostly detached houses near the Ohio, and just over half of them went up in 1939 or earlier, per Census figures. Some of those still carry the modest service they were built with, which can leave little room for a 240-volt circuit, while others were updated long ago. Owners outnumber renters about three to one. Our visit starts with the panel and the load math, includes a plain word if the Level 1 cord suits your driving, and ends with a quote before any work.',
-  emergencyParagraph:
-    'After high water, don’t charge from any panel, charger or outlet the river touched until it’s checked. Unplug if the plug runs hot or the breaker trips each session. Turn that circuit off only from dry ground with nothing hot nearby. Smoke or fire means getting out and calling 911. Same-day visits are normal, weekends included.',
   commonIntro:
     'Older detached houses beside the Ohio make up most of Bromley, and charger calls there usually start like this.',
   localFaqs: [

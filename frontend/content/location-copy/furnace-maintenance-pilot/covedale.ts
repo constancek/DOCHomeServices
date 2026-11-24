@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Covedale is really two places. On the Green Township side, Census figures show 1959 as the median year built and 91.3% of homes owner-occupied, so most visits find a gas furnace down in the basement of a 1950s or 1960s house. The part inside Cincinnati runs older, with plenty of houses from before 1940, where exhaust often climbs an old chimney and that flue earns a slow look. Either way the price comes first, and a furnace that needs nothing is left that way.',
-  emergencyParagraph:
-    'In Covedale, a few things jump past the tune-up. Smell gas: walk out, no light switches, no relighting, reach the gas company from the driveway. Carbon monoxide alarm: family out. A furnace dead in a cold snap, one firing up again and again, a soft yellow flame. Babies and grandparents first. Same day for most, weekends included.',
   commonIntro:
     'Across both sides of Covedale, the owners who book a tune-up usually mention one of these:',
   localFaqs: [

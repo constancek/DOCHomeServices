@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was laid out as a planned village in the 1920s, and much of its housing is that old. Census figures put the median year built at 1945, with 36.8% from 1939 or earlier and 26.3% more from the 1940s. Plaster walls and tight attics make ducts for central air hard to add, while a ductless head needs just one small hole in a rear wall. In apartments and rented houses, owners decide. We set a flat price before work starts and will say so if ductless isn’t right.',
-  emergencyParagraph:
-    'The National Weather Service gives July an 86F normal high, and upstairs rooms under old roofs in Mariemont run hotter, a strain for a baby, a grandparent or someone sick. Installs are scheduled quickly; a single head takes a day and multi-zone more. Existing mini-splits that stop go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Among the Tudor Revival, Colonial and Greek Revival houses and the small apartment buildings of the planned village, four requests come up most in Mariemont:',
   localFaqs: [

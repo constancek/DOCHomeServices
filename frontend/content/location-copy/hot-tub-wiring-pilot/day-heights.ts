@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Up the hill from Milford along State Route 131, Day Heights is all detached houses by Census count, with a median build year of 1969. A lot of those still have their first breaker box, which tends to be crowded or short on headroom for a spa, so the box gets sorted first. When it checks out, cost hinges on how far back in the yard the tub will sit. Our electrician compares the tub maker’s electrical sheet with your panel and quotes in writing before any digging.',
-  emergencyParagraph:
-    'In Day Heights, phone us without delay if a spa GFCI kicks off the instant it’s reset, the cutoff smells burnt, the panel sizzles, or a bather feels tingling. Everyone should leave the tub. Shut off power only when it’s safe; for smoke, go outdoors and ring 911. We’re out the same day on most calls.',
   commonIntro:
     'Four requests come up again and again from the houses of Day Heights.',
   localFaqs: [

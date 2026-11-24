@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Wyoming is a city of owner-occupied single houses, close to nine in ten by Census count, and most date from before 1980, with the 1950s the busiest decade. The Victorian and early-1900s houses in the Village area have plaster ceilings and light pans never meant for a turning fan, and the postwar ranches in the Wyoming Hills tend to have one center box per bedroom sized for a lamp. We open the box first, say when tightening is the whole fix, and quote before a single screw comes out.',
-  emergencyParagraph:
-    'A fan swaying hard, a box pulling out of an old ceiling, smoke or a burning smell at the motor, or a sparking toggle gets a same-day visit on most calls, weekends included. Kill it at the toggle or panel if that’s safe and keep the family clear. If anything burns, everyone leaves and someone calls 911 from the sidewalk.',
   commonIntro:
     'From the Village’s Victorians to the ranches of the Wyoming Hills, these four bring the most calls.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'In Southgate, bathroom vanity lights come up more than anything else, and the building decides how simple that is. Census numbers split the small city three ways, with over a quarter of homes from before 1940, close to a third from the 1980s and 1990s, and four units in ten inside apartment or condo buildings. A prewar bath may hide a shallow box and no ground behind the mirror. A 1990s condo usually won’t. We open it up, look, and quote before touching anything.',
-  emergencyParagraph:
-    'Humming, a hot smell, or plastic gone soft around a socket means that light stays off, and a ceiling fixture that has dropped from its box can’t wait either. Cut that circuit when it’s safe, and nobody lingers beneath. If smoke or flame appears, walk out and dial 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Condo owners, landlords and householders in Southgate tend to call about one of these four.',
   localFaqs: [

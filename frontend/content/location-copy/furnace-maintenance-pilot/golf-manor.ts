@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Golf Manor are rented, and Census figures put 45.8% of units in two-family or three- and four-unit buildings, so most fall tune-ups here are booked by an owner for a building, not a single house. Most of the housing went up between 1940 and 1959, and 73.4% heats with gas. That means gas furnaces in basements, often one per unit, venting through flues that have outlived a furnace or two. Each furnace gets its price before work, and we’ll say if one needs nothing.',
-  emergencyParagraph:
-    'In Golf Manor, a gas smell means leaving the unit and calling the gas company from the sidewalk, without touching switches. A carbon monoxide alarm means everyone out. A furnace that won’t heat in a freeze, a yellow flame, or constant restarting is a repair, urgent with a baby or elderly tenant inside. Most are same day, weekends included.',
   commonIntro:
     'In the two-family and four-unit buildings across Golf Manor, owners usually book a visit after one of these:',
   localFaqs: [

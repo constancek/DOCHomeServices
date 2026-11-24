@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Avondale is mostly renters, so indoor air quality work here usually goes through an owner or property manager. Census figures show 4,530 of 5,950 occupied homes are rented, and 2,904 units were built in 1939 or earlier. Those older houses and walk-up apartments tend to be drafty, with damp basements and old ducts that spread dust. The larger apartment buildings along Reading Road have managers who decide on equipment. We test first, set the price before anything is installed, and say plainly when a fresh filter is enough.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means clearing the apartment or house before anyone phones 911. For a gas smell, walk out without touching switches and call Duke Energy from the sidewalk. Scorched-smelling vents mean switching the system off at the thermostat. Spreading mold is urgent where a baby or grandparent lives. We reach most calls the same day, weekends included.',
   commonIntro:
     'In Avondale, tenants, owners and managers usually notice one of these first.',
   localFaqs: [

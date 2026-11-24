@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Exhaust fan work in Mariemont usually means a bathroom in one of the planned village’s older houses. Census figures put the median home at 1945, and more than a third were built before 1940, when a bathroom typically had a window where a fan would go today. Plenty of those got a fan later, now and then ducted into the attic. Townhouses and apartment buildings make up a real share of the village. We trace where the air ends up and quote the job before a ceiling is cut.',
-  emergencyParagraph:
-    'Burning smells, scorch marks, a melting or warped housing, sparks and smoke are all reasons to kill the fan’s power right away at its switch or the panel, provided that’s safe. A brown ring around the grille is urgent too. Smoke or flames mean getting outdoors, then dialing 911. Most visits happen that same day, Saturdays and Sundays too.',
   commonIntro:
     'In the Tudor and Colonial houses and the townhouses alike, these four signs are what usually bring us to Mariemont.',
   localFaqs: [

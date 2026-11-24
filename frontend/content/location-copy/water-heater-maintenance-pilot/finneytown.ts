@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Finneytown is a 1950s suburb at heart. Census figures put 52.5% of homes in the 1940s and 1950s and the median at 1959, and 88.9% are single-family houses. For a service visit that usually means a gas heater on a basement slab, with a flue connector, gas cock and drain spigot worth inspecting while we’re there. Most owners we meet here have never had the tank flushed at all. You get a fixed price first, and if the heater isn’t worth servicing, we tell you that.',
-  emergencyParagraph:
-    'Book a repair instead when you see these. A wet tank jacket: close the supply valve on the cold side, then turn the gas cock or breaker off. Gas in the air: outdoors right away, no switches, no relighting, and the gas company called from the yard. A carbon monoxide alarm: everyone outside first. Usually fixed same day, weekends included.',
   commonIntro:
     'Most heaters in Finneytown sit in the basement of a house from the 1950s. Owners usually book a service once they notice:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Aurora has a lot of older stock. Census figures date the typical house to 1952, and close to two in five were built before 1940, many near the riverfront downtown. In those houses the panel is often out of slots or headroom for a spa, and that comes first. Houses from later decades more often have space, so the job hinges on the tub’s spot in the yard and the length of the run. We check the panel against the spa maker’s spec and quote in writing before trenching.',
-  emergencyParagraph:
-    'If the spa’s GFCI pops every time it’s reset, the shutoff gives off a hot-insulation smell, or a bather feels current through the water, the soak is over. Clear the tub, don’t handle the controls, and cut the breaker if that can be done safely. For smoke or fire, get clear and call 911. Expect us that day, weekends too.',
   commonIntro:
     'From the old blocks by the river to the newer streets away from downtown, these are the signs that lead to spa wiring.',
   localFaqs: [

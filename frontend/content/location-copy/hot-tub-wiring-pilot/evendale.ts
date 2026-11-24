@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Spa wiring in Evendale is a 240-volt circuit reserved for the tub, GFCI protection, a disconnect within sight of the tub but out of reach from the water, bonding, and an inspection. Every house in the village is single-family, and Census figures put the median at 1982. A panel from the 1980s or 90s usually has a slot and some headroom, so the yard matters more, since a tub far back means a longer trench. We set the price against the spa’s specs before conduit goes in.',
-  emergencyParagraph:
-    'If anyone feels a tingle, get everyone out without touching metal, and do the same for a spa breaker that flips straight back off or a disconnect with a scorched smell. Kill power only if that’s safe, and leave and dial 911 for smoke. In Evendale, we reach most calls the same day, weekends included.',
   commonIntro:
     'Along the streets off Glendale Milford Road and Reading Road, these four bring most hot tub calls.',
   localFaqs: [

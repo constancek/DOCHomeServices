@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'The West End is mostly rentals, with Census figures counting 2,724 of 3,129 occupied homes as rented, so the owner or manager usually decides what air equipment goes in. The buildings run from 19th-century Italianate rowhouses to newer apartment blocks. The old ones are drafty, often damp in the basement, and move dust through tired ducts; the newer ones seal tight and trap cooking smells and stale air. We test first, price every fix before work starts, and tell the owner if a filter change covers it.',
-  emergencyParagraph:
-    'Clear everyone out if a carbon monoxide alarm goes off, then call 911. If you smell gas, go outside without flipping a switch and call Duke Energy. Turn the system off at the thermostat if a burning smell comes through. Babies and anyone with asthma are most at risk. Most calls get us the same day, weekends too.',
   commonIntro:
     'For tenants and owners in the West End, these are the air complaints that come up again and again:',
   localFaqs: [

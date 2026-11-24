@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'In Northside, the panel answers the charger question before the car does. More than half the homes were standing by 1939, Census figures show, and a house from that era may run on a modest service with little headroom for a 240-volt line. Roughly half are detached houses, the straightforward jobs when the car sleeps beside the house. Our first visit is a look inside that panel and a load calculation. If the dealer cord is enough, you’ll hear it, and the price is settled before we drill anything.',
-  emergencyParagraph:
-    'Heat is the warning sign. A plug too warm to hold, a browning outlet or a hot-plastic smell mid-charge ends the session. Flip that breaker only if you can reach it dry-handed and clear of anything hot. Smoke or flame means everyone outside and a call to 911. Most calls get us out the same day, weekends included.',
   commonIntro:
     'Four situations tend to put a charger on the list for a house in Northside.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Swapping a bulky ceiling fixture for flush downlights is the request we hear most often in Florence. Census figures give the city a median build year of 1972, with roughly two of every three homes older than 1980, so expect drywall ceilings and, on the top floor, an attic. Only about half are detached houses. Renters occupy just over half of all homes, many in apartment and condo buildings, so a landlord or association usually has the final word. We settle the layout and the price before cutting.',
-  emergencyParagraph:
-    'A can that has darkened the drywall, smells of hot plastic or lets water through needs attention fast, and so does a crackling switch. Cut power at the breaker if you can safely reach the panel; with smoke or flames, get outside and dial 911. Weekends are no different, and most calls get a visit that day.',
   commonIntro:
     'In Florence, we split our recessed lighting time between 1970s houses, newer subdivisions and a lot of condos and townhouses. The same four jobs keep turning up.',
   localFaqs: [

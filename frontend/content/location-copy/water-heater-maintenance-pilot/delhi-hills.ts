@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Delhi Hills was built out mostly in the 1960s and 1970s; Census figures give a median of 1971 and show 92.7% of households owning their place. Owners tend to tuck the heater in a garage or basement corner and forget it, so the spigot at its base has often never been cracked open. Gas and electric heat run neck and neck, which tells our technician to pack for either kind of unit. You hear a fixed price up front, plus a straight answer if your tank is past helping.',
-  emergencyParagraph:
-    'Call it a repair, not a service, when the shell is wet: twist the inlet valve above the tank shut and kill the fuel or power. Gas odor: get out, hands off light switches, dial the gas company from the curb. A carbon monoxide alarm empties the house first. Most get fixed same day, weekends too.',
   commonIntro:
     'Owners up on the bluff in Delhi Hills tend to ring us for a tune-up after spotting one of these:',
   localFaqs: [

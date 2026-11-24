@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Owners, not landlords, call about fans in Terrace Park, because the village is almost entirely detached houses lived in by the people who own them. Census figures date the median house to 1954; over two in five come from the 1940s and 1950s, and around a quarter are older. Bathrooms of that age were designed around a window. Remodels add a tiled shower and wedge a fan overhead, sometimes with a duct that drifts off into the attic. We find where the air stops and agree the price first.',
-  emergencyParagraph:
-    'Phone us promptly if a fan smells hot and acrid, its cover has browned or warped, it sparks or smokes, the breaker flips when it runs, or water seeps around it. Turn it off if the switch is safe to reach. Flames or smoke mean leaving the house and dialing 911. Expect same-day help on most calls, weekends included.',
   commonIntro:
     'In the 1940s and 1950s houses and the older homes on the streets around Elm and Miami Avenues, these four signs bring the most calls.',
   localFaqs: [

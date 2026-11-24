@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'Madeira is a city of 1950s houses, and the water heater we service here usually stands in the basement beside the furnace. By Census figures the median home dates to 1960, 50.8% were built before 1960, and 91.2% are single-family detached. We drain it, check the anode rod and trip the relief valve, and on older setups we look hard at the drain spigot, the vent and the gas line. You approve a flat price first, and a tank not worth servicing gets an honest no.',
-  emergencyParagraph:
-    'A leak at the tank rules out a tune-up. Shut the cold-water valve on top, then switch the gas valve or breaker off. Do likewise for a relief valve that won’t stop opening, or cold taps. Gas smell: get out, leave switches, call the gas company from outdoors. Carbon monoxide alarm: household outside. Most calls: same day, weekends too.',
   commonIntro:
     'Basement tanks in 1950s houses in Madeira tend to tell us they’re due like this:',
   localFaqs: [

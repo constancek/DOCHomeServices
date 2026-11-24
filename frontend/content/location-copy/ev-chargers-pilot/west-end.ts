@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'Renters fill close to nine in ten homes in the West End, by Census figures, which makes most charger decisions the owner’s or association’s. Rowhouses outnumber detached houses, and nearly two in five homes predate 1940, built when a modest service was normal and a spare 240-volt line wasn’t part of the plan. Newer buildings in the neighborhood usually have more to give. The panel gets opened and its load added up first, you hear if the cord you own is enough, and the price comes before any wire.',
-  emergencyParagraph:
-    'Stop charging if the charger or outlet is hot, if there’s a burnt smell, if the cable is crushed or if the breaker trips the moment the car connects. Flip that breaker only with dry hands on a dry floor. Smoke or fire means everybody leaves and someone calls 911. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'In the West End, owners and residents usually reach out about charging for one of these reasons.',
   localFaqs: [

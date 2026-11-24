@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Most homes in Millvale are rented, and about a third of residents live in public housing, so AC maintenance here is a job for the landlord or the housing manager, not the tenant. Many units are 1950s townhomes that have since been renovated, and the rest is small apartment buildings and houses. A tune-up on a townhome means a closet or attic air handler and a condenser out back. Owners get a flat price per unit first, and we say so when a unit needs nothing.',
-  emergencyParagraph:
-    'If an apartment stops cooling, ices up, drips water from a ceiling or closet, or won’t keep a breaker on, that’s a repair. Turn the system off at the thermostat. Public housing residents should call management, and other tenants their landlord. Heat is hardest on babies, older neighbors and anyone ill. Most repair calls are same day, weekends included.',
   commonIntro:
     'After reports like these, owners and managers book a round of tune-ups in Millvale:',
   localFaqs: [

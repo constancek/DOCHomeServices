@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'In Dayton, Census figures put nearly half the homes at 1939 or earlier, while almost a fifth have gone up since 2000. Those two groups wire up differently. Prewar houses often hide a jammed breaker box without the headroom a spa demands, and we untangle that first. Newer builds generally have space, leaving the trench from house to tub as the main variable. Our electrician lines the panel up with the spa maker’s spec and prices it before any digging.',
-  emergencyParagraph:
-    'Ring us in Dayton if a spa GFCI won’t hold after a reset, the cutoff smells hot, the panel buzzes, a bather tingles, or the gear sat in floodwater. Everybody gets out, and nobody handles the equipment. Cut the breaker only when that’s safe; smoke means going outside and calling 911. We come that day on most calls.',
   commonIntro:
     'We hear about these four most often from owners in Dayton.',
   localFaqs: [

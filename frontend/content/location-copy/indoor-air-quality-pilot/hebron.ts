@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Hebron is a subdivision town, and most of its houses are tight, newer builds. Census figures put the median home at 2002, with close to half built between 2000 and 2009. Houses that tight hold onto stale air, cooking smells and fumes from cleaning products, so better ventilation is often the answer. Basements in these houses can still run damp in summer. We test the air first, quote any work before it starts, and if a fresh filter is all you need, we’ll say so.',
-  emergencyParagraph:
-    'If the carbon monoxide detector goes off, everyone heads outside before calling 911. Smell gas, and walk out without switching anything, then call the gas company. Set the thermostat to off if the furnace or heat pump smells burnt. Mold growing after water damage endangers babies and anyone who struggles to breathe. Most calls are handled same day, weekends included.',
   commonIntro:
     'In 2000s subdivision houses around Hebron, these are the complaints that bring us out:',
   localFaqs: [

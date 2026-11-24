@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'Two-thirds of the homes in South Lebanon have gone up since 2000, Census figures show, and the median sits at 2007. Those subdivision houses are where surge damage gets expensive, because the heat pump or gas furnace, the range, the washer and the garage door opener all hang on circuit boards. The older houses in the original village may have tight panels. Whichever you own, the panel gets opened first, you’ll hear if strips would do, and the price is fixed before work begins.',
-  emergencyParagraph:
-    'A breaker that won’t stay on once reset, or an outlet gone brown after a storm, means phoning us. A whole house pulsing bright and dim needs the electric utility first. Touch that breaker only with dry hands, and at the first sign of smoke, leave and dial 911. We can usually come the same day, weekends included.',
   commonIntro:
     'Owners in the newer subdivisions and the original village tend to call us after one of these.',
   localFaqs: [

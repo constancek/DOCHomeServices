@@ -2,9 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const dent: LocationServiceCopy = {
   localParagraph:
-    'In Dent, housing skews new; 42.9% of homes went up in 2000 or later, by Census figures. Builders put in central air and ducts sized for it, so a tune-up here goes straight to the equipment, from coil and drain to filter and wiring. Another 25.9% of homes sit in buildings of five or more units, where a row of condensers may share one strip of grass and a manager picks the date. The price is fixed before work, and a system that needs nothing is left alone.',
-  emergencyParagraph:
-    'Hot weather and a system that has quit cooling means a repair booking, not maintenance; so does a condenser that hums while its fan stays frozen. Should frost coat the copper, put the thermostat on off and wait for the thaw. Seniors, babies and people who are ill cope worst. Most calls get a same-day visit, weekends included.',
+    'In Dent, housing skews new; Census figures date 42.9% of homes here to 2000 or later, off Harrison Avenue. Those houses got central air with matching ductwork from day one, so our spring visit skips the guesswork and works through coil, drain, filter and wiring. Another 25.9% of homes are in complexes of five units or more, where condensers stand shoulder to shoulder on a pad and the association sets the week. You hear one fixed number first, and equipment in good shape gets left alone.',
   commonIntro:
     'Homeowners and condo owners in Dent tend to book a spring visit after spotting one of these.',
   localFaqs: [
@@ -42,7 +40,7 @@ export const dent: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners in Dent Book AC Maintenance With Us',
     whyParagraph:
-      'Most of what we service in Dent is newer central air and heat pumps in houses and condos. Our technicians are licensed and insured, all employees pass background checks and drug tests, and you approve one flat price before work.',
+      'Dent keeps us busy with younger central air and heat pumps in houses and condo rows. Every technician is licensed and insured, everyone on staff clears a background check and drug test, and nothing starts until you approve the price.',
     sharedFaqs: [
       {
         q: 'What does an AC tune-up cost in Dent?',

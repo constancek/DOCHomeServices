@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'In Linwood, nearly every furnace we tune runs on gas: Census figures show just 2.4% of homes using electric heat, and 82.1% went up before 1940. Expect a basement furnace in an old house, likely on its second or third replacement, sending exhaust up a brick chimney, so the draft and heat exchanger get a hard look. Two-family houses are common, and their owners usually have both furnaces done on one trip. The price is set before work begins, and if the furnace needs nothing, we say so plainly.',
-  emergencyParagraph:
-    'With a gas smell, everyone leaves, nobody touches switches or pilots, and someone calls the gas company outside. Carbon monoxide alarm: out first. No heat in a cold snap, a burner that keeps lighting and going out, or a yellow, lazy flame needs repair. Babies, older relatives and anyone ill chill fastest. Same day on most calls, weekends too.',
   commonIntro:
     'In the old houses and doubles of Linwood, these are what usually lead to a fall booking:',
   localFaqs: [

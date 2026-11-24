@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Mount Airy heat with electricity, 50.1% by Census figures, and that number takes in heat pumps and baseboard heaters too, so we confirm what you have when you book. Much of the housing went up in the 1960s and 1970s, and close to four in ten units sit in buildings of five or more apartments, where the owner or manager schedules the visit. Detached houses usually keep the furnace in a basement. The price comes first, and if your furnace needs nothing, we say so.',
-  emergencyParagraph:
-    'These outrank any tune-up. Gas smell: leave without touching switches or the pilot, and call Duke Energy once you’re out. Carbon monoxide alarm: everyone out. Same for a furnace gone cold in a freeze, an endless on-off rhythm, or a wavering yellow flame. Elderly relatives and babies come first, so most calls get a same-day visit, weekends too.',
   commonIntro:
     'Owners, managers and new buyers book a tune-up in Mount Airy after spotting:',
   localFaqs: [

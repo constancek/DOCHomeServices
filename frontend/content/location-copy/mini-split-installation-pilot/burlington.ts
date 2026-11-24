@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'The old courthouse square aside, homes here are new. Census figures put the median year built at 1998, and 46.3% of homes date from 2000 or later, so the mini-split calls we get are rarely for a whole house. They’re for rooms the central system was never planned around, such as a finished basement, a bonus room or a screened porch turned into a sunroom. Renters, in 26.6% of homes, need the owner to sign off. The price is fixed up front, and if ductless won’t help, we tell you.',
-  emergencyParagraph:
-    'The airport weather station in Boone County logs about 21 days a year at 90F or above (National Weather Service), and a room over a garage takes the brunt. Elderly relatives, newborns and asthmatics fare worst. Installs book quickly, one head in a day. A ductless unit that broke goes to Mini-Split Repair, often that day, weekends too.',
   commonIntro:
     'In the subdivisions built around Burlington since the 1980s, these are the rooms that most often need a ductless system:',
   localFaqs: [

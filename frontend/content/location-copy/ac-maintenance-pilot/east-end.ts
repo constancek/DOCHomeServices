@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'In the East End, a tune-up goes two ways, because the housing does. Census figures put 54.4% of homes here before 1940, mostly older houses along Eastern Avenue where central air arrived generations after the plaster, with ducts squeezed through walls and floors that were never meant for them. The condos and townhouses toward Riverside Drive, many from the 1990s, get a plainer coil, drain and wiring check. Either way the flat price comes first, and an AC that needs nothing gets told so.',
-  emergencyParagraph:
-    'About 21 days a year reach 90F or more, the National Weather Service says, and an AC quitting on one of them needs a repair. If river water reached the condenser or basement air handler, keep the power off. Older neighbors, infants and anyone short of breath struggle first. Most calls get us there the same day, weekends too.',
   commonIntro:
     'Here is what usually gets owners along the river in the East End to book a tune-up:',
   localFaqs: [
@@ -33,7 +31,7 @@ export const eastEnd: LocationServiceCopy = {
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'It pays to book when no one has paperwork on the AC, the house is newly bought, the indoor unit has begun dripping or buzzing, or the second floor runs warmer than the first. Landlords with a couple of rentals along Eastern Avenue can have each one seen in a single trip. Leave it if we serviced the system within the past year and it behaves. An AC that won’t cool anymore is an AC Repair call. If we’ve already said the system is finished, put the money toward AC Installation & Replacement. Between our visits, change a filthy filter, keep plants back from the condenser, and keep vents open.',
+        body: 'Paperwork-free equipment is the usual trigger in the East End, along with a recent purchase, an indoor unit that has started dripping or buzzing, and a second floor lagging the first. Landlords holding a couple of rentals near Eastern Avenue can get every one seen on one trip. If we serviced the system within the past year and it runs right, wait. An AC that has stopped cooling needs AC Repair. When we’ve already said a system is done, that money belongs toward AC Installation & Replacement. Between visits, swap a filthy filter, keep plants off the condenser and leave vents open.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in the East End',
@@ -46,7 +44,7 @@ export const eastEnd: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does an AC tune-up cost in the East End?',
-        a: 'The rate is flat and quoted before work starts. What sets it is the type of system and how hard the two units are to get at; a basement air handler down narrow stairs is slower than one in a condo closet. Any fault we turn up gets its own price, and the decision stays with you.',
+        a: 'You get a flat rate before we start. It depends on the kind of system and how hard the two units are to reach, since a basement air handler down a narrow stair in an old river house takes longer than one in a Riverside Drive condo closet. Any fault we find is priced separately, and you decide.',
       },
       {
         q: 'When is the best time of year for an AC tune-up?',
@@ -54,7 +52,7 @@ export const eastEnd: LocationServiceCopy = {
       },
       {
         q: 'What AC upkeep can I handle on my own?',
-        a: 'Swap the filter once it’s grey, trim shrubs and sweep grass clippings away from the condenser, keep furniture off the vents and returns, and replace the thermostat batteries when they fade. The panels on the unit stay shut, and the refrigerant lines and coil fins are ours to handle.',
+        a: 'Change the filter when it turns grey, cut back shrubs and sweep clippings off the condenser, keep furniture away from vents and returns, and fit new thermostat batteries when the display fades. Leave the unit’s panels closed, and leave the refrigerant lines and coil fins to us.',
       },
     ],
   },

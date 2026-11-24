@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'In Roselawn, lots of kitchens have fresh cabinets under the frosted dome the building came with. Trading that dome for something better, or mounting a vanity bar above a bath mirror, depends on the box overhead, whether a grounding wire was run, and whether power already reaches that point. Per the Census, buildings here date from about 1961 on the median, one in five predates 1940, and renters fill nearly two homes in three, many in walk-ups off Reading Road. Owners get a quote once the box is open.',
-  emergencyParagraph:
-    'Stop using a light slipping off its bracket or a switch plate that hums. Kill power to that room when it is safe, and move people out from beneath the fixture. If smoke or flame appears, leave and ring 911. Our crews reach most calls before the day ends, Saturday and Sunday included.',
   commonIntro:
     'Walk-up owners, landlords and the families who own houses on these streets usually ask us for these.',
   localFaqs: [

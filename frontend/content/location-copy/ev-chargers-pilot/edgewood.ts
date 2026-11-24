@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Edgewood is almost entirely owner-occupied detached houses, and Census figures place its median year built at 1976, with the 1960s and 1970s accounting for most of the rest. Decades of added appliances and circuits tend to fill those panels, so squeezing in a 240-volt charger line takes planning. Houses from the 1980s and 1990s generally have spare capacity or can use load management. A panel review and load calculation come first, the trunk cord gets an honest verdict, and the flat price is set before any drilling.',
-  emergencyParagraph:
-    'Heat coming off the charger or its outlet, scorching, melted plastic or a burning smell ends the session, as do repeated trips at the panel or a cable that got run over. Cut that circuit only if nothing you’d touch is hot or wet. If smoke appears, get out and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'A 1960s or 1970s detached house plus one of these reasons explains most charger calls from Edgewood.',
   localFaqs: [

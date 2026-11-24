@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'With recessed lighting in South Cumminsville, a house built before 1940 and one finished last decade need very different plans. Census figures for the blocks around Dreman and Follett Avenues show roughly 45 of every 100 homes built in 1939 or earlier, about 16 in 100 built since 2010, and most of them detached and owner-occupied. Older ones bring plaster and a skinny cavity above the second floor; newer ones offer drywall and a roomy attic. Bathrooms often go first. Every light is marked and priced before cutting.',
-  emergencyParagraph:
-    'Water leaking through a recessed light, a trim scalding to the touch, or a burnt smell coming from the ceiling should be checked promptly. If reaching the panel is safe, turn off the breaker serving those lights. If you see smoke or flame, walk out and phone 911. Calls from South Cumminsville usually see us that day, weekends included.',
   commonIntro:
     'In South Cumminsville, from pre-war houses near Follett Avenue to builds from the last few years, these rooms top our list.',
   localFaqs: [

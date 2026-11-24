@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell was platted beside a railroad station in 1868 and joined Cincinnati in 1912, and its housing still shows that age. Half of it predates 1950 by Census count, and houses that old more often hide a shallow box, no ground and crumbly plaster behind the canopy. Nearly two out of three homes are rented, so the landlord usually makes the booking. Before a single screw turns, our electrician opens the canopy, reads what’s up there and hands you a flat figure to sign off on.',
-  emergencyParagraph:
-    'A light that drops on its wires, leaves soot behind or trips its breaker when switched on goes first in line. Flip that breaker if the panel is dry and easy to reach, and keep kids away from beneath it. Smoke or flames mean everybody outside and a 911 call. Most get a same-day visit, weekends too.',
   commonIntro:
     'Around Hartwell, landlords and owners mostly phone about one of these.',
   localFaqs: [

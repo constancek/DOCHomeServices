@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Loveland Park has two kinds of house, and the tune-up differs between them. Census figures show 37.1% were built before 1960, many on the narrow lots laid out along the Little Miami in the 1920s, where cooling was added long after the walls went up. The rest is mostly newer, with a median year built of 1990, and those systems usually just need the coil, drain and wiring looked over. Either way we name the price before starting, and we’ll say plainly if yours needs no work.',
-  emergencyParagraph:
-    'Warm air in a heat wave means a repair visit, not maintenance. Frost on the copper lines is another, so switch the system off at the thermostat and let it melt. So does water coming through a ceiling. Babies, older parents and anyone short of breath suffer first. We come same day on most calls, weekends included.',
   commonIntro:
     'These are the reasons owners most often ring us before summer in Loveland Park.',
   localFaqs: [

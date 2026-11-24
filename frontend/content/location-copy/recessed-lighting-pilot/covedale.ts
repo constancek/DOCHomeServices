@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'On the Green Township side of Covedale, recessed lighting usually means a sturdy house from the Eisenhower years, with attic space over the bedrooms and a basement waiting to become a rec room. Census figures put the median there at 1959, and a third of homes went up in the 1950s alone. The Cincinnati side, around Glenway Avenue, runs older, with a median of 1938 and more plaster. Owners live in almost every house. We chalk the layout overhead and fix the price before cutting.',
-  emergencyParagraph:
-    'Should a can start cycling on and off by itself, leave a scorched halo on the drywall, or trip its breaker each evening, phone us that day. Cut power to it at the panel when that’s safe to do. Seeing smoke means going outside and calling 911. Most homes in Covedale get an electrician the same day, weekends included.',
   commonIntro:
     'Postwar houses on the township side and older ones near Glenway keep us busy in Covedale with jobs like these.',
   localFaqs: [

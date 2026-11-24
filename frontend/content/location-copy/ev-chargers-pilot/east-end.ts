@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Two housing eras sit side by side in the East End. Along Eastern Avenue, Census figures put the core’s median year built at 1938, and a cottage that old may still be on its first small service, leaving scant room for a 240-volt line. Riverside Drive is newer, its median 1992, and those panels usually have space or can lean on load management. We size up the panel and total the household load first, admits it when the Level 1 cord will cope, and prices everything before wire gets pulled.',
-  emergencyParagraph:
-    'Unplug and quit charging when the charger housing, plug or outlet turns hot, browns or melts, or a scorched smell drifts from it. Repeated breaker trips during charging count too. Kill that circuit at the panel only if that’s safe. If there’s smoke, get everyone outside and dial 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Cottage owners near Eastern Avenue and newer households along Riverside Drive tend to reach us for one of these four reasons.',
   localFaqs: [

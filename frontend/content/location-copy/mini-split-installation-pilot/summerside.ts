@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'Summerside is nearly all 1960s to 1990s housing, with a Census median year built of 1981, so almost every house here has ducts. The mini-split work is the space those ducts serve badly, typically a sunroom, a finished basement or a bonus room. Some 34.5% of homes sit in buildings of five or more units, and attached condos are common too, so an owner or an association often has a say. We set the price before work, and if ductless is a poor fit, you’ll hear that first.',
-  emergencyParagraph:
-    'A sunroom in Summerside heats past the rest of the house, and July normal highs sit at 86F by National Weather Service figures. It weighs on older relatives, babies and anyone short of breath. Installs book fast, and a lone head is done in a day. A stopped unit gets Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the houses, condos and apartments of Summerside, ductless calls usually come from one of these:',
   localFaqs: [

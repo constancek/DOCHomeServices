@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'In Northside, Italianate houses near Hamilton Avenue sit beside postwar ones, and Census figures date more than half the housing stock to 1939 or earlier. A panel in a house that age has been added onto for decades, so it is often crammed, and finding a free slot for a surge device is the first puzzle. Rehabs bring the expensive targets, a new condenser here, a smart fridge there. We open the panel before quoting, admit it when strips will do, and fix the price up front.',
-  emergencyParagraph:
-    'A charred outlet cover, a hot plastic smell drifting from the panel once a storm passes, a breaker that won’t stay up, or a furnace that threw sparks when the power returned all warrant a visit that day, which we manage on most calls, Saturday and Sunday included. If you see smoke or flame, go outside and dial 911.',
   commonIntro:
     'From the older houses off Hamilton Avenue to the newer ones farther up it, these signs usually start the call in Northside.',
   localFaqs: [

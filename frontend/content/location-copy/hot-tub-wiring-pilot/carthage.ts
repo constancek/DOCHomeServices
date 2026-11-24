@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'In Carthage, two out of three homes predate 1940, according to Census figures, and the median house was built in 1938. Doubles and small apartment buildings line Vine Street as well, and plenty of households rent. Panels of that vintage almost never have a vacant spot for a spa breaker, so that hurdle gets cleared before anyone runs the 240-volt GFCI feed, mounts the cutoff or bonds the tub. Your spa’s spec sheet sets the sizing, and the price is settled before a trench opens.',
-  emergencyParagraph:
-    'Certain spa problems in Carthage are same-day calls, weekends included. A GFCI that pops each time you reset it, burn marks on the cutoff box, a buzz from the panel or a tingle off the tub rim all fit. Get everyone out and leave the controls be. Throw the breaker only if that’s safe, and call 911 for smoke.',
   commonIntro:
     'On the blocks off Vine Street and near the county fairgrounds, here’s what usually gets owners asking about a spa circuit in Carthage.',
   localFaqs: [

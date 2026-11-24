@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Newtown was settled in 1792, yet most of its houses are far younger. Census figures put the median at 1989, meaning many panels still have open slots or can work with load management. Roughly one home in five predates 1940 and might run on a skimpy original service. Townhouses and condos turn up often too, which drags an association into the decision. We size up panel and load before quoting, admit when the car’s own cord will do, and lock the price before work starts.',
-  emergencyParagraph:
-    'Stop charging if a charger, plug or outlet turns hot, darkens or softens, if a burnt smell rises mid-session, or if a breaker drops whenever the car connects. Flip that breaker only while dry and touching nothing hot. Smoke or fire means heading outside and dialing 911. Same-day visits are the norm, weekends too.',
   commonIntro:
     'From older houses near Main Street to newer homes and townhouses, here’s what prompts charger calls from Newtown.',
   localFaqs: [

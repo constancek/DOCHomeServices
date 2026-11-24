@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'In College Hill, the box, the ground and whether the light is new decide a fixture job, and the neighbourhood mixes pre-war and post-war houses along Hamilton Avenue. By Census count, 1,659 of 4,692 homes were built in 1939 or earlier and another 1,708 went up between 1940 and 1969. The post-war houses often have one ceiling light per room and a gloomy hall, while the pre-war ones add plaster and no ground. Roughly half are rented. We look first, then quote a fixed price.',
-  emergencyParagraph:
-    'A light working its way out of the ceiling, a switch cover too hot to touch or a scorched odour by a fixture shouldn’t wait for tomorrow. Throw the breaker if it’s safely within reach, and keep anyone from passing under it. Smoke or fire means getting out and dialling 911. Same-day help covers most calls, Saturdays and Sundays included.',
   commonIntro:
     'Pre-war and post-war houses in College Hill keep us coming back for these four light fixture jobs.',
   localFaqs: [

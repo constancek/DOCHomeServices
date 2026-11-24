@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'On the hill above downtown, a new light usually means opening a ceiling that has held the same box since before the Incline shut down in 1948. Census counts show 536 of the 1,068 homes here went up in 1939 or earlier, and roughly two in three are rented. Expect old plaster, cloth-jacketed conductors with no ground, and boxes sized for one glass globe, not a chandelier. We pull the canopy in Mount Adams, see what the ceiling is really holding, and quote before a screw comes out.',
-  emergencyParagraph:
-    'A canopy sagging off the plaster, a whiff of scorched insulation or a hot wall plate is a today problem. Kill that circuit at the panel if it’s easy to reach, and send everyone into another room. Visible smoke means leaving the building and phoning 911 from the sidewalk. We usually get up the hill that day, weekends too.',
   commonIntro:
     'Most of what we hang on this hill falls into four kinds of job.',
   localFaqs: [

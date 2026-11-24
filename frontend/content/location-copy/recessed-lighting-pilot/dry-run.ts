@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Along Clough Pike and the streets branching off it, Dry Run is a 1970s-to-2000s suburb, and that shapes recessed lighting more than anything. Census figures give a median build year of 1986, and close to all of the 4,217 homes are detached houses lived in by their owners. Expect drywall overhead, an attic above most top floors and a basement somebody finished in stages. Before a saw touches drywall, the layout gets penciled on and the price is settled.',
-  emergencyParagraph:
-    'A trim you can’t keep a finger on, a scorched patch of drywall around the can, a switch that hums, or a breaker that snaps off whenever that bank comes on need us that day. Kill that breaker if it’s safe to reach. Smoke or flame means getting everyone outside and dialing 911. Same-day service covers most calls, weekends too.',
   commonIntro:
     'Owners off Clough Pike tend to ask about one of these four.',
   localFaqs: [

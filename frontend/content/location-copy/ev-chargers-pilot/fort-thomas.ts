@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Half the houses in Fort Thomas are older than 1955, by Census figures, and nearly a third reach back to 1939 or earlier. Prewar houses here sometimes still draw on a modest original service, leaving little for a 240-volt line, while the 1950s houses tend to have panels stuffed edge to edge. Owners live in most of them. The first step is the open panel and a load total, then an honest read on whether the trunk cord already does the job, then a price fixed before work begins.',
-  emergencyParagraph:
-    'A charger, plug or outlet that has browned, softened or runs hot gets unplugged, as does a setup giving off a scorched smell or tripping its breaker nightly. Shut the circuit off with dry hands. Smoke or flames send everyone outside to dial 911. Expect us the same day on most calls, Saturdays and Sundays too.',
   commonIntro:
     'The older houses of Fort Thomas tend to bring us these four charger situations.',
   localFaqs: [

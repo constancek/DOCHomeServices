@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Loveland Park mixes two kinds of house. Census figures show 37.1% built before 1960, many on the 1920s river lots, and 53.5% from 1980 onward. Older ones keep the heater in a basement corner, with a crusty drain valve and venting worth inspecting; the newer ones get a plain drain, rod check and valve test. Piped gas is less common here than nearby, so electric tanks turn up often. Our flat price comes before any work, and we’ll say when a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Water escaping from the tank: the valve on the cold pipe feeding it goes off first, then breaker or gas. A gas odor: everyone out, switches untouched, pilot alone, gas utility called from the yard. Carbon monoxide alarm: outside before anything. A relief valve that keeps going, or no hot water: same-day repair on most calls, weekends included.',
   commonIntro:
     'Here’s what tends to bring people in Loveland Park to book a service:',
   localFaqs: [

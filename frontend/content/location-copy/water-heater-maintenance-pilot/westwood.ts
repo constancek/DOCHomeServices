@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Westwood is mostly renters, so landlords book much of our water heater maintenance. Census figures show 65.7% of households rent and 44.5% of homes sit in complexes of five units or more; along Harrison and Montana Avenues that means rows of closet heaters over drain pans, one per apartment, all done on one trip. The houses lean mid-century, and the 20.1% from before 1940 get a basement drain, a vent check and a valve test. Each price is fixed before work, and we’ll flag any tank not worth the money.',
-  emergencyParagraph:
-    'Water in the drain pan turns maintenance into a repair. Shut the cold feed at the top, then its gas knob or breaker. Same for a venting relief valve or cold taps. Smelling gas? Out of the apartment first, no switches, phone the gas company. A carbon monoxide alarm clears the building. Most calls are same day, weekends too.',
   commonIntro:
     'Apartment closets off Harrison Avenue and mid-century basements across Westwood tend to show these:',
   localFaqs: [

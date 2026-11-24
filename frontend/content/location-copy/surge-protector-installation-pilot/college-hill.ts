@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'More than a third of the homes predate 1940 in College Hill, by Census figures, and much of the rest filled in through the 1940s, 1950s and 1960s. Breaker boxes from those decades were sized for a house with a radio and a fridge, so plenty are packed, and whether a protector fits is settled once the cover comes off. About half of households rent. We check the box first, say plainly when strips will do, and lock in the price before work begins.',
-  emergencyParagraph:
-    'If a storm leaves an outlet smelling burnt in College Hill, a breaker that drops each time you reset it, or an appliance that flashed when power returned, call us. Leave that breaker alone unless you can reach it safely. Smoke means walk out and phone 911. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'These are the signs we hear about most from houses and apartments around Hamilton Avenue in College Hill.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Owensville is a 1960s-and-1970s village; Census figures make 1974 the median build year, with roughly half of its homes from those two decades. Houses from those years generally came with a bath fan, but builders often picked one too small for the room and ran its duct into the attic or out to a soffit, where the damp air drifts back in. Most households in the village rent, so landlords decide on the work. We check what the fan moves and quote the fix before cutting any drywall.',
-  emergencyParagraph:
-    'In Owensville, shut down a bath fan that smells scorched, has a sagging or melted cover, spits sparks, smokes or knocks the breaker out, using the wall switch or panel if that’s safe. Water at the grille needs us soon. With smoke or flames, get everyone out and ring 911. We arrive the same day on most calls, weekends too.',
   commonIntro:
     'Across the 1960s and 1970s houses and the apartment buildings of Owensville, these complaints come up most:',
   localFaqs: [

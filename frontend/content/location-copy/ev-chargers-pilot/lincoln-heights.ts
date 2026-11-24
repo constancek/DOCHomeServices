@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Roughly three households in four rent in Lincoln Heights, Census counts show, so a charger request there usually begins with the landlord or property manager. The median home dates to 1973, and breaker panels from the 1960s and 1970s tend to be full of circuits. Close to half of homes heat with electricity, which eats into the service’s spare room. We start by opening the panel and working out the load, we’ll say if a Level 1 cord covers your driving, and the price is fixed before anything is wired.',
-  emergencyParagraph:
-    'Tenants should stop charging and tell the landlord or manager the moment an outlet runs hot, a plug softens or a burning smell shows up. Turn that circuit off only where you can reach the panel without touching anything wet. For smoke or fire, get out and call 911. Most calls in Lincoln Heights are seen same day, weekends included.',
   commonIntro:
     'Most households in Lincoln Heights rent, so these situations come to us from owners, landlords and tenants alike.',
   localFaqs: [

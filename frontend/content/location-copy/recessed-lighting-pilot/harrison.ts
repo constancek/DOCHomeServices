@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Because Harrison is mostly newer construction, recessed lighting tends to go in more cleanly here than in older towns. Census figures place the median home at 1992, and a big slice of the housing has gone up since 2000. Such houses usually come with drywall ceilings, open kitchens and an attic above the top floor, which leaves two main questions, the insulation up there and spare capacity on the circuit. The handful of older houses play by different rules. Layout and flat price get settled before any cutting.',
-  emergencyParagraph:
-    'Water leaking from a can, a trim hot enough to sting or a breaker that refuses to hold once the downlights switch on means stop. Kill power to those lights at the breaker if the panel is dry and reachable. Smoke or fire calls for getting out and dialing 911. Most calls see us the same day, weekends included.',
   commonIntro:
     'In Harrison, most of our calls come from houses built within the last few decades. These upgrades get requested most.',
   localFaqs: [

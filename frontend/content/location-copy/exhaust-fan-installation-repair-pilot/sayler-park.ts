@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'By Census figures, about half the homes in Sayler Park date from 1939 or earlier, back when a bathroom window was the whole ventilation plan. Fans arrived later, if ever, and whoever put them in often ended the duct in the attic or a stud cavity because it was quickest. Two-family houses add a twist, with two bathrooms stacked under one roof and two sets of steam. Our electrician follows each duct to its end and prices the job before any plaster is cut.',
-  emergencyParagraph:
-    'A scorching smell, sparks, smoke or a breaker that refuses to stay on means the fan should be switched off at the wall or the panel, as long as nobody takes a risk. Water dribbling out of the grille is a same-day matter. If smoke or fire appears, leave and phone 911. We usually come that day, weekends included.',
   commonIntro:
     'Between the hillside streets and River Road, these are the four signs that most often bring us to houses in Sayler Park.',
   localFaqs: [

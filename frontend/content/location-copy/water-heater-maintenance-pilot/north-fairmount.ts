@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'North Fairmount is nearly all single-family houses. Census figures put 63.9% at 1939 or earlier, so on these hillside lots the tank usually sits in a basement with older venting, a gas line we’ll inspect and a drain valve that hasn’t budged in a while. Half the houses are rented, and owners of one or two houses book many of our visits. Rinse, anode and relief valve are the core of it. You’ll know the flat rate first, and if the tank isn’t worth it, we’ll tell you.',
-  emergencyParagraph:
-    'Some trouble skips maintenance entirely. Tank dripping: close the cold inlet handle above it, then cut gas or power. Any odor of gas: walk everyone out with switches and pilot left alone, and phone the gas company outside. Carbon monoxide alarm: same, out first. Repeated relief valve discharge or cold taps also count. Most we reach same day, weekends included.',
   commonIntro:
     'On these older hillside streets, a request for service usually starts with one of these:',
   localFaqs: [

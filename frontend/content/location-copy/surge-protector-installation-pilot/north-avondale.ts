@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'In North Avondale, close to two-thirds of homes date from 1939 or earlier by Census figures, and a big share are in apartment buildings. A large old house on Rose Hill or Clinton Springs Avenue often got its panel decades after it was built, and central air usually took whatever room was left. Apartment residents are mostly best served by plug-in strips, with the building owner deciding on panel work. Before anything is quoted, we open the panel, say so if strips will do, and settle a fixed price.',
-  emergencyParagraph:
-    'A panel that smells hot, a blackened outlet, an appliance that smoked as the power came back, or a breaker that trips again after a reset are usually same-day calls for us, weekends included. Lights across the house going bright then dim are Duke Energy Ohio’s to look at first. Smoke means getting out and calling 911.',
   commonIntro:
     'Big pre-war houses and apartment buildings give these signs most often in North Avondale.',
   localFaqs: [

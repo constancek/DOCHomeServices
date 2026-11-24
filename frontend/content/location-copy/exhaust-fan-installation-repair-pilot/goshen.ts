@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Goshen has two kinds of houses, and they fail in different ways. Census figures put the median house in the old village center at 1957, with a good share from before 1940, while the township around it has a median of 1983 and plenty built since 2000. The older places often got a fan years after the bathroom, sometimes ducted into the attic. The newer ones have fans, just small ones. We follow the air first and quote the repair before cutting drywall.',
-  emergencyParagraph:
-    'Urgent fan trouble means a scorched smell, warped plastic, sparks, a breaker snapping off as the fan starts, or drips from the housing. Turn it off at the wall or panel only if you can do it without risk. Smoke or flame is a 911 call, made from outside. Most get a same-day visit, weekends no exception.',
   commonIntro:
     'From the older houses near State Route 28 to the newer subdivisions across Goshen Township, these signs bring most of our calls.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Miamitown is mainly rentals. Census figures count 80.3% of homes as rented and 62.8% inside buildings of five or more apartments, so a ductless upgrade here is almost always a landlord’s project. The housing splits between riverside houses older than 1940, which never had ducts, and buildings from the 1970s through the 1990s with top floors that roast. A wall head can cool those units without cutting into ceilings. Owners sign a fixed price before work, and if something cheaper fixes the building, we say that first.',
-  emergencyParagraph:
-    'July averages an 86F high, per the National Weather Service, and a top-floor apartment sits above that. Many residents here are older and live alone, and heat is hardest on them, on babies and on the sick. We schedule ductless work fast; one zone usually finishes in a day. A dead mini-split needs Mini-Split Repair, usually same day, weekends too.',
   commonIntro:
     'Between the apartment blocks and the old houses near the Great Miami in Miamitown, owners usually call about one of these:',
   localFaqs: [

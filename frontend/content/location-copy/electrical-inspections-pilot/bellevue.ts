@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Bellevue usually means a house from before the Second World War. Census figures show 63.7% of homes were built in 1939 or earlier, and the median home dates to 1938. Many have been updated in pieces over the decades, so we often find new outlets on old wiring, ungrounded circuits and a breaker panel added beside a fuse box. We test the whole system, explain what matters and what doesn’t, and price any repair before you commit.',
-  emergencyParagraph:
-    'These shouldn’t wait for an inspection date: a cover plate gone warm or brown, a switch that hums, sparks, a burning smell, or lights that drop hard when something starts up. Turn that breaker off. Smoke or flames, get everyone out and dial 911. In Bellevue, calls like these usually see an electrician the same day, weekends included.',
   commonIntro:
     'Bellevue’s older houses and two-families tend to share the same findings:',
   localFaqs: [

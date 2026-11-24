@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Up the hill from Milford along State Route 131, Day Heights is all single detached houses by Census figures, with a median build year of 1969. For recessed lighting, that usually means a reachable attic over the top floor, so cable can come from above with less cutting below. Lots of basements here stayed bare for decades and are getting finished now, the ideal moment for cans. Before the saw comes out, each location is marked on the ceiling and you approve the price.',
-  emergencyParagraph:
-    'If a recessed light gives off a hot, burnt odor, the trim burns to the touch, or the fixture cycles off and on without anyone at the switch, switch off its breaker when you can safely reach the panel. Smoke or open flame means getting out and calling 911. On most calls we arrive same day, weekends included.',
   commonIntro:
     'In Miami Township houses from the 1960s and 1970s, these four keep coming up.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Housing in Dayton is old: Census figures date 47.5% of homes to 1939 or earlier, and 42.9% of households are renters. In a pre-war basement the heater is often wedged near the foundation wall, vented through an aged flue, with a drain spigot nobody has turned since it was put in. Across the apartment buildings it’s one closet tank per unit sitting in a pan, and the owner sets the schedule. We give you the figure before starting, and if a heater isn’t worth the visit, you’ll hear it.',
-  emergencyParagraph:
-    'Water around the base is a repair: turn off the cold-water valve on the tank’s top, then its gas or circuit. Rotten-egg odor: get out, keep away from switches and the pilot, reach the gas company from down the block. Carbon monoxide alarm: clear the building. Relief valve dumping again, or no hot water: usually same day, weekends included.',
   commonIntro:
     'Owners and landlords in Dayton generally call after noticing one of these:',
   localFaqs: [

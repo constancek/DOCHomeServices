@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'Old Cumminsville plaster decides most recessed lighting jobs in Northside, well before any can is chosen. Census figures date upward of half the homes here to 1939 or earlier, so rooms were framed around a single pull-chain or center globe, and second-floor ceilings leave scant headroom under the roof. Farther up Hamilton Avenue the houses run newer, often with a walkable attic overhead. Wherever you live, we chalk each can position onto the ceiling and lock the price in writing before drilling.',
-  emergencyParagraph:
-    'Ring us that day when a trim smells like hot plastic, paint browns in a circle around a can, or one keeps blinking off and back on. Heat is trapped up there. Kill power at its breaker when you can do so safely; if smoke shows, leave and dial 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Across Northside, from Spring Grove Avenue to the side streets off Hamilton, we light these four kinds of rooms most:',
   localFaqs: [

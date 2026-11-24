@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Withamsville has two building eras, by Census counts, with about three in ten homes from the 1940s and 1950s and about four in ten from the 1980s and 1990s. Just over half are rented. Post-war houses here often lack circuits and still have ungrounded two-prong outlets. In the apartment buildings, many on electric heat, the usual job is one circuit or one kitchen brought up to date. We test first, say if it’s sound, and put the scope and flat price in writing before a wall gets opened.',
-  emergencyParagraph:
-    'Call that day in Withamsville if a receptacle or switch smells of scorched plastic, a cover gets too warm to rest a finger on, something in the wall crackles, a breaker won’t stay set, or a switch shocks you. Touch the panel only when dry. For smoke or flames, leave and call 911. We work weekends too.',
   commonIntro:
     'Across the post-war houses and the apartment buildings in Withamsville, wiring that needs work tends to show it like this:',
   localFaqs: [

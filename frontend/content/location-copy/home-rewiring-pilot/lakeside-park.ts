@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Lakeside Park has houses from every decade, and the advice changes with each. Census figures show about one home in six built in 1939 or earlier, and a median year of 1964. Prewar houses may have cloth-covered wire with no ground. Postwar and 1960s ranches often run short of circuits for modern kitchens, and a few may have aluminum branch wiring. Newer ones usually need a single circuit. We test, say so if nothing’s wrong, and put a flat price and scope in writing before any work.',
-  emergencyParagraph:
-    'Call the same day about a burnt smell at an outlet, a faceplate that’s browned or warm, a shock, or a breaker that won’t latch. Switch that circuit off only if the floor and the panel are dry and nothing’s hot. For smoke or fire, leave and call 911. We see most calls the same day, weekends included.',
   commonIntro:
     'From the oldest houses along the Dixie Highway to the 1960s ranches on the side streets, wiring trouble in Lakeside Park tends to look like this.',
   localFaqs: [

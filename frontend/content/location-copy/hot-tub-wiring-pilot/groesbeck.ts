@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'In Groesbeck, wiring a tub means a 240-volt circuit dedicated to the spa, GFCI-protected, plus a shutoff you can see the tub from while standing clear of the water, bonding, and an inspection. Census figures date the median house here to 1970, and boxes installed around then often run close to their rating. Houses built since 2000 tend to have slack, and the route out to the tub matters more. We read your box against what the spa’s manual asks for, then quote, all before conduit goes in.',
-  emergencyParagraph:
-    'A spa in Groesbeck needs a same-day visit on most calls, weekends included, when its breaker won’t stay on, the disconnect smells burnt, the panel hums or someone feels a tingle. Everyone gets out and keeps clear of the water. Cut power at the breaker only if that’s safe, and if smoke appears, leave and call 911.',
   commonIntro:
     'Across Groesbeck, these four situations bring most of our hot tub wiring calls.',
   localFaqs: [

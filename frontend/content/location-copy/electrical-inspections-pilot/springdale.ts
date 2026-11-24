@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Springdale is split between 1960s and 1970s houses and large apartment complexes, with about four in ten households renting, Census figures show. Many of those units and houses rely on electric heat, so panels from that era are often near their limit. Owners book inspections before a sale or a heat pump; landlords book them between tenants or after a complaint. Our inspection ends in a written report with every repair priced before you decide.',
-  emergencyParagraph:
-    'Call right away for a burning odor, an outlet or switch that buzzes, feels hot or shows scorch marks, sparks, or a breaker that won’t stay reset. Turn that breaker off and keep it off. Smoke or fire means everyone out and a call to 911. We get to most Springdale calls the same day, Saturdays and Sundays as well.',
   commonIntro:
     'Springdale findings depend on whether we’re in a single house or an apartment unit, but the same few problems turn up in both:',
   localFaqs: [

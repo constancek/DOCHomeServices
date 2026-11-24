@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Maineville is young for this area. Census figures put the median house at 2004, and most of the rest went up in the 1980s and 1990s, so the breaker box usually has a free seat for a 240-volt GFCI spa breaker. That shifts the work outdoors, to where the tub lands and how long the trench runs. The catch is electric heat, which warms more than half the homes in the village and uses up reserve capacity. We read the spa’s install manual against your box and quote before digging.',
-  emergencyParagraph:
-    'If the spa’s ground-fault breaker pops right back off after a reset, or anyone in the water feels a tingle, everybody climbs out and leaves the controls alone. Use the disconnect only if it’s safe to reach, and dial 911 if you see smoke. Same-day visits cover most calls in Maineville, Saturdays and Sundays included.',
   commonIntro:
     'For houses in Maineville, spa calls mostly start with one of these four.',
   localFaqs: [

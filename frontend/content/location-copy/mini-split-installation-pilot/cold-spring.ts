@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Ductless work in Cold Spring is mostly about one room. Census figures put the median year built at 1999, with 47.5% of homes from 2000 or later, so the house usually has ducts already. The room that doesn’t keep up is usually a bonus room over the garage, a finished basement, a sunroom or an addition. Townhouse associations may decide where an outdoor unit can go. The price is fixed with you up front, and if fixing the ducts would solve it, we say that instead.',
-  emergencyParagraph:
-    'July is the worst stretch for an upstairs bonus room, with a typical high of 86F (National Weather Service). Infants, grandparents and anyone unwell belong on a cooler floor. Installs get scheduled quickly, and one head is usually in within a day. If a mini-split you own quits, Mini-Split Repair reaches most of those the same day, weekends too.',
   commonIntro:
     'In the subdivisions and townhouse communities along Alexandria Pike, these are the spots that usually lead to a ductless quote:',
   localFaqs: [
@@ -33,7 +31,7 @@ export const coldSpring: LocationServiceCopy = {
       },
       {
         title: 'Choosing the Right Mini-Split in Cold Spring',
-        body: 'A bonus room or sunroom is a single-zone job, a lone head matched to its own condenser outside. A full lower level might get multi-zone, with heads in two or three rooms tied to one condenser. Loads get calculated room by room for a Cincinnati summer, because an oversized head reaches the setpoint too quickly to wring out the moisture and the room ends up sticky. The head goes up near the ceiling where the TV and shelving won’t block it. Lines and the drain exit through a small hole under a cover. We pull the permit where one is needed and work to any association rules.',
+        body: 'In Cold Spring, a bonus room or sunroom takes a single-zone system, one indoor head paired with one condenser. A whole finished lower level may call for multi-zone, with two or three heads sharing a single outdoor unit. We size every room separately against Cincinnati summer heat, since a head that’s too big cools fast, shuts off before it has dried the air, and leaves the room clammy. Each head mounts high on a wall, clear of the TV and bookshelves. The line set and drain pass out through one small, capped opening in the wall. Any permit the job needs, we file, and we follow association rules.',
       },
       {
         title: 'Financing a Mini-Split in Cold Spring',
@@ -42,7 +40,7 @@ export const coldSpring: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners in Cold Spring Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We look at the ducts before we sell a head, and size each one for its room. Our technicians carry licenses and insurance and have passed background checks and drug tests, and one family has run the company since 1993.',
+      'Before we sell a head, we look over the ducts, and each head is sized to its own room. Every technician is licensed, insured, background-checked and drug-tested, and the same family has owned the business since 1993.',
     sharedFaqs: [
       {
         q: 'How much does a mini-split cost in Cold Spring?',

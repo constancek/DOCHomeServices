@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Thomas More University and the shops along Town Center Boulevard sit inside Crestview Hills, and around them most housing went up in the 1980s and 1990s, so recessed lighting here usually means cutting drywall rather than plaster. Census figures put the median build year at 1984. Roughly one home in four is an attached condo or townhouse, where a shared ceiling or an association signature can come first. Detached houses typically carry an insulated attic overhead. Each can gets marked and priced before we cut.',
-  emergencyParagraph:
-    'Shut off the breaker for those cans, provided you can reach the panel safely, if a trim scorches your fingertips, the drywall around a light has gone tan or brown, or a fixture keeps blinking out and recovering. Fire or smoke means leaving the unit and calling 911. Expect a same-day visit on most calls, weekends included.',
   commonIntro:
     'Condo boards, townhouse owners and families in detached houses near Thomas More Parkway bring us these four.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Downtown Cincinnati is mostly apartments and condos, with 71.6% of homes in buildings of 50 or more units and 87.3% rented, by Census figures. That puts a mini-split in the hands of the building owner, the landlord or the condo board. The older converted buildings, where 43.3% of units date from 1939 or earlier, often have no room for new ducts, and a wall-mounted head avoids them. We quote a flat price before any work, and we’ll tell you if a mini-split doesn’t suit the building.',
-  emergencyParagraph:
-    'A top-floor loft runs hot, and the National Weather Service counts about 21 days a year at 90F or higher. Older residents, babies and anyone with breathing trouble feel it most. Once the building approves, we schedule quickly, and one wall unit usually takes a day. A broken system needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the converted lofts, condos and apartment buildings of Downtown Cincinnati, these are what usually lead an owner to price ductless:',
   localFaqs: [

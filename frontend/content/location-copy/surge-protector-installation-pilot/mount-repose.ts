@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Out along State Route 28, the typical house in Mount Repose is from around 1978, going by the Census, and better than four in five are detached and owner-occupied. A panel from that decade may still have empty spaces, or years of upgrades like central air, a heat pump and a basement workshop may have used them up. Before recommending anything, we pull the cover and look. Sometimes a good outlet strip protects what you own, and we’ll say that. Otherwise you get one number, agreed before we begin.',
-  emergencyParagraph:
-    'Call us the same day for a smoking appliance or a burnt odor once power is restored; we manage that on most calls, weekends too. Lights that swell and fade across the house go to Duke Energy Ohio first. Only flip the affected breaker if the floor is dry. Should smoke or flames appear, walk out and ring 911.',
   commonIntro:
     'From Buckwheat Road to Wolfpen Pleasant Hill Road, these are the signs we usually see before a protector goes in at a house in Mount Repose.',
   localFaqs: [

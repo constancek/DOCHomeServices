@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Up on the hill in Turpin Hills, a typical service call means a 1970s house, an owner living there, and a heater in the basement or garage that still works. Census figures put the median house at 1977 and owner occupancy at 92.5%. That makes the work fairly direct: drain the sediment, pull the anode, trip the relief lever, and on gas units inspect flue and piping. A flat figure comes before we start, and if your tank isn’t worth the money, we’ll say it.',
-  emergencyParagraph:
-    'Certain signs call for repair, not maintenance. Wet floor from the tank: cold supply off at the top, then gas or breaker. Gas odor: get outdoors, touch no light switch or pilot, call the gas company once clear. Carbon monoxide alarm: all people out. Repeated relief valve blow-off, or hot water gone, also qualifies. Same-day on most calls, weekends included.',
   commonIntro:
     'Owners on these 1960s through 1990s streets usually call before anything fails, for reasons like these:',
   localFaqs: [

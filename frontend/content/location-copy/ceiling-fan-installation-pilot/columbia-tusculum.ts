@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'In Columbia-Tusculum, the front porch drives a lot of fan calls. Census figures show two homes in five were standing by 1940, and those tend to have shallow boxes set in plaster for a lamp rather than a fan. About one in five has gone up since 2000, with tall rooms needing a down rod. Porch fans need a weather rating. Before any quote we look in the box, tell you if rebalancing is the entire fix, and fix the price with the old fixture still up.',
-  emergencyParagraph:
-    'A fan swinging wildly, a box sagging from the plaster, smoke at the motor, or a breaker that pops as the blades start counts as a same-day call, weekends included. If you can reach the switch or panel safely, cut the power and keep out from under it. Any smoke or flame means leaving and calling 911.',
   commonIntro:
     'Old porches, plaster ceilings and a handful of new builds shape the fan calls we get from Columbia-Tusculum.',
   localFaqs: [

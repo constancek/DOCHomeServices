@@ -9,7 +9,6 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'furnace-maintenance',
   serviceName: 'Furnace Maintenance',
-  emergencyHeading: 'Furnace Problems That Can’t Wait in {neighborhood}',
   eyebrow: 'Heating',
   hubLabel: 'Furnace Maintenance',
   parentCrumb: { label: 'Heating', href: '/services/heating' },

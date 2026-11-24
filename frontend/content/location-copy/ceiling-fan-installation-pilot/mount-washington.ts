@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'By Census figures, only about one home in nine across Mount Washington was built before 1940, and most went up after the war. In those postwar houses each bedroom tends to have a single ceiling light on a box meant only for it, and many living rooms were built with no ceiling fixture. Roughly two in five homes are rented. We look at the box before anything else, admit it when snugging the old fan is enough, and set the price while the light still hangs.',
-  emergencyParagraph:
-    'A fan rattling its canopy, drooping, smoking, smelling burnt or sparking the wall switch should go off right now. Do that at the switch or the breaker if it’s safe, and nobody should stand under it. Fire means leaving first and calling 911 from outside. Most calls get a visit the same day, weekends too.',
   commonIntro:
     'Postwar houses, along with a fair number of apartments, bring in most of our fan work in Mount Washington.',
   localFaqs: [

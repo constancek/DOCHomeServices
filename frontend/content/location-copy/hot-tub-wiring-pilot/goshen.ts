@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Near the old center on State Route 28, Census figures give a 1957 median, and panels there are often too full for a spa breaker, so that comes first. Out in the township, half the houses date from 1983 or later, panels usually have room, and the tub’s distance and conduit route decide the job. Every spa still gets a dedicated 240-volt feed, GFCI protection, a shutoff and bonding. We read your panel against the maker’s sheet and quote before any trenching.',
-  emergencyParagraph:
-    'Anywhere in Goshen, a few spa faults earn a same-day visit on most calls, weekends included. Those are a GFCI that keeps kicking off, a blackened disconnect, and anyone feeling a buzz through the water. Get bathers out and keep your hands off. Throw the breaker only when safely reachable, and for smoke or flames, get clear and phone 911.',
   commonIntro:
     'From the old village center to the newer roads across the township, these are what bring people in Goshen to us.',
   localFaqs: [

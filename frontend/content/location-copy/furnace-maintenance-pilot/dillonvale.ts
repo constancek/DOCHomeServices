@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale was laid out as a 1940s subdivision next to Deer Park, and Census figures date 73.2% of its homes to 1940 through 1959. With 82.9% of homes on gas, the furnace we find is almost always a gas unit downstairs in a postwar house, sometimes the third one that house has had, still exhausting into a chimney built before it. Flue and heat exchanger therefore come first on our list. The flat price is yours before work begins, and a furnace needing nothing gets an honest all-clear.',
-  emergencyParagraph:
-    'A gas odor means out, light switches and pilot untouched, and a call to the gas company from outdoors. The carbon monoxide alarm means everybody out. Book repair for a furnace dead in a hard freeze, a burner that won’t stay lit, or a yellow, lazy flame; children, elders and the sick suffer first. Usually same day, weekends included.',
   commonIntro:
     'Nearly every furnace we tune up in Dillonvale is a gas unit in a postwar house. Owners book after noticing:',
   localFaqs: [

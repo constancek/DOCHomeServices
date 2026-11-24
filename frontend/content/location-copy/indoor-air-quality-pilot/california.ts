@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'In California, the air test usually leads to the basement. The neighborhood sits where the Little Miami joins the Ohio, and the National Weather Service lists basement flooding here at high river stages, so damp lower levels and the musty air they push upstairs come with the address. Census figures put the median home at 1968 and nearly nine in ten owner-occupied, so the homeowner usually decides. Readings come first, the price is quoted before any work, and if a new filter is enough, we tell you.',
-  emergencyParagraph:
-    'Treat a carbon monoxide alarm as an order to leave, then call 911 outside. If gas is what you smell, flip nothing on the way out and ring the gas company too. A scorched-smelling furnace or AC gets its thermostat turned off. Mold climbing a wet wall puts infants, elders and asthmatics at risk. Same-day help covers most, weekends too.',
   commonIntro:
     'Close to the river in California, air trouble usually looks like this:',
   localFaqs: [

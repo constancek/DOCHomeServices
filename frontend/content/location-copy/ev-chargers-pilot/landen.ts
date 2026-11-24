@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'Nearly every house in Landen was built between the 1960s and the 1990s, and Census figures put the median at 1985. The catch here is heat. Close to nine in ten homes heat with electricity, so winter heating already leans hard on the service, and a charger stacks on top of it. Load management often solves it. We look at the panel and run the load calculation first, say so if plain Level 1 charging fits your driving, and quote a fixed price before work starts.',
-  emergencyParagraph:
-    'If the charging cable is cracked or flattened, a plug has softened, or something smells like it’s burning, take the car off charge. Shut off that circuit if you can reach the panel dry and safely. Get out and dial 911 at the first hint of smoke or fire. In Landen, most calls are seen the same day, weekends included.',
   commonIntro:
     'Most houses in Landen heat with electricity, which shapes these four common reasons for a charger call.',
   localFaqs: [

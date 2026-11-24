@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Census figures place the typical home in Sharonville at 1974, with most built between the 1960s and the 1990s. Half the homes are detached houses and roughly three in ten are in apartment buildings with five or more units. A house from the 1980s or 1990s often has open slots or can get by with load management, while a 1960s panel may be packed. We inspect the panel and total the load first, tell you if the slow cord will do, and quote before any wire is run.',
-  emergencyParagraph:
-    'A plug or outlet that runs hot, a burning smell from the charger, or a nicked, flattened cable all mean the charging stops. Treat a breaker that trips with each session the same. Shut the circuit off only if you’re dry. With smoke or fire, leave the house and phone 911. Same-day service covers most calls, weekends included.',
   commonIntro:
     'From apartment buildings to detached houses, these four situations come up most in Sharonville.',
   localFaqs: [

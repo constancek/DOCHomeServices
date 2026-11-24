@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'For a spa in Glendale, the wiring is a 240-volt circuit of its own behind a GFCI, a disconnect mounted in view of the tub but out of arm’s reach from it, bonding that ties the metal around it together, and an inspection. Census figures show more than half the village was built by 1939, and a box in a house that old often has nothing left to give. So we open the box first, compare it with the spa maker’s instructions and price it all before conduit goes down.',
-  emergencyParagraph:
-    'A GFCI that drops the second it’s reset, a scorched smell or crackle at the disconnect, buzzing in the breaker box, or a tingle from the water is urgent in Glendale. Get people out and keep hands off the tub. Kill its breaker only if that’s safe, and call 911 for smoke. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Most spa calls start with one of these four in Glendale, where many houses have stood since before 1940.',
   localFaqs: [

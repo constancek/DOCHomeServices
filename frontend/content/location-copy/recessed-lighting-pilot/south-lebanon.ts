@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'In South Lebanon, most can-light jobs sit under a builder attic packed with blown insulation, so the housing listing comes before the layout. Census figures put the median home at 2007, about two in three built since 2000, and the drywall in those subdivisions cuts cleanly. The older blocks of what was once Deerfield, near the river, are another story, with houses from before 1960, shallower bays and fewer circuits. On either side of town, light positions and the flat price are settled before the first cut.',
-  emergencyParagraph:
-    'A downlight that cycles off and on on its own, a trim too hot to rest a palm on, or a smell of scorched insulation calls for a same-day visit. Kill that circuit at the panel when it’s safe to reach. With any smoke or flame, get the family outside and call 911. Most calls are same day, weekends too.',
   commonIntro:
     'Two very different housing stocks, newer subdivisions and the older blocks by the Little Miami, give us these jobs:',
   localFaqs: [

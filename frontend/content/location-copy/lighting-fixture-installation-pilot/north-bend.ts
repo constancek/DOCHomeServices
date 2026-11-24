@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'Two-story entries in the houses climbing the hills above the river are a frequent request in North Bend, where the builder’s small globe leaves the landing dark, and the work hinges on the box, the ground and how high we have to reach. The village median is 1991 by Census count, a third of houses date from 2000 on, and roughly one home in six is a condo or townhouse. Older places down by Harrison Avenue get a closer look. Pricing is settled before the globe comes down.',
-  emergencyParagraph:
-    'A foyer fixture swaying on its chain, a scorched switch plate, or flicker spreading through several rooms needs quick help. Flip the breaker off if the panel is safe to reach, and keep everyone off the stairs underneath. With smoke or flames, get everyone outside, then ring 911. We reach most callers that same day, weekends included.',
   commonIntro:
     'Hillside houses built since 1990, condos and townhouses, and a few pre-war homes near the river make up most fixture work in North Bend.',
   localFaqs: [

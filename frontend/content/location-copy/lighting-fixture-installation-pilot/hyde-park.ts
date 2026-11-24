@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'In Hyde Park, hanging a chandelier above a dining table starts in the ceiling, not at the store. Half the housing here predates 1940 by Census count, with medians from 1938 to 1948 depending on the street, so expect plaster, a pancake-thin metal box and two cloth-wrapped conductors with no bare ground. Around a third of addresses are flats in bigger buildings, where the landlord decides on any fixture. Our electrician opens that box, reads the wiring, and writes a fixed figure you sign off on beforehand.',
-  emergencyParagraph:
-    'Sparks at a socket, a canopy sagging off the plaster, a toggle too warm to touch, or a melted-plastic odor by a sconce are today problems. Kill that circuit when it’s safe to reach, and nobody stands beneath it. If there’s smoke or flame, leave, then dial 911. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Around Hyde Park Square and the blocks near the Observatory, these four requests come up again and again.',
   localFaqs: [

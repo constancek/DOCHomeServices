@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Rewiring in Indian Hill tends to follow a remodel. Almost every home here is a detached house, and Census figures put the median one in the mid-1970s, with roughly one in three dating from before 1960. Prewar houses may still have cloth-insulated wire and no ground. Many built from the 1950s into the 1970s lack circuits for a big kitchen or new heat pumps, and some may carry aluminum branch wiring. After testing, sound wiring gets a clean bill, and anything else gets a written scope and flat price.',
-  emergencyParagraph:
-    'Ring us if a wall or receptacle smells hot, a plate has browned, something arcs, a breaker refuses to hold after a reset, or someone gets a shock. Flip that breaker only if you can reach it without touching anything damp or hot. Smoke or fire means leaving the house and dialing 911. Same-day service covers most calls, weekends too.',
   commonIntro:
     'Big houses on large lots in Indian Hill, with long circuit runs and heavy loads, tend to show these signs.',
   localFaqs: [

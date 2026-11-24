@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Apartment complexes from the 1960s and 1970s supply most of our cooling work in Mount Airy. Census figures give a median build year of 1964, and close to four homes in ten are in buildings of five units or more, so a normal day is a hallway of closet air handlers plus a slab of condensers out back. Renters occupy most homes, so owners schedule. Houses near the forest get a shorter coil-and-drain check. Prices are agreed in advance, and equipment needing nothing gets left be.',
-  emergencyParagraph:
-    'Cooling that quits, a coil furred with frost, or water spreading from the closet unit means switch off and book a repair. Around 21 days a year climb to 90F or above, by National Weather Service counts, and older neighbors, infants and anyone with weak lungs feel it first. We’re out same day on most calls, weekends included.',
   commonIntro:
     'Across the apartment complexes and houses on this side of town, these are the signs that come up most:',
   localFaqs: [

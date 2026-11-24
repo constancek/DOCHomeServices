@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Amberley Village is almost all owner-occupied single homes, mostly from the 1950s and 1960s. The median Amberley house dates to 1959 by Census figures; 41.1% went up in the 1940s and 1950s and another 35.5% from 1960 to 1979. Panels of that era were planned before central air, finished basements and EV chargers. Many owners book an inspection before a remodel, an addition or a sale. We check everything, write it up and price any repair before we touch it.',
-  emergencyParagraph:
-    'Some things call for a technician today: an outlet that’s warm, a switch that buzzes or has browned, sparks, a hot-wire odor, or lights that sink every time a big appliance starts. Turn off the breaker involved. If smoke or flame appears, everyone leaves and dials 911. Most Amberley calls like this get same-day service, weekends too.',
   commonIntro:
     'Amberley homes are single houses from the postwar decades, and these findings come up most:',
   localFaqs: [

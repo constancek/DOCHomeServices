@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Lawrenceburg has more new construction than its riverfront downtown lets on. Half its housing went up after 1983, a third of it since 2000, and over a third of homes sit in apartment buildings, Census figures show. Those newer places usually run on electric heat, central air and appliances steered by circuit boards, the exact things a surge cooks. The older houses may have a tight panel. Either way, our electrician reads the panel first, says so when strips will do, and quotes before touching anything.',
-  emergencyParagraph:
-    'Sparks from an appliance as the power returned, a blackened receptacle after a storm, or a breaker that keeps dropping all justify a call to us. Lights brightening and fading through the house belong to Lawrenceburg Municipal Utilities first. Flames or smoke mean leaving the building and calling 911. Most calls see us the same day, weekends no exception.',
   commonIntro:
     'Owners and renters in Lawrenceburg tend to bring up one of these four.',
   localFaqs: [

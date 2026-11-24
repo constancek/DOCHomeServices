@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'White Oak has two kinds of tune-up. Most of its houses were built from the 1940s to the 1970s (median 1968, by Census figures), and the furnace downstairs is often number two or three for that address, still exhausting through an older flue. Then there are apartment buildings, holding 19.2% of units, with closet furnaces the landlord schedules. Gas is the fuel in 66.8% of homes. Our price is fixed up front, and if the furnace needs nothing, we won’t invent work.',
-  emergencyParagraph:
-    'Gas smell: leave without flipping lights or relighting a pilot, then call the gas company from the yard. Carbon monoxide alarm: get every person outside. No heat in hard cold, a furnace that won’t stay running or a lazy yellow flame needs repair. Infants, the elderly and the sick suffer most. Most get same-day visits, weekends too.',
   commonIntro:
     'Postwar houses and apartment blocks both put furnaces on our fall list in White Oak. What usually prompts the call:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Cleves is a village of detached houses, 85.3% of them by Census figures, so the tank we service usually stands in a basement or laundry room with space to kneel beside it. Houses older than 1940 make up 26.0%, and down in those cellars we expect a crusty drain cock, a tired flue connector and gas piping worth an extra minute. The post-1980 houses go quicker. Our quote comes before any wrench turns, and we’ll be straight with you if a tank is past servicing.',
-  emergencyParagraph:
-    'Leaks, gas and carbon monoxide jump the queue in Cleves. Tank leaking: close the cold line on top, then gas or breaker. Rotten-egg smell: walk out, flip no switches, relight nothing, phone the gas company from the street. Alarm: people out first. A relief valve that keeps spitting or a cold tap means repair, usually same day, weekends included.',
   commonIntro:
     'A working heater in Cleves usually earns a visit for one of these reasons:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Pleasant Run is a community of 1960s and 1970s houses, Census figures show, with nothing built before 1940. Builders then gave a kitchen very few circuits, so a microwave and dishwasher fighting over one breaker is common. A few houses from that period may also carry aluminum branch wire, which loosens at receptacles as it heats and cools. Newer places usually need one added circuit, not a rewire. Our first step is a test. Sound wiring gets called sound, and any work comes with a written scope and flat price.',
-  emergencyParagraph:
-    'A hot-plastic smell from a receptacle, a browned switch cover, crackling in a wall, a breaker that snaps off after a reset, or a tingle from the dryer can’t wait. Shut that circuit off only if you can do it safely and dry-handed. If you see smoke, get outside and dial 911. Most callers get same-day help, weekends included.',
   commonIntro:
     'Around Pleasant Run, a rewire usually starts with one of these complaints:',
   localFaqs: [

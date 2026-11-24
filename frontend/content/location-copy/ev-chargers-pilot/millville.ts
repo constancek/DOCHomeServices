@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Nearly nine in ten homes in Millville are detached houses, and more than half went up before 1960, Census figures show. Services that old can be small, with little slack for a 240-volt circuit, and half the village heats with electricity besides. A panel that sat in water when Indian Creek flooded basements in March 2026 gets inspected before anything new goes on it. We read the panel and work the load math, tell you if Level 1 will do, and quote before a wire goes in.',
-  emergencyParagraph:
-    'Brown marks around the outlet, a plug gone soft, a cable pinched under a tire or a breaker that gives out as the car connects all mean leave it unplugged. Shut off that breaker if you can stand on dry ground. Smoke or flame means everyone outdoors and a 911 call. We can usually be there that day, weekends too.',
   commonIntro:
     'Older detached houses fill the village, and charger calls from Millville tend to start with one of these four.',
   localFaqs: [

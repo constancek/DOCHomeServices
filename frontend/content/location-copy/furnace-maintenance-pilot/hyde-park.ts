@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Most of our fall tune-ups in Hyde Park are for owners of prewar houses. Census figures put 51.6% of homes at 1939 or earlier, most owner-occupied and heated by gas. By now such a house is on its second or third furnace, down in the basement and venting through the chimney the first one used, which moves the flue and heat exchanger near the top of our list. The price is fixed before we start, and a furnace needing nothing is told as much.',
-  emergencyParagraph:
-    'Book a repair instead. Gas in the air: out, no switches, no pilot relighting, then Duke Energy from the driveway. Carbon monoxide alarm: whole household outside. A furnace quitting during a hard frost, endless on-off cycling, or a flame gone yellow and floppy. A newborn or elderly parent at home makes it urgent. Same day for most, weekends as well.',
   commonIntro:
     'On the streets around Hyde Park Square and the Observatory, homeowners usually call once they notice:',
   localFaqs: [

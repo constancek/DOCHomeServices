@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Picture a 1960s house with the heater standing next to the furnace downstairs: that’s the usual job in Lakeside Park, where Census figures put the median home at 1964. Older stock is here too, with 17.5% of homes dating from 1939 or earlier, and those basements tend to hold a brass drain spigot, a patched flue and gas piping we inspect while the tank refills. Owners occupy most houses. Before a hose is attached you’ll know the fixed charge, and a tank past saving gets an honest no from us.',
-  emergencyParagraph:
-    'Hold off on a tune-up for these. Water pooling: close the top cold-water valve, then gas or breaker. Gas odor: walk out, hands nowhere near switches or pilot, ring the gas company from a neighbor’s porch. Carbon monoxide alarm: family out before anything. Repeat relief valve discharge or no hot water: usually a same-day repair, weekends included.',
   commonIntro:
     'Owners in Lakeside Park usually phone us about one of these:',
   localFaqs: [

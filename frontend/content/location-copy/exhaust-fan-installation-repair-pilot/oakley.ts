@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'In Oakley, the housing splits into two types, and each fails in its own way. Census figures put nearly half the homes at 1939 or earlier, and in those bungalows a bath fan usually arrived with a later remodel, often piped into the attic. The apartment buildings that went up after 2000 came with fans, but builder-grade models are often undersized for the bathroom. Just over half the households rent. You see our price before anyone opens a ceiling, and it’s based on where the air actually goes.',
-  emergencyParagraph:
-    'In Oakley, treat a fan as urgent when it smells of hot plastic, its housing darkens or sags, it throws sparks or smoke, it trips the breaker, or water drips from the grille. Cut it at the switch or panel if you safely can. Fire or smoke means leaving and calling 911. We’re usually there the same day, weekends too.',
   commonIntro:
     'From the bungalows near Oakley Square to the newer apartment blocks, these signs come up most:',
   localFaqs: [

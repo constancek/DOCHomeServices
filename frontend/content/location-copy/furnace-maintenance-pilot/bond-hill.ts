@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Most homes in Bond Hill heat with gas, 70.7% by Census figures, and close to three in four were built before 1960. A tune-up here is usually a basement furnace in a pre-war house or a postwar double, often venting into a chimney, so we take the most care with the flue and the heat exchanger. Two-family and three- or four-unit buildings are common, and their owners book every furnace together. You get the price before work starts, and if a furnace needs nothing, we tell you.',
-  emergencyParagraph:
-    'Gas in the air: get outdoors, hands off every switch, phone the gas company. A carbon monoxide detector going off: the household leaves first. No heat in a cold snap, a furnace that shuts down and restarts repeatedly, or a lazy, yellow flame needs repair. Infants, older relatives and the ill can’t wait. Same day on most calls, weekends included.',
   commonIntro:
     'These are the usual reasons owners in Bond Hill, from single houses to small rental buildings, book a fall visit:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Florence is part houses, part apartments and condos. Census figures put the median home at 1972, and 51.2% of homes are rented. In a house here, a tune-up mostly means the coil, the drain, the filter and the wiring, with the condenser on a pad out back. In an apartment or condo, the owner or the association arranges service, and we move from one utility closet to the next. A flat price comes first, and if a system is fine, we tell you that plainly.',
-  emergencyParagraph:
-    'Maintenance won’t rescue a condo or house gone warm during a heat wave, lines furred with ice, or water seeping through a ceiling. Flip the thermostat off. A scorched odor or a tripping breaker means it stays off. Grandparents, newborns and sick family members suffer soonest. Usually we can be there that same day, Saturdays and Sundays included.',
   commonIntro:
     'Around Florence, one of these usually comes before a tune-up booking.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'About four in five houses in Linwood were already standing in 1940, and two-families account for a big slice of the housing, Census figures show. Houses that old often have an undersized or full panel, and a two-family may carry a separate one for each side, so nobody can say where a protector belongs until an electrician looks. Gas furnaces and newer air conditioners still rely on circuit boards. We begin at the panel, say so when strips will do, and set the price before work.',
-  emergencyParagraph:
-    'Blackening on a switch, outlet or panel after a storm, or sparks from an appliance the moment power returned, calls for us. So does a breaker that refuses to reset. Should you see smoke or flames, get everybody outdoors and dial 911. An electrician reaches most calls the same day, Saturday and Sunday included.',
   commonIntro:
     'In Linwood, owners of prewar houses and two-families usually raise one of these first.',
   localFaqs: [

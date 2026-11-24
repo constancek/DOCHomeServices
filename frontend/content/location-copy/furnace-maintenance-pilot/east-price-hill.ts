@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'East Price Hill has two kinds of housing, and the tune-up differs between them. About 40% of homes, by Census figures, date from 1939 or earlier: basement furnaces venting into old chimneys, often on their second or third replacement, so venting and the heat exchanger come first. The other big group dates from the 1960s, along with plenty of apartment buildings where a landlord books every unit. Most homes heat with gas. You get a price before anything starts, and we’ll say if a furnace needs nothing.',
-  emergencyParagraph:
-    'In East Price Hill, a whiff of gas means everybody out, hands off the switches, no relighting, and a call to Duke Energy from the street. A carbon monoxide alarm: clear the house. A furnace that won’t stay running, or a flame gone yellow, is a repair. Little ones and grandparents can’t wait. Most get same-day service, weekends too.',
   commonIntro: 'Owners of old houses and apartment buildings in East Price Hill tend to call us about:',
   localFaqs: [
     {

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Before a chandelier or new ceiling light goes up in Fairfax, we take off the old canopy and look at what it hangs from. Housing in the village is old by local standards, with 1942 as the median year built in Census numbers, and close to nine in ten homes are single detached houses. Plaster overhead, a shallow pancake box and two wires with no ground are what we expect to find. Then you get a fixed quote, and nothing gets taken apart until you say yes.',
-  emergencyParagraph:
-    'A globe hanging by its wires, a hot plastic smell, a brown ring around the canopy or a light that trips its breaker shouldn’t sit overnight. Kill power at the panel if it’s easy to reach and keep people out from below. Smoke or flame means leaving and calling 911. Most get a visit that day, Saturdays and Sundays too.',
   commonIntro:
     'Four requests make up most of what we’re asked to hang in Fairfax.',
   localFaqs: [

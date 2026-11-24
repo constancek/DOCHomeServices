@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'The village mixes old houses with newer ones, and the air problems follow the age of each. More than a quarter of homes in Williamsburg, by Census figures, date from before 1940, and those tend to leak air through old windows while the basement stays damp and the ductwork, fitted long after construction, spreads dust. The newer houses seal tighter and trap stale air. More than a third of households rent. Testing comes first, the price is set before work, and if a fresh filter fixes it, we say so.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means emptying the house first and dialing 911 second. If gas is what you smell, go out without flicking a light and call the gas company. Switch off a furnace or AC giving off a burning smell. Young children, grandparents and people with asthma feel it worst. Expect same-day visits, weekends included.',
   commonIntro:
     'Across old village houses and newer ones in Williamsburg, these are the air problems that bring the calls:',
   localFaqs: [

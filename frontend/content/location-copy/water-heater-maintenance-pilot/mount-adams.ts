@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Mount Adams mixes older homes, two-family houses and little apartment buildings. Half the housing, 50.2% by Census figures, predates 1940, and 66.1% of homes are rented. In the older ones we usually find the heater at the bottom of a narrow stair, vented through an old flue, with a drain spigot that may fight back, plus a gas line. A double often has two heaters and one owner. Condos built later are quick work. You see the price first, and we’ll tell you if a heater is past saving.',
-  emergencyParagraph:
-    'Heater leaking: turn the cold supply valve above it, then cut gas or power. Gas in the air: walk out, leave every switch and the pilot alone, and phone the gas company from outdoors. Carbon monoxide alarm: people out first. A relief valve running nonstop, or nothing hot at the tap, needs repair. Same day on most, weekends too.',
   commonIntro:
     'Plenty of tanks around Mount Adams keep working long after anyone last looked at them. A few signs say it’s time:',
   localFaqs: [

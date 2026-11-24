@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Founded in 1870 as a railroad suburb, Bond Hill has 44.5% of homes dating from 1939 or earlier, by Census figures. Plenty are doubles or three- and four-unit buildings with plaster ceilings, where threading ducts upstairs means tearing into lived-in rooms. A ductless head avoids that, with its copper run going out through the wall. Tenants occupy 44.9% of homes, so owners often decide for a whole building at once. You see our fixed figure before any drilling, and if ductless isn’t the answer, we say it.',
-  emergencyParagraph:
-    'July in Cincinnati has a normal high of 86F (National Weather Service), and an old double’s top floor holds that heat past midnight. Grandparents, babies and anyone short of breath suffer most. Installs book quickly, one head per day. A ductless unit that quit needs Mini-Split Repair, that day on most calls, weekends included.',
   commonIntro:
     'In the doubles, Tudor-style houses and small apartment buildings of Bond Hill, these are the jobs most likely to end in a ductless system:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Plan on two kinds of job in Sharonville. Census figures show 42.9% of households renting and 30.7% of units in buildings of five or more, where each apartment tends to have its own closet heater on a drain pan and the landlord books the visit. The detached houses, about half the stock, mostly date from the 1960s to the 1990s, and their tanks get a plain flush, anode check and valve test. We price it first, and we’ll tell you when a tank isn’t worth it.',
-  emergencyParagraph:
-    'Tank dripping or spraying: turn off the inlet valve on the cold side, then the gas or breaker. Gas odor in the building: leave, hands off switches and pilot, ring the gas company out front. A carbon monoxide alarm clears the unit first. Relief valve that won’t stop, or no hot water: repair. Most calls same day, weekends included.',
   commonIntro:
     'Tanks in houses and in apartment closets in Sharonville give the same few warnings:',
   localFaqs: [

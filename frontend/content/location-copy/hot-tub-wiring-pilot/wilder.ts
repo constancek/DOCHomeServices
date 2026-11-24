@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'In Wilder, a spa job starts differently in a house than in a condo. Census numbers give the median year as 1992, so the detached houses usually have panels young enough to take a 240-volt GFCI breaker, and the work hinges on the tub’s spot and the conduit’s path. More than half of homes sit in buildings of five units or more, where the association signs off first. In both cases we hold the panel up to the spa’s spec sheet and price it before starting.',
-  emergencyParagraph:
-    'A spa GFCI that trips again each time it’s reset, or a panel that hums as the heater runs, needs us today. Nobody should stay in the water. Reach for the breaker only if doing so is safe, and if anything smokes, get outside and call 911. Most calls in Wilder get a same-day visit, weekends too.',
   commonIntro:
     'These four spa problems come up most for owners of houses and condos in Wilder.',
   localFaqs: [

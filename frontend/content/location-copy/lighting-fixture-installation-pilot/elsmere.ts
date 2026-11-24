@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'In Elsmere, a lot of lighting calls start in a long hallway with one frosted dome at the far end. Three questions settle the job, namely what the box can hold, whether a ground reaches it and whether the new light needs wire run to it. The town began in 1885 as South Erlanger, and the Census puts the median home at 1970, though houses here run from pre-war cottages with ungrounded boxes to post-2000 builds. Before anything is unscrewed, we look inside the box and agree a written figure.',
-  emergencyParagraph:
-    'A fixture that’s pulling down, a scorched-looking socket, or a breaker that trips whenever one light goes on deserves a quick call. If the panel is easy to reach, shut that breaker, and keep the kids out from under it. Smoke or flames mean everyone leaves and someone phones 911. Most callers see us that same day, weekends included.',
   commonIntro:
     'Between Dixie Highway and the Independence line, our lighting work mostly falls into four kinds.',
   localFaqs: [

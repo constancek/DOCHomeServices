@@ -3,14 +3,12 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'In Over-the-Rhine, most AC tune-ups happen inside nineteenth-century brick buildings split into apartments. Census figures date 70.1% of the housing to 1939 or earlier, and seven in ten households rent, so the person booking is usually an owner or manager working through a building. Air handlers hide in closets and stairwell nooks, and outdoor units sit wherever the lot allowed. The newer condos are a simpler coil and drain check. Each system is priced before we begin, and one that needs nothing is left as it is.',
-  emergencyParagraph:
-    'Call for a repair when an apartment loses cooling in a heat wave or ice forms on the coil; turn it off to thaw. Water coming through the ceiling below, a burning smell, or a breaker that trips right back also count. Older neighbors and babies are most at risk. Most calls are seen the same day, weekends included.',
   commonIntro:
     'In converted brick buildings and newer condos alike, these are the usual clues that service is overdue:',
   localFaqs: [
     {
       q: 'I rent in Over-the-Rhine and my unit drips water. Can I book you?',
-      a: 'Not for equipment your landlord supplies. Report the drip to the landlord or manager in writing, today if it’s reaching a ceiling below. ORC 5321.04 (A)(4) holds Ohio landlords responsible for keeping supplied air conditioning in good and safe working order. We service air conditioners, not leases.',
+      a: 'Not when the landlord supplied the equipment. Tell the landlord or manager about the drip in writing, and do it today if water is reaching the ceiling below. Ohio’s ORC 5321.04 (A)(4) makes the landlord answerable for keeping supplied air conditioning in good and safe working order. Our work is the equipment; the lease stays between you and the owner.',
     },
     {
       q: 'Do historic district rules affect AC maintenance in Over-the-Rhine?',
@@ -33,16 +31,16 @@ export const overTheRhine: LocationServiceCopy = {
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'The visits that pay back are buildings with no record of any service, a condo or rowhouse just bought, a drain that has already overflowed once, or a unit that began rattling this season. Owners with several apartments get the most from booking them all in one spring trip. Don’t book it for a system we looked at within the past year that still cools well. A unit already blowing warm or icing up belongs on an AC Repair call. A system we’ve flagged for replacing is better served by AC Installation & Replacement. Window units are outside what we service. Clean filters and clear vents help between visits.',
+        body: 'In Over-the-Rhine, a tune-up repays itself on a brick walk-up with no service paperwork, a condo or rowhouse you just bought, a stacked drain that has already spilled onto a neighbor’s ceiling, or a unit that started rattling this season. An owner with a building of apartments should have them all done on one spring trip. Leave a system alone if we were in it within the year and it still cools well. Warm air or frost on the piping is an AC Repair call, and a unit we’ve flagged for replacing is better handled through AC Installation & Replacement. We don’t service window units.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Over-the-Rhine',
-        body: 'Electricity heats 47.5% of homes here, close to gas, so heat pumps are likelier here than in mostly gas-heated parts of town. A heat pump runs in both seasons and gets two visits, spring for cooling and fall for heating, with its reversing valve and defrost board tested. A plain central air conditioner on a gas furnace runs only in summer and gets the spring visit alone. Mini-splits get their indoor heads and filters cleaned.',
+        body: 'Electricity heats 47.5% of homes in Over-the-Rhine, nearly as many as gas, so a heat pump turns up here more often than in the gas-heavy neighborhoods. Because a heat pump handles winter heat as well as summer cooling, it gets a spring visit for cooling and a fall visit for heating, when the reversing valve and defrost board are tested. A central air conditioner paired with a gas furnace only works summers and only needs the spring stop.',
       },
     ],
     whyTitle: 'Why Building Owners and Residents in Over-the-Rhine Book AC Maintenance With Us',
     whyParagraph:
-      'Walk-ups, closet air handlers and stacked drain lines are ordinary work for us here. Every technician is licensed and insured, every employee is background-checked and drug-tested, and we’ve been family owned since 1993.',
+      'Third-floor walk-ups, closet air handlers and drain lines stacked floor over floor are a normal week for us in Over-the-Rhine. Technicians are licensed and insured, all staff pass background checks and drug tests, and we’ve been family owned since 1993.',
     sharedFaqs: [
       {
         q: 'How much does AC maintenance in an apartment building cost?',

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Finneytown is mostly 1950s houses, with a median year built of 1959 in Census figures and nearly nine in ten homes standing on their own lots. Wiring from that era was laid out for a toaster and a radio, so the kitchen, bath and laundry often share too few circuits, and the outlets may be two-prong with no ground. We start by testing each circuit. If the wiring holds up, you’ll hear that from us, and the scope and flat price go on paper before we open a wall.',
-  emergencyParagraph:
-    'A scorched outlet, a humming switch, melting-plastic smells, a tingle off a lamp, or a breaker snapping off after a reset means phoning us today. Only shut that breaker if the panel is dry. If smoke shows, leave first and ring 911. We get to most calls the same day, weekends included.',
   commonIntro:
     'In the 1950s houses that make up most of Finneytown, wiring that’s past due usually shows up in one of these ways:',
   localFaqs: [

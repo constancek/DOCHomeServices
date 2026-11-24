@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Most houses around Newtonsville, in Wayne Township, are detached houses from the 1960s through the 1980s, with Census figures putting the median build year between 1973 and 1981. Nearly all of them have a bathroom fan by now. The trouble is that the original one was often small, and a lot of them were run into the attic with a loose flex duct that sagged or slipped off. We climb up, see where the air is landing and price the fix before anyone saws into drywall.',
-  emergencyParagraph:
-    'Power a fan down if it smells scorched, its plastic has puddled, it throws sparks or smoke, it kills the breaker on startup, or water runs from the grille. Use the wall switch or panel if you can get to it safely. If flames appear, leave and dial 911. Most calls out here get a same-day visit, weekends too.',
   commonIntro:
     'Along Main Street, Pin Oak Street and the country roads around Newtonsville, these four complaints come up most:',
   localFaqs: [

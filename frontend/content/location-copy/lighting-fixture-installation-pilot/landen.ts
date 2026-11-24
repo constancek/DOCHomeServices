@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'Around Landen Lake, most light fixture calls are about retiring polished-brass builder lights and getting a brighter, LED-ready kitchen. Census tallies put the median house at 1985, and the bulk of homes went up during the 1980s and 1990s, so boxes tend to be reachable and cable runs straightforward. Townhouses and condos form a solid part of the subdivisions here, and nearly nine in ten households own. We size up each box and its wiring, then hand you a fixed price before the first brass fixture comes down.',
-  emergencyParagraph:
-    'Don’t put off a fixture dangling by its wires, a hot-plastic smell near a switch, or a cover plate that buzzes and feels warm. If the breaker is safe to reach, shut that circuit and keep people clear. Smoke or flame means leaving first and calling 911 from outside. We’re out the same day on most calls, weekends too.',
   commonIntro:
     'Light fixture work around Landen usually means one of these.',
   localFaqs: [

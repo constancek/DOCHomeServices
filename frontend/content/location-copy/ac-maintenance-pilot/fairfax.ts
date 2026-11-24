@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'In Fairfax, most houses were standing before anyone thought about central air. Census figures show a median of 1942, and 46.5% predate 1940, so cooling was retrofitted, with ducts threaded through closet corners and a coil perched on the basement furnace or a blower tucked under the roof. Lots are small, and the condenser often shares a skinny strip of side yard with a neighbor’s fence. You get a set price up front, and a straight answer if your system needs no work.',
-  emergencyParagraph:
-    'A house that won’t cool during a heat wave, or frost on the lines, needs a repair; shut it off at the thermostat until the ice melts. Leave it off if water drips from a ceiling or you smell burning. Babies and older relatives struggle first. We usually arrive the same day, weekends too.',
   commonIntro:
     'Here is what tends to send owners of older houses in Fairfax to the phone.',
   localFaqs: [

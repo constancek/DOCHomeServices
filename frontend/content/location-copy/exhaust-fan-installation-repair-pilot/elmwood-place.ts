@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'Elmwood Place was laid out in 1875, and Census figures show about three in five of its homes date from 1939 or earlier. Many of those tight-lot houses got an indoor bathroom long after they were built, wedged into a back room or under a roofline, and the fan, where one exists, was added later still and pointed into the attic. Most households rent, so it’s usually a landlord on the phone. We find out where the air truly goes and quote the repair before opening a ceiling.',
-  emergencyParagraph:
-    'Scorched smells, a melted housing, sparks, smoke, water dripping through the grille or a breaker that falls every time the fan starts are same-day problems. Throw that breaker only if the panel is safe to reach. When there’s smoke or flame, get everybody outside and let 911 take it from there. Most calls are same day, weekends too.',
   commonIntro:
     'In the close-set older houses and two-families along streets like Maple and Township in Elmwood Place, these signs come up most.',
   localFaqs: [

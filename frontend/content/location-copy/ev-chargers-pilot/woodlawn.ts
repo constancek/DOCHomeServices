@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Two out of three households in Woodlawn rent, Census figures show, and half the units sit in buildings of five or more, so many charger requests begin with a landlord. The village’s housing is young, its median home built in 1987, and panels that recent usually have space for a 240-volt line or can lean on load management. Electricity heats most homes, and we count that load. The panel and the load math come first, then a straight answer on Level 1, then a fixed price.',
-  emergencyParagraph:
-    'If a charger or outlet is too hot to touch, a plug looks melted or blackened, the cable is damaged, there’s a burning smell, or the breaker trips once charging starts, stop. Turn that circuit off if you can avoid anything wet. Smoke or flames mean leave and dial 911. Same-day visits are usual, Saturdays and Sundays too.',
   commonIntro:
     'In the village of Woodlawn, these are the reasons owners, landlords and tenants call about charging.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'Houses in New Richmond run younger than the riverfront suggests, with a 1986 median in Census figures and seven in ten standing on their own lots. That’s friendly ground for a Level 2 charger. Over half the households heat with electricity, though, so a charger would share the service with a heat pump or electric furnace. We open the panel and add up the load, we’ll admit it if the cord from the dealer is enough, and you approve a set price before we run any wire.',
-  emergencyParagraph:
-    'Stop the session if the wall unit or its handle turns hot, if the plastic shows scorching, or if a smell like burnt wiring shows up mid-charge. Cut that breaker, provided your hands and the floor are dry. If you see flames or smoke, leave the house and phone 911. We usually get there that day, weekends included.',
   commonIntro:
     'Newer houses, plenty of electric heat and a few older blocks near the water shape the charger requests we take in New Richmond.',
   localFaqs: [

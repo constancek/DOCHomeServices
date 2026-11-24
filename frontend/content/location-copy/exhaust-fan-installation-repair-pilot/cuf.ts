@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'Renters fill more than four in five homes in CUF. Census figures count 3,058 units from 1939 or earlier, many of them old houses and two-families in Fairview and Clifton Heights, where a bathroom fan arrived decades after the plaster and its duct sometimes dead-ends above the ceiling or inside a wall bay. The 1970s blocks near campus do have fans, generally undersized. Landlords get a written number from us, after we chase the duct to its end and before anybody opens a ceiling.',
-  emergencyParagraph:
-    'A bathroom fan that has scorched its housing, smells like burning dust, sparks or smokes needs its power cut, at the switch or the breaker, if you can get there safely. If there’s fire or thick smoke, leave and dial 911. Water leaking through the fan from the apartment upstairs is urgent. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Landlords with houses off Ravine Street and owners in the bigger buildings near campus in CUF tend to describe the same handful of fan problems.',
   localFaqs: [

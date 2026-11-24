@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'In Sharonville, the bulk of housing dates from the 1960s through the 1990s by Census count, and roughly three homes in ten are apartments in buildings off Reading and Chester Roads. Later houses tend to have a great room open to the upstairs, plus a deck or patio roof where only a damp-rated fan belongs. Ranches and apartment units mostly have a shallow ceiling box meant for a lamp. We open that box before quoting, tell you if blade weights would do it, and you approve the figure first.',
-  emergencyParagraph:
-    'A fan sagging off its box, a smoking or scorched-smelling motor, sparks behind the switch plate, or a breaker that pops when the blades turn gets a same-day visit on most calls, weekends included. Flip the toggle or breaker if it’s safe, and clear the floor beneath. Anything burning means everybody out and a 911 call.',
   commonIntro:
     'Between the apartment complexes and the newer subdivisions of Sharonville, these four turn up most.',
   localFaqs: [

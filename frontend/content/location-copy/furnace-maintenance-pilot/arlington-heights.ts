@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights is mostly old houses: 64.7% predate 1940 by Census figures, and just over half are rented. The furnace usually sits in the basement, probably not the first thing to heat the house, vented up a chimney that predates it, and the landlord is often the one booking. Gas heats most homes; about a third use electricity, which may be a heat pump or baseboard. Venting and the heat exchanger get our closest look. You hear the price first, and we’ll say if nothing’s needed.',
-  emergencyParagraph:
-    'A gas smell is a repair call in Arlington Heights, not a tune-up: get outside, touch no switches, phone the gas company. A carbon monoxide alarm empties the house first. Also urgent: no heat in a freeze, a weak yellow flame, nonstop restarts. Babies and older people feel it first. Most get same-day help, weekends included.',
   commonIntro:
     'Pre-war houses and small rentals make up most of our furnace visits in Arlington Heights. These usually lead to a booking:',
   localFaqs: [

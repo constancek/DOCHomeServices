@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Harrison Avenue runs through a newer part of Green Township. Census figures put the median home in Dent at 1995, and roughly a quarter of units are in condo or apartment buildings. A builder in those years often left a plain light box over a bedroom where a buyer later wanted a fan, and some foyers rise two floors and need a long rod. We open that box first, own up when a screwdriver will do, and agree a figure before anything comes down.',
-  emergencyParagraph:
-    'Leave a fan off if it swings wide on a tall rod, if its box is sagging out of the drywall, or if sparks show at the switch. Kill it at the panel when you can do that safely, and keep kids and pets elsewhere. Smoke means getting out and dialing 911. Most get a same-day visit, weekends too.',
   commonIntro:
     'Great rooms with tall ceilings and condo bedrooms with builder fixtures shape most of the fan work we handle in Dent.',
   localFaqs: [

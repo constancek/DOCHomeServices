@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Rewiring in Millvale is mostly arranged by property owners and managers. Census figures show about nine in ten homes are rented, and around a third of residents live in public housing, much of it CMHA townhomes from the 1950s that were recently renovated. Units from the 1950s through the 1970s often lack circuits for current appliances, and some may hold aluminum branch wire. Testing happens first, owners hear when the wiring checks out, and the flat price and scope are fixed on paper before any wall opens.',
-  emergencyParagraph:
-    'Residents should alert management now to any outlet or wall with a burning smell, a switch cover hot or charred, sparking, a jolt off an appliance, or a breaker that refuses to stay on. Most owner calls get us out that day, weekends too. Touch the panel only if you’re dry. Smoke or flames mean leaving and calling 911.',
   commonIntro:
     'From the CMHA townhomes to the small apartment buildings off Beekman Street, these are the signs owners and residents bring to us in Millvale:',
   localFaqs: [

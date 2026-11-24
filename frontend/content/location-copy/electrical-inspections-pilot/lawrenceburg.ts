@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Lawrenceburg is more mixed than its old downtown suggests. Census figures put the median year built at 1983, and over a third of homes are in buildings of five or more units. So an inspection here might be a pre-1940 house with ungrounded outlets and an undersized panel, or a townhome where electric heat already fills much of the panel. Lawrenceburg Municipal Utilities owns the meter and service line; we work from the meter base in, test every circuit, and price fixes first.',
-  emergencyParagraph:
-    'Lawrenceburg tenants and owners should phone us about a scorched-smelling room, a faceplate warm to the touch, an outlet that crackles or hums, any spark, or a breaker that refuses to stay on. Flip it off and leave it off. With smoke or flames, everyone goes outside and someone dials 911. Same-day help covers most calls, Saturday and Sunday.',
   commonIntro:
     'Lawrenceburg calls come from older houses, townhomes and apartment buildings, and each has its own pattern. What we find most:',
   localFaqs: [

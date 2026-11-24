@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'Census figures date 1,519 of the 2,344 homes in North Avondale to 1939 or earlier, and the big houses along Rose Hill Avenue went up with a tall bathroom window as their only ventilation. Fans arrived later, one remodel at a time, and plenty of those installers pushed the duct a short way above the plaster and quit. Our electrician follows that duct to wherever it really stops, then writes down what the repair costs before a single lath strip is disturbed.',
-  emergencyParagraph:
-    'A smell like singed hair, a housing gone brown or saggy, sparking, smoke, a breaker that drops the moment the fan spins up, or water seeping through the grille can’t wait. Cut power at the wall or panel if that’s safe. Flames mean everyone outside and a 911 call. We get there that day on most calls, weekends too.',
   commonIntro:
     'Across the large single houses, two-families and apartment blocks between Reading Road and Victory Parkway in North Avondale, we keep finding these four:',
   localFaqs: [

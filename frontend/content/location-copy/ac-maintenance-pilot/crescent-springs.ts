@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'In Crescent Springs, central air arrived with most homes, because the median one dates to 1993 by Census figures, and that keeps the tune-up to coils, drain, filter and wiring. What changes is who calls. Condos and apartments in buildings of five or more units make up 49.8% of homes, and 42.0% of homes are rented, so property managers phone us about a whole stairwell at once. The number is settled at the door, and when a system is clean and sound, we pack up and say exactly that.',
-  emergencyParagraph:
-    'Forget the spring slot if the condo is getting hotter through a July scorcher, the pad unit drones while its blade stays still, or a scorched odor comes from the closet. Switch the thermostat off and leave it. Heat lands hardest on grandparents, babies and anyone wheezing. A technician reaches most calls that same day, Saturday and Sunday included.',
   commonIntro:
     'In Crescent Springs, owners and managers usually book a spring visit after one of these.',
   localFaqs: [

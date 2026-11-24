@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'In New Richmond, most spring tune-ups land on houses young enough to have been built with central air in place. Census figures date the median home to 1986, and 33.2% are from 2000 on, so the job is usually a clean coil, a clear drain, sound wiring and a proper cooling run. Older houses had cooling added later, so there we trace the duct path back to the air handler too. We name the flat price first, and say so plainly if the system wants nothing.',
-  emergencyParagraph:
-    'A dead AC in a heat wave, or ice forming along its lines, calls for a repair visit; switch it off at the thermostat while the ice melts. When the river has been over the condenser, its breaker stays off until we’ve seen it. Elderly parents, infants and anyone sick suffer first. Most calls get same-day help, weekends too.',
   commonIntro:
     'Owners near the river and on the newer streets tend to call about one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'The box above the old light decides most fan jobs in Fairfield. Houses in the city mostly date from the 1960s through the 1990s, with a median of 1978 on Census figures, and builders then set shallow pancake boxes rated for a dome light. Subdivisions from the 1980s on added great rooms tall enough to need a down rod. Over a third of households rent. We check that box, admit it when a loose screw is the whole story, and price the job before the dome comes down.',
-  emergencyParagraph:
-    'In Fairfield, some calls jump the line, like a fan rocking loose from its bracket, a motor that smokes or smells burnt, a sparking wall control, or a breaker tripping as the blades turn. Cut power there or at the panel if you can, and keep people clear. Fire means leaving and calling 911. Same-day help is normal, weekends too.',
   commonIntro:
     'Across the city’s 1960s and 70s streets and its newer subdivisions, these four fan problems bring in most of the calls we get from Fairfield.',
   localFaqs: [

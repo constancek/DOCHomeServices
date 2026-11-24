@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Close to half of Cheviot’s housing went up in 1939 or earlier, Census figures show, and three in five homes are single detached houses. That mix decides most charger jobs here. A prewar house still on its first small service may have almost nothing spare for a 240-volt line, while one rewired after the war often has a box crammed with breakers. Panel check and load math come first, a Level 1 cord gets our blessing when it’s enough, and the price is fixed before a wire moves.',
-  emergencyParagraph:
-    'If the plug is too hot to hold, or the breaker clicks off each time the car begins drawing power, charging is over for tonight. Flip that circuit off at the panel when it’s safe to reach. Any smoke or flame means everybody goes outside and somebody calls 911. Most addresses in Cheviot get a same-day visit, weekends included.',
   commonIntro:
     'Around Cheviot, from the two-families to the single houses off Harrison Avenue, charger calls tend to start one of these four ways.',
   localFaqs: [

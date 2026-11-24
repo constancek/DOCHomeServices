@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Owners and renters in Florence are close to an even split, Census figures show, and about two in five homes sit in apartment or condo buildings. For renters and condo owners, the charger conversation begins with the landlord or association. Detached houses lean toward the 1950s through the 1970s, with crammed panels, while newer ones usually have space or can use load management. We open the panel and add up the load first, say so if Level 1 covers you, and price everything up front.',
-  emergencyParagraph:
-    'Heat, scorching or melting at the charger or receptacle, a crushed cable, or a cord hanging off an extension cord all call for action now. End the charge, and flip that breaker only if the panel is dry and safe to reach. With smoke or fire, leave the building and phone 911. Same-day visits are usual, weekends included.',
   commonIntro:
     'From rental houses to condos, these are the situations that bring charger calls in Florence.',
   localFaqs: [

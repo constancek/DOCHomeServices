@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Close to half the housing in Dayton, Census figures show, dates to 1939 or earlier. Inside the walls of those older houses there may be knob-and-tube, or cloth-wrapped wire that never had a ground, feeding two-prong outlets. That’s where pricing a rewire most often pays off. Apartments and houses built since 2000 seldom need one; owners there call about an addition or one misbehaving circuit. We test before naming any number, say so if the wiring is healthy, and get the scope and flat price signed before a wall opens.',
-  emergencyParagraph:
-    'In Dayton, phone us about a scorched outlet, a burning odor from a wall, sparks, a jolt from a fixture or a breaker that flips off the instant it’s reset. If the panel is dry and safe, shut that circuit down. Smoke or fire means leave and dial 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'In the pre-1940 houses near Sixth Avenue and in rentals across Dayton, these warnings tend to show up first:',
   localFaqs: [

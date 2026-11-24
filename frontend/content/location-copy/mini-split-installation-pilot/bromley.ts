@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Most of Bromley is old single houses on low river ground. The median year built is 1938 by Census figures, and 51.7% of homes date from 1939 or earlier, decades before anyone ducted houses. Pushing ducts up through plaster is messy; a ductless head hangs on the wall and links to its condenser through one small opening. The river matters, because high water decides how high the condenser should sit. The fixed figure comes first, and so does a straight answer if ductless won’t help.',
-  emergencyParagraph:
-    'The Weather Service’s July normal high is 86F, yet an old upstairs bedroom in Bromley can feel hotter by evening. Grandparents, toddlers and people with asthma or a weak heart feel it worst. We schedule installs fast, and a single head is a day. A dead ductless unit is a Mini-Split Repair call, usually answered that day, weekends too.',
   commonIntro:
     'In the older houses close to the river in Bromley, these are the situations that most often lead to a ductless system:',
   localFaqs: [

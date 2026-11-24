@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'People expect old houses in Woodlawn, but Census figures put the median build date at 1987, with about three units in five built since 1980. Roughly half are in larger apartment buildings and two households in three rent. Newer construction tends to carry plenty of what spikes damage, from electric heat and central air to appliances with electronic controls, and the call on panel work usually rests with an owner or manager. We check the service panel first, say so if outlet strips will cover it, and quote before work.',
-  emergencyParagraph:
-    'Ring us that day about a scorched-smelling switch or receptacle after a storm. When lights across a building pulse up and down, Duke Energy Ohio gets the first call. Only shut the circuit off if you’re dry and nothing near is hot. Smoke or flames mean getting out, then calling 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Across the apartment buildings and newer houses of Woodlawn, these are the signs that prompt questions about a protector.',
   localFaqs: [

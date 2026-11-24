@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Renters hold just over half the households in Withamsville, by Census figures, and roughly four in ten homes sit in buildings of five units or more, so a landlord often decides. Houses come from two waves, 1940 to 1959 and 1980 to 1999. Panels from the first wave are often packed, and the later ones usually have room or can work with load management. Electric heat is the most common kind. Every job starts with the panel, an honest word when Level 1 will do, and a quote before work.',
-  emergencyParagraph:
-    'Charging has to stop at any sign of heat, scorch marks or melting at the outlet or charger, or a burning smell. A crushed cable, a breaker tripping on each charge, or a cord on an extension cord counts too. If it’s safe, shut that breaker. With smoke or flames, leave and dial 911. Same-day visits are usual, weekends too.',
   commonIntro:
     'Along the Ohio Pike side of Union Township, these are the charger requests that reach us from Withamsville.',
   localFaqs: [

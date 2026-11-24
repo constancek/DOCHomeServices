@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Golf Manor is barely more than half a square mile, wedged between Pleasant Ridge and Roselawn, and most of it went up in one burst after the war. By Census count the median building dates to 1954, and nearly half the units share a roof in doubles or four-family buildings along streets like Losantiville. Rooms from that era usually got one center light and a dim hall. Half the households rent. Our electrician unscrews the canopy, reads the box and wiring, then hands over a single figure.',
-  emergencyParagraph:
-    'Phone us that day if a fixture droops, its switch plate buzzes or feels warm, the canopy shows scorching, or flipping the light on trips the breaker. Turn that circuit off when the panel is safe to reach, and shoo everyone from underneath. Smoke or flames mean get outside, then ring 911. Same-day visits are usual, weekends too.',
   commonIntro:
     'In Golf Manor, nearly every lighting request we see is one of these.',
   localFaqs: [

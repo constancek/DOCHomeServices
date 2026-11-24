@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'In Newport, recessed lighting usually comes down to old plaster and how many inches of joist hide between one floor and the next. Census figures put the median house at 1947, and close to half went up in 1939 or before, so parlors were built around a single medallion and second-story ceilings may give us only a shallow cavity. Newer apartment buildings have drywall that opens far more easily. You see every can marked on the ceiling, with the figure agreed, before we score anything.',
-  emergencyParagraph:
-    'Kill the breaker, if it’s safe, whenever a can smells singed, the plaster around a trim goes brown, or the bezel is too hot to rest a finger on. Water trickling from a fixture can’t sit either. Smoke or flames mean get to the sidewalk and dial 911. We come out same day on most calls, weekends included.',
   commonIntro:
     'From East Row Victorians to two-family buildings and newer condos, these are the recessed lighting requests we get most often in Newport.',
   localFaqs: [

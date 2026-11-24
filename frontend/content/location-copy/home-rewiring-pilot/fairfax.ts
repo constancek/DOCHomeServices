@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Close to half of all homes in Fairfax were built before 1940, going by Census figures, and the typical one was finished in 1942. A house from that era may hide knob-and-tube runs or wire wrapped in cloth behind its plaster, with nothing grounded and two-prong outlets straining under a space heater. The postwar houses on the newer streets mostly just lack kitchen circuits. We test first. A sound system gets a straight answer, and you see scope and flat price written out before we cut into any wall.',
-  emergencyParagraph:
-    'Call us right away about a scorched cover plate, an outlet with a burnt smell, sparking, or a breaker that flips back off once you push it on. Kill that circuit yourself only when the panel and the floor are dry. Smoke or flames means everybody leaves and someone phones 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In a village where so much was built before the Second World War, tired wiring usually gives itself away through one of these:',
   localFaqs: [

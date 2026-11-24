@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'A gloomy hallway with one fixture at the far end is the complaint we hear most in Taylor Mill, and the cure depends on whether the house came from the Winston Park years or the later subdivisions. Census figures show about three homes in ten built from 1940 to 1959 and almost four in ten from the 1980s and 1990s. Older houses often have a single ceiling light per room and a box that may lack a ground, newer ones roomier kitchens. We open the box, then quote.',
-  emergencyParagraph:
-    'Buzzing from a fixture, flicker spreading across rooms, a breaker that quits as a light comes on, or a fixture working free of the ceiling needs a look today. Shut that circuit off when you safely can and keep clear underneath. For smoke or fire, get out, then call 911. Same day on most calls, weekends included.',
   commonIntro:
     'Homeowners in Taylor Mill usually reach out for one of these light fixture jobs.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Turpin Hills is mostly owner-occupied single houses from the 1960s through the 1990s, and Census figures give a median build year of 1977. Over the decades many have added a newer furnace and air conditioner, a finished basement, a home office and a pile of smart devices, all carrying electronics that surges wear down. Panels in houses this age can be original and filling up. We check yours first, tell you honestly if plug-in strips will cover it, and set the price before any work begins.',
-  emergencyParagraph:
-    'A storm that leaves a burnt smell, a breaker that keeps falling after each reset, or a garage door opener that sparked calls for us that day. Should lights everywhere rise and fall, the electric utility comes first. Throw that breaker only if you’re dry; with smoke or fire, leave and call 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'In houses built from the 1960s through the 1990s, owners usually mention one of these before a surge protection visit.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Silverton’s median home went up in 1959, Census figures show, and over four in ten date from the 1940s and 1950s. Wiring then assumed a radio, a toaster and a few lamps, so kitchens and bedrooms now run out of circuits. Close to six in ten homes are rented, many inside three- and four-unit buildings. The handful of prewar houses may lack a ground. Testing is step one. Healthy wiring gets a clean report, and anything else gets a scope and flat price on paper before a wall opens.',
-  emergencyParagraph:
-    'Get us out that day for a receptacle or wall that smells burnt, a browned or hot switch plate, sparks, a shock from a fixture, or a breaker that pops back off. Tenants should tell the landlord. Only touch the panel if your hands are dry. With smoke, leave and call 911. Most calls are same day, weekends included.',
   commonIntro:
     'Postwar houses and small apartment buildings in Silverton tend to show these signs:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Evendale’s houses skew younger than people guess. Census figures put the median build year at 1982, and almost every home is owner-occupied and detached. Wiring from the 1980s and 1990s is normally healthy, so the work tends to be an addition, a kitchen redo or one stubbornly failing circuit. Houses from the 1960s and 1970s often come up short on circuits, and a few may carry aluminum branch wiring. We meter first, tell you when nothing needs replacing, and sign a scope and flat price before drywall is cut.',
-  emergencyParagraph:
-    'Phone us today about a receptacle that smells like burning, a scorched cover plate, sparks, a breaker that won’t stay on after a reset, or a fixture that shocked someone. With nothing wet or hot around the panel, switch the circuit off. If there’s smoke or fire, get the family out and call 911. We come weekends too.',
   commonIntro:
     'Across the 1980s and 1990s houses that fill most of Evendale, the calls we get usually start with one of these.',
   localFaqs: [

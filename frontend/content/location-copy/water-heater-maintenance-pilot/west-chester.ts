@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'West Chester Township is mainly subdivisions from the 1970s, 1980s and 1990s, and Census figures put the median home at 1988. Plenty of those houses are on a replacement heater by now, usually standing in the basement next to the furnace, with room for a hose to reach the floor drain. Condos in the larger buildings hide theirs in a hall closet on a pan, which the owner or association decides on. Expect a firm quote first, and a straight answer if the tank isn’t worth the trip.',
-  emergencyParagraph:
-    'Repair, not maintenance, is the call for a dripping tank (shut its cold inlet valve up top, then gas or breaker), a gas odor (leave, hands off switches and the pilot, phone the gas utility from your yard), a carbon monoxide alarm (everybody outdoors), a relief valve that keeps venting, or a tank gone cold. Usually same day, weekends too.',
   commonIntro:
     'Across the township, most service bookings start with something like this:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Renters fill 41.7% of homes in Fort Mitchell, by Census figures, and many live in apartment buildings with a furnace in each closet, so landlords do most of the booking. Owner-occupied houses run from the 1910s and 1920s streets near Dixie Highway, where a basement furnace vents up an old chimney and the flue and heat exchanger need a slow look, to simpler postwar houses. Gas heats 59.1% of homes. The price comes before the work, and so does the truth if a furnace needs nothing.',
-  emergencyParagraph:
-    'Repair calls, not tune-ups: Smell gas: get out, no switches, no relighting, call the gas company once outdoors. Carbon monoxide alarm: everyone out. No heat on a cold night, a furnace restarting over and over, a flame turned yellow. Tenants report these to management right away. Babies, older people and the sick are at risk. Usually same day, weekends too.',
   commonIntro:
     'Apartment closets and basements under houses from the 1910s through the 1970s supply most of our furnace work in Fort Mitchell. Bookings start with:',
   localFaqs: [

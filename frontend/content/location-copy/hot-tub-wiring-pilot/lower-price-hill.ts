@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'In Lower Price Hill, spa wiring nearly always means an old panel. By Census figures the median home here dates to 1938, and roughly eight in ten are rented, which puts the decision with whoever owns the building. A hot tub calls for a 240-volt GFCI breaker of its own, and a panel that old seldom has an open slot or the spare capacity to carry one, so that’s handled first. We match the panel to the spa’s spec sheet and give the owner a price ahead of any work.',
-  emergencyParagraph:
-    'A spa whose GFCI won’t stay set, or water that gives anyone a tingle, means stopping now. Get people out of the tub and keep clear of its wiring. Switch it off at the shutoff only if that’s safe, and phone 911 if there’s smoke or flame. Same-day visits cover most calls in Lower Price Hill, weekends as well.',
   commonIntro:
     'Owners of houses and rowhouses with yards in Lower Price Hill tend to call for one of these.',
   localFaqs: [

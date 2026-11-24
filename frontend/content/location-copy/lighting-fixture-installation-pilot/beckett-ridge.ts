@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'In Beckett Ridge, most fixture requests follow a kitchen or bath remodel, when builder lights look out of step with new counters. The ceiling box, the ground and whether a light is going somewhere new shape the job. Begun in the 1970s around the golf course and mostly built in the 1980s and 1990s, the community has a 1990 median by Census count, so grounds are standard and boxes easy to reach. About one home in four is a condo or townhouse. Pricing is settled before anything comes down.',
-  emergencyParagraph:
-    'A foyer chandelier creeping lower, a dimmer running warm or buzzing, or a burnt smell drifting from a fixture means leaving that light off. Trip its breaker if that’s safe, and keep people from underneath. Smoke or fire means everyone out and a call to 911. We usually reach Beckett Ridge that same day, weekends too.',
   commonIntro:
     'Throughout the cul-de-sacs and condo rows of Beckett Ridge, these four lead the requests.',
   localFaqs: [

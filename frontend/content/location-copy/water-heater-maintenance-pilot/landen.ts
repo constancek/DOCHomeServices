@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'Landen is a 1980s and 1990s place; Census figures put 69% of its homes in those two decades, and 13.9% are attached condos and townhouses. Expect a garage or utility-room tank in the houses and a closet heater over a pan in the attached units. Gas service is uncommon in Landen, so most visits are electric: drain, rod check, then both elements and thermostats tested. You’re told the flat price before we start, and we’ll be straight with you when an old heater isn’t worth servicing.',
-  emergencyParagraph:
-    'A tank spilling water: close the cold supply on top, then flip the breaker or shut the gas. Gas odor: walk out, touch nothing electrical, don’t relight, call the gas company once outside. Carbon monoxide alarm: everybody out. A safety valve dumping repeatedly, or a tank gone cold, needs a same-day repair on most calls, weekends included.',
   commonIntro:
     'Around Landen, these are what usually prompt a service call:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Dent is one of the newer places we work. Census figures put its median house at 1995, with 42.9% built in 2000 or later, so a tune-up here is usually a builder’s original furnace in a basement or utility closet needing a filter, a blower cleaning, a burner look and a safety-switch test. Condos and apartments add closet units. Electric heat covers 40.9% of homes, a share that includes heat pumps. You get the price before work starts, and a straight answer if nothing needs doing.',
-  emergencyParagraph:
-    'Gas smell: everybody outside, switches left alone, nothing relit, gas company called from the driveway. A carbon monoxide alarm empties the house too. A furnace that quits in a cold spell, short cycles without letup, or burns a yellow flame needs repair. Small children and elderly relatives suffer first. We’re same-day on most calls, weekends too.',
   commonIntro:
     'In houses, condos and apartments in Dent, one of these usually starts the conversation:',
   localFaqs: [

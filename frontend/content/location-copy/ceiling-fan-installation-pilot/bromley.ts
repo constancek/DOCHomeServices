@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'In Bromley, the riverfront streets are lined with old frame houses on their own lots, and Census figures date more than half of them before 1940, mostly owner-occupied. Back then a ceiling box was meant for a hanging bulb and was often tacked to a lath strip instead of a joist. A fan shakes that kind of mounting loose before long. So the box is where we start. If loose screws are the whole story, you will hear it, and the price is agreed before we take anything down.',
-  emergencyParagraph:
-    'Shut off a fan that thumps its canopy, hangs crooked, gives off a hot sharp smell, crackles at the wall switch or kicks the breaker. Flip it off at the wall or panel when that’s safe, and steer people away from beneath it. With smoke or fire, get out and phone 911. Same day for most calls, weekends too.',
   commonIntro:
     'In Bromley, the fan calls we get mostly involve prewar bedrooms, front porches toward the river and boxes nobody has looked at in generations.',
   localFaqs: [

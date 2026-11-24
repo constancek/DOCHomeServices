@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Seven in ten homes in Evanston date to 1939 or earlier, Census figures show, and most of them are single-family houses or two-families on narrow lots along streets such as Hewitt, Clarion and Dana. Bathrooms that old have been redone more than once, and whatever fan exists usually arrived during one of those remodels, blowing into the attic or a wall cavity rather than outdoors. A few upstairs baths still make do with a window. We follow the duct to its end and quote before cutting plaster.',
-  emergencyParagraph:
-    'If the fan above an old plaster ceiling smells hot, looks scorched or warped, sparks, smokes, leaks water or keeps knocking out the breaker, quit using it. Kill the circuit at the panel when that’s safe, and if smoke or flame shows, get outside before calling 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Across the older houses and two-families of Evanston, owners keep pointing us to the same handful of signs.',
   localFaqs: [

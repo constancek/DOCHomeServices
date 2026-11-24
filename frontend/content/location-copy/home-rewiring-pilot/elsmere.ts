@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Elsmere was settled as South Erlanger in the 1880s and kept building past 2000, with a median house from 1970 in Census figures. A prewar cottage may run cloth-insulated wire without a ground. Ranches from the 1950s through 1970s usually lack kitchen circuits, and some from the 1960s and 1970s may have aluminum branch wiring. Newer houses want a basement circuit. Meter readings come first, an honest all-clear follows if it’s earned, and the scope and flat figure are signed before drywall comes down.',
-  emergencyParagraph:
-    'Today is when to call about a breaker that won’t stay reset, a switch that bites you, or a receptacle that’s hot, blackened or smells of melting plastic. Sparks or buzzing in a wall count too. Shut the circuit off if the panel is dry. Smoke or fire means leave and dial 911. We come weekends too.',
   commonIntro:
     'From the old houses near Dixie Highway to the ranches farther south, these are the warnings we hear most in Elsmere.',
   localFaqs: [

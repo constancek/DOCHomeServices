@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Service in Pendleton tends to happen down a narrow cellar stair, under a brick rowhouse or a three- or four-unit building. Census figures say 80.4% of homes date to 1939 or earlier, and most share a building with neighbors, so it’s common to find a row of tanks along one foundation wall, each with its own aging drain valve and flue pipe. The condos built since 2010 are quick. You’ll have the price before we begin, and an honest word if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Not tune-up material: a leaking tank (close the cold-water valve at the top, then gas or breaker); gas odor in the stairwell (leave, no switches, no relighting, ring the gas company from the street); a carbon monoxide alarm (clear every unit). A relief valve dumping water, or no hot water, needs repair. We’re usually there that day, weekends too.',
   commonIntro:
     'Old brick and lots of rental units shape the work here. Owners usually call when they notice:',
   localFaqs: [

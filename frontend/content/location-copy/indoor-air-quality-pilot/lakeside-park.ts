@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'In Lakeside Park, most of our air work is in mid-century houses, with some older ones near Dixie Highway. Census figures give a median build year of 1964, and about one home in six was built in 1939 or earlier. The older houses bring drafts and damp basements; the 1960s ranches often have original ducts that move dust between rooms. Most houses are owner-occupied, so the call is usually yours. We test first, agree a fixed price before work, and say when a filter is all it needs.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means getting everyone outside before anyone phones 911. Smelling gas means walking out without touching switches and calling the gas company. A furnace or AC that smells hot gets shut off at the thermostat. Mold spreading after a leak is risky for babies, older relatives and asthma. Most calls get same-day help, weekends too.',
   commonIntro:
     'Around Lakeside Park, these are the air complaints we hear most often.',
   localFaqs: [

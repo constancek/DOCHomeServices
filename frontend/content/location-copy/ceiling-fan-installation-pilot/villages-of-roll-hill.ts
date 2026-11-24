@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'Ceiling fans in the Villages of Roll Hill are the responsibility of management, because the complex is rental housing, and Census figures show close to nine homes in ten around President Drive are rented. Its garden apartments and townhomes date to the 1960s and were overhauled from 2010 to 2012. Residents report a wobbling or dead fan to the office, which schedules us. Once management calls, we check what box is in the ceiling, admit when a rebalance cures it, and give the office a price before anything is unbolted.',
-  emergencyParagraph:
-    'Don’t wait on a work order if a fan swings wildly, tugs loose from the ceiling or smells like melting plastic. Switch it off at the wall and move kids away from the space beneath it. If there’s fire, take everyone outside, call 911, then let the office know. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In the Villages of Roll Hill, townhome bedrooms and garden-apartment living rooms produce these four complaints most.',
   localFaqs: [

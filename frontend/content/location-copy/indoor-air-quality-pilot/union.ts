@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Union is a young city by its houses. The median home dates to 2007 by Census figures, and the population climbed from 5,379 in 2010 to 7,416 in 2020. Builders sealed these houses well, which keeps heat in but also traps shower steam, frying smells, new-carpet odor and cleaner fumes. Ventilation and a stronger filter answer most of it. Our first step is a test, the quote is flat and agreed up front, and a new filter alone gets recommended when it would do.',
-  emergencyParagraph:
-    'Treat a carbon monoxide alarm as a reason to clear the house, then phone 911 outside. A whiff of gas calls for the same exit, with switches left alone, and a call to the gas company. Burning odors from the vents mean setting the thermostat to off. Infants and asthmatics react first. Same-day help reaches most addresses, weekends too.',
   commonIntro:
     'In houses this new, the complaints we hear in Union are mostly about air that sits still:',
   localFaqs: [

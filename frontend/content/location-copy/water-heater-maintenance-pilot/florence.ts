@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Census figures date the median home in Florence to 1972, and 51.2% of households rent, so the work splits two ways. Houses from the 1960s and 1970s often keep the heater in a garage or utility room, where a visit is a quick rinse, an anode look and a relief test. Apartment and condo buildings give each unit a closet heater standing in a pan, scheduled through the owner or manager. Price comes first, and we’ll tell you when a heater isn’t worth servicing.',
-  emergencyParagraph:
-    'Water at the tank’s base: shut its cold feed at the top, then its gas valve or breaker. A gas odor: leave, stay off the switches, don’t relight, phone the utility outside. Carbon monoxide alarm: all out first. A relief valve that keeps opening, or no hot water, needs a repair visit. Most are seen the same day, weekends included.',
   commonIntro:
     'Here’s what usually gets a working heater in Florence booked for a tune-up:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'West Price Hill is mostly detached houses heated by gas. Census figures date nearly half its homes to 1940 through 1969, and a furnace in one of those postwar basements is usually easy to reach and needs the usual cleaning and control checks. The older third, from before 1940, often vents into a chimney through an aging flue, so that gets extra attention. Half the homes are rented, so landlords book many visits. Either way, we quote the price before starting and say so when there’s nothing to fix.',
-  emergencyParagraph:
-    'Leave if you smell gas in West Price Hill. Don’t work a switch or relight anything, and phone the gas company from the curb. A carbon monoxide alarm: everyone out. A flame burning lazy and yellow, or a dead furnace in a cold snap, needs repair. Babies, older parents and the sick shouldn’t wait. Most calls: same day, weekends included.',
   commonIntro:
     'For postwar houses and older basements in West Price Hill, these are the usual reasons for a fall booking:',
   localFaqs: [

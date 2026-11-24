@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'recessed-lighting',
   serviceName: 'Recessed Lighting Installation',
   localHeadingName: 'Recessed Lighting Installation',
-  emergencyHeading: 'Urgent Recessed Lighting Problems in {neighborhood}',
   eyebrow: 'Lighting',
   hubLabel: 'Recessed Lighting',
   parentCrumb: { label: 'Indoor Lighting', href: '/services/indoor-lighting' },

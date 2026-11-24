@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'Old housing sets the pattern for indoor air work in Hamilton. By Census count, more than a quarter of homes date from 1939 or earlier and close to half are rented. Around German Village and Dayton Lane, many of those older houses leak air, sit over damp basements and push decades of dust through their duct runs. The newer ones seal tight and keep stale air in. Every job starts with a test and a price you see first, and a filter-only fix gets called a filter-only fix.',
-  emergencyParagraph:
-    'On a carbon monoxide alarm, the household goes outside and dials 911. Gas odor means walking out, switches untouched, and phoning the city’s gas utility. Smoke-smelling furnace or AC units get shut off at the thermostat. Mold creeping out after a basement flood is worst for babies and asthma. Expect a same-day visit on most calls, weekends included.',
   commonIntro:
     'In old houses and rentals across Hamilton, poor air tends to show up like this:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton has two kinds of houses. The old town along Main Street includes homes built before 1960, and since 2000 subdivisions have added more than half the housing, so Census figures put the typical house at 2002. The older ones often got a bath fan years after they were built, sometimes ducted only into the attic. The newer ones have fans, but builder-grade units are often too small for the bathroom. Our electrician follows the air to its exit and prices the work before opening any ceiling.',
-  emergencyParagraph:
-    'Once a fan smells of burning plastic, its housing scorches or warps, it sparks or smokes, or the breaker trips, switch it off at the wall or panel if you can safely. A dripping grille or a spreading stain is pressing too. Flames or smoke mean everybody out before anyone dials 911. Most of Walton gets same-day visits, weekends too.',
   commonIntro:
     'From the old town near Main Street out to the newer subdivisions in Walton, these four fan problems turn up most often:',
   localFaqs: [

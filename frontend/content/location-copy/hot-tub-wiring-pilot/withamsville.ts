@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Withamsville has two eras of housing, and they lead to two kinds of spa job. Census numbers place the median at 1980, with a cluster from the 1940s and 1950s and a larger one from the 1980s and 1990s. In the older group, panel space or capacity often has to be fixed before a 240-volt spa line fits. The newer ones generally have room, so the yard layout drives the work. Either way, the tub’s spec sheet is checked against your panel and priced first.',
-  emergencyParagraph:
-    'Spa trouble in Withamsville that can’t wait includes a humming panel, scorching on the disconnect, and a breaker that flips off after a reset. Climb out of the water and leave the controls untouched. Kill the breaker only if it’s safe to reach, and call 911 for smoke or flames. Most such calls get a same-day visit, weekends included.',
   commonIntro:
     'Along the Ohio Pike corridor in Withamsville, four spa situations account for most of our calls.',
   localFaqs: [

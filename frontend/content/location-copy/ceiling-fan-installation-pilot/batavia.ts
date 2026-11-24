@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'Since 1824 the county seat has sat in Batavia, and the old village streets show their age. The median house was built in 1955, per Census figures, and about a third predate 1940, most with one ceiling light per room on a box built for that light alone. A spinning fan asks more. Renters fill roughly four homes in ten. Our first move is opening that box; if a firmer mount cures the wobble, you hear it, and the price is settled while the old light still hangs.',
-  emergencyParagraph:
-    'A fan knocking as it swings, sagging from the plaster or leaking smoke should be shut off at the switch or breaker if you safely can, and the room under it emptied. Sparks at the wall plate qualify too. If there’s fire, leave and phone 911. Same-day visits are normal on most calls, weekends included.',
   commonIntro:
     'Prewar village houses, 1950s ranches and small apartment blocks account for these four fan signs more than anything else in Batavia.',
   localFaqs: [

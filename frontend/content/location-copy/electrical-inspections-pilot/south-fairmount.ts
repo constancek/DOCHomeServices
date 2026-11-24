@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'South Fairmount is mostly older single houses, with a few big apartment buildings between them. About 73% of homes went up in 1939 or earlier, Census figures show, so original cloth-covered cable, fuses or a small panel, and ungrounded outlets can all still be in service. A smaller batch from the 1960s and 1970s has panels built for far lighter use than a modern household’s. We go through everything, hand you a written report, and quote any fix before it’s done.',
-  emergencyParagraph:
-    'Some problems don’t belong on the calendar: a burning smell you can’t trace, an outlet cover gone hot or brown, crackling inside a switch, sparks, or a breaker that kicks off again straight away. Shut that breaker and keep it shut. Smoke or fire means out of the house, then 911. Same day on most calls, weekends too.',
   commonIntro:
     'In South Fairmount’s pre-war houses and its handful of larger apartment buildings, we find these most often:',
   localFaqs: [

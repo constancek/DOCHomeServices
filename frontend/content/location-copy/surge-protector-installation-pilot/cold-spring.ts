@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median home in Cold Spring at 1999, with close to half built in 2000 or later, and nearly nine in ten households own. Breaker boxes that young almost always have a free slot. What they feed is the bigger story, from heat pumps and electric furnaces to smart thermostats, touch-control kitchen appliances and networked TVs, all of it run on circuit boards. We still open the box before quoting, say so when strips are enough, and set the price before any work.',
-  emergencyParagraph:
-    'If a switch or breaker box smells burnt or looks browned after a surge in Cold Spring, a breaker drops again the instant you reset it, or a dishwasher smoked when power came on, get an electrician out that day; most calls get one, weekends included. Flames or smoke mean leave the house and dial 911.',
   commonIntro:
     'In the subdivisions and townhouse rows of Cold Spring, these are the signs that usually start the conversation.',
   localFaqs: [

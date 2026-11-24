@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Around seven in ten homes in Evanston were standing by 1939, Census figures show, and most are detached houses or two-families. A house that old can still depend on a modest first service with little left for a 240-volt line, so the panel decides whether a charger is a quick add or a bigger project. Where things are tight, load management often keeps the bill down. We start with the panel and load math, say so if the factory cord covers you, and set the price first.',
-  emergencyParagraph:
-    'End the charge immediately for a hot, charred or melted charger, plug or receptacle, a burning odor, a breaker tripping on each charge, or a slow cord fed through an extension cord or a warm old outlet. Turn the circuit off only when that’s safe, and call 911 from outside if smoke appears. Most calls see same-day service, weekends included.',
   commonIntro:
     'Among the pre-1940 houses and two-families near Xavier University, charger calls usually trace back to one of these.',
   localFaqs: [

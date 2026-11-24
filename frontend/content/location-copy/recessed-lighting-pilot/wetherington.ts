@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'In Wetherington, recessed lighting work is mostly drywall and attic, because the neighborhood grew up around the golf club after it opened in 1992. Census figures put the median house at 1998, and owners live in nearly all of them. That means sheetrock ceilings and roomy attics over the top floor. The insulation up there picks the housing, and tall great rooms and open kitchens make spacing the harder call. We tape out every can on the ceiling and quote before cutting.',
-  emergencyParagraph:
-    'Brown staining on the drywall around a can, a trim you can’t keep a hand on, or a hot, plasticky smell near the ceiling means heat is building inside. Switch off that breaker if reaching the panel is safe. For smoke or flame, clear the house and ring 911. On most calls we arrive that same day, weekends as well.',
   commonIntro:
     'Houses built around the golf course have good bones overhead and thin lighting below. Owners usually start with these rooms.',
   localFaqs: [

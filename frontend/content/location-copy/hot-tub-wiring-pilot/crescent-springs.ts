@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median build year in Crescent Springs at 1993, and only 783 of its 2,173 homes are detached houses. Panels from the 1980s and 1990s often still have an empty slot and capacity left for a 240-volt spa breaker, so the job here usually hinges on the tub’s spot and the conduit path. Condo and apartment residents need the association or the owner to agree first. We size up the panel against the spa maker’s sheet and give you a price before conduit goes in.',
-  emergencyParagraph:
-    'A spa breaker that cuts out on every reset, a panel that hums or crackles, or a tingle when someone touches the tub calls for us. Clear everyone out of the water and leave the equipment alone. Switch off the breaker only if it’s safe, and dial 911 for smoke. Most callers get a same-day visit, weekends too.',
   commonIntro:
     'Off Buttermilk Pike and through the newer neighborhoods and condo communities, these are the spa wiring calls we get from Crescent Springs.',
   localFaqs: [

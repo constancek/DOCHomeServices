@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'In the Villages of Roll Hill, furnace maintenance is booked by management, not by residents. It’s essentially one complex of garden apartments and townhomes, mostly Section 8 housing, overhauled in a renovation from 2010 to 2012. Census figures show 86.4% of homes rented and 52.2% heating with gas, so a typical round is many closet furnaces in a row. Residents should report heat concerns to the management office. For managers, the price per unit is set before work starts, and we say so when a furnace needs nothing.',
-  emergencyParagraph:
-    'Gas smell: leave the unit, touch no switches, call the gas company outside. Carbon monoxide alarm: everyone out first. Then tell management. No heat in a cold snap, a furnace that keeps restarting or a lazy yellow flame needs a repair. Children, older neighbors and anyone ill are most at risk. Same day on most calls, weekends too.',
   commonIntro:
     'These usually lead management in the Villages of Roll Hill to book a round of furnace visits:',
   localFaqs: [

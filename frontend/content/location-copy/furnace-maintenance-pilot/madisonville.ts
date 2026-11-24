@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Madisonville is two neighborhoods for furnace work. Near Whetsel and Bramble avenues, most houses predate 1940 and their owners live in them, so the furnace sits in a basement venting into an old chimney, and the flue and heat exchanger get our closest look. Along Red Bank Road, newer apartments in large buildings put furnaces in closets the landlord books. By Census figures 45.9% of homes overall predate 1940. The price is settled first, and we’ll tell you if a furnace needs nothing.',
-  emergencyParagraph:
-    'These can’t wait for a tune-up. Gas smell: out of the house, switches untouched, the gas company phoned from the sidewalk. Carbon monoxide alarm: everyone leaves first. No heat in a cold stretch, a yellow flame, or a furnace restarting over and over is repair work, fast with a baby or older relative home. Most are same day, weekends included.',
   commonIntro:
     'On both sides of Madisonville, from the old basements to the newer apartment closets, these usually lead to a booking:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Aurora was platted in 1819 along the Ohio, and its older houses make recessed lighting easiest when a renovation already has the plaster down. Census figures set the median home at 1952, with almost two in five older than 1940 and about one in five sitting in a two- to four-unit building. Expect lath, shallow space below upstairs roofs and wiring patched together over several decades. We look overhead, pencil in every can and agree the price before the saw.',
-  emergencyParagraph:
-    'A can ringed by brown plaster, a whiff of melting plastic, a trim too hot to rest a finger on, or water dripping out of a fixture needs a look today. If reaching the panel is safe, shut that circuit off there. For smoke or flame, everyone leaves and calls 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'From riverfront houses near the downtown district to postwar homes farther out, these are the recessed lighting jobs that keep coming in from Aurora:',
   localFaqs: [

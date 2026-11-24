@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'In Park Hills, Census figures give a median year built of 1953, and about one home in five is newer than 2000. On the older hillside streets a crowded panel is common, so where a protector goes waits until we see inside. The newer homes and apartments hold more of what surges ruin, such as central air, smart devices and board-run appliances. We look at the panel first, tell you if strips will do, and agree the price before anything is wired.',
-  emergencyParagraph:
-    'An outlet that looks scorched after a storm, a breaker that trips right after a reset, or a fridge that sparked when power came on needs us that day. Most get a same-day visit, weekends included. Lights swelling and fading across the house are a Duke Energy Kentucky call first. Smoke or flames mean getting outside before phoning 911.',
   commonIntro:
     'Older hillside houses near Devou Park and newer homes alike show these signs, and they’re the ones we hear most in Park Hills.',
   localFaqs: [

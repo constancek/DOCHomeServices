@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'California is almost all single houses, with a 1968 median in Census figures. That puts a postwar box that may not take a fan’s weight in one house and a newer room framed for one next door. If a river crest put water in a room, get the switch and wiring checked before the fan runs. We open the box first, tell you if snugging the mount fixes it, and fix the price before the old light comes off.',
-  emergencyParagraph:
-    'A fan lurching on its mount, a canopy dropping away from the ceiling or a scorched smell out of the motor won’t wait. Kill it at the switch or breaker if that’s safe, and move everyone out from under. Smoke or flame means everyone outside and a 911 call. We reach most calls the same day, weekends too.',
   commonIntro:
     'Houses in California run from the 1940s to the 2000s, and these four fan problems are the ones owners here call about.',
   localFaqs: [

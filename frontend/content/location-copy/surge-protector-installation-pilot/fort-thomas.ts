@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'In Fort Thomas, the typical house dates from 1955, and roughly one in three predates 1940, according to Census figures. Most are detached single-family homes, and close to three households in ten rent. In houses that age, the costliest things inside are often the newest, like a replaced furnace or a kitchen of electronic appliances. Older breaker boxes run out of slots, so ours is the first look. If a power strip is all you need, you hear that, and the price comes before the work.',
-  emergencyParagraph:
-    'If the fridge or furnace sparked when power came back after a storm, we need to see it today. When lights flare and fade house-wide, call Duke Energy Kentucky, then us. Only flip the breaker with dry hands. Smoke or flames mean leaving and calling 911. Most calls are seen the same day, weekends included.',
   commonIntro:
     'Where houses from the 1950s and earlier have taken on new equipment in Fort Thomas, surge trouble often looks like this.',
   localFaqs: [

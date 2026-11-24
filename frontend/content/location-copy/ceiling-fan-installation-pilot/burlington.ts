@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Burlington, the Boone County seat, is mostly newer subdivisions. Its median house was built in 1998, per Census figures, and nearly half arrived in 2000 or since. Old light boxes are rare; what we meet instead are great rooms tall enough to want a down rod and covered patios or decks where only a weather-rated fan survives. Our electrician opens the box before quoting, says so if snugging or balancing is all it takes, and locks the price before the old fan is unhooked.',
-  emergencyParagraph:
-    'Shut down a fan that thrashes, drops away from the drywall, smokes, smells scorched or flips the breaker at start-up. Reach the wall switch or panel only if that’s safe, and herd kids and pets out. Fire means everyone out and a 911 call. We come the same day on most calls, weekends included.',
   commonIntro:
     'Most homes here date from the 1980s on, so tall rooms, patios and worn-out builder fans account for these four signs we see most in Burlington.',
   localFaqs: [

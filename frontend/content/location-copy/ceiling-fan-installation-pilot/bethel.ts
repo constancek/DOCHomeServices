@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'In Bethel, ceiling fan jobs split between two kinds of building. Census figures put a typical house here at 1958, with roughly one in four built before 1940, and those older village houses tend to hide a shallow light box above the plaster that was never meant for a spinning motor. Renters outnumber owners, many in small apartment blocks, so landlords book much of this work. We look at the box first, say so when a wobble only wants tightening, and fix the price before anything comes down.',
-  emergencyParagraph:
-    'Call us soon if a fan rocks enough to shift its canopy, the box has dropped from the plaster, or the motor smells scorched. Kill it at the wall switch or panel if you can reach it safely, and clear the room beneath it. Smoke or flame means leaving and dialing 911. Same-day visits are normal, weekends too.',
   commonIntro:
     'In Bethel, most of our fan calls start with an old fixture box in a village house or a rented apartment fan that has started acting up.',
   localFaqs: [

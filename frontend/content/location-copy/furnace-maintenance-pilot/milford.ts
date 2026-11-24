@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Most houses in the city of Milford are older than the furnaces inside them. By Census figures, 69.7% went up before 1980 and nearly one in five before 1940, so a typical visit is a basement unit, a replacement of a replacement, still venting into the original chimney. That flue and the heat exchanger get our slowest look. About half of households rent, often in larger buildings where owners do the booking. Gas runs a little under half the heat. Price first; if nothing’s needed, you hear that.',
-  emergencyParagraph:
-    'Some of this is repair, not maintenance. Smell gas: step outside, leave switches and pilots alone, call the gas company from the sidewalk. Carbon monoxide alarm: out first, call second. A cold house in a freeze, cycling that never settles, a lazy yellow flame. Infants, grandparents and sick people come first. Usually same day, weekends too.',
   commonIntro:
     'In Milford, fall tune-up requests tend to come from one of these:',
   localFaqs: [

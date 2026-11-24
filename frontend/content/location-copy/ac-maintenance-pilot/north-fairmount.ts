@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'North Fairmount sits on the hillside above the Mill Creek valley, and Census figures show 63.9% of its houses date from 1939 or earlier. Nobody built them for air conditioning, so the cooling we tune here was fitted in later, usually a coil on a basement furnace feeding ducts that were laid for heat. Half the homes are rented, and their owners call us, not the tenants. Condensers often sit on a sloped side yard. The price is settled before we touch anything, and a sound AC is left alone.',
-  emergencyParagraph:
-    'Call for a repair if the AC can’t hold the house cool in a heat wave, or the outdoor fan sits still while the unit hums. Shut it off at the thermostat if the lines frost over. Infants, older people and anyone sick feel the heat first. Most calls get a visit that same day, weekends as well.',
   commonIntro:
     'On the hillside streets of North Fairmount, a spring tune-up is usually booked for one of these reasons.',
   localFaqs: [

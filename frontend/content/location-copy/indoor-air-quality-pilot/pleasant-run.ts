@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Run, most air quality calls come from ranches and split-levels of the 1960s and 1970s. Census figures put the median house at 1974, and roughly three in five went up between 1960 and 1979, so the ductwork has usually been pushing the same dust from room to room since the house was built. Homes built since 2000 seal tighter and trap cooking smells. We run the test before we suggest anything, quote a flat price after, and say so when a new filter is all it takes.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends the household outside before anyone dials 911. A whiff of gas means the same exit without touching switches, then a call to the gas company. Burning smells from a vent mean flipping the thermostat to off. Infants, grandparents and asthmatic children react first. Same day on most calls, weekends included.',
   commonIntro:
     'In the ranches and split-levels around Pleasant Run, these are the complaints that usually start the conversation:',
   localFaqs: [

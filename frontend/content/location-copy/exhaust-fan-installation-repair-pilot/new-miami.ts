@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'New Miami is a village of single-family houses, 813 of its 878 homes by Census counts, most of them modest and built around 1960. In houses from that period, the one bathroom often relied on a window, and if a fan was added later, its duct frequently ends in the attic or at a soffit rather than a real cap. Prewar homes make up a fair share too. We pull the grille, follow the duct as far as it goes, and price the work before opening the ceiling.',
-  emergencyParagraph:
-    'A bath fan that smells like it’s cooking, has a blackened or melted housing, spits sparks or smoke, won’t let the breaker stay on, or lets water through the grille gets switched off now, at the wall or breaker if that’s safe. With smoke or fire, get out and call 911. Same day is typical on most calls, weekends too.',
   commonIntro:
     'In the village’s single-family houses, prewar and postwar alike, these are the four reasons people phone us about a fan:',
   localFaqs: [

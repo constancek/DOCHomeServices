@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'Mid-century houses make up most of California; Census figures give a median year built of 1968, and nearly all are owner-occupied. Wiring put in from the 1940s through the 1960s seldom has the circuits a modern kitchen asks for, and some 1960s and 1970s houses may have aluminum branch wiring. When the Ohio runs high, backwater can reach basements here, and any circuit it touched needs testing. We test before quoting, say so if nothing’s wrong, and put the scope and flat price on paper before a wall is opened.',
-  emergencyParagraph:
-    'A wall or outlet that smells scorched, a hot switch plate, sparks, or a shock off an appliance gets a same-day visit from us, weekends too. Kill that circuit only from a dry floor. After a flood, keep the basement circuits off until they’re tested. If smoke or flames show, get out and phone 911.',
   commonIntro:
     'Along Kellogg Avenue and the streets near the river in California, these wiring problems most often lead to a rewire:',
   localFaqs: [

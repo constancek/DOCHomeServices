@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'In Independence, Census counts date the median house to 1999, and well over eight in ten are detached. Breaker boxes that young often have an open slot for a 240-volt line. The twist is that nearly half of homes here run electric heat, so a heat pump or electric furnace already leans on the service every winter. Before any quote, we open that panel and add up the load, tell you if the trunk cord covers your miles, and lock the price before a wire is run.',
-  emergencyParagraph:
-    'A breaker that won’t stay on through a charging session, a smell like hot plastic, or a plug gone soft or brown mean the car shouldn’t charge until it’s checked. Kill that breaker only from dry footing, touching nothing hot. Smoke or fire means everyone out and a 911 call. Same-day service reaches most calls in Independence, weekends included.',
   commonIntro:
     'Owners in Independence, most in houses built in the last few decades, usually reach us for one of these reasons.',
   localFaqs: [

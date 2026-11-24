@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'For most houses in Burlington, recessed lighting is a cleaner job than in older towns, because the ceilings are drywall and the framing is regular. Census figures put the median home at 1998, and 4,736 of the 6,892 homes are single detached houses. Builder kitchens from that era often came with one light over the sink and a bare island, and many basements were left unfinished. Townhouses and apartments add shared ceilings. We check the attic and the circuit, then set the layout and price before cutting.',
-  emergencyParagraph:
-    'A can giving off a hot, sharp smell, a trim you can’t keep a finger on, or a light that cuts out and returns by itself should be left off. Kill its breaker when that’s safe, and if smoke appears, get out and call 911. Most calls around Burlington get a visit that day, Saturday and Sunday too.',
   commonIntro:
     'Most of Burlington was built in the 1990s and 2000s, so the ceilings we open here tend to be builder drywall over regular framing. Four requests lead the list.',
   localFaqs: [

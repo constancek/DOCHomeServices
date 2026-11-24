@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'Northside inspections tend to fall into two kinds of house. Census figures put 57.3% of homes here at 1939 or earlier, and in those we look for cloth-covered wire, ungrounded outlets and fuse boxes that were never swapped out. Another 32.6% went up between 1940 and 1979, where the usual problem is a panel and a handful of circuits sized for a house with far less plugged in. We check every part of the system, hand you the findings on paper and quote any fix first.',
-  emergencyParagraph:
-    'In Northside, a burning odor, a discolored outlet, a spark when something plugs in, or lights dimming hard as an appliance starts means phoning us right away, not booking ahead. Flip that circuit’s breaker off. If smoke appears or anything catches, leave and phone 911. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'More than half the homes in Northside are single houses, many owned by the people living in them. Here is what our inspections uncover most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Goshen has two kinds of housing. The crossroads core on State Route 28 is mostly 1950s or older, while across the township the Census Bureau’s typical house dates to 1983, and roughly one in four went up after 2000. Over half the township heats with electricity, so a heat pump or electric furnace is often the priciest target. Manufactured homes get the same look at the breaker box. That look comes first, then a set price, and we’ll say so if strips will do.',
-  emergencyParagraph:
-    'A breaker that refuses to hold, a switch plate gone warm and brown, or an appliance that smoked when power came back needs us today. House-wide surging and fading lights go to the electric utility first. Switch the circuit off only if you’re dry. For smoke or fire, leave and dial 911. We usually come that day, weekends too.',
   commonIntro:
     'Across Goshen Township, from older houses near the crossroads to newer subdivisions and manufactured homes, these four signs are the ones we hear about.',
   localFaqs: [

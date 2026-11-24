@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'Around Carthage, most recessed lights we put in go into houses older than anyone living there. Census figures show 757 of the 1,105 homes in the neighborhood were built in 1939 or earlier, and 672 are single detached houses off Vine Street. In those houses the ceilings are often plaster, the top floor may have only a crawl space above, and most rooms were wired for one light in the middle. We set the layout and the price before cutting.',
-  emergencyParagraph:
-    'A light that smells like singed dust, plaster gone dark in a circle around a trim, or a can that blinks out and comes back on its own needs a look. Shut its breaker if the panel is safe to get to. If smoke appears, get out and phone 911. We usually get there the same day, weekends too.',
   commonIntro:
     'Carthage is mostly prewar houses and doubles, with plenty of renters. These four recessed lighting jobs come up most.',
   localFaqs: [

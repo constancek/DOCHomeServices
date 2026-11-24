@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Terrace Park is almost all single-family homes lived in by their owners, and most predate 1960. Census figures put the median at 1954, with a quarter of houses from 1939 or earlier. In those oldest homes, cloth-covered or knob-and-tube circuits can survive behind kitchens and baths that were redone around them. The postwar houses tend to have panels that can’t take what owners now want to add. Our visit covers the whole system and ends with a written, priced report.',
-  emergencyParagraph:
-    'Some problems belong in a phone call, not a booking: a burning odor, sparking, a switch plate or outlet that’s warm or browned, a buzz behind the wall, a breaker that trips again after reset. Cut power to that circuit. If there’s smoke or fire, everyone out, then 911. Most Terrace Park calls are reached the same day, weekends too.',
   commonIntro:
     'Terrace Park inspections are nearly all single-family houses, from pre-war homes to 1950s builds. What we find most:',
   localFaqs: [

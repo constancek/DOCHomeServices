@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Crescent Springs is mostly apartments and condos, with a median build year of 1993 by Census figures. About half of all homes sit in buildings of five units or more, and most heat with electricity. Sealed, electrically heated units hold onto shower steam, frying smells and pet odor, then dry out badly in winter. With many renters, property managers often decide on equipment. We sample the air first, attach a flat price to each fix, and say plainly when a new filter will do.',
-  emergencyParagraph:
-    'Once a carbon monoxide alarm chirps, move everyone out, then phone 911. Smell gas and you should exit without using a switch and call the gas company outside. A furnace or heat pump that smells burnt gets shut off at the thermostat. Mold spreading after water damage hits asthmatics, newborns and seniors hardest. Most calls are same day, weekends too.',
   commonIntro:
     'Across the apartment complexes and condo buildings in town, plus the houses between them, four complaints lead the list.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Almost every home in Indian Hill is a detached house, and the ages vary. About a third were built before 1960 and roughly a fifth after 2000, Census figures show. An older house may have a panel with no spare position, which settles where a protector goes. A newer one tends to hold more of what spikes destroy, like central air and appliances with control boards. Whatever the age, the panel gets looked at first, you’ll hear it if strips would do, and the price is settled before work.',
-  emergencyParagraph:
-    'After a storm, an outlet, switch or panel that’s blackened or smells hot needs our attention, as does a breaker that drops again after you flip it back. If you can reach that breaker dry and safely, shut it off. If there’s smoke or flame, get out and call 911. Weekends included, we reach most calls the same day.',
   commonIntro:
     'Owners in Indian Hill, in houses old and new, usually call about one of these.',
   localFaqs: [

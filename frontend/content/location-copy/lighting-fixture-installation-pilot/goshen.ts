@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Where Routes 28, 132 and 48 meet, the old core of Goshen is small and genuinely old, with a median house of 1957 by Census count and about a third built before 1940. Hang a dining chandelier there and you may find plaster, a shallow box and no ground. Spread across the rest of Goshen Township, the median jumps to 1983, and kitchens are more often open, with islands. Either way an electrician looks up into the box first, then quotes a flat price you agree to.',
-  emergencyParagraph:
-    'A fixture fallen partway from its ceiling, a socket gone soft and melted, a scorched whiff by a switch or lights blinking in two rooms at once shouldn’t ride till tomorrow. Throw that breaker if it’s safe, and nobody stands beneath. Fire or smoke means out of the house and 911. Same-day visits are usual, weekends included.',
   commonIntro:
     'In and around Goshen, these are the jobs we’re asked for most.',
   localFaqs: [

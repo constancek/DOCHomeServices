@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Monroe is one of the newest places we serve, with more than half its homes built in 2000 or later and a median year built of 2001, per Census figures. Houses that new are wrapped tight, which keeps heat in but also holds shower steam, stale air and fumes from cooking and cleaning. Ventilation and filtration come up here far more often than damp cellars do. We test the air first, quote a flat price before work starts, and let you know if a fresh filter is the whole answer.',
-  emergencyParagraph:
-    'When the carbon monoxide alarm chirps, everyone goes outside before 911 gets a call. A whiff of gas means walking out without touching switches and calling the gas company. Burning smells from the system mean shutting it down at the thermostat. Mold after a leak can’t wait with infants, elders or asthmatics around. Most visits happen same day, weekends too.',
   commonIntro:
     'In newer houses in Monroe, these are the usual reasons people call:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'Western Hills is a loose label stretched over pieces of Cincinnati, Cheviot and Green Township, and its two ZIP codes have median build years of 1958 and 1962 by Census figures. Those postwar houses came with ducts, but the trunks were sized small, which leaves upstairs bedrooms and finished basements warm. Some older houses nearer the city have none, and a wall head handles both without opening plaster. Nothing gets drilled until you’ve approved a fixed price, and we’ll tell you plainly when ductless is the wrong call.',
-  emergencyParagraph:
-    'Roughly 21 days a year hit 90F or worse, the National Weather Service says, and a postwar second floor soaks up every one. Elderly parents, infants and people with COPD feel it most. Single-head jobs go on the schedule fast and take a day. When a ductless system dies, Mini-Split Repair sees most calls the same day, weekends included.',
   commonIntro:
     'From Glenway Avenue out toward Bridgetown, these are the rooms that bring owners in Western Hills to us:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'Most houses in West Price Hill are pre-war or mid-century, and Census figures date 36.6% to 1939 or earlier, with nearly half more from the 1940s through the 1960s. The oldest predate central air, and some never got ducts. The mid-century ones usually did, but those narrow trunk lines starve the second floor. A wall-mounted head fixes both without touching plaster. Half the homes are rented, and there the landlord decides. You approve a fixed price first, and if ductless is the wrong answer, we say it.',
-  emergencyParagraph:
-    'Cincinnati’s July normal high sits at 86F, per the National Weather Service, and a two-story on these hillsides can keep its bedrooms warm until midnight. Grandparents and babies sleep worst in that heat, along with anyone who has asthma. One-head installs book fast and take a day. Broken ductless units get same-day Mini-Split Repair on most calls, weekends too.',
   commonIntro:
     'On the hillsides of West Price Hill, ductless quotes usually start with one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'In Bethel, the question is less whether a whole-home surge protector helps than whether the breaker box has space for one. Half the homes were standing by 1958, the Census median, and roughly one in four goes back before 1940, an age when boxes were small and are often full by now. Just over half of households rent, many in buildings of three or more units, so the owner signs off. We open the box first, tell you if outlet strips cover it, and agree the price up front.',
-  emergencyParagraph:
-    'Ring us if an outlet looks charred, a breaker snaps off once pushed back on, or the dryer sparked when power returned; most get a same-day visit, weekends too. If every light pulses bright and dim, phone the electric utility first. Kill that breaker only if nothing’s wet or hot, and for flames or smoke, get out and dial 911.',
   commonIntro:
     'Small apartment buildings and 1950s houses in Bethel tend to give the same few warnings before anyone calls us.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'For most houses in North Bend, adding cans is about putting real light on the countertops and across open family rooms. Census figures put the village’s median home at 1991, with roughly a third finished in 2000 or later, so smooth drywall and walkable attic space are typical. Around one household in six lives in a townhouse or condo with party walls, and the older houses down toward the Ohio can still have plaster. You approve a drawn layout and a fixed quote before a single hole is opened.',
-  emergencyParagraph:
-    'Phone us about any can that puts off a burnt-plastic smell, has charred the drywall beside it, runs too hot to touch, or keeps cycling off and on. Throw its breaker if you can do so safely. If there’s smoke or fire, leave and call 911. We’re out same day on most calls, weekends included.',
   commonIntro:
     'Newer kitchens up the hill, townhouses and a handful of older homes close to the river make up most of the recessed lighting we install in North Bend.',
   localFaqs: [

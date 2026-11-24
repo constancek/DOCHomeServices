@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'A dining room chandelier is the request we hear most along Hamilton Avenue, and it lives or dies by the metal box hidden above the old medallion. Census figures date well over half of Northside’s housing before 1940, which tends to mean lath and plaster overhead, a pancake-thin box and no grounding conductor. Roughly a third came later, often with a lone ceiling light per room. We open things up, test what feeds it, and you sign off on a flat figure while the old light still hangs.',
-  emergencyParagraph:
-    'If a light has dropped away from the plaster, a globe smells scorched, or the toggle hums warm, ring us today. Flip its breaker off if the panel is handy, and steer people around the spot beneath it. With smoke or fire, leave and dial 911 outside. We usually arrive that same day, Saturdays and Sundays too.',
   commonIntro:
     'Four requests fill most of our lighting calendar in Northside, from Langland Street to the postwar blocks farther up Hamilton.',
   localFaqs: [

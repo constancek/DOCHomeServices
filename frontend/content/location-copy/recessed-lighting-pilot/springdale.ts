@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'In Springdale, the request we hear most is light on the kitchen counters. By Census figures the median home dates from 1971, with half built in the 1960s and 1970s, so many ranches and split-levels across the city still carry a fluorescent box over the sink and an attic right above it. That attic makes running cable far easier. About two in five homes are rented, many in large apartment complexes. We lay out each light and fix a flat price before any drywall is cut.',
-  emergencyParagraph:
-    'Get a same-day visit if a light shuts itself off and comes back, the switch plate hums or runs warm, or a ring of brown shows up around a trim. Cut that circuit at the breaker if it’s safe. If there’s smoke or fire, leave and call 911. Most calls are covered same day, weekends included.',
   commonIntro:
     'Ranches, split-levels and a fair share of apartments make up most of our recessed lighting work in this city:',
   localFaqs: [

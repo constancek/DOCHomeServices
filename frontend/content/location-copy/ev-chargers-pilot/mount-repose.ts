@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'A Level 2 charger usually slots into a house in Mount Repose without drama. Census figures show 1,439 of the 1,704 homes here are detached, the tidy case when the car parks off the street, and the median house dates from 1978. Houses from 1980 onward tend to have spare capacity or suit load management, while 1960s and 1970s panels often have none left. We open the panel and add up the load first, own up when Level 1 is plenty, and fix the price before drilling.',
-  emergencyParagraph:
-    'Pull the plug if the charger casing or outlet runs hot, the plug shows scorching, a melted-plastic smell drifts out, the breaker trips with each charge, or a mower has chewed the cable. Flip that breaker only with dry hands. Smoke or fire means getting out and dialing 911. Most calls get a visit that day, weekends too.',
   commonIntro:
     'Most homes in Mount Repose are owner-occupied, and the reasons owners give for wanting a charger tend to fall into four groups.',
   localFaqs: [

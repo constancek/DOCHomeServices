@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Lawrenceburg has more variety than its old downtown suggests. By Census figures, the median home dates to 1983, and 36.7% of homes are in apartment buildings with five units or more. So ductless work here ranges from older houses near downtown with no ducts upstairs, to newer houses with an addition the ducts miss, to apartments where the owner decides. Lawrenceburg Municipal Utilities supplies the power, which matters if a panel needs an upgrade. You approve a flat price first, and we’ll say if ductless doesn’t fit.',
-  emergencyParagraph:
-    'Upper-floor apartments and attic bedrooms hold heat after dark, and the National Weather Service averages about 21 days a year at 90F or worse. Older relatives, babies and anyone ill suffer first. We find install dates quickly, and a single-zone job is usually one day. If your mini-split stopped, Mini-Split Repair answers most calls the same day, weekends included.',
   commonIntro:
     'Between the older blocks near downtown and the newer homes and apartments of Lawrenceburg, these are the rooms that usually need ductless help:',
   localFaqs: [

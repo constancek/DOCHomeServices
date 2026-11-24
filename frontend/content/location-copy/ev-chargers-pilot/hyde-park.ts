@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Half of Hyde Park’s housing predates 1940, by Census counts, and a third of its units are in buildings with five or more apartments. A detached house with somewhere off the street to park is usually simple. An older house might still be fed by the modest service it got decades ago, leaving scant headroom for a 240-volt line. Our first step is opening the panel and doing the load math. If the trunk cord suffices, you’ll hear that, and the price is fixed before any wire gets pulled.',
-  emergencyParagraph:
-    'When the charger housing, its plug or the receptacle feels hot, shows brown marks or smells of scorched plastic mid-session, end the session. Flip that breaker only from a dry spot where nothing is hot to the touch. Smoke or flames call for getting out first and phoning 911. For Hyde Park, same-day visits cover most calls, weekends included.',
   commonIntro:
     'In Hyde Park, older houses sit beside two-families and condo blocks, and charger calls here tend to look like these.',
   localFaqs: [

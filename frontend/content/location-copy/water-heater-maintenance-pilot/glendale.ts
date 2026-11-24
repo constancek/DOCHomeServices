@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Census figures show 53.4% of houses in Glendale were built in 1939 or earlier, so most visits start at the bottom of a basement stair. Down there the tank shares a corner with an old flue, the drain valve may be decades old and untouched, and the gas fitting deserves a close look. Houses put up after the war get a quicker flush and valve test. About one household in six rents. You approve a flat price first, and if a tank isn’t worth the money, we tell you.',
-  emergencyParagraph:
-    'Water escaping the tank: close the valve on its cold supply, then shut gas or power. Gas smell in the basement: climb out, skip every switch and the pilot, phone the gas company from the sidewalk. Carbon monoxide alarm: clear the house. Relief valve still spitting, or no hot water: repair. Same day on most calls, weekends too.',
   commonIntro:
     'In the village’s pre-war basements and its newer houses alike, these are the usual reasons to book:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Housing in Lawrenceburg runs from river-town houses older than 1940, 15.6% of homes by Census figures, to townhomes and apartments built since 2000. The old ones had air conditioning added afterward, usually through an attic or a basement chase, and those runs take the longest to check. Newer townhomes tend to have a heat pump outside and a closet air handler in. Plenty of units are rentals, booked by their owners. You hear a flat price before we start, and an AC with nothing wrong is left that way.',
-  emergencyParagraph:
-    'A tune-up won’t help an AC that has quit on a hot day or iced its lines; shut it off and book a repair. A unit that sat in flood water stays off until we’ve checked it, as does one with a burning smell. Babies, older relatives and anyone ill feel heat first. Same day on most calls, weekends included.',
   commonIntro:
     'Across the houses, townhomes and apartments of Lawrenceburg, these are the usual reasons to book:',
   localFaqs: [

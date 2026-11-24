@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Riverside skews newer than Sedamsville. Census figures place its median home at 1971, and 36.2% of homes are in buildings of ten or more units. That makes a lot of our maintenance here an apartment closet: one heater per unit, a drain pan underneath, and the landlord making the booking. Along River Road, the houses tend to be a simple drain, anode and relief valve job, plus a vent check if it burns gas. The quote comes first, and we’ll be honest if a heater isn’t worth it.',
-  emergencyParagraph:
-    'Floor wet by the tank? Close the cold-water valve on top, then the gas or the breaker. Gas odor: get out without touching switches or the pilot and phone the gas company outside. A carbon monoxide alarm means people leave first. A relief valve that keeps venting, or no hot water, calls for repair. Same day on most, weekends included.',
   commonIntro:
     'Riverside mixes apartment closet heaters with older houses near the rail line. In both, these are the usual reasons for a tune-up:',
   localFaqs: [

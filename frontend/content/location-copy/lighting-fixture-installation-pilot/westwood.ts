@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Westwood is the largest neighbourhood in Cincinnati, and our light fixture calls here split between owners of walk-ups wanting new stairwell and unit lights and families swapping a fluorescent kitchen box during a remodel. Census counts show 7,128 of the 16,027 homes in buildings of five or more units, and 9,821 households renting. Houses along Harrison and Montana are mostly postwar, with one globe per room and small boxes, though older ones can have plaster and no ground. We open the ceiling and confirm a written price beforehand.',
-  emergencyParagraph:
-    'A stairwell globe hanging by its wires, a melted socket or a humming, warm switch plate needs us soon, and tenants should tell the manager straight away. When the panel can be reached safely, switch off that circuit. If you see smoke or fire, leave and ring 911. Same-day visits happen on most calls, weekends too.',
   commonIntro:
     'Between Werk Road and Queen City Avenue, these are the usual requests.',
   localFaqs: [

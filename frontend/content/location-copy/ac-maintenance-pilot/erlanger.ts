@@ -2,9 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const erlanger: LocationServiceCopy = {
   localParagraph:
-    'Most of our tune-ups in Erlanger are on mid-century houses. Census figures show 58.3% of homes in the city went up before 1980, the bulk between the 1950s and 1970s, and plenty of them got central air later, with the cooling coil perched on top of an older furnace in the basement. Close to a third of homes are rented, many in mid-size apartment buildings where the owner arranges service. The flat price is settled before the work, and an AC that needs nothing is reported as fine.',
-  emergencyParagraph:
-    'July highs average 86F at the airport weather station, by National Weather Service figures, and an AC that dies in that heat calls for a repair visit. So does water coming through a ceiling, or a breaker that pops again after a reset. Keep babies, older relatives and anyone ill somewhere cool. Most calls are same day, weekends included.',
+    'Mid-century houses make up most of our tune-up work in Erlanger. Census figures put 58.3% of homes in the city before 1980, mostly from the 1950s through the 1970s, and many of those got central air afterward, with a coil set on top of an older basement furnace. About 30.7% of homes are rented, a good share in mid-size apartment buildings where owners schedule the work. We settle a flat price first, and if the AC needs nothing, we say it’s fine.',
   commonIntro:
     'In Erlanger, tune-up requests generally trace back to something like this:',
   localFaqs: [
@@ -29,7 +27,7 @@ export const erlanger: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in Erlanger',
-        body: 'Our first stop is the filter, replaced when it’s caked. At the condenser we hose the coil from the inside out and rake back whatever has crept around the base. In the basement, the evaporator coil gets a close look, often perched on the furnace in houses here, and the condensate line is flushed so it won’t back up. A set of gauges reads the refrigerant; a short charge means a leak, quoted as its own repair, never a top-off. We test capacitor, contactor and wiring, check the blower and airflow, confirm the thermostat responds, and run the system cold for a full cycle. You okay any part first.',
+        body: 'The filter gets checked first and swapped if it’s caked. At the condenser, we spray the coil from inside out and rake away whatever drifted against its base. In the basement, where the coil often rides on an older furnace, we inspect it and flush the condensate line. Gauges measure the refrigerant, and a short charge points to a leak, quoted as a separate repair rather than a top-off. Then the capacitor, contactor and wiring get metered, blower and airflow checked, the thermostat tried, and the AC runs cold through a whole cycle. Any part needs your nod.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
@@ -37,7 +35,7 @@ export const erlanger: LocationServiceCopy = {
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Erlanger',
-        body: 'Gas heats most homes here, yet almost four in ten heat with electricity, a count that lumps heat pumps in with electric furnaces and baseboard. Central air paired with a gas furnace is serviced each spring. A heat pump never gets an off season, so it’s seen in spring and again in fall, when the reversing valve and defrost controls get tested.',
+        body: 'Gas heats 56.4% of homes in Erlanger and electricity 39.3%, though the electric figure folds heat pumps together with electric furnaces and baseboard. A central air unit beside a gas furnace needs one service in spring, before summer arrives. A heat pump does the heating as well, so it gets two visits, and the fall one covers the reversing valve and defrost controls.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in Erlanger Book AC Maintenance With Us',
@@ -54,7 +52,7 @@ export const erlanger: LocationServiceCopy = {
       },
       {
         q: 'What can I do myself to keep my AC running well?',
-        a: 'Put in a new filter when the old one looks grey, rake leaves and grass from around the condenser, keep rugs and furniture off the registers, and refresh the thermostat batteries. Keep your hands off the cabinet panels, the copper refrigerant lines and the soft aluminum fins.',
+        a: 'Fit a new filter once the old one turns grey, clear leaves and grass clippings off the condenser, keep rugs and chairs away from registers, and swap the thermostat batteries. The cabinet panels, the copper refrigerant lines and the soft aluminum fins are for a technician to handle.',
       },
     ],
   },

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'In Lincoln Heights, renters outnumber owners nearly three to one, by Census count, so fan work here is mostly booked by landlords and property managers. Much of the housing dates from the 1960s and 70s, and a good share sits in apartment buildings. Ceiling boxes of that vintage were seldom meant to hold a spinning motor, so ours is a box-first visit. If a loose bracket turns out to be the whole fault, we tell you, and the owner signs off on the price before anything comes down.',
-  emergencyParagraph:
-    'A fan that lurches on its mount, a motor putting out smoke or a scorched smell, or a breaker that won’t hold is an emergency. Turn it off if that’s safe and keep clear below. Flames mean getting out and dialing 911. Tell the landlord or manager right away. We come the same day on most calls, weekends included.',
   commonIntro:
     'In Lincoln Heights, most of our fan calls come from rented apartments and 1960s and 70s houses, often booked by the owner.',
   localFaqs: [

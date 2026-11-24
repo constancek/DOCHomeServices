@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Close to half the homes in Kennedy Heights were built in 1939 or earlier, and the median dates to 1944, per Census figures. Plaster walls, small attics and second floors where a duct would have to climb through a closet are the norm. A ductless head reaches those rooms through one small hole instead. With 42.9% of homes rented, many in two-families and small buildings, the owner makes the call. The price is flat and agreed before we start, and we’ll say if a mini-split is wrong for the house.',
-  emergencyParagraph:
-    'An upstairs bedroom in an older house here can stay hot well past bedtime on the 21 days or so each year at 90F and up (National Weather Service). Protect older relatives, babies and anyone with breathing trouble first. We fit installs in fast. If an existing mini-split has died, book Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In Kennedy Heights, these situations usually bring owners and landlords to us for a ductless quote:',
   localFaqs: [

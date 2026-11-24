@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Villa Hills is mostly houses from the 1960s through the 1990s, with a Census median of 1981. Many still run on the ductwork they were built with, which collects decades of dust and spreads it room to room, and basements can stay damp through summer. So our visits here tend to end in better filtration, a dehumidifier, or both. The test comes first, the price is set before any work, and a filter swap gets recommended when that’s all it needs.',
-  emergencyParagraph:
-    'Clear the house when the carbon monoxide alarm goes, then phone 911. For gas, get out without touching a switch and ring the gas company. Vents giving off a burnt smell mean the thermostat goes to off. Little ones, grandparents and anyone wheezy feel it most. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'In Villa Hills, houses from the 1960s to the 1990s usually show an air problem in one of these ways:',
   localFaqs: [

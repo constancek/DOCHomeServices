@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Maineville is mostly new construction. Census figures give a median year built of 2004, with 54.5% of houses from 2000 or later, so a mini-split here nearly always serves one room rather than the house. Typical jobs are the bonus room above the garage, a finished basement, a sunroom, or a home office that never matches the downstairs thermostat. Owners decide for the 23% of homes that are rented. Your price is settled before work begins, and we’ll say so if ductless isn’t right.',
-  emergencyParagraph:
-    'In Maineville, bonus rooms over garages suffer most when the temperature hits 90F, which happens about 21 days a year (National Weather Service), and aging parents, babies and anyone ill feel it first. We schedule fast, a single head in one day and multi-zone longer. For a stopped unit, Mini-Split Repair comes same day on most calls, weekends included.',
   commonIntro:
     'In the subdivisions that have grown up around the village since the 1980s, four complaints lead most homeowners to ask us about ductless:',
   localFaqs: [

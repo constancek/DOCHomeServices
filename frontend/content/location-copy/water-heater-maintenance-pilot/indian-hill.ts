@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'No two visits in Indian Hill look alike, because the houses run from the 1930s to the last few years. Census figures count 11.5% built in 1939 or earlier, where the tank is tucked in a basement corner with older venting and a gas line we inspect, and 22.2% built since 2000, where it’s a quick flush, anode and valve test. Almost all are detached and lived in by their owners. The price is settled before we touch anything, and a tank not worth servicing gets an honest no.',
-  emergencyParagraph:
-    'A tank that leaks: shut the valve on its cold inlet, then gas or breaker. Gas in the air: walk out, no switches, no matches, reach the gas company from the lawn. Carbon monoxide alarm: house empties first. A relief valve that won’t reseat, or no hot water. All are repairs, with same-day help on most calls, weekends included.',
   commonIntro:
     'Across houses of every age in Indian Hill, these are the hints a tank is overdue:',
   localFaqs: [

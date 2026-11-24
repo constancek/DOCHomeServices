@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Four in five households in Miamitown rent, and most units sit in buildings of five apartments or more, Census figures show. That makes a charger here mostly a landlord’s project. In an apartment building, one panel feeds every unit and the parking area may be a long way from it, and both belong to the owner. We work out what the panel can carry before quoting, say plainly if a plug-in cord would do, and agree the price with the owner before work begins.',
-  emergencyParagraph:
-    'If Great Miami floodwater reached a charger or outlet, don’t use it until it’s tested. Scorch marks, a hot receptacle or a burning smell end the session. Tenants tell management; owners may flip the breaker on a dry floor. With smoke or flame, get out and call 911. Owners get same-day visits on most calls, weekends too.',
   commonIntro:
     'Landlords and property managers bring us most of the charger work in Miamitown, with a few owners of single houses mixed in.',
   localFaqs: [

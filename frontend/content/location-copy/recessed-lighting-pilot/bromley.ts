@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Putting recessed lights into a house in Bromley usually means working with old framing and little space overhead. By Census figures, more than half of the 389 homes in this river city went up in 1939 or earlier, and 359 are single detached houses. Upstairs rooms often sit right under the roof slope, plaster is common, and most rooms were built around one ceiling light. Basements here can take river water, which changes what we put in them. We plan the layout and fix the price before cutting.',
-  emergencyParagraph:
-    'Water running out of a can, plaster browning around a trim, or a switch that hums and feels warm calls for a visit today. If the panel is dry and safe, turn that circuit off. If you see smoke or flame, get out and phone 911. We’re usually out the same day, Saturday or Sunday included.',
   commonIntro:
     'Bromley is mostly older single houses, owned by the families in them. These four recessed lighting requests come up most often.',
   localFaqs: [

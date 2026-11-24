@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'On the ridge west of the city, Mack is almost entirely detached, owner-occupied houses, the most straightforward setting there is for a home charger. Census figures put the median year built at 1981. Houses from the sixties and seventies often have panels packed tight, while those from the eighties and nineties tend to have open slots. Close to three in ten heat with electricity. We check the panel, run a load calculation, flag it if the car’s own cord will do, and lock in the price first.',
-  emergencyParagraph:
-    'Charging stops if a plug or outlet is hot or scorched, there’s a burning odor, the breaker keeps tripping, or a tire has flattened the cable. If the panel is safe and dry to reach, shut that circuit off. Smoke or fire means heading outside to call 911. Same-day visits are the norm, weekends included.',
   commonIntro:
     'With houses from the 1960s through the 1990s lining most streets, these four reasons bring us out for chargers in Mack:',
   localFaqs: [

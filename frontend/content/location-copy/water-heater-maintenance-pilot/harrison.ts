@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Harrison is one of the newer towns we cover: Census figures put the median home at 1992, and 42.4% were built in 2000 or later. Most visits here are to a garage or utility-room tank, an easy job of draining, a rod check and a valve test. Electric heat runs many houses in town, so we test plenty of elements. Apartment heaters sit in closets, one per unit, and the landlord decides when they’re serviced. Price comes first, always, and we’ll say if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Some calls in Harrison skip the tune-up entirely. Water escaping the tank: close the top cold-water valve, then breaker or gas. Smell of gas: go out, no switches, no relighting, and call the gas company once outside. A carbon monoxide alarm: clear the house first. Constant relief-valve discharge or zero hot water is a repair, usually same day, weekends included.',
   commonIntro:
     'In Harrison, a heater that still works usually gets booked because of one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'Half the houses in Mount Lookout, 50.9% by Census figures, were standing by 1939, and the median dates to 1938. For a yearly service that means a trip down cellar stairs to a tank parked near an old flue, a brass drain spigot gone stiff, and a gas line we look over while the sediment drains. Owners hold 74.1% of homes here, so you’ll be the one down there with us. You hear the flat price first, and if the tank is past saving, we say it.',
-  emergencyParagraph:
-    'Wet floor under the heater? That’s a repair: shut the cold handle on top, then gas cock or breaker. Same for a spitting relief valve or cold taps. Gas in the air: out the door, no switches, call the gas company from the sidewalk. A carbon monoxide alarm empties the house first. Same-day visits on most calls, weekends too.',
   commonIntro:
     'Around Mount Lookout Square and up the hillside streets, these are what usually prompt the booking:',
   localFaqs: [

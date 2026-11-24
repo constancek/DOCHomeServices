@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'Doubles shape a lot of fan work in St. Bernard. Census figures show about one unit in six sits in a two-family building, and the median home went up in 1955, with roughly a third older than 1940. In an up-and-down double the second-floor bath usually has the attic overhead, while the first-floor bath is boxed in by the flat above, so its fan, if it has one, often vents into a joist bay. We work out where that air goes and quote the fix ahead of any drywall cutting.',
-  emergencyParagraph:
-    'A fan that smells burnt, has a blackened or sagging housing, spits sparks or trips its breaker needs a visit today, and so does water running from the grille. Turn it off at the switch or breaker if that’s safe; if there’s smoke or fire, leave and call 911. We come same day on most calls, weekends too.',
   commonIntro:
     'Between the doubles and the brick houses on the blocks around Ivorydale, these four signs come up most often in St. Bernard.',
   localFaqs: [

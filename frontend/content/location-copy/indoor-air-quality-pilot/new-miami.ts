@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'New Miami is a village of detached houses north of Hamilton, and Census figures date the median one to 1960. Houses from the war years through the 1970s let drafts in, carry ductwork that has gathered grit for decades, and keep basements that stay clammy in humid weather. About a third of households rent, so the landlord makes equipment calls there. Expect a meter reading first and a flat price you sign off on, plus a straight answer when a new filter would do.',
-  emergencyParagraph:
-    'When the carbon monoxide detector blares, everyone heads out before calling 911. A rotten-egg smell means stepping out, lights untouched, and phoning the gas company. Scorched registers call for flipping the thermostat to off. Mold spreading after water damage threatens infants, elderly parents and anyone with asthma. Our vans reach most such calls the same day, weekends too.',
   commonIntro:
     'In older houses in New Miami, we’re usually called about one of these.',
   localFaqs: [

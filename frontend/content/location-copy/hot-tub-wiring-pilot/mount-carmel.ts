@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Around Mount Carmel Tobasco Road, a backyard spa calls for a dedicated 240-volt line, a GFCI, a shutoff placed so you can see the tub, and bonding, followed by a county inspection. Census figures put the median house at 1973, so a lot of panels still show an empty slot but less spare capacity than it looks. Two thirds of homes are detached houses with yards, so the walk from panel to tub matters as much. Your quote follows a check of the panel against the spa’s spec.',
-  emergencyParagraph:
-    'If the spa breaker flips again the second it’s reset in Mount Carmel, or the water gives someone a tingle, something is wrong. Bathers get out and leave the pump and controls alone. Only shut the breaker off if it’s safe to get to, and phone 911 if there’s smoke or fire. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Spa calls we get from Mount Carmel, in Union Township, usually involve one of these four.',
   localFaqs: [

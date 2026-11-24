@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'CMHA owns most of the housing here, at Winton Terrace and Findlater Gardens, and those tenants use CMHA work orders instead of us. Census counts show nearly every household in Winton Hills rents. We rewire for private owners of doubles, townhouses and small buildings. The median home dates from 1955, so many units have ungrounded two-prong outlets and too few circuits for electric heat plus a modern kitchen. We test first, tell the owner if the wiring holds up, and write scope and flat price before any wall opens.',
-  emergencyParagraph:
-    'Some problems need an electrician that day, like a smell of scorching from a wall or outlet, a switch plate too hot to touch, sparks, a breaker that drops right after reset, or any shock. Cut that circuit only if it’s dry to reach. If there’s smoke or fire, everyone leaves and calls 911. Weekend bookings are fine.',
   commonIntro:
     'In the private doubles and townhouses of Winton Hills, tenants and owners usually report wiring trouble like this:',
   localFaqs: [

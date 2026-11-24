@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Housing in Woodlawn is mostly recent, by Census counts, with the median home from 1987 and about a third built after 2000, so full rewires are rare here. Two in three households rent, and roughly half the units are in buildings of five or more, so landlords book most of our work. Older houses from the 1940s and 1950s can lack circuits and grounded outlets. We test first, tell you if it’s fine, and put scope and flat price on paper before any wall opens.',
-  emergencyParagraph:
-    'In Woodlawn, phone us that day for an outlet that smells of hot plastic, a faceplate you can’t keep a hand on, a crackle in the wall, a breaker that drops the instant it’s set, or a switch that shocks you. Touch the panel only if it’s dry. For smoke or fire, get out and dial 911. We work weekends.',
   commonIntro:
     'In the apartments and houses of Woodlawn, wiring that needs more than a quick fix usually shows up as one of these:',
   localFaqs: [

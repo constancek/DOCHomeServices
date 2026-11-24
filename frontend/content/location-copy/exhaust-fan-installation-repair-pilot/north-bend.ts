@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median home in North Bend at 1991, nearly a third of the village was built after 2000, and attached condos and townhouses make up about one home in six. Those units almost always have a fan, often the bare-minimum model, too feeble for a double-vanity bath. The houses older than 1940, a bit more than one home in four, are where we find fans added later and vented nowhere useful. We find the problem first and give you a written price before cutting.',
-  emergencyParagraph:
-    'Call us the same day if a fan gives off a hot, acrid smell, its cover has blackened or warped, it sparks or smokes, the breaker drops whenever it runs, or water leaks from the grille. Kill the power at the switch or panel if that’s safe. Smoke or fire means getting out and dialing 911. Weekends count.',
   commonIntro:
     'From the townhouses and newer streets to the oldest houses in North Bend, these four problems show up most:',
   localFaqs: [

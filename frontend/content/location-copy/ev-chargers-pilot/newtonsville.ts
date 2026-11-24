@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Newtonsville, in Wayne Township, is about nine in ten single detached houses, and a similar share are owner-occupied, per Census figures. Owners deciding for themselves keeps a charger project uncomplicated. Most houses rose between the 1960s and the 1990s, and the older ones frequently carry panels with every slot spoken for. Over half heat with electricity, too. We look over the panel and tally the load first, say when the trunk cord covers your mileage, and quote one price ahead of any work.',
-  emergencyParagraph:
-    'Leave the car unplugged if a plug or wall unit heats up, a burning odor drifts off it, or the breaker quits the instant charging starts. A cut or crushed cable counts too. Shut the circuit off only with nothing wet or hot nearby, and phone 911 for smoke or fire. Same-day service covers most calls, weekends included.',
   commonIntro:
     'Owner-occupied houses from the 1960s onward account for most charger work we take on around Newtonsville.',
   localFaqs: [

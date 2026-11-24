@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'This community started in the 1920s as wooded river lots handed out with newspaper subscriptions, and that history splits its ceilings in two. Census figures show a band of houses from before 1960 and a larger wave from 1980 onward, with a median of 1990. The old lot houses can be tight above the ceiling. Newer ones usually hide an attic and an unfinished basement. Either kind gets every can penciled on the ceiling and a flat price signed before we open anything.',
-  emergencyParagraph:
-    'If a can gives off a hot, scorched odor, browns the ceiling around its trim or starts leaking water in Loveland Park, treat it as same-day work. Flip its breaker off provided you can get to the panel without risk. Any smoke or fire means everybody leaves and someone dials 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Between the old river lots and the newer streets of Loveland Park, these four requests come in most:',
   localFaqs: [

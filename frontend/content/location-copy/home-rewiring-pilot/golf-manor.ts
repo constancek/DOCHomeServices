@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Census figures give 1954 as the median build year for a house or fourplex in Golf Manor. Electricians back then wired a kitchen for one refrigerator and a toaster, so today’s air fryer, dishwasher and microwave pile onto lines never meant for them. Half the village rents, often in small multi-unit buildings. Our first step is measuring every circuit; if the copper is healthy we’ll admit it, and you sign off on a flat figure and a written plan before drywall or plaster is touched.',
-  emergencyParagraph:
-    'Phone us when a receptacle gives off a cooked-plastic odor, a cover plate turns brown or hot, sparks jump at a plug, someone gets zapped by a switch, or a breaker snaps straight off. We usually arrive that day, weekends too. Open that breaker only standing on a dry floor. Smoke means leave and ring 911.',
   commonIntro:
     'Postwar singles and small multi-unit buildings fill Golf Manor, and their tired wiring shows up in a handful of familiar ways:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Half the houses in Greendale were built before 1958, Census figures show, and 87.4% heat with gas, so most have a furnace with ducts that central air was later added onto. The rooms those ducts serve worst are the usual ductless jobs here, like an attic bedroom, a basement family room or an addition off the back. One wall head cools that room on its own. Your flat price is set before the drill comes out, and if ductless won’t solve it, we’ll tell you.',
-  emergencyParagraph:
-    'In Greendale, an attic bedroom feels each of the roughly 21 days a year the National Weather Service logs at 90F or higher. That’s risky for a baby, an older parent or anyone ill. One room is normally a one-day install. If your mini-split broke, Mini-Split Repair can usually come the same day, weekends too.',
   commonIntro:
     'Across the mid-century houses of Greendale, where most owners live in the homes they’re cooling, these rooms come up again and again:',
   localFaqs: [

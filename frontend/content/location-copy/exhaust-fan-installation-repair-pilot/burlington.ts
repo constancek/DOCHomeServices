@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Most houses in Burlington are newer, by Census figures, with the typical one built in 1998 and close to half since 2000. Those bathrooms came with fans, but builders often fitted a basic model that’s too weak for a large primary bath. The result is a fan that runs while the mirror stays fogged. Townhouses, condos and apartments make up close to a third of homes. We check what the fan actually moves and where its duct ends, then quote the fix.',
-  emergencyParagraph:
-    'Turn the fan off at the wall or breaker, if safe, when it smells burnt, sparks, or its housing has scorched or melted. A breaker that trips with the fan, or water coming through the grille, is urgent too. With smoke or fire, head outside and call 911. Most calls across Burlington get a same-day visit, weekends too.',
   commonIntro:
     'Across the subdivisions and condo buildings of Burlington, here’s what usually gets people to call:',
   localFaqs: [

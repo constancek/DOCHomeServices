@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'Landen homes went up mostly in the 1980s and 1990s, Census figures show, so the wiring is usually in decent shape and the panel is the real question. Electricity heats 88.4% of homes here, so a heat pump or electric furnace already leans hard on that panel before anyone adds an EV charger or a hot tub. Condos and townhomes add tight closets where panels are hard to reach. We check the whole system, write it up, and you approve any price before work.',
-  emergencyParagraph:
-    'In Landen, don’t sit on a scorched smell, sparks, a switch plate or outlet that’s hot or browned, a breaker that kicks off again after reset, or lights that sink when the heat strips engage. Turn it off at the panel. With smoke or fire, leave, then call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Landen inspections mostly cover 1980s and 1990s houses and condos that run on electric heat. What we see most often:',
   localFaqs: [

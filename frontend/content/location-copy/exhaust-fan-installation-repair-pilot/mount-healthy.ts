@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'By Census figures, the typical house in Mount Healthy dates from 1956, and close to three in ten predate 1940. That mix means many bathrooms started out with just a window, and the fan came later from whoever remodeled, sometimes ducted only into the joist space. Basement bathrooms added during finishing jobs are another regular. About half the city’s homes are rented, so landlords make many of these calls. We find exactly where the old duct quits and agree a price with you before the ceiling gets opened.',
-  emergencyParagraph:
-    'Stop using a fan that smells scorched, has a warped or blackened housing, pops and sparks, trips the breaker on startup, or lets water seep through the grille. Cut it at the switch or breaker if that’s safe. Should smoke or fire appear, get everybody out and ring 911. Same-day help is the norm on most calls, weekends too.',
   commonIntro:
     'In the older blocks near the city center and the postwar streets around them, here is what usually prompts the call:',
   localFaqs: [

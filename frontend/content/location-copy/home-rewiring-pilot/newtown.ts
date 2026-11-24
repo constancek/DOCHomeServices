@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Newtown has two different wiring stories. Around one home in five is from before 1940, mostly in the old village core, and those may hide knob-and-tube or cloth cable without a ground, ending at two-slot outlets. Everything else skews newer, the Census median being 1989, and owners there tend to want a line for an addition, a finished basement or a circuit that keeps quitting. We meter it before quoting, tell you if it passes, and put scope and fixed price on paper before a wall is touched.',
-  emergencyParagraph:
-    'We should be there today if a wall gives off a melting-plastic smell, a switch crackles, a receptacle has gone black or an appliance tingles when touched. Only cut the circuit at the panel when nothing you’d touch is wet or warm. Smoke or flame means leaving the house first and phoning 911 from outside. Weekends work for us.',
   commonIntro:
     'From the older houses close to Main Street to the subdivisions added since the 1980s, these complaints usually start a wiring conversation in Newtown:',
   localFaqs: [

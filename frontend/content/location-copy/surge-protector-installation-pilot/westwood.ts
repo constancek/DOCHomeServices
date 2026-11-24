@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Census figures put renters in about two of every three homes in Westwood, and close to half are in buildings with five or more apartments, a lot of them from the 1950s through the 1970s. Breaker boxes in those buildings are often small, one per unit, with little spare room, and that governs where a protector can go. Single houses that have been updated hold more to protect, like central air and smart devices. We look inside before quoting, say if strips will do, and agree a price before work.',
-  emergencyParagraph:
-    'Call the same day for a switch or outlet that smells burnt after a surge, or a breaker that keeps dropping after one reset, and most of the time we’ll be there that day, weekends included; tenants, loop in the landlord. If all the lights pulse together, phone Duke Energy Ohio first. When there’s smoke, leave and call 911.',
   commonIntro:
     'Across Westwood’s apartment buildings and its mid-century houses, these are the signs we see most.',
   localFaqs: [

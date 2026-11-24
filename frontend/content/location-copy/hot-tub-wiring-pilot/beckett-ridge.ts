@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Most of Beckett Ridge was built in the 1980s and 90s, Census figures show, and owners live in most homes. Breaker boxes from those decades generally still have an open position or two, so spa work here is mostly about the yard, meaning where the tub goes and how far the trench has to run. Roughly one home in four is a condo or townhome, and associations sign off first there. We compare your panel to the tub’s electrical sheet and put a price in writing before digging.',
-  emergencyParagraph:
-    'Phone us that day if resetting the spa breaker buys only a second of power, the disconnect has gone brown or smells hot, or a tingle runs through the water. Everyone should step out and keep clear of the tub. Cut power when it’s safe. Smoke is a 911 call made from outside. Weekends are on our schedule too.',
   commonIntro:
     'Across the streets that wind around the golf course, these are the usual reasons people call us about a spa.',
   localFaqs: [

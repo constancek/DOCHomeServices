@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Pendleton is a small triangle of old brick, and Census figures date 80.4% of its housing to 1939 or earlier. A tune-up here usually means a system fitted into a townhouse or tenement long after the plaster dried, with the air handler in a closet or crawl space, ducts through chases, and condensers grouped in a rear yard. Rentals make up 61.1% of homes, so owners often book by the building. Prices are set before anything opens, and a sound AC is left be.',
-  emergencyParagraph:
-    'Repair is the call when cooling dies in a heat wave or ice shows on the coil; set the thermostat to off for the melt. A ceiling dripping into the unit below, a burning smell, or a breaker that keeps tripping also qualify. Elderly neighbors and babies are most at risk. Most calls see us that day, weekends included.',
   commonIntro:
     'In the rowhouses and stacked apartments of Pendleton, owners usually spot one of these before they call:',
   localFaqs: [

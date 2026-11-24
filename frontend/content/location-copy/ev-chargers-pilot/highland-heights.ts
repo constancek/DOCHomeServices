@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Northern Kentucky University arrived in Highland Heights in 1971, and by Census counts nearly half of housing units sit in complexes of five or more, with better than a third of households renting. The bulk of homes went up between the 1960s and the 1990s, so a panel frequently has spare room or can pair with load management. Two homes in three heat electrically, a heavy January load. We do the panel and load math first, give a straight word on Level 1, and set a price before any wire.',
-  emergencyParagraph:
-    'In Highland Heights, unplug if a charger or outlet is too hot to hold, scorched or melting, if you smell burning, or if every charge trips the breaker. Only shut that circuit off with dry hands and nothing hot nearby. Get out and call 911 if smoke or fire appears. Same-day visits are normal, weekends too.',
   commonIntro:
     'Between the apartments near the university and the owner-occupied houses from the 1980s and 1990s, charger questions in Highland Heights tend to fall into these four.',
   localFaqs: [

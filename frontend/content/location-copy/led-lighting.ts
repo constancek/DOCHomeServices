@@ -6,6 +6,8 @@ import { part3 } from './led-lighting-parts/part3';
 import { part4 } from './led-lighting-parts/part4';
 import { part5 } from './led-lighting-parts/part5';
 import { part6 } from './led-lighting-parts/part6';
+// Fully localized towns (one format), wired in by led-lighting-pilot/build-index.mjs.
+import { ledLightingPilot } from './led-lighting-pilot';
 
 // Per-neighborhood, LED-lighting-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...ledLightingPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

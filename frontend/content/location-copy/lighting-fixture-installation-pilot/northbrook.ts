@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Swapping the brass dining light for a proper chandelier is a common job for owners in Northbrook, and it hinges on the ceiling box, the ground and where that box sits over the table. Census counts show half the houses between Pippin Road and Colerain Avenue dating from the 1960s and 1970s, with a median of 1970. Grounded cable is normal at that age, but the original box was often a light plastic one. We look up there first and settle the cost before unscrewing it.',
-  emergencyParagraph:
-    'Fixture glass too hot to touch, a crackle or a sharp smell from the canopy, or a dining light hanging crooked from its box deserve a prompt visit. Flip that breaker if the panel is easy to reach, and clear the table area. Fire or smoke means walking out and dialing 911. Most calls here get same-day help, weekends included.',
   commonIntro:
     'Colerain Township split-levels and ranches from around 1970, with some condos and apartment buildings, shape most fixture requests here.',
   localFaqs: [

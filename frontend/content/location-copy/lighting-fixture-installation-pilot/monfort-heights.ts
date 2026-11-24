@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'Bathroom vanity upgrades lead our fixture calls along North Bend Road in Monfort Heights. Housing in this Green Township community spans decades, and Census counts set the middle home at 1975, with close to a quarter from the 1940s and 1950s and another quarter built since 2000. Postwar houses usually have one overhead light per room and undersized boxes, while newer ones bring bigger kitchens and easier ceilings. Our electrician inspects that box and cable, and you okay a written price before any fixture comes down.',
-  emergencyParagraph:
-    'A fixture dangling by its conductors, melted plastic or brown scorching near a light, or flicker on several circuits should not wait. When the breaker is safe to reach, flip it off and stay out from under that light. If smoke or flame appears, leave and phone 911. Around West Fork Road we usually arrive that day, including weekends.',
   commonIntro:
     'From postwar capes to houses finished after 2000, these four requests come up most in Monfort Heights.',
   localFaqs: [

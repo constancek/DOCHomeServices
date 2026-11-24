@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'Over half the houses in Northgate were built between 1960 and 1979, by Census figures, and the median year is 1969. Those houses were ducted around one furnace and one trunk line, so a room added later often gets little air. A ductless head gives that space its own supply. Electricity heats a slight majority of homes here, which makes a heat pump head useful in winter too. Apartment complexes are management’s call. We agree a price before work, and we’ll say when a mini-split isn’t worth it.',
-  emergencyParagraph:
-    'The National Weather Service puts the July normal high at 86F, and a back room with west windows climbs past it by evening, hardest on older relatives, babies and anyone with lung trouble. Installs are scheduled promptly, one head normally in a day. Units that have failed are a Mini-Split Repair job, same day on most calls, weekends included.',
   commonIntro:
     'Among the ranches, two-stories and apartment complexes of Northgate, these are the problems that usually start a ductless conversation:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'The 1970s were the biggest building decade in Montgomery, and Census figures put the median house at 1976. Most of those houses came with bathroom fans, but small ones, and many are now loud, weak or venting into the attic rather than through an exterior cap. Remodeled bathrooms with larger showers and tubs often kept the old fan. Some of the older houses near Montgomery Road may never have had one. We trace the airflow and quote the fix before opening a ceiling.',
-  emergencyParagraph:
-    'Scorching odors, a sagging or melted cover, sparks and smoke all mean cutting power at the switch or panel, if you can do it safely. Any fire calls for leaving the house and phoning 911. Drips from the grille, or a breaker that quits with the fan, also need prompt help. In Montgomery, we’re usually there that day, weekends included.',
   commonIntro:
     'In the 1970s houses and the newer homes around Montgomery, these four signs come up most often.',
   localFaqs: [

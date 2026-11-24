@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Around Goshen, the houses split into two camps, and the air problems split with them. The old crossroads village on State Route 28 is where Census figures count a third of homes from 1939 or earlier, and those draft-prone places usually come with a damp cellar. Across the wider township the median home is from 1983, and those tighter houses bottle up stale air and kitchen smells. An air test comes before any advice, and you agree to the price first. A dirty filter gets called just that.',
-  emergencyParagraph:
-    'A carbon monoxide alarm empties the house before 911 is dialed. If gas is in the air, walk out and ring the gas company, switches untouched. A burning furnace or AC goes off at the thermostat. Mold blooming after water damage hits infants and asthma hardest. Same-day visits are normal on most calls, weekends too.',
   commonIntro:
     'In older houses near the center of Goshen and newer ones across the township, these are the complaints we hear:',
   localFaqs: [

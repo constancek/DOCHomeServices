@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'Monfort Heights has houses from every postwar decade. Census figures give a median year built of 1975, with 23.9% from 1940 through 1959 and 23.4% from 2000 on. The older houses often have ducts too small to push air up to a second floor or down into a finished basement. In the newer ones, ductless usually means a bonus room, a sunroom or an addition. You see a set price ahead of work, and if a mini-split isn’t the fix, we say it straight.',
-  emergencyParagraph:
-    'A finished attic off North Bend Road runs hotter than the 86F July normal high (National Weather Service). Older relatives, newborns and anyone with heart or lung trouble feel it. Installs get booked quickly; one zone is usually one day. A mini-split that broke needs Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'Along North Bend and West Fork roads in Monfort Heights, ductless calls usually start with one of these:',
   localFaqs: [

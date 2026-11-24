@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'On the streets off Bridgetown Road, the usual request is more light for a hallway still lit by one frosted dome or a living room with no ceiling fixture. Two homes in five went up during the 1940s and 1950s, and the median sits at 1962 in Census figures, so builders here often gave each room a single light and stopped. Nearly nine in ten houses are lived in by their owners. A box check and a ground test come first, followed by a price you sign off on.',
-  emergencyParagraph:
-    'A light sliding out of its ceiling, a crackling switch or lights stuttering across several rooms needs us that day. Throw that breaker if it’s safe, and keep anyone from walking beneath it. Smoke or fire means out of the house and a call to 911. Calls in Green Township usually get a same-day technician, weekends as well.',
   commonIntro:
     'Postwar houses across Bridgetown keep handing us the same few lighting jobs.',
   localFaqs: [

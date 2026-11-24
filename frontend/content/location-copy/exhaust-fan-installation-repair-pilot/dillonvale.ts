@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale was a Dillon Builders subdivision in the 1940s, and Census figures put its median house at 1956, with nearly three in four homes dating from 1940 through 1959. Back then a bathroom got a window, not a fan. Owners who fitted one afterward frequently ended its duct under the roof or pushed it into a wall cavity, so the steam never left. Before any ceiling gets opened, we climb up, find where the duct quits and quote the job.',
-  emergencyParagraph:
-    'When a bathroom fan smells like singed insulation, crackles with sparks, gives off smoke or shows a blackened housing, kill the power at the wall or the breaker panel if that’s safe. Fire means everyone out, then a call to 911. Same day is the norm for most calls, weekends included.',
   commonIntro:
     'Dillonvale sits right next to Deer Park, and its postwar houses tend to show the same few fan problems.',
   localFaqs: [

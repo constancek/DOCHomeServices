@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'In Mason, most houses date from the 1990s and 2000s, with a median of 1996 by Census figures, so central air came with the house and the ducts were sized for it. That keeps a spring visit simple. We clean, test and measure what the builder put in, and look hardest at parts that have now run for many summers. Many of the townhomes and condos hide the air handler in a closet. We name the price up front and say plainly when your system needs no work.',
-  emergencyParagraph:
-    'Book AC Repair instead of maintenance when the upstairs won’t cool, frost forms on the copper, or a stain spreads across a ceiling. Set the thermostat to off. A scorched smell or a breaker that won’t hold means the power stays off. Older relatives and babies suffer first. We reach most callers the same day, weekends included.',
   commonIntro:
     'When a system in Mason is overdue, it tends to show it in these ways:',
   localFaqs: [

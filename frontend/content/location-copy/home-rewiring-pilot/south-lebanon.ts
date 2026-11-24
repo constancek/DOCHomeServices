@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'Few houses in South Lebanon need a full rewire. Census figures show about two of every three homes here went up in 2000 or later, so most of our wiring work is a finished basement, an addition, a kitchen remodel or one circuit that won’t stop tripping. Some older houses around High and Main predate 1960, and those can be short on circuits or have outlets with no ground. We test before quoting, say plainly if the wiring is fine, and list the scope and flat rate on paper first.',
-  emergencyParagraph:
-    'Get us out fast if an outlet smells like it’s cooking, a switch is warm, something sparks or hums, a breaker keeps kicking off, or an appliance zaps you. Throw that breaker only if the floor under you is dry. With smoke or fire, leave and phone 911. We reach most calls the same day, Saturdays and Sundays too.',
   commonIntro:
     'These turn up in newer subdivisions now and then, and far more often in the older houses near the center of town.',
   localFaqs: [

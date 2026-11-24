@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Half of Springdale’s housing dates from the 1960s and 1970s, with a median of 1971 in Census figures, and about four in ten households rent, many in large complexes. A house from that era is usually on its second or third furnace and air conditioner, and the current ones depend on control boards that surges wear out. Smart doorbells, cameras and thermostats pile on more. The panel might be original or a later swap, so we check it first, say if strips would do, and fix the price beforehand.',
-  emergencyParagraph:
-    'Phone us for a switch that’s browned or smells singed after a surge, or a breaker that pops again on reset. A whole house brightening and fading points to Duke Energy Ohio before us. Only reach for that breaker when everything is dry and cool; if smoke appears, leave and call 911. Most calls get same-day service, weekends too.',
   commonIntro:
     'In 1970s houses, later remodels and rented units across the city, these signs come up most before we fit a surge protector.',
   localFaqs: [

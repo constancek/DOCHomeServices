@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'Porcelain bare-bulb holders still light plenty of closets, basements and back rooms on the hill in North Fairmount, and trading them for LED fixtures depends on the box behind them, a ground and the age of the wire. The median house along Baltimore Avenue and Carll Street dates from 1938, Census records show, and nearly two of every three predate 1940. Expect plaster, shallow boxes and ungrounded cable. Half the homes are rented. We open things up and fix the price before any porcelain comes off.',
-  emergencyParagraph:
-    'A cracked porcelain holder, a fixture working loose from old plaster, or a burnt smell from a ceiling light needs an electrician soon. Switch that circuit off if the panel is safe to reach, and let nobody stand beneath it. With smoke or flames, everyone goes outside and someone calls 911. Hillside calls usually get same-day help, weekends included.',
   commonIntro:
     'Pre-war frame houses climbing the hill above the Mill Creek valley, about half of them rented, bring in most of our fixture jobs in North Fairmount.',
   localFaqs: [

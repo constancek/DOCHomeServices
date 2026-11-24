@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'About half the houses in Mount Lookout were built in 1939 or earlier, by Census figures, and three in four are owner-occupied. Old plaster and wood windows let drafts in, and ducts added to those houses have had decades to gather grit. The July 2026 flooding and sewer backups on the East Side left some basements here holding damp air that mold loves. A meter reading comes before any dehumidifier or filter talk, the flat price comes before work, and a clean filter alone gets an honest mention.',
-  emergencyParagraph:
-    'If the carbon monoxide detector shrieks, empty the house, then dial 911. A sulfur smell means walking out with switches untouched and calling the gas company outdoors. Scorched air from registers means shutting off the system at its thermostat. Mold spreading after flood water is urgent around infants, grandparents and asthmatic kids. Expect a same-day technician on most, weekends too.',
   commonIntro:
     'Owners in Mount Lookout, mostly in older houses, call us about these more than anything else.',
   localFaqs: [

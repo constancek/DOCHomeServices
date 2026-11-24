@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'In Moscow, downlights nearly always mean easing into old plaster with barely a hand’s depth of cavity behind it. Census figures show most homes in this river village were standing before 1940, and almost all are detached, many with parlors wired around one ceiling bulb and bedrooms tucked under a sloped roof. Shallow housings, slow cuts and a hard look at decades-old wiring come with the territory. We mark each circle and settle the price before the first opening.',
-  emergencyParagraph:
-    'Ring us today if a downlight smells singed, plaster around a can is turning brown or water is trickling from a trim. Shut off that breaker if reaching the panel is safe, and with smoke or flame, get out and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'Down by the Ohio, owners of old houses ask us for these jobs more than any others in Moscow.',
   localFaqs: [

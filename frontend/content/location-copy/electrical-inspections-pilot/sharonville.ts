@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Sharonville’s housing is mostly 1960s to 1990s, with a median build year of 1974 by Census figures, and plenty of it is in apartment buildings. Over a third of homes heat with electricity, which leans hard on older panels. The city puts at least a fifth of properties in the FEMA floodplain, so after high water we check basements and panels before power goes back on. Every inspection ends in a written report, priced repairs and your decision.',
-  emergencyParagraph:
-    'These can’t wait for a scheduled inspection: a scorched or buzzing outlet, a hot switch plate, sparks, and lights that dim hard when a big appliance starts. Turn off any breaker that trips again after a reset. With smoke or fire, get out and dial 911. Most Sharonville calls are handled the same day, Saturday and Sunday included.',
   commonIntro:
     'Sharonville inspections cover single homes, condos, apartment buildings and mobile homes, and the findings change with each. These come up most:',
   localFaqs: [

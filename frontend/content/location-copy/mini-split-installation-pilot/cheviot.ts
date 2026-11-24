@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'In Cheviot, most ductless jobs start with a house that never had ducts. Census figures date 44.9% of homes to 1939 or earlier, and the median year built is 1946, so plaster walls and cramped attics leave little space for ductwork. An indoor head needs a wall to hang on and a short line set out to the yard. With 45.8% of homes rented, many jobs are a landlord’s call. The quote is fixed before the drill comes out, and if ductless isn’t worth it, we say so plainly.',
-  emergencyParagraph:
-    'The National Weather Service counts about 21 days a year at 90F or higher, and in Cheviot, the bedroom under the roof stays stifling. Grandparents, small children and the chronically ill feel that first. We schedule installs soon; one head is a day’s job. Existing units that fail go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Among the prewar houses, two-families and apartment buildings off Harrison Avenue, these are the rooms that usually bring us in for a ductless quote:',
   localFaqs: [

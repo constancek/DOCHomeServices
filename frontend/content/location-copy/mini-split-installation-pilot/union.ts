@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Union is a city of new houses. Census figures show 80.1% of homes built in 2000 or later, so ducts are nearly always in place and working, and a mini-split here goes where they come up short, such as a room above the garage, a finished basement or a sunroom. Ductless is also a clean way to give a basement in-law suite its own cooling. Most homes are owner-occupied. You approve the price before work, and if a mini-split isn’t the right answer, we’ll tell you.',
-  emergencyParagraph:
-    'A bonus room over the garage tends to run warmest in Union, and July sits near its 86F normal high, as the National Weather Service lists it. Babies, grandparents and anyone short of breath suffer most. Installs come without much wait. For a broken mini-split, book Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the newer subdivisions across Union, these are the rooms that usually bring a ductless call:',
   localFaqs: [

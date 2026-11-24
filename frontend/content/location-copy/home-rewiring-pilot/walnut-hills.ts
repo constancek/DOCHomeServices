@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Plenty of buildings in Walnut Hills need some rewiring, and only testing tells whether that means a few circuits or the whole structure. Census figures place nearly half the homes here before 1940, which may still hide knob-and-tube or cloth-jacketed wire with no ground behind two-slot outlets. Close to four in five homes are rented, many in big apartment buildings where electric heat piles on load. We measure first, admit it when the wiring is fine, and hand the owner a written scope and flat figure before any opening.',
-  emergencyParagraph:
-    'In Walnut Hills, a same-day visit, weekends too, covers a smell of scorching inside the walls, a blackened receptacle, a switch that sparks, a breaker that trips the moment it’s reset, and a shock from a fixture. Flip the circuit off only if nothing near the panel is damp or hot. If smoke appears, get outside and call 911.',
   commonIntro:
     'In the old rowhouses and big apartment blocks of Walnut Hills, owners and tenants usually notice one of these first.',
   localFaqs: [

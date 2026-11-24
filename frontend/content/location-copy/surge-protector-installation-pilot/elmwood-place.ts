@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'The village of Elmwood Place holds a lot of old housing in a small area, and Census figures show nearly two in three homes date from 1939 or earlier. Plenty of those houses and two-families run on panels with no spare space, so the panel check decides whether a surge device fits and where. Close to two in three homes are rented as well, leaving most decisions with owners. We look before quoting, say so when strips will do, and fix the price before work begins.',
-  emergencyParagraph:
-    'Ring us about brown scorch marks on a switch plate or a breaker that keeps letting go, and most of those calls get a visit before the day is out, weekends too. Cut that circuit only if the panel is dry and within easy reach. Seeing smoke or flame means leaving the house first and phoning 911 second.',
   commonIntro:
     'In the old houses and two-families around Vine Street, these four signs usually mean a surge device deserves a look.',
   localFaqs: [

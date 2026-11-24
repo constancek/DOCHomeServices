@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Most homes in Miamitown are rentals. Census figures put 80.3% of households renting and 62.8% of units in buildings of five or more, so tank service usually falls to a landlord or manager, one closet heater per unit over a drain pan. Another 31.8% of homes went up before 1940, with basement tanks, old venting and drain valves that may not have moved in years. Electric heat is the norm here. Each tank is priced before work, and we say so when one isn’t worth servicing.',
-  emergencyParagraph:
-    'A heater spilling water: turn off the cold valve above it, flip its breaker or close the gas, and tell management. Gas odor: get out, skip switches and pilot, phone the gas company from the street. A carbon monoxide alarm: everybody out. A relief valve that won’t stop, or a cold tap, needs repair. Same-day on most calls, weekends included.',
   commonIntro:
     'In the apartment buildings and older houses of Miamitown, these are the signs a tank is due:',
   localFaqs: [

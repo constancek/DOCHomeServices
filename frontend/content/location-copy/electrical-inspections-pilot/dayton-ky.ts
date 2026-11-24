@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Dayton’s houses are old, and old wiring is what we look for first. Census figures count 47.5% of homes built in 1939 or earlier, many of them near the river and along Sixth Avenue. In those, cloth-covered or knob-and-tube wire may still be live in the walls, outlets often have no ground, and some panels were installed long before central air. Newer townhomes and apartments by the river are a different job. We inspect the whole system and price any repair before starting.',
-  emergencyParagraph:
-    'In an older Dayton house, treat these as urgent: a scorched or warm outlet, a switch that crackles or buzzes, sparks, a burning smell, or lights that dim hard when the air or a heater starts. Shut off that breaker. If smoke or flames appear, leave and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Dayton is half pre-war houses and half newer homes and apartments, with many rentals. What our inspections find most:',
   localFaqs: [

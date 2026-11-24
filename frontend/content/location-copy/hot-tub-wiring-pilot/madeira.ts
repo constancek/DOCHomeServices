@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'The 1950s were the busiest building decade in Madeira, by Census figures, and the median house dates to 1960. Almost every one is a detached, owner-occupied home. Breaker boxes sized for a 1950s family seldom leave an empty seat or much reserve for a spa, so that comes first. A soaking tub needs its own 240-volt GFCI breaker plus a disconnect the bather can see. Before any trench gets cut, your spa’s paperwork is checked against that box and you have a written price.',
-  emergencyParagraph:
-    'A spa GFCI that refuses to stay latched, or a breaker box that has started to buzz, is urgent. Bathers get out and nobody reaches for the pump or heater. Throw the disconnect only if you can get to it safely, and phone 911 for smoke. Same-day visits cover most calls in Madeira, weekend ones too.',
   commonIntro:
     'In Madeira, spa calls mostly begin in one of these four places.',
   localFaqs: [

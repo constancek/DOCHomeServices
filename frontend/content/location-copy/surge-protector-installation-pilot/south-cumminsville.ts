@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'Old and new sit side by side in South Cumminsville. Around Dreman Avenue, Census figures count nearly half the houses as pre-1940 and roughly one in six as built since 2010, and about seven in ten are owner-occupied. The old ones may have a breaker box without a slot to spare. The new ones generally have room, along with central air, a modern furnace and board-driven appliances. Either way the panel gets opened before any quote, we’ll tell you if strips suffice, and the price is settled beforehand.',
-  emergencyParagraph:
-    'Our same-day response, on most calls and weekends included, goes to a darkened outlet, a scorched odor from the panel, a breaker that clicks off after a reset, or a furnace that smoked as power returned. Flip the circuit off only standing dry. With smoke or fire, leave and call 911. Lights surging house-wide are Duke Energy Ohio’s first.',
   commonIntro:
     'Old houses and new builds near Beekman Street give off different warnings, and these four are the ones owners mention most when they call us.',
   localFaqs: [

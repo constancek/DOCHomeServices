@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Most Newtonsville houses went up between the 1960s and 1990s, so the wiring is usually grounded and in fair shape, and few people here need a rewire. What we do find is load. Census figures put more than half the homes around Newtonsville, now part of Wayne Township, on electric heat, with almost no natural gas, and that heat shares a panel with everything added since. A full inspection tells you how much room is left before a sale, a purchase or a new heat pump.',
-  emergencyParagraph:
-    'In a Newtonsville house, a switch or outlet giving off a scorched smell, heat, a buzz or soot marks can’t wait. Nor can sparks, or a breaker that throws itself again as soon as it’s pushed back. Leave that breaker off. Smoke or fire: get out, then phone 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'In the ranches, split-levels and manufactured homes around Newtonsville, these are the findings that come up again and again.',
   localFaqs: [

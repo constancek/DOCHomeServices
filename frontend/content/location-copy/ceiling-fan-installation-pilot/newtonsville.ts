@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Homes in Newtonsville and the rest of Wayne Township are almost all owner-occupied houses on their own ground, and Census figures date most to the 1960s through the 90s. Picture a ranch with flat ceilings, where a flush-mount fan sits right, and a bedroom box installed for a dome light, not a fan. Back porches and patios need a fan rated for weather. We test the box before anything else, tell you if a tightened mount stops the wobble, and lock in the price before the light comes down.',
-  emergencyParagraph:
-    'A fan that shudders, sags, smells like melting plastic or trips the breaker should stay off. Turn it off at the wall or the panel if you can reach either safely, and keep kids out of the room. With smoke or flame, get the family out and phone 911. We get to most calls the same day, weekends included.',
   commonIntro:
     'Most fan work we see around Newtonsville is in ranch houses, along with the porches built onto them.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Dry Run is a suburb of detached houses, most built from the 1970s onward; the median home dates to 1986, by Census figures. Builders put central air in from the start, so a tune-up goes straight to the coil, the condensate drain, the filter and the electrical parts. The air handler usually sits in the basement and the condenser on a pad beside the house, which keeps access easy. You see the flat price before any work, and a system that needs nothing is left alone.',
-  emergencyParagraph:
-    'If cooling quits during a heat wave, ice forms on the indoor coil or copper lines, or water pools by the furnace, book AC Repair; with ice, turn the thermostat to off so it thaws. A burning smell means shut it down. Babies, older relatives and anyone ill feel heat first. Same day on most calls, weekends included.',
   commonIntro:
     'In Dry Run, a homeowner usually books a tune-up after noticing something like this.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'Walnut Hills has some of the oldest ceilings we hang fans from. Census figures show nearly half the homes predate 1940, and close to four in five are rented, many in large apartment buildings. Those old rooms usually have plaster over lath and a shallow light box nobody intended for a spinning load, and plenty never had a fan. We cut in carefully, check the box, say when tightening alone will do, and fix a price before the fixture comes down.',
-  emergencyParagraph:
-    'Kill power to a fan at the switch or breaker if it shakes violently, peels away from the plaster, smokes, or trips the breaker on start, provided you can reach it safely. Keep everyone off the floor under it. With flames, leave the building and phone 911. Most calls in Walnut Hills get a same-day visit, weekends included.',
   commonIntro:
     'In Walnut Hills, pre-war flats, Gilbert Avenue rowhouses and newer towers all send us versions of these four.',
   localFaqs: [

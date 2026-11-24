@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'In Lockland, three things settle a fixture job before anyone opens a box of glass: what the ceiling box is fastened to, whether a grounding conductor made it up there, and whether the spot has ever held a light. The village grew up around the canal locks and the Stearns and Foster works, and its middle house dates from 1944. Close to half the homes predate 1940, so horsehair plaster and thin metal pans holding a single bulb are normal. We take a look up there, then quote, then start.',
-  emergencyParagraph:
-    'Treat a dining light sagging on its chain, a canopy browned by heat, a crackling wall plate or lights dimming across a floor as urgent. Flip that breaker if the panel is easy to reach, and move people from below it. Smoke or flame is a 911 call from outside. Most get a same-day visit, weekends too.',
   commonIntro:
     'Jobs in Lockland tend to land in one of these four buckets, from the old worker cottages to the larger brick houses.',
   localFaqs: [

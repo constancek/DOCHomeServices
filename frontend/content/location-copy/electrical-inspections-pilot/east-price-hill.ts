@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'East Price Hill splits into two kinds of electrical job. On the older streets, the houses and three- and four-family buildings date from before 1940, and Census figures put 40.1% of all homes here in that group. Those can still hide knob-and-tube runs and ungrounded outlets. The 1960s apartment buildings usually have sound wiring but panels sized for a different era. With nearly two thirds of homes rented, landlords book most inspections. We check it all and price repairs before work starts.',
-  emergencyParagraph:
-    'Call us the same day for a burning odor, an outlet or switch that feels hot or looks charred, buzzing, sparking, or a breaker that won’t stay on after one reset. Leave that breaker off. When there’s smoke or fire, nobody should stay inside; call 911 from outdoors. Weekends included, and most calls get a visit that day.',
   commonIntro:
     'From pre-war multi-family buildings to 1960s apartment blocks, here’s what we find most often:',
   localFaqs: [

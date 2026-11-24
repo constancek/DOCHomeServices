@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'Over-the-Rhine has two kinds of building, and the inspection is different in each. Census figures put 70.1% of homes here at 1939 or earlier, and some of those 19th-century buildings have been gutted and rewired, while others still run on what earlier owners left behind. A rehabbed condo usually needs a check for a sale or a new load; an untouched walk-up can hold knob-and-tube, fuses and ungrounded outlets. Most units sit in buildings of two or more apartments. We test, report and price repairs before starting.',
-  emergencyParagraph:
-    'Some signs mean act today: a smell of burning, a faceplate that’s hot, discolored or humming, sparks from an outlet, or a breaker that trips again as soon as it’s flipped back. Turn that breaker off. If you see smoke or fire, get out and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Over-the-Rhine’s walk-ups, rehabbed condos and older apartment buildings give us these findings most often:',
   localFaqs: [

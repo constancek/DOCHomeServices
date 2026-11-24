@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Burlington has young housing for a rewire. Census figures put the median year built at 1998, with close to half the houses built since 2000, so calls here are mostly for an addition, a finished basement, a remodeled kitchen or one stubborn circuit. The 1960s and 1970s houses are the ones to watch, since some may have aluminum branch wiring. We meter the circuits first, tell you if nothing needs doing, and put the scope and a flat price on paper before a saw touches drywall.',
-  emergencyParagraph:
-    'A breaker that snaps off again after a reset, a scorched or hot receptacle, sparks, or a shock from an appliance shouldn’t wait for a weekday appointment, and most calls get us out that day. Cut power to that circuit only if the panel is reachable and dry around it. Smoke or fire means leave and dial 911 from outside.',
   commonIntro:
     'Even in the newer subdivisions around Burlington, wiring that needs more than a quick fix gives itself away like this:',
   localFaqs: [

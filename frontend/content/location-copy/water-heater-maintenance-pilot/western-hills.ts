@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'Western Hills spans parts of Cincinnati, Cheviot and Green Township, and the housing is mostly postwar: Census figures give a median year built of 1958 for ZIP 45211 and 1962 for 45238. On a yearly visit that usually puts us beside a gas or electric tank near a basement floor drain, with a vent pipe running to a chimney and a drain spigot nobody has opened in years. You’ll hear the quote up front, and we won’t sell a service a dying tank can’t use.',
-  emergencyParagraph:
-    'Book a repair for these. Tank dripping from its shell: shut the valve on the incoming cold pipe and kill the burner or breaker. Gas in the air: get out, no switches, phone the gas company from the street. CO alarm: get everyone out. A stuck relief valve or no hot water too. Most are seen that day, Sundays included.',
   commonIntro:
     'A tank can work fine and still be overdue. In Western Hills these are the usual giveaways:',
   localFaqs: [

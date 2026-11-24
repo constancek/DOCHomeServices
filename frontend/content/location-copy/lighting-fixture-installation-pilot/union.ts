@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'In Union, the call is usually about the kitchen island: two or three pendants where the builder left a single drum light, or a foyer chandelier swapped once the kids are grown. Census numbers date the typical house here to 2007. Grounded copper runs to most ceilings, yet the plastic box a framing crew nailed up was sized for that drum light. So the box gets inspected first, and your quote is written down while the old light still hangs.',
-  emergencyParagraph:
-    'A swinging pendant, a canopy that smells scorched, brown marks on a dimmer plate or a breaker that snaps off with the foyer light all need a look today. Kill power at the panel if that is easy, and if smoke shows, get outside and phone 911. Most Boone County calls get us same day, Saturdays and Sundays too.',
   commonIntro:
     'Homeowners in Union tend to ring us about one of these four.',
   localFaqs: [

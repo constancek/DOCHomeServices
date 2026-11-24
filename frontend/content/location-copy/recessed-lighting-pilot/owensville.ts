@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Most recessed lighting we fit around Owensville gets wired from above, crouched in an attic over a ranch or split-level. Census figures put the village’s median home at 1974, roughly half of them from the 1960s and 1970s, so drywall ceilings with an attic overhead are typical and reaching the joists is easier than in a pre-war house. Wherever insulation lies against a can, its housing needs a listing for that contact. We crawl the attic, chalk the layout below and settle the price before cutting.',
-  emergencyParagraph:
-    'Heat or water inside a ceiling turns a can into a same-day job. Call when you smell something scorching, see a singed ring on the drywall, feel a trim too hot to hold, or find water dripping out of a light. Flip its breaker if you safely can, and leave for 911 if smoke appears. Weekends are covered.',
   commonIntro:
     'Around the village and out through Stonelick Township, these four recessed lighting jobs keep turning up:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'In Lawrenceburg, ceilings come in two ages. Census figures put about a third of homes at 2000 or newer, and more than a third of units are in apartment buildings. Newer units often bring tall living rooms and patios. Roughly one in six houses predate 1940, with plaster ceilings and a box hung for a glass globe. Either way the box gets tested before a fan goes up. If rebalancing will do, you’ll hear it, and you’ll have the price before the old fixture comes off.',
-  emergencyParagraph:
-    'Stop using a fan that knocks against its canopy, drops plaster or drywall dust, gives off a hot-motor smell, or takes the breaker out when it starts. Switch it off if that’s safe, and keep kids out of the room. Flames or heavy smoke mean leaving and calling 911. On most calls we’re there the same day, weekends included.',
   commonIntro:
     'In Lawrenceburg, our fan calls split between plaster-ceiling houses and newer apartment buildings.',
   localFaqs: [

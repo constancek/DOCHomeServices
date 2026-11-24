@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Mount Healthy is a small city of its own, founded in 1817, and most of its houses are mid-century. Census figures show a median year built of 1956, with a little over half of homes detached and about half rented. A box put in during the 1950s rarely has much spare room, so where a protector could go gets settled there before any price. We open it first, tell you plainly if a decent strip covers what you own, and set the number before work begins.',
-  emergencyParagraph:
-    'Ring us if a dryer, TV or furnace smoked as the power returned, or if a breaker refuses to stay on. Most calls are reached the same day, including weekends. If you can get to that breaker without standing in water or touching anything warm, switch it off. Smoke or flames are for 911, once everybody is out.',
   commonIntro:
     'Along Perry Street, Compton Road and the blocks between, these signs usually lead to a surge protection call in Mount Healthy.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'In Bond Hill, plenty of the housing dates from the railroad-suburb years and just after, and by Census figures close to half its housing is older than 1940. Behind that plaster, the ceiling box was usually chosen for a glass shade, and a spinning fan tugs and twists on it in ways nobody planned. Two-family houses and four-unit buildings sit alongside single homes, and renters fill nearly half. We drop the fixture, judge what the box can hold, tell you if tightening is enough and quote before work starts.',
-  emergencyParagraph:
-    'A fan rattling its canopy, a box torn loose from old lath, a motor that smells like burning and a switch that spits sparks can’t wait. Cut power at the wall or the breaker if safe, and clear the floor underneath. Fire or smoke means out and 911. We reach most callers the same day, weekends included.',
   commonIntro:
     'Old boxes behind plaster, doubles with one fan per unit, and Tudor-era rooms that never had a ceiling fan account for most calls we get in Bond Hill.',
   localFaqs: [

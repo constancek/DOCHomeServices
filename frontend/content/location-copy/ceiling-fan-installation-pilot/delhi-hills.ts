@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Up on this bluff west of downtown, owners live in nearly every one of the 2,008 homes, and Census figures date the median one to 1971. Bedroom lights from that decade sit on boxes picked for a fixture, not a fan’s steady tug, and many dens and family rooms in Delhi Hills got no ceiling outlet. Our electrician opens the box ahead of any quote, mentions it when weights or a turn of the screwdriver will fix things, and names a price while the old fixture is still in place.',
-  emergencyParagraph:
-    'A fan heaving on its mount, a whiff of burning, or crackling at the switch means it stays off until we see it. Flip the breaker if you can reach it without ducking under the blades. With any smoke, get the family outdoors and phone 911. We reach most of these the day you call, weekends too.',
   commonIntro:
     'Family rooms, dens and bedrooms built around 1971 account for nearly every ceiling fan request in Delhi Hills.',
   localFaqs: [

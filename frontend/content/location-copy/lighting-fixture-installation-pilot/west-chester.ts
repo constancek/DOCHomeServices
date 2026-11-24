@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'In West Chester, the typical request is a polished-brass foyer chandelier or a fluorescent kitchen box coming down after a remodel. The township built 6,207 of its homes in the 1990s, more than any other decade, and Census tables put the midpoint at 1988. Those subdivisions off I-75 have grounded wiring, but also two-story entries and great-room ceilings that are tough to reach, plus framing-crew boxes never meant for weight. We test the box before pricing, and the number is settled before a screw comes out.',
-  emergencyParagraph:
-    'A foyer chandelier slipping on its chain, a burnt odor from a kitchen fixture, browned plastic at a switch or lights blinking on several circuits needs attention today. Switch off that breaker if the panel is safe to reach. Should smoke or fire appear, leave and phone 911. Butler County calls usually get us out same day, weekends too.',
   commonIntro:
     'Around the township, these four requests come up most.',
   localFaqs: [

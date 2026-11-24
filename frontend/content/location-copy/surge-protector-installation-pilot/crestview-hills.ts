@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Most homes in Crestview Hills were built in the 1980s and 1990s, with a median of 1984 by Census figures, and about one in four is a townhome or condo. Over half run on electric heat, which usually means a heat pump whose circuit board takes every jolt the grid sends. We open the panel before quoting to see where a protector can sit. If a couple of good strips would cover your gear, you’ll hear that from us, and the price comes before any work.',
-  emergencyParagraph:
-    'A breaker box that smells burnt, or a receptacle gone black, should get an electrician out today, and so should a breaker that won’t stay reset. When every lamp brightens and fades together, phone Duke Energy Kentucky before us. If there’s smoke or flame, get everyone out and call 911. Weekend calls usually get a same-day visit too.',
   commonIntro:
     'Across the townhomes, condos and detached houses of Crestview Hills, these clues suggest a protector at the breaker box deserves a quote.',
   localFaqs: [

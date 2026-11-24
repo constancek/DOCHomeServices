@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell was platted along the railroad in 1868 and annexed by Cincinnati in 1912, and Census figures show close to two in three households there renting, so a charger is often the landlord’s project. Roughly a third of the buildings predate 1940, and a house that old may still carry its first modest service. Panels from the postwar decades tend to be full. We look over the panel, do the load math, tell you if Level 1 will cover it, and the owner signs off on a fixed price.',
-  emergencyParagraph:
-    'In Hartwell, stop charging if a plug or charger gets hot, an outlet shows scorch marks, a burning smell turns up, or a breaker trips with each charge. Flip the circuit off only if the floor is dry and nothing is hot. Leave first if there’s smoke or flame, then call 911. Same-day visits are typical, weekends included.',
   commonIntro:
     'Where most homes are rented and plenty sit in apartment buildings, these four situations account for most charger requests we get from Hartwell.',
   localFaqs: [

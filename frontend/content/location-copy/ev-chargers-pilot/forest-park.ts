@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Most houses in Forest Park are from the 1960s and 1970s by Census figures, and close to half of households rent. Those panels were filled one circuit at a time for decades, so a 240-volt car line may need room cleared first. Electric heat shows up often too, and it weighs on the arithmetic. Tenants need the landlord’s written approval before anything is installed. We open the panel before quoting, say so when the trunk cord will cope, and agree a price before any wire moves.',
-  emergencyParagraph:
-    'Stop charging when a breaker falls each time the car connects, when the unit or receptacle looks scorched or feels hot, or when something smells burnt. Flip that circuit off only with dry hands at a cool panel. If smoke or flame shows, step out and dial 911. Most calls see us the same day, weekends included.',
   commonIntro:
     'Across the 1960s and 1970s streets of Forest Park, these four situations most often call for a Level 2 charger.',
   localFaqs: [

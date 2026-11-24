@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Most tanks we flush in Wyoming sit in basements of houses put up around 1954, the median by Census figures, and 24.9% of the housing predates 1940. That age brings flue pipe with surface rust, a drain spigot nobody has cracked open in decades, and gas piping we trace by eye. With 88.9% of homes owner-occupied, you’re usually booking for your own showers. You hear the flat figure first; if the heater isn’t worth the visit, we say that out loud.',
-  emergencyParagraph:
-    'Dripping or pooling: twist the cold supply shut up top, then its gas cock or breaker. Any whiff of gas: get out, hands off switches and pilot, then ring the utility. A carbon monoxide alarm sounding: empty the house first. A relief valve that won’t quit spitting, or no hot water, means a repair. Same day for most, weekends too.',
   commonIntro:
     'Calls from Wyoming for a tank service tend to start with something like this:',
   localFaqs: [

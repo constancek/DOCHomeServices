@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Most electrical inspections we do in Mount Auburn are in 19th-century houses and the two-families and small apartment buildings around them. Census figures put 56.6% of homes here at 1939 or earlier, so knob-and-tube or cloth-covered wire can still be live behind the plaster, feeding ungrounded outlets and a fuse box or a small early panel. The apartment buildings put up since 2010 are another story and usually check out fine. We trace the system, note each problem in writing and give you a price before any repair.',
-  emergencyParagraph:
-    'A burning smell, a humming or hot switch plate, sparks at a plug, or a breaker that won’t stay on in a Mount Auburn house can’t sit on the calendar. Shut that breaker off. With smoke or fire, get out and call 911. A technician comes the same day on most calls, weekends included.',
   commonIntro:
     'Mount Auburn houses have often been wired and rewired a piece at a time over a century. What we turn up most:',
   localFaqs: [

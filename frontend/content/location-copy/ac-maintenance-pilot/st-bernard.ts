@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'Doubles and older houses make up much of St. Bernard, and a lot of them had central air added well after they were built. Census figures show the median home dates to 1955 and 17.6% of homes are in two-unit buildings, so condensers often share a narrow side yard and the air handler sits next to the furnace in the basement. In the doubles, the owner books both sides. The price is set before we start, and an AC in good order gets told so.',
-  emergencyParagraph:
-    'An AC that quits in a heat wave needs repair, not maintenance. Iced lines mean shutting it down at the thermostat. Leave it off for a ceiling stain or a burnt smell. Older relatives, babies and the ill are most at risk. Most calls get us the same day, weekends too.',
   commonIntro:
     'In the houses and doubles of St. Bernard, these signs usually mean it’s time.',
   localFaqs: [

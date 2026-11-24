@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'In Lawrenceburg, housing ranges from downtown brick to brand-new builds. Census figures give a median year built of 1983, with about a third from 2000 on and roughly one in six from 1939 or earlier. Newer houses usually have panel room, and then the tub’s spot and the conduit distance drive the job. An older place near downtown may lack a slot or headroom for the spa breaker, which we settle first. Your panel is checked against the spa’s requirements, and the quote comes before work starts.',
-  emergencyParagraph:
-    'A tingle from the water, a GFCI that trips again after every reset, or a buzzing panel means everybody gets out of the tub. Open the shutoff only if that’s safe. Spa gear that sat in floodwater stays off until it’s been tested. Smoke or fire means a 911 call. Most calls bring us out the same day, weekends included.',
   commonIntro: 'In Lawrenceburg, most spa wiring calls fall into one of these.',
   localFaqs: [
     {

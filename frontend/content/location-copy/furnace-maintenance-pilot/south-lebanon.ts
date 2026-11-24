@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'South Lebanon is mostly fresh subdivisions wrapped around an old riverside core. Census figures count 65.9% of homes built in 2000 or later and 54.8% heated by gas, so the typical checkup is a builder’s gas furnace in a basement. On the older streets by the Little Miami, houses predate 1960, the furnace is usually a replacement, and the flue deserves extra time. Electric heat, heat pumps among it, covers much of the rest. The flat price comes first, and we’ll say so if nothing needs work.',
-  emergencyParagraph:
-    'Not maintenance: a gas smell (get outside, leave lights and the pilot be, call the gas company from the yard), a carbon monoxide alarm (all out before anything else), no heat in a cold snap, nonstop cycling or a yellow flame. Those need repair, soonest with infants or older family at home. Most calls are same day, weekends included.',
   commonIntro:
     'Builder furnaces in the newer subdivisions, and a few older ones near the river, are what we check most in South Lebanon. Owners book after:',
   localFaqs: [

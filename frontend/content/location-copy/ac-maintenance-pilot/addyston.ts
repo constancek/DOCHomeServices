@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'We do two kinds of tune-up in Addyston. Small company houses from before 1930 had cooling added decades later, which leaves cramped duct runs and an outdoor unit jammed into a strip of yard between neighbors. Census figures show 61.1% of homes here are rented, so many visits are for a landlord with apartments to keep running through summer. Either way, you see a flat price before we touch anything, and if your system turns out fine, we tell you so and leave.',
-  emergencyParagraph:
-    'An AC that quits during a heat wave, frost growing on the copper lines, or a breaker that flips again after you reset it all need a repair, not a tune-up. Shut the cooling off at the thermostat. Keep older relatives, babies and anyone ill somewhere cool. We can usually be there the same day, Saturdays and Sundays too.',
   commonIntro:
     'These are the signs that usually send an owner or landlord to book a spring visit for an AC in Addyston.',
   localFaqs: [

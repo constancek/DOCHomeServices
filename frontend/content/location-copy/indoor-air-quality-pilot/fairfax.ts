@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'In Fairfax, air quality trouble usually starts in the basement. By Census count the typical house in the village dates to 1942, and nearly half went up before 1940, so drafts are normal and the old ductwork lifts basement dust into the bedrooms. Lower Fairfax has flooded more than once along Little Duck Creek, most recently in July 2026, and a basement that took water can hold damp for weeks. We measure before we recommend, quote one flat price, and tell you when a new filter is the whole fix.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends everyone outside to call 911. With gas in the air, leave the switches alone and ring the gas company outside. Switch off a furnace or AC that smells scorched. After a flood, spreading mold can’t wait, least of all around babies, grandparents or asthma. Most calls get us there the same day, weekends included.',
   commonIntro:
     'In the older houses near Little Duck Creek and up the hill, poor air usually shows itself in one of these ways.',
   localFaqs: [

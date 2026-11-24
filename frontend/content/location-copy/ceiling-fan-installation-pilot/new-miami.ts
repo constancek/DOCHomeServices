@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'Picture a 1950s bedroom in New Miami with one glass dome overhead. That dome is where most of our fan jobs here begin. By Census count, half the houses in the village were standing by 1960 and nearly all are detached, so the fixture boxes are old, small and meant for a lamp, not a spinning load. Roughly three households in eight rent. Before quoting, we unscrew the dome and look, mention it if the problem is only loose screws, and name the price ahead of any work.',
-  emergencyParagraph:
-    'If the fan lurches on its mount, the motor gives off smoke or a scorched odor, or the breaker snaps off the moment it starts, cut power at the wall or panel when safe and clear the room. Flames mean leaving the house and phoning 911. We answer most of these the same day, weekends too.',
   commonIntro:
     'Older detached houses, many from the 1950s and 1960s, bring us most of the ceiling fan work in New Miami.',
   localFaqs: [

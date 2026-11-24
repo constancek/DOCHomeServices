@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'In Lincoln Heights, recessed lighting is mostly an owner or landlord pulling down tired ceiling fixtures and leaving a cleaner ceiling for the next tenant. Census figures show about three homes in four here are rented, and the median house dates from 1973, so ceilings are mostly drywall with an attic or another unit above. Houses share the village with apartment buildings and managed complexes, whose residents go through management. For owners, we check overhead and the circuit, mark the layout and price it first.',
-  emergencyParagraph:
-    'A can that clicks off and on, a scorched ring around a trim, a hot or humming switch, or water through a light all need attention that day. Kill its breaker if you can safely, and leave and dial 911 if smoke shows. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'For owners and landlords in Lincoln Heights, recessed lighting work usually looks like one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'In Batavia, the county seat, a third of village homes date from 1939 or earlier and the median is 1955, by Census figures. Expect the furnace in the basement of an old house, on its second or third replacement, often venting up a chimney older than it is. That flue and the heat exchanger take most of our time. Gas heats over half the village; about four in ten homes are rented. The flat price comes first, and if nothing is needed, you’ll hear it.',
-  emergencyParagraph:
-    'Some calls are repairs. Gas smell: go out quietly, no switches, no lighter, ring the gas company from the porch steps. Carbon monoxide alarm: everyone out. Heat gone while it’s freezing, a furnace that won’t finish a cycle, or a flame gone yellow. Small children and older relatives feel it first. Same day on most calls, weekends included.',
   commonIntro:
     'Around the courthouse and the older streets, owners in Batavia tend to call for a tune-up after one of these:',
   localFaqs: [

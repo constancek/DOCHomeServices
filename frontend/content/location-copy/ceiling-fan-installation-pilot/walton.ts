@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton’s houses come from two eras, and each asks something different of a ceiling fan. About one home in five, by Census figures, predates 1960, while over half have gone up since 2000. Older bedrooms near Main Street tend to hide a shallow light box nobody sized for spinning weight. Newer subdivision builds lean toward tall great rooms wanting a down rod and back patios wanting a weather-rated fan. We open the box first, admit when a rebalance cures it, and agree a price before anything gets unscrewed.',
-  emergencyParagraph:
-    'Stop using a fan that lurches on its mount, hangs crooked from a loosened box, puffs smoke, or trips the breaker on startup. Kill it at the wall or the panel if reaching either is safe, and steer everybody away from underneath. Flames mean getting outside and dialing 911. Most calls in Walton see us same day, weekends included.',
   commonIntro:
     'Old-town lots off Main Street and cul-de-sacs from the last two decades both produce these four complaints in Walton.',
   localFaqs: [

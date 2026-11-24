@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'California is almost all detached houses, and Census figures show 76.9% of them on utility gas, with most built after 1940. The typical job by the river is a gas furnace in a basement or utility room, often the second unit the house has owned, with its flue to follow and its heat exchanger to inspect. Hardly anyone rents here, so the person booking usually lives with the furnace. We name the price before starting, and an untroubled furnace gets an honest all-clear.',
-  emergencyParagraph:
-    'Some problems outrank a tune-up. Gas odor in the house: everybody out, no switches, no relighting, and the gas company gets called from the driveway. A carbon monoxide alarm: clear the house first. Add a furnace dead in a cold snap, a stop-start loop, or a soft yellow flame. Infants and older relatives come first; usually same day, weekends too.',
   commonIntro:
     'Owners along Kellogg Avenue usually book a fall visit after one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Most of Covedale is owner-occupied single-family houses. On the township side, Census figures give 1959 as the median year built, and a third of all homes there are from the 1950s, while blocks on the city side along Glenway Avenue are older. Over the decades owners added central air, newer furnaces and appliances with electronics, often onto a breaker box that may be undersized or out of slots. We open the box first, admit it when strips are enough, and settle the price before work.',
-  emergencyParagraph:
-    'In Covedale, brown marks on a switch plate, a hot smell from the panel, a breaker that keeps kicking off, or a dryer that sparked as power returned mean call us now; most calls get a visit the same day, weekends too. Only touch the breaker if your hands and the floor are dry. Smoke means leave and phone 911.',
   commonIntro:
     'In a neighborhood of 1950s houses and older homes along Glenway Avenue, these are the signs that usually come up in Covedale.',
   localFaqs: [

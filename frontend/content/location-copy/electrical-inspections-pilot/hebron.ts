@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Hebron is mostly subdivisions from the 1990s and 2000s, so an electrical inspection here is usually about a transaction or an upgrade, not old wiring. Census figures for the 41048 ZIP put the median home at 2002, with 82.1% built in 1990 or later. Wiring that new is generally sound. The common questions are whether the panel can take a hot tub or a heat pump upgrade, and whether a past owner’s add-ons were done right. We check, report, and price fixes up front.',
-  emergencyParagraph:
-    'Even in a newer Hebron home, a few things call for a technician today: a switch or outlet that’s hot, a buzzing or crackling sound from a box, sparks, or a breaker that trips the instant it’s reset. Shut that breaker off. Smoke or fire: leave and call 911. Most of these get a same-day visit, weekends too.',
   commonIntro:
     'Around Hebron, nearly every call is a detached house in a subdivision, and the findings follow a pattern:',
   localFaqs: [

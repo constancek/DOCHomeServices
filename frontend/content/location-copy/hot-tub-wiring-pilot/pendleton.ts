@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Pendleton’s spa jobs land in rowhouses, carriage houses and a handful of new townhouses, each with a courtyard, rear yard or deck. Census figures show about four in five homes here date from 1939 or earlier, and a building that old often lacks a free slot for a spa breaker. Homes built since 2010 usually have one, so there the route out to the tub sets the work. We size it all against the spa’s nameplate and price it before conduit goes in.',
-  emergencyParagraph:
-    'Get out of a spa whose GFCI trips straight back after a reset, whose shutoff looks burnt, or whose water tingles. A buzzing panel counts too. Keep hands off everything, switch off at the shutoff only when it’s safe, and treat smoke as a 911 call. Weekends included, most calls get a same-day visit.',
   commonIntro:
     'Owners in Pendleton tend to reach out about spa wiring for one of these.',
   localFaqs: [

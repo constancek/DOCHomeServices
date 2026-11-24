@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'In Mulberry, nearly three in four homes went up in 1980 or later, Census figures show, so a spare slot in the panel is common, but about three in five homes heat with electricity, and that winter draw already sits on the panel. Only about two in five homes are detached houses, so townhouse and condo owners often need association approval before the spa’s 240-volt GFCI circuit, disconnect and bonding go in. We weigh your panel against the spa maker’s requirements and price the work before conduit is run.',
-  emergencyParagraph:
-    'A spa in Mulberry is an emergency if a bather feels a tingle, the GFCI drops again the second it’s reset, or the panel smells scorched. Everyone climbs out and leaves the equipment cabinet alone. Throw the breaker only from dry, safe footing, and dial 911 for smoke or fire. Expect us the same day on most calls, weekends included.',
   commonIntro:
     'Spa calls from Mulberry, by the I-275 and SR 28 interchange, usually start with one of these.',
   localFaqs: [

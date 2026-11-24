@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Mason’s furnaces are young by Cincinnati standards. Census figures show 52% of houses here were framed between 1990 and 2009, which means most tune-ups happen on a builder-grade unit sitting in an unfinished basement or tucked into a townhome utility closet. There’s rarely an old chimney to worry about. Our time goes to the burner, blower, filter and safety switches instead. Gas heats 60.3% of homes. We name the flat price before touching anything, and if your furnace is in good shape, you’ll hear that from us.',
-  emergencyParagraph:
-    'Call for repair, not a tune-up, on these. Gas odor: out the door, switches untouched, pilot left alone, gas utility phoned from the driveway. Carbon monoxide detector sounding: same exit first. A cold furnace in a hard freeze, burners flicking on and off, or floppy yellow flames. Infants and grandparents chill fastest. Usually same day, Saturdays and Sundays too.',
   commonIntro:
     'Owners in Mason tend to book a fall check when they notice something like this:',
   localFaqs: [

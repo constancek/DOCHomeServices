@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Williamsburg was founded in 1796, and Census figures show close to three houses in ten built before 1940, with the median at 1961. Those oldest houses often carry a small or crowded electrical panel, so finding room for a whole-house protector is the first job. Homes put up since then hold more of what spikes ruin, such as central air, a newer furnace and appliances run by electronic controls. Our electrician checks the panel, admits it when a few outlet strips would suffice, and settles the price before work.',
-  emergencyParagraph:
-    'A furnace or fridge that sparked when the lights came back, or a panel that smells singed after a storm, shouldn’t sit overnight. Cut that circuit only if you can reach it dry and touch nothing hot. Any smoke or fire means getting out and dialing 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'From the pre-1940 houses of the village to the newer ones nearby, these are the clues that tend to bring a call.',
   localFaqs: [

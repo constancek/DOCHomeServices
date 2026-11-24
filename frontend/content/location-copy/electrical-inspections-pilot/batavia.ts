@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'Batavia village is one of the older places we inspect in Clermont County. Census figures show 33.7% of homes built before 1940 and a median of 1955, so many houses can still have cloth-covered or knob-and-tube wiring, two-prong outlets, and fuse boxes or small panels. Those are the findings buyers and sellers here ask about most. About four in ten homes are rented, so landlords call too. We test the whole system, write every finding down and quote work before any starts.',
-  emergencyParagraph:
-    'A few things move straight to the front of our schedule: an odor of hot plastic, outlets or cover plates gone warm or brown, crackling, sparks, a breaker that won’t stay up. Flip that circuit off at the panel. With smoke or flame, leave and phone 911. Most such calls get someone out that day, weekends as well.',
   commonIntro:
     'Batavia calls come from prewar houses in the village core and the village’s apartment buildings. What we find most:',
   localFaqs: [

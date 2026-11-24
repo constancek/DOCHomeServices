@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Most East Westwood homes are rented, 75.9% by Census figures, so landlords and managers book most of our inspections here. The housing leans toward the 1950s, with a median home from 1958, and wiring from that era tends to be light on circuits, laid out before window units and today’s kitchens. With 61.9% of homes heating with electricity, panel capacity is the first thing we check. Owners of the older houses near Harrison Avenue get the same full look. Every repair is priced before we touch it.',
-  emergencyParagraph:
-    'If you smell burning, feel heat at a switch plate, hear buzzing from an outlet, see sparks, or a breaker trips again straight after a reset, turn that breaker off. Renters should tell the landlord right away; owners can call us. Leave and call 911 if there’s smoke or fire. Most calls get a technician the same day, weekends included.',
   commonIntro:
     'East Westwood is roughly four in ten detached houses and four in ten apartment units, and both show these problems:',
   localFaqs: [

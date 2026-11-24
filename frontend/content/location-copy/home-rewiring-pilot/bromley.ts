@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Roughly half the houses in Bromley were standing before 1940, according to Census figures, which means wiring older than the appliances it now feeds. A prewar house may have knob-and-tube or cloth-wrapped runs with no ground. The Ohio River has pushed water into basements here more than once, most recently in April 2025, and any outlet or box that sat in floodwater needs testing before it’s used again. We test before quoting, say so when the wiring is fine, and write the scope and flat price before a wall opens.',
-  emergencyParagraph:
-    'Phone us the same day for an outlet smelling of burning, a hot cover plate, a breaker that drops again after a reset, or a jolt from a fixture, weekends included. Only switch the circuit off if the panel is dry, which after a flood it may not be. With smoke or fire, get out and call 911.',
   commonIntro:
     'In the old houses near the river in Bromley, wiring that is overdue for replacement usually shows itself one of these ways:',
   localFaqs: [

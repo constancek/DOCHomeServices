@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Harrison is mostly newer housing. Census figures put the median house at 1992, and many were built after 2000, so most bathrooms here came with a fan. The trouble is that builder fans are often too small for the bathroom they serve, and some are loud from day one. Older houses near the center of town are a different case, with fans added later and sometimes ducted into the attic. We trace the airflow and price the fix before cutting into anything.',
-  emergencyParagraph:
-    'A scorched smell, a browned or melted housing, sparks, or a breaker that keeps getting knocked off means killing the fan at the switch or panel if that’s safe. Water coming through the grille is urgent as well. Smoke or fire means leave and ring 911 from the driveway. Same-day visits are normal for most calls, weekends included.',
   commonIntro:
     'In the subdivisions built since the 1990s and the older blocks closer to downtown Harrison, these signs bring us out most.',
   localFaqs: [

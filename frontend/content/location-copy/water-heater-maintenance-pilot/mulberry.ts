@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Housing in Mulberry is younger than most people guess. Census figures set the median build year at 1988, and about four in ten units are in condo or apartment buildings of five or more. A 1990s house means a plain drain, rod inspection and valve test. A condo usually tucks its heater into a narrow closet above a pan, and the association or owner may set who services it. You get a quote first, and if a heater isn’t worth the visit, we say so.',
-  emergencyParagraph:
-    'Casing spilling water: crank its overhead cold valve closed, then switch off electricity or gas. Catch a gas odor and you head outdoors, ignore every switch and the pilot, and dial the gas company. Carbon monoxide alarm: all residents out. Relief valves that keep venting and zero hot water need repair too. Same day typically, weekends included.',
   commonIntro:
     'For condos and newer houses in Mulberry, these usually mean the heater is ready for its yearly visit:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'More than a quarter of the houses in Hamilton were built in 1939 or earlier, Census figures show, and the median dates to 1956. Breaker boxes put in during those decades were never meant for today’s load, so the open space in yours shapes the quote. Nearly half of households rent, so owners decide, and plenty of those old houses now hold a newer air conditioner and furnace. Before quoting, an electrician looks inside your box, says when strips are enough, and fixes the price before starting.',
-  emergencyParagraph:
-    'An outlet with a melted face, a burning smell at the breakers, or a dryer that sparked as power came back can’t wait. If the whole house brightens and dims, call the city’s electric utility first. If you see smoke or fire, leave the house before you call 911. Expect us that day on most calls, weekends too.',
   commonIntro:
     'These four signs, in pre-war houses and newer builds alike, are what lead most owners in Hamilton to ask about surge protection.',
   localFaqs: [

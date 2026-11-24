@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every household in Winton Hills rents, and most live in CMHA’s two big communities, the red-brick Winton Terrace from 1940 and 1941 and Findlater Gardens from 1958. A light there gets fixed through a housing authority work order. Our customers in the neighborhood are the people who own its detached houses and two-family buildings, plus their managers. Census figures place the median home at 1955, an era of one ceiling light per room on boxes made for little weight. We inspect, then quote.',
-  emergencyParagraph:
-    'Some fixture trouble can’t sit overnight, like a light coming out of the plaster, a switch plate hot or buzzing, or a breaker popping whenever one light goes on. Turn off that circuit if you safely can. CMHA residents should flag it to management. At any smoke, get out and call 911. Owners usually see us that day, weekends too.',
   commonIntro:
     'The fixture jobs owners bring us here are mostly these.',
   localFaqs: [

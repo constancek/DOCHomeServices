@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Whatever is packed into the attic decides most recessed lighting work along the riverbank in Melbourne. Census figures date the median house to 1958, close to three in ten predate 1940, and nearly every one is a detached place lived in by whoever owns it. Prewar homes off Mary Ingles Highway tend toward horsehair plaster and cramped space beneath the upstairs roof, while postwar ones mostly have a walkable attic with insulation laid across the joists. Every opening is marked and priced before any cutting happens.',
-  emergencyParagraph:
-    'A downlight giving off a scorched odor, a trim too hot for fingers, browning plaster around a light or water seeping from a can is urgent. If the panel is safe to reach, shut that breaker. With smoke or flame, get everybody outside and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'Between the river and the hillside, here is what owners usually want lit when they ring us from Melbourne.',
   localFaqs: [

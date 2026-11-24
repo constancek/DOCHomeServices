@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Elsmere was settled in 1885 as South Erlanger, and its houses span every era, though Census figures put the typical one at 1970 and about one in five went up after 2000. That spread changes the fan problem. Mid-century bathrooms often have a fan that’s worn out or one that never got a real duct. Newer houses have fans, but the builder-grade units are frequently too small for the bathroom they serve. We check the airflow, see where the duct ends and price the fix before cutting into the ceiling.',
-  emergencyParagraph:
-    'Don’t let it ride if the fan gives off a burning smell, has a scorched or melted housing, sparks, smokes, won’t let the breaker hold, or leaks water. Throw the breaker off if that’s safe. Smoke or flame means leaving the house before dialing 911. Most calls in Elsmere get a same-day visit, weekends too.',
   commonIntro:
     'From mid-century streets to the subdivisions built since 2000 in Elsmere, these are the signs homeowners call about.',
   localFaqs: [

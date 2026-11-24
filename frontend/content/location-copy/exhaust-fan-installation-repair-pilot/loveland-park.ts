@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'In Loveland Park, exhaust fan work splits along the age of the house. The oldest homes grew from small 1920s lots along the Little Miami, and many of those bathrooms were finished with a window and no fan, or got one later that vents into the attic. Census figures put the median house at 1990, though, and the newer ones mostly have fans that are simply too small for the bathroom. Either way, we follow where the air actually goes and quote the fix before opening the ceiling.',
-  emergencyParagraph:
-    'A fan grille that drips water, or a brown stain creeping across the ceiling around it, tells you moisture has reached the drywall and wiring, and a burning smell is worse. Kill the power at the switch or breaker when that’s safe, and with smoke or fire, get clear and phone 911. We’re usually out that day, weekends too.',
   commonIntro:
     'From the old river lots off Shore Road to the newer streets, these signs are what usually get us called to Loveland Park.',
   localFaqs: [

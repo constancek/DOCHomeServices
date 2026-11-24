@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Census numbers count almost every home in Winton Hills as rented, and most are CMHA units at Winton Terrace and Findlater Gardens, where a tenant can’t add a hot tub and requests go to management. Our spa work here is for owners of the private houses and two-families, in a neighborhood whose median build year is 1955. Panels that age usually lack room or capacity for a spa breaker, so that’s settled first. We read the panel against the tub maker’s spec and quote before conduit goes in.',
-  emergencyParagraph:
-    'Call us if the spa’s ground-fault breaker won’t stay on, the disconnect smells scorched, or anyone gets a tingle off the tub’s metal. Everybody should step clear without touching the water; switch off the breaker only if you safely can. With smoke or fire, get out and dial 911. Private owners usually get a visit that day, weekends included.',
   commonIntro:
     'Owners of the private houses in Winton Hills tend to call about spa wiring for these four reasons.',
   localFaqs: [

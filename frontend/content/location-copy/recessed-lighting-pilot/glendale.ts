@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Most of Glendale was built before the Second World War, which shapes every recessed lighting job here. By Census figures, upward of half the houses in the village predate 1940, and Italianate and Second Empire styles are common in the district, so plaster on lath, a center light per room and shallow cavities under the second floor are what we usually open into. Postwar houses have drywall and an attic and go faster. We mark positions on the plaster with you and settle the price ahead of cutting.',
-  emergencyParagraph:
-    'Brown staining on the plaster near a downlight, a scorched smell, or water trickling from a trim is reason to switch that breaker off, provided you can reach the panel without risk. If there’s smoke or flames, everyone leaves and one of you dials 911 from the yard. Most calls get a visit that same day, Saturday and Sunday too.',
   commonIntro:
     'Inside and outside the historic district, our recessed lighting work in Glendale is mostly in pre-war houses with plaster overhead. These four jobs come up most.',
   localFaqs: [

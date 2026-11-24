@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Three kinds of housing sit side by side in Lawrenceburg, and the fan trouble differs with each. Per Census figures, roughly a third of homes are post-2000 builds, many are apartments or townhouses, and a smaller group of prewar houses clusters around downtown. The newer places tended to get a fan a size too small. In the old houses, a fan was often added decades on and aimed into the attic, if one was added at all. We find where the air goes and set a firm price first.',
-  emergencyParagraph:
-    'Some faults shouldn’t wait for a weekday, so we come the same day on most calls, weekends included. Watch for a scorched odor, a fan cover going dark or soft, sparks, smoke, a breaker that won’t hold, or water dribbling from the grille. Kill the switch or breaker if that’s safe. With smoke or flames, get outside and phone 911.',
   commonIntro:
     'In the prewar blocks near downtown, the subdivisions on the edge of town and the apartment buildings in between, these signs bring most calls:',
   localFaqs: [

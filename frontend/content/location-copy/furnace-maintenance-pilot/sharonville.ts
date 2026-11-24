@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Sharonville is a mix of owners and renters: 42.9% of homes are rented, by Census figures, and about three units in ten are in apartment buildings. So one day’s tune-up is a basement furnace under a 1970s house, the next a hall-closet furnace in an apartment, scheduled by the landlord. Most of the housing went up between 1960 and 1999, so the work centers on filter, blower, burners and safety controls more than old chimneys. You see a flat price first, and a furnace that’s fine gets left that way.',
-  emergencyParagraph:
-    'Gas odor: get out, leave switches and the pilot alone, and phone the gas company from the parking lot. Carbon monoxide alarm: clear the unit. No heat in a cold snap, a floppy yellow flame, or a furnace looping off and on are repair calls. Babies, older neighbors and anyone sick suffer first. Same day on most, weekends included.',
   commonIntro:
     'Landlords with apartment buildings and owners of 1970s and 1980s houses in Sharonville tend to book after seeing one of these:',
   localFaqs: [

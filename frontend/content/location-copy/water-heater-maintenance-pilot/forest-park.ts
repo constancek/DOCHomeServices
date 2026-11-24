@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'The first homes in Forest Park opened in 1956, and the building kept going: Census figures date 58.5% of houses to 1960 through 1979. Their heaters mostly stand downstairs or in a utility room with space for our hose, so the visit is drain, anode, valve and either venting or wiring. Renters are 45.2% of households, many in apartment buildings with a closet tank on a pan for each unit, booked by the landlord. You get the price before work, and a straight no if a tank isn’t worth it.',
-  emergencyParagraph:
-    'A puddle at the base of the heater means repair: close the cold inlet valve on top, then the gas or breaker. Smell gas: go outside, switches and pilot untouched, ring the gas company. Carbon monoxide alarm: house empties first. A relief valve that won’t quit, or no hot water: repair. Same day on most calls, weekends included.',
   commonIntro:
     'In the houses and apartment buildings of Forest Park, a tank usually shows one of these first:',
   localFaqs: [

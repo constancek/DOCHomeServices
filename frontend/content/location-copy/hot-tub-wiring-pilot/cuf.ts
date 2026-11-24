@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'In CUF, renters outnumber owners more than four to one by Census count, so spa work here mostly lands with landlords and owner-occupants of the houses and two-families that still have a yard or deck. Clifton Heights and Fairview hold the oldest stock, much of it standing since before 1940, and breaker boxes that age seldom have a free position or headroom for a spa. Settling that comes first. We read the tub’s electrical sheet against the box and give a written number before any trench.',
-  emergencyParagraph:
-    'Call right away in CUF about a breaker that flips off as soon as it’s pushed on, a scorched smell at the cutoff, a crackling panel, or a tingle in the water. Get people out of the water. Shut the breaker only if that carries no risk; with smoke, get outside and call 911. Same-day visits are usual.',
   commonIntro:
     'Here’s what owners with a yard, deck or patio ask about most in CUF.',
   localFaqs: [

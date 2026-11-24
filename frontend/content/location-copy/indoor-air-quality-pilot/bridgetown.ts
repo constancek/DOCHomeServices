@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'Most houses in Bridgetown are lived in by their owners, about nine in ten by Census figures, and the median one was built in 1962, with the 1940s and 1950s the busiest building years. So most air quality calls along Bridgetown Road involve a mid-century basement that runs damp every summer and original ductwork carrying years of dust. We read the air before suggesting anything, quote before working, and if a new filter clears it up, that’s our whole recommendation.',
-  emergencyParagraph:
-    'Carbon monoxide alarms empty the house first and get 911 second. A gas odor means using no switches, walking outside, and phoning the gas company. Burning smells from the furnace or AC call for the thermostat to go off. Mold creeping after water damage is urgent for toddlers, older parents and asthmatics. We’re out same day on most, weekends too.',
   commonIntro:
     'Mid-century houses in Bridgetown tend to give away air trouble like this:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'Census figures show the typical house in West Chester Township was built around 1988, and the 1990s saw more building than any other decade, so many houses are on their second or third air conditioner. Those replacements, plus newer furnaces, smart thermostats and kitchens run by touch controls, are what surges grind down. A breaker box from that era may have spare spaces or may have filled when a basement was finished. We open it first, say so if strips would cover you, and you approve the price first.',
-  emergencyParagraph:
-    'A breaker that won’t hold after one reset, a switch that smells hot after a thunderstorm, or a fridge that threw sparks when the power came back gets a same-day trip on most calls, weekends included. Only shut that circuit off if the panel is dry and cool. With smoke or flames, get everybody outside and call 911.',
   commonIntro:
     'Across the subdivisions of West Chester, most of them built between the 1970s and the 1990s, these are the signs owners mention when they ask about surge protection.',
   localFaqs: [

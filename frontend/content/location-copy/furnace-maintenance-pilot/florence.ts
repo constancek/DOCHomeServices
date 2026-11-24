@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'In Florence, heating is split almost down the middle, 48.9% gas against 48.5% electricity in Census figures, and renters slightly outnumber owners, with condos and apartment complexes making up a big share of the city. One morning’s tune-up is a gas furnace under a 1960s ranch; the afternoon’s is an electric unit tucked in a condo closet, booked by the landlord. With 1972 as the median year built, few visits involve old chimneys. We name the price up front, and say plainly when a furnace needs nothing.',
-  emergencyParagraph:
-    'In Florence, some calls skip maintenance and go straight to repair. Gas odor: walk out, hands off switches, phone the gas company once clear. Carbon monoxide alarm: nobody stays inside. A furnace dead in freezing weather, one stuck flicking off and on, a yellow flame. Babies, grandparents and the sick feel it fastest. Most get same-day visits, weekends included.',
   commonIntro:
     'Condos, apartment complexes and ranches from the 1960s and 1970s fill much of Florence, and owners tend to book over one of these:',
   localFaqs: [

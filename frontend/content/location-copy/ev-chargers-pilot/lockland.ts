@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'In Lockland, which grew beside the canal locks, close to half the housing was standing by 1939, Census figures show. Plenty of those houses still rely on whatever service the first owners had, which can leave little slack for a 240-volt line. About two in three homes stand on their own lot, so the charger usually mounts on the house. Our first visit is a panel look and a load calculation. If the cord in your trunk is plenty, you hear that, and the price is fixed before wiring begins.',
-  emergencyParagraph:
-    'A wall unit or receptacle that’s warm or brown at the edges, or a hot-plastic smell while the car fills, means unplug and stop. Flip that breaker only if nothing near it is wet or hot. With smoke or flame, everybody goes outside and someone dials 911. We usually send a truck the same day, Saturdays and Sundays too.',
   commonIntro:
     'In Lockland, century-old houses share the village with apartment blocks, and these four requests come up most:',
   localFaqs: [

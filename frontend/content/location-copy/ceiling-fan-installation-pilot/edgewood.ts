@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Nearly every house in Edgewood is owner-occupied and stands on its own lot, and Census figures date the typical one to 1976. In a bedroom from that decade, the ceiling box is often a thin pancake or plastic cup tacked to a single joist, fine for a dome light and wrong for a turning motor. Some family rooms were wired for lamps, with no ceiling fixture. We pull the old canopy and look first, tell you if snugging two screws ends the wobble, and you approve one number first.',
-  emergencyParagraph:
-    'Some calls jump the line, like a fan circling wide, a canopy pulling off the drywall, a whiff of melting plastic, a warm switch plate or a breaker that trips with the fan. Cut that breaker if it’s safe and clear the kids out. Smoke or flames mean leave and dial 911. We reach most calls that day, weekends too.',
   commonIntro:
     'Houses framed in the late 1960s and 1970s, plus a few fans that were hung by a previous owner, account for most of our fan visits in Edgewood.',
   localFaqs: [

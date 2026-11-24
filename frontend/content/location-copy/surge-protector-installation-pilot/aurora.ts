@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'In Aurora, river-town houses from the 1800s share the hills with postwar streets, and Census figures put nearly four in ten homes before 1940, with the median at 1952. About one in five homes sits in a two-to-four unit building, where one panel may feed a whole floor or each unit has its own small box. That shapes where a protector can mount. Roughly a third are rentals. Our electrician studies that box first, tells you if a few decent strips would cover it, and fixes the figure in writing.',
-  emergencyParagraph:
-    'When every lamp surges brighter, then sinks, ring the electric utility before us. Brown scorching on a switch plate, a panel that smells singed, or a breaker that refuses a reset is ours to see that day. Reach for that breaker only standing somewhere dry. For smoke, get out and call 911. Same-day help covers most calls, weekends too.',
   commonIntro:
     'Between the old riverfront buildings and the postwar streets of Aurora, these are the signs that tend to start the conversation about surge protection.',
   localFaqs: [

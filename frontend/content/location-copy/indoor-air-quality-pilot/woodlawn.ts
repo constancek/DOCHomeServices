@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Two in three households in Woodlawn rent, and about half of homes sit in buildings of five or more units, by Census figures. That makes most air quality work here a landlord or manager decision. The housing is newer than people expect, with the median home built in 1987, so tight apartments that hold stale air and cooking fumes are the usual complaint, more than drafty old basements. We test first, give a flat price before any work, and say so if a filter change solves it.',
-  emergencyParagraph:
-    'Empty the apartment before calling 911 if a carbon monoxide alarm sounds. With a gas smell, take the same exit and call the gas company without touching switches. If the heat or AC smells of burning, switch it off. Children, older people and anyone with asthma are most at risk. Same-day visits are usual, weekends too.',
   commonIntro:
     'In apartments and newer houses in Woodlawn, air quality calls tend to start with one of these:',
   localFaqs: [

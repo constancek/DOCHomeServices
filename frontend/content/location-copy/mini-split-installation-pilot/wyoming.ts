@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Wyoming is owner country. Nearly nine in ten homes are lived in by their owners, and the Census puts the median build year at 1954. Roughly a quarter go back before 1940, including the Victorian houses around the old village, whose plaster and lath were never meant to hide ductwork. Ductless cools them without tearing in. In the Wyoming Hills, postwar houses mostly need help in a basement or an addition. Our flat quote comes before any drilling, and if a mini-split is the wrong tool, you’ll hear that.',
-  emergencyParagraph:
-    'In Wyoming, an old third floor soaks up each of the roughly 21 days a year that reach 90F (National Weather Service). Grandparents, babies and anyone who wheezes shouldn’t sleep there. We book installs fast, and one zone takes about a day, more zones longer. A failed unit is a Mini-Split Repair visit, usually same day, weekends too.',
   commonIntro:
     'Victorian upper floors and postwar lower levels both turn up on this list for owners in Wyoming:',
   localFaqs: [

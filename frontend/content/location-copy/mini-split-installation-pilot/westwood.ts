@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Westwood is Cincinnati’s largest neighborhood, mid-century houses mixed with plenty of apartments. Census figures count 44.5% of homes inside buildings with five or more apartments and 65.7% rented, so in most cases the owner decides on ductless. In houses, a wall head cools the upstairs rooms and basements that small, aging ducts can’t reach. In unducted buildings, it cools each apartment with no demolition. The owner signs off on a fixed price before work, and when ductless is a poor match, we put that in writing.',
-  emergencyParagraph:
-    'July highs average 86F (National Weather Service), and a top-floor apartment in Westwood runs hotter than the units beneath it. Seniors, babies and anyone ill or short of breath are most at risk. Once the owner says go, a single-head install takes a day. A broken ductless unit goes to Mini-Split Repair, same day for most calls, weekends too.',
   commonIntro:
     'From apartment buildings on Montana and Harrison to houses off Werk Road, these are the usual reasons for a ductless quote in Westwood:',
   localFaqs: [

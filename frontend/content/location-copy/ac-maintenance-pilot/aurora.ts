@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Plenty of the AC we look after in Aurora was added to a house that predates it by decades; Census figures put 38.8% of homes there at 1939 or earlier. In those houses the ducts were worked in afterward, the air handler often ended up in a basement or attic, and the outdoor unit sits in a narrow gap beside the wall. Many two- to four-unit buildings mean several systems and one owner booking them. Prices are flat and set before work, and we’ll say so if nothing needs doing.',
-  emergencyParagraph:
-    'Skip the tune-up and ask for a repair if the house stays hot with the AC running, if water spreads out from the indoor unit, or if you smell something scorching. Each time, switch the system off at the thermostat. Older relatives, babies and anyone ill shouldn’t sit out the heat indoors. Same-day service covers most calls, weekends included.',
   commonIntro:
     'In Aurora, spring visits usually get booked once an owner notices one of these.',
   localFaqs: [

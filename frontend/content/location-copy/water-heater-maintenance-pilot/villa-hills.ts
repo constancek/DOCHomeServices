@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Villa Hills is mostly owner-occupied: Census figures count 84.4% of homes that way, most built between the 1960s and the 1990s, with a median of 1981. That makes for straightforward visits to a basement, garage or utility-room tank that needs draining and a valve test, and on the older ones a drain valve that may have stiffened. Gas and electric are both common, and we come ready for either. You approve the price before we start, and we’ll tell you if the tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Maintenance can’t help in Villa Hills when a tank leaks: close its top cold valve, then gas or breaker, and call for repair. A gas smell: leave, hands off switches and pilot, phone the gas company once outside. Carbon monoxide alarm: everyone out. A relief valve that keeps discharging, or no hot water: usually same day, weekends included.',
   commonIntro:
     'In Villa Hills, these usually get a working water heater on the calendar:',
   localFaqs: [

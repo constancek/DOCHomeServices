@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'North Avondale’s housing is old by any measure. Census figures put nearly two-thirds of it before 1940, and a big Queen Anne or Shingle-style house from that era may still draw on a service someone sized before anyone owned a clothes dryer. Fewer than half the homes stand alone, the rest being two-families and apartment blocks, so parking and ownership shape the answer. Our electricians total the load before quoting, admit it when the slow cord suffices, and fix the cost before work.',
-  emergencyParagraph:
-    'A discolored charger shell, a softened plug, a warm receptacle behind the cord or a scorched odor ends the session now, and so does a breaker that drops on each hookup. Flip that breaker only while standing dry and clear of heat. Smoke or flame means leaving and dialing 911. Our vans usually roll the same day, weekends too.',
   commonIntro:
     'Big prewar houses, two-families and apartment blocks are behind most charger questions put to us in North Avondale.',
   localFaqs: [

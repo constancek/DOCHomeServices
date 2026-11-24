@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'In Monfort Heights, housing spans every decade, so tune-ups vary more than in most suburbs. Census figures put the median home at 1975, yet 23.4% went up in 2000 or later and about a third predate 1960. Gas heats 64.0% of homes. A newer house along North Bend Road mostly needs filter, blower, burner and safety checks; an older basement furnace gets a closer look at venting and the heat exchanger. Apartment furnaces are booked by the owner or manager. Price comes first, and an honest no if nothing’s needed.',
-  emergencyParagraph:
-    'In Monfort Heights, a few things outrank a tune-up. Gas odor: get outside, leave the switches, and ring the gas company. Carbon monoxide alarm: everybody out. A furnace dead in a cold spell, a flickering yellow flame or endless on-off cycling means repair, and quickly with small children or elderly family home. Most are same day, weekends too.',
   commonIntro:
     'From 1950s ranches to houses built since 2000, these are what bring owners in Monfort Heights to book:',
   localFaqs: [

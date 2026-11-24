@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Loveland Park has two kinds of houses, and the surge job differs for each. Census figures put the median home at 1990, yet better than a third went up before 1960 on the old river lots, where a panel may lack a free slot. The newer houses in Loveland Park tend to heat with electricity, so there’s often a heat pump outside and smart thermostats inside. We read the panel first, say when strips are plenty, and fix the price up front.',
-  emergencyParagraph:
-    'If a heat pump, fridge or TV smoked or threw sparks as power returned in Loveland Park, leave it off, and treat a breaker that won’t hold the same way. Kill that circuit only if you’re dry and nothing near it is hot. Smoke or flames mean leave and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'Older lot houses and newer builds share the streets of Loveland Park, and these signs turn up in both.',
   localFaqs: [

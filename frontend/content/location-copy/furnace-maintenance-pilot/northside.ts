@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'Owners live in most homes we tune up in Northside, and the houses are old. Census figures date 57.3% of them to 1939 or earlier, with another third from the 1940s through the 1970s. The pre-war ones put the furnace in a basement, tied into a chimney that has seen several furnaces come and go, so venting and the heat exchanger get looked at hardest. Gas heats roughly seven homes in ten. The price is fixed before we start, and we’ll say so if it needs nothing.',
-  emergencyParagraph:
-    'Some problems can’t sit until a tune-up. Smelling gas: get out, no switches, no relighting, then call Duke Energy. Carbon monoxide alarm: everybody out. A dead furnace when January lows sit near 23F, nonstop on-off cycling or a lazy yellow flame need repair, more so with a baby, grandparent or sick person home. Most same day, weekends too.',
   commonIntro:
     'Along Hamilton Avenue and the side streets, a homeowner usually books once one of these shows up:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'A whole-house rewire is rare in Monroe. The Census median home here is from 2001, with more than half built since 2000, and that wiring is grounded copper. Most calls are for an addition, a finished basement, a kitchen redo or one circuit that won’t stop tripping. About one in five houses dates from the 1960s or 1970s, and some from that era may have aluminum branch wiring. We test before quoting, say when nothing is needed, and set scope and flat price on paper first.',
-  emergencyParagraph:
-    'A burning smell in a wall, a hot or discolored switch plate, buzzing, a shock from an appliance and a breaker that trips the moment it’s reset can’t wait for a weekday. We come out the same day on most, weekends included. Cut that circuit only while standing dry. Smoke or fire means calling 911 from outside.',
   commonIntro:
     'Even with so many homes built since 2000 in Monroe, these signs still turn up and deserve a test:',
   localFaqs: [

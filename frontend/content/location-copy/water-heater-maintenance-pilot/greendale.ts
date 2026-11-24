@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Greendale is mostly mid-century houses: Census figures put the median home at 1958, with 18.5% older than 1940. Nearly all are owner-occupied and heated with gas, so a typical service here is a gas tank in the basement, a drain valve that’s rarely been opened, a flue connector to inspect and older gas piping to check. The newer houses take less time: drain, rod check, valve test. We price the job before starting, and if the tank isn’t worth servicing, we say so.',
-  emergencyParagraph:
-    'Water dripping from the tank: twist the cold feed on top shut, then the gas valve or breaker. A gas smell up the basement stairs: everyone outside, nobody touching switches or the pilot, then call the gas company. Carbon monoxide alarm: out first. A relief valve going off repeatedly, or no hot water: same day on most calls, weekends included.',
   commonIntro:
     'In the mid-century neighborhoods of Greendale, people usually call about one of these:',
   localFaqs: [

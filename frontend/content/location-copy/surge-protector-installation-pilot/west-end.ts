@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'Census figures count 2,724 of 3,129 occupied homes in the West End as rented, and nearly four in ten date from 1939 or earlier, including Italianate rowhouses of Betts-Longworth. In those old buildings the breaker box is often small and full, so what we find inside decides where a protector can mount. Rehabbed units and newer buildings hold more of what surges ruin, such as heat pumps and electric ranges. We look first, tell you if surge strips will do, and the owner approves a flat price before work.',
-  emergencyParagraph:
-    'Tell the landlord right away about an outlet that smells scorched after a storm or a breaker that drops again as soon as it’s reset, and we’ll come the same day on most calls, weekends included. When the lights across a flat swell and fade, Duke Energy Ohio should hear first. If there’s smoke, get out and call 911.',
   commonIntro:
     'From the rowhouses of the West End to its larger apartment blocks, owners and tenants bring us these four signs most.',
   localFaqs: [

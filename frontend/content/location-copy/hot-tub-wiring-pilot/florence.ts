@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'For a hot tub in Florence, we bring a 240-volt feed out from the panel for the spa alone, protect it with a GFCI, mount a cutoff the soaker can see without reaching it, and bond the metal near the water. Census figures date the median house to 1972, and a little over half of homes are rented. Breaker boxes in 1960s and 1970s houses can be short on room, and that comes first. We weigh yours against the spa maker’s list and price it before any conduit goes in.',
-  emergencyParagraph:
-    'In Florence, call us quickly about a spa GFCI that refuses to hold, a breaker box that hums, or a blackened cutoff. Anyone feeling a tingle should climb out without grabbing the rail or the controls. Cut the power only if you safely can, and dial 911 for smoke or fire. We’re usually there the same day.',
   commonIntro:
     'Spa owners in Florence, from house owners off Dixie Highway to condo residents near the mall, usually reach us for one of four reasons.',
   localFaqs: [

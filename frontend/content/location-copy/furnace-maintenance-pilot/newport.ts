@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Renters hold the majority in Newport, 52.3% of homes by Census figures, and plenty of them live in good-sized apartment buildings, so many tune-ups here are booked by a landlord working down a list of furnaces. The rest is mostly old houses: 46.5% were standing by 1939, many in and around East Row, each with a basement furnace that’s seldom the original and a flue that often runs into an aging chimney. Every furnace gets its own quote before we start, and we’ll say so when one needs nothing.',
-  emergencyParagraph:
-    'In Newport, some furnace problems jump the queue. Smell gas: out the door, touch nothing electrical, and reach the gas company from the sidewalk. A carbon monoxide alarm clears the building of your household. No heat during a freeze, nonstop cycling, a wavering yellow flame: repair work. Babies and older tenants are first in line. Mostly same day, weekends too.',
   commonIntro:
     'From the old houses of East Row to the apartment buildings, owners usually book in Newport after one of these:',
   localFaqs: [

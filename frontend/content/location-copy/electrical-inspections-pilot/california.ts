@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'California inspection calls usually come after the river has been up, or ahead of a big new load like a hot tub or car charger. Nearly every home here is an owner-occupied single house, and the median California house went up in 1968 by Census figures: wiring from then is generally grounded and sound, while the panel can be undersized. When the Ohio rises, water reaches Eldorado Avenue, then Kellogg, and low basements flood. Whatever it touched gets checked. You hear our price up front.',
-  emergencyParagraph:
-    'A few things jump the queue in California: a hot-plastic smell, a cover plate that’s warm, crackling or browned, any sparking, and a breaker that kicks straight back off. Kill that circuit at the panel. Smoke or flame means everybody outside, then 911. Someone is usually there that same day, Saturday and Sunday too.',
   commonIntro:
     'California homes are mostly mid-century and owner-occupied. In them we keep running into:',
   localFaqs: [

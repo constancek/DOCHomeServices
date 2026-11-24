@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Millville is mostly older houses: Census figures give a median of 1958 and 23.4% built before 1940. The heater usually lives in the basement, often with a worn drain spigot, older flue pipe on gas models and supply lines due a look. After the March 2026 flash flood, when Indian Creek filled so many basements in the village, any heater that stood in that water needs a repair check before routine service. You get the price first, and we’ll be straight if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Water escaping the tank makes this a repair: shut the cold inlet above it, then the gas or breaker. Smell gas: leave, switches untouched, no relighting, and call the gas company outdoors. Carbon monoxide alarm: out first. A relief valve that keeps venting, or no hot water: repair too. We usually arrive the day you call, weekends included.',
   commonIntro:
     'Around Millville, a working heater usually earns a service call through one of these:',
   localFaqs: [

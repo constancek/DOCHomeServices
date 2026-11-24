@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Woodlawn’s housing is mostly recent. By Census figures the typical home dates to 1987, so most bathrooms here already have a fan. The problem is usually size, since builders often picked a small unit that runs but can’t keep up with a long shower. About two-thirds of households rent, many in larger apartment buildings, so owners and managers make most of the calls. We find where the exhaust ends up and price the work before cutting into a ceiling.',
-  emergencyParagraph:
-    'A fan that smells of burning, sparks, smokes or has a charred housing should lose power, at the breaker if that’s safe. Treat a breaker that won’t stay on while the fan runs, or water leaking from the grille, with the same urgency. Fire or smoke means leaving and calling 911. Expect same-day service on most calls, weekends too.',
   commonIntro:
     'Between the apartment buildings and the newer houses in Woodlawn, four complaints lead the list:',
   localFaqs: [

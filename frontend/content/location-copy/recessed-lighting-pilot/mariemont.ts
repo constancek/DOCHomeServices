@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mary Emery’s planned village broke ground in 1923, and plaster from its first decades steers nearly every recessed lighting job in Mariemont. Going by Census numbers, the typical house dates to 1945, and well over half predate 1950. Expect lath overhead, a squeezed cavity above the second floor and rooms drawn around one fixture. Apartment buildings and newer houses here bring different ceilings. Each can gets penciled on the plaster, and you approve one flat price before any cutting.',
-  emergencyParagraph:
-    'Scorching odors from a can, plaster turning tan around a trim, a light dropping out or water seeping from a fixture all warrant a visit today in Mariemont. Reach the breaker only if it’s safe, then switch that circuit off. Should smoke or flame appear, clear the house and ring 911. Most calls are handled same day, weekends included.',
   commonIntro:
     'Plaster ceilings from the Nolen-era houses shape most of our work in Mariemont, usually these four jobs:',
   localFaqs: [

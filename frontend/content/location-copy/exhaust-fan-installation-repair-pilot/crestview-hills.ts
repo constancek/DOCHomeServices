@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'By Census figures, the median home in Crestview Hills dates to 1984, and the bulk of the housing was finished between 1980 and 1999. Builders of that era often fitted a small, cheap bathroom fan that runs loud and rarely keeps the mirror clear. Condos and townhouses make up more than a quarter of the homes, so the duct often has to cross a shared ceiling or wall. Before anyone saws into drywall, we find where the air ends up and price the fix.',
-  emergencyParagraph:
-    'A scorched or melted housing, a hot-plastic smell, sparks or smoke all mean killing power at the wall switch or the breaker, if you can do it without risk. Flames or heavy smoke mean leave first and call 911 from outside. A neighbor’s leak dripping through the grille counts too. We’re usually there the same day, weekends included.',
   commonIntro:
     'Thomas More University sits inside the city limits, and the houses and condos around it share a short list of fan complaints.',
   localFaqs: [

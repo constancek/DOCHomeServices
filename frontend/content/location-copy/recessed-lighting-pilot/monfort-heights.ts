@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'Spacing makes or breaks recessed lighting in Monfort Heights, because a careless grid leaves hot spots beside dark patches. Census figures put the median home at 1975, spanning postwar houses off North Bend Road with roomy attics to post-2000 builds near West Fork Road with open kitchens and sheetrock overhead. About seven in ten addresses are detached, and owners occupy most of them. Every downlight position is measured and penciled onto the ceiling, and you approve the price, before our saw comes out.',
-  emergencyParagraph:
-    'Ring us today about a downlight that smells of scorching, drywall gone tan around a can, or a breaker snapping off whenever those lights come on. Shut that circuit if the panel is safe to reach. Any smoke or flame means leaving and dialing 911. Same day on most calls, weekends included.',
   commonIntro:
     'Postwar houses, newer builds and a few apartment complexes across Green Township give us the following requests around Monfort Heights.',
   localFaqs: [

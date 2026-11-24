@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Most Finneytown inspections are on houses from the 1950s. Census figures give a median build year of 1959, and just over half the homes, 52.5%, were built between 1940 and 1959. Those panels were sized for a house without central air, a second bathroom or an EV charger, and many rooms have only one or two circuits. Older garages and basements often lack GFCI protection. We check the full system, give you a written report and price any repairs before work starts.',
-  emergencyParagraph:
-    'Some Finneytown problems jump the queue: a switch plate or receptacle that’s warm, humming or discolored, a whiff of burning plastic, sparks, or a breaker that won’t hold after reset. Turn that breaker off and keep it off. Smoke or flame means leave first, then 911. We get to most of these the same day, weekends included.',
   commonIntro:
     'Finneytown is mostly single homes from the 1950s and 1960s, and the findings match that era:',
   localFaqs: [

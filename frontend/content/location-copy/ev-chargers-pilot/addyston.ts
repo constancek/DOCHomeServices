@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'As a former company town, Addyston still has small pre-1930 houses near Main Street alongside 1960s and 70s homes, and the Census median is 1965. About three households in five rent here, so a landlord’s yes often comes before any panel question. The old company houses may have scant spare capacity, and the mid-century ones tend to have stuffed panels. Our visit opens with the panel and a load calculation, admits it if Level 1 is plenty, and ends with a fixed price before wiring.',
-  emergencyParagraph:
-    'Any charger, outlet or panel that Ohio River water reached stays off until an electrician clears it. Stop charging for a plug too hot to hold, a browning outlet or a breaker that quits each charge. Kill that breaker if you’re dry; for smoke or fire, leave and dial 911. Most calls get us the same day, weekends included.',
   commonIntro:
     'Renters fill most of the village, and owners hold on to the old company houses, so the charger calls we take in Addyston tend to look like these:',
   localFaqs: [

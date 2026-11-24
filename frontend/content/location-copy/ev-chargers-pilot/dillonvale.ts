@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillon Builders laid out Dillonvale in the 1940s, and Census figures show nearly three in four of its homes went up between 1940 and 1959, almost all detached. Decades of remodels have left many of those postwar panels with breakers stacked into every slot, and a few houses still lean on a small original service. We open the panel and do the load math first, admit it if the Level 1 cord will carry your driving, and put a flat price in writing before the first wire moves.',
-  emergencyParagraph:
-    'A charger or plug that’s hot, an outlet going brown or soft, a whiff of burnt insulation, or a breaker that gives up each time the car plugs in is your cue to stop. Switch that circuit off only from a dry, safe spot. If there’s smoke or flame, go outside and dial 911. Same-day visits are typical, weekends included.',
   commonIntro:
     'In the postwar subdivision houses of Dillonvale, owners usually give us one of these reasons for wanting a charger:',
   localFaqs: [

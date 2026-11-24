@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Around Ludlow, a fan job almost always means a house older than its owner’s grandparents. Census figures show about three in five went up before 1940, mostly freestanding houses with a fair number of attached ones along the side streets off Elm. Those ceilings were wired for one bulb, and the small box behind it was sized for that and nothing heavier. Lots of bedrooms never had a fixture at all. We look at the box first, admit it when a wobble just needs tightening, and settle the price beforehand.',
-  emergencyParagraph:
-    'Treat it as urgent when a fan lurches, droops off a loosened box, smokes, smells scorched, or the switch beside the door spits sparks. Cut its power if you safely can and keep the family from standing beneath it. Should flames appear, head out and ring 911. We reach most callers the same day in Ludlow, weekends included.',
   commonIntro:
     'Houses built before the Second World War, attached homes that share a wall, and bedrooms that never had a ceiling fixture make up most fan work across Ludlow.',
   localFaqs: [

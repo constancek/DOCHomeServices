@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'In Oakley, the housing comes from two eras. Census figures show 47.7% of homes were built in 1939 or earlier and 12.5% in 2000 or later. The prewar houses were framed without ducts, so a wall-mounted head is the tidy way to cool an upstairs bedroom. Newer buildings call us for sunrooms and finished basements. Over half the homes are rented, and there the owner decides. You approve a fixed price before we drill, and we’ll point you somewhere else if a mini-split won’t solve it.',
-  emergencyParagraph:
-    'In Oakley, July’s normal high sits at 86F by National Weather Service figures, and a bungalow’s upstairs bedroom runs well past it. Grandparents, infants and anyone ill or short of breath take it hardest. Install dates come quickly, and one zone takes a single day. A mini-split that quits belongs with Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Four situations account for most ductless calls we take in Oakley:',
   localFaqs: [

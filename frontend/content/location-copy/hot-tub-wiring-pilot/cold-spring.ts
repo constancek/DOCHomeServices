@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Most houses in Cold Spring are young. By Census figures the median was built in 1999, with nearly half from 2000 or later, so a newer load center usually has a spare position and capacity for a 240-volt spa breaker. The questions move outside, to the tub’s spot and the length of the conduit run. Townhouses are close to a quarter of homes, and their associations approve first. We match the load center to the spa maker’s requirements and price it before conduit goes in.',
-  emergencyParagraph:
-    'We treat a spa breaker that won’t reset, a load center that crackles, or a disconnect running hot as urgent. Everybody should leave the water and keep hands off the shell. Cut the breaker only if that’s safe, and for smoke, head outdoors and ring 911. Most of these get same-day help, Saturdays and Sundays included.',
   commonIntro:
     'Along Alexandria Pike, in newer subdivisions and townhouse rows, these are the spa requests we get from Cold Spring.',
   localFaqs: [

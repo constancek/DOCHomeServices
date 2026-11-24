@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'South Fairmount’s houses are old, with a median of 1938 in Census figures, and nearly three in four went up before 1940. A breaker box in a house that age has often been stretched with circuit after circuit, so whether a surge device can be mounted gets settled when we open it. Close to six in ten households rent, many in large buildings, so owners make this call. Expect an honest word if strips are enough, and a fixed price up front.',
-  emergencyParagraph:
-    'A scorched switch plate, a hot smell from the panel, or a dryer that sparked at power-up needs an electrician that day. When every room brightens and fades at once, Duke Energy Ohio hears from you first. Flip the circuit off only from dry footing; if smoke shows, go outside and phone 911. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Before anyone asks us about surge protection in South Fairmount, one of these has usually happened.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'Most housing in Fairfield was built from 1960 onward, and Census figures place the median at 1978. Electric heat outnumbers gas here, which loads up circuits laid out long before anyone ran a heat pump, an induction range and a garage freezer together. A share of those 1960s and 1970s builds may also hide aluminum branch wiring. Later subdivisions mostly phone about one stubborn circuit or an addition. We test before recommending anything, admit it when the wiring is fine, and write up the scope and flat price first.',
-  emergencyParagraph:
-    'A plug or switch smelling of hot plastic, a darkened cover plate, crackling, a breaker that refuses to hold, or a jolt from a fixture needs a call right away. If the panel area is dry and cool, flip that breaker off. If smoke appears, get outside and dial 911. We reach most of these the same day, weekends too.',
   commonIntro:
     'Among the 1960s and 1970s houses and apartment complexes in Fairfield, wiring that wants attention often looks like this:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Day Heights is all detached houses, and by Census figures its median one went up in 1969, with roughly half built from 1960 through 1979. So the heater lives downstairs or in a utility room, frequently a third tank on that spot, still married to the original vent run and gas pipe, both of which we inspect. Spigots on heaters left alone for years go stiff or brittle, so we try them gently first. You approve the figure first, and we’ll be honest if the tank is past saving.',
-  emergencyParagraph:
-    'Water trickling off the tank: twist its cold feed shut overhead, then turn off gas or electric. Any gas scent means family out the door, light switches and pilot left alone, gas company called from the yard. A carbon monoxide alarm means nobody stays. A stuck relief valve or no hot water means repair. Usually same day, weekends included.',
   commonIntro:
     'In houses on the hill in Day Heights, these signs usually mean the heater is due for its once-a-year visit:',
   localFaqs: [

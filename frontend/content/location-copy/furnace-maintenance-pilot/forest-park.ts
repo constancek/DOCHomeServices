@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'In Forest Park, the first houses opened in 1956, and 58.5% of homes date from the 1960s and 1970s, by Census figures. Those houses keep the furnace downstairs, and most have swapped it for a newer one since, so our time goes to filter, blower, burner and safety-control checks rather than old chimneys. Nearly half of homes here are rented, a good share in apartment buildings, and there the landlord does the booking. A flat price comes first, and if the furnace needs nothing, that’s our answer.',
-  emergencyParagraph:
-    'Gas in the air means everybody out the door, switches and pilot untouched, and the gas company called from the curb. Carbon monoxide alarm: same drill. A furnace dead in a cold spell, a lazy yellow flame, or one that shuts down and relights means repair. Babies, older family and anyone ill suffer first. Same day on most, weekends too.',
   commonIntro:
     'In Forest Park, 1960s and 1970s houses sit beside plenty of apartment buildings. These usually get a furnace visit booked:',
   localFaqs: [

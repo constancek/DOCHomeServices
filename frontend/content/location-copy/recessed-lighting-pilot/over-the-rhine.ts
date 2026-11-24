@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'In Over-the-Rhine, recessed lighting nearly always happens inside a brick building shared by several households, so step one is learning what separates your ceiling from the neighbor’s floor. Census figures place seven of every ten homes here at 1939 or earlier, and renters fill most units. Plaster over lath is the norm in rehabbed flats; condos carved out of newer construction bring drywall and friendlier access. We lay out each can with the owner, landlord or association and fix the figure before the first opening.',
-  emergencyParagraph:
-    'Phone that day whenever a can smells overheated, plaster near a trim goes tan, or water seeps through a light from upstairs. A buzzing or warm wall switch counts too. Trip that circuit at your panel if safe, and leave the building for 911 at any smoke. We arrive same day on most calls, weekends too.',
   commonIntro:
     'Between Vine Street rehabs and newer condo floors in Over-the-Rhine, owners and associations hand us these four jobs most:',
   localFaqs: [

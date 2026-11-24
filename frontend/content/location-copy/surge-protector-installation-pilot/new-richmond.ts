@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'Surge protection in a house in New Richmond is usually about newer equipment. The median home dates from 1986 in Census figures, about a third were built since 2000, and more than half of households heat with electricity, so there is often a heat pump and a kitchen run on circuit boards. Some older houses near Front Street have panels with no slot to spare. The panel gets looked at before anything else, you hear from us if strips would do, and the figure is agreed before we start.',
-  emergencyParagraph:
-    'If a breaker snaps straight back off, an outlet shows a brown ring, or the panel gives off a hot, burnt smell, book a visit, and most of those we reach the same day, weekends included. Only touch a breaker when the floor is dry and the panel cover is cool. With smoke, everyone goes out and someone dials 911.',
   commonIntro:
     'Newer equipment, a lot of electric heat and a few cramped older panels explain why owners ask us about surge protection in New Richmond.',
   localFaqs: [
@@ -29,15 +27,15 @@ export const newRichmond: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Benefits of Whole-Home Surge Protection in New Richmond',
-        body: 'The appeal is protecting what costs the most in a newer house, and here that often means a heat pump, a furnace control board, the refrigerator and a washer full of electronics. Lightning is only part of it. Small surges arrive all the time from the grid and from big appliances cycling, and each one takes a little out of those boards. Catching them at the panel keeps that equipment running longer, makes a fire from a power spike less likely and keeps smart thermostats and cameras online. In a storm, nobody has to run around pulling plugs.',
+        body: 'In a newer house in New Richmond, the expensive things to protect are a heat pump, a furnace control board, the refrigerator and a washer packed with electronics. Lightning gets the attention, but the grid and big appliances switching on send small surges through the wiring all the time, and every one wears those boards down a little. Stopping them at the panel helps that equipment hold up, lowers the odds of a power spike starting a fire, and keeps smart thermostats and cameras working. When a storm rolls in, nobody has to go around yanking plugs.',
       },
       {
         title: 'Whole-Home or Plug-In Surge Protection in New Richmond',
-        body: 'You may not need us at all. A renter, or someone whose only worry is a television and a computer, does fine with two sturdy strips, and we’ll say so on the phone. The case for a panel unit builds once the house has central air or a heat pump, a furnace, appliances with screens and a houseful of connected gear, with the strips kept on the touchier pieces. Breakers that trip often or lights that flicker may be a loose connection instead, which we chase down before quoting. Old strips quit quietly, and one that took a hard hit may protect nothing.',
+        body: 'For a renter, or a household whose only worry is a TV and a computer, two solid plug-in strips often do the job, and we’ll tell you that on the phone. In New Richmond, a panel unit starts earning its keep once the house holds central air or a heat pump, a furnace, appliances with touch screens and plenty of connected gear, and the strips stay on the most delicate pieces. Frequent breaker trips or flickering can point to a loose connection rather than surges, so we track that down before quoting. Strips wear out without warning, and one that absorbed a big hit may be doing nothing.',
       },
       {
         title: 'Panel Check and Permits for a Surge Protector in New Richmond',
-        body: 'A whole-home unit mounts on the panel, the spot where power branches out to every circuit, so it needs a free slot and short, tidy leads. A crammed or failing panel gets sorted first, replacement included if it comes to that, and you decide. The work meets the electrical code and the maker’s instructions. Clermont County Building Inspection handles permits in the village, and we look after the inspection.',
+        body: 'The device bolts in at the panel, where the service splits off into every branch circuit, so it needs an open space and short, neat leads. If the panel is jammed full or failing, that gets fixed first, up to a full replacement, and the decision is yours. Everything follows the electrical code and the manufacturer’s guidelines. In the village, permits go through Clermont County Building Inspection, and we schedule the inspection.',
       },
     ],
     whyTitle: 'Why Homeowners in New Richmond Choose Us for Surge Protection',

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Most of the housing in Amelia is from the last thirty years. Census figures put the typical home at 1995, and over two in five went up after 2000, so panels often still have open slots. That makes the yard the bigger question, meaning where the tub sits and how much trench the conduit needs. Most homes here heat with electricity, and that load counts against spa capacity. Renters and townhome owners need sign-off first. We size the panel against the tub’s spec and quote before any digging.',
-  emergencyParagraph:
-    'Clear everyone out of the spa, keep hands off the equipment, and call us the same day if its breaker trips each time it’s turned back on, the shutoff smells burnt, or the water gives anyone a tingle. Kill power at the breaker only when it’s safe. If smoke shows up, leave and phone 911. Weekends work the same way.',
   commonIntro:
     'From the newer cul-de-sacs to the older blocks along Main Street, these are the things that bring a spa wiring call in Amelia.',
   localFaqs: [

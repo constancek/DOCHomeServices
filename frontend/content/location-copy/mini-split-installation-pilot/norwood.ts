@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Norwood is mostly prewar housing. By Census figures the typical house went up in 1938, and 66.5% of homes predate 1940, which tends to mean plaster, cramped attic space and nowhere for ductwork to hide. Ductless heads sidestep that, since each one is fed by a slim refrigerant line through an outside wall and no plaster gets opened up. Renters make up 52.5% of households here, so landlords choose. Expect a written number ahead of the first drill bit, plus a straight answer when ductless doesn’t fit.',
-  emergencyParagraph:
-    'Cincinnati’s July normal high is 86F (National Weather Service), and attic bedrooms and top-floor flats run hotter. That’s risky for grandparents, infants and people who are sick or short of breath. Installs go on the calendar quickly; a one-head job typically wraps in a day. A stopped mini-split is a Mini-Split Repair call, same day for most, weekends too.',
   commonIntro:
     'From the side streets off Montgomery Road to the blocks near Surrey Square, these are what usually prompt a ductless estimate:',
   localFaqs: [

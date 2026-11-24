@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Houses and small apartment buildings in Roselawn date mostly from the postwar decades, with Census figures landing the median at 1961 or 1962 depending on which half of the neighborhood you’re in. Fourplexes and three-flats make up close to a third of homes, and their bathroom fans are often original equipment, small for the job and tired. The prewar houses sometimes have no fan, or one blowing at the rafters. Renters outnumber owners here, so landlords tend to book. Expect a traced airflow and a quoted price first.',
-  emergencyParagraph:
-    'A scorched smell, sparks or smoke from the fan, a breaker that drops whenever it kicks on, or water trickling out all mean you should kill the power at the switch or panel, if you safely can. With smoke or flame, everyone leaves and phones 911. We generally show up the same day, Saturdays and Sundays too.',
   commonIntro:
     'Along Reading Road and the side streets near Section Road, these are the four problems Roselawn calls us about most.',
   localFaqs: [

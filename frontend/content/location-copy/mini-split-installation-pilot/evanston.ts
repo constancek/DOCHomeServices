@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'By Census figures, 70.9% of homes in Evanston were built in 1939 or earlier, many on small, narrow lots. Houses that old were plastered and built without ducts, and adding ductwork later means opening walls and losing closets. A ductless head skips that, cooling a room through one small opening, with the condenser set wherever the side yard allows. In the two-families and rentals, the owner decides. We price the job flat before work and tell you if ductless isn’t the fit.',
-  emergencyParagraph:
-    'Under an old roof in Evanston, an attic bedroom keeps a 90F afternoon’s heat past supper, and about 21 such days come each year (National Weather Service). Grandparents, infants and the sick suffer most. Installs book soon, and one zone is a day. A dead ductless unit goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the pre-war houses, two-families and apartments over the shops of Evanston, these are the rooms we’re usually asked to cool:',
   localFaqs: [

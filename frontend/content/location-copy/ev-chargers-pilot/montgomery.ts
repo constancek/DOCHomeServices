@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'In Montgomery, more homes date from the 1970s than from any other decade, and nine in ten have their owners living in them, Census figures show. Breaker panels installed between the 1950s and the 1970s have often been filled to the last slot, so fitting a 240-volt charger may take load management or panel work. Newer houses usually have space. We size up the panel with a load calculation first, admit it when the cord in your trunk is enough, and set the number before anyone touches the panel.',
-  emergencyParagraph:
-    'Retire the session if the cable got crushed or nicked, the outlet or charger shows scorching or soft plastic, or the breaker drops as charging begins. Flip that circuit off only when you can do it without risk. Smoke or flames mean everyone outside and a 911 call. Most calls see us that same day, weekends included.',
   commonIntro:
     'Most houses here went up between the 1950s and 1970s, and these are the four charger requests we hear most often in Montgomery.',
   localFaqs: [

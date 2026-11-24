@@ -3,14 +3,12 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'Batavia is the old county seat, and Census figures put the typical house at 1955, with about a third built before 1940. Many of those older houses have a breaker box with no spare position or headroom for a spa, so the panel gets handled first. Houses from the 1960s and 70s are more likely to have room, and then the job is about where the tub goes. With plenty of homes rented, owners make the call. We price it in writing before any trenching.',
-  emergencyParagraph:
-    'When the spa’s GFCI won’t hold, the shutoff smells charred, or the water tingles against your skin, ring us for a visit that day. Bathers get out and stay back from the tub. Throw the breaker if doing so is safe, and phone 911 at the first wisp of smoke. Saturdays and Sundays are covered.',
   commonIntro:
     'Around the courthouse and out toward the East Fork, these are what usually bring a spa wiring call.',
   localFaqs: [
     {
       q: 'Who handles permits for hot tub wiring in Batavia?',
-      a: 'Clermont County Building Inspection issues permits for the village. We file the electrical permit, schedule the inspection and are on site for it, so the circuit, ground-fault protection, shutoff and bonding all get checked and signed off.',
+      a: 'The village sends permit work through Clermont County Building Inspection. We apply for the electrical permit, book the inspection and meet the inspector at the house, who looks at the spa circuit, the GFCI, the disconnect and the bonding before signing off.',
     },
     {
       q: 'My house in Batavia is near the East Fork. Does that change the wiring?',
@@ -29,7 +27,7 @@ export const batavia: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Panel Capacity for a Hot Tub in Batavia',
-        body: 'How much work a hot tub takes in Batavia is set by the panel. Older village houses often have panels crowded by decades of added circuits, while 1960s and 70s houses vary. We look at the slots, total the load already there, and match the spa breaker to the maker’s spec sheet. A panel that can’t take the tub is quoted on the same sheet, and our Electrical Panel Replacement service covers that work. In a house split into apartments, we also confirm which panel serves the yard. You see the choices and what each costs before we begin.',
+        body: 'In Batavia, the panel sets the size of a hot tub job. Older village houses often have panels crowded by decades of added circuits, while 1960s and 70s houses vary. We count the open slots, add up what the house already draws, and size the spa breaker from the tub maker’s installation papers. If the panel can’t carry the tub, its replacement goes on that quote as a separate line, done by our Electrical Panel Replacement crew. In a house split into apartments, we also confirm which panel serves the yard. Both options and their prices are in front of you before work begins.',
       },
       {
         title: 'DIY or a Licensed Electrician for Hot Tub Wiring in Batavia',
@@ -37,7 +35,7 @@ export const batavia: LocationServiceCopy = {
       },
       {
         title: 'Hot Tub Wiring Outdoors Year-Round in Batavia',
-        body: 'Most spas around Batavia sit on a back patio or deck, where the equipment spends all year in rain, freezes and summer storms. For that, we use wet-location boxes, gasketed covers and conduit rated for outdoor use. The shutoff goes where you can see it from the tub but can’t reach it from the water, and the metal nearby is bonded. An inspector checks the job before we call it finished.',
+        body: 'Around Batavia, most spas end up on a back patio or deck, where the equipment rides out rain, freeze and thaw, and summer storms year after year. We wire them with wet-location boxes, gasketed covers and outdoor-rated conduit. The disconnect sits in plain view of the tub yet out of arm’s reach of anyone soaking, and nearby metal is bonded together. An inspector looks it over before we pack up.',
       },
     ],
     whyTitle: 'Why Households in Batavia Choose Us for Hot Tub Wiring',

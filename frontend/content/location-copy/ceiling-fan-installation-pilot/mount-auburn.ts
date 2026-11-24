@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Mount Auburn has two very different kinds of ceiling. More than half of its homes went up in 1939 or earlier, many of them 19th-century houses divided into apartments, where an old fixture box often can’t take a fan’s load or movement. About one unit in five is new since 2010, in buildings with newer boxes but their own management rules. Two-thirds are rented, by Census count. We check the box first, say when a tightened mount is enough, and price the job before anyone takes down the old light.',
-  emergencyParagraph:
-    'Worry first about a fan swinging loose from a plaster ceiling, then motor smoke, sparks behind the switch plate or a breaker that drops when the blades spin up. Cut the power if it’s safe to and clear the room below. If there’s fire, leave and call 911. We come the same day on most calls, weekends too.',
   commonIntro:
     'Split-up Victorian houses and newer apartment blocks produce most of the fan requests we see in Mount Auburn.',
   localFaqs: [

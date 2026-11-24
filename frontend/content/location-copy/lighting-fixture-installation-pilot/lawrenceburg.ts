@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'In Lawrenceburg, bathroom vanities lit by one bare bulb top our list. Census numbers show a mixed town, with a median home of 1983, about a third built since 2000 and roughly one in six from before 1940, where plaster and ungrounded boxes are likely. Apartment buildings hold a big share of homes, and about two in five households rent. Power comes from Lawrenceburg Municipal Utilities, not Duke. We test the box and wiring first, and you sign off on the price before anything is unscrewed.',
-  emergencyParagraph:
-    'Ring us if a fixture is coming loose, a switch is hot or buzzing, a breaker kicks off the moment a light turns on, or scorch marks circle a canopy. Kill that circuit if it’s safe, and keep everyone back from anything hanging. Should smoke or flame appear, leave and call 911. Same-day visits on most calls, weekends too.',
   commonIntro:
     'In Lawrenceburg, light fixture requests mostly look like one of these four.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Census figures show 53.3% of houses in Monroe went up in 2000 or later, and that’s exactly why service is worth a look here: a builder-installed heater from that boom has often run its whole life without anyone draining it. In a garage or utility room it’s a quick job, with a flush, rod check and valve test. Most owners live in their homes, and gas and electric units are both common. The flat price comes before the work, and a heater too far gone gets an honest no.',
-  emergencyParagraph:
-    'Water pooling at the tank: shut the cold inlet at the top, then gas or breaker. Gas odor: out the door, no switches, no relighting, phone the gas company from the driveway. Carbon monoxide alarm: everyone outside. A safety valve that won’t quit spitting, or no hot water, gets a same-day trip on most calls, weekends included.',
   commonIntro:
     'Across the newer subdivisions in Monroe, bookings tend to start here:',
   localFaqs: [

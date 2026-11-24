@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Hardly any homes in Mount Repose are older than 1940, and Census figures put the median year built at 1978. So knob-and-tube is rare along State Route 28, but a house wired in the 1960s or 1970s may have aluminum branch circuits, and many from then came with too few kitchen circuits. Newer houses mostly book us for an addition, a finished basement or one circuit that keeps dying. We test first, say so when your wiring is fine, and sign off scope and flat price before opening drywall.',
-  emergencyParagraph:
-    'Book a same-day visit for a receptacle giving off a burnt smell, a hot or browned cover, sparking or buzzing, a breaker that snaps back off at reset, or a jolt from an appliance. Only flip the breaker if nothing around the panel is wet or hot. If you see smoke, go outside and call 911. Weekends count.',
   commonIntro:
     'For houses wired during the 1960s, the 1970s and after, owners here usually describe one of these.',
   localFaqs: [

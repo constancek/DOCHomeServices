@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'Off Glenway and Rapid Run, plenty of bedrooms and front rooms in West Price Hill were built with a switched wall outlet and no light overhead, and adding one is a frequent request. Census tables show 2,825 homes from 1939 or before, then 1,650 more from the 1950s alone. Prewar houses tend to have plaster and ungrounded cable, while 1950s Cape Cods often have one dome per room. We look inside the ceiling first, and the quote is locked before work starts.',
-  emergencyParagraph:
-    'Plaster cracking round a sagging dome, a hot-glass smell or a kitchen light that knocks out its breaker means phoning us without delay. If the panel is easy and dry to reach, kill that circuit. Flames or smoke mean the household leaves first and 911 comes next. West side visits usually happen same day, Saturdays and Sundays as well.',
   commonIntro:
     'Homeowners and two-family owners on this hilltop mostly call about these.',
   localFaqs: [

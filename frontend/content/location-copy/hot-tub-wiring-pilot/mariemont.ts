@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was planned as a garden village in the 1920s, and Census figures show a median house year of 1945. Well over half the homes stood before 1950, so the breaker box we open is often an old one that’s been patched more than once. A soaking tub draws hard on a 240-volt GFCI breaker, and an aged box may have nowhere to seat it. That question is answered first. We read your spa’s install manual, compare it with what the box can carry, and quote before a wire moves.',
-  emergencyParagraph:
-    'Water that tingles, or a ground-fault breaker on the spa that refuses to reset, tells you to clear the tub. Leave the pump, heater and controls untouched. Open the disconnect only when that’s safe, and if smoke appears, walk out and ring 911. In Mariemont, we answer most of these calls the same day, Saturday and Sunday too.',
   commonIntro:
     'For owners in Mariemont, spa calls tend to start in one of four places.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'As a streetcar and factory town, Norwood was built up with brick two-families lit by a bulb or two per room, which is why recessed lighting here so often starts in a gloomy kitchen. By Census figures the median house went up in 1938, and two of every three predate 1940. Expect lath plaster, closely spaced joists and somebody’s living room floor sitting directly over your ceiling. Every can gets marked in pencil, and we shake hands on the price before the first cut.',
-  emergencyParagraph:
-    'A can that reeks of scorching, a trim too hot for a fingertip, or a brown stain creeping outward from a light all deserve a same-day call. So does water trickling out through a fixture from the flat above. Shut that breaker if reaching the panel is safe, and leave for 911 at any smoke. Weekend calls are welcome.',
   commonIntro:
     'Inside Norwood, where pre-war houses and two-families fill most blocks, these four rooms keep landing on our schedule:',
   localFaqs: [

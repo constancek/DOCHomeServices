@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights packs 448 homes into a sliver of land between the lanes of I-75, and most of them are old. Census figures show 64.7% went up in 1939 or earlier. Behind the plaster of a house like that you may find cloth-insulated cable, knob-and-tube runs, receptacles with no ground wire, or a fuse box still doing a panel’s job. Over half the village rents, so owners and tenants both end up asking us questions. We test the lot and quote any fix before picking up a tool.',
-  emergencyParagraph:
-    'A smell of hot plastic, sparks, a cover plate that’s warm or browned, or a breaker that snaps off again the moment it’s pushed back on: treat those as urgent. Leave that breaker off. With smoke or flames, get people outside and phone 911. For Arlington Heights we usually make it out the same day, weekends too.',
   commonIntro:
     'Prewar construction and a lot of rented units drive what we turn up in Arlington Heights:',
   localFaqs: [

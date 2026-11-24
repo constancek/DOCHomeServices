@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Out in Turpin Hills, the houses went up over four decades, roughly 1960 to 2000, and Census figures place the typical one in 1977. Ducts are nearly universal, so a mini-split here usually rescues one problem room, like the room over the garage, a finished basement or a primary suite added later, spaces at the far end of the duct runs or never tied in. Almost every home is owner-occupied, so the decision is yours. A set price comes before work, and if ductless isn’t the answer, we say so.',
-  emergencyParagraph:
-    'A bonus room above the garage in Turpin Hills gets the worst of roughly 21 days a summer at 90F, a figure from National Weather Service records. Keep an eye on grandparents, toddlers and anyone ill. Install dates come quickly, and one head takes a day. Failed units go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the 1960s to 1990s houses of Turpin Hills, ductless calls usually start with one of these rooms:',
   localFaqs: [

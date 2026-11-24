@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Warner-Kanter opened the first homes in Forest Park in 1956, and Census figures show 58.5% of today’s housing went up from 1960 to 1979. Nearly all of it has ductwork, so we’re usually called for the room it serves badly, such as a lower-level bedroom, a converted garage or a family room tacked on later. With 45.2% of households renting, plenty of decisions belong to landlords and complex managers. One fixed number comes before we touch a drill, along with a plain warning when ductless isn’t worth buying.',
-  emergencyParagraph:
-    'On average, 21 days each year reach at least 90F, according to the National Weather Service, and the last bedroom on a long duct branch suffers. Elderly neighbors, babies and people with lung disease suffer first. Installs book fast; single heads take a day. Mini-splits that broke down go to Mini-Split Repair, often same day, weekends included.',
   commonIntro:
     'In the planned streets and apartment complexes of Forest Park, these are the cooling problems that tend to end in a ductless install:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'In Park Hills, the spa itself asks for the same things everywhere, a GFCI-guarded 240-volt line, a shutoff the bather can see and bonded metal, but the panel decides the extras. Building here began in 1926, and Census figures put the median house at 1953, so plenty of panels have no slot to spare. About one home in five is from 2000 or later and usually has room, which leaves the deck run as the real work. You get the price before conduit goes in.',
-  emergencyParagraph:
-    'Climb out and stay out if a reset GFCI pops straight back, the shutoff shows burn marks, or the water itself gives anybody a tingle. Leave the pump, heater and cover alone. Throw the breaker only when it’s safe to reach, and treat any smoke as a 911 call. Weekends count, and most calls get a visit that day.',
   commonIntro:
     'In Park Hills, spa wiring calls usually begin with one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Beckett Ridge was laid out in the 1970s around its golf course and mostly built in the 1980s and 1990s; Census figures give a median home of 1990. Heaters here usually live in a basement, garage or laundry room with good access, so a visit is routine: empty the tank, rinse the sludge out, inspect the anode, try the pressure valve. Condos and townhomes add closet units standing in pans. Owners occupy 85.0% of homes. Your quote is fixed up front, and if a tank doesn’t justify servicing, we’ll say.',
-  emergencyParagraph:
-    'Leaks mean a repair: close the inlet valve over the tank, then the gas or breaker. Any gas odor: head out, no switches, no relighting, ring the gas company. Carbon monoxide alarm: the household leaves first. A pressure valve that keeps letting go, or no hot water: repair too. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Around the golf course and its side streets in Beckett Ridge, a heater that’s due usually shows one of these:',
   localFaqs: [

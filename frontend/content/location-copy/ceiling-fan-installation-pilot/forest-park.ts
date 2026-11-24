@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Forest Park is a postwar planned city, and on Census figures its median home dates to 1969. Builders then hung one ceiling light per bedroom from a box meant for that light only, so a fan added later often hangs on hardware never sized for it. Close to half the households here are renters. A look at the box comes first, then a straight answer when a snugged mount stops the wobble, then a price agreed before anything comes down.',
-  emergencyParagraph:
-    'In Forest Park, cut power at the switch or breaker to a fan that shakes hard, sags from the ceiling or smells hot. Do the same for a buzzing switch plate or a breaker that drops when the fan spins, and keep pets and children clear. For smoke, get out and call 911. Most get a same-day visit, weekends included.',
   commonIntro:
     'Across houses from the 1960s and 70s and the apartment complexes beside them, four fan complaints come up again and again in Forest Park.',
   localFaqs: [

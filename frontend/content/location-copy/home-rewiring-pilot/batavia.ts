@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'In Batavia, pre-war village houses stand next to ones from the 1950s and 1960s. Census figures date about a third of homes before 1940, with the midpoint at 1955. The older group can still hide cloth-wrapped or knob-and-tube conductors and no ground behind two-slot receptacles. Post-war houses were wired for far lighter kitchens, and some from the 1960s and 1970s could carry aluminum branch cable. Readings come first, a house that passes hears so, and you sign a scope at one flat figure before plaster comes down.',
-  emergencyParagraph:
-    'Phone us about a burning smell from a receptacle or wall, a switch cover that’s browned or hot, popping, humming, a breaker that won’t stay set, or anyone getting shocked by a fixture. Most of these we reach that day, weekends too. Only kill the circuit if everything nearby is dry. With smoke, leave the house and phone 911.',
   commonIntro:
     'In Batavia, pre-war village houses and mid-century homes show failing wiring in a few familiar ways:',
   localFaqs: [

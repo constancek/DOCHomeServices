@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Census figures date nearly three of every ten homes in Williamsburg to 1939 or before, in a village founded in 1796 beside the East Fork. Some of those houses still lean on a small original service with little spare for a 240-volt line, while post-war and newer houses fare better. Most stand detached, and close to four in ten households rent. Our electrician reads the panel and the load first, says so when the Level 1 cord will cope, and agrees a price before any wiring.',
-  emergencyParagraph:
-    'A hot, scorched or melting plug or outlet is urgent, as is a burning smell mid-charge or a cable someone drove over. If the breaker trips whenever the car charges, quit using it. Shut it off only when the panel can be reached dry-handed. For smoke or flames, get outside and dial 911. Same-day visits are normal, weekends too.',
   commonIntro:
     'From the oldest houses in the village to the newest, these are the situations that come up most in Williamsburg.',
   localFaqs: [

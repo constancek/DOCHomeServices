@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Millville is a small Butler County village where half the houses predate 1958, by Census figures, and nearly a quarter went up in 1939 or earlier. In March 2026, flash flooding on Indian Creek left water in almost every basement in the village, the mayor said. So we look first for damp basements and mold spores, then for dust shaken loose from aging ducts. You get a test before any suggestion, a flat price before work, and a straight word if a new filter covers it.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends the whole family outdoors before anyone phones 911. Gas in the air means walking out, lights untouched, to call the gas company. A burnt smell from the registers means the thermostat goes to off. Mold climbing a basement wall is urgent around babies, grandparents or asthmatics. We’re usually there that day, weekends included.',
   commonIntro:
     'In houses in Millville, these are the problems we’re usually called about:',
   localFaqs: [

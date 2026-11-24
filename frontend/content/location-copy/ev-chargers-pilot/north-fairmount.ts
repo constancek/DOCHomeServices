@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'North Fairmount is nearly all single detached houses on the hill above the Mill Creek, and roughly two-thirds date from before 1940, by Census figures. Plenty of those still lean on a modest original service, so step one is learning whether a 240-volt circuit fits at all. Half the homes are rented, leaving the call with the owner. We measure the panel’s load before quoting, say if the car’s own cord is plenty, and settle the cost up front.',
-  emergencyParagraph:
-    'Charging ends when charger or outlet grows hot, the plug looks scorched, or a burning smell reaches you. A crushed cable, or a breaker that pops at each hookup, also waits for repair. Cut the circuit only when you’re away from water and heat. Smoke or fire means getting out and phoning 911. Same-day visits are usual, weekends included.',
   commonIntro:
     'In a neighborhood of older houses where half the homes are rented, these are the reasons a charger comes up in North Fairmount.',
   localFaqs: [

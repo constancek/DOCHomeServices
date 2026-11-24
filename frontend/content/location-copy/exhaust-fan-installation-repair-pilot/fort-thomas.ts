@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Fort Thomas is mostly mid-century and older. By Census figures the median house dates from 1955, and roughly a third predate 1940. The prewar ones often went without a bathroom fan until an owner put one in, and that fan was commonly aimed into the attic or a wall cavity. Houses from the 1950s generally have a fan, but a small one worn down by decades of showers. We follow the duct from the grille to its far end, then price the fix before any ceiling is cut.',
-  emergencyParagraph:
-    'In Fort Thomas, if a fan gives off a burnt smell, sparks, smokes, keeps tripping its circuit or shows a scorched housing, cut the power at the breaker if safe. Water coming through the grille often means a leaking roof cap. Smoke or fire means getting out before calling 911. We come the same day on most calls, weekends too.',
   commonIntro:
     'From the older blocks near the old Army post to the 1950s streets across Fort Thomas, these are the signs we see most.',
   localFaqs: [

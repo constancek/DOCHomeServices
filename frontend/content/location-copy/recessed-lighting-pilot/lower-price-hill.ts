@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'In Lower Price Hill, ceiling work mostly happens in rentals, often while a unit sits empty for rehab. Census figures put the median building at 1938, and most homes here are rented, many inside two-family houses or three- and four-unit buildings near State Avenue and West Eighth. Those ceilings tend to be old plaster, sometimes with a fire separation between units and very little cavity above. Gutted units are the easy version. Every job starts with can spots marked and a flat price agreed.',
-  emergencyParagraph:
-    'In Lower Price Hill, a can that smells scorched, plaster darkening around a trim or a breaker that pops whenever those lights switch on needs same-day attention. If the panel can be reached safely, shut that breaker. If smoke or flame shows, everyone goes outside and someone calls 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'In Lower Price Hill, owners rehabbing older buildings ask us for these four jobs most:',
   localFaqs: [

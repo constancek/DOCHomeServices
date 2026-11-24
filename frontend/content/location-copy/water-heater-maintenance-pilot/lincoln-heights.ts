@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Lincoln Heights is mostly renters, 73.6% of households by Census figures, and the median home dates from 1973. So most yearly water heater visits here are booked by landlords and property managers: closet tanks in apartments, and basement or utility-room tanks in rented houses. Owners living in their own homes call too. Every tank gets a flush, an anode check and a relief valve test, priced before the work, and if one isn’t worth servicing, the owner hears that first.',
-  emergencyParagraph:
-    'Renters report these to the landlord or manager; all are repairs. Water escaping the tank: cold valve on top off, then gas or breaker. Gas smell: out the door, no switch or pilot touched, then ring the gas company. Carbon monoxide alarm: all out. Nonstop relief valve discharge, or a cold tap. Most get same-day visits, weekends too.',
   commonIntro:
     'For apartments and rented houses in Lincoln Heights, here’s what owners and managers should watch for:',
   localFaqs: [

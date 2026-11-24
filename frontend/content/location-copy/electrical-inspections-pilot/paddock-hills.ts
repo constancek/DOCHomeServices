@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Paddock Hills has two kinds of housing, and an electrical inspection looks different in each. The Dutch Colonial and Tudor Revival houses are the older half; Census figures put 41.8% of homes in the area at 1939 or earlier, and those are where ungrounded outlets and old cloth wiring turn up. Another 40.2% went up between 1960 and 1979, many of them in apartment buildings, where small panels and too few circuits are the usual findings. Either way, we test the system and quote any fix before starting.',
-  emergencyParagraph:
-    'Don’t save these for a booked inspection: a switch or outlet that’s warm, crackling or scorched, a breaker that won’t stay on after a reset, or lights that dip hard when the furnace starts. Turn that breaker off. If there’s smoke or fire, get everyone out and call 911. We see most of these calls the same day, weekends included.',
   commonIntro:
     'Between the older houses off Paddock Road and the apartment buildings near Reading Road, these are the findings we write up most:',
   localFaqs: [

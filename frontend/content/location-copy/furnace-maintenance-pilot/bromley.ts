@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Bromley is a small river city of detached houses, and 51.7% of them went up in 1939 or earlier, by Census figures. Gas heats 64.4% of homes. The usual furnace here is a replacement for a replacement, at the bottom of a narrow basement stair, venting into a brick chimney as old as the house. The flue and heat exchanger take the bulk of our hour. Price first, always, and if the furnace is sound, we leave without selling you anything.',
-  emergencyParagraph:
-    'Repairs jump the line in Bromley. Gas smell: everybody out, no light switches, no pilot relighting, and the gas company called from the road. Carbon monoxide alarm: out first. No heat in freezing weather, a furnace cycling without rest, or a yellow, drooping flame. Older folks, babies and the sick are hit hardest. Most get a same-day visit, weekends too.',
   commonIntro:
     'Nearly every house in Bromley is detached, and most of the furnaces we see sit in pre-war basements. Owners usually call because of:',
   localFaqs: [

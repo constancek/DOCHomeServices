@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Most fan work we do happens under plaster in an old brick house in Covington. Census figures count 9,268 homes in the city built in 1939 or earlier. Those ceilings often hide a shallow box tacked onto lath and sized for a glass globe, and plenty of narrow upstairs bedrooms on these streets have never had a fan. Our electrician opens that box before quoting. If a loose canopy turns out to be the entire fault, you hear it, and the price is settled with the old globe still up.',
-  emergencyParagraph:
-    'A fan lurching, a canopy sagging off the plaster, a scorched motor smell, or a breaker that pops as the blades start needs us quickly. If you can reach the switch or breaker without standing beneath the fan, shut it off. With fire or smoke, get out and call 911. Most visits happen same day, weekends included.',
   commonIntro:
     'Brick houses from before 1940 and the apartment buildings around them shape the fan calls we get in Covington.',
   localFaqs: [

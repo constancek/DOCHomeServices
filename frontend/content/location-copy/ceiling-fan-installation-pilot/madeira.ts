@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'Madeira saw its biggest building decade in the 1950s, and Census figures show about half its houses predate 1960, nearly all single-family and owner-occupied. Bedrooms from those years have modest ceilings and a shallow box meant for a dome light, so the common answer is a hugger fan on a box built to carry it. Houses added since around South Kenwood bring taller great rooms and patios. We open the box first, tell you if rebalancing will do, and fix the price before the dome light comes down.',
-  emergencyParagraph:
-    'A fan shaking its glass shades loose, tugging its box down or smoking gets a visit today, as does a sparking switch or a breaker tripping at startup. Switch it off at the panel if safe and move people away. Real flames mean leaving for a 911 call. Most calls in Madeira get a same-day visit, weekends included.',
   commonIntro:
     'Mid-century bedrooms with dome lights, a growing number of newer great rooms and plenty of back patios cover most of the fan requests we get from Madeira.',
   localFaqs: [

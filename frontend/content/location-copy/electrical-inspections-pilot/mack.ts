@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'In Mack, an inspection is rarely about old wire. Census figures put the median home at 1981, and 42.7% were built from 1980 through 1999. Wiring of that vintage is normally grounded and on breakers, so we seldom chase cloth cable here. Owners book us before selling, before finishing a basement, or before adding a hot tub, a charger or electric heat, mainly to learn whether the panel has room. You get that answer on paper, with any upgrade priced first.',
-  emergencyParagraph:
-    'Newer Mack houses still get urgent problems: a receptacle hot to the touch, a buzzing dimmer or switch, sparks, a burning odor, or lights that sag every time a big appliance kicks on. Switch off the breaker feeding it. If there’s smoke or flame, get out and dial 911. Most of these get a same-day visit, weekends included.',
   commonIntro:
     'Mack houses mostly date from the 1980s and 1990s, so findings lean toward capacity and add-ons, not old wire:',
   localFaqs: [

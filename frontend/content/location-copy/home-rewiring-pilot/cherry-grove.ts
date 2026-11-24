@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'In Cherry Grove, nearly four in five houses went up between 1960 and 1979, Census figures show, and almost all are owner-occupied. Some houses from those years may have aluminum branch wiring, and where it’s present the receptacles and switches are where trouble starts. Others have copper that’s fine but too few circuits for a remodeled kitchen or a heat pump. A meter check comes first, you’ll be told if nothing needs doing, and the scope and flat price arrive in writing before any wall is opened.',
-  emergencyParagraph:
-    'Give us a same-day call, Saturdays and Sundays too, when an outlet or switch turns brown, feels hot or smells like melting plastic, when a breaker keeps dropping after you flip it back, or when a fixture zaps you. With dry hands and a dry floor, shut that circuit off. If there’s smoke or flame, leave and dial 911.',
   commonIntro:
     'In the 1960s and 1970s houses around Cherry Grove, wiring trouble usually starts with one of these:',
   localFaqs: [

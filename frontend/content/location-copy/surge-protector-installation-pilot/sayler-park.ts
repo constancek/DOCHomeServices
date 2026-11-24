@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'In Sayler Park, half the housing dates from 1939 or earlier, by Census figures, and most is owner-occupied, on streets climbing from River Road toward the hills. Plenty of these houses went from fuses to a modest breaker box long ago, and that box is often out of spare slots now. Meanwhile the furnace, condenser and kitchen got replaced with board-driven equipment that a surge can ruin. First we open the box. If outlet strips are enough, we’ll admit it, and you approve the price before we start.',
-  emergencyParagraph:
-    'Phone us now about a melted-looking outlet, burning insulation near the panel, a breaker that pops back off, or a furnace that sparked at power-up. Same-day visits happen on most calls, weekends included. Switch that circuit off only if you’re dry. Smoke or fire means calling 911 from outside. Lights swelling house-wide go to Duke Energy Ohio first.',
   commonIntro:
     'These four signs come up most when owners ask us about a protector for a house in Sayler Park.',
   localFaqs: [

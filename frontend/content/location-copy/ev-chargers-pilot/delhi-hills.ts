@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Census figures show Delhi Hills is nearly all detached, owner-occupied houses, close to half from the 1960s and 1970s, around a 1971 median. A detached house gives a charger an easy start, but panels of that age are often crowded. About half the homes here heat with electricity, too, and that heat load gets counted before the car. We open the panel, run the load calculation, say when Level 1 will do, and give you the price before a wire is connected.',
-  emergencyParagraph:
-    'If the charger or its outlet discolors, a plug softens with heat, a burning smell comes from the wall, or the breaker trips on every charge, stop charging. Turn the circuit off at a dry panel only if that’s safe. Smoke or fire means getting everyone out, then calling 911. A technician usually reaches you the same day, weekends included.',
   commonIntro:
     'In Delhi Hills, owners of 1960s and 1970s houses tend to bring us one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Mount Healthy is its own small city, and its housing shapes what a cooling checkup looks like. Census figures give a median build year of 1956, with roughly three in ten homes older than 1940, so plenty of air conditioners were bolted onto a basement furnace long after the fact. Half of all homes are rented, so landlords decide on service for many of them. Postwar houses tend to be quicker. We name the flat price first, and when there’s nothing worth doing, you hear that too.',
-  emergencyParagraph:
-    'Warm air during a July heat wave, ice crusted on the coil or lines, or a puddle spreading from the indoor unit means call for repair and turn the thermostat to off. Leave it off after any burnt smell. Elderly parents, newborns and anybody ill handle heat worst. We arrive same day on most calls, weekends included.',
   commonIntro:
     'Between the older blocks near Compton Road and the postwar streets, these are what usually prompt a booking:',
   localFaqs: [

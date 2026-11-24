@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'In Roselawn, most housing dates from the 1960s and ’70s; Census figures put 46.6% of homes in that window and 20.3% before 1940. Three- and four-family buildings hold 30.7% of units, and 64.2% of households rent, so the person approving a ductless job is often a landlord rather than the occupant. The prewar houses tend to lack ducts, and in the apartments a head per unit saves cutting chases through finished walls. One price gets agreed up front, and when ductless isn’t worth it, we say that plainly.',
-  emergencyParagraph:
-    'About 21 days a year hit 90F or more, says the National Weather Service, and in Roselawn, an upper-floor apartment keeps that heat overnight. Seniors, infants and anyone with breathing problems are most exposed. We fit installs in quickly, usually a day for one head. A mini-split that quit is a repair, same day on most calls, weekends too.',
   commonIntro:
     'Off Reading Road and Section Road, these are what most often prompt a ductless quote in Roselawn:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Two building booms shaped Taylor Mill. By Census figures, 31.4% of homes were built between 1940 and 1959, small postwar houses where some bedrooms still rely on a window unit, and a wall-hung ductless head is often the tidiest way to retire it. Another 39.4% came in the 1980s and 1990s with ducts already run, so there the call is about a finished basement, a bonus room or a sunroom. Before anyone drills, you have a flat price, and if ductless is the wrong tool we say it.',
-  emergencyParagraph:
-    'In Taylor Mill, top-floor bedrooms soak up heat on the roughly 21 days a year that hit 90F or more (National Weather Service). Small babies, anyone sick and older relatives struggle first. We book ductless installs fast, and one head is usually a one-day job. If a mini-split died, Mini-Split Repair is same day on most calls, weekends included.',
   commonIntro:
     'Across the postwar streets and the 1990s subdivisions of Taylor Mill, these are the usual reasons people call about ductless:',
   localFaqs: [

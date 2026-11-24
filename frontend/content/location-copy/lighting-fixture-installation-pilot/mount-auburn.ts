@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Italianate and Second Empire houses on the hill above Over-the-Rhine are where we hang most of our wall sconces in Mount Auburn, and each depends on the box behind the plaster, whether a ground reaches it and whether a light was ever there. Census counts show 1,771 of roughly 3,100 homes here predate 1940, though a cluster of apartment buildings went up after 2010. About two in three are rented. We open the wall and see what we’re mounting to before giving a number.',
-  emergencyParagraph:
-    'A light dangling from its canopy, browned or melted plastic near a socket, or flicker running through several rooms means we should come today. If the breaker is reachable without risk, cut that circuit, and clear the stair hall below a loose fixture. Smoke or flame means get outside and dial 911. Weekends usually still get a same-day visit.',
   commonIntro:
     'Light fixture calls in Mount Auburn usually involve one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Delhi Hills sits on a bluff above the Ohio River, and by Census figures nearly every home is a detached, owner-occupied house, with a median year built of 1971. Houses from that decade usually got a bathroom fan, but it was usually a basic one, and after decades of dust it may barely turn. Its duct may also stop short of the roof. Basement bathrooms finished later sometimes got no fan at all. We test the fan and trace the duct, and you get the price before any cutting.',
-  emergencyParagraph:
-    'Shut the fan down at the wall switch or the breaker, if that’s safe, when it smells hot, sparks, smokes or the housing has started to melt. With fire or real smoke, leave and call 911. A breaker that keeps tripping the moment the fan starts needs a visit. In Delhi Hills, most calls get a same-day visit, weekends included.',
   commonIntro:
     'Across the 1960s and 1970s streets of Delhi Hills, these are the fan problems we’re asked about.',
   localFaqs: [

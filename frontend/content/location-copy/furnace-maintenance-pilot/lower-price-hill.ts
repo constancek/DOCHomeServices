@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Landlords book most furnace tune-ups in Lower Price Hill, since 82.7% of homes are rented by Census figures. The buildings are old, many of them doubles and small apartment houses, and nearly two in three homes predate 1940. In those, a basement furnace usually vents into an old chimney and has been replaced before, so we look hardest at the flue and heat exchanger. Electric and gas heat are about even here. The price is agreed first, and we’ll say so if a furnace is fine.',
-  emergencyParagraph:
-    'For a gas smell in Lower Price Hill, get out, keep hands off switches and pilots, and phone the gas company outside. Carbon monoxide alarm: clear the building. A burner cycling nonstop, or yellow flames, means repair. In a cold unit, babies, elderly neighbors and anyone sick are most at risk. We come the same day for most, weekends included.',
   commonIntro:
     'In the old doubles and small apartment houses of Lower Price Hill, a fall visit usually follows one of these:',
   localFaqs: [

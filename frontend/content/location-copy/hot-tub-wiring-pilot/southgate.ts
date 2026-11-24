@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Southgate’s housing runs from prewar houses to 1990s builds, and Census figures put the median at 1968, with close to three in ten older than 1940. For a spa, that spread means two different panels. The older ones are often out of slots, so the panel comes before the tub’s breaker. The later ones usually have room, and the job is the 240-volt ground-fault circuit, an outdoor cutoff and the bonding grid. We size it to the tub’s install manual and quote it before a trench is cut.',
-  emergencyParagraph:
-    'Shut the spa off if its GFCI won’t stay set, the cutoff box feels warm or looks charred, or a bather feels a buzz from the handrail. Get everyone out and keep hands off the tub. Flip the breaker only when it’s safe. With smoke or fire, leave and phone 911. Most calls are same day, weekends too.',
   commonIntro:
     'Apartment buildings hold a large share of homes in Southgate, but houses, old and newer, are where spa calls come from, usually for one of these reasons.',
   localFaqs: [

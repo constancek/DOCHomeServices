@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Mason is mostly newer construction. Census figures show 52% of its homes went up between 1990 and 2009, so ductless work here seldom means cooling a whole house. Usually it means one stubborn space that the builder’s system starves, often above the garage, down in a basement someone finished later, or out in a four-season porch. Townhomes make up 17.6% of homes, and their top-floor bedrooms come up too. Your quote is fixed before the drill comes out, and if balancing the ducts would solve it, we’ll say so.',
-  emergencyParagraph:
-    'National Weather Service normals put July highs at 86F, and attic-side rooms bake beyond it by late day. Visiting grandparents, infants and people with asthma handle that worst. Ductless jobs get on our calendar fast, and one head goes up in one visit. If a unit you own has died, book Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Around Mason, the calls we get for ductless systems tend to begin with one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Delhi Hills is mainly 1960s and 1970s houses, and in Census figures the median lands at 1971, with nearly all homes lived in by their owners. Houses of that era tend to fall short on kitchen circuits, and some may carry aluminum branch wiring. About half the homes here also heat electrically, a load the original layout may never have counted on. We test, say so if the wiring is sound, and you get the scope and flat-rate price in writing before a wall is opened.',
-  emergencyParagraph:
-    'If an outlet or switch gives off a scorched smell, if you hear buzzing or see sparks, if a breaker refuses to reset, or if a fixture tingles, ring us today. Shut that circuit off only if the panel is dry and safe. Smoke or fire means get out and call 911. Most visits happen same day, weekends included.',
   commonIntro:
     'On the bluff above the Ohio River, in houses built mostly in the 1960s and 1970s, these signs show up most in Delhi Hills:',
   localFaqs: [

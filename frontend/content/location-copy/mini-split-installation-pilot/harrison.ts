@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Harrison is a younger town than most people assume; Census figures put the median home at 1992, and 42.4% went up in 2000 or later. In houses that new, the usual ductless job is a room added or finished later, such as a bonus room, a basement or a sunroom. Electricity heats 64.5% of homes, so a mini-split’s heating side matters as much as its cooling. The price is agreed before any work, and if a tweak to your current system will do, we’ll say so.',
-  emergencyParagraph:
-    'A finished room above the garage gets hottest in Harrison on the 21 or so days a year past 90F (National Weather Service). That’s a poor place for a baby, an older relative or anyone sick. Installs get scheduled quickly, and one zone is usually a day. A mini-split that quit is Mini-Split Repair, often same day, weekends too.',
   commonIntro:
     'In the newer subdivisions and townhomes around the city, these are the rooms that lead to a ductless quote in Harrison:',
   localFaqs: [

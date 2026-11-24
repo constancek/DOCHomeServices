@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Housing in Milford is old. By Census figures the median home dates to 1968, and 685 were standing by 1939, so plenty of breaker boxes have to be freed up or replaced before a spa can share them. After that, the tub gets its own 240-volt feed through a GFCI breaker, a pull-out disconnect visible from the water, and a bonding loop for the metal around it. Roughly half the households rent, which puts owners in charge. Our quote follows a read of the panel against the spa manual.',
-  emergencyParagraph:
-    'Don’t wait in Milford if a GFCI won’t reset, the disconnect smells like burning plastic, or the water gives anyone a tingle. Equipment soaked by Little Miami flooding near Main Street stays off until tested. Climb out, open the breaker only when it’s safe, and call 911 for smoke. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'From the side streets off Main Street to the newer houses farther from the river, four spa problems account for most of the calls we answer in Milford.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Lower Price Hill is old and tightly built. Census figures put the median year built at 1938, with 64.9% of units from 1939 or earlier, most of them in rowhouses, two-families and three- or four-flat buildings. Those buildings predate central air by decades, so a wall head fed through the rear wall cools a flat without tearing into plaster. Since 82.7% of homes are rented, owners make this call. They get a flat figure before any drilling, and we say so when a mini-split isn’t worth it.',
-  emergencyParagraph:
-    'On a top floor in Lower Price Hill, the 21 or so days a year at 90F or more (National Weather Service) feel worse, and elderly tenants, babies and the sick suffer first. Installs are quick; one head is a day’s job, multi-zone longer. A broken unit goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Around State Avenue, West Eighth and Storrs Street, owners usually come to us with one of these four problems:',
   localFaqs: [

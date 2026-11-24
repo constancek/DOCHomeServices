@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Covedale is two places sharing one name, and their air problems differ. The Green Township side is owner-occupied single-family houses, with a median build year of 1959 by Census figures and 915 homes from the 1950s alone, most of them on gas heat. The Cincinnati side runs older, where the median home dates to 1938. Basements under the 1950s houses tend to stay damp; the prewar houses add drafts and dusty ducts. Our test sets the plan, the quote is flat, and a clogged filter gets called a clogged filter.',
-  emergencyParagraph:
-    'If a carbon monoxide alarm goes off, get the family out and ring 911. If you smell gas, leave the lights alone and call the gas company outside. Turn off a scorched-smelling furnace or AC at the thermostat. Mold spreading after water damage threatens asthma sufferers, babies and grandparents. Most calls are same day, weekends included.',
   commonIntro:
     'Across the 1950s houses on the township side and the prewar streets inside the city, these four turn up most.',
   localFaqs: [

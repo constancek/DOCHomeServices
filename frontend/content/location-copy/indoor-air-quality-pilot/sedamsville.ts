@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'In Sedamsville, most houses predate the Second World War. Census figures date 444 of its 610 homes to 1939 or earlier, mostly small worker cottages on the hillside and flats along River Road. Those houses leak air at every sash, sit over damp cellars, and often had ductwork squeezed in later. Close to two in three households rent, so owners usually make the call. Everything starts with a test, each fix carries one flat price, and if the filter is the whole problem, you’ll hear that.',
-  emergencyParagraph:
-    'When the carbon monoxide alarm goes off, get everyone out, then call 911. When you smell gas, leave the switches alone, go outside and call the gas company. If the furnace or AC smells of burning, shut it off at the thermostat. Babies, older relatives and people with asthma are hit first. Same-day visits on most calls, weekends included.',
   commonIntro:
     'In the cottages, flats and small rental buildings of Sedamsville, these come up again and again:',
   localFaqs: [

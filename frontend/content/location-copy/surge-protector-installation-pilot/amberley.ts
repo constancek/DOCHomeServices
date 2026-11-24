@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Nearly every house in Amberley Village is a detached, owner-occupied home, and Census figures put the median at 1959, so most went up in the 1940s through the 1970s. Houses that age have usually been updated along the way, with central air, newer gas furnaces and kitchens full of control boards, all of it sensitive to spikes. We start at your breaker box to see where a protector fits, say so if outlet strips cover what you own, and you approve one flat figure first.',
-  emergencyParagraph:
-    'A furnace or fridge that smoked or sparked when the power returned should stay off until it’s checked, and so should any outlet with a melted face. Call us that day when a breaker refuses to hold. Flip that breaker only with dry hands, and for smoke, leave and dial 911. Most visits are same day, weekends too.',
   commonIntro:
     'Mid-century houses in Amberley Village have usually been updated more than once, and these are the warning signs owners describe to us.',
   localFaqs: [

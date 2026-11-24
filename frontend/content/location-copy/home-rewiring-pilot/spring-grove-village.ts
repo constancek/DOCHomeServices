@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Spring Grove Village is mostly detached houses from the Winton Place era, and plenty still run on their first wiring. Census figures date over half of homes here to before 1940, the typical one to 1938. Wire that old may be knob-and-tube on porcelain insulators, with no ground. About a third more were built from 1940 through 1979, when a kitchen was wired for a toaster and a fridge. We check every circuit before pricing, tell you when it passes, and put scope and flat rate on paper.',
-  emergencyParagraph:
-    'Phone us right away about a burning odor from a wall or receptacle, a cover plate gone brown, sparks, crackling, a breaker that keeps popping, or a tingle from a switch. Shut off that circuit if you’re dry. With smoke or flame, go outside and call 911. Most of these get a same-day visit, Saturdays and Sundays included.',
   commonIntro:
     'In the older houses near the cemetery and along Winton Road, worn wiring tends to announce itself in one of four ways.',
   localFaqs: [

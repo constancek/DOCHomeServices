@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Floor lamps doing a ceiling’s job is the usual story behind a recessed lighting call in Milford. Census figures date the median home to 1968, and roughly one house in five in town was standing by 1939, so lath and plaster overhead and parlors wired for a lone center light turn up often off Main Street. Half the households rent, many inside big apartment blocks near the Little Miami. Before our saw touches anything, the layout is chalked out and the quote is yours to approve.',
-  emergencyParagraph:
-    'Scorched odor at a can, a trim that burns your fingertips, or tan stains creeping across the plaster around a light mean today. So does a breaker that flips when those lights come on. Kill it if the panel feels safe to reach. If there’s smoke or flame, dial 911 from outside. Same day on most calls, weekends included.',
   commonIntro:
     'In Milford, we get a split diet of prewar plaster houses by the river and newer apartment blocks, and the asks below come up again and again.',
   localFaqs: [

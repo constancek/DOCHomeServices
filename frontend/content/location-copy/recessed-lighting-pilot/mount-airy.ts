@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Off Colerain Avenue, the attic hatch tells us most of what a recessed job in Mount Airy will take. Census figures show a 1964 median and more than four in ten homes framed between 1960 and 1979, so a ranch or split with blown-in fill over the bedrooms is the classic case, often with a rec room downstairs finished decades later. Apartment blocks hold nearly as many households as detached houses, and renters outnumber owners. Each can is penciled on the drywall, and the figure agreed, before we cut.',
-  emergencyParagraph:
-    'Smell hot plastic near a can, see browning paint, or feel a trim you can’t hold a palm against, and that circuit should go dead at the breaker, if that is safe. A breaker that pops whenever the cans switch on is pressing too. With smoke or flames, get outside and dial 911. Same-day help reaches most addresses, weekends too.',
   commonIntro:
     'Mid-century ranches beside the forest, basements turned into family space and apartment blocks off Colerain supply most requests, and these four lead the list.',
   localFaqs: [

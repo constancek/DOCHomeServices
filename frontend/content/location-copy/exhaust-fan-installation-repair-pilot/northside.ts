@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'In Northside, a steamy bathroom usually comes down to the house, not the shower. Census figures count 2,714 of Northside’s 4,737 homes as built by 1939, decades before anybody bothered venting a bath, so lots of them get by with a window, or with a fan someone cut in later and aimed at the attic. Farther up Hamilton Avenue the postwar houses do have fans, mostly undersized ones. Our electrician chases the air to wherever it escapes and puts a price on fixing it before touching the ceiling.',
-  emergencyParagraph:
-    'In Northside, a fan with a hot-wire stink, blistered or browned plastic, sparking, smoke, a breaker that flips the instant it starts, or a trickle through the grille means cutting power at the panel, provided you can reach it safely. If smoke or flame shows, everyone leaves and someone dials 911. We usually come the same day, weekends too.',
   commonIntro:
     'Along the side streets off Hamilton and Spring Grove, the complaints we hear most go like this:',
   localFaqs: [

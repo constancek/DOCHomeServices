@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'In Newtown, the house’s age decides how the tune-up goes. Census figures date the median home to 1989, and on those the ducts were laid out for central air from the start, with both units easy to reach. The 21.6% built before 1940 are another job, since cooling came later and the air handler went wherever it fit, often a basement corner. For rented homes, owners do the booking. A flat price comes first, and if the AC needs nothing, we tell you.',
-  emergencyParagraph:
-    'A heat wave with no cooling, or water spreading around the indoor unit, calls for a repair visit. Leave the system off and call if you smell burning or the breaker won’t stay set. Older relatives, infants and anyone with breathing trouble feel the heat worst. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Calls for a spring tune-up from around the village usually start with one of these.',
   localFaqs: [

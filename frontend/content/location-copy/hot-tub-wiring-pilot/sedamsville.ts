@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'Sedamsville is mostly Italianate worker cottages climbing from River Road toward Price Hill, and a spa behind one starts with a hard look at the panel. Census figures put the median home at 1938, roughly three in four predate 1940, and about two households in three rent. A cottage service sized for bulbs and a radio won’t feed a spa heater, so that gets solved first. We hold your panel against the tub’s electrical sheet and fix a price before conduit touches the brick.',
-  emergencyParagraph:
-    'Phone right away if the spa GFCI snaps back off, the disconnect looks charred, the panel buzzes, a bather feels a tingle, or the tub sat in flood water. Everyone climbs out and leaves the equipment be. Only reach for the disconnect if it’s safe. For smoke or fire, leave and call 911. Most calls are same day, weekends included.',
   commonIntro:
     'From River Road up the steep side streets, these are the spa calls we get in Sedamsville:',
   localFaqs: [

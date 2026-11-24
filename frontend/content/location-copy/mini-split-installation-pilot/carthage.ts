@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'Carthage was a village of its own until Cincinnati annexed it in 1911, and the housing shows it. By Census figures, 68.5% of homes went up in 1939 or earlier, and the median year built is 1938. Houses that old were built before central air, and ducts added later often do a poor job upstairs. A mini-split reaches those bedrooms through the outside wall. With 43.4% of homes rented, plenty of jobs come from landlords. The quote comes first, and so does an honest no.',
-  emergencyParagraph:
-    'Around 21 afternoons a year climb past 90F, per National Weather Service records, and a duct-free upstairs off Vine Street stays stifling past dark. Seniors, toddlers and folks with emphysema or asthma suffer first. We slot installs in soon, one head per day. A broken ductless unit needs Mini-Split Repair, same day for most callers, weekends too.',
   commonIntro:
     'In the older houses, doubles and apartment buildings around Vine Street in Carthage, these are the jobs that most often lead to a ductless system:',
   localFaqs: [

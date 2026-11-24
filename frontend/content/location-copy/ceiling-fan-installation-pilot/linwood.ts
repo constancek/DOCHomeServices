@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'Linwood was its own village on the Little Miami Railroad before Cincinnati annexed it in 1893, and its houses show it. More than four in five homes here date from before 1940, by Census count, and nearly a third of units sit in two-family houses. Expect plaster ceilings and a fixture box meant for a hanging light, with plenty of upstairs bedrooms that never had a fan. We test that box first. If tightening will settle it, we say so, and you’ll know the cost before anything comes down.',
-  emergencyParagraph:
-    'Plaster cracking around the canopy, a fan swinging, smoke from the motor, or a switch that sparks when you flip it means the fan stays off. Cut the power if that’s safe, and keep people out from under it. Fire means everyone out and a 911 call. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'In Linwood, upstairs flats and plaster ceilings account for most of the fan trouble we’re called about.',
   localFaqs: [

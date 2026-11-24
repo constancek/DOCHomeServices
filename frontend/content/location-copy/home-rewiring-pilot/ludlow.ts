@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'More than half of Ludlow was built before 1940, by Census figures, so a rewire here usually starts in a Victorian or early-1900s house. That generation of wiring may be knob-and-tube or cloth-sheathed, with no ground, leaving a fault no safe way out. Houses put up since 2000 seldom need more than a circuit or two. Testing comes ahead of any quote, you hear it straight if the old wiring is holding up, and the scope and a flat price are written out before any plaster comes off the lath.',
-  emergencyParagraph:
-    'Blackened or warm outlets, sparks from a switch, a burning odor or a jolt off a fixture shouldn’t be left until Monday. Kill that circuit at the panel if your hands and feet are dry. Smoke or flame means it’s time to get everybody out and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'In the Victorian and early-1900s houses of Ludlow, these faults come up again and again.',
   localFaqs: [

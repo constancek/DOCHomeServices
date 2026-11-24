@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Housing in Mount Washington is mostly post-war, with Census figures putting the median year built from 1953 to 1976 depending on the area. A house from the 1950s through the 1970s often has too few circuits for a modern kitchen, and some from the 1960s and 1970s may have aluminum branch wiring. The small group built before 1940 may still hold knob-and-tube with no ground. Our first visit is testing, a good result gets reported as good, and the scope and flat rate land in writing ahead of any cutting.',
-  emergencyParagraph:
-    'Same-day help makes sense when a switch or wall gives off a burning smell, a cover turns scorched or hot, sparks fly or something buzzes, a breaker won’t survive a reset, or a fixture shocks you. Shut the circuit at the panel only while dry and clear of anything hot. With smoke or fire, leave and dial 911. Weekends too.',
   commonIntro:
     'From post-war houses on the side streets to apartment buildings near Beechmont Avenue, these come up most.',
   localFaqs: [

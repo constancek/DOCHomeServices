@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Most residents of Downtown Cincinnati are in large buildings, and Census figures show close to nine in ten homes are rented, so a whole-building protector is usually the owner’s or the condo association’s call. Buildings from before 1940 may have crowded unit panels, while the many flats finished since 2010 carry heat pumps and appliances run by boards. For most tenants, good power strips are the answer, and we’ll say so. Owners get a panel check first and a fixed price before work begins.',
-  emergencyParagraph:
-    'If an outlet is scorched or smells hot after a surge, or a breaker trips again at once, stop using that circuit and tell management. Owners can call us directly. Lights brightening and dimming across the building are for Duke Energy Ohio first. With smoke or fire, leave and call 911. Most owner calls get a same-day visit, weekends too.',
   commonIntro:
     'In Downtown Cincinnati, where most homes are flats in large buildings, these signs usually reach a building manager or condo owner first.',
   localFaqs: [

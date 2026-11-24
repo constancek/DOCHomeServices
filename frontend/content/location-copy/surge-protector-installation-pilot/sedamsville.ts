@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'In Sedamsville, nearly three-quarters of the houses predate 1940 by Census figures, and plenty are small worker cottages stepping up the slope from River Road. Roughly two in three are rentals. Cottages like these seldom have a free space in the breaker box, so what we find inside decides where a protector can sit. A house rehabbed with new appliances has more worth guarding. We open the panel first, tell you if strips will do, and agree a price before anything is wired.',
-  emergencyParagraph:
-    'Same-day visits on most calls, weekends included, go to an outlet gone brown, a panel that smells cooked, a breaker that won’t hold a reset, or a heater that sparked. Kill the circuit only if nothing nearby is wet. At the first smoke, leave and call 911. Lights brightening and dimming everywhere go to Duke Energy Ohio first.',
   commonIntro:
     'Cottages, doubles and small rentals on the hillside each show trouble differently, and these are the signs that lead people in Sedamsville to call about surge protection.',
   localFaqs: [

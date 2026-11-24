@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton is two towns of houses. Roughly one in five went up before 1960 around the old center, where a small original service may have little room for a 240-volt line. More than half are from 2000 or later, and those panels usually have spare slots or can lean on load management. Census figures count four in five homes as single detached houses. Whichever half yours belongs to, the panel gets opened and its load totaled first, and you hear if your cord is enough before we price anything.',
-  emergencyParagraph:
-    'Have us check a blackened plug, an outlet or charger that’s hot to touch, a burning smell, a frayed cable or a breaker that trips each charge before charging again. Switch that circuit off if you can do it dry-handed. If there’s smoke or fire, get everyone out and phone 911. We can usually be there that day, weekends included.',
   commonIntro:
     'These four situations most often bring households in Walton to us about charging.',
   localFaqs: [

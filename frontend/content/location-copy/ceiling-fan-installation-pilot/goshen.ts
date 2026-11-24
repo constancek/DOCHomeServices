@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'In Goshen, fan jobs land in three kinds of house. Census figures put the township’s median home at 1983, and roughly a quarter went up after 2000, so peaked great rooms and covered back decks are common. The old core along Route 28 is mostly 1950s and earlier, where a bedroom box held a single bulb. About one unit in seven is a mobile home, with low ceilings. We open the box before quoting, say so when a tightened bracket will do, and fix the price first.',
-  emergencyParagraph:
-    'Leave a fan off if it lurches, the canopy has dropped from the ceiling, or the motor smells burnt or smokes. Turn off the switch or breaker when that’s safe, and clear the room. If you see flame, leave the house first and ring 911 from the yard. Most calls get us on site that same day, weekends too.',
   commonIntro:
     'From the old center to the newer subdivisions and the manufactured homes, these four bring most fan calls in Goshen.',
   localFaqs: [

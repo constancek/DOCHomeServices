@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'On the hilltop streets of West Price Hill, prewar and mid-century houses sit side by side. Census figures say three in five homes are single detached houses and nearly half date from 1940 to 1969, and a panel serving a family since the 1950s has usually run out of empty slots. More than a third of homes predate 1940, some on a small original service. Our electrician tallies the panel first, admits it when your plug-in cord is plenty, and prices the job beforehand.',
-  emergencyParagraph:
-    'If a plug or charger is discolored by heat, the cable has been pinched or crushed, the breaker quits every charge, or something smells like it’s cooking, stop charging. Turn that breaker off if the panel area is dry. Smoke or fire means everybody gets out and someone calls 911. We’re usually up the hill that day, weekends too.',
   commonIntro:
     'These are the situations that usually bring people in West Price Hill to us about a charger.',
   localFaqs: [

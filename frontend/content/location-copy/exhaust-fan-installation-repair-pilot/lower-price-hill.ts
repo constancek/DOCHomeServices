@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Most exhaust fan jobs in Lower Price Hill are booked by landlords, or by owners who live in one unit and rent out the other. Roughly eight in ten households here rent, and Census figures date the typical building to 1938, back when attached houses and two-family flats were built with no thought of a bathroom fan. Bathrooms wedged in later often have none, or a fan feeding into a wall cavity. We find where the air stops, then give the owner a fixed number before the ceiling is opened.',
-  emergencyParagraph:
-    'A fan that smells hot, a housing that’s scorched or melting, sparks at the grille or water dripping out of it should not wait. Cut power at the switch or breaker if that’s safe, and phone 911 if there’s smoke or fire. Tenants, tell the landlord straight away. We reach most calls that same day, weekends included.',
   commonIntro:
     'Up and down State Avenue and West Eighth Street, owners and tenants mostly describe one of these four problems.',
   localFaqs: [

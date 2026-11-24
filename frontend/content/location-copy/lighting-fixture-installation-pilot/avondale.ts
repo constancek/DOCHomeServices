@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Bathroom vanity lights and unit-by-unit ceiling swaps in the two-families and three- and four-flats off Reading Road and Burnet Avenue make up much of our fixture work in Avondale. Each job hinges on the box, the ground and whether the light is new to that spot. Census numbers show roughly three in four households rent and over two in five buildings predate 1940, so plaster, aging boxes and missing grounds are routine. We look inside the box, check its wiring, and name the price while the old fixture hangs.',
-  emergencyParagraph:
-    'Burn marks on a cover plate, a hot or buzzing switch, a ceiling light easing off the plaster, or a breaker tripping the moment a light comes on are urgent. Cut that breaker if it’s safe, and clear the floor beneath. With smoke or fire, leave and call 911. Our crews usually arrive that same day, weekends too.',
   commonIntro:
     'Across the flats, two-families and houses of Avondale, these four requests lead the list.',
   localFaqs: [

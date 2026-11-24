@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'In the village of Williamsburg, close to three in ten homes predate 1940, and Census numbers put the overall median at 1961. So a spa job here often starts at an older panel that lacks the space or spare capacity for one more breaker, and that has to be settled first. Then the tub gets its own 240-volt GFCI line, a disconnect facing it, and bonded metal around the shell. Before any digging, we line everything up with the spa maker’s requirements and give you the full price.',
-  emergencyParagraph:
-    'Any tingle in the spa water in Williamsburg is an emergency, so clear the tub and keep off it. A scorched odor near the shutoff box, or a spa breaker that keeps dropping, ranks alongside it. Switch off the breaker only when it’s safe, and ring 911 for smoke or flames. Same-day help covers most calls here, weekends included.',
   commonIntro:
     'Four spa situations come up again and again in and around the village of Williamsburg.',
   localFaqs: [

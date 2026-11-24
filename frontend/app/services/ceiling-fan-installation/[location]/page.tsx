@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'ceiling-fan-installation',
   serviceName: 'Ceiling Fan Installation',
   localHeadingName: 'Ceiling Fan Installation',
-  emergencyHeading: 'Urgent Ceiling Fan Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Ceiling Fan Installation',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },

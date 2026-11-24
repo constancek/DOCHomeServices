@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Millville is a small village of freestanding houses off US 27, and Census counts put about half of them before 1960, with roughly one in four older than 1940. Bedrooms from those decades got a single ceiling light on a thin box, which a fan spinning all evening slowly shakes loose. Lots of rooms never had a fan. Our electrician looks at that box ahead of anything else, admits it when a wobble is only loose screws, and settles a price before the old light is unscrewed.',
-  emergencyParagraph:
-    'A fan jolting hard, sagging on its box or ripping at the ceiling should go off at once, as should a smoking motor, a sparking switch or a breaker that trips at startup. Cut power if safe and keep everyone clear. With flames, leave and phone 911. Most calls in Millville get a same-day visit, weekends included.',
   commonIntro:
     'In the mid-century houses off Ross Hanover Road in Millville, these are the fan complaints that reach us most.',
   localFaqs: [

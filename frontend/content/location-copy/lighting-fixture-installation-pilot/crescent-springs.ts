@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'In Crescent Springs, the cost of a light comes down to the box above it, a ground wire, and whether it’s going on a spot that never had one. Census figures date the median home to 1993, and about half of homes sit in buildings of five or more units. That means grounded wiring and decent boxes, plus plenty of builder-grade lights in kitchens and baths that owners want gone. Condo associations may get a say on exterior lights. We check first and quote before work starts.',
-  emergencyParagraph:
-    'Phone the same day if a light slumps off its box, a scorched smell drifts from a fixture or switch, or one lamp keeps knocking its breaker out. Where it’s safe, cut that breaker and keep people from beneath it. If smoke or flames show up, leave the unit, then dial 911. Most calls are covered that day, weekends too.',
   commonIntro:
     'In Crescent Springs, condos, apartments and houses mostly call us for these four light fixture jobs.',
   localFaqs: [

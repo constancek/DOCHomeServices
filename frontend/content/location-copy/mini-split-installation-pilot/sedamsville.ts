@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'People have lived in Sedamsville since 1795, and the houses are old to match, with a 1938 median by Census figures and 72.8% standing since 1939 or earlier, mostly modest worker cottages on the flats and up the slope. Houses like those went up without ducts, and plaster and tight attics make adding them a big job. A wall-mounted head brings cooling in without that. Renters occupy 65.1% of homes, so the owner usually decides. You’ll know the price before work, and we’ll say if a mini-split isn’t right.',
-  emergencyParagraph:
-    'A cottage bedroom in Sedamsville under an uncooled roof runs past the 86F July normal high that the National Weather Service lists. A grandparent, an infant or someone who’s ill takes that heat worst. We get installs scheduled fast, and one head is usually a day’s work. Broken units go to Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'On Steiner, Delhi and Fairbanks Avenues and the streets between, these are the usual reasons for a ductless call in Sedamsville:',
   localFaqs: [

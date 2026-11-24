@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Amelia is newer than its village label suggests. The Census median house dates from 1995, and a large share went up after 2000, so most are built tight and heated with electricity. That pairing traps cooking fumes and stale air indoors and leaves winter air parched. Quite a few homes are apartments or rentals, where the owner chooses the equipment. We test the air before recommending anything, the price is settled before work starts, and if a clean filter solves it, you’ll hear that from us.',
-  emergencyParagraph:
-    'Should the carbon monoxide alarm sound, empty the house and dial 911 from the lawn. Smelling gas means leaving switches alone, stepping out and calling the gas company. A heat pump or furnace that smells hot gets switched off at the thermostat. Mold spreading after a burst pipe is hardest on babies. Most calls are same day, weekends included.',
   commonIntro:
     'Owners, tenants and landlords in Amelia tend to describe the problem like this.',
   localFaqs: [

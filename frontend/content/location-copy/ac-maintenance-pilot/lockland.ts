@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'In Lockland, a spring tune-up mostly means looking after cooling that arrived decades after the house did. Census counts put 47.9% of homes at 1939 or earlier, which is why ducts wander through closets, the indoor coil rides on a basement furnace, and the condenser gets whatever gap the lot allowed. Another 23.4% of homes sit in buildings with five or more units, and their owners book those visits. Our price comes before the toolbag opens, and if nothing needs doing, you hear that.',
-  emergencyParagraph:
-    'A tune-up is the wrong call when cooling has failed outright in a hot spell. Frost on the copper means switching the thermostat off and waiting for the melt. Smoke smells, or a breaker that keeps flipping, mean the system stays off. Elderly neighbors, infants and anyone ill suffer first. Most calls get a same-day truck, weekends too.',
   commonIntro:
     'These are what tend to bring a call from Lockland in spring.',
   localFaqs: [

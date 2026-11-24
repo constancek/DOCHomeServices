@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'In White Oak, the typical house is mid-century, with a median of 1968 by Census figures, and that age shapes the air inside. A basement from that period often turns clammy in July, and ductwork that old can spread dust from the basement into every bedroom, so a dehumidifier or stronger filtration is a frequent fix. Apartment buildings are part of the mix too, and there the owner chooses the equipment. Testing comes first, the price is fixed before work, and a dirty filter gets called a dirty filter.',
-  emergencyParagraph:
-    'Take everyone outside when a carbon monoxide alarm goes and ring 911. For a gas smell, keep hands off the switches and phone the gas company outdoors. Set a system that smells of burning to off at the thermostat. Infants, older relatives and anyone short of breath suffer first. Help usually comes the same day, weekends too.',
   commonIntro:
     'In White Oak, where most houses date from the 1940s to the 70s, air complaints tend to look like this:',
   localFaqs: [

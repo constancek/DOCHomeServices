@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'Two generations of house share College Hill. By Census figures, 1,659 of 4,692 homes predate 1940 and another 1,708 went up from the 1940s through the 1960s. In the prewar ones, the panel tends to be full, with no free position or margin for a 240-volt spa breaker, so we sort that first. Mid-century houses usually have room, and the work hinges on the patio and how far it is from the panel. We weigh the panel against the spa maker’s requirements and price it before work starts.',
-  emergencyParagraph:
-    'If the spa’s GFCI won’t hold after a reset, the disconnect is scorched, or someone notices current through the tub’s metal trim, call us that day. Have everyone get out and leave the spa alone. Shut the breaker off only if it’s safe; with smoke, step outside and phone 911. Same-day help reaches most callers, weekends included.',
   commonIntro:
     'Off Hamilton Avenue, on the prewar blocks and the mid-century streets past them, these spa jobs come up again and again in College Hill.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Tudor Revival and Dutch Colonial dining rooms along Paddock Road practically ask for a period chandelier, and in Paddock Hills, the box over the table decides if one can safely hang. Census figures for the surrounding blocks put roughly four homes in ten before 1940 and four more between 1960 and 1979, apartment buildings toward Reading Road among them, and most units rented. Pre-war ceilings can mean plaster with no ground behind it. We read the box and the wiring, then fix a price before the old light comes off.',
-  emergencyParagraph:
-    'A chandelier that has started tilting, a fixture leaving soot on the ceiling, or a toggle that crackles needs attention that day. Cut the circuit at its breaker if that’s safe, and keep everyone from standing beneath it. Leave and call 911 if there’s smoke or flame. Most of these get a same-day visit, weekend dates included.',
   commonIntro:
     'From Avon Drive to Paddock Hills Lane, four fixture requests account for most of our visits.',
   localFaqs: [

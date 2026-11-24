@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'Elmwood Place is a small, tightly built village, and its housing is mostly pre-war. Census figures put 62.3% of homes before 1940 and count 62.9% as rented, so a typical maintenance call is a landlord’s heater in the cellar of an old house or double, with a drain valve gone brittle, a vent pipe into an aging chimney and gas fittings that deserve a close look. Owner-occupied houses get the same visit. We price it before starting, and tell you if a tank is beyond servicing.',
-  emergencyParagraph:
-    'Repair, not tune-up: a tank dribbling from its jacket. Twist the cold-water handle above it shut, then kill gas or breaker. Any whiff of gas: walk out touching no switch or pilot, and phone the gas company outside. Carbon monoxide alarm: nobody stays inside. Same for a relief valve stuck open or a cold tap. Usually same day, weekends included.',
   commonIntro:
     'Landlords and homeowners in Elmwood Place usually book a service on a working heater for one of these:',
   localFaqs: [

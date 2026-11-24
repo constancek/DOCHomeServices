@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'In Mack, the ridge-top streets filled in mostly during the 1980s and 1990s, which turns recessed lighting into an attic-down job. Census figures give a typical build year of 1981, and almost all homes are owner-occupied, detached houses. Expect drywall, insulation over the top floor and a basement still waiting to be finished. These ceilings open far more easily than plaster. Every can gets drawn on the ceiling, and a flat price is settled before we cut.',
-  emergencyParagraph:
-    'A can in Mack that throws off a burning odor, tans the drywall around its rim or knocks out the breaker every time it lights calls for help today. Switch that breaker off when the panel is safe to approach. With smoke or flames, everyone gets outside and someone phones 911. Most calls are handled same day, weekends included.',
   commonIntro:
     'Off Bridgetown Road, the houses in Mack are mostly from the eighties and nineties, and owners ask us to light these rooms:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Squeezed between steep hills and US-50 at the western tip of the city, Sayler Park has about half its houses standing since 1939 or before, according to the Census. Hanging a dining light in one of them usually means working under lath and plaster, from a small old box that may not take much weight, often with no grounding wire. Most of these homes are lived in by their owners. Replacement or brand-new location, we look inside the box and price the job before starting.',
-  emergencyParagraph:
-    'A fixture dangling by its conductors or charred plastic around a switch should be looked at today. Cut that circuit if doing so is safe, and keep the household clear of the area below. Smoke or flame means everyone out and a call to 911. We generally get there that day, weekends as well.',
   commonIntro:
     'At this end of the west side, the lighting work we take on looks a lot like this.',
   localFaqs: [

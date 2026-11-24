@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'The worker cottages climbing the hill from River Road toward Price Hill are close to a century old, and any new light in one starts with what is behind the old canopy. That means the box, a ground, and whether a cable already reaches the spot. Census counts put the median house in Sedamsville at 1938, nearly three in four predate 1940, and about two in three homes are rented. Plaster ceilings are standard. We open the box and look at the wire before quoting.',
-  emergencyParagraph:
-    'A light pulling out of a plaster ceiling, a burning odor, or a scorched switch needs fixing today, and so does flicker that shows up on several circuits. Shut the breaker if you can safely, keep people from standing under it, and call 911 for smoke or fire. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Owners and landlords with cottages and two-families on these hillside streets usually call about these.',
   localFaqs: [

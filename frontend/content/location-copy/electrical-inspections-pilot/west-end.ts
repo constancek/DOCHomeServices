@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'The West End’s housing spans more than a century, so no two inspections look alike. Census figures put 38.4% of homes at 1939 or earlier, including the Italianate rowhouses around Betts-Longworth, while about a quarter went up in the 1960s and 70s and a smaller share since 2000. The oldest can still carry cloth wire and fuses; the 1960s and 70s buildings tend to have undersized panels. With 87.1% of homes rented, owners and managers book most visits. We check the whole system and quote fixes before work begins.',
-  emergencyParagraph:
-    'A rowhouse outlet giving off a scorched smell, browned or hot to the hand, a crackling wall switch, a visible spark, or a breaker that drops again right after reset all need us today. Cut that circuit at the panel. With smoke or fire, everyone leaves first; 911 second. Same-day service on most West End calls, weekends included.',
   commonIntro:
     'Between 19th-century rowhouses, 1970s apartment buildings and newer townhomes, West End reports keep showing these:',
   localFaqs: [

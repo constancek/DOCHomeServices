@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'In Carthage, about two in three homes date from before 1940, according to Census figures, and 1938 is the median year built. Behind the plaster of a house that age you may find knob-and-tube or cloth-covered wire without a ground, plus outlets later owners spliced onto whichever circuit was handiest. Two-families and small apartment buildings are common, and plenty are rented. Our meter goes on before any quote, you’ll hear it if the wiring holds up, and the scope and flat price are on paper before plaster comes off.',
-  emergencyParagraph:
-    'Don’t sit on a burning smell from an outlet, a switch plate that’s hot to the touch, sparks, or a breaker that won’t hold after a reset. We answer those the same day, weekends included. Cut that circuit at the panel if nothing nearby is wet or hot. Should smoke or flames appear, leave and call 911.',
   commonIntro:
     'In the prewar houses and two-families of Carthage, wiring that is due for replacement usually tells you with one of these:',
   localFaqs: [

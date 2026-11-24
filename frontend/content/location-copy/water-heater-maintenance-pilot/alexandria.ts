@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Most houses in Alexandria are detached and lived in by their owners, and Census figures put the median one at 1994. In practice that means a heater in a basement, garage or utility room with space to set a bucket down, and a visit built around the flush, the anode and the relief valve. Roughly one house in nine predates 1960; there we also try an old drain valve, the vent pipe and the gas line. The price is fixed first, and a tank past saving gets called that.',
-  emergencyParagraph:
-    'These in Alexandria can’t wait. Leaking tank: shut the cold inlet up top, then gas or power. Gas in the air: leave, no switches, pilot untouched, and phone the gas company from the street. Carbon monoxide alarm: everyone gets out. A relief valve that won’t stop, or a dead heater: repair. Same day on most calls, weekends too.',
   commonIntro:
     'Most heaters we service in Alexandria still work. These are what usually make owners pick up the phone:',
   localFaqs: [

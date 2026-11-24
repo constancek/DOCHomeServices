@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'All 978 homes in Day Heights are detached houses, and Census figures put the median at 1969, up the hill from Milford on SR 131. A bedroom light from that era tends to hang on a shallow box built for a glass shade, which a fan will slowly work loose, and many family rooms have no ceiling box at all. We check that box before quoting, say so when a snugged bracket ends the wobble, and price it while the old light is still up.',
-  emergencyParagraph:
-    'Shut a fan down if it’s thrashing on its bracket or the breaker keeps tripping when it starts. Use the wall switch or the panel if it’s safe, and keep the kids out of that room. Smoke or fire means getting out and calling 911. We see most calls the same day, weekends included.',
   commonIntro:
     'Houses from the 1960s on the hill east of Milford produce most of the fan calls we answer in Day Heights.',
   localFaqs: [

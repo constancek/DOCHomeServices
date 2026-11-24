@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Census figures count 978 homes in Day Heights, all of them detached houses, and the median one went up in 1969. Plenty of owners have since swapped in a newer furnace or added central air, and the electronics inside that equipment are the main reason to put a protector at the panel. Breaker boxes from the late 1960s can be short of open slots, so we look inside first. If a strip or two would do, we say so, and the price is settled before anything starts.',
-  emergencyParagraph:
-    'When a furnace or fridge sparks as the power returns, a breaker refuses to stay on, or an outlet looks singed, we need to see it soon. Houses whose lights brighten and dim all at once need Duke Energy Ohio first. For smoke or fire, get clear and call 911. We usually arrive the same day, weekends too.',
   commonIntro:
     'In Day Heights, owners of 1960s and 1970s houses usually spot one of these before they ask us about surge protection.',
   localFaqs: [

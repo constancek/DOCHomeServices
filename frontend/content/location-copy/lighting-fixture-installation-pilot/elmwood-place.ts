@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'Brighter bathroom light over the mirror tops the list of requests we get in Elmwood Place, and what sits inside the wall or ceiling box, whether there’s a ground, and whether wire already runs there decide the work. The village was laid out in 1875 on under half a square mile, and the Census puts its median home at 1938, so plaster, tiny old boxes and two-wire cable are normal. Most of the 946 homes are rented, many in two-families. We open things up and quote before removing anything.',
-  emergencyParagraph:
-    'Call promptly if a fixture is easing off the plaster, something near a light smells hot, or lights stutter in several rooms at once. Throw the breaker if it’s within safe reach and let nobody stand under the fixture. With smoke or fire, get out and ring 911. Most calls see us that same day, Saturday and Sunday included.',
   commonIntro:
     'On the close-set streets near Vine Street, these four lighting jobs come up most.',
   localFaqs: [

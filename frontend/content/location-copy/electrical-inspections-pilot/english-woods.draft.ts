@@ -11,8 +11,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const englishWoods: LocationServiceCopy = {
   localParagraph:
     'Electrical inspections in English Woods are a matter for the Cincinnati Metropolitan Housing Authority, which owns the housing that remains. That is Marquette Manor, a 15-story tower being renovated unit by unit since January 2025, and the Sutter View townhomes and apartments. Census figures show every occupied home in the area is rented. Residents report electrical problems to CMHA management in writing; if the housing authority brings us in, we inspect and price repairs for them before any work.',
-  emergencyParagraph:
-    'A burning smell, a hot or scorched outlet, sparks, or a breaker that trips again as soon as it is reset should go to CMHA maintenance at once. Switch that breaker off if you can reach it. If there is smoke or fire, get everyone out and call 911. When management sends us, most calls are seen the same day, weekends included.',
   commonIntro:
     'In older public housing, these are the problems residents most often notice first:',
   localFaqs: [

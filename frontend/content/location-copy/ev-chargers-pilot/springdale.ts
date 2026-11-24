@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Springdale was largely built out in the 1960s and 1970s, and Census figures put its median home at 1971. Panels from that stretch tend to be crowded, with each slot spoken for by a range, a dryer or central air, so a charger can mean rearranging circuits or adding load management. Just under six in ten homes are detached houses. About four in ten households rent. Expect a panel check and load math first, a candid word when the trickle cord is enough, and a quote that stays put.',
-  emergencyParagraph:
-    'Charring around the plug, a wall unit too warm to rest a palm on, a burnt odour or a breaker that gives out every session all mean unplugging now. Turn that breaker off only from a dry spot with nothing hot nearby. Flames or smoke mean leaving and dialling 911. Most calls get us there that day, weekends too.',
   commonIntro:
     'Across the 1960s and 1970s houses and the apartment buildings of Springdale, the charger calls we see usually come down to one of these.',
   localFaqs: [

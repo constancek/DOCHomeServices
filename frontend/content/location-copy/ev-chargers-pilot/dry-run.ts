@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Practically every home in Dry Run is a detached house its owner lives in, and Census figures put the median build at 1986, with more than nine in ten dating from 1960 on. Panels that young typically still have a breaker space or two for a 240-volt circuit, and when one is full, load management usually closes the gap. We still open it up and run a load calculation, tell you when Level 1 covers your miles, and settle the price before a wire is run.',
-  emergencyParagraph:
-    'A plug or wall unit warming up, a burning smell, or a breaker that refuses to hold through a charge ends the session. Turn the circuit off only if nothing around the panel is wet. With smoke or flames, leave and dial 911. Expect us the same day on most calls, weekends included.',
   commonIntro:
     'In the newer houses of Dry Run, these are the reasons owners give us for adding a charger:',
   localFaqs: [

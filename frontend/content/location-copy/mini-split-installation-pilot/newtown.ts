@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Newtown has two kinds of housing. Census figures show about a fifth of homes predate 1940, while the median sits at 1989, and over a third are rented. The older houses often have plaster, low attics and no good route for ducts, so wall-mounted heads make sense there. In the newer houses, the call is usually a room the original system shortchanged. Landlords decide for rentals. We put a firm price in writing up front, and we’ll steer you elsewhere if ductless won’t serve you.',
-  emergencyParagraph:
-    'July in Cincinnati averages a high of 86F (National Weather Service), and a second-floor room with poor airflow runs hotter, hardest on elderly parents, small children and anyone with heart or lung trouble. Installers book fast, one zone typically in a day. Broken ductless units are a Mini-Split Repair call, same day on most calls, weekends included.',
   commonIntro:
     'Between the older streets near the Little Miami and the newer houses farther from the river, these are the spots that usually bring a ductless quote in Newtown:',
   localFaqs: [

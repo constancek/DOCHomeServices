@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'Bridgetown grew up after the war. Census figures put 40.0% of homes between 1940 and 1959 and the median at 1962, with 89.7% owner-occupied. In many, the heater shares a basement wall, and sometimes a flue, with the furnace, on a gas line laid when the house was new. So a visit here goes beyond the rinse and the anode: we look hard at that venting and gas connection. The figure is agreed before we start, and if your tank isn’t worth servicing, we’ll be the first to say.',
-  emergencyParagraph:
-    'Put the tune-up aside when water drips from the tank’s jacket: spin the cold inlet closed, then switch off gas or power. A basement that smells of gas means out the door, hands off every switch, and a call to the gas company from outdoors. Carbon monoxide alarm sounding: people out first. Most fixes are same day, weekends too.',
   commonIntro:
     'In Bridgetown the heater usually sits beside the furnace in a postwar basement. People tend to call once they notice:',
   localFaqs: [

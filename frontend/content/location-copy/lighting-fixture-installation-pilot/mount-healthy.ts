@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'A vanity bar over the bathroom mirror is the job we’re handed most often in Mount Healthy, and it hinges on what box sits behind the old light, whether it’s grounded and whether the light is moving. Census counts show close to three in ten of its 2,987 homes date from before 1940, with a median of 1956. That mix means plaster and ungrounded two-wire runs in some houses and plain post-war boxes in others. Half the homes are rented. We price it once the box is open.',
-  emergencyParagraph:
-    'Get us out the same day for a light coming away from the ceiling, plastic that smells hot, or a switch that crackles or feels warm. Shut the matching breaker off if that’s safe, and nobody stands under a loose fixture. If smoke or flames show up, leave and phone 911. Weekends are no different.',
   commonIntro:
     'Around Perry Street and the rest of Mount Healthy, four light fixture jobs come up again and again.',
   localFaqs: [

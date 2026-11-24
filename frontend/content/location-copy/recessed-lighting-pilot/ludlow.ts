@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Most river-town houses in Ludlow date from before 1940, and their ceilings shape any recessed lighting job. Census figures put the median house at 1938, with most built in 1939 or earlier, many Victorian or early 1900s. Expect lath and plaster, rooms designed around a single center light, and a shallow pocket under the roof above the second floor. Houses built since 2000 open up easier. We pencil every can location on the ceiling and fix a flat price before cutting.',
-  emergencyParagraph:
-    'Get us out today in Ludlow if a can shows scorch marks, a trim burns your fingertips, a light keeps cutting out or a wall switch buzzes. With the panel safely reachable, turn that breaker off. If there’s smoke or flame, leave and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Plaster ceilings dominate the older blocks of Ludlow, and these four jobs come up most:',
   localFaqs: [

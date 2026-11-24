@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'In Westwood, landlords book most of our fall tune-ups. Census figures show 65.7% of homes rented, many in buildings of five units or more, so a typical day is a hallway of closet furnaces in a mid-century apartment block. The houses date from 1940 through the 1970s, and their basement furnaces have been changed out at least once, so that visit is mostly filter, blower, burners and safety controls. Gas and electricity split the heating almost evenly. The price comes first, and we’ll say so if a furnace needs nothing.',
-  emergencyParagraph:
-    'Skip the maintenance slot for these. Gas odor: everyone out, no switches, nothing relit, the gas company called from outside. Carbon monoxide alarm: empty the apartment first. A furnace gone cold, cutting out and restarting, or burning yellow needs a repair, fast for babies and older tenants. Tenants tell the landlord. Most are same day, weekends included.',
   commonIntro:
     'Across the apartment blocks and mid-century houses of Westwood, owners usually book once they notice:',
   localFaqs: [

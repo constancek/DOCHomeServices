@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'In Newport, a spring tune-up is mostly a look at cooling squeezed into older houses that were never drawn up for it. Census counts show 46.5% of homes went up by 1939, which put the ducts in decades late, often climbing to an attic air handler, and left the condenser wedged against a neighbor’s wall. Renters occupy 52.3% of homes, so landlords place those calls. A flat price is set before the panels come off, and a healthy AC gets left alone.',
-  emergencyParagraph:
-    'Weak cooling during a heat wave, or water working through the ceiling below an attic unit, are repair jobs and not maintenance. Should a breaker flip again right after a reset, leave it off. Heat tends to hit elderly relatives, infants and anyone unwell first. On most calls a technician arrives the same day, weekends as well.',
   commonIntro:
     'Older houses and apartment buildings across the city usually signal it in one of these ways.',
   localFaqs: [

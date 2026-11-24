@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Most of Pleasant Run was built during the 1960s and 1970s, and by Census figures the median house here dates to 1974. That means a lot of bathrooms still pull air through whatever unit the builder picked, and those were modest even when new. Some got ducted only to the attic floor and left there. Close to nine in ten homes are detached and lived in by their owners, so the attic hatch is yours. Our electrician follows that duct to its end and prices the repair before touching drywall.',
-  emergencyParagraph:
-    'Kill power at the fan’s switch or breaker, provided reaching it puts nobody at risk, at the first sign of hot plastic, sparks, smoke or a breaker that won’t stay up. Water leaking through the grille counts as well. With smoke or fire, everybody leaves and calls 911. Expect us the same day in most cases, weekends too.',
   commonIntro:
     'Around Pippin Road, the calls from Pleasant Run tend to start with one of these four.',
   localFaqs: [

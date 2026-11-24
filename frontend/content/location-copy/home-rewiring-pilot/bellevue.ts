@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Bellevue were standing by 1938, Census figures show, and close to two in three predate 1940. In houses that age, knob-and-tube or cloth-covered cable with no ground may still feed two-slot receptacles, and homes added after the war often have too few circuits for today’s kitchens. Before anyone mentions a rewire, every circuit gets metered, and if the readings are good, you hear that. The written scope and flat price come before any plaster is opened.',
-  emergencyParagraph:
-    'If an outlet or switch smells like it’s burning, a cover turns hot or scorched, something sparks or hums, a breaker drops again on reset, or an appliance shocks someone, call us. Most get a visit that day, weekends included. Turn that circuit off only with dry hands and firm footing. At the first smoke, get outside and call 911.',
   commonIntro:
     'In the pre-war houses along Bellevue’s older streets, wiring that’s worn out tends to show up in one of these ways:',
   localFaqs: [

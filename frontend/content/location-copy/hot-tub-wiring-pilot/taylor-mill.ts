@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Four in five homes in Taylor Mill are single houses, and owners live in most of them. The Census Bureau puts the typical one at 1975, though many went up in the 1940s and 50s and more in the 1980s and 90s. An older panel may be packed, and the tub’s breaker can’t squeeze in until that’s solved. Newer houses tend to have space, so the work hinges on where the spa sits. We check the tub maker’s 240-volt requirements against your panel and quote before trenching.',
-  emergencyParagraph:
-    'Close the spa if its GFCI refuses to reset, the cutoff smells charred, or anyone in the water feels a buzz. Keep people out and hands off the equipment. Kill the breaker if you can do it without stepping into wet ground, and call 911 for smoke or flames from outside. Expect a same-day visit on most calls, weekends included.',
   commonIntro:
     'Since the 1972 merger with Winston Park, Taylor Mill has houses from the 1940s through the 1990s, and spa calls here usually start with one of these.',
   localFaqs: [

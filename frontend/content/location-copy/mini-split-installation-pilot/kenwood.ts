@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Kenwood is mostly 1960s and 1970s housing, a median year built of 1967 by Census figures, mixed with condos and apartments. Ranches and split-levels from then usually have ducts laid out for the original rooms, so later additions, finished basements and sunrooms often go without. In the 38.3% of homes that are rented, the owner decides, and condo owners check association rules for the outdoor unit. Our price is flat and set first, and if ductless is the wrong call, you’ll hear it from us.',
-  emergencyParagraph:
-    'In Kenwood, a top-floor condo or a sunny addition takes the worst of the roughly 21 days a year that reach 90F (National Weather Service). Older relatives, babies and anyone ill need a cooler room. Single-zone installs mostly take a day. A mini-split you own that stopped needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Across the mid-century houses and condos of Kenwood, these are the spaces we’re called about most:',
   localFaqs: [

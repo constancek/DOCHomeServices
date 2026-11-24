@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Bellevue sits across the Ohio from Mount Adams, and its houses are among the oldest we wire, so recessed lights here mean cutting plaster one opening at a time. Census figures put the median home at 1938; nearly two in three were built before 1940 and well over four in five before 1960. That stock brings lath overhead, upstairs ceilings with barely any room beneath the roof, and rooms wired around one middle light. We map each can on the ceiling and agree the cost before the first cut.',
-  emergencyParagraph:
-    'Old plaster yellowing in a ring around a can, a burnt-wire odor, a trim hot enough to sting, or a buzzing wall switch all mean that light goes off today. Throw its breaker if the panel is safe to get to. With smoke or flame, everyone goes out and rings 911. Most of these get a same-day visit, weekends included.',
   commonIntro:
     'In Bellevue, most houses predate 1960 and many have plaster ceilings, and these are the recessed lighting jobs they bring us:',
   localFaqs: [

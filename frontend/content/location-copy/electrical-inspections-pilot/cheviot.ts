@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'In Cheviot, an electrical inspection usually covers a house or two-family from before the war. Census figures show 44.9% of homes were built in 1939 or earlier and nearly all, 95.7%, before 1980. That means old fuse boxes, outlets with two prongs and no ground, and panels never sized for today’s appliances. Almost half of homes are rented, so landlords book us between tenants as well. We check everything, explain it in a written report and price any fix in advance.',
-  emergencyParagraph:
-    'A few problems should be handled today: sparks from an outlet, a plate that buzzes or runs warm, a smell of hot plastic, lights that dim when the fridge kicks on, or a breaker that won’t stay up. Switch it off. With smoke, leave and call 911. Most urgent calls in Cheviot get a same-day visit, weekends too.',
   commonIntro:
     'Cheviot’s mix of older single homes, two-families and apartment buildings turns up these findings most:',
   localFaqs: [

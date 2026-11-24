@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'Until 2000, West Chester was Union Township, and most of its houses went up in the decades just before the rename. Census figures put the median home at 1988, with 6,207 units from the 1990s alone, the busiest building decade here. Those subdivision houses mostly have drywall ceilings, a crawlable attic over the bedrooms and a basement finished well after closing, which suits recessed cans. We still look above each ceiling, then mark every can and agree a price before cutting.',
-  emergencyParagraph:
-    'Shut off the breaker for any recessed light that smells like hot wiring, has browned the drywall around its trim, feels too hot to touch, or keeps dropping out and relighting, as long as reaching the panel is safe. If smoke or flames appear, get everyone outside and call 911. We handle most of these same day, weekends included.',
   commonIntro:
     'From older subdivisions to townhomes and condos, these four requests reach us most in West Chester.',
   localFaqs: [

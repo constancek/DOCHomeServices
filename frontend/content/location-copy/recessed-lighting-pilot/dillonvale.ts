@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillon Builders put up the first streets of this subdivision in the 1940s, next door to Deer Park, and recessed lighting in Dillonvale, for the most part, means those postwar houses. By Census figures the median build year is 1956, and nine homes in ten stand alone on their lots. Many carry an attic over the top floor, rooms arranged around one ceiling light and a basement somebody finished years after move-in. Our first look is from the attic; then the layout gets marked and the price agreed.',
-  emergencyParagraph:
-    'A can giving off burnt odors, a scorched halo on the ceiling, a trim that stings a fingertip and lights flicking off and on all want attention today. Throw that breaker when the panel is safe to get to. If there’s smoke or flame, get outside and phone 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Along East Galbraith Road and the streets Dillon Builders laid out, owners bring us these four.',
   localFaqs: [

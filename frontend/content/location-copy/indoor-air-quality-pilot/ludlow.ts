@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Most of Ludlow is old, and old houses by a river shape the air work here. Census figures show about three in five homes went up in 1939 or earlier, so expect draft, cellar damp and duct runs that carry dust into the living rooms. The low north end took floodwater in April 2025, and a basement that sat wet can still hold moisture and feed mold. We test, give you a flat price before any work, and tell you when a fresh filter is the whole answer.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means everyone goes into the street before anyone dials 911. If the house smells of gas, walk out without touching a switch and ring the gas company. A scorched smell means setting the thermostat to off. After high water, spreading mold is serious for asthmatic lungs. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'In older houses around Ludlow, and especially the ones that have had water in the basement, poor air shows up like this.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Houses in Dry Run are on the young side. Census figures give a median build year of 1986, and gas heat is in 74.7% of them, which puts a gas furnace in a roomy basement at most addresses here, frequently the house’s second. Old chimney flues are rare, so the visit goes mostly to airflow, burner and safety-control work. Before a screwdriver comes out, you’ve agreed the price. If yours turns out to need nothing at all, that’s what you’ll hear.',
-  emergencyParagraph:
-    'Gas in the air: walk out, leave switches alone, relight nothing, ring the gas company from the driveway. Carbon monoxide alarm: family out, then call. A dead furnace on a freezing night, endless off-on cycling or a yellow, lazy flame is a repair, urgent around infants, elderly parents or anyone ill. Same day for most, weekends included.',
   commonIntro:
     'Furnaces in Dry Run are mostly in roomy basements of houses from the 1970s onward. Owners there tend to call us about:',
   localFaqs: [

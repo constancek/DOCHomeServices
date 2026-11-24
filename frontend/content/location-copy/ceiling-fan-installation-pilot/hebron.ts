@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Nearly every fan we hang goes into a subdivision house in Hebron. Census figures put the median build at 2002, and close to half of homes date from 2000 to 2009, so two-story great rooms that need a long down rod and covered back porches that need a weather-rated fan are the usual jobs. Builders often set a plain light box where a fan was planned. We look at that box first, say so if a loose mount is the only trouble, and agree the price before anything comes down.',
-  emergencyParagraph:
-    'If a great-room fan swings on its rod or slips at the canopy, shut it off at the wall or breaker when safe and keep everyone off the floor beneath. Burning smells, sparks at the switch or a tripping breaker get a same-day visit on most calls, weekends included. Smoke or fire means out, then 911.',
   commonIntro:
     'In the subdivisions off North Bend Road and Petersburg Road, these four fan problems reach us most in Hebron.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Fort Wright is mostly mid-century housing: Census figures put the median home at 1974, and 55.2% went up between 1940 and 1979. Those houses usually give the heater a basement corner or a utility room with elbow room, so the visit is mostly draining, valve work and a look at a flue that may be original. Apartment buildings hold 17.0% of homes, closet heaters one to a unit, scheduled by the owner. You sign off on the price first, and we’ll tell you if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Maintenance waits in Fort Wright when any of these turn up. Tank leaking: spin the top cold valve shut, then gas or breaker. Gas odor: step outside, hands off switches and pilot, and phone the gas company. Carbon monoxide alarm: get everybody clear. A relief valve that won’t stop, or no hot water: repair, often same day, weekends included.',
   commonIntro:
     'In Fort Wright, a tank that still heats usually lands on our schedule for one of these:',
   localFaqs: [

@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'hot-tub-wiring',
   serviceName: 'Hot Tub Wiring',
   localHeadingName: 'Hot Tub Wiring',
-  emergencyHeading: 'Urgent Hot Tub Electrical Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Hot Tub Wiring',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },

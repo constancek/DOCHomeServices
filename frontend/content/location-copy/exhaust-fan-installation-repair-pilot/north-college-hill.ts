@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Detached postwar houses make up most of North College Hill. The median one dates to 1952, by Census figures, and roughly half went up in the 1940s and 50s with a single small bathroom and a window. The fan came decades later, and whoever added it sent the duct into the attic, the soffit or simply nowhere. Many are rented, so landlords make a lot of our calls. We locate where the exhaust actually lands, then name the cost before the ceiling is touched.',
-  emergencyParagraph:
-    'A fan that reeks of hot wiring, has a melted housing, sparks, smokes, flips the breaker or drips water gets switched off now, at the wall or panel if that’s safe. Thick smoke or flames mean getting outside and calling 911. We come that same day on most calls, Saturdays and Sundays included.',
   commonIntro:
     'Up and down Galbraith Road and Simpson Avenue in North College Hill, these four complaints keep landing on our schedule:',
   localFaqs: [

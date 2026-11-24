@@ -2,19 +2,17 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const forestville: LocationServiceCopy = {
   localParagraph:
-    'In Forestville most inspections are for a sale, a purchase or a new appliance rather than old wiring. Census figures put the median home at 1981, so the original wiring tends to be fine. Load is the thing to watch: 38.2% of homes here heat with electricity, and an electric furnace or heat pump already takes a big share of the panel before anyone adds a car charger. We check the full system, put it in writing, and quote any fix first.',
-  emergencyParagraph:
-    'Skip the scheduling and call us if a Forestville outlet smells like burning plastic, a breaker won’t stay on after one reset, or you see sparks at a plug. Shut off the breaker for that circuit. If smoke appears, get out and call 911 before anything else. On most calls a technician arrives the same day, Saturdays and Sundays too.',
+    'Most people in Forestville book us ahead of a closing, after buying, or before a big new appliance goes in, not because the wiring is old. The median house dates to 1981 in Census figures, and wiring from that era usually holds up. Load needs the closer look. Electricity heats 38.2% of homes here, and an electric furnace or heat pump eats into panel capacity long before an EV charger shows up. You get the whole system checked, a written report, and a price on any repair before it starts.',
   commonIntro:
     'Forestville has 1980s and 1990s houses on some streets and large apartment complexes on others. What we find in both:',
   localFaqs: [
     {
       q: 'I rent in one of Forestville’s apartment complexes. Can I book an electrical inspection?',
-      a: 'For wiring in your unit, report the problem to management in writing. Ohio law (ORC 5321.04) makes the landlord keep the electrical fixtures they supply in good and safe working order. We inspect wiring, not leases, so the owner or manager books us and receives the report.',
+      a: 'Problems in your own unit go to management, in writing. Under Ohio’s ORC 5321.04, a landlord has to keep the electrical fixtures they provide safe and in good repair. Leases are between you and the owner, so the owner or property manager schedules the inspection and gets our report.',
     },
     {
       q: 'Who handles electrical permits in Forestville?',
-      a: 'Forestville is part of unincorporated Anderson Township, and Inspection Bureau, Inc. (IBI) inspects permitted electrical work here, not the township. That’s a different thing from our inspection, which is a safety check with a written report. If a fix needs a permit, we take care of it.',
+      a: 'Inspection Bureau, Inc. (IBI) handles inspections of permitted electrical work in Forestville, which sits in unincorporated Anderson Township, and the township itself doesn’t. Our visit is separate, a safety walk-through that ends with a written report. Where a repair calls for a permit, we file it and deal with IBI.',
     },
   ],
   overrides: {
@@ -33,7 +31,7 @@ export const forestville: LocationServiceCopy = {
       },
       {
         title: 'Inspection, Repair or Rewire in Forestville?',
-        body: 'Let the findings decide. In Forestville homes that’s usually a repair: a loose lug, a breaker that’s failing, an outlet near water with no GFCI. If the panel can’t carry what the house now runs, especially with electric heat in the mix, replacing the panel is the fix, and we say so plainly. Rewiring hardly ever comes into it in houses from the 1980s and 1990s. The report is yours and so is the decision; you can hire anyone you like for the repairs. When a repair needs a permit, we pull it and arrange the inspection.',
+        body: 'What we find sets the next step, not the year the house went up. In Forestville the answer is usually a repair, such as a lug that’s worked loose, a breaker on its way out, or a receptacle by a sink without GFCI protection. When the panel can’t keep up with today’s load, electric heat especially, a panel replacement is the honest fix, and we tell you that. Houses built in the 1980s and 1990s almost never need rewiring. You keep the report and make the call, and any licensed electrician can do the repairs. If one needs a permit, we file it and book the inspection.',
       },
     ],
     whyTitle: 'Why Forestville Homeowners and Landlords Call Us',
@@ -46,11 +44,11 @@ export const forestville: LocationServiceCopy = {
       },
       {
         q: 'What’s included in an electrical inspection?',
-        a: 'We start at the meter base, since the meter and the line to it are Duke Energy’s, and work inward: panel, breakers, grounding and bonding, outlets and their GFCI and AFCI protection, exposed wiring, and power to the smoke alarms. The findings come to you as a written report.',
+        a: 'The meter and the service line feeding it belong to Duke Energy, so our check begins at the meter base and moves inside. From there we go through the panel and breakers, the grounding and bonding, every outlet with its GFCI and AFCI protection, any wiring in view and the smoke alarm circuits. You get it all back in writing.',
       },
       {
         q: 'Can I take the report to another electrician?',
-        a: 'Yes. The report is yours, and any licensed electrician can quote from it. If you’d rather we do the work, you’ll see a flat price for each item and say yes or no before we start.',
+        a: 'Yes. It’s your report to use however you like, and a licensed electrician of your choosing can price the work from it. Should you want us for the repairs, each item gets its own flat price, and you approve or skip them one by one.',
       },
     ],
   },

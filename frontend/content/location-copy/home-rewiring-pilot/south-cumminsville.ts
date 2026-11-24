@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'Around Dreman Avenue and Elmore Street, close to half the houses date from 1939 or before, Census figures show, with a second wave put up in the 1950s. The prewar ones in South Cumminsville may still hold knob-and-tube or cloth-wrapped conductors and no ground. The 1950s ones were handed a few kitchen circuits. Newer houses seldom need us except for a remodel. We put a tester on the circuits before talking price. If they pass, that’s what you hear, and if not, a written scope and flat figure come first.',
-  emergencyParagraph:
-    'A scorched smell from a wall, a switch plate too hot to hold, crackling, sparks, a jolt from a fixture, or a breaker snapping off on reset needs us that day. Kill the circuit only if you’re dry and nothing is hot. With smoke or flame, get clear and dial 911. We reach most calls that day, weekends too.',
   commonIntro:
     'Older houses in South Cumminsville tend to give these warnings before the wiring fails:',
   localFaqs: [

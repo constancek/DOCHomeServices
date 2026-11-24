@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Spring Grove Village is old Winton Place, and its houses show it. Census figures give a median build year of 1938, with just over half put up before 1940 and nothing new since 2010. That means plaster walls that leak air, basements that hold summer damp and duct runs carrying dust upstairs. About four in ten homes are rented, so tenants raise problems and owners choose equipment. We test first, agree a flat price before any work, and if a fresh filter is all it takes, we tell you so.',
-  emergencyParagraph:
-    'If a carbon monoxide detector goes off, everyone leaves and 911 is called outside. For gas, do the same without touching a switch and phone Duke Energy from outdoors. Burnt smells from the furnace or AC mean switching off at the thermostat. Mold after a leak is urgent for grandparents, babies and asthmatics. Same-day service covers most calls, weekends too.',
   commonIntro:
     'Around the cemetery and off Winton Road in Spring Grove Village, homeowners usually describe the problem like this.',
   localFaqs: [

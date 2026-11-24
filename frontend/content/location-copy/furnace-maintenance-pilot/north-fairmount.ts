@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'North Fairmount is almost all detached houses on the hillside, and Census figures put 63.9% of them before 1940. So the furnace we find is nearly always downstairs, a later unit than the house, piping its exhaust into a chimney built decades earlier. That joint, and the heat exchanger, are what we study longest. Gas heats 71.5% of homes. Plenty are rented, so landlords book many of our visits. You get the flat price before work starts, and if the furnace needs nothing, we’ll say that.',
-  emergencyParagraph:
-    'A tune-up won’t fix these; book repair. Gas smell: leave the house, keep hands off switches and the pilot, call Duke Energy from the yard. Carbon monoxide alarm: out first, questions later. No heat in a cold snap, stuck short cycling, or a yellowed flame count too. Babies and older people are hit hardest. Usually same day, weekends too.',
   commonIntro:
     'On the hillside in North Fairmount, owners usually book a furnace check after:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Park Hills was built out between the late 1920s and the 1950s; by Census figures the median home dates from 1953, and gas heats 69.2% of them. In the houses along those curving streets beside Devou Park, the furnace sits downstairs, rarely the first one installed, often vented through a masonry chimney, so the venting and heat exchanger come under the closest look. Apartment buildings, 30.1% of homes, are booked by their owners. We price the visit up front and tell you plainly when nothing needs doing.',
-  emergencyParagraph:
-    'These are repairs. Smell gas: walk out, don’t flick a light, don’t relight a pilot, ring the gas company from the curb. Carbon monoxide alarm: nobody stays inside. No heat once nights go below freezing, nonstop restarts, a yellow flame: same. Babies, older neighbors and the sick are most exposed. Mostly same day, weekends too.',
   commonIntro:
     'Basement furnaces under houses from the 1920s to the 1950s, and unit furnaces in the apartment buildings, make up most visits in Park Hills. What usually prompts one:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'Across the few hundred homes in Linwood, a fixture call usually follows a kitchen or bath redo that leaves the old ceiling light looking stranded. Census figures date the median house to 1938, and more than four in five went up by 1939, so lath plaster, iron boxes and two-wire circuits without a ground are what we plan for. Roughly three in ten are doubles, and just over half are rented. We open the box, test the circuit, then give a fixed price before any plaster is disturbed.',
-  emergencyParagraph:
-    'If a fixture is tearing out of old plaster, a switch turns hot or buzzes, or a light gives off a scorched smell, ring us straight away. Shut that circuit off if it’s safe, and keep clear underneath. Smoke or flame means everybody outdoors before dialing 911. Same-day visits on most calls, weekends too.',
   commonIntro:
     'Around Linwood, nearly every light fixture call is one of these.',
   localFaqs: [

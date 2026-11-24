@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'Trading original fixtures for LED ones is the job we do most in Summerside, and the houses between Route 32 and I-275 make it a tidy one. By Census count the median home dates from 1981, and nearly all went up from the 1960s through the 1990s, so ceiling boxes usually have a ground and sit in drywall. About a third of homes are in condo or apartment buildings, with townhouses common too. Boxes from that era weren’t always meant for weight, so we check first and quote.',
-  emergencyParagraph:
-    'Kill the switch on any light giving off a burnt odor, showing brown marks near the switch, or tripping its circuit repeatedly. Leave a loosening fixture untouched, turn its breaker off if that’s safe, and clear the floor beneath. Smoke or fire means everyone outdoors and a call to 911. Same day on most calls, weekends included.',
   commonIntro:
     'For light fixtures in Summerside, the calls usually start with one of these.',
   localFaqs: [

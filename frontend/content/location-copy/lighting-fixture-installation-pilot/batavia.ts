@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'In Batavia, a gloomy upstairs hall lit by one old fixture at the far end is a typical reason to phone us, and the fix depends on the box, the ground and whether added lights need new spots. Census figures give a 1955 median, with about one in three houses older than 1940, and those older ones lean toward plaster, shallow boxes and no ground. Postwar houses tend to have a lone light per room. Your price comes before the old fixture is detached.',
-  emergencyParagraph:
-    'When a fixture droops, a switch cover feels hot, a burnt odor hangs around a light, or the breaker kicks off each time a lamp comes on, stop using that circuit. Shut it off if that’s safe and stand clear. Smoke or flames mean leaving and dialing 911. Batavia gets same-day visits on most calls, weekends too.',
   commonIntro:
     'In the old village streets of Batavia, these four fixture jobs top our list.',
   localFaqs: [

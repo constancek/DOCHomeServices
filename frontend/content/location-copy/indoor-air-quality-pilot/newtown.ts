@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'The village of Newtown has a mix of ages, by Census figures: a median year built of 1989, yet about one house in five predates 1940. The older ones run drafty with damp basements, and the 2018 flood sent water and sewer backups into homes on Crull Street, Turpin Lane and along Main. Newer houses are tight and keep stale air in. More than a third of homes are rented. We test before quoting, and if a filter swap covers it, that is our advice.',
-  emergencyParagraph:
-    'A sounding carbon monoxide alarm empties the house before anyone phones 911. For a gas smell, walk out leaving switches alone and ring the gas company outdoors. Shut down a scorched-smelling furnace or AC at the thermostat. Mold spreading after a basement backup is urgent around infants, elders and asthmatics. Most calls get same-day service, weekends included.',
   commonIntro:
     'Across the village of Newtown, these are the problems that usually get us called:',
   localFaqs: [

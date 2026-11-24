@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Cherry Grove is a single house, almost all owner-occupied, and Census figures put the typical one at 1971, with most built in the 1960s and 70s. Those bathrooms usually got a fan, but it was a small, noisy one by today’s standards, and many have reached the end of their motor. Some were ducted only into the attic. A loud or weak original fan is the usual call here. We check the airflow and duct first and quote before cutting anything.',
-  emergencyParagraph:
-    'Switch the fan off at the wall or breaker, if that’s safe, when its housing is hot, scorched or melted, or it sparks or smokes. Do the same if the breaker trips or water drips through the grille. With smoke or fire, get outside and call 911. In Cherry Grove, most calls get a same-day visit, weekends included.',
   commonIntro:
     'Along the streets off Beechmont Avenue in Cherry Grove, these are the signs that usually bring a call:',
   localFaqs: [

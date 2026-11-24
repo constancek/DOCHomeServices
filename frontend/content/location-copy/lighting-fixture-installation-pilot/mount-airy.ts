@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Ranch houses from the 1960s often left the bedrooms with a switched outlet and no overhead light, and that’s the gap we fill most along the Colerain Avenue side of Mount Airy. Census counts put the median build year at 1964, with 1,781 homes from 1960 to 1979. Boxes from that era are usually grounded and easier to reuse, but a light where none existed is new cable. About six in ten homes are rented. We size up the circuit and ceiling, then price it.',
-  emergencyParagraph:
-    'Bring us out that day, weekends too, for a fixture drooping on its wires, brown scorching on a switch plate, or a breaker that snaps off whenever the light comes on. Flip that breaker off if the panel is easy to get to, and steer kids away from the fixture. Flames or smoke mean everybody outside and a 911 call.',
   commonIntro:
     'Four requests make up most of our light fixture work around Mount Airy Forest.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'In Southgate, the wiring job tracks with when a house went up. Census figures place a bit over a quarter of homes before 1940, and a house that old may hide ungrounded knob-and-tube behind its plaster. The typical home dates from 1968, when kitchens got two or three circuits and some builders used aluminum branch wire. Later houses mostly call about a remodel. Testing comes before any quote, you hear it straight if nothing is wrong, and the scope and flat price are written out.',
-  emergencyParagraph:
-    'Treat these as emergencies. That means a browned outlet or switch, a smell of melting plastic, sparks, buzzing, a breaker that won’t hold, or a jolt from a fixture. Switch that circuit off only if you’re dry. For smoke or fire, leave and dial 911. We come out the same day on most calls, weekends too.',
   commonIntro:
     'Across pre-war houses, 1960s homes and apartment buildings in Southgate, these warnings come up again and again.',
   localFaqs: [

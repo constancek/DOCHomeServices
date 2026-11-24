@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'The first homes in Greenhills were built without basements, and some units keep the furnace in a crawl space, so access is the first thing we plan for. By Census figures the median home dates from 1955, and gas heats 71.1% of them, which makes most tune-ups a gas furnace in a postwar house or townhome, often venting through an older flue. That’s where the heat exchanger and venting get the closest look. The price is agreed before we start, and if the furnace needs nothing, we say so.',
-  emergencyParagraph:
-    'Leave at a whiff of gas, and don’t work a switch or relight anything; ring the gas company from the sidewalk. If the carbon monoxide alarm sounds, everybody out. A cold furnace in freezing weather, nonstop restarting, or a lazy yellow flame means a repair, sooner with a baby, a grandparent or anyone ill. Same day, most calls, weekends too.',
   commonIntro:
     'In Greenhills, the furnace is sometimes in a crawl space or a utility closet, and owners usually book because of one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Some bedrooms in Forest Park still have no ceiling light, and adding one is new wiring rather than a swap. Going by Census counts, the typical home dates to 1969, most from the 1960s and 1970s, back when a switched outlet often stood in for a ceiling fixture. Close to half the households rent, and roughly one home in four is in an apartment building. A walk-through of the switch, boxes and circuits gets you a fixed figure before any drywall is cut.',
-  emergencyParagraph:
-    'Lights that wobble on the ceiling, a hot plastic odor, or a socket gone soft and brown can’t wait a week. Throw the breaker for it if you can get to the panel without danger, and steer people away. Smoke or flame means going outside and dialing 911. Forest Park calls mostly get seen the same day, weekends too.',
   commonIntro:
     'Owners and landlords in Forest Park usually call about one of these.',
   localFaqs: [

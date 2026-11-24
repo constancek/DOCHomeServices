@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Greendale runs on gas heat, and that shapes the checkup. Census figures show 87.4% of homes on gas and 54.8% built before 1960, most of them lived in by their owners. Picture a gas furnace in the basement, often the house’s second or third, venting through a chimney or flue run older than it is. Burners, heat exchanger and that vent path get our closest look; newer houses get the standard filter, blower and safety pass. Price first, and an honest word if nothing’s needed.',
-  emergencyParagraph:
-    'Book repair for these. If the basement smells of gas, the household leaves, nobody flicks a switch or lights the pilot, and the gas company gets a call from next door. Carbon monoxide alarm: same, everyone out. Also a dead furnace mid-freeze, endless restarts or a lazy yellow flame. Babies and grandparents first. Most same day, weekends too.',
   commonIntro:
     'Gas furnaces under houses from the 1940s and 1950s are the core of our fall work in Greendale. Owners usually call after noticing:',
   localFaqs: [

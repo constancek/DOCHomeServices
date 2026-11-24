@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'Reading’s homes are mostly from the 1940s and 1950s, with a pre-war core. Census figures put the median year built at 1956, and nearly a quarter of homes went up before 1940. Panels from that era were sized for far smaller loads than central air and an EV charger. Homes in the Mill Creek floodplain have one more question: whether basement wiring or the panel ever sat in water. We check it all and give you the findings in writing, with repairs priced.',
-  emergencyParagraph:
-    'Phone us rather than booking ahead for a melted or hot outlet, sparking, a buzz inside a switch box, a burning smell, a breaker that won’t stay reset, or lights that sink when an appliance starts. Switch that breaker off. If smoke or flames appear, everybody leaves and calls 911. Most Reading calls get a same-day technician, weekends included.',
   commonIntro:
     'Reading inspections are mostly postwar single homes, with pre-war houses and apartment buildings mixed in. What we find most:',
   localFaqs: [

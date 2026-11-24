@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'In Fairfield, a hot tub hookup is a 240-volt line reserved for the spa, guarded by a GFCI, with a shutoff the bather can see but can’t touch, and nearby metal bonded. Census figures put the median house at 1978, and breaker boxes from the 1970s and 1980s more often have a slot or two free. That leaves the route out to the deck as the real work. We read your panel against the spa’s spec sheet and quote it before any trench is dug.',
-  emergencyParagraph:
-    'Some spa faults in Fairfield need us that day. A GFCI that kicks out again on reset, crackling inside the breaker box, or a scorched shutoff belong on that list, along with a prickle in the water. Help everyone out without touching the tub. Throw the breaker only if it’s safe to reach, and dial 911 for smoke.',
   commonIntro:
     'From the 1970s streets off Pleasant Avenue to the newer subdivisions, these four problems start most spa wiring jobs we see in Fairfield.',
   localFaqs: [

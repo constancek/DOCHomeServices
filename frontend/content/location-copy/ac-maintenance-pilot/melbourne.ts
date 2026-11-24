@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Central air in Melbourne was almost always added after the house went up. Census figures give a median build year of 1958 and show close to a third of homes date from before 1940, so the duct runs tend to be long and improvised, tucked through attics or down a basement wall, and the condenser sits wherever a gap in the yard allowed. Those odd runs are what we watch on a tune-up. The price is agreed before the work, and a system in good shape gets an honest all-clear.',
-  emergencyParagraph:
-    'Skip maintenance and call for AC Repair when cool air stops coming out or frost spreads across the indoor coil. Turn the thermostat off and give the frost time to melt. Leave the breaker off if it has tripped twice or something smells burnt. Babies and older people take heat worst. We see most calls the same day, weekends included.',
   commonIntro:
     'In the older houses around Melbourne, an overdue AC usually gives itself away like this:',
   localFaqs: [

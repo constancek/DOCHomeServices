@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'According to Census figures, nearly half the homes in Cold Spring were built in 2000 or later, and construction that new tends to have breaker space left over for a Level 2 line. Where it doesn’t, load management usually bridges the shortfall. About half are detached houses, easy when the car stays off the street, and a sizable share are townhouses governed by an association. A panel inspection and load math still come first, we’ll admit when the portable cord is enough, and the price is settled before wiring.',
-  emergencyParagraph:
-    'Newer equipment fails too. A charger housing or outlet that turns hot or discolored, a crushed charging cable, or a breaker giving out on every session means you quit charging. Kill the circuit only if doing so is safe. Smoke or flames call for leaving and dialing 911. Cold Spring gets same-day visits on most calls, weekends included.',
   commonIntro:
     'Most houses here went up after 1980, so in Cold Spring, the charger questions mostly come from situations like these.',
   localFaqs: [

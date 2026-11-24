@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Owensville is a village of ranches, and Census figures show about half of them were built between 1960 and 1979, with only a handful older. Ceiling fixtures from that era hang on a shallow plastic box made for a globe light, which a fan’s constant spin slowly loosens. Most homes in Owensville are rented, and the landlord decides. We test that box before quoting, admit it when one loose screw is the entire problem, and price the work while the old light is still up.',
-  emergencyParagraph:
-    'A fan swinging wide, a box pulling out of the drywall, or a scorched smell from the motor means that fan stops today. Kill it at the wall or the panel if that’s safe, and send kids and pets to another room. Smoke or flames mean everybody goes outside to dial 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Houses from the 1960s and 1970s, a lot of rentals and bedrooms framed without any ceiling light shape the fan calls we get from Owensville.',
   localFaqs: [

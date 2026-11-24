@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'The village has an old river-town look, yet Census figures put the median home in New Richmond at 1986, with a third of the housing raised since 2000. Those newer places came with bath fans, mostly the bargain kind, and they drone away without clearing a long shower. The village’s prewar houses carry the opposite problem, a fan cut in decades late with its duct dead-ending over the ceiling. Our electrician chases the air to wherever it stops and writes down the cost before touching drywall.',
-  emergencyParagraph:
-    'Kill the fan if it gives off a melting-plastic odor, its shell has browned, it spits sparks or smoke, it drops the breaker at startup, or water dribbles from the grille. Use the switch or breaker only if that’s safe. With smoke or flame, get outside and dial 911. Most visits here happen the day you phone, weekends too.',
   commonIntro:
     'From the newer subdivisions up the hill to the older streets near Front Street in New Richmond, these four signs bring most of our calls:',
   localFaqs: [

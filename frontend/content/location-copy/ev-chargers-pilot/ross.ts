@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Detached houses make up about eight in ten homes in Ross, and the median one dates from 1972, according to Census figures. Many panels that age ran out of slots years ago. About one home in seven still heats with fuel oil, and a later switch to a heat pump belongs in the panel plan now. Newer houses usually have space or can lean on load management. We open the panel, run the load numbers, tell you if plain 120-volt charging will serve, and price the job before wiring.',
-  emergencyParagraph:
-    'Discoloration on the plug, an outlet that feels warm, or a whiff of scorched plastic means you end the session. A breaker tripping on every charge counts as well. Shut the circuit off only if you can stay dry. For smoke or fire, leave and call 911. Most calls get a visit that day, weekends too.',
   commonIntro:
     'Out here, these four reasons come up most often when someone calls us from Ross.',
   localFaqs: [

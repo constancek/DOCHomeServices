@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Alexandria is a young city by local standards. Census figures put the typical house at 1994, with over a third built since 2000, and nearly all are owned by the people living in them. Panels that new usually have a couple of open slots, so a spa tends to turn on the yard, not the breaker box. A long, sloping run down to a lower patio costs more than one off the deck. We confirm the panel can carry the tub, then quote the whole thing in writing.',
-  emergencyParagraph:
-    'If the spa breaker refuses to hold, the panel starts humming, or a hand on the tub’s rail gives a jolt, clear the water and keep away from the controls. Switch the spa off at its breaker if you can do so safely. If anything is smoking, go outside and call 911. Same-day service covers most calls here, weekends too.',
   commonIntro:
     'Out along Alexandria Pike and in the newer subdivisions off it, these are what usually start a spa conversation with us.',
   localFaqs: [

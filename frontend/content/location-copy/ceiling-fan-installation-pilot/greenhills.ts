@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'In Greenhills, most fan jobs land in a row townhome the federal government built from 1935 to 1938, or in a postwar veterans’ house. By the Census count, half the village’s homes predate 1955, and a third or so are rentals. Those bedrooms were wired for one ceiling bulb, not a turning motor, so we inspect the box first. When snugging the mount cures a wobble, you’ll hear it from us, and either way the number’s agreed before that old fixture is unscrewed.',
-  emergencyParagraph:
-    'A fan jerking or sagging from the ceiling, a burning odor near the motor, or a crackle at the wall switch needs us that day. If you can reach the switch or breaker without danger, shut it and steer the kids elsewhere. With smoke or flame, everybody leaves and someone dials 911 outside. Most calls get same-day help, Sundays too.',
   commonIntro:
     'In the original row houses and on the postwar streets alike, these four fan troubles come up again and again for us in Greenhills.',
   localFaqs: [

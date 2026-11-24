@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Maineville was incorporated in 1850, but most houses here are far younger: Census figures date 54.5% to 2000 or later and much of the rest to the 1980s and 1990s. That makes service mostly a clean drain, rod check and relief valve test in a garage or utility room. Apartment buildings add closet heaters standing over pans, booked by the landlord. Both gas and electric heaters are common. You hear the flat price before we begin, and if a tank isn’t worth the visit, we’ll tell you.',
-  emergencyParagraph:
-    'When water collects under the tank, close the cold line where it enters the top and cut gas or power. Smell gas: walk out, touch no switch, leave the pilot, and phone the gas company from the lawn. A carbon monoxide alarm means out first. Relief valve running constantly, or cold taps: same-day help on most calls, weekends included.',
   commonIntro:
     'Service calls in Maineville usually begin with one of these:',
   localFaqs: [

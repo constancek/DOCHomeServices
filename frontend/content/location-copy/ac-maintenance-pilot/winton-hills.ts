@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every household in Winton Hills rents, and most homes belong to the housing authority. Census figures show 97.0% renting, many in the Winton Terrace and Findlater Gardens buildings, where servicing runs through management work orders, not through us. Our tune-ups here are for private landlords with two-family houses and older single homes, built around a 1955 median, where any central air was added later through cramped ducts. Each owner gets a flat price before we start, and an honest answer if a system needs nothing.',
-  emergencyParagraph:
-    'If your AC stops cooling in a heat wave, ices up or smells burnt, turn it off and report it. Housing authority tenants report to management, and tenants of private owners report to the landlord. Heat hits older relatives and anyone ill hardest. Owners can usually have us out the same day, weekends included.',
   commonIntro:
     'Private landlords in Winton Hills tend to book a spring visit when one of these turns up.',
   localFaqs: [

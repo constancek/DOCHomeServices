@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Fixture work in Milford tends to split by decade. Seven of every ten homes inside city limits predate 1980, by Census counts, and roughly one in five predates 1940, so a remodelled kitchen under a 1960s ceiling or a parlor chandelier hung from cracked plaster is typical. Half the households rent, many in larger apartment blocks, so owners book plenty of hallway swaps. Before quoting, our electrician lowers the canopy, judges the box and conductors, then writes the figure down for you.',
-  emergencyParagraph:
-    'A drooping fixture, a brown scorch ring on the ceiling, a dimmer too hot to touch or a breaker that snaps off with the dining light shouldn’t wait. Kill that breaker if the panel is easy to reach and stand clear. Smoke or flame means everyone out, then 911. Most visits happen the same day, Saturdays and Sundays too.',
   commonIntro:
     'Remodels, rentals and old plaster drive most of what we hang along the Little Miami in Milford.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'In Madeira, the 1950s decide most of our air work. By Census figures the median home dates to 1960, and that decade built more of them than any other. Duct runs from that era often leak basement dust into the rooms, and basements that age tend to sweat in summer, which a dehumidifier fixes. Nearly every home is detached and lived in by its owner. We test first, quote a flat price before work, and tell you if a new filter will do.',
-  emergencyParagraph:
-    'Nobody waits inside once a carbon monoxide alarm starts; walk out and dial 911. Gas you can smell calls for the same exit, no switches touched, and a call to the gas company. Burning odors mean the thermostat goes to off. Mold after a leak worries us most for grandparents. We’re out same day on most calls, weekends too.',
   commonIntro:
     'In the 1950s basements of Madeira and the rooms above them, air trouble tends to look like this.',
   localFaqs: [

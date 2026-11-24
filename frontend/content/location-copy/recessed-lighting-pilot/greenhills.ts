@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'In Greenhills, recessed lighting turns on which kind of house you live in. Census figures set the median home at 1955, and the village’s own history records that the original Greenbelt plans left out basements entirely, so those units offer no open joists below to wire from. Row townhomes and apartments from the federal build frequently have shallow space above their ceilings, whereas the postwar single-family houses for veterans tend to have an attic. We study your ceiling first, then mark every light and fix the price before cutting.',
-  emergencyParagraph:
-    'Treat a downlight that gives off a hot, burnt smell, a switch plate that hums or feels warm, or water trickling through a can as an emergency. Shut off that circuit at the breaker if it’s safe to reach. With smoke or flame, gather everyone outside and call 911. Most calls bring us out that same day, weekends included.',
   commonIntro:
     'Original federal townhomes and postwar veterans’ houses make up much of the village. These are the rooms we are asked to light most.',
   localFaqs: [

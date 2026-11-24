@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Landlords place many of the rewiring calls in Avondale, where roughly three households in four rent. Better than four in ten of its homes went up before 1940, Census figures show, back when knob-and-tube and cloth-sheathed conductors went in without a ground, and some of that may still be live. Post-war apartment buildings tend to be circuit-starved, and a few could hold aluminum branch cable. Testing precedes any proposal, sound wiring is reported as sound, and a flat price and scope are fixed in writing before a wall gets opened.',
-  emergencyParagraph:
-    'Don’t sit on a burnt odor at a receptacle, a faceplate gone hot or brown, crackling, a hum, a breaker that won’t stay up, or a jolt from any fixture. Same-day service covers most of these calls, weekends included, and tenants should tell management too. Flip that circuit only if safe. If there’s smoke, everyone leaves and someone calls 911.',
   commonIntro:
     'Across the older houses, two-families and apartment buildings in Avondale, tired wiring usually shows up as one of these:',
   localFaqs: [

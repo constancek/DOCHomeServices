@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Shadowy stretches between lights are the complaint we hear most here, and fixing the spacing depends on which era your house comes from. Census figures give a 1970 median, yet the spread runs wide, from pre-1940 houses near Dixie Highway to roughly one home in five built since 2000. Older places may hide plaster and a shallow cavity, while newer ones tend toward drywall, open kitchens and an unobstructed attic. Every opening is chalked out and the cost fixed before a saw starts.',
-  emergencyParagraph:
-    'Treat a burning odor from a can, a brownish patch widening around a trim or a breaker tripping right as the lights click on as urgent. Turn off that circuit at the panel when it’s safe to get to. Should you see smoke or fire, leave and call 911. We usually arrive that day, weekends included.',
   commonIntro:
     'From older houses near Dixie Highway to homes built in the last twenty years, these four jobs come up most.',
   localFaqs: [

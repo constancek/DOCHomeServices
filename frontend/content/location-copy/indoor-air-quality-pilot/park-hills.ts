@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Most of the housing went up between the 1920s and the 1950s in Park Hills, and Census figures put the median year built at 1953. Houses of that era let in drafts, keep their basements damp and push dust room to room through aging ducts. Homes built since 2000 add a tighter layer, slower to clear stale air and cooking smells. In apartment buildings, the owner or manager decides. Readings come first, the price is fixed before work, and if a filter does the job, we’ll tell you.',
-  emergencyParagraph:
-    'With a carbon monoxide alarm going, everybody heads into the yard before 911 gets called. Gas in the air means leaving the switches alone and calling the gas company outside. A scorching smell from the furnace or AC means thermostat off. Mold spreading through a wet basement endangers babies and grandparents. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'These four complaints come up most in Park Hills, from 1920s houses near Devou Park to the newer buildings.',
   localFaqs: [

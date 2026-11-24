@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was laid out in the 1920s, a generation before anyone cooled a house with ducts, and the tune-up here still shows it. Census figures put the median year built at 1945, with 36.8% of homes from 1939 or earlier, so central air was threaded in afterward through closets and attics, with the condenser kept out of view at the back. Row houses and apartment buildings add owner-booked work. We set the price before starting and tell you straight if your system needs nothing.',
-  emergencyParagraph:
-    'An AC that has stopped cooling on a hot day needs a repair. Iced lines mean switching the thermostat off. A brown ring growing on a ceiling under an attic unit can’t wait, nor can a breaker that trips again. Older residents and young children feel heat first. Same day on most calls, weekends included.',
   commonIntro:
     'In Mariemont, spring maintenance calls usually begin with something like this.',
   localFaqs: [

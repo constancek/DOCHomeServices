@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Most homes in Westwood are rented, by Census figures 9,821 of 14,957 occupied ones, which means a lot of apartment buildings where equipment is the landlord’s decision. The houses, mostly from the 1940s to the 1970s, tend to have damp basements and ducts that have spread dust for decades, and the apartments trap cooking smells and stale air. The air gets tested before we suggest anything, every fix has a price you see first, and we’ll tell you if a filter swap will do.',
-  emergencyParagraph:
-    'Should a carbon monoxide alarm go off, get everyone outside, then call 911. For a smell of gas, get out without flicking any switch and phone the gas company. Turn the heat or AC off at the thermostat if it smells burnt. Babies and people with asthma feel it first. Expect a same-day visit on most calls, weekends too.',
   commonIntro:
     'In Westwood, the complaints split between apartment tenants and owners of older houses, and these come up most:',
   localFaqs: [

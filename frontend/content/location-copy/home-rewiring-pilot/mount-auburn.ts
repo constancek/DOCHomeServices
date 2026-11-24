@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'More than half of the housing in Mount Auburn was standing by 1939, according to Census figures, and plenty of it is Italianate or Second Empire houses since divided into apartments. Wiring from then may be knob-and-tube or cloth-sheathed, without a ground, ending at two-prong outlets. The large buildings finished after 2010 seldom need more than a single repair. Testing happens first, sound wiring gets left alone, and the owner signs a scope and flat price before we cut anything.',
-  emergencyParagraph:
-    'Melted outlet covers, a hot-plastic odor, sparks at a switch or a breaker that won’t stay on mean an urgent call. Turn off just that circuit if the panel area is dry and nothing near it feels hot. When there is smoke or fire, everyone gets out and someone calls 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Inside old houses that now hold two, three or four apartments, these warnings come up again and again.',
   localFaqs: [

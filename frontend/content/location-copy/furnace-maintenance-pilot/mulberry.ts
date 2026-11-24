@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Mulberry is newer than most of the Milford area. Census figures put the median home at 1988, and fewer than four in ten are detached houses; the rest are townhouses, condos and apartments. So the furnace or air handler usually stands in a closet or utility room, often original, and needs filter, blower, burner and safety checks rather than chimney work. Electricity is the lead heating fuel, a figure that counts heat pumps. You get a flat price first, and plain word if nothing is needed.',
-  emergencyParagraph:
-    'Don’t hold these for a tune-up slot. Gas odor: leave the unit, leave switches alone, call the gas company once outside. Carbon monoxide alarm: get everyone out. A home going cold in a freeze, start-stop loops, or a soft yellow flame all mean repair. Babies, frail parents and anyone ill come first. Most get help the same day, weekends included.',
   commonIntro:
     'Around the condos and townhouses of Mulberry, these are what usually prompt a tune-up:',
   localFaqs: [

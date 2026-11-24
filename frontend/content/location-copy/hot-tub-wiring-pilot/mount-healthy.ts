@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Mount Healthy is its own small city north of Cincinnati, founded in 1817. The median house in town was built in 1956, by Census figures, and close to three in ten went up before 1940, so many panels are already crowded, and that gets sorted ahead of the spa. The tub rides on a 240-volt circuit with GFCI protection, a visible shutoff and bonding, and newer houses usually only need the run planned. We quote once your panel has been compared with the spa maker’s numbers.',
-  emergencyParagraph:
-    'A spa shutoff that’s browned or smells hot, or a tingle off the tub rail, means the soak ends in Mount Healthy. Help people out and keep hands off the pump and controls. Throw the breaker only if it’s safe to reach, and for smoke or fire, go outdoors and call 911. We’re usually there the same day, weekends included.',
   commonIntro:
     'From Compton Road to the side streets off Harrison Avenue, these four start almost every spa call we take in Mount Healthy.',
   localFaqs: [

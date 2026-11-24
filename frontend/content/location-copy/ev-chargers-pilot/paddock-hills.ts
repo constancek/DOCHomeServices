@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Around Paddock Hills, Tudor, Dutch Colonial and bungalow houses stand among bigger apartment buildings, and about seven in ten homes in the area are rented, Census figures show. At a house where the car parks alongside, a charger is usually simple, though a pre-1940 one may be on a small service. Homes from the 1960s and 1970s, about two in five, tend to have panels with no slots left. We read the panel, run a load calculation, say if the dealer cord will do and quote before starting.',
-  emergencyParagraph:
-    'End the session if the charger or outlet looks scorched, smells of burning or knocks out the breaker when the car asks for power. Shut that circuit off only if it’s safe, clear of anything hot, and tell management if you live in an apartment. Smoke or fire means out and 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'In the houses and apartment buildings of Paddock Hills, these four situations usually raise the idea of a charger.',
   localFaqs: [

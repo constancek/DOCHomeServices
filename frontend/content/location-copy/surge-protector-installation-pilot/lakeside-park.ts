@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Lakeside Park is mostly detached houses with a median build year of 1964, though about one in six predates 1940, Census figures show. Those prewar houses are the ones most likely to have a small or packed panel, and that decides where a protector can mount. The mid-century houses have usually collected central air, a newer furnace and some smart devices along the way. Either way, we see the panel before pricing, we’ll tell you if strips would cover it, and the price is agreed before work.',
-  emergencyParagraph:
-    'If a surge or a storm leaves an outlet, switch or the panel blackened, or an appliance smoked or threw sparks when power came back, call us. When lights throughout the house pulse brighter and dimmer, contact Duke Energy Kentucky first. Smoke or fire means leaving the house and calling 911. We’re usually there the same day, weekend or not.',
   commonIntro:
     'In both the prewar and mid-century houses of Lakeside Park, these four signs are the usual starting point.',
   localFaqs: [

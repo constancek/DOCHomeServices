@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'New Miami grew up around coke ovens and a steel mill, and its houses mostly date from the 1940s through the 1970s; Census figures put the median at 1960. Down in those basements, the gas tank usually sits beside a drain spigot nobody has cracked open since it went in, a flue pipe rusting at the seams and gas piping old enough to inspect. Renters fill 37.3% of homes, almost all detached houses. You hear our flat price first, plus an honest word if the tank isn’t worth the visit.',
-  emergencyParagraph:
-    'Call for a repair, not a tune-up, when the tank drips: turn off the cold line up top, then gas or power. Gas odor: step outside, no switches, no relighting; ring the gas company from the street. Carbon monoxide alarm: get the household out. Constant relief valve discharge or zero hot water too. Same-day on most calls, weekends included.',
   commonIntro:
     'In the older blocks of New Miami, a booking usually follows one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Most houses in Dry Run were built between the 1970s and the 2000s, the median one in 1986 by Census figures, and almost every home is detached and owner-occupied. Many have traded the builder’s air conditioner and furnace for newer ones with control boards, and plenty have a desk running a work computer. That is the gear a breaker-box protector is meant to guard. Boxes from those decades differ, so we look first, give an honest word if strips will do, and show the price in advance.',
-  emergencyParagraph:
-    'When an air conditioner throws a spark as power returns, a breaker snaps off again once reset, or a switch plate shows scorch marks, phone us. Should the whole house pulse bright and dim, ring the electric utility first. If smoke or flames appear, everyone goes outside and someone dials 911. Weekends included, most calls get a same-day visit.',
   commonIntro:
     'Owners of 1980s and 1990s houses in Dry Run tend to spot one of these first.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'In New Miami, plenty of recessed work begins with pulling down a dated center fixture in a small single-family house. More than nine in ten homes in the village are detached, the median built in 1960 by Census figures, and about one in five goes back to 1939 or earlier, when Otto still grew around its coke ovens and later the ARMCO mill. Look for attics over the main floor, patches of plaster and cable from several eras. Layout and a flat quote come first.',
-  emergencyParagraph:
-    'Tan rings spreading across the ceiling by a can, a trim too hot to hold or a scorched odor all mean that breaker goes off, if you can get there safely. So does a breaker that flips as the cans light. Smoke or flame means walk out and dial 911. Expect a same-day visit on most calls, weekends too.',
   commonIntro:
     'Small detached houses from the 1940s through the 1970s along the river side of the village supply most requests, and four stand out.',
   localFaqs: [

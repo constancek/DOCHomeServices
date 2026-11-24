@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every house in Villa Hills is from the 1960s to the 1990s, median 1981 by Census figures, and 84.4% are owner-occupied. Gas and electricity split the heating close to evenly, and the electric half includes heat pumps, which need a different service. The furnaces we do see mostly sit in basements and vent through metal pipe, so the hour goes to cleaning and testing, not chimney work. You know the price before we start, and hear plainly if nothing needs doing.',
-  emergencyParagraph:
-    'Repair, not maintenance, when you hit one of these. A gas odor: leave, flip nothing, light nothing, and phone the gas company from the driveway. A carbon monoxide alarm: nobody stays in. A cold house during a cold snap, restarts that never settle, a yellow flame. Older relatives and infants suffer first. Same-day on most calls, weekends included.',
   commonIntro:
     'In Villa Hills, owners usually book a basement furnace tune-up because of one of these:',
   localFaqs: [

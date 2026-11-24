@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Founded in 1817, Mount Healthy is old, but its typical house came after the war, and Census figures place the median year built at 1956. Close to three in ten went up before 1940, and those may still carry knob-and-tube or cloth wire with no ground behind their two-prong outlets. A 1950s or 1960s kitchen was seldom given enough circuits for today. Half the homes are rented. Testing is step one, a clean result gets reported honestly, and scope and flat price go on paper first.',
-  emergencyParagraph:
-    'Treat a switch that smells of burning, a cover gone black or hot, crackling, a breaker that throws itself off again, or a tingle from a lamp as today’s problem. Throw that breaker yourself only when your hands and the floor are dry. If smoke appears, walk out and ring 911. An electrician reaches most calls that day, weekends included.',
   commonIntro:
     'Across the city, in its older houses and its post-war ones alike, these are the signs that usually start the conversation.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'Lockland’s housing grew up beside the first canal locks north of Cincinnati, and the ceilings still show it. Census figures place the median home in 1944, with close to half dating from 1939 or before. Overhead that tends to mean lath and plaster, a cramped gap under the roof of a second story, and parlors wired for a lone center lamp. Before our saw touches anything, a pencil mark goes where each can will sit and you sign off on one flat number.',
-  emergencyParagraph:
-    'If you smell scorching near a can in Lockland, see plaster yellowing around a trim or notice drips falling from a fixture, book us for today. Kill that breaker first if the panel is safe to approach. Flames or smoke mean leaving the house and phoning 911. Most calls get help the same day, weekends included.',
   commonIntro:
     'Ceilings across Lockland were rarely planned for more than one bulb, so these four requests reach us again and again:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'Lots of front rooms in North Fairmount still lean on table lamps, and cans are how people finally retire them. Census figures put the median house at 1938, nearly two-thirds predate 1940, and almost all are detached homes stacked up the hillside above the Mill Creek valley. Expect lath and plaster, a thin cavity under the second floor and rooms built around a lone fixture. Roughly half the homes are rentals. We look into the ceiling first, chalk the layout and agree a number before cutting.',
-  emergencyParagraph:
-    'Treat a can with a hot-wire smell, plaster scorching brown, a trim too warm to hold, or a breaker that pops whenever those lights switch on as urgent. Switch the breaker off if that’s safe. If there is smoke or fire, get out and call 911. We’re there same day on most calls, weekends included.',
   commonIntro:
     'Up and down Baltimore Avenue, Beekman Street and Carll Street, these are the recessed lighting jobs we do most in North Fairmount.',
   localFaqs: [

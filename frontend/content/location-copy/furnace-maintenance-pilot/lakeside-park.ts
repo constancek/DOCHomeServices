@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'In Lakeside Park, furnace maintenance splits between two eras of house. By Census figures, 17.5% of homes predate 1940, and the median one was finished in 1964. Those older basements usually hold a replacement furnace piped into a brick chimney meant for an earlier heater, so the flue, the draft and the heat exchanger get more of our time. Gas heats a majority of homes. You hear the figure before any tool comes out, and if yours needs nothing, we’ll say it.',
-  emergencyParagraph:
-    'Ask for repair if the basement smells of gas: everyone out, no light switches, no relighting, ring the gas company outdoors. Carbon monoxide alarm: same exit, first. A furnace gone cold in a freeze, one firing and dying in a loop, a flame burning yellow and floppy: repair. Babies, grandparents and the sick go first. Most same day, weekends too.',
   commonIntro:
     'Here’s what tends to get an owner in Lakeside Park on the phone about a tune-up:',
   localFaqs: [

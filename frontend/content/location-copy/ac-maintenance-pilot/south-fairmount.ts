@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'In South Fairmount, most houses predate central air. Census figures put 72.6% of them at 1939 or earlier, so whoever added cooling had to thread ductwork through plaster walls and set the condenser in whatever strip of side yard was left along Queen City or Harrison Avenue. Renters occupy 59.8% of homes, and for those the landlord schedules us. Before a single panel comes off, you see a flat price. An AC that turns out healthy gets a clean bill and nothing sold.',
-  emergencyParagraph:
-    'Cooling that quits in a heat wave needs a repair visit. Ice crusting the copper lines means switch the thermostat off and let it melt. A burning odor, dripping ceiling or twice-tripped breaker means leave it off. Infants, grandparents and anyone short of breath suffer soonest. Most calls see us that same day, weekends too.',
   commonIntro:
     'Here’s what tends to prompt a spring booking in South Fairmount.',
   localFaqs: [

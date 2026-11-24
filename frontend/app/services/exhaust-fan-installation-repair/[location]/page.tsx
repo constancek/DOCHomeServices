@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'exhaust-fan-installation-repair',
   serviceName: 'Exhaust Fan Installation & Repair',
   localHeadingName: 'Exhaust Fan Installation',
-  emergencyHeading: 'Urgent Exhaust Fan Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Exhaust Fan Installation & Repair',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'In Cheviot, air quality jobs usually begin downstairs, beside a gas furnace in a basement that has stayed damp for decades. Census figures date the median home to 1946, and 1,746 of the city’s 3,893 homes went up in 1939 or before. Older windows let outdoor air leak in, old foundation walls wick moisture, and ducts installed generations ago spread grit through every floor. Our test runs ahead of any quote, the price is fixed before work begins, and sometimes the honest answer is a clean filter.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means getting everyone outdoors, then dialing 911. Gas odor means walking out without flipping a light and ringing Duke Energy from outside. If the furnace or AC smells scorched, shut it off at the thermostat. Mold creeping after a leak matters most around asthma, infants and grandparents. We usually arrive same day, weekends too.',
   commonIntro:
     'Behind Harrison Avenue, in prewar houses and two-family rentals, these four complaints come up again and again.',
   localFaqs: [

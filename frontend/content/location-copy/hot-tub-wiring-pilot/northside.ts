@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'A spa needs a 240-volt line of its own, GFCI-protected, plus a shutoff you can see from the water and bonded metal around the shell. In Northside, the panel usually decides the rest. Census figures date more than half the homes to 1939 or earlier, and those panels tend to be packed. Upper Hamilton Avenue has more postwar houses with slots free. We read the spa’s spec sheet, hold the panel up against it, and hand you a price before a length of conduit is cut.',
-  emergencyParagraph:
-    'Get out if the tub’s GFCI won’t hold a reset, the shutoff gives off a scorched smell, or the water buzzes against your skin. Leave the pump and panel untouched. If the shutoff can be reached without risk, switch it off, and phone 911 at the first sign of smoke. Weekends included, most calls see us that day.',
   commonIntro:
     'Around Northside, spa calls tend to start with one of these four.',
   localFaqs: [

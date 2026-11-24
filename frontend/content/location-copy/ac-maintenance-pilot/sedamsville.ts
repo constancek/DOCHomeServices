@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'Sedamsville is nineteenth-century worker cottages and two-family houses, stacked between River Road and the slope up toward Price Hill. By Census figures about seven in ten homes date from 1939 or earlier, and nearly two-thirds are rented. Hardly any were built for ducts, so where central air exists it was threaded through closets and attics, and plenty of homes cool with ductless heads or window units. Landlords book most of our visits. They see the cost before we begin, and a system that needs nothing is left that way.',
-  emergencyParagraph:
-    'If a cottage turns hot during a heat wave, or ice sheathes the refrigerant lines, that is a repair call. Set the thermostat to off; after a burning smell or a repeat breaker trip, leave the system dead. Tenants with a baby, an elderly parent or anyone sick should tell the landlord. Most calls are reached that day, weekends too.',
   commonIntro:
     'Landlords and owners in Sedamsville tend to book a spring visit after running into one of these.',
   localFaqs: [

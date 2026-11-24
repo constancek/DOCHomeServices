@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'Roughly half the houses in Mount Lookout were done by 1939, and Census figures make 1938 the median year built. Cable that old may be knob-and-tube or cloth-jacketed, lacking a ground, wired to two-prong receptacles, while houses from the 1950s and 1960s run short of circuits once a kitchen grows. Three in four homes are owner-occupied, so plenty of calls come before a sale or a renovation. We meter everything first, report a clean bill when that’s the result, and deliver scope and flat price in writing beforehand.',
-  emergencyParagraph:
-    'Basements that took water in the July flooding should keep their circuits off until tested. A charred plate, a burning smell, sparks or a breaker that won’t hold is just as urgent. Shut the breaker only while dry and safe. Smoke or flames mean leaving and dialing 911. We get to most calls same day, weekends too.',
   commonIntro:
     'In the older houses along the hillside streets, these are the signs that usually bring an owner to us.',
   localFaqs: [

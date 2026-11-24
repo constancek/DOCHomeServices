@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'In Fairfax, the bathroom that won’t clear is usually in an older house. By Census figures the median home dates from 1942, and close to half are older than 1940, from an era when builders gave a bathroom a window instead of a fan. Fans that owners put in afterward were often aimed into the attic or the space between joists, so the damp never left. Our first step is following that air to its exit, and you see a price before any ceiling gets opened.',
-  emergencyParagraph:
-    'Treat a fan in Fairfax as urgent when it gives off a burning odor, its housing turns brown or soft, it sparks or smokes, water leaks from the grille, or the breaker drops with it. Flip that breaker off if that’s safe. With smoke or flame, leave and phone 911. Most of these see us the same day, weekends too.',
   commonIntro:
     'Across Upper and Lower Fairfax, these are the signs that usually bring us out for a bathroom fan.',
   localFaqs: [

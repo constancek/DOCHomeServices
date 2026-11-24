@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Corryville is a renter’s neighborhood: Census figures show 92.7% of homes here are rented, and 40.2% were built in 2000 or later. So most tune-ups we do are for owners of newer apartment blocks near Short Vine, working through closet heaters in pans, one per unit, with a quick flush, anode check and relief valve test each. The older houses scattered among them are a separate job, with basement tanks and tired venting. Each building gets a price before we start, and a tank not worth servicing gets called out.',
-  emergencyParagraph:
-    'These mean a repair. Water under a closet tank: close the cold line on top, then gas or breaker. Gas smell: everyone out, no switches, no relighting, gas company called outside. A carbon monoxide alarm: clear the apartment. A relief valve that keeps going, or no hot water, counts as well. Same day on most calls, weekends included.',
   commonIntro:
     'For landlords and managers in Corryville, these are the usual triggers for a building-wide service:',
   localFaqs: [

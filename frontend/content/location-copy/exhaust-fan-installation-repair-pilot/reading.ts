@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'Much of Reading was built in the 1940s and 1950s, and Census figures put the median house at 1956, with close to a quarter older than 1940. Those older bathrooms were planned around a window you could open, so the fan arrived decades later and often got aimed into whatever cavity was handy, a stud bay or the attic. Roughly four in ten households rent, which puts landlords on many of these calls. We find where the air truly lands, then quote, and nobody opens a ceiling until you agree.',
-  emergencyParagraph:
-    'Turn the fan off at the wall or breaker, if you can safely reach either, should it give off a scorched smell, arc, smoke or show a warped housing. Water seeping around the grille deserves a visit today. If there’s any smoke or flame, get out first and call 911. Weekends included, most calls see us that same day.',
   commonIntro:
     'Between the older blocks near Benson Street and the apartment buildings farther out, Reading keeps sending us these four.',
   localFaqs: [

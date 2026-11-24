@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate basement lighting is mostly commercial: open lower levels in warehouses and offices near the rail yards, lit by a few scattered fixtures. The ground near Mill Creek runs damp and floods, so we choose fixtures for that, lay out even LED coverage, and run a dedicated circuit.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The below-grade and lower-level spaces here are usually open utility areas lit by a few scattered fixtures, and the low ground near Mill Creek means those spaces can be prone to flooding and run damp.',
-      'For a workable lower level in a building like this, even LED coverage across the ceiling beats a handful of bare fixtures, so we plan a recessed or surface-mount layout suited to the space and how it is used. We choose fixtures with the damp, flood-prone conditions in mind, route wiring on a dedicated, correctly sized circuit, and install everything to code without overclaiming what lighting alone does about moisture in a low Queensgate building.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, basement and lower-level lighting usually means even LED coverage chosen for damp, flood-prone below-grade space.',
-    localFaqs: [
-      {
-        q: 'Do you light below-grade space in commercial Queensgate buildings?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we lay out LED lighting for damp, flood-prone lower levels on a dedicated, code-compliant circuit while being straight about what lighting does and does not address.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF, basement lighting usually means a low stone or block cellar under a 19th- or early-1900s home now split into student rentals. We size the circuit and switching for shared, heavy use, use shallow housings where ceilings sit low, and avoid tapping aging original lines.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'My South Cumminsville basement runs damp — can you still add lighting?',
         a: 'Yes. We light low, damp-prone basements common in the Mill Creek valley using moisture-aware fixtures on a dedicated, code-compliant circuit, while being clear about what lighting addresses.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods homes on the hilltop above the valley usually have low basements lit by a single bulb, and basement lighting there turns storage space into an office or rec room. We lay out LED fixtures for even coverage, with shallow housings and surface mounts where ceilings sit low.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The basements in the older homes here are typically low and lit by a single bulb, leaving a space many owners would rather use as an office or rec room sitting dark and underused.',
-      'We lay out LED fixtures for even coverage across the whole floor, using shallow recessed housings and surface mounts where the older ceilings sit low, so an English Woods lower level reads bright wall to wall. The lighting goes on its own correctly sized circuit back to the panel and is installed to code, turning a hilltop home’s basement from storage-only into a space that is actually pleasant to spend time in.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, basement lighting usually means replacing a single bulb with even recessed LED coverage on a proper, code-compliant circuit.',
-    localFaqs: [
-      {
-        q: 'How fast can you reach English Woods to light a basement?',
-        a: 'English Woods is within our west-side service area, and we lay out recessed and flush LED basement lighting on a dedicated, code-compliant circuit as licensed electricians.',
       },
     ],
   },

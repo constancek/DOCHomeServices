@@ -2,15 +2,13 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const springdale: LocationServiceCopy = {
   localParagraph:
-    'In Springdale, most ceiling fan calls come from 1960s and 1970s houses. Census figures put the median at 1971, with about half the homes from those two decades, so a bedroom may have the plain light box it was built with and a family room may never have had a fan. About two in five homes are rented, a good number in the big complexes. We check the box before quoting, say so if a loose canopy is the only fault, and fix the price before the fixture comes down.',
-  emergencyParagraph:
-    'Don’t keep using a fan that is lurching on its mount, hanging lower, or putting out smoke or a burnt-plastic smell. Sparking switches count too. Turn the power off if it’s safe, keep everyone out from under the fan, and call us for a same-day visit on most calls, weekends included. For fire, get out and call 911.',
+    'Most ceiling fan work we do in Springdale is in a house finished around 1971, the median Census figures give. Half the homes went up between 1960 and 1979, so a bedroom fan often hangs from the builder’s plain light box, and many family rooms got a lamp outlet instead of a ceiling fixture. Roughly four in ten are rented, many in large complexes. We open the box first, tell you if a loose canopy is all that’s wrong, and settle the price before the old fixture comes down.',
   commonIntro:
     'Houses from the 1960s and 1970s, townhouses and big apartment complexes send us most of our fan requests in Springdale.',
   localFaqs: [
     {
-      q: 'Can you hang a fan in an apartment or townhouse in Springdale?',
-      a: 'Yes, once the owner or manager signs off and books the visit. Under Ohio’s ORC 5321.04 (A)(4), a landlord keeps the electrical fixtures they supplied, a fan included, in good and safe working order. We hang fans, not leases. A tenant can still put a fresh battery in the remote.',
+      q: 'Will you put up a fan for a renter or townhouse owner in Springdale?',
+      a: 'For a renter, yes, after the landlord or property manager approves it and schedules us. Ohio law, ORC 5321.04 (A)(4), makes the landlord keep any fixture they put in, ceiling fans too, safe and in good repair. Our job is the fan, and the lease stays between you and the owner. Renters here can swap the remote’s battery themselves.',
     },
     {
       q: 'Can you add a fan to a family room in Springdale that has no ceiling light?',
@@ -33,7 +31,7 @@ export const springdale: LocationServiceCopy = {
       },
       {
         title: 'DIY or a Licensed Electrician for a Ceiling Fan in Springdale',
-        body: 'Before booking anyone in Springdale, tighten the screws that join each blade to the motor and the ones fixing the bracket to the box. If a sway remains, move the balancing clip from blade to blade until it calms, and press a weight on at that spot. A remote that has gone quiet usually just wants new batteries. Check that the pull chain sits on a speed and the wall switch is up. A licensed electrician should take over if the box carries no fan rating, wiring or a switch needs adding, the ceiling rises steeply, or the motor hums, heats up or dims the lights.',
+        body: 'Before booking anyone in Springdale, tighten the screws that join each blade to the motor and the ones fixing the bracket to the box. If a sway remains, move the balancing clip from blade to blade until it calms, and press a weight on at that spot. If the remote stops answering, try fresh batteries. Pull the chain through each setting and make sure the wall switch is on. Bring in a licensed electrician when the box has no fan rating, when new cable or a switch has to go in, when the ceiling climbs steeply, or when the motor hums, runs hot or makes the lights dim.',
       },
       {
         title: 'Running a Ceiling Fan in Winter in Springdale',

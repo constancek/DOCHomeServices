@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Delhi Hills is an owner-occupied detached house, and Census figures put the median at 1971. A panel from the late sixties or seventies may still have a spare slot for a spa breaker, or later projects may have filled it, so we look before promising. The ground often matters more here, since many lots slope toward the township’s ravines and the tub’s spot decides the conduit route. We set the panel beside the tub maker’s spec and quote before digging.',
-  emergencyParagraph:
-    'In Delhi Hills, a GFCI or breaker that won’t reset, a burning smell at the shutoff, a buzzing panel or a tingle from the water needs us quickly. Get people out and leave the controls be. Cut power only where it’s safe; if you see smoke, get out and call 911. Most calls are same day.',
   commonIntro:
     'On the sloped lots of Delhi Hills, spa jobs tend to start with one of these.',
   localFaqs: [

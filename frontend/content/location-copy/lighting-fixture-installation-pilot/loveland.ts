@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'In Loveland, most fixture requests come from the hillside subdivisions above the river, where the typical house went up around 1985 and the kitchen island is begging for pendants. Those ceilings nearly always have grounded boxes, though many were set for a builder’s dome rather than anything heavy. In the old valley core near the Little Miami, a few older houses still hide plaster and two-wire circuits. Either way, we judge the box, the ground and whether the location already exists, and you hear the figure before anything is unscrewed.',
-  emergencyParagraph:
-    'Pendants swinging loose from their canopy, a fixture giving off a hot-plastic smell, a switch plate that crackles, or lights flickering in several rooms need a same-day visit. Kill the breaker if the panel is safe to reach and keep the family away from below. Any smoke or flame means everyone outside and 911. Weekends too.',
   commonIntro:
     'From the valley streets downtown to the subdivisions on the ridges, these four jobs fill most of our lighting calendar in Loveland.',
   localFaqs: [

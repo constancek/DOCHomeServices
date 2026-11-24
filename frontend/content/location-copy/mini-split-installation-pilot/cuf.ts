@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'In CUF, the landlord usually decides, because Census figures count 84.5% of homes as rented. Ductless requests here mostly come from owners of two-families and small walk-ups whose top-floor tenants roast. Fairview and the west side of Clifton Heights hold the oldest stock, mostly pre-1940 and never ducted, with plaster that crumbles when you chase a duct through it. A wall unit needs one modest hole for its copper. Owners see a fixed number before work, and we’ll talk you out of it if it’s wrong for the building.',
-  emergencyParagraph:
-    'Heat stacks up under the roof of a third-floor flat, and the July normal high is 86F (National Weather Service). Elderly tenants, infants and residents with asthma are the ones in danger. Installs get scheduled fast, and a one-room system is typically running by evening. A stalled ductless unit needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'From Fairview hillside two-families to the larger 1970s buildings in CUF, owners usually call about one of these:',
   localFaqs: [

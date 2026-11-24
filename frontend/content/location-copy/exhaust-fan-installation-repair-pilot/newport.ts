@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Of the 7,828 homes in Newport, Census figures count 3,637 built in 1939 or earlier, long before anyone put a fan over a tub. A lot of those old city houses got a bathroom fan decades later, usually from whoever remodeled, and the duct often ends in a joist bay or the attic floor. Renters fill just over half the homes, so landlords make most of these calls. Our electrician finds the end of that duct and puts a price on paper before the plaster is touched.',
-  emergencyParagraph:
-    'A fan with a charred shell, a burnt-toast smell, sparks, smoke, a breaker that snaps whenever it spins, or water dripping off the grille stays dark until we’ve seen it. Flip the switch or panel breaker if you safely can. Flame or smoke means outside and 911. Most homes in Newport get a visit that day, weekends too.',
   commonIntro:
     'Across East Row, the flats along Monmouth Street and the older streets toward the Licking in Newport, these are the fan problems we find:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Along the river in Ludlow, the houses are old, and their age decides where a surge protector can sit. Census figures show three in five went up in 1939 or earlier, which leaves a lot of panels cramped or full by now. Most are lived in by their owners, many of whom have added central air, a newer furnace or a modern kitchen over the years. The cover comes off the panel before we quote, you’ll hear if strips would serve, and the price is settled up front.',
-  emergencyParagraph:
-    'Ring us that day if a breaker won’t stay on, or an outlet or panel shows scorch marks after a storm. House-wide lights flaring and fading mean Duke Energy Kentucky first, then us. Flip it off only if you’re dry. If there’s smoke or fire, leave and call 911. Same day on most calls, weekends included.',
   commonIntro:
     'In Ludlow, where Victorian and early-1900s houses line most streets near Elm Street, these are the signs that bring owners to us.',
   localFaqs: [

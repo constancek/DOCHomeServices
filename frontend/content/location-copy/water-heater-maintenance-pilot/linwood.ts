@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'Most houses in Linwood are old: Census figures put 82.1% at 1939 or earlier. Gas heat is close to universal, so a service here usually means a gas tank in a pre-war cellar, with attention on the vent connector, the gas union and a drain that may have seized years ago. Many homes are doubles, a heater per side, and 54.9% are rented, so landlords often book both tanks at once. You get the price before we begin, and if a tank isn’t worth the money, we say it.',
-  emergencyParagraph:
-    'If the steel drips, book repair: spin the cold inlet clockwise, then shut the gas cock or trip the breaker. A sulfur smell sends everyone out, lights untouched, to ring Duke Energy from the street. A carbon monoxide alarm empties the house first. Relief valve gushing nonstop, or hot taps dead: also repair. Same day on most calls, weekends included.',
   commonIntro:
     'Tune-up calls from Linwood usually begin with one of these:',
   localFaqs: [

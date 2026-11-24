@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'In Ludlow, the bathroom fan problems we see track with how old the houses are. Census figures put the median home at 1938, and roughly six in ten were standing before 1940, when a bathroom got a window and nothing more. Many gained a fan later, with the duct often dropped onto the attic floor or stuffed into a wall. Most owners live in their own homes, so the decision is usually yours. We follow the fan’s air to its end and fix the price before cutting into a ceiling.',
-  emergencyParagraph:
-    'Scorch marks or a burnt odor at the housing, sparks, smoke, or a breaker that drops every time the fan starts mean its power should be cut at the wall or the panel, if you can do it safely. With smoke or flame, leave and dial 911. We generally get there that day, Saturdays and Sundays as well.',
   commonIntro:
     'Near Elm Street and out toward the newer houses, these four complaints come up most often in Ludlow.',
   localFaqs: [

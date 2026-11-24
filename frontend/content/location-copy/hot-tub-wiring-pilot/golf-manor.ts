@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Census figures put the typical house in Golf Manor at 1954, and most went up in the 1940s and 50s. A panel from those years is often crammed, without a free slot for the tub’s breaker or spare headroom on the service, so that gets fixed first. Then the tub is fed by its own 240-volt line through a GFCI, with a shutoff in view and bonded metal around it. Quotes come after we read your panel against the spa maker’s sheet.',
-  emergencyParagraph:
-    'A GFCI that won’t latch back on, char marks or a hot smell at the disconnect, and a prickle felt through the water are all urgent. Climb out and touch nothing. Kill the breaker only where reaching it is safe. Smoke or flames mean everyone leaves and someone dials 911. We reach most calls that day, weekends too.',
   commonIntro:
     'Golf Manor has a lot of 1950s houses and two-families, and these four signs come up in them again and again.',
   localFaqs: [

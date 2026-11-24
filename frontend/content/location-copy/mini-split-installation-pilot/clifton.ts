@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Clifton is mostly prewar housing, with a median year built of 1938 and 62.2% of homes from 1939 or earlier, by Census figures. Big plaster-wall houses and old brick apartment buildings rarely have a clean path for ducts, so ductless heads cool rooms without cutting into walls or ceilings. About 63.4% of homes are rented, and in those the building owner decides on new cooling. We set a flat price before any drilling, and if a mini-split isn’t the right fit, we’ll say so.',
-  emergencyParagraph:
-    'The National Weather Service averages 21 days a year at 90F, and on those days a third-floor unit in Clifton holds heat into the night. Elderly residents, newborns and anyone with asthma take it hardest. We book ductless installs promptly; one head is ordinarily a day. A faulty unit goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the old houses off Ludlow Avenue and the apartment buildings around them, these are what usually prompt a ductless quote:',
   localFaqs: [

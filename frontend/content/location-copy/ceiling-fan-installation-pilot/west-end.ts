@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'In the West End, nearly nine households in ten rent, by Census count, so a fan job usually starts with a landlord or building manager. Italianate rowhouses from the 1800s around Betts-Longworth have plaster ceilings and light pans that were never meant for a turning load, while apartment blocks from later decades usually have a single fixture box per room. We open that box first, say when a tightened bracket ends the wobble, and the owner approves the price before anything comes down.',
-  emergencyParagraph:
-    'We make same-day visits on most calls, weekends included, when a fan heaves against its canopy, its box pulls out of the plaster, the motor scorches or smokes, or the switch plate arcs. Cut power at the toggle or the breaker if you can safely, and nobody stands beneath it. With fire, get out and call 911.',
   commonIntro:
     'Between the old rowhouses and the apartment blocks of the West End, these four come up most.',
   localFaqs: [

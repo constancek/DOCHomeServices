@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'Moscow is a small river village, and most homes here predate 1940, by Census figures. Houses that old were built long before central air, so a mini-split is often the simplest way to cool them without opening plaster walls or giving up closet space. Most homes are owner-occupied, and most heat with electricity or fuel oil today. We set a flat price before work starts, and if ductless isn’t the right fit for the house, we say so.',
-  emergencyParagraph:
-    'On a July afternoon the normal high is 86F (National Weather Service), and an attic bedroom keeps that warmth until after dark. Retirees, infants and people with breathing trouble feel it worst. Ductless jobs get scheduled fast; a single head goes in during one visit. A dead mini-split needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Across the village of Moscow, these are the usual reasons for a ductless quote:',
   localFaqs: [

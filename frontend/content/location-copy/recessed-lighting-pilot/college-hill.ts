@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'In College Hill, a typical recessed lighting call comes from a postwar house with a walk-up attic over the bedrooms and an unfinished basement the owners have finally decided to use. Census figures for the heart of the neighborhood show median build years of 1945, 1961 and 1967, with about a third of homes dating to before 1940. Its pre-war houses carry plaster, while the 1950s and 1960s ones are easier to wire from above. Each can gets marked and the quote settled before we drill.',
-  emergencyParagraph:
-    'A downlight that smells of hot insulation, paint yellowing in a ring around a can or a trim too hot to touch or a humming, warm dimmer means a same-day visit. Kill that breaker if it’s safe, and if smoke appears, clear the house and phone 911. Most homes in College Hill are seen that day, weekends too.',
   commonIntro:
     'Pre-war houses and postwar ranches sit side by side in College Hill, and these are the jobs we take on most.',
   localFaqs: [

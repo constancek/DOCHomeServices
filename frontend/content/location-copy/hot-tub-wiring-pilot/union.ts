@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'A spa in Union needs its own 240-volt line, GFCI protection, a shutoff the bather can see from the water but can’t reach from it, and bonded metal. Census figures show eight in ten houses here were built after 2000, so the builder’s panel usually has a slot open. How far the line travels across the yard drives most of the work. We compare the panel to the tub’s spec sheet and quote before a length of conduit is cut.',
-  emergencyParagraph:
-    'Phone us in Union if the GFCI snaps off again after a reset, the shutoff box smells hot, or the panel hums. A tingle in the water means everyone climbs out and nobody touches the shell. Kill the breaker only if it’s safe to reach; smoke means leaving and dialing 911. Most callers see us same day, weekends too.',
   commonIntro:
     'Out in the post-2000 subdivisions of Union, four requests come up again and again:',
   localFaqs: [

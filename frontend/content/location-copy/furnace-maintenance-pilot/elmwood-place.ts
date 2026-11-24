@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'Elmwood Place is old and mostly rented: Census figures date 62.3% of homes to before 1940, and close to two in three are tenant-occupied. The usual job is a pre-war basement where the current furnace is the second or third one to sit there, still exhausting through brick laid for the first, with the owner on the phone. So flue draft and the heat exchanger lead our checklist. Gas heats most of these homes. You’ll have the price before any work, and an all-clear when that’s the truth.',
-  emergencyParagraph:
-    'Repair, not tune-up. Gas smell: everyone walks out leaving lights and the pilot untouched, and the gas company is called from the street. Carbon monoxide alarm: the house empties first. A cold house in freezing weather, a furnace caught restarting, a yellow flame: same answer. Older tenants and babies feel a cold unit first; usually same day, weekends too.',
   commonIntro:
     'With old houses and lots of rentals, these are what bring owners to call us in Elmwood Place:',
   localFaqs: [

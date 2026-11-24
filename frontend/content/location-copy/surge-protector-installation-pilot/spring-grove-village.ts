@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Spring Grove Village, the old Winton Place, has a median build year of 1938 in Census figures, and nothing was built since 2010. In houses that age the panel is often small, or crowded with add-on circuits, and that decides whether a surge device can go in. Central air and newer furnaces came later to many of them, bringing control boards a surge can kill. About four in ten homes are rented. The panel gets checked first, you’ll hear if strips would do, and the price is fixed before work.',
-  emergencyParagraph:
-    'Following a storm, an outlet that’s scorched or smoking, or a breaker that refuses to stay up, can’t wait for next week. When every lamp swells and dims, Duke Energy Ohio comes first. Touch the panel only if the floor is dry; if smoke or flame appears, go outside and dial 911. Same-day service covers most calls, weekends included.',
   commonIntro:
     'In older houses and the equipment added to them since, surge protection calls here usually start with one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Elsmere housing spans more than a century, so no two inspections here look alike. Census figures put the median home at 1970, yet 13.2% went up in 1939 or earlier and 19.6% in 2000 or later. In the oldest houses we look hard for cloth-covered wire and two-prong outlets. In 1960s homes it is usually panel size. Newer ones mostly get booked for a sale or a big appliance. We check every part, write it down and price repairs before doing any.',
-  emergencyParagraph:
-    'An Elsmere call jumps the queue for a hot or browned outlet, a humming switch, sparks, the smell of melting plastic, or a breaker that snaps off again after you reset it. Kill that breaker at the panel. With smoke or fire, leave first and dial 911 from the yard. Expect same-day help on most calls, Saturday and Sunday too.',
   commonIntro:
     'Elsmere has early 1900s houses, postwar ranches, newer builds and a few hundred mobile homes. These are the findings that come up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Woodlawn is a young village. Its median home dates to 1987 and roughly a third of homes are post-2000 builds, by Census count, and two households in three rent, many in apartment complexes. Newer townhouses often have a great room or stairwell tall enough to need a down rod, plus a patio where only a damp-rated fan belongs. Apartment bedrooms usually have a single light box. We open that box, tell you if a tightened screw solves it, and you know the price first.',
-  emergencyParagraph:
-    'Ring us for a same-day visit, on most calls, weekends included, when a fan rocks hard, its box pulls away overhead, the motor smokes or reeks of burnt plastic, or the breaker trips on startup. If you can reach it safely, cut the power at the wall or panel. A fire calls for getting out and dialing 911.',
   commonIntro:
     'Across the apartment complexes and newer streets of Woodlawn, these four come up most often.',
   localFaqs: [

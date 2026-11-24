@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Renters hold 76.1% of homes in Avondale, by Census figures, spread across two-families, three- and four-unit walk-ups and big apartment blocks on Reading Road and Burnet Avenue. Some 43% of units predate 1940, when plaster went up over lath and nobody planned duct chases, so retrofitting central air means opening walls. A ductless wall unit only needs one modest opening to reach its condenser. Owners make that call. Our figure gets approved before any work, and if ductless won’t suit a building, we’ll say it.',
-  emergencyParagraph:
-    'Around 21 days a year reach 90F (National Weather Service), and a top-floor flat under an old roof feels each one. Elderly tenants, babies and anyone with asthma are most vulnerable. We book fast; a lone wall unit is usually a day, multi-zone longer. Ductless equipment that quits goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Near the zoo, the hospital campus and the Reading Road corridor, these are what ductless calls from Avondale tend to involve:',
   localFaqs: [

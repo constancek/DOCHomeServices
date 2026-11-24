@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Houses in Wetherington were built around a golf club that opened in 1992, and Census figures put the median house at 1998, with nothing older than 1980. So the questions here are rarely about tired wiring. They’re about what a young house holds, since a two-stage furnace, a keypad oven and doorbell cameras all hang off one breaker box. Our electrician opens that box before quoting, tells you outright if a few outlet strips would be plenty, and writes the price down before any tools come out.',
-  emergencyParagraph:
-    'A receptacle that has gone brown and smells of hot plastic after a thunderstorm needs us the same afternoon. Kill its breaker only with dry hands and nothing warm to touch. Should smoke or flames appear, leave first and dial 911 from outside. Most of these calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Around the fairways, the clues that a house wants a protector at the breaker box tend to look like this.',
   localFaqs: [

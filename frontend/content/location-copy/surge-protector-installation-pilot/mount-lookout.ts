@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'Around the Observatory, Mount Lookout is mostly older houses that owners have renovated and stocked with good equipment. The Census puts the median year built at 1938, with nearly four in five homes detached and about three in four owner-occupied. A box feeding a house that old may be small, or crowded from decades of additions, and that decides where a protector can mount. We look inside it first, tell you when an outlet strip is enough, and settle the price before anyone picks up a tool.',
-  emergencyParagraph:
-    'If the basement took on water, keep soaked equipment down there switched off until we’ve seen it. A burnt odor after a storm, or a breaker that won’t stay set, warrants a same-day visit, which most calls get, weekends included. Reach for that breaker only while standing somewhere dry. Smoke or fire means leaving first and phoning 911 second.',
   commonIntro:
     'Near the Square and up the hillside streets, these are the signs that usually start a surge protection conversation in Mount Lookout.',
   localFaqs: [

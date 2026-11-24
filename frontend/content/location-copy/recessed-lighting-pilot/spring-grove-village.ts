@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'In Spring Grove Village, a recessed lighting job often begins with taking down a heavy glass fixture that has hung there for generations. The neighborhood was Winton Place until 2007, and Census figures put its median home at 1938, with just over half built before 1940. Along Winton Road, Epworth and McMakin, that means lath ceilings, cramped space under the second floor and wiring laid out for one light per room. We mark each opening and settle the price before cutting.',
-  emergencyParagraph:
-    'A can light dribbling water after a bathtub overflows upstairs, a breaker that snaps the moment you hit the switch, or a trim you can’t hold a hand beneath should not wait. Kill power to it at the panel when that’s safe. Flames or smoke mean everybody leaves and someone dials 911. Most calls are same day, weekends too.',
   commonIntro:
     'Prewar plaster, dated fixtures and basements waiting their turn bring most of our calls here:',
   localFaqs: [

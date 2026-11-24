@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Sayler Park is mostly owner-occupied detached houses, and Census figures show 62.3% heat with gas, so the typical booking is a homeowner with a basement furnace. About half the houses went up before 1940. In those, the furnace usually vents into the old chimney and is rarely the original, which is why we spend longer on the flue and heat exchanger. Postwar houses mostly need cleaning and a controls check. You agree the price first, and we’ll say if the furnace can be left alone this year.',
-  emergencyParagraph:
-    'If gas reaches your nose in Sayler Park, get out, let the switches be, leave any pilot unlit, and phone the gas company outdoors. A sounding carbon monoxide alarm clears the house first. A furnace dead in a cold snap is a repair. Infants, grandparents and anyone ill feel it first. We reach most the same day, weekends included.',
   commonIntro: 'Homeowners in Sayler Park tend to pick up the phone for a fall visit after spotting one of these:',
   localFaqs: [
     {

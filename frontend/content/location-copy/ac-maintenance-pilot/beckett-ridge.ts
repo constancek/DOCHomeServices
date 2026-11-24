@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Houses and townhomes from the 1980s and 1990s make up most of the AC work we do in Beckett Ridge, since that’s when the bulk of this planned community was built; Census figures set the median home at 1990. Cooling was part of the design from day one, so ducts tend to be sized sensibly and the outdoor units sit where we can reach them. You approve a flat price before work, and if nothing is needed, we say so.',
-  emergencyParagraph:
-    'When the house stays warm through a hot afternoon, frost coats the indoor coil or its copper lines, or a breaker keeps tripping, you need a repair rather than a tune-up. Shut the system off at the thermostat so the ice melts. Older relatives, babies and anyone ill feel it soonest. We’re usually there the same day, weekends too.',
   commonIntro:
     'In Beckett Ridge, one of these is usually what prompts a spring tune-up.',
   localFaqs: [

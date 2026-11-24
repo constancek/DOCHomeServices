@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Behind the floodwall finished in 1981, in Dayton, recessed lighting meets two very different ceilings. Census figures put close to half the homes at 1939 or earlier, which means plaster on lath, shallow upper-floor cavities and rooms built around a single fixture. Houses from 2000 on and the apartment buildings have drywall that cuts far more easily. About four in ten homes are rented. Whatever the age, each can gets marked on the ceiling and the price settled before cutting.',
-  emergencyParagraph:
-    'Turn off the breaker for those lights, as long as you can get to the panel safely, if a can puts out a burning odor, browns the plaster around it or blinks off and on unprompted. Water seeping from a can deserves the same response. For smoke or flame, leave and dial 911. Same-day visits handle most calls, weekends included.',
   commonIntro:
     'From plaster-ceilinged houses off Sixth Avenue to newer condos, owners bring us these four.',
   localFaqs: [

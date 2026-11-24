@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Nearly every house in Terrace Park is a single house with its owner living in it. Census numbers date the median house to 1954, a quarter are older than 1940, and a big share went up in the 1940s and 50s. Panels that old have been added to for decades and often have no slot or headroom left for a tub. That gets dealt with first. Next come the 240-volt run with GFCI protection, an outdoor shutoff and bonding, quoted against the tub maker’s sheet before any trench.',
-  emergencyParagraph:
-    'Leave the spa alone if its GFCI or breaker drops out on reset, the panel or shutoff smells of burning, or the water buzzes against your skin. Get everyone onto dry ground away from the tub. Flip the breaker only when that’s safe, and for smoke or flames, call 911 outside. We get to most calls that day, weekends too.',
   commonIntro:
     'Around Elm and Miami Avenues, Terrace Park is single houses from end to end, and spa calls here usually start with one of these.',
   localFaqs: [

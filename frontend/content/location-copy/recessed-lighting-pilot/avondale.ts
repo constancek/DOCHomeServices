@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Avondale, the city neighborhood beside the Zoo and Children’s Hospital, is mostly rented homes, so recessed lighting here is usually an owner’s project and the ceiling between floors shapes it. Census numbers show roughly three of every four households renting, about one home in four inside a three- or four-unit building, and more than two in five built before 1940. In the older buildings that means plaster, one fixture per room and stacked units. We check overhead, lay out each light and price it before cutting.',
-  emergencyParagraph:
-    'When plaster browns around a can, a burnt odor lingers, a trim is too hot, or water from upstairs runs through a light, act today. Kill power to those cans at the breaker box if you safely can. If you see smoke or flame, get out and phone 911. We reach most such calls same day, Saturdays and Sundays too.',
   commonIntro:
     'Most of our work in Avondale is for landlords, building owners and the people who own the houses here, and these jobs come up most:',
   localFaqs: [

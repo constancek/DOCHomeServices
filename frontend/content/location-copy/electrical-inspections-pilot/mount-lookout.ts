@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'Mount Lookout houses are old enough that an inspection here is mostly about what earlier owners left behind. Census figures put the typical home at 1938, and 50.9% predate 1940. Expect original cloth-jacketed runs to the upstairs rooms, grounds missing behind newer-looking outlets, and a panel added decades ago that now carries a remodeled kitchen too. Owners call before listing, buyers before closing, and families before a basement finish or a charger in the garage. You get it in writing, and each repair carries a price up front.',
-  emergencyParagraph:
-    'Treat it as urgent when a cover plate is warm or browned, an outlet crackles, there’s a scorching odor, or a breaker refuses to stay on even briefly. Flip it off at the panel. Flames or smoke mean you leave the house first and ring 911. Most Mount Lookout calls get us that day, weekends too.',
   commonIntro:
     'Mount Lookout’s pre-war houses and later remodels leave a familiar trail. What we report most:',
   localFaqs: [

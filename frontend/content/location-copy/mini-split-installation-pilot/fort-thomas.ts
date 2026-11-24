@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Census figures date 32.1% of houses in Fort Thomas to 1939 or earlier and put the median at 1955, so a lot of these homes stood for decades before anyone thought about ducted cooling. When central air came later, it often runs out of push by the second floor or the attic room, and some houses skipped ducts entirely. A wall-hung ductless head handles that without cutting into plaster. Rental owners make the call for tenants. A fixed price comes first, and if ductless isn’t the answer, you’ll hear it.',
-  emergencyParagraph:
-    'Julys bring a normal high of 86F, by National Weather Service figures, and an attic bedroom stays hot after dark. Grandparents, newborns and anyone ill or wheezing need relief first. Installs book fast; single-zone usually takes one day. If your existing mini-split died, Mini-Split Repair answers most calls same day, weekends too.',
   commonIntro:
     'In the older and mid-century houses that line the streets of Fort Thomas, these are the rooms that tend to lead to a ductless install:',
   localFaqs: [

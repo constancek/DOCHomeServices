@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Gas furnaces in old basements are most of what we tune in Spring Grove Village. Census figures date 53.5% of homes to before 1940 and show 64.4% heating with gas, and nothing new has gone up since 2010. Many furnaces are the second or third in the house, venting through the original chimney, so the flue and heat exchanger get the most time. Two-family houses usually mean two furnaces on one visit. You hear the price first, and if the furnace is fine, we tell you.',
-  emergencyParagraph:
-    'These call for repair. Smelling gas: leave, don’t work a switch, phone the gas company outside. Carbon monoxide alarm: out of the house. A furnace giving no heat in cold weather, one that fires and quits in a loop, or a flame burning yellow. Children, older relatives and the sick go first. Most calls same day, weekends as well.',
   commonIntro:
     'In Spring Grove Village, owners of older houses usually call for a tune-up after one of these:',
   localFaqs: [

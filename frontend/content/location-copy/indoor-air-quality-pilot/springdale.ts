@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Springdale is mostly a 1960s and 1970s city: Census figures put the median home at 1971, and about half went up in those two decades. Houses that age often still run their first duct layout, which gathers dust over the years, and a basement or lower floor from that era can feel close and humid in summer. About four in ten homes are rented, and those decisions sit with the landlord. The air gets tested first, the price is set before installing, and a filter-only answer gets said out loud.',
-  emergencyParagraph:
-    'A carbon monoxide detector going off means everyone walks out before anyone rings 911. Smelling gas means the same, leaving every switch alone and calling the gas company outside. Turn the thermostat off if the furnace or AC smells scorched. Mold after water damage won’t wait for asthmatics, newborns or elderly parents. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'In the 1970s houses and apartment complexes of Springdale, poor air usually shows up as one of these.',
   localFaqs: [

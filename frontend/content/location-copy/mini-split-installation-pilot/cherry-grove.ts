@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Cherry Grove was built in one long burst. Census figures show 78.1% of its houses went up between 1960 and 1979, with a median year built of 1971, and 98.8% are detached single-family homes. So the work here is rarely a whole house. The calls are for a family room added later, a lower level finished after move-in, or the bedroom over the garage. You get a firm price before any drilling, and we’ll tell you if the ducts just need attention.',
-  emergencyParagraph:
-    'About 21 days a year reach 90F (National Weather Service), and a room over the garage soaks up each. Aging parents, newborns and anyone with COPD or a heart condition feel it first. Installs get scheduled quickly, and one head takes a day. A ductless system that quit needs Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'In the 1960s and 1970s houses off Beechmont Avenue in Cherry Grove, these are the rooms that tend to end up with a ductless head:',
   localFaqs: [

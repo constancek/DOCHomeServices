@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'In South Fairmount, a Level 2 charger usually hinges on the age of the electrical service. Census figures date the typical house to 1938, and a service from that era can be small, with little spare for a new 240-volt line. Roughly half the homes stand alone, while six in ten households are renters, so owners make the call. Our first job is opening the panel and adding up the load. If your plug-in cord is coping fine, we say so, and the quote is settled ahead of the work.',
-  emergencyParagraph:
-    'A plug, outlet or wall unit that has gone hot, brown or soft, a burning odour during a charge, or a crushed cable can’t wait. Unplug and, if the panel is dry and easy to reach, flip that breaker off. Smoke or flames mean everyone leaves and you dial 911. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'In South Fairmount, old houses and rented units bring us these four reasons to wire a charger.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Plenty of houses near Tri-County Mall were wired with a ceiling light in the kitchen and hall and a switched lamp outlet in every other room, so putting lights where none hung before is a big share of our work in Springdale. The Census median here is 1971, and about half the homes date from the 1960s and 1970s. Their boxes are mostly grounded but sized for a plain dome. Roughly four households in ten rent, many in townhouses and big complexes. We inspect, then quote.',
-  emergencyParagraph:
-    'If a light swings loose on its wires, a wall plate turns hot, or the breaker drops each time the room lights up, phone us today. Cut that circuit at the panel when it’s safe, and keep everyone back. Should smoke or flame show, go outside and call 911. Same-day help on most calls, weekends included.',
   commonIntro:
     'In Springdale, light fixture requests mostly fall under one of these headings.',
   localFaqs: [

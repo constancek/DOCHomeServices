@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'In New Richmond, fan work depends more on the decade a house went up than on the river. Census figures put the median house at 1986, and those newer places bring tall great rooms, where the fan hangs on a down rod, and covered decks that want a weather-rated fan. Older houses by Front Street rarely have a ceiling box built to carry spinning weight. We check that box first. If retightening cures the wobble, you’ll hear it, and the price is settled while the fixture is still up.',
-  emergencyParagraph:
-    'A fan knocking against its canopy, a box sagging from the drywall or a scorched smell from the motor shouldn’t wait. Cut the power at the wall or panel if that’s safe, and clear the room. Smoke or flame means leaving and phoning 911 from outside. We usually come that same day, Saturdays and Sundays too.',
   commonIntro:
     'Tall great rooms, river-facing decks and a few old Front Street houses produce most of the fan calls we answer around New Richmond.',
   localFaqs: [

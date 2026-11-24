@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Houses in Dry Run are mostly 1980s and later, detached, and owned by the people living in them; Census figures give a median build year of 1986 and 96.1% owner-occupancy. A house that age usually came with ductwork, so the ductless request here centers on the space the original layout cheated, often a room above the garage, a basement finished later, a sunroom or an addition. Your main system stays untouched. The flat figure comes before work, and if a duct repair would solve it, we’ll tell you.',
-  emergencyParagraph:
-    'A garage room under the roof runs hotter than the July normal high of 86F that the National Weather Service lists. Elderly parents, babies and anyone sick or wheezy get the worst of it. We book promptly, and one wall unit is a day’s job. A broken mini-split is a Mini-Split Repair call, same day on most calls, weekends included.',
   commonIntro:
     'In the 1980s and newer houses across Dry Run, these spaces bring most ductless requests:',
   localFaqs: [

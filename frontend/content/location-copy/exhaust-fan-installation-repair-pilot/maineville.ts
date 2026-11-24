@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Newer houses drive most exhaust fan calls in Maineville. Census figures put the median home at 2004, with more than half built in 2000 or later, so a fan is nearly always there already. What goes wrong is that builders often chose plain models that are light for the room, and at about twenty years those motors hum more than they pull. A handful of older houses in the village core never got a fan. We follow the air and quote the repair before a ceiling is opened.',
-  emergencyParagraph:
-    'When the fan sparks, smokes or smells like burning, or its housing has scorched or started to sag, turn it off at the wall or the panel if that’s within safe reach. With fire or smoke, everybody heads outdoors and someone phones 911. Most of these calls get a visit that day, weekends included.',
   commonIntro:
     'Out in the newer subdivisions and back in the old village core of Maineville, these are the four signs that keep coming up.',
   localFaqs: [

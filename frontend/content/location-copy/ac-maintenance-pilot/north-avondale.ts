@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'Across North Avondale, cooling arrived long after the plaster went up. Census figures count 64.8% of homes as built in 1939 or earlier, so on Rose Hill and Clinton Springs the air handler usually lives in the attic and the ducts run far enough that the back bedrooms cool last. Apartment buildings, which hold a large share of homes here, are booked by their owners. The flat price is settled before any work, and a system that’s fine is left alone with an honest word.',
-  emergencyParagraph:
-    'Water working through a ceiling below an attic unit, or no cooling at all in a heat wave, means a repair visit. When the outdoor unit hums but its fan sits still, turn the system off. Elderly relatives, infants and anyone sick need relief from the heat soonest. Most calls get a technician the same day, weekends too.',
   commonIntro:
     'These are the signs we see most in the large older houses and apartment buildings of North Avondale.',
   localFaqs: [

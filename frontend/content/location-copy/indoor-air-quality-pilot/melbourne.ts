@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Melbourne is a small river city where more than half the houses predate 1960, roughly three in ten went up in 1939 or earlier, and nearly every one is owner-occupied, by Census figures. Houses of that age let cold air in around the sashes, keep a damp basement and send dust through old duct runs from room to room. A dehumidifier and better filtration tend to top the list. We test first, quote a flat price before work, and say plainly when a new filter is the only thing missing.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm beeps, clear the house, then ring 911. If it smells like gas, go outside without using a switch, then phone the gas company. Burning odors from the furnace or AC mean the thermostat goes off. Mold after water gets in hits babies, older relatives and asthmatics hardest. Most visits are same day, weekends too.',
   commonIntro:
     'In older houses in Melbourne, these are the problems that usually bring us out:',
   localFaqs: [

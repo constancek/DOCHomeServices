@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Lakeside Park is a small city of mostly owner-occupied, detached houses with a median build year of 1964, by Census count. About one home in six dates from 1939 or before. Postwar houses tend to have a small original fan near the end of its life. The prewar ones often got a bathroom fan decades after they were built, sometimes with the duct left short. We test it, trace it and quote it before touching drywall.',
-  emergencyParagraph:
-    'If a fan smells like a hot iron, its grille warps or browns, it sparks or smokes, it keeps knocking the breaker off, or water comes through it, call that day, weekends included. Switch it off at the wall or breaker when safe. If there’s smoke or fire, get out and call 911. We come same day on most calls.',
   commonIntro:
     'Along Dixie Highway and the quiet side streets off Buttermilk Pike, these are the fan problems we hear about most in Lakeside Park:',
   localFaqs: [

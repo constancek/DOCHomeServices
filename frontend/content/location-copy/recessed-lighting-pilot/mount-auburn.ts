@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Italianate and Second Empire houses set the tone for recessed work in Mount Auburn, with lofty plaster ceilings and front rooms laid out around a gas-era center fixture. Census figures show more than half the homes went up in 1939 or earlier. Roughly a fifth arrived in 2010 or later, mostly large new buildings whose drywall opens far more easily. About two in three homes are rented, so owners and managers make many of these calls. We fix the layout and quote before the saw starts.',
-  emergencyParagraph:
-    'A can that keeps dropping out, a switch plate that hums or water dripping around a trim needs a visit today. If plaster near a light has gone tan or smells scorched, flip that breaker off if it is safe to reach. Smoke or fire means get out and call 911. We get to most calls that day, weekends too.',
   commonIntro:
     'Nineteenth-century plaster sits a block from brand-new drywall here, and these four requests show up more than any others.',
   localFaqs: [

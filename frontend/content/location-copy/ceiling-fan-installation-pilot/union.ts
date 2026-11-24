@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Union is mostly new construction, and that shapes ceiling fan work here. Census figures put the median build year at 2007, with four houses in five finished after 2000. Those floor plans favor two-story family rooms, where a fan hangs from a down rod, and covered back porches calling for a weather-rated model. Builder boxes sometimes carry only a light. We confirm what is up there, say when tightening the canopy will settle a wobble, and quote before the old fixture leaves the ceiling.',
-  emergencyParagraph:
-    'A fan whipping side to side or easing down from the drywall needs attention today, as does a smoking motor or a crackling switch plate. Shut power at the wall or breaker when that’s safe, and clear the space underneath. Fire is a 911 call from outside. In Union, most calls get a same-day visit, weekends included.',
   commonIntro:
     'Across the newer neighborhoods of Union, these four fan complaints come in again and again.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const whiteOak: LocationServiceCopy = {
   localParagraph:
     'Most of White Oak was built from the 1940s through the 1970s, with 1968 as the typical year in Census figures. Bathrooms of that age often still have the first fan, a small square unit meant for a quick bath, and its duct may end at a soffit or simply lie on the attic floor. Plenty of households rent, so landlords make part of the calls. We follow the exhaust to wherever it lands and price the fix before opening any ceiling.',
-  emergencyParagraph:
-    'When the fan smells burnt, sparks or smokes, or its housing looks blackened and saggy, cut power at the breaker if that’s safe. A breaker that flips off with the fan, or water dripping from the grille, needs the same response. With flames, get everybody out and call 911. We’re out same day for most calls, weekends included.',
   commonIntro:
     'From Cheviot Road out toward Blue Rock Road, these four problems bring owners in White Oak to the phone:',
   localFaqs: [

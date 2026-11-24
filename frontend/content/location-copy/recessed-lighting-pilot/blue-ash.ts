@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Recessed lighting in Blue Ash is usually a drywall job, and that helps. The median house in the city dates from 1981 by Census figures, and the 1980s built more homes here than any other decade, so we mostly work under attics with blown insulation or under a second floor where the joists hide the route. Open kitchens from that era suit a planned grid of lights. The older 1950s houses add the odd plaster ceiling. Every light is marked and priced with you before we cut.',
-  emergencyParagraph:
-    'Water seeping out of a can, a warm humming dimmer, or a breaker that drops when those lights go on deserves a visit today. Kill that circuit at the panel if you can reach it without risk. With smoke or flame, get out first and phone 911. Most calls in Blue Ash get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Across Blue Ash, the houses from the 1970s and 1980s bring us the same few requests again and again. These are the four we hear most.',
   localFaqs: [

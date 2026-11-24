@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain was laid out in 1852, and Census figures put about three in four of its 67 homes before 1940, nearly all of them single houses. Farmhouse rooms like these were wired for a bare bulb or one light, so the ceiling box is usually small and nailed to a joist with no thought of a fan. About a third are rented. We take the old light down to see what holds it, tell you if a loose bracket is the whole problem, and quote the job first.',
-  emergencyParagraph:
-    'A village fan that lurches in circles, a box dropping from old lath, or a motor giving off smoke or a scorched smell can’t wait. Kill power at the toggle or the breaker box when that’s safe, and clear the floor below it. Fire means everybody out and 911. Most calls here get us the same day, weekends too.',
   commonIntro:
     'Old village houses with original ceiling boxes and a few rentals bring on the four fan problems we see most often in Pleasant Plain.',
   localFaqs: [

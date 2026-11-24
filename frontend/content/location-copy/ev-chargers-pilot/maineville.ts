@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Maineville was named for settlers from Maine, and Census figures put its median year built at 2004, so most panels have open slots. Heating complicates it. Just over half the homes heat with electricity, and a heat pump plus an EV can crowd a panel on a January night. A controller that slows the car while the heat runs often fixes that. We assess the panel and do a load calculation first, say if the car’s cord suffices, and quote a fixed price.',
-  emergencyParagraph:
-    'Pull the plug and stop if the charger, its plug or the outlet behind it turns hot or shows scorch marks. Flip the breaker only if your hands and the panel are dry. If smoke or fire shows up, get everyone out and then call 911. Our crew can usually come the same day, weekends too.',
   commonIntro:
     'In a village built mostly since 1980, these are what bring us out for chargers in Maineville:',
   localFaqs: [
@@ -37,12 +35,12 @@ export const maineville: LocationServiceCopy = {
       },
       {
         title: 'Panel Capacity and Permits for an EV Charger in Maineville',
-        body: 'A 2000s house still gets a load calculation, because a heat pump and its backup heat claim much of the panel. If there’s headroom, the charger gets a circuit of its own. If there isn’t, you get a quote for load management and one for a panel or service upgrade, and the call is yours. We file the permit and schedule the final inspection.',
+        body: 'In Maineville, even a house from the 2000s gets a load calculation, since a heat pump with backup strips takes a big share of the panel. Where the numbers leave room, the car gets a dedicated 240-volt line. Where they come up short, we price a load-management controller beside a panel or service upgrade, and you pick. We take out the permit and book the final inspection ourselves.',
       },
     ],
     whyTitle: 'Why Homeowners in Maineville Choose Us for EV Charger Installation',
     whyParagraph:
-      'Electric heat and an EV on one panel is common work for us. Our licensed electricians open the panel, total the load, tell you whether you need load control or an upgrade, and install to code at the quoted price.',
+      'Many houses we wire here run electric heat and an EV off one panel. Our electricians are licensed, add up the load first, say whether load control or an upgrade is needed, and install to code for the agreed price.',
     sharedFaqs: [
       {
         q: 'How much does a charger installation cost in Maineville?',
@@ -54,7 +52,7 @@ export const maineville: LocationServiceCopy = {
       },
       {
         q: 'Could I install a Level 2 charger in Maineville without an electrician?',
-        a: 'We’d advise against it. The circuit must be matched to the charger, the load calculation has to count the electric heat, and the work needs a permit and inspection. A licensed electrician gets the breaker and wire right so nothing runs hot.',
+        a: 'We’d talk you out of it. The breaker and wire have to suit the charger, the load calculation has to include the heat pump’s backup strips, and a permit and inspection come with the job. Licensed electricians size all of it so nothing overheats.',
       },
     ],
   },

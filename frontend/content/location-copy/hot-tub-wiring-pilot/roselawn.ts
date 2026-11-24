@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'In Roselawn, spa jobs land mostly on the brick and frame houses off Reading Road and Section Road, not the fourplexes around them. Census figures date the median building to the early 1960s, one home in five is older than 1940, and close to two in three households rent. A sixty-year-old panel has usually picked up air conditioning and a dryer along the way, so its spare room decides what follows. We read your panel against the spa’s spec sheet and fix a price before conduit goes up.',
-  emergencyParagraph:
-    'Some spa trouble can’t sit until Monday, like a GFCI that kicks off straight after a reset, char marks on the disconnect, a sizzling panel, or a buzz felt on the tub rail. Get bathers out and keep clear. Cut power only if that’s safe. Smoke or fire means dialing 911. Most calls are same day, weekends included.',
   commonIntro:
     'Across the single-family streets of Roselawn, owners call us about spas for reasons like these:',
   localFaqs: [

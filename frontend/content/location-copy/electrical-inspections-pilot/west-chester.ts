@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'West Chester inspections mostly involve houses from the 1970s to the 1990s, the decades when the township filled with subdivisions. Census figures put the median house at 1988, and 42.3% of homes heat with electricity, so plenty of panels already carry electric heat and central air. Add an EV charger or a basement remodel and the real question is whether that panel has room. We test the system, write up what we find, and give you a flat price for any fix before anyone starts.',
-  emergencyParagraph:
-    'Put these on today’s list, not the calendar: heat coming off a switch plate, a brown mark around an outlet, buzzing inside a wall, sparks, the smell of something scorching, or a breaker that snaps off again the second it’s reset. Shut that breaker. If smoke or flames show, everybody out, then 911. Same day on most calls, weekends too.',
   commonIntro:
     'Most of what we find in West Chester comes from panels sized for the 1970s and 1980s and the loads people have added since:',
   localFaqs: [

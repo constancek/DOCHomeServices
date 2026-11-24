@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Most exhaust fan calls in Mack are about fans that exist but underperform. Census figures put the median house at 1981, and nearly every home is a detached house its owner lives in, many in the 1980s and 1990s subdivisions off Bridgetown Road. Builders of that period often fitted a basic fan that’s light for the room, and some ran the duct no further than the attic. By now, plenty of those motors are worn as well. We follow the airflow and quote the fix before any drywall is cut.',
-  emergencyParagraph:
-    'Shut off a bathroom fan at the switch or the panel, if you can reach either safely, when it smells like melting plastic, throws sparks, smokes or keeps knocking out the breaker. Smoke or flames mean getting everybody out of the house before phoning 911. Expect us that day on most calls, Saturdays and Sundays included.',
   commonIntro:
     'Along Bridgetown Road and up on the ridge streets in Mack, these four complaints account for most calls.',
   localFaqs: [

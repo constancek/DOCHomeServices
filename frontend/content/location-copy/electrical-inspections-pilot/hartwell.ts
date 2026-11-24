@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell inspections split two ways: older houses where we check how much original wiring survives, and apartment buildings where owners want each unit checked. The median home here was built in 1949, and Census figures put a third of them at 1939 or earlier, so ungrounded outlets and early panels are common. Close to two-thirds of homes are rented, many in large complexes. We go through the panel, the circuits and every room, then quote the visit before starting.',
-  emergencyParagraph:
-    'Hartwell problems that can’t sit until an inspection slot: an outlet or switch cover too hot to touch, a crackle or hum, sparks, a burning odor, or a breaker tripping again the instant it’s reset. Leave it off. With smoke or flame, get out first and dial 911 second. Most get a same-day visit, weekends included.',
   commonIntro:
     'Hartwell mixes pre-war and 1940s houses with large apartment complexes. Here’s what we find most:',
   localFaqs: [

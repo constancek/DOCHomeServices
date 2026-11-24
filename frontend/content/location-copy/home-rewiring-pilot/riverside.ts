@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Most homes in Riverside are rentals, Census figures show, and more than a third of units sit in buildings with ten or more apartments. Half the housing dates from 1970 to 1999, when some buildings got aluminum branch wiring. Around four in ten homes heat with electricity, a heavy load on old circuits. The prewar quarter of the stock may still lack a ground. We test before quoting, tell the owner when wiring is fine, and hand over a written scope and flat rate before any wall comes open.',
-  emergencyParagraph:
-    'Ring us the same day, weekends included, for a burnt odor at a switch, a plate that’s brown or hot, crackling, sparks, a shock from a light, or a breaker that won’t hold. Tenants should alert management. Turn the circuit off only if you’re dry and the panel is clear. If smoke appears, leave the building and call 911.',
   commonIntro:
     'Along River Road, the apartment buildings and older houses tend to show these warnings:',
   localFaqs: [

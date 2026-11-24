@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Most households in Millvale rent, and about a third of residents live in public housing, largely 1950s townhomes renovated in recent years. Fans in those units are management’s responsibility, and residents report problems to them. Owners and landlords bring us in for the private houses and small apartment buildings along Beekman Street. Some of those had fans tacked on long after construction and ducted into the attic, and others still run small original fans that are worn. We trace the airflow and quote before opening a ceiling.',
-  emergencyParagraph:
-    'A scorched smell, sparks, smoke, a blackened cover, a breaker that drops with the fan or water seeping from the grille all count as urgent. Kill power at the switch or panel if safe. With smoke or flames, leave and dial 911; public housing residents then alert management. In Millvale, owners usually see us that day, weekends included.',
   commonIntro:
     'In the houses and small apartment buildings around Millvale, owners and tenants usually notice one of these four things first.',
   localFaqs: [

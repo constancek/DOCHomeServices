@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Of the hot tubs we wire in Wyoming, many sit behind a house from the 1950s, the decade the city built more homes than any other; Census numbers set the median year at 1954. Panels of that vintage tend to be packed, so clearing room for the spa breaker comes before anything else. The tub then gets its own 240-volt line with ground-fault protection, a shutoff you can see from the water, and bonded metalwork. We match each piece to the spa’s install sheet and quote the price up front.',
-  emergencyParagraph:
-    'Pull everyone from the water if a tingle runs through it. A GFCI that refuses to hold, or a scorched smell at the spa shutoff, is as urgent, so keep hands off the equipment. Kill the breaker only when that’s safe; smoke or flame means leaving and dialing 911. Most owners here see us that same day, weekends too.',
   commonIntro:
     'Between the Village and the Wyoming Hills, four situations bring most spa calls our way.',
   localFaqs: [

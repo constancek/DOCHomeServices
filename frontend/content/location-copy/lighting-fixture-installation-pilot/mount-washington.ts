@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Ask around Beechmont Avenue and the lighting gripe is nearly always the same, a hallway lit by one weak ceiling globe. Brightening it depends on the box that globe hangs from, whether it’s grounded and whether new lights need new spots. Census counts show 2,175 of roughly 7,000 homes in Mount Washington date from 1940 to 1959, and only about one in nine is older, so boxes are usually workable. About four in ten homes are rented. We open things up and price the fix first.',
-  emergencyParagraph:
-    'Flicker that spreads across several rooms, a scorched smell at a wall plate, or a ceiling fixture easing loose deserves a visit the same day. Kill the breaker if you can get to the panel without trouble, and nobody lingers beneath a loose fixture. Smoke or fire means out the door, then dial 911. Weekend calls are no exception.',
   commonIntro:
     'Along Beechmont, Sutton and Corbly, these four requests make up most of our light fixture work.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'Two housing stocks share East Price Hill. On the oldest blocks, the median house dates to 1938 and went up with plaster and no ducts, so a wall head is the only tidy way to add cooling. The 1960s blocks and the large apartment buildings bring narrower jobs, one bedroom or one unit at a time. Census figures put renters at 63.2% of households, which means the landlord usually signs. Expect a flat price before any drilling, and an honest no if ductless is wrong.',
-  emergencyParagraph:
-    'In a walk-up in East Price Hill, a top-floor flat can feel worse than the 86F normal July high (National Weather Service). It’s hardest on elderly tenants, infants and the sick. We schedule installs fast, and one head usually takes a day. Broken units go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'On the pre-war blocks and in the bigger buildings of East Price Hill, ductless work usually begins with one of these:',
   localFaqs: [

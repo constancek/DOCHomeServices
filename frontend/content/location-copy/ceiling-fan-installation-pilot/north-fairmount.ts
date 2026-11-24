@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'North Fairmount sits on the west-side slope over the Mill Creek valley, and close to nine in ten homes are single houses, nearly two in three built before 1940 by Census figures. Behind that old plaster is a box made for a light, so a fan’s weight and wobble slowly work it loose, and many bedrooms never had a fan. Half the homes are rented, so owners usually decide. We take the canopy down, test the box, say if a rebalance covers it, and fix the price first.',
-  emergencyParagraph:
-    'Phone us when a fan starts knocking plaster dust loose, sags off the ceiling, smells scorched or trips the breaker. Cut power at the switch or panel if you needn’t pass under it, and shut that room’s door. Smoke or flames mean everyone out and a 911 call. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Plaster ceilings and rented houses on the hill account for most of our fan work in North Fairmount.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'The Villages of Roll Hill is basically one apartment complex of garden apartments and townhomes, renovated from 2010 to 2012, and Census figures show 86.4% of homes in the area are rented. So water heater maintenance here is a property management job. The heaters belong to the owner, and a yearly visit means working through units in sequence, checking each tank’s pan, drain valve and relief valve. Residents report problems to the office. Management sees the price before we start, and we flag any tank that isn’t worth servicing.',
-  emergencyParagraph:
-    'Residents with water pooling from their tank: shut the cold inlet on top, cut breaker or gas, then phone the office. Gas odor: exit without touching switches, ring the gas company outdoors. Carbon monoxide alarm: everyone out. A relief valve that won’t stop, or no hot water, is management’s repair to book. Same day on most calls, weekends included.',
   commonIntro:
     'Management at the Villages of Roll Hill usually brings us in for one of these:',
   localFaqs: [

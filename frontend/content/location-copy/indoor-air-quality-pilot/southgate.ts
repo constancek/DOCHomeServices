@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Southgate has two kinds of housing, and each has its own air problems. Census figures show more than a quarter of homes went up before 1940, while about four in ten sit in apartment buildings of five units or more. The older houses run drafty, with basements that collect damp and ducts that spread dust. In the apartments, the owner or manager decides on equipment. We start with a test, quote a flat price before installing anything, and if the fix is a new filter, you’ll hear it from us.',
-  emergencyParagraph:
-    'If a carbon monoxide alarm sounds or gas is in the air, take everyone out without touching switches and phone 911 or the gas company once clear. A burnt smell means the thermostat goes to off. Mold sprouting after water damage is urgent for asthmatics, babies and the elderly. We usually arrive the same day, weekends too.',
   commonIntro:
     'Across the older houses and apartment buildings of Southgate, the air usually tells on itself in one of these ways.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'On a typical street in Kennedy Heights, you’ll pass a single house, then a two-family, then a small brick apartment building. Census figures put the median build year at 1944, with nearly half the homes from 1939 or before, and about two in five households renting. When an older house was split into flats, the new bathroom tended to get whatever fan was cheapest, punched up into the attic or a wall pocket, or nothing. We chase the air to its exit and price the cure before opening a ceiling.',
-  emergencyParagraph:
-    'A whiff of hot wiring, a cover yellowed or sagged by heat, sparks, smoke, a breaker that gives out whenever the fan does, or water splashing from the grille won’t keep until Monday. Cut the power at the switch or panel when that’s safe. Smoke or fire means out the door and 911. Most get a same-day visit.',
   commonIntro:
     'On the streets off Montgomery Road and Kennedy Avenue, in single houses and two-families alike, these are the signs we hear about most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'The Villages of Roll Hill is an apartment community of garden apartments and townhomes, renovated between 2010 and 2012. Census figures count 773 of 895 occupied homes around it as rented, so the property manager decides what equipment goes in, not the tenant. For managers, we test the air in a sample of units, check filters, ductwork and bath fans, and report what each building needs. The test comes first, every fix carries a price before any work, and if fresh filters will do, we say that.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means getting everyone out before calling 911. If you smell gas, leave without touching switches and call the gas company outside. Burning smells from the vents mean the thermostat goes to off and management gets told. Babies and children with asthma are most at risk. We come same day on most calls, weekends included.',
   commonIntro:
     'At the Villages of Roll Hill, tenants and managers usually notice an air problem in one of these ways:',
   localFaqs: [

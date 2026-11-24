@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Whole-house rewiring rarely comes up in Alexandria. Half its homes date from 1994 or later, Census figures show, and over a third were finished after 2000. What we get asked for is an addition, a basement being finished, a kitchen redo, or one stubborn circuit. Houses from the 1960s and 1970s can be short on circuits, and a few may hide aluminum branch cable. Testing comes before any proposal, good wiring is called good, and a flat price and written scope are agreed before drywall gets cut.',
-  emergencyParagraph:
-    'An outlet that smells scorched, a switch plate turning warm or tan, fizzing or popping inside a box, a breaker that won’t hold, and any shock from a fixture all count as urgent. Cut that circuit if the floor is dry. Smoke or flames mean get outside, then call 911. We show up same day on most calls, weekends included.',
   commonIntro:
     'Newer construction doesn’t rule out wiring trouble, and around Alexandria, it usually shows up like this:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'The Village of Terrace Park is entirely single houses lived in by their owners, and Census figures put the median build year at 1954, with about a quarter from 1939 or earlier. A house whose kitchen, baths or heating have been redone holds more circuit boards for a surge to reach, from the range and refrigerator to central air and smart lighting. Its panel could be original, upgraded, or full after years of additions. We check it first, tell you if strips will do, and agree the price before work.',
-  emergencyParagraph:
-    'Don’t wait on a burning smell, an outlet scorched by a storm, or a dishwasher that smoked once power returned; call us that day. Lights brightening and dimming house-wide are for the electric utility first. Turn the breaker off only if you’re dry, and if smoke appears, leave and call 911. Most calls are handled same day, weekends included.',
   commonIntro:
     'In the village’s mid-century houses and its older ones from before 1940, these are the usual reasons for a surge protection visit.',
   localFaqs: [

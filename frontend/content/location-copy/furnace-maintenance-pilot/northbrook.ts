@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Northbrook’s housing peaked in the 1960s and 1970s; Census figures date the median home to 1970, and 49.2% went up between 1960 and 1979. Expect the furnace downstairs in a basement or utility room, seldom the original and sometimes the third in that spot. That history is why our technician spends extra time where the flue pipe joins the vent, and on the heat exchanger. Gas fires 59.4% of homes. Your price is fixed before tools come out, and if yours is fine, we say that and leave.',
-  emergencyParagraph:
-    'Gas odor: get outdoors, leave switches and the pilot be, and dial the gas company once clear. Carbon monoxide alarm: everyone out. A dead furnace in a cold snap, flames gone yellow and floppy, or a unit cycling off and on without end: book a repair. Newborns, grandparents and sick family suffer soonest. Same day on most, weekends too.',
   commonIntro:
     'Owners in Northbrook, most of them in houses built between 1960 and 1979, tend to pick up the phone for a fall visit after noticing:',
   localFaqs: [

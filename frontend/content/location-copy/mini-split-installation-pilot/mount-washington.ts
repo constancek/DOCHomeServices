@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'In Mount Washington, most houses went up after World War II; only about one in nine predates 1940, by Census figures. Many of those postwar houses have ducts sized for a smaller footprint, so the addition, the finished basement or the enclosed porch built later is the room that never cools. A ductless head handles that room by itself. About four in ten homes are rented, and those owners decide. The price is set flat before we start, and if the real issue is airflow, we’ll tell you.',
-  emergencyParagraph:
-    'In Mount Washington, an enclosed porch feels each of the 21 days a year that reach 90F or higher (National Weather Service). Keep older relatives, babies and anyone with breathing problems out of rooms like that. We schedule installs fast, and one head is normally a day’s work. If yours stopped cooling, that’s Mini-Split Repair, generally same day, weekends included.',
   commonIntro:
     'In the postwar houses and apartment buildings of Mount Washington, these are the spots where owners ask us about ductless:',
   localFaqs: [

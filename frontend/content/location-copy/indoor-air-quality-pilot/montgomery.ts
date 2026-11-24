@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'Drive any street off Montgomery Road and you’ll see single-family houses their owners live in, many from the 1970s, the busiest decade for building here. Half were built before 1976, by Census figures. Those houses let winter in around old sliders, often hide damp behind a finished basement wall, and still blow dust through the ducts they came with. Some got replacement windows and now trap stale air. We test, you see a fixed price, and if a filter is the whole fix, we say so.',
-  emergencyParagraph:
-    'Get everyone out when a carbon monoxide alarm sounds, then dial 911. For a gas odor, walk out without touching switches and ring Duke Energy outside. Burning smells from the furnace or AC mean the thermostat goes to off. Mold fanning out after water damage won’t wait around babies, grandparents or asthmatics. We usually come that day, weekends too.',
   commonIntro:
     'Owners of 1970s houses in Montgomery tend to call us for one of these:',
   localFaqs: [

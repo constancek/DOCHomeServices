@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'A spa in Mount Adams gets a 240-volt circuit run from the panel, a GFCI, a shutoff box where the bather can see it, and bonding tied to the tub. The panel sets the scale. Census figures show half the houses were up by 1939, and their panels tend to be packed, so freeing up capacity comes first. Two in three homes are rented, so it’s the owner’s project. We hold the panel up to the spa’s spec and set a price before any pipe is bent.',
-  emergencyParagraph:
-    'In Mount Adams, a tub that gives anyone a tingle, or a spa breaker that won’t hold after one reset, is an emergency. Everyone climbs out and keeps off the equipment, and the shutoff gets switched off only if that’s safe. Smoke or flames mean leaving and calling 911. We usually get there the same day, weekends included.',
   commonIntro:
     'In Mount Adams, the calls that lead to spa wiring usually start with one of these.',
   localFaqs: [

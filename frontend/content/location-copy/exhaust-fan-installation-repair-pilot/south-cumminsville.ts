@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'In South Cumminsville, old and new houses share the same blocks. Census figures show nearly half the homes went up in 1939 or earlier, while about one in six are from 2010 or later. The older ones often have a bathroom that never got a fan, or one later aimed at the attic. The newer ones came with fans, though builder models can run small for the room. Most homes are detached and owner-occupied, so reaching the attic is rarely a problem. We follow the duct and quote before cutting.',
-  emergencyParagraph:
-    'Should the fan reek of scorched wiring, spit sparks, smoke, or knock the breaker out each time it starts, shut it down at its switch or panel, if you can do so without danger. Drips through the grille also count. Fire or smoke means everybody goes outdoors and someone calls 911. Weekends included, we’re usually there that day.',
   commonIntro:
     'Around Dreman Avenue and Beekman Street, these four signs bring most exhaust fan calls in South Cumminsville.',
   localFaqs: [

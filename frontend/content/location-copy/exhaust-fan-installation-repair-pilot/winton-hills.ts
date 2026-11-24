@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'By Census figures, 2,464 of the 2,540 occupied homes in Winton Hills are rented, and most are in the CMHA communities of Winton Terrace and Findlater Gardens. If that’s where you live, a broken bathroom fan goes to management as a work order. Around them sit two-family buildings and single houses, with a typical build year of 1955. In those, the fan was often added later and ducted into the attic. For their owners, we track where the exhaust goes and quote the fix before cutting a ceiling.',
-  emergencyParagraph:
-    'Cut power at the breaker, if it’s safe, once the fan smells hot, sparks, smokes or its housing scorches or melts. A breaker that won’t hold with the fan running, or water dripping through the grille, is serious too. For fire or smoke, leave and call 911. CMHA residents also tell management; owners usually see us same day, weekends included.',
   commonIntro:
     'In the two-family buildings and single houses around Winton Hills, owners call us most for these:',
   localFaqs: [

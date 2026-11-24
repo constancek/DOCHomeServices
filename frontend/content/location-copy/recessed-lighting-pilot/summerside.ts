@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'In Summerside, most recessed lighting goes into drywall from the 1970s and 1980s, which cuts far more cleanly than plaster. Census figures put the median home at 1981, with almost nine in ten built between 1960 and 1999, and only about half are detached houses. Townhouses and apartment buildings across this corner of Union Township add shared ceilings and association rules, and roughly a third of homes are rented. We plan each light and agree the flat price before opening the ceiling.',
-  emergencyParagraph:
-    'Have someone out today if a downlight smells hot, a trim burns your fingertips, a dimmer buzzes loudly, or water runs through a can. Turn that breaker off if it’s safe. If there’s smoke or flame, go outside and call 911. Same-day service reaches most calls, weekends included.',
   commonIntro:
     'Drywall ceilings in houses, townhouses and apartments from the 1970s and 1980s give us these jobs most often:',
   localFaqs: [

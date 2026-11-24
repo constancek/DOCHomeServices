@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'Oakley is two kinds of tune-up. Census figures show 47.7% of homes here were built in 1939 or earlier, and those bungalows got their air conditioning later, with an attic air handler and a condenser crowded beside the driveway. The other side is newer apartment buildings near Oakley Station and Madison Road, where the landlord or building manager books the visit. Townhouses and newer infill land in between with a plain coil and drain service. The price is set first, and a healthy AC hears so.',
-  emergencyParagraph:
-    'If the house won’t cool in a heat wave, or ice forms on the copper, it needs a repair visit in Oakley, so turn the thermostat off and let it melt. A growing ceiling stain, a scorched smell or a breaker that won’t reset counts too. Infants and elderly parents suffer first. Same day is usual, weekends too.',
   commonIntro:
     'For bungalow owners and building managers in Oakley, the first hint is usually one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Old and new sit side by side in Dayton. Close to half of homes were standing by 1939, per Census figures, and one of those may still be feeding off a modest original service with scant room for a 240-volt line. Nearly one in five arrived after 2000 and generally has space, or can lean on load management. Two in five households rent. We look inside the panel, work the load calculation, tell you if the Level 1 cord is enough, and agree on a price before pulling wire.',
-  emergencyParagraph:
-    'A charger or outlet that’s scorched, melting or too warm to touch, a burning smell, or a Level 1 cord fed by an extension cord means you stop charging now. Switch off the breaker feeding it if the panel is dry and safe to reach. For smoke or flames, call 911 from outside. Same-day help is the norm, weekends included.',
   commonIntro:
     'Houses from before 1940 and after 2000 bring different charger calls, and these are the usual ones in Dayton:',
   localFaqs: [

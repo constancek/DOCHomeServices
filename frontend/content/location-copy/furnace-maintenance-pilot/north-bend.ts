@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'Nearly every fall visit in North Bend is a gas furnace: Census figures put gas heat in 80.2% of homes. The 28.8% of houses built before 1940 keep the furnace in a basement venting up an original chimney, so the flue and heat exchanger take most of our time there. Up the hill, newer houses and townhouses tuck it in a closet or garage, and the job is mostly cleaning and testing. You hear the price first, and a plain answer if it needs nothing.',
-  emergencyParagraph:
-    'Call for a repair on these. Gas in the air: out of the house, no switches, no matches, gas company called from the street. Carbon monoxide alarm: the house empties first. A furnace dead during a freeze, starting and stopping nonstop, or burning soft and yellow. Babies and sick relatives can’t wait. Same day for most, weekends included.',
   commonIntro:
     'From basements near the river to townhouse closets up the hill, these usually prompt a booking in North Bend:',
   localFaqs: [

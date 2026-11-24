@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'South Cumminsville is a small pocket of houses around Dreman Avenue and Elmore Street where hundred-year-old homes stand next to ones built after 2010. Census figures show nearly half predate 1940, and about seven in ten are lived in by their owners. An old house tends to have a crammed panel that must be untangled before a spa breaker fits, while a newer one may have slots free and the work turns on the yard. Either way, the panel gets compared to the spa’s spec and priced first.',
-  emergencyParagraph:
-    'If the spa GFCI refuses to stay on, the disconnect is blackened, the panel hisses, or a bather feels current in the water, ring us now. Everybody out of the tub, and nobody touches it. Kill the power only where that’s safe; smoke or flames mean leaving and calling 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'On the blocks around Dreman Avenue and Beekman Street, these are the spa calls we take from owners in South Cumminsville:',
   localFaqs: [

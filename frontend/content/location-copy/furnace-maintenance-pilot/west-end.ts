@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'Rentals make up 87.1% of homes in the West End, by Census figures, so the owner usually books the tune-up. The housing spans eras. Italianate rowhouses from before 1940 keep the furnace in a basement venting into an old chimney, so the flue and heat exchanger get the closest look. Units from the 1960s and 1970s and newer townhouses usually have a closet furnace that needs the standard cleaning and control checks. Gas and electric heat run about even. We price first and say so if nothing’s needed.',
-  emergencyParagraph:
-    'Smelling gas in the West End means walking out, flipping nothing, relighting nothing, then calling Duke Energy from outside. Carbon monoxide alarm: nobody stays in. A furnace that fires up and quits again and again needs a repair. So does no heat in a unit with a baby, an older relative or someone sick. Same-day for most, weekends too.',
   commonIntro:
     'Across the rowhouses and apartment buildings of the West End, these usually lead an owner to book:',
   localFaqs: [

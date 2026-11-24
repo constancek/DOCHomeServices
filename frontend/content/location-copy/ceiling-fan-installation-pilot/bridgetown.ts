@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'In Bridgetown, building took off after the war. Census figures put the median house at 1962, with about two in five built in the 1940s and 50s, and nearly nine in ten owner-occupied. Ceilings in those ranches and Cape Cods sit fairly low, and the original bedroom boxes were set for a single bulb. That makes the box and the mount the first things we look at. If tightening stops the wobble, we tell you, and the price is fixed before the old light comes off.',
-  emergencyParagraph:
-    'Shut off a fan that lurches, sags from the drywall, smells of hot plastic or trips the breaker as it spins up. Use the wall switch or panel if it’s safe, and keep kids and pets out of the room. With smoke or flames, leave and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'In Bridgetown, the calls we get most come from postwar bedrooms, low basement ceilings and fans that have hung on the same light box for decades.',
   localFaqs: [

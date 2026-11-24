@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'Along Dreman Avenue and Elmore Street, the request we get most is to pull out yellowed glass globes and hang LED fixtures in their place. Each one still hinges on the metal box up there, on a grounding conductor, and on whether a feed already reaches that point. By Census reckoning the middle house dates from 1952, with nearly half older than 1940 and a newer cluster put up since 2010. Owners live in most of them. Pre-war ceilings mean plaster, so we open things up before naming a price.',
-  emergencyParagraph:
-    'A fixture slumping on its screws, a blackened switch plate, or a breaker that pops whenever that light goes on is same-day trouble. Throw the breaker if you can do so without danger and send everybody to another room. With smoke or flames, go outside and phone 911. We usually arrive before evening, Saturdays and Sundays as well.',
   commonIntro:
     'Homeowners on the blocks between Beekman Street and the hillside tend to bring us these.',
   localFaqs: [

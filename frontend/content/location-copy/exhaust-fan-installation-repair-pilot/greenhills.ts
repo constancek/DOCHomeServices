@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'Greenhills was built as a federal town in the late 1930s, and Census figures put the median house at 1955. Much of the village is still the original row townhomes and the postwar single houses that followed. The village history notes the two-story units have one bathroom, upstairs, and no basement. Many of those bathrooms got a fan long after they were built, and some were never ducted outside. We check where the air goes and price the fix before touching the ceiling.',
-  emergencyParagraph:
-    'A burning odor, a housing turned brown or soft, sparks, a breaker that pops the second the fan runs, or water seeping around the grille all need quick action. Cut the fan at its switch or the panel if that’s safe. With smoke or fire, leave the townhome, then ring 911. Same-day help reaches most callers, weekends no different.',
   commonIntro:
     'Inside the village’s row townhomes and the postwar houses beside them, four fan problems account for most of our visits.',
   localFaqs: [

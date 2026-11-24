@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Beckett Ridge was begun in the 1970s but mostly built in the 1980s and 90s; the median house dates to 1990, by Census figures. Gas and electricity heat almost equal shares. About a quarter of homes are condos or townhomes, often with the furnace tucked in a utility closet, and the rest keep it in a basement. That makes the tune-up a filter, blower, burner and safety-control job rather than chimney work. We agree the price first and tell you if it needs nothing.',
-  emergencyParagraph:
-    'Repair, not maintenance, is the call in Beckett Ridge. Smell gas: out the door, switches untouched, no relighting, gas company phoned from outside. Carbon monoxide alarm: everyone out first. Heat gone below freezing, a furnace stuck stopping and starting, or a flame floating yellow. Babies, elderly family and the sick feel it soonest. Most calls: same day, weekends too.',
   commonIntro:
     'In detached houses and townhomes alike in Beckett Ridge, these tend to come before a fall booking:',
   localFaqs: [

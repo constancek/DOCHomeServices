@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'In Finneytown, exhaust fan work mostly means 1950s bathrooms. By Census figures over half the houses went up between 1940 and 1959, nearly all of them detached single-family homes. That generation of bathroom tended to get a small fan aimed into the attic, or just a window, and a lot of those original fans are on their last legs. Our first move is following the duct from the grille to its end, and you get a set price before the ceiling is touched.',
-  emergencyParagraph:
-    'Burning smells, sparks, smoke or a melted housing on a fan in Finneytown mean the power goes off at the breaker, if that’s safe. Call us too when the fan keeps tripping that breaker or water drips from the grille. Smoke or flame means everyone out and a call to 911. Most get a same-day visit, weekends included.',
   commonIntro:
     'Between Winton Road and the side streets off Galbraith in Finneytown, these signs come up most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'Housing in Oakley is two different jobs for a charger. Census figures show close to half the homes date from 1939 or earlier, and a house that age may still have an original service with scant room for a 240-volt line. About one home in eight is from 2000 or later, where a modern panel usually has space or can share it through load management. Every visit opens with the panel and a load calculation. If the dealer cord will do, you’ll hear it, and you approve a price first.',
-  emergencyParagraph:
-    'Melting, scorching or a burning smell during a charge is the moment to stop. Reach for that breaker only if the panel is dry and nothing near it is hot. Any outlet or charger that floodwater reached needs a check before it’s used again. Smoke means out of the house and 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Four situations account for most charger conversations at homes in Oakley.',
   localFaqs: [

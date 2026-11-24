@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'In South Cumminsville, nearly half the homes predate 1940 and about one in six was built in 2010 or later, Census figures show, so next-door neighbors can face different jobs. Eight in ten are detached houses, mostly owner-occupied. An old house may be stuck with an undersized original service, while a new one generally has open slots or can use load management. We read the panel and tally the load before quoting, tell you if the dealer’s portable charger will do, and lock the price ahead of wiring.',
-  emergencyParagraph:
-    'Charging should end when the charger, plug or outlet goes hot or brown, a burnt smell hangs around it, or the cable is crushed. Treat a breaker tripping each session the same. Reach for the panel only if your hands are dry. If smoke shows, get outside and call 911. Same-day help is normal on most calls, weekends too.',
   commonIntro:
     'With prewar houses and brand-new ones side by side, these are the four situations that bring most charger calls.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'Nearly every tune-up we do in the West End is booked by a landlord; Census figures show 87.1% of homes here are rented. Buildings range from Italianate rowhouses, put up generations before home cooling, to apartment blocks from the 1960s on. Rowhouses got their AC late, with the air handler wedged into an attic or closet, duct runs threaded through tight floors and a condenser on a scrap of back lot or the roof. Owners approve a flat price first, and a unit that needs nothing is called fine.',
-  emergencyParagraph:
-    'In the West End, an apartment going hot during a scorcher is a repair for the landlord to call in. Frosted copper lines are another; switch the system off until the ice clears. Add water dripping below and any burning smell. Babies and anyone short of breath feel heat first. Most of these calls get a same-day visit, weekends too.',
   commonIntro:
     'For landlords in the West End, a spring round usually begins after one of these turns up.',
   localFaqs: [

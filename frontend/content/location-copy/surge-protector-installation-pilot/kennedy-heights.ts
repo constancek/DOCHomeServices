@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Census figures show close to half the homes in Kennedy Heights were built before 1940, with two-families and small apartment buildings mixed in among the single houses. Older panels in those buildings are often tight, so the panel check tells us whether a protector can mount now or needs room made first. Houses that have been updated usually have newer central air and a kitchen worth guarding. We look first, say so if strips are enough, and set the price before work.',
-  emergencyParagraph:
-    'Phone us if a breaker keeps snapping off after you reset it, or a receptacle, switch or the panel looks charred following a surge. When lights house-wide swell and fade, Duke Energy is the first call. Smoke or flame means you leave the house and call 911. Most calls, Saturdays and Sundays included, get a visit the same day.',
   commonIntro:
     'Across the older houses, doubles and small buildings of Kennedy Heights, these four show up most.',
   localFaqs: [

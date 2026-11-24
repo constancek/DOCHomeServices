@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Every house in Day Heights is single-family and detached, and the Census median build year is 1969, so most ducts were sized for the floor plan as it first stood. What we add ductless cooling to is usually what came afterward, such as a family room bump-out, a basement finished decades later or a three-season room. Fuel oil heats 8.1% of homes here, and a mini-split gives those owners a second, electric heat source. We quote one flat price ahead of drilling, and we’ll say so if ductless doesn’t fit.',
-  emergencyParagraph:
-    'That bump-out or back room can become unbearable during the roughly 21 days a year that reach 90F (National Weather Service). Older parents, toddlers and anybody sick suffer first. Our install calendar moves quickly, and a single wall unit normally goes in within one day. A dead ductless system needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'For homeowners in Day Heights, these are the usual reasons to ask about ductless:',
   localFaqs: [

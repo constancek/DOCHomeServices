@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'The Census median home in Forestville dates to 1981, so a typical tank here sits in a garage or utility room where a flush is quick work. The other big group is apartments: 760 units are in complexes of 50 or more, usually with a closet heater over a drain pan that the property manager books. Either way the quote comes first, and if a heater isn’t worth the money to service, we’ll tell you before we touch it.',
-  emergencyParagraph:
-    'A leaking tank: close the cold inlet above it, then switch off gas or power. Gas in the air: walk out without a switch or a match and phone the gas company when clear. A carbon monoxide alarm empties the apartment or house first. Endless relief valve venting, or no hot water, means repair. Same day for most, weekends included.',
   commonIntro:
     'Forestville has garages, utility rooms and a lot of apartment closets. In any of them, watch for this:',
   localFaqs: [

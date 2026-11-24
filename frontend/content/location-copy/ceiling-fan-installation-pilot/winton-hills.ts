@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Census figures count 2,464 of the 2,540 occupied homes in Winton Hills as rented, most of them CMHA units at Winton Terrace and Findlater Gardens, where a fan problem becomes a work order to management. The private houses and two-families around them date from about 1955 on average, and their ceilings tend to hold a shallow fixture box meant for a lamp. On those jobs we open the box before anything else, tell you if a rebalance fixes it, and quote a flat price ahead of time.',
-  emergencyParagraph:
-    'A fan rocking violently, a loose box, a scorched motor smell or a crackle at the switch can’t wait. Kill it at the switch or breaker if safe and clear the room below. CMHA tenants should flag it to management as urgent. With smoke or flames, leave and dial 911. Owners can usually book us the same day, weekends too.',
   commonIntro:
     'These are the fan calls we get most from people who own the private houses and two-families in Winton Hills.',
   localFaqs: [

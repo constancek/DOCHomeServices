@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Wyoming has mostly older houses. Census figures show nearly all of them went up before 1980, with a median of 1954. Houses like these have basements that turn damp in summer and ductwork from an earlier furnace that moves dust through every room, while the drafty upper floors dry out in winter. So dehumidifiers, humidifiers and better filtration are the usual fixes. We test before suggesting anything, price it flat before work starts, and tell you when a new filter is enough.',
-  emergencyParagraph:
-    'Should the carbon monoxide alarm go off, the household leaves before anyone calls 911. For a gas smell, leave the switches alone, get out and ring the gas company. Turn off a furnace or AC that smells scorched. Grandparents, infants and anyone with asthma are most at risk. A technician usually comes the same day, weekends too.',
   commonIntro:
     'In the older houses that fill most streets in Wyoming, the air problems we get called about look like this:',
   localFaqs: [

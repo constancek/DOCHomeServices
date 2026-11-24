@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Census figures show most of the housing in Westwood dates from 1940 to 1980. Close to half of it is in apartment buildings with five or more units, and roughly two of every three households rent. A 1960s apartment bath usually has a fan, though often one too feeble for a closed room with no window, while an older house off Harrison Avenue may have one that exhales into the attic. Our electrician finds where the exhaust lands, then names a price before a ceiling gets opened.',
-  emergencyParagraph:
-    'A hot, scorched odor, a warped or blackened cover, sparks or smoke, a breaker that pops whenever the fan kicks on, or water seeping around the grille all count as urgent. Cut the power at the wall switch or panel if that’s safe. Smoke or flames mean leave and dial 911. Same-day service reaches most addresses in Westwood, weekends too.',
   commonIntro:
     'Across Westwood, from apartment buildings to the side-street houses, these four complaints lead:',
   localFaqs: [

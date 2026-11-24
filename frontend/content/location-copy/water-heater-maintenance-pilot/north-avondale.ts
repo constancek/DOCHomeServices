@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'Census figures date 64.8% of units to 1939 or earlier, with a 1938 median, and 35% sit in buildings of five or more. Off Clinton Springs and Rose Hill, a service visit tends to mean a Shingle-style or Prairie house with its heater beside the old chimney, a flue thimble to inspect and a brittle spigot at the base. In the bigger apartment blocks, each closet tank sits in a pan, one per flat. Our quote arrives before the hose goes on, and an unworthy tank gets called out.',
-  emergencyParagraph:
-    'These skip the tune-up. Water pooling from the tank: twist the cold inlet valve shut, then the gas or breaker. Rotten-egg odor: everyone outdoors, no switches, no relighting, and phone the gas company outside. Carbon monoxide alarm: evacuate first. Relief valve spewing nonstop, or zero hot water, means a repair booking. Most get a same-day visit, weekends included.',
   commonIntro:
     'Owners near Reading Road and Victory Parkway tend to book once one of these shows up:',
   localFaqs: [

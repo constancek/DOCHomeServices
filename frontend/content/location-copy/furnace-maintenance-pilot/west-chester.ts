@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'Houses in West Chester are mostly middle-aged. Census figures put the median home at 1988, and the 1990s were the biggest building decade, so the furnace in the basement is rarely the first one the house had. A second or third unit bolted onto original ductwork and an older flue is common, and how it was tied in gets our attention. Gas is the leading fuel. You’ll know the flat price before anything starts, and if nothing needs fixing, we’ll tell you.',
-  emergencyParagraph:
-    'Treat these as repairs. Gas odor: family out, no lights, no relighting, gas company phoned from the yard. Carbon monoxide alarm: everyone outside before anything else. Also no heat in a cold snap, nonstop restarting, or a flame gone yellow. Older parents and infants are most at risk. Same-day help on most calls, weekends too.',
   commonIntro:
     'These are the things that usually get a fall furnace visit on the calendar in West Chester:',
   localFaqs: [

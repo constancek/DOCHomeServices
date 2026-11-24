@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Edgewood is nearly all owner-occupied single-family houses, and Census figures put the median one at 1976, with about half built during the 1960s and 1970s. Houses of that vintage are snugger than prewar ones without being airtight, so the usual gripes are a stale family room, a basement that feels clammy by August and dust riding out of aging duct joints. We measure first, quote flat, and own up when a fresh filter is the whole cure.',
-  emergencyParagraph:
-    'If the carbon monoxide detector sounds, get the family into the yard and call 911. Smell gas and you leave without using switches, then call the gas company. Switch off a system that smells of burning. Mold spreading after a leak can’t wait if a baby, older parent or asthmatic lives there. Same day on most calls, weekends too.',
   commonIntro:
     'Mid-century and 1970s houses in Edgewood tend to tip us off with one of the following.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Census figures show half the houses on the Green Township side of Covedale were built by 1959, and half on the city side by 1938. Nearly all are single houses their owners live in. Bedrooms from that era usually have a box put up for a light, not a spinning, swaying load, and many still have no fan. We look inside that box before hanging anything. If snugging screws or balancing blades cures it, we say so, and the price is set before the light fixture is unscrewed.',
-  emergencyParagraph:
-    'In Covedale, call the same day if a fan sways or pulls from the ceiling, the box drops, the motor smokes, or the breaker trips when the fan starts. Kill it at the switch or panel if that’s safe and stay clear of it. With smoke or flames, leave and phone 911. We reach most calls that day, weekends too.',
   commonIntro:
     'Mid-century bedrooms and older city-side houses account for most of the fan trouble we see in Covedale.',
   localFaqs: [

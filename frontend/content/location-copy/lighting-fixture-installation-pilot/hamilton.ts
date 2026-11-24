@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'On both banks of the Great Miami, Hamilton has a deep stock of old houses, and more than a quarter of them predate 1940 by Census count, with a citywide median of 1956. Tall plaster ceilings in German Village, Dayton Lane and Rossville are lovely under a chandelier, but the box above often was sized for a single bare bulb, and a ground is often missing. Almost half of all homes are rented. Your electrician opens that box and tests the feed first, then writes up a flat price.',
-  emergencyParagraph:
-    'Call right away if a ceiling light sags on its wires, a socket is blackened, a switch crackles or runs hot, or lights in several rooms flicker together. Kill the circuit at the panel if it’s safe, and nobody stands under that fixture. With smoke or fire, get out and phone 911. Most callers see us that day, weekends too.',
   commonIntro:
     'In Hamilton, these four lighting jobs come our way most.',
   localFaqs: [

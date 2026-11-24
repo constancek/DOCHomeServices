@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'A whole-house rewire is rare in Wetherington. Census figures show nothing here predates 1980, and the median house was finished in 1998, so it was wired to a modern code. We’re usually asked to wire a basement finish, a kitchen remodel or an addition, or to chase one circuit that won’t behave. The first houses by the golf course are past 30 years, a sensible point for a system review. We test, tell you if it’s fine, and put scope and flat price on paper before any drywall is cut.',
-  emergencyParagraph:
-    'Phone us the same day for a scorched or hot cover plate, a smell of burning behind a wall, crackling or sparks, a shock off a switch, or a breaker that snaps off right after you push it back. Kill that breaker only from a dry floor. Smoke or flame means leaving the house and dialing 911. Weekends count.',
   commonIntro:
     'Even in houses from the 1990s and 2000s, a few wiring complaints come up again and again in Wetherington.',
   localFaqs: [

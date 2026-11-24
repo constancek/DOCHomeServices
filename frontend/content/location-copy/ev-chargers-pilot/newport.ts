@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Newport’s housing sets the terms. Census figures count barely half of it as single detached, and close to half dates from 1939 or earlier. A house of that vintage may still lean on a meager original service with nowhere to land a 240-volt breaker, and a car parked curbside can’t safely reach a wall unit. So we gauge the panel’s load first, own up when the factory cord is adequate, and lock a fixed figure before anyone picks up a drill.',
-  emergencyParagraph:
-    'End the session if the charger shell runs hot, the connector shows brown or black marks, or a receptacle has begun to sag. A burnt smell counts too. Kill that circuit only from dry footing, clear of heat. With smoke or flames, get out of the building and ring 911. Same-day help is routine on most calls, weekends too.',
   commonIntro:
     'Older houses, two-families and apartment buildings frame most charger requests reaching us from Newport.',
   localFaqs: [

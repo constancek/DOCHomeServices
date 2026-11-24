@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median year built in Crestview Hills at 1984. That works in a spa owner’s favor, because a panel from the eighties or nineties tends to have an empty slot for a hot tub breaker. What changes the quote is the tub’s spot and the conduit’s length. Roughly one home in four is a condo or townhome, and those need the association’s yes first. Our electrician reads the spa’s spec sheet against your panel and gives you a number before anything is dug.',
-  emergencyParagraph:
-    'Treat a spa in Crestview Hills as urgent when its GFCI won’t stay set, the cutoff box smells like hot plastic, the panel hums, or bathers notice a tingle. Climb out and leave the controls alone. If the breaker is safe to reach, switch it off; with smoke, go outside and dial 911. We usually arrive that day, weekends too.',
   commonIntro:
     'These four come up most often on spa jobs in Crestview Hills.',
   localFaqs: [

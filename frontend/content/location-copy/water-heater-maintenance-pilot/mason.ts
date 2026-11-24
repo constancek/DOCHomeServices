@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Most of Mason went up after 1990; Census figures give 1996 as the median build. That usually puts the heater in a garage or a basement utility corner, original to the subdivision and never once drained. Those are quick visits with clear floor space. The older houses around Main Street are different: expect a crusty drain spigot or a tired flue connector. The number is fixed before anyone picks up a wrench, and if servicing that tank would waste your money, you’ll hear it.',
-  emergencyParagraph:
-    'If the heater is in trouble, skip the tune-up. Puddle under it: cold-water valve on top closes, then gas or breaker. Gas odor in the garage: everyone out, switches and pilot untouched, the gas company called from the driveway. Carbon monoxide alarm: outdoors first. Nonstop relief valve dripping or no hot water: repair. Same-day on most calls, weekends too.',
   commonIntro:
     'In Mason, a service booking usually follows one of these:',
   localFaqs: [

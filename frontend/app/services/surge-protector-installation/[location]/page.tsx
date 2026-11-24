@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'surge-protector-installation',
   serviceName: 'Whole-Home Surge Protector Installation',
   localHeadingName: 'Surge Protector Installation',
-  emergencyHeading: 'Urgent Power Surge Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Surge Protector Installation',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },

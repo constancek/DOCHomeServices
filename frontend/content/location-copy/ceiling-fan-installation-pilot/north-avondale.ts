@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'In North Avondale, most fan calls come from houses built before 1940, which Census figures put at close to two in three, many of them Queen Anne, Shingle and Prairie houses. Their plaster ceilings usually hold a fixture box sized for a hanging light, not a spinning motor, and plenty of big bedrooms have never had a fan. We open that box before quoting, tell you if tightening the old fan solves it, and settle the cost before anything is unscrewed.',
-  emergencyParagraph:
-    'If a fan knocks against its canopy, the plaster around its box starts crumbling, the motor gives off a scorched odor, or the switch plate spits sparks, stop it. Kill power at the wall or panel if you needn’t stand beneath the blades. With smoke or flames, leave first and dial 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Tall plaster rooms, original fixture boxes and apartment buildings shape most of the fan work we do in North Avondale.',
   localFaqs: [

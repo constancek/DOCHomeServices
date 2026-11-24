@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Melbourne has about 200 homes, Census figures show, almost all of them detached and owner-occupied. Close to a third were built in 1939 or earlier, when a modest service was plenty and cars ran on gasoline. Over half use electric heat, so that service already works hard every January. Our first step is the panel and the load math, then a frank word if a plug-in cord suits your driving, then a fixed price ahead of any wiring.',
-  emergencyParagraph:
-    'Unplug the car if the cord has been run over or split, the plug comes out warm or discolored, or the breaker quits whenever charging starts. When the panel can be reached safely and dry, switch that circuit off. Smoke or flame means getting everyone out and calling 911. We reach most calls the same day, weekends as well.',
   commonIntro:
     'Half the houses in Melbourne were built before 1958, and charger calls there usually trace back to one of these.',
   localFaqs: [

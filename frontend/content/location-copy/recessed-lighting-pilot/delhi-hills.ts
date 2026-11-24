@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'On the bluff above the Ohio River, Delhi Hills is almost entirely detached houses from the 1960s and 1970s, and recessed lighting here usually starts from the attic. Census figures put the median build year at 1971, and nearly every home is owner-occupied. That attic lets us feed cable from above and cut less in the room below. Many lower levels were left unfinished at first and are being finished now, the best moment to add cans. Every location gets marked and priced before cutting.',
-  emergencyParagraph:
-    'Flip off the breaker, when the panel is safe to reach, if a can smells overheated, scorch marks ring the ceiling around it or water is running through it. A light that repeatedly drops out and returns is another warning. In case of smoke or flame, leave and call 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'In 1960s and 1970s houses across Delhi Township, these four are what owners want sorted.',
   localFaqs: [

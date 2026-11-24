@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'In Hebron, recessed lighting comes down mainly to spacing and circuit capacity, since the houses are young enough that ceilings seldom put up a fight. Census figures give ZIP 41048 a median home built in 2002, and almost every home is a detached house its owner lives in. Expect drywall ceilings, open kitchens and an insulated attic above the top floor. A lower level frequently gets finished well after move-in. We plan each light alongside you and hand over a flat quote before any ceiling is cut.',
-  emergencyParagraph:
-    'A crackling or hot switch, water leaking through a can or a breaker that trips the instant the downlights come on deserves a same-day look. Shut those lights off at the breaker when it’s safe, and call 911 for any smoke or fire. Most calls get a technician out that same day, weekends included.',
   commonIntro:
     'Most homes in Hebron date from the 1990s and 2000s, and plenty still carry whatever lighting the builder chose. These rooms get asked about most.',
   localFaqs: [

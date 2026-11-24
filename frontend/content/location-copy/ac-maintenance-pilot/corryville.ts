@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Nearly every tune-up in Corryville is booked by an owner or manager, since Census figures show 92.7% of homes here are rented. The big apartment blocks put up since 2000 usually have one system per unit, so the job is the same coil, filter, drain and wiring check repeated floor by floor. The older houses near Short Vine, many cut up into apartments, had cooling bolted on later through tight ducts. Owners see the building price before we begin, and a unit that needs nothing is left alone.',
-  emergencyParagraph:
-    'A tenant whose apartment won’t cool in a heat wave, or who sees water coming through the ceiling from upstairs, should message the landlord or building office and call it urgent. Frost on the refrigerant lines means setting the thermostat to off. Older residents, babies and anyone with asthma are most at risk. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'In Corryville, rental owners usually book a spring visit after one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Cold Spring has grown along Alexandria Pike, and Census data puts the median home at 1999, with close to half built since 2000. For lighting that means grounded wiring, boxes we can work with, two-storey foyers and kitchens built around an island. What still shapes the job is whether the box can carry the new piece, whether a ground is present and whether the light is new to the spot. Lots of bedrooms here have only a switched outlet. We open things up and quote before any work starts.',
-  emergencyParagraph:
-    'If a foyer chandelier starts swaying loose up high, a hot-plastic smell turns up, or a switch cover shows brown marks, book a same-day visit. Kill that breaker when doing so is safe, and keep the kids out of the landing zone. Smoke or fire means everyone out and a 911 call. Weekends included, most calls get seen that day.',
   commonIntro:
     'From detached houses to the townhouse blocks of Cold Spring, these four light fixture jobs top the list.',
   localFaqs: [

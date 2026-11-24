@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Owners and property managers order most fixture work in Millvale. Census counts show about nine in ten homes rented in the blocks around Beekman Street and Moosewood Avenue, and roughly a third of residents live in public housing, largely 1950s townhomes that recently went through renovation. Older single houses and small apartment buildings fill out the rest, and their ceilings may hide worn boxes with no ground. Our electrician checks each box and its cable, and the building owner approves a figure before any fixture comes off.',
-  emergencyParagraph:
-    'Tell your manager or owner about a fixture hanging loose, a burnt odor, scorch marks around a light or flicker spreading between rooms. If that breaker is safe to get at, shut it off and keep children away from the fixture. For smoke or fire, leave and call 911. Owners usually see us that day, weekend calls too.',
   commonIntro:
     'Along the Beekman corridor, owners and managers in Millvale, Cincinnati, call us for these four jobs.',
   localFaqs: [

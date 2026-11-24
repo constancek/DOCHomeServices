@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'Of the homes in West Price Hill, about a third predate 1940 and nearly half followed over the next three decades, Census figures show. Renters fill half the households, so many fan calls come from landlords along Glenway and Rapid Run. The older houses have plaster ceilings with a light pan nailed to the lath, and postwar bedrooms have one center fixture on a shallow bulb box. We open that box, tell you when snugging a bracket cures it, and settle the price before the old light is unscrewed.',
-  emergencyParagraph:
-    'If the fan whips sideways, the box droops out of the ceiling, the motor gives off smoke or a burnt-wire smell, or the breaker snaps off, we send someone the same day on most calls, weekends included. Shut it down if you can do it without risk, and clear the room. With fire, empty the house before dialing 911.',
   commonIntro:
     'From the old plaster-ceiling houses to the postwar streets off Glenway Avenue, these four turn up most in West Price Hill.',
   localFaqs: [

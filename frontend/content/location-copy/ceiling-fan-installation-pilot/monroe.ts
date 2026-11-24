@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Monroe at 2001, with more than half built since then. Those houses tend to have a two-story foyer or great room, where a fan has to hang from a down rod, and a back patio that calls for a weather-rated model. Some bedrooms got only a plain box meant for a builder light. We open that box before anything else, say so when a snugged mount ends the wobble, and settle the price before the builder light comes off.',
-  emergencyParagraph:
-    'A great-room fan swinging on its rod, a canopy dropping away from the drywall, or a smoking motor needs attention now. If you can safely reach the wall switch or panel, shut it off and keep kids off the floor under it. If there’s fire, leave and call 911. We reach most calls same day, weekends included.',
   commonIntro:
     'Across the post-2000 subdivisions and the older blocks near South Main Street in Monroe, these four turn up most.',
   localFaqs: [

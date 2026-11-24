@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights is a tiny village set inside the lanes of I-75, and its houses are old. By Census figures, the median home went up in 1939 or earlier, and renters outnumber owners. Breaker boxes of that vintage are usually stuffed, so a spa often needs panel work before anything else. Once there’s room, the tub gets a dedicated 240-volt run with ground-fault protection, a cutoff switch and a bonding wire. We read the spa maker’s electrical sheet against your panel and hand you a written price.',
-  emergencyParagraph:
-    'Leave the tub off and phone us if its breaker flips back off, the panel hums, or a toe in the water picks up a tingle. Everyone should get out and leave the controls alone. Throw the breaker only if that’s safe. With smoke, get outside and ring 911. We’re usually there the same day, even on weekends.',
   commonIntro:
     'On the short streets between the two sides of the interstate, these are what usually bring a spa wiring call.',
   localFaqs: [

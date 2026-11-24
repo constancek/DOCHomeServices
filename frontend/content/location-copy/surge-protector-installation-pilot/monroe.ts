@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Surge protection in Monroe is mostly about newer houses and what’s packed into them. Census figures put the median home at 2001, more than half have been built since 2000, and close to nine in ten are detached houses their owners live in. Those homes hold central air, a furnace, smart devices and appliances run by circuit boards, and a lot of the builder equipment is now being replaced. We still check the panel first, tell you if strips will do, and set the price.',
-  emergencyParagraph:
-    'Same-day help, weekends included, is for the urgent stuff. That covers an outlet or panel scorched or smelling burnt after a storm, a breaker that trips the second it’s reset, and an appliance that sparked when power came back. Shut that circuit off only if it’s dry and safe. Smoke or fire means out and 911.',
   commonIntro:
     'Monroe has grown fast along I-75, and its newer subdivisions show the need for surge protection in these four ways.',
   localFaqs: [

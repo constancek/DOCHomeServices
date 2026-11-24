@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Old and new share the same blocks in Columbia-Tusculum. Close to four in ten homes date from 1939 or earlier and about one in five from 2000 or later, by Census figures, and owners live in most of them. An older house may have a breaker box that is small or jammed full, while a newer one tends to carry central air, a modern furnace and a shelf of smart gadgets. The box gets opened first, we say so if strips will do, and the price is agreed before work.',
-  emergencyParagraph:
-    'Phone the same day if the breaker box smells burnt in Columbia-Tusculum, a breaker snaps off the moment it’s reset, or something sparked when power came back. After a flash flood near Delta Avenue, leave any box that took on water off. Smoke or flames mean get out and dial 911. Most calls get that visit, weekends included.',
   commonIntro:
     'On streets that mix pre-war houses with newer builds, these are the signs we see most in Columbia-Tusculum.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'By Census figures, about half the houses went up before 1940 in Bromley, and almost all are single homes, most of them lived in by their owners. Bathrooms that old weren’t built with fans. If yours has one, someone added it later, and we regularly find those ducts stopping in the attic or behind a wall instead of reaching outside. We follow the air from the grille to wherever it ends and price the fix before we open a ceiling.',
-  emergencyParagraph:
-    'Smell burning at the fan, see sparks, or find its housing melted, and the wall switch or breaker should go off, as long as that’s safe. Treat a breaker that trips with the fan, or water dripping through the grille, as urgent. With smoke or fire, leave and phone 911. In Bromley, we’re usually there the same day, weekends too.',
   commonIntro:
     'In the river-town houses along Boone and Shelby Streets and the rest of Bromley, these are the problems we see most:',
   localFaqs: [

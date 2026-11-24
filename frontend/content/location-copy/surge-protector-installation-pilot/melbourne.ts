@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Houses in Melbourne are old and nearly all owner-occupied, and that sets up the surge question. Census figures put the median home at 1958, with close to a third built in 1939 or earlier, and electricity heats more than half of them. An older panel may be undersized or out of open slots, so where a surge device can go, if anywhere yet, comes out of the panel check. Electric heat is usually the first thing worth guarding. Strips may cover you, and we’ll say so before pricing anything.',
-  emergencyParagraph:
-    'Call the same day if a switch or outlet looks scorched or smells hot after a surge, a breaker keeps tripping as soon as you reset it, or a baseboard heater smoked when the lights came back. Shut off that circuit only if you’re dry and can reach it safely. With smoke or flames, get out and call 911.',
   commonIntro:
     'Between KY 8 and the hillside streets above the river, older houses show the need for surge protection like this.',
   localFaqs: [

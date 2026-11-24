@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'Much of the housing in Madeira is from the 1950s. Census figures put the median year built at 1960, and 29.5% of houses come from that single decade. Most were built around a gas furnace, and where central air arrived later it rides ducts sized for heat, so the back bedroom or the finished basement often lags. Owners live in 92.2% of homes, so the decision is yours. We fix a price before starting, and if ductless isn’t the answer, we’ll say so.',
-  emergencyParagraph:
-    'A sunroom in Madeira can be the hottest spot on the 21 days each year at 90F or above, by National Weather Service counts, and older parents, babies and anyone ill feel it. We book promptly; a single head wraps up in a day, more heads later. Failed mini-splits go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Across the mid-century streets that make up most of Madeira, these four complaints lead to most of our ductless estimates:',
   localFaqs: [

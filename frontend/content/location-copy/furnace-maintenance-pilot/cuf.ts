@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'In CUF, the person booking a furnace tune-up is nearly always a landlord or property manager. Census figures show 84.5% of occupied units are rented. The buildings vary: 42.3% went up before 1940, mostly in Fairview and the west side of Clifton Heights, where a basement furnace often vents up an old chimney and the flue gets real scrutiny; much of the rest is apartment blocks with closet units. Tenants report problems, owners approve prices before work, and if nothing needs doing, we say so.',
-  emergencyParagraph:
-    'These are repairs, not tune-ups. Gas smell: leave, fingers off switches, no relighting, gas company phoned from the street. Carbon monoxide alarm: everybody out, then call. No heat in a cold snap, nonstop stop-start cycling, or a soft yellow flame. Babies and anyone sick are at most risk. Usually same day, weekends too.',
   commonIntro:
     'In CUF, rental owners usually book a furnace check for reasons like these:',
   localFaqs: [

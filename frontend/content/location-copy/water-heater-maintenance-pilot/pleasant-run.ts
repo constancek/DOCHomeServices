@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Pleasant Run is a community of owner-lived houses, none built before 1940 by Census figures, with 59.2% from 1960 to 1979 and 18.2% from 2000 on. That means no pre-war basements to work around: a tank here usually has room for a hose, and the service is a flush, an anode check and a relief valve test. Homes split nearly evenly between gas and electric heat, so we check whichever you have. Price first, and if the tank isn’t worth it, we’ll say so.',
-  emergencyParagraph:
-    'Leaks: find the valve on the cold line feeding the tank and close it, then shut gas or power. A smell of gas: leave, light nothing, touch no switch, reach the gas company from the yard. Carbon monoxide alarm: nobody stays inside. A relief valve that won’t reseat, or no hot water: repair, same day on most calls, weekends included.',
   commonIntro:
     'With houses mostly from the 1960s and 1970s, these are the usual hints a tank in Pleasant Run wants a service:',
   localFaqs: [

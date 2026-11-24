@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Indoor air quality work in Wetherington is mostly about houses that hold their air too well. Census figures put the median home here at 1998, with none built before 1940, so these are tight houses where cooking smells, cleaning fumes and pet dander have nowhere to go. That points us to ventilation and whole-home filtration more than damp basements. Testing comes first, the flat price is agreed before anyone picks up a tool, and when a new filter is the cure, we say so.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means the household goes outdoors before anyone dials 911. If you smell gas, walk out with the lights left alone and phone the gas company outdoors. A burning odor from the system means setting the thermostat to off. Babies, grandparents and anyone with asthma are most vulnerable. We usually arrive the same day, weekends included.',
   commonIntro:
     'In houses built from the 1990s on in Wetherington, the calls we get about the air usually start with one of these:',
   localFaqs: [

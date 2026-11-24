@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Owners occupy 86.1% of homes in Pleasant Run, by Census figures, and the typical one is a detached 1960s or 1970s house, joined by a newer cluster built since 2000. In the older houses, the furnace has probably been changed out at least once, so the venting connection and heat exchanger are where we slow down. Newer ones are mostly a matter of filter, blower, burners and safety controls. The price is settled before work, and if the furnace needs nothing, we tell you.',
-  emergencyParagraph:
-    'Gas smell: everyone leaves, nobody touches switches or the pilot, and the gas company is called from the yard. Carbon monoxide alarm: people out first. No heat in a freeze, a flickering yellow flame, or a furnace that relights over and over means repair. Infants, older parents and the sick suffer soonest. Most are same day, weekends included.',
   commonIntro:
     'Most furnaces we service in Pleasant Run sit in owner-occupied houses from the 1960s and 1970s. These usually lead to a fall booking:',
   localFaqs: [

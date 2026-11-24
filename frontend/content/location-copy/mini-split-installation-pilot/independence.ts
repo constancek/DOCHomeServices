@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'Independence is mostly newer housing, with a median year built of 1999 by Census figures, and roughly half the homes went up in 2000 or later. Those houses came with ductwork, so we’re rarely replacing anything. The usual call is a room the central system was never sized to reach, such as space over the garage, a basement finished after move-in, or a sunroom. The quote is a flat number you see first, and if a duct tweak will fix the room, that’s what we’ll recommend.',
-  emergencyParagraph:
-    'Bonus space above a garage takes the brunt when it hits 90F, which happens on about 21 days a year in National Weather Service records. Infants, grandparents and anybody with asthma shouldn’t sleep up there. Single-zone installs get booked soon and take a day. If your ductless unit breaks, Mini-Split Repair handles it, mostly the same day, weekends too.',
   commonIntro:
     'In the subdivisions of Independence, a ductless call usually begins with one of these:',
   localFaqs: [

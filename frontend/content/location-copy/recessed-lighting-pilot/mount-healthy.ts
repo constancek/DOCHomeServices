@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Kitchens drive most recessed requests in Mount Healthy, since a postwar kitchen was usually built with one ceiling light and counters lit by whatever spills from it. Census figures give the city a 1956 median, and close to three in ten homes predate 1940, so plaster and aging cable along Compton Road sit beside the drywall of later ranches. Roughly half of households rent, which means owners and tenants both reach out. Placement and a flat quote are settled before any ceiling gets opened.',
-  emergencyParagraph:
-    'A wall switch running warm or buzzing, a breaker tripping the instant the cans light, or tan stains spreading around a housing should not sit overnight. Shut off that breaker if the panel is safe to approach. If you catch a burning odor along with smoke, get out and call 911. We reach most calls that same day, weekends too.',
   commonIntro:
     'Postwar kitchens, plaster rooms from the older streets and basements turning into living space account for most requests, led by these four.',
   localFaqs: [

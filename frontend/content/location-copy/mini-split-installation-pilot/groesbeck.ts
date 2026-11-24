@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'Half of Groesbeck’s homes were built by 1970, Census figures show, so the furnace ducts came first and air conditioning was added later. The rooms that suffer are the ones added or finished afterward: a converted garage, a lower level or a back bedroom, and one ductless head handles that room without touching the rest. Nearly a quarter of homes are in larger apartment buildings and 33.9% are rented, so owners decide there. The price is fixed before we start, and we’ll flag it when ductless is the wrong buy.',
-  emergencyParagraph:
-    'An old garage turned family room bakes in Groesbeck on about 21 days a year at 90F, by National Weather Service figures. Babies, older relatives and anyone with asthma or an illness are most at risk. One room takes about a day to install. A mini-split that quit is a Mini-Split Repair call, mostly same day, weekends too.',
   commonIntro:
     'Groesbeck has plenty of rooms the original ducts never planned for, and these are the usual ones:',
   localFaqs: [

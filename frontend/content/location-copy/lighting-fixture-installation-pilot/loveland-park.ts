@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'The first homes in Loveland Park sat on wooded river lots handed out with newspaper subscriptions in the 1920s, and that history shapes the lighting. Cabins and cottages from those early decades sit beside houses finished since 1980, and the middle home here dates from 1990. In the older places a living room may have no overhead light, and the ceiling box, if there is one, may lack a ground. The newer houses bring two-story foyers and long islands. Before pricing, we confirm what the box can carry.',
-  emergencyParagraph:
-    'A drooping cottage ceiling light, a scorched smell, a warm switch cover or a breaker that quits when a lamp comes on should be seen today. Cut that circuit if the panel is safe to reach, and clear the room. For smoke or flames, leave and dial 911. Most get a same-day visit, weekends too.',
   commonIntro:
     'Out along Shore Road and in the newer streets above it, these four requests cover most of what we do.',
   localFaqs: [

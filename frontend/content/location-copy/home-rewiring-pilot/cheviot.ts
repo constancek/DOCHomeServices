@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Most of the rewiring we do in Cheviot is in an old frame house. Of the 3,893 homes the Census counts here, 1,746 date from 1939 or earlier. A place that age can still be carrying knob-and-tube behind the lath, and nothing in it is grounded. The houses that went up after the war usually have copper that’s fine but only a handful of circuits. We meter every circuit before quoting. If yours checks out, we say so. Otherwise the job and its flat price are written down up front.',
-  emergencyParagraph:
-    'Phone us the same day if an outlet or wall gives off a scorched smell, a cover plate is too hot to touch, a light switch crackles, or a breaker won’t stay on. So does a jolt from a lamp. Flip that breaker only when your hands and the floor are dry. Smoke means everyone outside and 911.',
   commonIntro:
     'In the pre-war houses and two-families of Cheviot, wiring that has reached its limit usually shows itself in one of these ways:',
   localFaqs: [

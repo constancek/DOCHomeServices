@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Around DeSales Corner, people mostly call us about the dining room, where a chandelier should be centred over the table and the ceiling may be plaster from before 1920. What that box can take, whether a ground runs to it, and whether the spot is wired already decide the job. Of 2,364 homes in the Census count, 1,165 predate 1940, and big condo towers on Madison Road add another kind of ceiling. Nothing comes off until we have looked inside the box and written out your cost.',
-  emergencyParagraph:
-    'A few lighting faults won’t keep, like a medallion pulling away from old plaster, a socket gone brown and soft, or a breaker that drops when that light goes on. Shut that breaker if it’s safe and keep the floor below empty. Smoke or flames mean get out and call 911. Expect us that day on most calls, weekends too.',
   commonIntro:
     'From the side streets off Woodburn Avenue to the towers on Madison Road, our lighting jobs mostly look like this.',
   localFaqs: [

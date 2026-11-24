@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Paddock Hills is known for its Dutch Colonial, Tudor Revival and bungalow houses, and Census figures put 41.8% of homes in the area at 1939 or earlier. Those houses came with plaster walls and low attic space, so a ductless head is often the neatest way to cool a second floor. Apartment buildings make up much of the rest, and with 69.3% of homes rented, many decisions sit with an owner or manager. The price is agreed before we start, and we’ll be straight if ductless isn’t right.',
-  emergencyParagraph:
-    'In an average year the airport hits 90F on about 21 days (National Weather Service). In Paddock Hills, older upstairs rooms soak up every one. Seniors, newborns and anyone with asthma suffer most. We book installs fast, and most single-zone jobs finish in a day. A mini-split that stopped needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Revival-style houses and apartment buildings both send us ductless requests in Paddock Hills, mostly for one of these:',
   localFaqs: [

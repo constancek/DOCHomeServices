@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Amelia is newer than its old village label suggests. Census figures put the median home at 1995, with 43.1% built in 2000 or later, so most visits here mean a tidy drain, anode inspection and relief valve trip, frequently on an electric heater in a garage or laundry room. Roughly a quarter of homes sit in apartment buildings, where each unit keeps a closet heater above a pan and the owner arranges our visit. Pricing is settled up front, and an unworthy tank gets an honest verdict.',
-  emergencyParagraph:
-    'Leaking heater: spin the cold inlet shut, then cut gas or flip the breaker. A gas smell means exit, keep fingers off switches and the pilot, and ring the gas company from outside. An alarm for carbon monoxide means evacuate. A relief valve that won’t settle or a cold tap calls for repair, not upkeep. Usually same day, weekends too.',
   commonIntro:
     'Whether the address falls in Pierce or Batavia Township, these signs tell us a heater in Amelia is ready for service:',
   localFaqs: [

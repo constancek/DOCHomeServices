@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Beckett Ridge was begun in the 1970s and mostly built in the 1980s and 90s, so the wiring in most homes is grounded and sound. People here book an inspection for a reason: selling, buying, finishing a basement, or adding an EV charger or heat pump. Census figures show about half the homes heat with electricity, and that heat already takes a big share of the panel. The inspection shows what’s left before the new load goes on, and any repairs are priced first.',
-  emergencyParagraph:
-    'Newer construction doesn’t rule out a bad connection. In Beckett Ridge, a plug or switch that runs hot, hums or browns, a burning odor, sparks, or a breaker that pops the instant it’s reset all need a same-day visit, which most calls get, weekends included. Switch that breaker off. Smoke or flames: get out, call 911.',
   commonIntro:
     'In the single homes, townhomes and condos of Beckett Ridge, these are the findings we write up most.',
   localFaqs: [

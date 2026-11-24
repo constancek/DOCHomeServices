@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Mount Auburn has two kinds of building, and each needs a different surge plan. Census figures show more than half the housing dates from 1939 or earlier, often 19th-century houses cut into flats, where the panel is frequently small or packed. About a fifth went up in 2010 or later and carries the central air, electronic appliances and smart gadgets spikes go after. Two in three homes are rented. We read the panel first, mention it when a strip will cover you, and fix the price before work.',
-  emergencyParagraph:
-    'A faceplate that’s warm or browned, a scorched smell after the storm, or a stove that sparked when power came back all warrant a same-day call, and most calls get one, weekends included. Shut that breaker only if the panel is dry. If smoke or flame shows up, leave the building and phone 911.',
   commonIntro:
     'From carved-up Victorians near Auburn Avenue to the new apartment blocks, here’s what usually prompts a surge call in Mount Auburn.',
   localFaqs: [

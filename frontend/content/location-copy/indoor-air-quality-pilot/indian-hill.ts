@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Ask about the air in Indian Hill and the answer starts with which decade the house is from. Census figures put the median build year at 1974, but the homes here run from before 1940 to recent years, nearly all of them detached. An older house tends to be drafty, with a damp lower level and long duct runs; a newer one is sealed tight and holds stale air. Testing tells the two apart. We price anything before work and say so when a filter is enough.',
-  emergencyParagraph:
-    'If a carbon monoxide detector sounds, the household leaves and 911 is called outdoors. A gas odor means going outside without using switches and calling the gas company. When the furnace or AC smells of burning, turn the thermostat off. Mold advancing after water damage endangers asthmatics, babies and older relatives. We reach most calls same day, weekends included.',
   commonIntro:
     'The air complaints we hear across Indian Hill tend to fall into these four.',
   localFaqs: [

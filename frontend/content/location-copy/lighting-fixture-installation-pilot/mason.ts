@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Around Mason, the usual ask is a showpiece: a foyer chandelier, island pendants, or a better vanity bar. Census numbers place the typical house here in 1996, with roughly half framed during the 1990s and 2000s, so ceilings generally hold grounded wiring and builder boxes in decent shape. About one home in six is a townhome or condo, where joists run tight. A few older places near the 1815 village core still surprise us. Our electrician opens the box first, and you sign off on the number before work begins.',
-  emergencyParagraph:
-    'Act fast if a foyer chandelier starts tilting, island pendants crackle, a switch plate gets warm or one breaker keeps tripping with the kitchen lights. Shut that breaker off when you can reach it without risk, and nobody stands underneath. Any smoke or flame means leave and dial 911. Most Warren County calls get same-day help, weekends as well.',
   commonIntro:
     'Two-story entries, big kitchens and builder bathrooms account for most fixture calls we take around Mason.',
   localFaqs: [

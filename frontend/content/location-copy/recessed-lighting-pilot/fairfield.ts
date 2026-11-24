@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'Ranch and split-level houses from the 1960s and 1970s make up the bulk of Fairfield, and over most of their top-floor rooms sits an open attic, which is good news for recessed lighting. Census figures put the median build year at 1978, so ceilings are usually drywall, not plaster, and cut cleanly. The catch is the insulation lying on top, and roughly a quarter of homes are apartments where an owner or board decides. We lay out positions and fix a price ahead of the first cut.',
-  emergencyParagraph:
-    'When a downlight smells scorched, its trim is too hot to hold, the switch plate hums or the breaker snaps off each time that switch goes up, stop using it and cut the circuit if the panel is safe. Smoke or flame means everyone out and 911. Most calls get us there that day, weekends too.',
   commonIntro:
     'Across Fairfield, 1970s ranches sit near 1990s subdivisions and plenty of apartment and condo complexes. These four downlight requests come up the most.',
   localFaqs: [

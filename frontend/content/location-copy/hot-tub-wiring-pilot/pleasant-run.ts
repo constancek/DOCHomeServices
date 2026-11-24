@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Run, hot tub wiring usually means a backyard spa behind a ranch or split-level that has never had one. Census figures put the median house at 1974, none date from before 1940, and close to nine homes out of ten stand alone with the owner living there. Panels of that age tend to be crowded with breakers added over the years, so open slots and leftover capacity decide the job. We hold your panel up against the tub maker’s spec sheet and quote it before conduit goes in.',
-  emergencyParagraph:
-    'Phone us if the spa GFCI won’t stay set, the disconnect smells of hot plastic, the panel hums, or anyone in the tub feels a tingle. Get people out and touch nothing. Flip the disconnect only if you can reach it safely. For smoke or flames, leave and phone 911. Most callers see us the same day, weekends too.',
   commonIntro:
     'On the curving streets off Pippin Road, owners usually ring us about a spa for one of these:',
   localFaqs: [

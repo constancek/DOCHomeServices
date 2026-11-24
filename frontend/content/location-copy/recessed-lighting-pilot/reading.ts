@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'Taking down one frosted center light and replacing it with a planned set of recessed cans is the request we hear most often in Reading. Census figures date the median house to 1956, and roughly 24 of every 100 were standing before 1940, so plaster over lath turns up beside postwar drywall. Rooms from that era were arranged under a single fixture, which explains the shadowy corners. Around 41 in 100 homes here are rented. Layout gets drawn and a flat figure agreed before our saw comes out.',
-  emergencyParagraph:
-    'Cans that smell hot, a trim you can’t rest a finger on, a ceiling ringed in brown or a wall switch humming all deserve prompt attention. Kill that circuit at the panel provided getting there is safe. Smoke or fire means leaving the house and phoning 911. On most calls in Reading, we arrive that same day, weekends too.',
   commonIntro:
     'Along the 1940s and 1950s streets east of Mill Creek in Reading, these rooms come up again and again.',
   localFaqs: [

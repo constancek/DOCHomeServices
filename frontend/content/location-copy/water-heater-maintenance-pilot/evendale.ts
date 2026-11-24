@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Nearly all of Evendale is detached houses from the 1980s and 1990s, which keeps this service simple. Census figures put the median at 1982, and 57.2% went up between 1980 and 1999. For a tank in a house that age, the job is mostly drain, flush, pull the anode and lift the relief valve, with a burner and flue check since gas service is common in the village. We name the price before starting, and if your tank isn’t worth a visit, we’ll say that instead.',
-  emergencyParagraph:
-    'A puddle under the heater ends the tune-up. Close the tank’s cold-water valve and cut its fuel or power. With a gas odor, walk out, leave switches and pilot alone, and dial the gas company outside. When the carbon monoxide alarm sounds, people go first. Endless relief valve discharge or no hot water: repair. Same-day on most calls, weekends included.',
   commonIntro:
     'Even in a 1990s house in Evendale, a tank tells you it wants attention in a few ways:',
   localFaqs: [

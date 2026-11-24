@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Most houses in Mount Repose are owner-occupied and went up from the 1960s on, and Census figures put the median one at 1978. In the older ranches, the bedroom box usually held a flush light and carries no fan rating. The newer two-stories tend to have a cathedral family room that needs a long rod and a patio that needs a fan built for damp air. We look at the box first, point it out when balancing fixes things, and quote before the old fixture comes off.',
-  emergencyParagraph:
-    'Stop using a fan whose blades swing wide, whose canopy is dropping from the ceiling, whose motor smokes or smells scorched, or that trips the breaker on start-up. Kill it at the switch or panel if that’s safe and keep everyone clear below. Fire means out of the house and a 911 call. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Ranches from the 1960s and 70s and the bigger houses built since bring us most fan requests in Mount Repose.',
   localFaqs: [

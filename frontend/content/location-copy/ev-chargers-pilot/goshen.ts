@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'In Goshen Township, Census figures date the median house to 1983 and put roughly a quarter of homes after 2000, while the crossroads core along State Route 28 is older. A newer house here has breaker space for a 240-volt run more often than not, or can share what it has through load management. Over half the township heats electrically, so the heat pump or electric furnace sits in the math. We check the panel and load first, say if Level 1 will do, and price it before any wire.',
-  emergencyParagraph:
-    'In Goshen, a plug you can barely hold, a browned charger case, a scorched-insulation smell, or a breaker that trips as the car begins to draw are reasons to unplug. Reach for that breaker only when your hands and the floor are dry. If you see smoke, get out and call 911. Same-day service covers most calls, weekends too.',
   commonIntro:
     'From newer subdivisions to the older township center and mobile homes, these are the reasons a charger call comes to us from Goshen.',
   localFaqs: [

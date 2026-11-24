@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'mini-split-installation',
   serviceName: 'Mini-Split Installation',
   localHeadingName: 'Mini-Split Installation',
-  emergencyHeading: 'Fast Mini-Split Installation in {neighborhood}',
   eyebrow: 'Air Conditioning · Mini-Splits',
   hubLabel: 'Mini-Split Installation',
   parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },

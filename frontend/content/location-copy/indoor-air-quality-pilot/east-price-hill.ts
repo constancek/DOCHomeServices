@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'In East Price Hill, prewar houses share the streets with big apartment blocks, and Census figures show roughly two in five homes went up in 1939 or earlier while nearly two-thirds are rented. The old houses let winter in around sash windows, keep a cool damp in the cellar and send that cellar air upstairs through tired returns. In the blocks, the owner picks the equipment. A reading comes before any recommendation, a flat figure comes before any install, and a filter swap gets named when it’s enough.',
-  emergencyParagraph:
-    'If the carbon monoxide detector goes off, herd everybody outdoors and dial 911. Smelling gas means stepping out without flicking a switch and calling Duke Energy. Kill a furnace or AC that smells hot at the thermostat. Mold spreading after a burst pipe is urgent around newborns, elderly parents and asthmatics. Same day on most calls, weekends included.',
   commonIntro:
     'Owners, managers and tenants up the hill tend to phone about one of these four.',
   localFaqs: [

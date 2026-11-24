@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Around Goshen, a recessed lighting quote hinges on which era your house belongs to. Census figures give the old village core along State Route 28 a median build year of 1957, roughly a third of it from 1939 or before, while the township as a whole centers on 1983. Village houses often hide plaster over lath and rooms arranged around one ceiling outlet. Township houses lean toward drywall and open kitchens that take new lights gracefully. Either way, the layout is chalked and priced before any ceiling is opened.',
-  emergencyParagraph:
-    'Water seeping around a trim, a bezel too hot for bare fingers or a breaker that snaps off whenever the downlights come on is urgent. Flip that circuit off at the panel if you can get there safely. Smoke or open flame means walk out and dial 911. Expect us the same day on most calls, weekends included.',
   commonIntro:
     'In Goshen, requests split neatly between old village houses and the newer streets spread across the township. These come up again and again.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Census figures put the typical home in Kenwood at 1967, and nearly half were built between 1960 and 1979. Those panels often still show a blank or two, yet a central air retrofit and a bigger range can swallow the headroom a spa breaker needs, so that’s our first check. Then the tub gets its own 240-volt GFCI feed, a shutoff in view of the water, bonding, and an inspector’s sign-off. You’ll see the spa’s spec held up to your panel, and a price, before conduit is laid.',
-  emergencyParagraph:
-    'A bather who feels a tingle makes the spa an emergency, so get everybody out. So does a GFCI that pops the instant it’s reset, a burnt odor at the panel, or a buzzing shutoff box. Open the breaker only when that’s safe, and call 911 for smoke or fire. Most calls see a tech that same day, weekends included.',
   commonIntro: 'Around Kenwood, spa wiring calls usually start with one of these.',
   localFaqs: [
     {

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Union housing is young. Census counts show the city grew from 5,379 people in 2010 to 7,416 in 2020, and 80.1% of homes here went up in 2000 or later. Wiring that young is usually in good shape, so Union owners mostly book us before a sale, after a purchase, or when adding a big load like a hot tub or an EV charger. We tell you what the panel can carry, in writing, and price any fix first.',
-  emergencyParagraph:
-    'New wiring can still fail at a connection. If a Union outlet or switch is hot, scorched or buzzing, sparks fly, or a breaker snaps off each time you reset it, turn that breaker off. Smoke or flame means get out and call 911. We cover most urgent calls the same day, Saturday and Sunday included.',
   commonIntro:
     'Union calls come from subdivision houses built in the last two decades and a few larger apartment complexes. Here’s what the inspections turn up most:',
   localFaqs: [

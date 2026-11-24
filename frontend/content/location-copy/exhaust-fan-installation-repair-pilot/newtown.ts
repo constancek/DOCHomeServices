@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'The median home in Newtown dates to 1989 by Census figures, so a typical bathroom here has a fan, just not always one that does much. Builders in the 1980s and 90s tended to fit the cheapest model, and it struggles in a bigger master bath. About one house in five is older than 1940, and those often got a fan cut in later with a duct ending above the ceiling. We check where the air goes and quote the job before any drywall comes down.',
-  emergencyParagraph:
-    'Leave a fan dead if it smells like burning dust, its housing has darkened or drooped, it sparks, it smokes, it trips its breaker or it drips water. Flip the switch or breaker where that’s safe. If you see smoke or flame, get out and call 911. Most homes in Newtown get an electrician that same day, weekends included.',
   commonIntro:
     'From the older village houses to the townhouses and newer subdivisions of Newtown, these are the four signs we see most:',
   localFaqs: [

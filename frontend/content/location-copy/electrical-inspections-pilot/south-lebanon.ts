@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'Most South Lebanon houses are young: Census figures show 65.9% built in 2000 or later, and their wiring is usually sound. Those owners book inspections for a sale, a purchase or a big new load like an EV charger. The older homes are different. About a fifth of homes predate 1960, with smaller panels and ungrounded outlets, and some riverfront basements along South Main, South High and King Avenue take on water in a big flood. We inspect, report and price fixes first.',
-  emergencyParagraph:
-    'South Lebanon residents shouldn’t put these off: an odor of burning plastic, an outlet that buzzes or runs hot, a blackened switch cover, sparking, or a breaker that won’t reset for more than a moment. Shut that breaker. For smoke or fire, leave the house and dial 911. Same-day service on most calls, weekend days too.',
   commonIntro:
     'South Lebanon inspections split between subdivision homes from the 2000s and the older houses that came before them. The findings we write up most:',
   localFaqs: [

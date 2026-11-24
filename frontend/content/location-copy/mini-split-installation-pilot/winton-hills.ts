@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Winton Hills is almost entirely rented, and most homes here belong to CMHA, at Winton Terrace and Findlater Gardens. Residents there don’t hire contractors, so cooling changes start as a work order with the housing authority or its manager. The privately owned houses and two-families, with a median build year of 1955 by Census count, are where we install, often cooling bedrooms that never had a duct. The owner sees a flat quote before anything starts, and we’ll say plainly if ductless isn’t worth it.',
-  emergencyParagraph:
-    'On the roughly 21 days a year that top 90F (National Weather Service), the upstairs of a brick townhouse can stay hot after dark. Seniors, infants and anyone with asthma suffer most. Owners can book installs quickly, and one zone is about a day, more zones longer. A broken unit is a Mini-Split Repair call, mostly same day, weekends too.',
   commonIntro:
     'In the CMHA townhouses and the privately owned homes around them, these are the cooling problems that come up most in Winton Hills:',
   localFaqs: [

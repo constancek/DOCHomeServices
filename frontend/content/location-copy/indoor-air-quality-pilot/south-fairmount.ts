@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'In South Fairmount, the air inside a home usually reflects how old the building is. Census figures put the median home at 1938, and nearly three in four went up before 1940, so we meet drafty frames, cellars that stay damp into July and tired ductwork pushing dust between rooms. About six in ten homes here are rented, which leaves new equipment to the owner. Our test comes first, the price is fixed before anything goes in, and if a fresh filter solves it, we say that.',
-  emergencyParagraph:
-    'A carbon monoxide alarm or the smell of gas means getting everyone out without touching a switch, then calling 911 or Duke Energy from the sidewalk. If the furnace or AC smells burnt, shut it down at the thermostat. Mold spreading after a leak can’t wait around a baby, older relative or asthmatic. Most calls are same day, weekends included.',
   commonIntro:
     'Owners and tenants of the older buildings in South Fairmount tend to notice the air going wrong in a few familiar ways.',
   localFaqs: [

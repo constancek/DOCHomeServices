@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Wyoming built more houses in the 1950s than in any other decade, 30.1% of them by Census figures, and that sets the tone for most electrical inspections we do here. Panels from those years were put in for a fridge, a radio and a few lamps, and kitchens and bedrooms were often wired on one or two circuits. About a quarter, 24.9%, is older still, around the Village, where cloth-covered wire can still turn up. We write up every finding and price any fix before you choose.',
-  emergencyParagraph:
-    'Don’t hold these for an inspection: a warm switch plate, an outlet that crackles or has a brown ring, a smell like melting plastic, or a breaker that flips off the second you push it up. Leave it off. Smoke or flame means out of the house and 911. In Wyoming most of these get a same-day visit, weekends too.',
   commonIntro:
     'In Wyoming the findings depend on which side of 1950 the house went up. These come up most:',
   localFaqs: [

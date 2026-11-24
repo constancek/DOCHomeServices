@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'In Over-the-Rhine, hot tub wiring mostly serves rowhouses and townhouses with a courtyard, rear yard or deck, along with their owners and associations. Census figures put seven in ten homes here at 1939 or earlier, and a building that old often has a panel with no space or headroom left for a spa breaker, which gets settled first. The new townhouses tend to have room, so the conduit path drives the job. We hold the panel up to the spa’s spec and fix the price before work starts.',
-  emergencyParagraph:
-    'Old brick buildings leave little room for guesswork. Should the GFCI quit again after a reset, the panel start to hum, or a bather feel a tingle, everyone leaves the water and nobody touches the equipment. Reach for the shutoff only if it’s safe, and dial 911 at any smoke. Most calls get someone there that day, weekends too.',
   commonIntro:
     'For owners and associations in Over-the-Rhine, these four tend to start the conversation.',
   localFaqs: [

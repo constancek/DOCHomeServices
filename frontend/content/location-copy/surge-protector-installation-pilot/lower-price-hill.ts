@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Most households in Lower Price Hill rent, and most buildings off State Avenue and Eighth Street hold two or more families, so a panel surge protector here is the owner’s call. By Census figures, the median building went up in 1938, and some date back to the 1850s. Panels that old tend to be cramped, full, or split one per flat, and opening them shows whether a device fits. Tenants get a lot from plug-in strips. We look first, say when strips will do, and quote owners before starting.',
-  emergencyParagraph:
-    'Tell your landlord and call us the same day about a scorched outlet, a switch that smells like burning, or a breaker that drops again the instant it’s pushed back on. Shut that circuit off only if the panel is dry and easy to reach. Smoke or fire means everyone out and 911. Same day on most calls, weekends included.',
   commonIntro:
     'Two-families, small apartment buildings and old row houses fill the blocks of Lower Price Hill, and these are the signs owners and tenants bring up.',
   localFaqs: [

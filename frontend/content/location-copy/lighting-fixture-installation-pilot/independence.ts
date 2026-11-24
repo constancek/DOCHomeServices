@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'In Independence, the usual request is a two-story foyer that swallows its builder light, or an island still waiting on pendants. Census numbers put the median house at 1999, with close to half finished in 2000 or after, so we tend to find modern plastic boxes, grounded cable and attics we can walk. Houses from the 1960s and 1970s, about a fifth of the town, take more care. Our electrician sizes up each box first, and the quote is locked in writing well ahead of any ladder work.',
-  emergencyParagraph:
-    'Tell us right away about a foyer fixture swinging on its stem, a dimmer giving off a hum and heat, or brown scorching around a canopy. Shut off that breaker if it’s easy to reach, and keep kids clear below. Any smoke or flame means getting out and phoning 911. Same-day visits happen on most calls, weekends too.',
   commonIntro:
     'Across the subdivisions in Independence, these four light fixture jobs fill most of our calendar.',
   localFaqs: [

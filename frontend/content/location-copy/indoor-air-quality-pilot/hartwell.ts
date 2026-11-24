@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell is a renting neighborhood. Census figures show close to two thirds of homes here are rented, and the median building dates to 1949, with a third from 1939 or earlier. In the older houses and doubles, damp basements and worn ducts are the usual sources of musty, dusty air. In the larger apartment buildings, the owner or manager decides on equipment. We test first, set a price before any work and tell you plainly if a new filter is all it takes.',
-  emergencyParagraph:
-    'At a carbon monoxide alarm, get everyone out and call 911 from outside. Leave right away if you smell gas, keep away from switches and call Duke Energy outside. Turn the furnace or AC off at the thermostat if it smells burnt. Mold spreading after a leak hurts babies and asthmatic lungs first. Most calls get same-day service, weekends included.',
   commonIntro:
     'In older doubles, single houses and apartment buildings across Hartwell, poor air tends to show itself this way:',
   localFaqs: [

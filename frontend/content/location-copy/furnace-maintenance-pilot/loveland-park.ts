@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'Loveland Park has old river-lot houses alongside much newer ones. Census figures put 37.1% before 1960, many on lots handed out with newspaper subscriptions in the 1920s, and gas heats just 25.8%. Electricity, heat pumps included, is more common, and some older places still burn fuel oil. In the old houses a replacement furnace usually sits in a low basement, so venting gets scrutiny. Newer ones need the ordinary filter, blower and safety pass. Price first, and plain words if nothing needs work.',
-  emergencyParagraph:
-    'These jump the tune-up queue. Gas odor: get out, flip no switches, relight nothing, call the gas company from the road. Carbon monoxide alarm: everyone leaves first. Also no heat in a cold snap, a furnace stuttering off and on, or a weak yellow flame. Babies, older parents and the unwell feel it fastest. Most are same day, weekends included.',
   commonIntro:
     'From the 1920s river lots to the recent builds, here is what usually prompts a booking in Loveland Park:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Most houses in Fort Thomas are older than they look from the street. Census figures put the median at 1955, roughly a third were built before 1940, and close to six in ten predate 1960. That means drafty rooms, basements that stay damp on the hillsides, and ductwork added long after the house went up. Most people here own, so the call is theirs. We test before we suggest anything, price the job flat, and say plainly when a fresh filter is all you need.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means getting people out before you ring 911. A gas smell means walking out, switches untouched, then calling the gas company. If the furnace or AC smells of burning, set the thermostat to off. Mold spreading after a leak is hard on babies, older relatives and asthma. We reach most calls the same day, weekends too.',
   commonIntro:
     'In the prewar houses near the old Army post and the 1950s streets beyond them, these are the usual complaints.',
   localFaqs: [

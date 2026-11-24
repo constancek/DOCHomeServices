@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Melbourne at 1958, and almost a third were built in 1939 or earlier. Nearly every one is a detached house with its owner living in it. Back then a bathroom got a window, and the fan came decades later, installed by whichever owner got tired of wet walls. Many of those added fans exhaust into the attic or a stud bay rather than outside. Before we open any plaster, you get our findings on the airflow and a price.',
-  emergencyParagraph:
-    'Flip the fan off at its switch or breaker, when that’s safe, the moment you smell burning or see a browned cover, sparks or smoke. A breaker that keeps tripping with the fan, or water leaking from the grille, is urgent too. Fire or smoke means getting out and calling 911. Most calls here are same-day, weekends included.',
   commonIntro:
     'In the older houses and the handful of newer ones in Melbourne, owners usually spot one of these four things.',
   localFaqs: [

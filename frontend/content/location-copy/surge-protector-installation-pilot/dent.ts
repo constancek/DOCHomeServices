@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Dent leans new, with a median build year of 1995 in Census figures and more than four in ten homes finished after 2000. Houses that young come stuffed with what a surge can fry, including heat pumps, central air, smart thermostats, doorbell cameras and appliances that run on boards. About one home in four sits in a building of five or more units, where an association may own the panel decision. Expect a look inside the box first, a plain word if strips would do, and a price before work.',
-  emergencyParagraph:
-    'A wall plate that’s scorched, a panel that smells hot, a breaker popping again once reset, or an appliance that smoked when power returned all mean calling us. If the lights flare and sag through the whole house, Duke Energy hears from you first. Should smoke or fire appear, get out and dial 911. Same-day help is usual, weekends too.',
   commonIntro:
     'In Dent, where so many houses, townhomes and condos went up after 2000, these are the signs owners bring up most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Spa wiring in Forest Park is a single 240-volt circuit run for the tub and nothing else, with GFCI protection, a shutoff mounted where the bather sees it but can’t touch it from the water, and bonded hardware around the tub. Census figures show the median house went up in 1969, and well over half were built in the 1960s and 1970s. A box from that stretch may already be full, so that gets solved first. We compare it to the spa’s requirements and quote before conduit goes in.',
-  emergencyParagraph:
-    'In Forest Park, a spa breaker that snaps off the instant you reset it, or a hot-smelling shutoff, needs a quick call. When somebody feels a tingle, everyone climbs out and nobody touches the spa. Reach for the breaker only if that’s safe, and treat smoke or flames as a 911 call. We usually arrive the same day.',
   commonIntro:
     'Forest Park was mostly built out in the 1960s and 1970s, and in those houses and the city’s townhouses, these four problems usually start a spa job.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Riverside is mostly renters and mostly apartments. Census figures count 326 of 533 occupied homes as rented, and 199 units sit in buildings of ten or more, so the equipment decision usually belongs to an owner or manager. The 142 houses from before 1940 tend to be drafty, with basements prone to damp. In the 1970s blocks, smells can drift between neighbouring units. We test first, quote a flat price per fix once the readings are in, and tell you if a fresh filter will do.',
-  emergencyParagraph:
-    'Empty the apartment the moment a carbon monoxide alarm shrieks, and call 911 from the street. Gas you can smell gets the same response, no switches touched, and the gas company phoned outside. Burning smells from a vent mean setting the thermostat to off. Babies and tenants with asthma suffer soonest. Most calls are seen same day, weekends included.',
   commonIntro:
     'For tenants, owners and managers along River Road in Riverside, these are the usual reasons we get called:',
   localFaqs: [

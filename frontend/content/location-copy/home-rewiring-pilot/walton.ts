@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton is two towns as far as wiring goes. Census figures show roughly one home in five predates 1960, yet more than half were built in 2000 or later. The older group may still carry cloth-covered wire, ungrounded two-prong receptacles, or too few lines for a working kitchen. Owners in the newer group mostly ask about an addition, a remodel, or one circuit acting up. We test before suggesting work, tell you when it’s fine, and put the scope and a flat figure on paper before anything gets cut.',
-  emergencyParagraph:
-    'Some things can’t wait in Walton. A smell of charring from a receptacle, a cover plate too warm to touch, a breaker that kicks off again on reset, or a tingle from an appliance gets a same-day visit, weekends too. Cut the circuit only from dry footing at a cool panel. With smoke or fire, leave and dial 911.',
   commonIntro:
     'Between the old streets in the center of Walton and the subdivisions around them, these are the signs we hear about.',
   localFaqs: [

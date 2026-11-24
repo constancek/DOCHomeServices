@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'On the slope above the Mill Creek valley, most houses in North Fairmount are pre-war; Census figures date 63.9% to 1939 or earlier. Nobody framed them with cooling in mind, so plaster walls and cramped attics leave little room for a duct. Mounting a head on an outside wall and running a short line set gets around all of that. About half the homes are rentals, where owners make the decision. Your price is settled first, and if ductless won’t serve the house, we say so.',
-  emergencyParagraph:
-    'Our July normal high is 86F, per the National Weather Service, and an upstairs room with one small window traps it. Seniors, infants and people with lung or heart conditions are the ones at risk. Installs get scheduled soon, one head usually in a day. A system that has died is Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Up and down the hillside, these are the conditions that most often have owners asking us for a ductless estimate in North Fairmount:',
   localFaqs: [

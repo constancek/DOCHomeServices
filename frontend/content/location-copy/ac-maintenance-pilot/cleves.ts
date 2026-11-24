@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Detached houses make up 85.3% of homes in Cleves by Census figures, so a tune-up here usually means a yard, a condenser out back and a basement. The median house went up in 1972, built with ducts meant for cooling, which keeps the job straightforward. The older quarter of the village, 26.0% built in 1939 or earlier, is another story, since air arrived later through long, cramped runs. You hear the figure before we open a panel, and if the system is in good shape, we say so.',
-  emergencyParagraph:
-    'Some days need a repair truck, like the AC blowing warm in a heat wave or frost on the suction line, when you should flip the thermostat to off and let it melt. A scorched smell means off it stays. Elderly parents, babies and anyone sick suffer fastest; we come the same day on most jobs, weekends included.',
   commonIntro:
     'One of these usually starts a spring booking for a house in Cleves.',
   localFaqs: [

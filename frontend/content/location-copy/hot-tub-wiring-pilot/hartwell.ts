@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Half the houses in Hartwell were standing by 1949, Census figures show, and one in three predates 1940. Breaker boxes from those decades tend to be crammed, or show a blank with nothing spare behind it, and that gets fixed first. Your tub rides on a dedicated 240-volt GFCI circuit, with a disconnect in the bather’s view and the nearby metal bonded. Roughly two in three units here are rented, so landlords tend to book us. We quote after holding your panel up to the spa maker’s sheet.',
-  emergencyParagraph:
-    'It’s urgent if a spa GFCI snaps off the moment you reset it, the panel hums, the disconnect has gone brown, or a bather feels a tingle. Everyone climbs out. The spa breaker goes off only if nobody has to lean over the tub, and smoke or flames mean 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'In the older houses and two-families around Hartwell, these signs come up most.',
   localFaqs: [

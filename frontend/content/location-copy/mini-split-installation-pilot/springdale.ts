@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'By Census figures, the typical house in Springdale was built in 1971, and builders of that era usually ran ducts. So the ductless call here is about a room the ducts shortchange, like a family room out back, a finished lower level or the bedroom at the tail end of a long trunk line. Condos and apartments fill much of the city, and with 40.9% of homes rented, an owner usually signs off. We settle the price before drilling and tell you if ductless isn’t the answer.',
-  emergencyParagraph:
-    'A 1970s family room addition in Springdale can bake on the roughly 21 days a summer that hit 90F, by National Weather Service counts. Infants, grandparents and the short of breath take it hardest. We fit installs in quickly, and one head is a one-day install. For an existing mini-split, Mini-Split Repair comes same day on most calls, weekends included.',
   commonIntro:
     'Around the 1960s and 1970s houses and apartment buildings of Springdale, these bring us out for most ductless quotes:',
   localFaqs: [

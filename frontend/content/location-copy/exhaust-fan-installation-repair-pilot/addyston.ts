@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'Addyston was founded as a company town, and the small houses on Main, Church and Sekitan Streets date to before 1930, when nobody planned for a bath fan. Census figures give 1965 as the typical build year across the village. Older bathrooms here tend to have a window, a fan someone cut in later, or a fan whose duct dead-ends above the ceiling. Renters occupy most homes, so owners make the call. Our electrician traces where that air really goes and names a price before a single ceiling cut.',
-  emergencyParagraph:
-    'Hot-plastic odor, a blackened housing or a breaker that flips the moment the fan starts all call for cutting it off at the switch or panel, provided that’s safe. So does a grille leaking water. Smoke or flame means leaving the house and phoning 911. Our crews reach most calls in the village the same day, weekends too.',
   commonIntro:
     'Along Main and Church Streets, in company houses and rentals alike, people in Addyston tend to spot these first:',
   localFaqs: [

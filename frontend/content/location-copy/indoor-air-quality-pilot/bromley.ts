@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Moisture drives most air quality work in Bromley. More than half of homes here went up before 1940 by Census figures, and the city sits on low ground by the Ohio, where in April 2025 the mayor estimated 20 to 30 basements flooded. An old cellar that has taken river water tends to stay damp and musty, so a dehumidifier and filtration that traps mold spores are the usual fixes. The readings come first, the quote comes before any work, and if a filter swap does it, we’ll tell you.',
-  emergencyParagraph:
-    'A carbon monoxide alarm or a smell of gas sends the household outside, switches left alone, to call 911 or the gas company. Kill a furnace or AC that smells of burning at the thermostat. Mold spreading after a leak is urgent for babies, older relatives and anyone with asthma. Most calls get same-day help, weekends included.',
   commonIntro:
     'Down by the river in Bromley, people usually call us about one of these:',
   localFaqs: [

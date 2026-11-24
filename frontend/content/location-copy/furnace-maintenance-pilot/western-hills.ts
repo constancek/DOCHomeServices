@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'In Western Hills, the furnace we tune up is usually gas and sits in the basement of a house from the postwar years; Census figures place 25.5% of homes in ZIP 45238 in the 1950s alone. Many of those basements have swapped furnaces two or three times but kept the chimney they started with, so the draft at that chimney and the heat exchanger take most of our attention. You’ll know the cost before a tool comes out, and if there’s nothing to fix, that’s what we report.',
-  emergencyParagraph:
-    'Repair, not tune-up: Smelling gas, walk out, touch no switch or pilot, and ring the gas company from the yard. With a carbon monoxide alarm sounding, people out before anything. A furnace dead in a freeze, stop-start running, or a flame burning yellow, too. Babies and grandparents chill fastest; most get a same-day visit, weekends too.',
   commonIntro:
     'The furnace in Western Hills is usually in a 1950s basement, and owners book a visit after noticing:',
   localFaqs: [

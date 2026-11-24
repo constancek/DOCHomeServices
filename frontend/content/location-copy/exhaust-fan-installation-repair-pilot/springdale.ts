@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Plenty of bathroom fans in Springdale are as old as the houses they came with. The Census puts the city’s median home at 1971, and roughly half the homes date from the 1960s and 1970s. A fan that age has usually lost its pull, rattles in its metal can, and may never have been ducted beyond the attic. Renters fill two of every five homes, many of them townhouses and apartments. We check what the fan moves and where it lands, then quote a flat price first.',
-  emergencyParagraph:
-    'Get us out today if the fan smells scorched, its grille has melted or yellowed, or it sparks or smokes. A breaker tripping with every start, or water dribbling from the fan, also qualifies. Flip it off where you safely can. For smoke or flames, go outside and call 911. We come same day on most calls, weekends included.',
   commonIntro:
     'In the split-levels, ranches and townhouses across Springdale, the call usually starts with one of these four.',
   localFaqs: [

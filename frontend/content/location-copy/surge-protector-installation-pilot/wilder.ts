@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'Most of Wilder was built in the 1980s and 1990s, and Census figures show well over half its homes in buildings of five or more units, yet four households in five own. Electric heat is the norm, so a heat pump’s control board often shares a load center with the air conditioner. In a condo, that load center can be cramped, which is why we inspect it before pricing a surge unit. If outlet strips would cover you, we’ll say so, and the quote is settled first.',
-  emergencyParagraph:
-    'If a receptacle smells scorched after a storm, ring us. When lights across the whole unit swell and fade together, call Duke Energy Kentucky first. Switch off the affected circuit only with dry hands and no hot surfaces nearby. Smoke or flames mean leaving the building and phoning 911. We handle most calls same day, weekends included.',
   commonIntro:
     'In Wilder’s condos, apartment buildings and houses, these are the warning signs people mention most.',
   localFaqs: [

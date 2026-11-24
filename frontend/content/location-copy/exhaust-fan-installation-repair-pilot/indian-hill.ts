@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Indian Hill is a detached, owner-occupied house, and Census figures put the median build year at 1974, with roughly a third built before 1960 and about a fifth since 2000. That spread shows up inside single houses. One bathroom has its original fan, another got a fan during a remodel, and a third has none. Large attics also mean long duct runs that sag or come apart. We follow each fan’s duct to where it ends and quote the work before cutting into a ceiling.',
-  emergencyParagraph:
-    'Act fast on a scorched or electrical smell, a cover that has discolored or warped, sparks, smoke, a breaker that won’t reset with the fan on the circuit, or water through the grille. Shut it off at the switch or panel if that’s safe. Smoke or flames mean leave and dial 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'In houses of every era across Indian Hill, from the older homes near Shawnee Run Road to the newer builds, these are the usual reasons we get called:',
   localFaqs: [

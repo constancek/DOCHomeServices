@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Dining room chandeliers are the request we get most in Spring Grove Village, the old Winton Place, and the box above the table decides how the job goes. By Census count just over half the homes on streets like Winton Road and Epworth Avenue predate 1940, with a median of 1938, and two in three are detached houses. Those plaster ceilings often hold small boxes never meant for a heavy piece, sometimes without a ground. We inspect it, explain what it needs and quote before anything comes down.',
-  emergencyParagraph:
-    'Some fixture trouble can’t sit overnight, including a ceiling light separating from the plaster, a scorched smell near a switch, or flickering in several rooms. Cut the breaker if it’s safe, and keep children and pets clear. If there is smoke or fire, leave and dial 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Around Spring Grove Village, these four jobs fill most of our light fixture calendar.',
   localFaqs: [

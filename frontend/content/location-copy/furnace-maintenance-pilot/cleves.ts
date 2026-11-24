@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Gas and electricity run almost neck and neck in Cleves, 48.6% against 43.3% by Census figures, and the electric side counts heat pumps and baseboard as well as furnaces. Most homes are detached and date from the 1960s or later, which usually puts the furnace in a roomy basement or utility room. About one house in four predates 1940; on those we spend longer at the brick chimney and the heat exchanger. Our quote comes before any tool does, and if your furnace is fine, we leave it at that.',
-  emergencyParagraph:
-    'If gas hangs in the air, the house empties, nobody touches a switch or pilot, and someone rings the gas company from next door. A carbon monoxide alarm also empties it. Repairs too: a furnace blowing cold in a hard freeze, endless restarts, a sleepy yellow flame. Infants and grandparents feel a cold house first. Same-day on most, weekends included.',
   commonIntro:
     'The furnaces we see in Cleves are mostly in detached houses built after 1960. Bookings usually start from one of these:',
   localFaqs: [

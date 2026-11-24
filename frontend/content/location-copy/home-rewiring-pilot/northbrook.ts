@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'About half the homes in Northbrook were built in the 1960s and 1970s, the Census median being 1970. Houses from those years may carry aluminum branch wiring, which swells more than copper and creeps loose at receptacles and switches until the plates run warm. The 1940s and 1950s houses often lack enough circuits for a modern kitchen, and heat pumps or electric furnaces pile on more load. Nothing is quoted until we’ve tested, and if the wiring holds up we say so, with scope and fixed price written down first.',
-  emergencyParagraph:
-    'A warm or discolored receptacle, a crackling switch, a burning smell you can’t place or a breaker that drops right after a reset should be looked at the same day. Turn that circuit off only if you can do it without touching anything wet or hot. Smoke or fire means getting the family out, then calling 911. Weekends are covered.',
   commonIntro:
     'Across the 1960s and 1970s houses near Colerain Avenue and Pippin Road, wiring trouble tends to surface in one of these forms:',
   localFaqs: [

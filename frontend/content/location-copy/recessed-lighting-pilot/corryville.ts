@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Just east of the University of Cincinnati, recessed lighting jobs in Corryville, for the most part, come from owners and property managers, because Census figures show nearly every unit here is rented. Buildings fall into two camps. About a third went up before 1940, old houses near Short Vine with plaster and a thin gap under the upper floor. Roughly two in five date from 2000 or later, big apartment blocks with drywall and rated ceilings between floors. Whichever you own, each can is marked and priced before we cut.',
-  emergencyParagraph:
-    'If a tenant reports a downlight that smells scorched, a brown halo on the ceiling or water dripping out of a can, don’t wait for move-out. Shut off that circuit at the breaker if it’s safe, and if there’s smoke or flame, everyone leaves and someone calls 911. Most calls in Corryville get a same-day visit, Saturdays and Sundays included.',
   commonIntro:
     'Here, most jobs land either in old houses off Short Vine or inside units in the newer blocks. These come up most in Corryville.',
   localFaqs: [

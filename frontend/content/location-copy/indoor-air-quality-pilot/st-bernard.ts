@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'St. Bernard was built up around Ivorydale on low Mill Creek ground, and basements there can hold damp because of it. Census figures put the median home at 1955, with about a third built before 1940, so drafts and old ductwork carrying dust are common too. Roughly one home in six is in a two-unit building, and owners of a double usually decide for both sides. We test the air before suggesting anything, fix the price ahead of the work, and say so when a filter change will do.',
-  emergencyParagraph:
-    'Once a carbon monoxide detector sounds, get the whole house out and phone 911 outside. Gas you can smell means leaving without touching switches and calling the gas company outside. A scorched furnace or AC smell means setting the thermostat to off. Mold after flooding is urgent for asthmatics, infants and grandparents. We’re usually out that day, weekends too.',
   commonIntro:
     'In the doubles and older houses of St. Bernard, these are the signs owners and tenants bring to us.',
   localFaqs: [

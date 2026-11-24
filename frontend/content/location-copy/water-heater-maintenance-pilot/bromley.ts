@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Bromley is small, 389 homes by Census figures, and 51.7% of them were standing by 1939. Almost every one is a detached house, so the heater lives in a basement close to the river, beside old venting and a gas line, with a drain valve that may have sat untouched for years; we work it gently before flushing. Gas is common in town. Newer houses go faster. Either way you hear the price before we begin, and if the tank isn’t worth a service, we’ll tell you.',
-  emergencyParagraph:
-    'In Bromley, these mean repair. Water pooling from the tank: crank its top cold valve shut, then kill gas or power. A whiff of gas: get out, let switches and pilot be, ring the gas company from the yard. Carbon monoxide detector going: everybody outdoors first. Nonstop relief-valve spray or a dead-cold faucet too; most get same-day help, weekends included.',
   commonIntro:
     'These usually bring us to a working water heater in Bromley:',
   localFaqs: [

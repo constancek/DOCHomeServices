@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Clifton is old housing and many renters, and both shape the air. Census figures show 2,799 of 4,500 homes were built in 1939 or earlier, and most households rent. Big old houses near Ludlow Avenue have loose windows, basements that sweat in August and ductwork added long after the plaster. In the apartment buildings, the owner or manager decides on equipment, so we work with them. We test before recommending anything, quote a set price, and tell you plainly if a filter is enough.',
-  emergencyParagraph:
-    'If a carbon monoxide alarm sounds, everyone leaves and someone calls 911 outside. With gas in the air, walk out without switching anything and call the gas company. Shut a furnace or AC smelling of burning off at the thermostat. Spreading mold after water damage hits asthma, babies and elderly residents hardest. Most calls are same day, weekends included.',
   commonIntro:
     'From century-old houses off Clifton Avenue to apartment blocks near the university, these are the four we see most.',
   localFaqs: [

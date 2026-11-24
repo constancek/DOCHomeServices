@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'In Pendleton, most bathroom fan trouble comes from age. Census figures put 558 of the 694 homes at 1939 or earlier, and most of the rest went up after 2010. The older rowhouses and multi-unit buildings often had bathrooms fitted in later, with a fan that ends in a wall or an attic space. The newer units have fans that may be too small for the room. Most households rent. Before any plaster comes down, our electrician checks the airflow and sets the price.',
-  emergencyParagraph:
-    'In Pendleton, act on a scorched smell, a blackened or warped housing, sparks, smoke, a breaker tripping with the fan, or water running out of the grille. Shut the circuit down at the panel if you can get there safely. When there’s smoke or fire, clear the building and dial 911. Expect same-day service on most calls, weekends included.',
   commonIntro:
     'In the rowhouses and older flats between Liberty and Sycamore, these signs bring most of our calls:',
   localFaqs: [

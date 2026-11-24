@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was laid out by John Nolen in the 1920s, and by Census figures the median home dates from 1945, with the 1940s and 1950s filling in most of the rest. Panels in houses that age are often cramped, so we open yours before saying where a protector fits. Many now run central air and modern kitchens, and a fair share of residents live in townhouses and apartments. You’ll hear it if strips would do, and the price comes first.',
-  emergencyParagraph:
-    'A scorched outlet, a burnt-plastic smell in a room, or a breaker that refuses to reset deserves a call that day in Mariemont. Turn that circuit off only if the panel sits somewhere dry. If smoke or flames appear, get everyone onto the sidewalk and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'In Mariemont, where most homes predate 1960 and many now carry modern equipment, these signs usually start the conversation.',
   localFaqs: [

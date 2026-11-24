@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Terrace Park is a village of single-family houses, most from before 1960. The Census median year built is 1954, and 25.6% of homes predate 1940, so many went up long before central air was common. A ductless head cools a second floor or a converted attic without opening plaster or a finished ceiling. In the newer houses the job is usually an addition or a porch turned into a room. You approve the price first, and we’ll tell you if ductless isn’t right for the house.',
-  emergencyParagraph:
-    'An attic bedroom in Terrace Park holds heat well after dark, and National Weather Service records show about 21 days a year at 90F or hotter. That is hardest on an aging parent, a baby or anyone sick. Install waits are short. Broken units go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the pre-war and mid-century houses of Terrace Park, a ductless quote usually begins with one of these:',
   localFaqs: [

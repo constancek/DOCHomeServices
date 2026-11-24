@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'Off Queen City and Harrison Avenues in South Fairmount, most houses predate 1940, and Census figures date the typical one to 1938. An old panel there is often packed, with no slot or spare amperage for the tub, so we fix that first. After it come the 240-volt run with ground-fault protection, a cutoff box the bather can see but not reach, and a bonding wire tying the tub’s metal. You’ll have the panel checked against the spa’s data plate and a firm price before a trench is dug.',
-  emergencyParagraph:
-    'If a tub knocks its GFCI off right after a reset, the cutoff box shows a scorch mark, or the water tingles, get the bathers out and leave the controls be. Throw the breaker only if you’re dry and can reach it safely. Smoke or flames mean leave and dial 911. Same-day help reaches most calls, weekends included.',
   commonIntro:
     'Rentals outnumber owner homes in South Fairmount, and doubles sit between the single houses, so spa calls here start in a handful of familiar ways.',
   localFaqs: [

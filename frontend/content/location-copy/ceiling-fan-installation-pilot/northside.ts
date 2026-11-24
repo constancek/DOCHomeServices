@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'In Northside, the plaster tells us most of what a fan job will take. Of the 4,737 homes Census figures count here, 2,714 were built in 1939 or earlier, back when the metal box over a bedroom light only had to hold a glass shade. A spinning fan pulls and twists on that box every time it runs. Our first step is opening it up. If snugging a few blade screws stops the wobble, you’ll hear that, and the price is settled before any old fixture comes off.',
-  emergencyParagraph:
-    'A fan swinging so hard its canopy shifts, a scorched-smelling motor, or a wall switch that crackles should be dealt with today. Kill power at the switch or breaker if that’s safe, and clear everybody from beneath it. If you see flames or smoke, get out and phone 911. We reach most calls that same day, Saturdays and Sundays too.',
   commonIntro:
     'Houses from before 1940, plaster under decades of paint and a fair number of rented flats explain most of the fan calls from Northside.',
   localFaqs: [

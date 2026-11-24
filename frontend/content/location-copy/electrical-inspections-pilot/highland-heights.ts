@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Highland Heights usually means a family house from the 1970s or 1980s, or an apartment near Northern Kentucky University. The Census puts the median home here at 1985, so most wiring is grounded, but many panels were sized before EV chargers and all-electric kitchens. Electric heat runs in 65.2% of homes, and in January that load sits on the same panel. You get every finding on paper, and a price for each fix before anyone picks up a tool.',
-  emergencyParagraph:
-    'A few Highland Heights warnings need a technician today: an outlet face that’s brown or hot, a switch that crackles, a smell like melting plastic, sparks, or a breaker that won’t hold even once. Leave that breaker off. Smoke or fire means get out of the building and call 911. Same-day help on most calls, weekends included.',
   commonIntro:
     'Highland Heights has two kinds of housing: family homes from the 1970s and 1980s, and apartment buildings, many of them near campus. Here’s what we find most often:',
   localFaqs: [

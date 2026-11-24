@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'By Census figures, all but a sliver of the housing stock in Camp Washington is from before 1940, and renters fill roughly four of every five units, mostly two-families and small walk-ups. Their ceiling boxes were hung for a glass globe, not a spinning, tugging load. The Oesterlein lofts on Monmouth flip that, with ceilings high enough that a down rod is a given. We look in the box ahead of any quote, say if balancing settles it, and agree the price before anything comes down.',
-  emergencyParagraph:
-    'A fan thrashing on its rod, a box pulling out of the plaster and smoke from the motor all need help today. Cut it at the switch or breaker if you safely can, and keep people from standing under it. Renters should tell the manager. If anything is burning, leave and call 911. We’re usually there same day, weekends included.',
   commonIntro:
     'Most buildings here went up before 1940, and these four fan problems are the ones tenants and owners raise most often.',
   localFaqs: [

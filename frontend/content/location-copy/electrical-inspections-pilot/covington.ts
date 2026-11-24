@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Covington has some of the oldest houses we inspect. Census figures count 44.0% of its homes as built in 1939 or earlier, with a median year of 1947, and many of the brick rowhouses near the rivers go back to the 1800s. Behind those plaster walls we still find knob-and-tube runs, fuse boxes and outlets with no ground. Nearly half the city rents, so landlords book us as often as buyers do. We test the whole system and price repairs before anything starts.',
-  emergencyParagraph:
-    'Don’t sit on these until a booked visit: a switch that hums or feels warm, soot marks on an outlet, a burning smell, sparks, or a breaker that kicks off again right after a reset. Turn that one off. With smoke or fire, everyone out first, then 911. In Covington most of these get same-day help, weekends included.',
   commonIntro:
     'In Covington’s rowhouses, two-families and apartment buildings, these are the findings we write up most:',
   localFaqs: [

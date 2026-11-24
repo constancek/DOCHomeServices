@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Most houses in Pleasant Run were built between 1960 and 1979, Census figures show, and a smaller wave of houses has followed since 2000. Either way, the ductwork was planned with cooling in mind, so a spring visit here rarely means chasing a cramped retrofit. What we do find is a condenser that has spent years taking mower spray along a lawn edge, and almost as many heat pumps as gas furnaces. One flat price comes before any tools, and if nothing is wrong, you hear exactly that.',
-  emergencyParagraph:
-    'A house in Pleasant Run that stays hot through a heat wave needs AC Repair, and so does a copper line growing frost; flip the thermostat to off until the ice melts. If you smell burning or the breaker keeps flipping, leave it off. Grandparents and newborns struggle soonest. We usually reach you the same day, weekends too.',
   commonIntro:
     'For owners in Pleasant Run, most tune-up calls start with one of these.',
   localFaqs: [

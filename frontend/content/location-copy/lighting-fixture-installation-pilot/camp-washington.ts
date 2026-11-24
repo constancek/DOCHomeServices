@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Down by the Mill Creek, Camp Washington is mostly old rental buildings, so light fixture jobs here usually come from landlords working through stairwells, shared halls and one kitchen after another. Census figures date nearly nine in ten homes to before 1940, and around four households in five rent, many in doubles and small multi-unit buildings. Plaster ceilings and boxes without a ground are the norm. Each box gets opened and its wiring tested before we write up a price, and nothing comes down until the owner agrees to it.',
-  emergencyParagraph:
-    'A stairwell light hanging off the plaster, a hallway switch hot under a tenant’s hand or a scorched-smelling fixture should be dealt with today. Turn off that circuit if it’s safe, and keep residents from passing beneath it. Smoke or fire means clearing out and calling 911. In Camp Washington, most calls get a same-day visit, weekends as well.',
   commonIntro:
     'In the doubles and small apartment buildings of Camp Washington, the fixture work usually looks like this.',
   localFaqs: [

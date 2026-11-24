@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Most houses in Wyoming are older than central air, so the system you have was fitted in afterward. By Census figures the median home was built in 1954, and nearly a quarter go back to 1939 or earlier. That usually means ducts snaking through closets, an air handler in the attic or a corner of the basement, and a condenser squeezed beside the house on a narrow lot. Those are the spots we check hardest. You hear a fixed price first, and if your AC is fine, we say so.',
-  emergencyParagraph:
-    'No cooling in a heat wave, or ice along the lines, means a repair; switch the AC off to thaw. A water stain spreading across a plaster ceiling, or a breaker that refuses to stay on, can’t wait either. Older relatives tire fastest in heat. Most calls get us there the same day, weekends included.',
   commonIntro:
     'Owners usually call us for a spring check in Wyoming after noticing something like this.',
   localFaqs: [
@@ -29,7 +27,7 @@ export const wyoming: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in Wyoming',
-        body: 'First, a dirty filter is replaced. Up in the attic or down in the basement, we inspect the evaporator coil, flush the condensate drain and look for rust or water in the pan, which is what keeps plaster dry. Outside in the side yard, the condenser coil is washed and the hedge trimmed back far enough for air to move. Gauges read the refrigerant; low numbers mean a leak, quoted as a repair and never just refilled. The capacitor and contactor are tested and connections tightened, airflow to the far rooms measured, the thermostat checked, and a full cooling run done. You approve repairs first.',
+        body: 'A clean filter goes in first. Then we climb to the attic, or go down to the basement, to check the evaporator coil, flush its drain and make sure the pan is dry and free of rust, which keeps the plaster below dry. In the side yard, we rinse the condenser coil and cut the hedge back so the unit can breathe. Low refrigerant readings point to a leak, which we price as a repair instead of recharging. We test the capacitor and contactor, tighten connections, measure airflow to the back rooms, try the thermostat and run a complete cooling cycle. Nothing is repaired before you agree.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
@@ -37,7 +35,7 @@ export const wyoming: LocationServiceCopy = {
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Wyoming',
-        body: 'Gas heats 86.9% of homes in the city, Census figures show, so the usual setup is a gas furnace with a separate central air conditioner. That AC only runs in summer, and one spring visit covers it. The handful of heat pumps here run year-round and need a fall visit too, for the reversing valve and defrost controls. Ductless mini-splits get their heads and filters cleaned.',
+        body: 'Census figures put gas heat in 86.9% of homes in Wyoming, so most houses pair a gas furnace with a central air conditioner that only works through the summer. That pairing needs us once, in spring. The few heat pumps in town heat as well as cool, so they get a second visit in the fall, when we test the reversing valve and defrost controls. A ductless mini-split gets its heads and filters cleaned.',
       },
     ],
     whyTitle: 'Why Homeowners in Wyoming Book AC Maintenance With Us',
@@ -46,15 +44,15 @@ export const wyoming: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does AC maintenance cost in Wyoming?',
-        a: 'It’s quoted as one flat figure before we start. The system type and the climb to reach it decide the number; an attic hatch above a closet takes longer than a basement corner. Anything we find needing a part comes with a separate price, and nothing happens until you agree.',
+        a: 'You’ll have one flat number before any work. What sets it is the kind of system and how hard it is to get to; a closet ceiling hatch into a hot attic slows us more than a unit by the basement stairs. If a part needs replacing, we price it on its own and wait for your answer.',
       },
       {
         q: 'How often should an AC be serviced, and in what season?',
-        a: 'A single yearly visit, in spring ahead of the hot stretch when there’s no wait. The National Weather Service counts about 21 days a year at 90F or higher around Cincinnati, and an attic unit nobody has checked is the one that gives out on them. Heat pumps need fall service too.',
+        a: 'Once a year, and book it in spring, before summer, while the calendar is still open. About 21 days a year reach 90F or higher by National Weather Service records for Cincinnati, and those are the days an unchecked attic unit tends to quit. A heat pump should also be seen each fall.',
       },
       {
         q: 'Which parts of AC maintenance can I do myself?',
-        a: 'Change a dirty filter, cut back hedges and leaves from around the condenser, keep registers and returns uncovered and refresh the thermostat batteries. Don’t remove the condenser’s covers or handle the refrigerant tubing; leave those to us.',
+        a: 'A dusty filter can be swapped, the side-yard hedge clipped back a good arm’s length from the condenser, the registers and returns left uncovered and the thermostat given new batteries. The condenser’s covers and its refrigerant tubing stay shut and untouched until we’re there.',
       },
     ],
   },

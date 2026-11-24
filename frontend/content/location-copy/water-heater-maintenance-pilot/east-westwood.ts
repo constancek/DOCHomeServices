@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Census figures show 75.9% of homes in East Westwood are rented, with the median building from 1958. That makes most of our work here landlord work. Apartment buildings account for 39.7% of units, often with a closet heater in each flat sitting over a drain pan, and owners tend to book a whole building at once. The 1950s houses usually keep a basement tank whose drain and venting deserve attention. Every owner sees the price before we begin, and we’ll say so when a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Water escaping the tank means repair: crank the cold-water valve closed, then cut the breaker or gas. Gas smell: leave the unit, skip every light switch, phone the gas company outdoors. Carbon monoxide alarm: all out first. Constant relief-valve discharge or no hot water also means repair. Tenants, alert your landlord. Same day on most calls, weekends included.',
   commonIntro:
     'Owners and landlords in East Westwood tend to call after one of these:',
   localFaqs: [

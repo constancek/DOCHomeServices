@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Mount Carmel is built mostly of houses from the 1940s through the 1970s, a 1973 median by Census figures, plus apartment buildings. A furnace in one of those houses lives in the basement or a utility room and is often the second or third the house has had, so we pay close attention to how its vent joins the old flue and to the heat exchanger. About 38.7% of homes are rented. Gas heats close to half. We quote first and say if nothing is needed.',
-  emergencyParagraph:
-    'Treat a gas smell as an evacuation: everyone out, no light switches, and the gas company dialed from the curb. Same with a carbon monoxide alarm. A furnace dead during a cold snap, chattering through short cycles, or burning lazy and yellow is a repair job. Toddlers and elderly parents feel it soonest. Most get same-day help, weekends included.',
   commonIntro:
     'In the older houses and rental buildings of Mount Carmel, a fall visit usually follows one of these:',
   localFaqs: [

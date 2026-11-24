@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Cold Spring has mostly young houses. Census figures put 47.5% of homes at 2000 or newer, and many are attached townhomes, so the furnace is often a builder’s model in a basement or a utility closet. On equipment that new, the tune-up is mostly cleaning and testing: filter, blower, burners, safety switches. Gas runs 48.2% of homes and electricity slightly more, heat pumps counted in. We name the flat price first, and if the furnace is fine, we say so and pack up.',
-  emergencyParagraph:
-    'Gas smell: leave, don’t work a switch, and dial the gas company from the yard. Carbon monoxide detector going off: people out first. Beyond a tune-up: a dead furnace in sharp cold, a burner that cycles on and off nonstop, or a flame gone yellow. Urgent with a baby or elderly parent at home. Most get same-day help, weekends too.',
   commonIntro:
     'Owners living in their own houses and townhomes in Cold Spring tend to call us for these:',
   localFaqs: [

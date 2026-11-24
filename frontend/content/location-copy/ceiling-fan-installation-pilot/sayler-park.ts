@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Sayler Park has more old houses than most of the west side, and their age drives ceiling fan work here. By Census figures, roughly half the homes predate 1940, and very few went up after 2000. Above those plaster ceilings sits a box set for a hanging light, not a fan, and many rooms have never had a fan at all. That box is the first thing we inspect. If tightening the mount is all yours needs, we tell you, and you approve the price before the fixture comes off.',
-  emergencyParagraph:
-    'Some fan trouble in these westside houses can’t wait, such as wide swinging, a box creeping out of old plaster, motor smoke, or a breaker that trips at start-up. Kill power at the toggle or panel if safe and keep everyone well back. Fire means out the door and 911. We’re usually there that day, weekends too.',
   commonIntro:
     'In older houses tucked between the hillside and River Road, the same four signs keep leading owners to a new fan in Sayler Park.',
   localFaqs: [

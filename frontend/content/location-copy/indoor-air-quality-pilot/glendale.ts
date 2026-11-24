@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Glendale was laid out in 1851, and Census figures show over half its homes were built before 1940. The Italianate and Second Empire houses in the historic district tend to be drafty and damp below, with ducts squeezed in long after construction. Nearly every household owns its home, so the decision is yours. We start with an air test, give you a flat price before anything goes in, and tell you honestly when a clean filter solves it.',
-  emergencyParagraph:
-    'Take everyone out when a carbon monoxide alarm sounds, then phone 911. With a gas smell, leave without a switch flipped and call the gas company. A burning odor from the furnace or AC means the thermostat goes off. Spreading mold after a leak hurts infants, grandparents and asthma most. We answer most calls the same day, weekends too.',
   commonIntro:
     'In the nineteenth-century houses along the curving streets and the newer homes at the edges of the village, these are the usual signs.',
   localFaqs: [

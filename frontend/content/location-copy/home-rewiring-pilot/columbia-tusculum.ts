@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Columbia-Tusculum holds some of the oldest houses in Cincinnati, and plenty were wired before anyone grounded a circuit. Across the wider area, Census figures date 922 of 1,940 homes to 1939 or earlier. A house from that era can still have knob-and-tube or cloth-jacketed wire running to two-prong outlets. The newer infill homes on the hillsides mostly call us for an addition. Our first step is a full test, and if the system passes, you hear that. The scope and fixed price come in writing before plaster is touched.',
-  emergencyParagraph:
-    'We send someone that day for a scorched smell at a receptacle or behind the trim, a charred cover, sparking, a hum in a box, a breaker that drops again on reset, or a jolt from a sconce. Throw the breaker only while standing dry with a cool panel. With smoke in the house, leave and call 911.',
   commonIntro:
     'In the painted houses on the hillsides and the older streets near Delta Avenue in Columbia-Tusculum, these are the signs that come up:',
   localFaqs: [

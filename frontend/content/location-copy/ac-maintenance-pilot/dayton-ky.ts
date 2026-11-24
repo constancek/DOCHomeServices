@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Close to half the homes in Dayton were standing by 1939; the Census figure is 47.5%, and not one of those houses was built with central air. When cooling came later, installers threaded ducts wherever plaster and joists allowed and parked the air handler in an attic or a basement corner, with the condenser pushed into the gap between neighbors. Homes and apartments built since 2000 are simpler. Either way, you get a flat price before any work, and we tell you plainly when the system can be left alone.',
-  emergencyParagraph:
-    'Some things can’t wait for a tune-up. An AC that quits in a heat wave, a brown stain spreading under an attic air handler, or ice on the copper lines all need a repair visit; with ice, set the thermostat to off. Heat hits older relatives, babies and anyone sick hardest. Most calls are same day, weekends included.',
   commonIntro:
     'In Dayton, owners and landlords usually ask for a spring service after one of these.',
   localFaqs: [

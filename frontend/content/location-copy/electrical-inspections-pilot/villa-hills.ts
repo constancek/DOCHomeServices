@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Villa Hills homes are mostly from the 1960s through the 1990s, and the wiring in them is usually sound. Census figures put 84.2% of homes in those decades, and almost none before 1940. So people here rarely book us over old wiring. They book before selling or buying, before a hot tub, addition or EV charger, or because 46.5% of homes heat with electricity and the panel may be close to full. We check the whole system and quote any repair before we start.',
-  emergencyParagraph:
-    'Some things in a Villa Hills house shouldn’t wait for an inspection: a burning smell, an outlet cover that’s hot or browning, sparks, lights that sag hard when the heat pump starts, or a breaker that refuses to stay on. Leave that breaker off. Smoke or fire means out of the house, then 911. Most get same-day help, weekends included.',
   commonIntro:
     'Most Villa Hills homes are owner-occupied houses from the 1960s to the 1990s, so the findings are about capacity and protection:',
   localFaqs: [

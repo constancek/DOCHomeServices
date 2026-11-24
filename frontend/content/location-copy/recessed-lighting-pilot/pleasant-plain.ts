@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Laid out in 1852 as New Columbia, Pleasant Plain is a small Harlan Township village, and adding recessed cans to one nearly always means opening an old ceiling. Census figures show roughly three in four homes in the village went up in 1939 or earlier, almost all of them single houses on their own lots. Plan on plaster, rooms framed around a lone center light and a tight crawl under the roof upstairs. We map out each can and settle a price with you before any opening.',
-  emergencyParagraph:
-    'Ring us that day if a can puts out a hot, burning odor, the paint around it yellows or browns, or its trim scalds a fingertip. So does a breaker that snaps off when they switch on. Turn the circuit off if safe, and if smoke appears, get outside and dial 911. Most calls are same day, weekends too.',
   commonIntro:
     'Out along the quiet streets of Pleasant Plain, old houses bring us these four recessed lighting jobs most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Covington sits where the Licking meets the Ohio, and Census figures date more than four in ten of its homes to 1939 or earlier, with renters in nearly half. Houses from that era may have started with a tiny service, and some still have little headroom for a 240-volt line, while later panels tend to be jammed. Detached houses, half the stock, are the easy case when there’s off-street parking. First we total the load, say so when the car’s cord will do, and set the price before wiring.',
-  emergencyParagraph:
-    'Unplug at once if the charger, its plug or the outlet behind it is hot, blackened or warped, or the breaker gives out every session. Turn that circuit off at the panel only when you’re dry and it’s safe. For smoke or fire, everyone leaves and someone calls 911. Covington gets a same-day visit on most calls, weekends included.',
   commonIntro:
     'In Covington, with old houses and plenty of rentals, charger requests from owners and landlords tend to follow one of these.',
   localFaqs: [

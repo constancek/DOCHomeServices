@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Three things set the price of hanging a light in Cheviot: the old box in the ceiling, a ground conductor or the lack of one, and whether the fixture goes where the last one hung. Nearly half of the 3,893 homes here predate 1940, by Census count, and the median one dates to 1946. Behind those plaster ceilings we often find a shallow box meant for a bare glass globe and no ground. We open it, look, and quote a fixed figure before any old fixture leaves the ceiling.',
-  emergencyParagraph:
-    'A fixture drooping on its wires, a glass shade browned by scorching or a warm, humming toggle wants a visit today. Flip that breaker off if the panel is easy to get at, and steer kids from beneath it. Smoke or flame means leaving and dialling 911. Most calls get a same-day slot, Saturdays and Sundays too.',
   commonIntro:
     'In Cheviot, these four light fixture jobs come up week after week.',
   localFaqs: [

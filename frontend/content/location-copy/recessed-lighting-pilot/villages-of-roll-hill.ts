@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'At the Villages of Roll Hill, recessed lighting goes through management, because the complex on President Drive is almost entirely rented and largely Section 8. It opened in the 1960s as Fay Apartments, and a rebuild finished in 2012 tore down 17 buildings and left 703 homes in garden blocks and townhome rows. Two in three people living here are children, per the 2020 Census, so bright kitchens and stairs matter. We inspect a sample ceiling in each building type and hand the office a fixed figure.',
-  emergencyParagraph:
-    'Tell the office at once about a can ringed in brown, a smell like melting plastic, a trim too hot for a hand, or a switch that crackles. If a light drips water, switch its breaker off if that’s safe. If smoke or flame shows, everyone leaves and someone calls 911. We’re usually sent the same day, weekends too.',
   commonIntro:
     'Property staff on President Drive send us four kinds of recessed lighting work.',
   localFaqs: [

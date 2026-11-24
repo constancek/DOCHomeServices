@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Highland Heights is mostly housing from the 1960s through the 1990s; Census figures put the median at 1985, and 48.8% of units are in buildings of five or more apartments. In the apartments, ductless replaces tired window units or cools rooms the building system serves poorly, and that’s the owner’s call; in houses, it’s the finished basement, sunroom or bonus room. Electricity heats 65.2% of homes, so the heating side counts. The price is set before work starts, and we’ll tell you if ductless is the wrong answer.',
-  emergencyParagraph:
-    'Highland Heights gets about 21 days a year of 90F or hotter on National Weather Service averages, and a top-floor apartment soaks it up. Older tenants, infants and anyone with a breathing problem feel it most. We can book an install soon, and one zone normally takes a day. A broken one is Mini-Split Repair, generally same day, weekends too.',
   commonIntro:
     'Near NKU and across the rest of the city, this is what usually sends owners to us for ductless in Highland Heights:',
   localFaqs: [

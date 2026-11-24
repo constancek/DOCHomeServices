@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'Elmwood Place has 946 homes packed into 0.32 square miles, and Census figures show most were up before 1940. Rooms in those frame houses and doubles usually have plaster on wood lath, with a shallow iron box hung from a bar meant to carry a glass shade, not a spinning fan. Most homes are rented, so owners tend to book the work. We take the canopy down, look at what’s holding it, say so if a loose screw is the whole story, and agree a price first.',
-  emergencyParagraph:
-    'Shut a fan down at the breaker, if it’s safe, when it bucks hard, drops lower on its rod, smells of burnt varnish, makes the wall switch spark or flips the breaker as it starts. Keep people out from under it, and for smoke or fire leave and dial 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Narrow lots, close-set doubles and plaster ceilings from the 1890s through the 1930s set up most of the fan jobs we see in Elmwood Place.',
   localFaqs: [

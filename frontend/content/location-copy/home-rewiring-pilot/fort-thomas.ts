@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Grounding is usually the first thing we check in Fort Thomas. Census figures give 1955 as the median year built, and close to a third of houses are older than 1940. A pre-war house may still run on knob-and-tube, which carries no ground, feeding two-prong outlets, while many 1950s houses put half the rooms on one circuit. Each visit opens with a test. If the wiring checks out, we tell you, and scope plus flat price get written up before a single wall is cut.',
-  emergencyParagraph:
-    'Ring us the same day for a charred switch plate, a burnt odor at an outlet, crackling behind plaster, a shock off a fixture, or a breaker that won’t stay reset. Kill the circuit only while standing dry. At the first sign of smoke, leave and call 911. Most calls are same day, weekends included.',
   commonIntro:
     'In the pre-war and 1950s houses that make up so much of Fort Thomas, wiring due for work usually shows one of these signs:',
   localFaqs: [

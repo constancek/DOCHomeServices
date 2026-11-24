@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Bathroom fan work in Norwood usually starts with a house that never had one. By Census figures the typical home here dates to 1938, and two out of three were built before 1940, before bath fans were common. Many of those bathrooms got a fan later, often vented into the attic or a wall cavity instead of outdoors. Just over half of households rent, so landlords tend to make the call. Before any ceiling gets cut, we find where the air is going and put a price on the fix.',
-  emergencyParagraph:
-    'Shut a fan off if the housing is hot or charred, if it sparks or smokes, if the breaker drops whenever it starts, or if water leaks from the grille and stains the ceiling. Use the switch or panel when that’s safe. If you see fire, leave and call 911. Norwood gets same-day visits on most calls, weekends included.',
   commonIntro:
     'In the two-families and frame houses off Montgomery Road, these are the signs that bring us out:',
   localFaqs: [

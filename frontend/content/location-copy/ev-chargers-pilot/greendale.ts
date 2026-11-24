@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Nearly nine in ten homes in Greendale are owned by the people living in them, Census figures show, and more than half went up before 1960. A house from the 1930s may still be working with a modest original service, and one from the 1950s often has no open slots at all. A second EV is usually what exposes it. We open the panel, run the load numbers, tell you if the Level 1 cord is fine, and price the work up front.',
-  emergencyParagraph:
-    'In Greendale, a plug that’s too warm to hold, an outlet with brown marks, a burnt-plastic smell or a breaker that trips at every hookup means unplug and stop. Switch the circuit off only with dry hands and nothing hot nearby. Smoke or fire calls for 911 from outside. Same-day help is the norm on most calls, weekends included.',
   commonIntro:
     'In a city where nearly every house is owned by the family living in it, these are the moments that lead to a charger install in Greendale.',
   localFaqs: [

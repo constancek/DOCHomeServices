@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monroe: LocationServiceCopy = {
   localParagraph:
     'Most houses in Monroe are newer, and Census figures show more than half went up in 2000 or later. Central air was part of the build, with ducts sized to match, so a spring visit here centres on the coil, filter, drain and electrical parts. Age is the catch. Many of those systems are still the original builder installs, and their capacitors, contactors and drain lines have worked a lot of summers. The price comes before the work, and if the AC needs nothing, we’ll tell you.',
-  emergencyParagraph:
-    'Book AC Repair, not a tune-up, once cooling stops, frost sheathes the copper or a puddle spreads under the indoor unit. Click the thermostat off, and if a breaker has tripped twice, leave it down. Babies, grandparents and anyone sick are most at risk when it’s hot. Most calls get a technician the same day, weekends included.',
   commonIntro:
     'In Monroe, builder-installed systems tend to show they’re due for a tune-up like this:',
   localFaqs: [
@@ -29,32 +27,32 @@ export const monroe: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in Monroe',
-        body: 'A newer system needs a careful visit more than a long one. The filter is swapped if it’s grey, the condenser coil out back is washed, and mulch and clippings are raked off its pad. Indoors, we look over the evaporator coil, blow out the drain line and check the pan. The capacitor and contactor, often the first parts to tire on builder installs, are metered along with the wiring. Gauges on the refrigerant lines show whether there’s a leak, which is quoted as a repair if so. We measure airflow, try the thermostat and let the system run one full cooling cycle. Parts change only with your yes.',
+        body: 'Most of what we open in Monroe is a builder-grade system in a subdivision house, so the visit hunts for worn parts before July finds them. A fresh filter goes in, the outdoor coil is hosed, and mulch and clippings come off the pad. In the basement or attic, we shine a light across the evaporator coil, pour water down the condensate line and feel the pan. The capacitor and contactor, common early failures on builder installs, get metered with the wiring. Gauges reveal any refrigerant leak, which carries its own quote. Airflow, thermostat and a full cooling run come last, and parts wait on your word.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'A visit is money well spent on a builder system nobody has serviced, a house you’ve just got the keys to, a drip by the indoor unit, a buzz that started this spring, or an upstairs that lags. It isn’t on an AC we checked within twelve months that still runs normally. Frozen copper or no cooling at all is an AC Repair job. If we’ve already recommended replacement, that money belongs with AC Installation & Replacement. Window units never need us. Between tune-ups you can keep a clean filter in, clear the condenser, leave vents open and put fresh batteries in the thermostat. Once a year is enough.',
+        body: 'Book it in Monroe if the builder’s system has never had a technician’s hands on it, if you closed on the house this year, if water beads up beside the furnace, if a new buzz has started, or if the upstairs bakes by late afternoon. A system we tuned last spring that cools without fuss can skip a year. Frozen copper or no cold air at all means AC Repair, and once we’ve told you replacement is coming, AC Installation & Replacement is where the money should go. Window units aren’t our work. Clean filters and a weeded pad are the owner’s job between visits.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Monroe',
-        body: 'The common pairing in Monroe is a gas furnace with central air, and since that AC sits idle once summer ends, one spring appointment covers it. A heat pump pulls double duty, cooling through summer and warming the house all winter, so it gets booked in spring and again in fall, when the reversing valve and defrost board are tested. Heat pump owners will find more on our Heat Pumps page.',
+        body: 'Gas warms 60.8% of homes in Monroe by Census figures, and in those houses the AC runs only for cooling, so a spring appointment covers it. Electricity heats 34.6%, which is where heat pumps show up. A heat pump never really gets the winter off, so it needs us at both ends of the year, with the reversing valve and defrost board tested at the fall stop. The Heat Pumps page has more.',
       },
     ],
     whyTitle: 'Why Homeowners in Monroe Book AC Maintenance With Us',
     whyParagraph:
-      'Monroe is mostly newer subdivisions, and a lot of our spring work there is on builder-installed systems getting on in years. Our technicians are licensed, insured, background-checked and drug-tested, and you approve the flat price first.',
+      'From the 1817 town core to the subdivisions off I-75, our spring calls in Monroe are mostly builder-installed systems getting on in years. Every technician is licensed, insured, background-checked and drug-tested, and you sign off on a flat price first.',
     sharedFaqs: [
       {
         q: 'How is AC maintenance priced in Monroe?',
-        a: 'Before starting, we give you one flat rate. Central air or heat pump, and whether the indoor unit sits in a basement or up in an attic, set it. Any part that needs replacing is priced separately for your yes.',
+        a: 'You get one flat rate up front. It shifts with the equipment, central air or heat pump, and with where the indoor half lives, a basement or an attic. A worn part found on the visit gets a separate price, and nothing is swapped until you approve it.',
       },
       {
         q: 'Is once a year enough for AC maintenance?',
-        a: 'For central air it is, booked each spring ahead of the hot stretch, when there’s no wait for a slot. A heat pump heats the house all winter too, so it earns a fall appointment. A drip near the indoor unit or a new rattle is worth calling about sooner.',
+        a: 'It is for plain central air. Put it on the calendar for spring, well before the first heat wave, when there’s no line for appointments. A heat pump works the winter shift too, so it earns a fall stop as well. Water near the indoor unit or a fresh rattle shouldn’t wait for the yearly date.',
       },
       {
         q: 'What should I do myself to look after my AC?',
-        a: 'Put in a clean filter when the old one looks grey, rake clippings and mulch off the condenser pad, keep furniture clear of the registers and return, and swap the thermostat batteries. The panels, copper lines and coil fins are for a technician.',
+        a: 'A grey filter can come out and a new one go in, the condenser pad can be kept free of mulch and grass clippings, the registers and return can stay unblocked, and the thermostat can get new batteries. The cabinet panels, copper refrigerant lines and coil fins are technician territory, so leave them shut and untouched.',
       },
     ],
   },

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Census figures put 62.2% of homes in Clifton at 1939 or earlier, so most tune-ups here start down cellar steps, beside a flue pipe that has seen many winters, a drain spigot that may never have been opened and gas piping we look over before relighting anything. Another 36.2% sit in buildings of ten or more units, where closet tanks stand in pans and owners do the booking. Price first, and an honest no if a tank is past servicing.',
-  emergencyParagraph:
-    'Some calls in Clifton skip the tune-up queue. A seeping tank: shut its cold feed, then kill the gas or power. Cellar smells of gas: walk out, touch no switch or pilot, reach the gas company outside. A carbon monoxide alarm empties the house. Relief valve won’t settle, or taps gone cold: repair. Same day on most calls, weekends included.',
   commonIntro:
     'From the side streets off Ludlow Avenue to the big apartment buildings, these are what usually bring owners in Clifton to us:',
   localFaqs: [

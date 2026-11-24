@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Millville is a village of older single-family houses, and Census figures put the median year built at 1958, with 23.4% from 1939 or earlier. Many of those houses were plastered and wired decades before anyone in the village had central air, so the second floor often has no ducts at all. A ductless head reaches it through one small opening instead of a chase torn through a closet. Renters ask the landlord. You get a fixed price up front, and if ductless is the wrong call, we’ll say it.',
-  emergencyParagraph:
-    'Upstairs bedrooms under the old roofs in Millville run past the 86F July normal high the National Weather Service reports. Grandparents, babies and anyone ill handle that poorly. Ductless jobs get a date quickly, and one room is usually finished the day we start. For a mini-split that broke, Mini-Split Repair comes same day on most calls, weekends included.',
   commonIntro:
     'In the older houses of Millville, a ductless quote usually comes from one of these:',
   localFaqs: [

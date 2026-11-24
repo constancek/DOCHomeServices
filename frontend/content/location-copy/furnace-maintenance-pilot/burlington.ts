@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Burlington has newer housing than its historic district suggests: Census figures date 46.3% of homes to 2000 or later, so the typical furnace is in a basement or utility closet of a house from the 1990s or 2000s. Electricity heats 60.1% of homes, a share that includes heat pumps, so many visits start with sorting out which system you have. Apartments make up a real share too, and their owners book those. We quote the price first and tell you if nothing needs doing.',
-  emergencyParagraph:
-    'A gas smell clears the house: nobody touches a switch, and the gas company is called from the lawn. A carbon monoxide alarm clears it too. A furnace dead in freezing weather, one that keeps restarting, or a floppy yellow flame is repair work. Babies and older people suffer first in a cold house. Most are same day, weekends too.',
   commonIntro:
     'Between owner-occupied houses and apartment buildings in Burlington, these are the reasons a fall visit gets booked:',
   localFaqs: [

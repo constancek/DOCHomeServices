@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'St. Bernard was built up around the Ivorydale plant, and its doubles carry wiring from several eras. Census figures date about a third of homes to before 1940, the median to 1955, with nearly one in five units in a two-unit building. Pre-war houses may still hold ungrounded knob-and-tube. Postwar ones often fed an entire kitchen from one or two circuits, and some built later may have aluminum branch wire. We test first, report honestly when it’s sound, and write the scope and fixed price down.',
-  emergencyParagraph:
-    'Get us out quickly for a melting-plastic smell at an outlet, a darkened or hot cover plate, sparks or sizzling, a breaker that trips again immediately, or a shock from a fixture. Shut that breaker only if you’re dry and safe. Smoke or flames mean getting out and calling 911. Most get a same-day visit, weekends too.',
   commonIntro:
     'Up and down the doubles and older single houses of St. Bernard, these four problems are what usually lead an owner to call.',
   localFaqs: [

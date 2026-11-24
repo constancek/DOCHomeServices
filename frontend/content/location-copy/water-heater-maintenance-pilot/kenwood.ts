@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Kenwood gives us three kinds of water heater jobs. Houses from the 1960s, the Census median being 1967, keep the tank in a basement near the furnace, with an aging flue and a drain valve we ease open rather than force. Condos put it in a closet over a pan the owner looks after. Apartments, where 38.3% of households rent, leave the booking to the landlord or manager. Whichever you have, the flat rate is set first, and a tank that’s past saving gets an honest no.',
-  emergencyParagraph:
-    'A tank leaking into its pan: cold supply valve shut, gas or breaker off. Gas in the air: everybody out, no switch flicked, pilot left be, gas company rung from the sidewalk. Carbon monoxide alarm: house emptied first. A relief valve running nonstop, or a cold tap. Each is a repair, and most get a same-day visit, weekends included.',
   commonIntro:
     'In houses, condos and apartments across Kenwood, these are the hints a tank is ready for service:',
   localFaqs: [

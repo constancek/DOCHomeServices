@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'In Amberley, nearly every home is a detached house lived in by its owner, and Census figures date the typical one to 1959. Bedrooms built then usually got one ceiling light and no fan, so the box above was picked to hold a lamp. Hanging a fan there generally means pulling that box and bracing a fan-rated one between the joists. If yours only wobbles, a tightened mount may settle it, and we’ll say so. The cost is set before the old light is unscrewed.',
-  emergencyParagraph:
-    'A fan rocking loose from its box, a scorched smell, or a breaker that snaps off when the fan starts needs a same-day look. Shut it down at the switch or the panel if you can safely, and clear the room. Any smoke or fire means leaving and calling 911. Most get help that day, weekends too.',
   commonIntro:
     'In the 1950s and 60s houses around Amberley, these are the fan problems people bring to us first.',
   localFaqs: [

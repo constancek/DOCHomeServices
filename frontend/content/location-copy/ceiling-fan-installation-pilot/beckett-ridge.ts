@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'The planned community of Beckett Ridge, laid out in the 1970s around a golf course, filled in mostly through the 1980s and 90s, per Census figures. Builders then favored two-story great rooms, cathedral bedroom ceilings and wooden decks, so fan jobs here hinge on height and on damp-rated outdoor models. Roughly a quarter of homes are condos or townhouses. We look in the box first, tell you if snugging or balancing does it, and settle the price before the old fixture is unhooked.',
-  emergencyParagraph:
-    'Shut down a fan that bucks on its rod, sags off the ceiling, or puffs smoke, using the wall switch or panel if safe. Keep the family clear and stay off ladders near a two-story ceiling. Fire means everybody out and a 911 call. Most calls get a technician the same day, weekends included.',
   commonIntro:
     'Tall family rooms, sloped bedroom ceilings and decks behind the houses produce most of these four fan signs in Beckett Ridge.',
   localFaqs: [

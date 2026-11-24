@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'In Wilder, Census figures date 69.4% of homes to 1980 through 1999 and put 59.1% in buildings with five or more units, yet just 19.2% of households rent. The result is lots of owner-occupied condos with a closet heater standing in a pan, where a visit means draining, an anode pull and a relief valve check, rarely any corroded old fittings. Renters leave the booking to their landlord. You’ll know the figure before work starts, and we’ll say so if a heater isn’t worth it.',
-  emergencyParagraph:
-    'Water seeping out: the cold-water valve feeding the top of the tank goes off, then breaker or gas. Gas smell: exit the unit, leave switches and the pilot alone, phone the gas company from the lot. Carbon monoxide alarm: everybody clears the condo. Nonstop relief valve discharge or no hot water: same day on most calls, weekends too.',
   commonIntro:
     'In the condo buildings and newer houses of Wilder, these are the usual cues to book:',
   localFaqs: [

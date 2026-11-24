@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'Landen was built as a planned development, mostly in the 1980s and 1990s, and Census figures show 88.4% of its homes heat with electricity. That share includes electric furnaces, but it also means plenty of houses here have one outdoor unit that cools in summer and heats in winter. Ducts of that era are easy to follow. Townhomes tuck the air handler into a closet or attic. You hear the price first, and a sound system gets left alone.',
-  emergencyParagraph:
-    'Around 21 days a year reach 90F (National Weather Service), and a heat pump that stops cooling on one of them is a repair job. Frost on the copper or a dripping closet ceiling means the same; switch it off at the thermostat. Babies, older relatives and anyone ill are hit first. Same day on most calls, weekends included.',
   commonIntro:
     'In the subdivisions and townhome rows of Landen, these signs usually come before a call:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'Most Loveland houses are young enough that the wiring itself is rarely the worry. The median home was built in 1985, and Census figures put only 5.4% before 1940. People here book an inspection before listing or buying, ahead of a finished basement or addition, or before adding an EV charger to a panel that may already run electric heat, which 39.4% of homes use. The few pre-war houses are the exception. We check the full system and quote any fix up front.',
-  emergencyParagraph:
-    'These don’t belong on a booking calendar in a Loveland home: a hot-plastic smell, a cover plate that’s warm, scorched or buzzing, sparks, or a breaker that flips off again the instant it’s reset. Shut that breaker off. With smoke or fire, leave first and call 911. Most get a technician the same day, weekends included.',
   commonIntro:
     'Loveland is mostly 1980s and newer houses plus a good number of apartments, so these are the findings we see most:',
   localFaqs: [

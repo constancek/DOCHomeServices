@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'In Mount Lookout, putting a spa behind a house usually means a new 240-volt line from the panel, a GFCI breaker, a shutoff box the bather can see, and bonding for the metal around the tub. Half the houses here were standing by 1939, Census figures show, and the original panel in one of those often has nothing left to give, so we settle that before anything else. We weigh your panel against the spa’s spec sheet and quote a fixed price before trenching starts.',
-  emergencyParagraph:
-    'If spa equipment sat in flood water in July 2026, leave it off until we’ve checked it. A tub that tingles needs the same caution in Mount Lookout. Get people out and leave the gear alone, flip the breaker only if it’s safe, and for smoke or flames, go outside and phone 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Spa projects in Mount Lookout tend to begin with one of these four situations.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Crescent Springs is newer than its reputation. Census figures give a median year built of 1993, nearly half the homes are in buildings of five or more units, and about four in ten households rent. Ductless work here almost never means a house without ducts. Expect a glassed-in sunroom, a lower-level den or a room over the garage in a detached house, or a condo where the association controls outdoor equipment. You approve the price before we start, and if a mini-split won’t fix it, we tell you.',
-  emergencyParagraph:
-    'Glass on three sides can push a sunroom past 86F, July’s normal high (National Weather Service). Grandparents, toddlers and anyone ill shouldn’t spend an afternoon out there. We get installs dated fast, and a single head takes one working day. If an installed ductless unit stops, book Mini-Split Repair, which mostly arrives that same day, Saturday or Sunday included.',
   commonIntro:
     'Across the condos, apartment communities and newer houses off Buttermilk Pike, these are the spaces that usually bring a ductless quote:',
   localFaqs: [

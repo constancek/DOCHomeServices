@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Homes in Kenwood are from the 1950s through the 1970s, with a median of 1967 by Census figures, and gas heats 75.5% of them. In a house, that usually means a basement gas furnace that isn’t the house’s first, so the flue and heat exchanger get our closest look. Condos and apartments tend to keep the furnace in a closet, and with 38.3% of households renting, an owner or manager often books. The flat price comes first, and if the furnace needs nothing, we say so.',
-  emergencyParagraph:
-    'Any gas smell: walk outside, switches and pilot untouched, and phone the gas company once you’re clear. A carbon monoxide alarm empties the house first. A furnace that’s quit during a cold snap, keeps stopping and restarting, or burns a lazy yellow flame needs repair, worst for babies, older relatives or anyone unwell. Most calls get same-day service, weekends included.',
   commonIntro:
     'We get tune-up calls from houses, condos and apartments in Kenwood, and these come up most:',
   localFaqs: [

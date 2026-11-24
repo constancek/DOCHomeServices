@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Two kinds of building make up East Walnut Hills. Big houses from before 1940 are about half the housing, by Census figures, and more than a fifth of units sit in apartment and condo towers of fifty or more. The old houses were plastered with no ducts, so a ductless head adds cooling without opening walls. In the towers, an association or owner controls what goes on an outside wall. We quote a flat price before work, and we say so when ductless is the wrong tool.',
-  emergencyParagraph:
-    'About 21 days a year pass 90F (National Weather Service), and a third-floor room under a roof in East Walnut Hills is where it’s felt most. Infants, grandparents and the sick suffer first. One zone usually takes a day, and we book quickly. A unit that won’t cool needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Between the old houses off Madison Road and the condo towers, these are the spaces we’re asked to cool most:',
   localFaqs: [

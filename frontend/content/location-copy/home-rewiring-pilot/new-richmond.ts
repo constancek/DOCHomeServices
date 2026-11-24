@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'A whole-house rewire is rarely the answer in New Richmond. Census figures date the typical home here to 1986, so most jobs in the village are a kitchen remodel, an added bedroom or a single run that won’t behave. One house in eight predates 1940, and behind its plaster could sit knob-and-tube or cloth wire with no ground. Some 1960s and 1970s builds may carry aluminum branch circuits. We test first, say so when it passes, and hand over a written scope and fixed price before drywall comes down.',
-  emergencyParagraph:
-    'An outlet giving off a scorched smell, a switch cover too hot to hold and a breaker that snaps back off the moment you push it up are all same-day calls. Kill that breaker yourself only if your hands and the floor are dry. Smoke or flame means leaving first and dialing 911 outside. We work weekends too.',
   commonIntro:
     'Down by Front Street and up in the newer subdivisions, these tend to get owners thinking about their wiring in New Richmond:',
   localFaqs: [

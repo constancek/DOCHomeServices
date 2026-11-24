@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'Builders in Madeira were busiest in the 1950s, and that decade decides how recessed lighting goes in. Census figures set the median house at 1960, and almost every home is a detached house lived in by its owner. Many of those mid-century houses carry an insulated attic over the top floor and a basement finished decades ago or still bare. Some prewar homes have plaster, and the 2010s infill is drywall. Each can is marked and the flat price settled before cutting.',
-  emergencyParagraph:
-    'Call for a same-day visit in Madeira if a can smells of burning, the ceiling is browning near a trim or water drips around a fixture. When the breaker is safe to reach, switch it off. Smoke or fire means clearing the house and dialing 911. Weekends included, most calls are handled same day.',
   commonIntro:
     'In Madeira, mid-century houses send us more recessed lighting work than anything else, mostly these four jobs:',
   localFaqs: [

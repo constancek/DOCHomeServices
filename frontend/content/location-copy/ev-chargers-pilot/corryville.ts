@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Renters fill more than nine in ten households in Corryville, Census figures show, and barely one home in ten is a detached house. That puts most charger decisions with an owner or property manager, not the driver. Apartment blocks built since 2000 sit a short walk from houses older than 1940, and those older houses can still be on a small first service. Where feasible, we inspect the panel and tally the load, own up when the slow cord will do, and agree the price before wiring.',
-  emergencyParagraph:
-    'Residents who notice a hot, scorched or melting charger, plug or receptacle, or a breaker dropping each time the car connects, should unplug and let the owner or manager know at once. Kill that circuit only when it’s safe. Smoke or flames mean leaving and calling 911. For owners in Corryville, most calls get a same-day visit, weekends included.',
   commonIntro:
     'Near Short Vine and across the rest of Corryville, the charging calls we get mostly come from owners and managers facing one of these.',
   localFaqs: [

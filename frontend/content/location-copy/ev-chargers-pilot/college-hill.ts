@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'Census figures split the housing three ways in College Hill. About a third was built before 1940, another third between 1940 and 1969, and the rest later. A prewar house may still run on a small first service, while a postwar box is often crammed with breakers. Half the homes are detached houses, the easy case when the car parks off the street. We open the panel and do the load math first, flag it when the trickle cord will cover you, and fix the price before wiring.',
-  emergencyParagraph:
-    'Melted plastic around the plug, scorch marks on the receptacle, a charging cable somebody backed over, or a breaker that falls the moment charging begins all mean unplug. Shut that circuit off if it’s safe to reach, and phone 911 at the first smoke or flame. College Hill gets same-day service on most calls, weekends included.',
   commonIntro:
     'Up and down Hamilton Avenue, from prewar houses to postwar ones, the charger questions we get in College Hill tend to fall into these.',
   localFaqs: [

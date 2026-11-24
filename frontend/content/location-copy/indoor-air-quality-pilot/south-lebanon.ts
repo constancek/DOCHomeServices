@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'Most of South Lebanon is new construction. Census figures put the median home at 2007, with about two in three built since 2000, and those tight subdivision houses hold on to stale air, cooking smoke and cleaning fumes unless something moves them out. The older streets near the Little Miami are another story: basements there have taken river water in floods, and damp lingers. We test the air before recommending a thing, set a flat price before work begins, and tell you if a clean filter is enough.',
-  emergencyParagraph:
-    'The moment a carbon monoxide detector beeps or you catch a whiff of gas, get everybody into the yard without touching switches, then call 911 or the gas company. Switch off a hot-smelling furnace or AC at the thermostat. Mold after a basement flood can’t wait around babies, grandparents or asthmatics. We usually get there that day, weekends included.',
   commonIntro:
     'In the newer subdivisions and older river streets of South Lebanon, these are the complaints we hear most.',
   localFaqs: [

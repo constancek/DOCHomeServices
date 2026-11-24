@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Aurora is an old river city, and its furnaces show it. Census figures put 38.8% of homes at 1939 or earlier, and 60.8% heat with gas, so a typical checkup is a gas furnace in an old cellar, often the house’s second or third, venting into a chimney. Two- to four-unit buildings are common too, each unit with its own furnace that the owner schedules. Electric heat, heat pumps included, covers most other homes. Price is settled first, and a furnace that needs nothing stays untouched.',
-  emergencyParagraph:
-    'These are repair calls. Gas in the house: everyone onto the street, hands off every switch and pilot, and the gas company dialed from there. Carbon monoxide alarm: same exit first. A stone-cold furnace in a freeze, a burner that relights endlessly, or a yellow flame. Newborns and elderly folks first. Usually same day, weekends included.',
   commonIntro:
     'Gas furnaces in old cellars, plus units in small apartment buildings, are most of our fall work in Aurora. These are the usual triggers:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Roselawn has a lot of 1960s and 1970s housing, and Census figures show 64.2% of homes rented, many in fourplexes and bigger apartment buildings. Gas heats most homes. That makes landlords a large share of our tune-ups: a furnace in each unit’s closet or utility room, checked in one visit. The detached houses tend to keep a basement furnace, often the house’s second or third, and there the flue and heat exchanger get a close look. You approve the price first, and we’ll tell you if nothing needs doing.',
-  emergencyParagraph:
-    'Don’t hold these for a tune-up. Smell gas: get outside without flipping switches or relighting anything, then call the gas company. Carbon monoxide alarm: clear the home first. No heat in the cold, a furnace stuck restarting, or flames that look yellow and lazy mean repair. Babies and older relatives can’t wait. We’re usually there same day, weekends too.',
   commonIntro:
     'Landlords and owners in Roselawn tend to book after one of these:',
   localFaqs: [

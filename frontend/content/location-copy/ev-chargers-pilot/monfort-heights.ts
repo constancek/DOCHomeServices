@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'Owners live in four of every five homes in Monfort Heights, about seven in ten are detached, and the housing spans everything from pre-1940 to this century, Census figures show. A 1950s or 1960s house off North Bend Road often has a panel crammed with circuits, while a newer one usually has a spare slot or can lean on load management. We begin at the panel with a load calculation, say so if the cord you have is enough, and lock the price in first.',
-  emergencyParagraph:
-    'Unplug the moment a plug or receptacle feels hot, the charger shows scorch marks or the outlet smells of burning. Repeated breaker trips during charging count too. Where the panel can be reached without touching anything wet, shut that circuit off. Smoke or fire means out the door and 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Across houses of every age in Monfort Heights, these four are what usually prompts the call.',
   localFaqs: [

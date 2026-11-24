@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Evanston inspections are mostly in houses from before 1940, which Census figures put at about 71% of the neighborhood’s homes. Owners outnumber renters overall, though the mix changes a lot from one part of Evanston to the next. In houses this age, cloth-covered or knob-and-tube wiring can still be in use, often next to circuits added during later updates, and outlets may have no ground. We check the whole system, write up what’s there, and quote any work before it begins.',
-  emergencyParagraph:
-    'Don’t book these for later. A plug or switch that’s warm or charred, a crackle behind a cover plate, sparks, a burning smell, or a breaker that won’t hold after a reset all need attention today. Shut that breaker off. If you see smoke or fire, leave the house and phone 911. Usually same day, weekends included.',
   commonIntro:
     'In Evanston’s older houses and the apartments over the Montgomery Road shops, these are the faults we find most:',
   localFaqs: [

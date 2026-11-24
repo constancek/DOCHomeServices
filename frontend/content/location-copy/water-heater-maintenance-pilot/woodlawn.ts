@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Woodlawn’s housing is fairly new, with a Census median of 1987, and 66.6% of households rent, many in apartment buildings where a closet tank sits over a drain pan in each unit. Those heaters are the landlord’s to service, and a yearly round across several apartments is the usual job. Owner-occupied houses, mostly built in recent decades, need a straight flush, an anode check and a valve test. Each price is set before we begin, and we’ll say when a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Repairs, not tune-ups. A closet tank leaking into its pan: shut the cold-water inlet, then breaker or gas. Gas smell: leave with switches and pilot untouched, and ring the gas company outdoors. Carbon monoxide alarm: out first. A relief valve that keeps running, or no hot water. Tenants tell the landlord; most get a visit that day, weekends included.',
   commonIntro:
     'Here’s how a tank in Woodlawn, in an apartment closet or a newer house, lets you know it’s due:',
   localFaqs: [

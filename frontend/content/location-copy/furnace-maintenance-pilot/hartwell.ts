@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Hartwell sits between eras: Census figures put the median home at 1949, with gas heating about six in ten. Older houses keep the furnace downstairs, usually the second or third the basement has held, venting up a chimney that predates it, so draft and the heat exchanger get careful attention. Nearly two homes in three are rented, many in large apartment buildings where the owner arranges the visit. We set the price first and say so plainly if there’s nothing to do.',
-  emergencyParagraph:
-    'Hold the tune-up; book a repair. Gas odor: step outside, leave switches and the pilot alone, and ring the gas company from the curb. Carbon monoxide alarm: everybody out. Cold registers in a hard freeze, a furnace that won’t finish a cycle, or a yellow, lazy flame, too. The very young and old chill first; usually same day, weekends too.',
   commonIntro:
     'In houses and apartment buildings, these are what bring us to Hartwell:',
   localFaqs: [

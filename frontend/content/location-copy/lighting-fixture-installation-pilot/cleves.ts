@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'In Cleves, a fixture swap gets priced on what we find overhead, meaning the box, whether a ground is in there, and whether you’re reusing the old spot or starting a new one. Census numbers date the typical house in the village to 1972, and most are single detached homes. The newer builds usually give us roomy kitchens, islands and easy boxes, while houses from before 1940 can surprise us with a shallow box and no ground. Either way, you see a set price before a screw comes out.',
-  emergencyParagraph:
-    'A fixture tilting off the ceiling, a burnt-toast smell near a lamp or a breaker that snaps off when the switch goes up can’t sit overnight. Kill the circuit at the panel if that’s safe, and keep everyone out of the drop zone. Flames or smoke mean get out and phone 911. Same-day help reaches most homes, weekends too.',
   commonIntro:
     'Around the village, four kinds of light fixture work make up most of our bookings.',
   localFaqs: [

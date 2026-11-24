@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Dent is young by west side standards. Half its homes went up after 1995, by Census figures, and roughly a quarter sit in condo or apartment buildings of five or more units. That youth helps a light fixture job here, since most ceiling boxes carry a ground wire. Trouble shows up in two-story foyers, where a builder hung a plain globe on a light-duty box and the owner now wants a real chandelier. Before anything is unscrewed, we open that box, look over the cable and settle your price.',
-  emergencyParagraph:
-    'A foyer chandelier that has dropped, a whiff of hot plastic at a switch, or a breaker that snaps off when one lamp comes on is urgent. Kill that circuit at the panel if it’s safe, and let nobody stand beneath the fixture. Smoke or flames mean get out and phone 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Here is what owners around Dent tend to want hung, swapped or added.',
   localFaqs: [

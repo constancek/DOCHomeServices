@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'Bungalows, Dutch Colonials and Tudor Revival houses set the tone in Paddock Hills, yet Census figures split the area’s homes almost evenly between pre-1940 construction and the 1960s and 1970s, with about two in five in each. Behind revival-era plaster, knob-and-tube or cloth-jacketed wire with no ground may survive. Later houses and units can run short of circuits, and some may carry aluminum branch wire. Testing comes ahead of any quote, healthy wiring gets reported as healthy, and scope and flat price are signed before plaster is cut.',
-  emergencyParagraph:
-    'Same-day help covers most calls, weekends too, for a switch with a scorched-plastic smell, a receptacle cover that’s warm, sparks or crackling, a breaker that keeps dropping, or a shock from a lamp. If the panel is in a dry spot, switch that circuit off. With smoke or flame, the household goes outside and calls 911.',
   commonIntro:
     'From revival-style houses to the larger apartment buildings in Paddock Hills, these warnings come up most often.',
   localFaqs: [

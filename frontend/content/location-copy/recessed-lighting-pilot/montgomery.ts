@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'Retiring a heavy smoked-glass fixture from the 1970s and leaving smooth, evenly lit drywall behind is the recessed lighting request we hear most in Montgomery. Census figures put the median home at 1976, the 1970s outbuilt every other decade by a wide margin, and owners live in the great majority of these detached houses. That era usually brings an insulated attic over the top floor and kitchens due for a gut remodel. We look above the ceiling, chalk each position and settle the price before cutting.',
-  emergencyParagraph:
-    'Phone us today about a can giving off a singed smell, discolored drywall around a trim, a trim too hot to keep fingers on, or a wall switch that hums or runs warm. Turn that breaker off if the panel is safe to reach, and with smoke or flame, leave and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'Between Montgomery Road and the I-71 interchange, most of our downlight work goes into 1970s and 1980s houses being refreshed one room at a time.',
   localFaqs: [

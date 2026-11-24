@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'The village of Silverton is mostly mid-century, with Census figures putting the median home at 1959, and nearly six in ten households here rent. A quarter of the homes are in three- and four-unit buildings, where each apartment tends to run off its own compact panel. On the narrow lots, owner-occupied houses frequently have a breaker box that ran out of room long ago. Opening that box comes before any quote. If strips are all you need, you’ll hear it, and the price is fixed ahead of the work.',
-  emergencyParagraph:
-    'Same-day visits, on most calls and weekends included, cover an outlet with burn marks, a panel smelling of melted plastic, a breaker that won’t take a reset, or a fridge that sparked as power came back. Only touch the breaker when you’re dry. For any smoke, get out and call 911. Lights surging house-wide mean phoning Duke Energy Ohio first.',
   commonIntro:
     'Across the village, from fourplexes to houses on narrow lots, these are the signs that bring a call to us about surge protection.',
   localFaqs: [

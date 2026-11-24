@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'In Reading, our tune-up usually happens in the basement of a house from the 1940s or 1950s; Census figures place the median at 1956. Plenty of those houses have replaced the furnace twice already, and many still send the exhaust up an old chimney, so the flue gets careful attention. Gas heats 70.8% of homes. With 41.5% of homes rented, landlords are often the ones calling. We name a price before starting, and we’ll tell you if the furnace needs nothing.',
-  emergencyParagraph:
-    'A gas smell sends everyone outside, with switches and pilot left alone, before anyone calls the gas company. A carbon monoxide alarm does the same. When the furnace dies during a freeze, keeps restarting, or shows a yellow, floppy flame, book a repair. Babies and older relatives can’t wait those out. Most calls are same day, including weekends.',
   commonIntro:
     'These are what owners and landlords mention when they book a fall visit in Reading:',
   localFaqs: [
@@ -29,11 +27,11 @@ export const reading: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What Furnace Maintenance Includes in Reading',
-        body: 'Most furnaces we tune up in Reading sit in basements. The filter is pulled and replaced if loaded. We clean the blower wheel and check the motor. The thermostat is set to call for heat while we watch the controls, then wiring and the safety devices are tested: high-limit, pressure switch, flame sensor. We watch the burners catch, check the igniter and the color of the flame, and look the heat exchanger over for cracks. Where the flue joins an old chimney, we test the draft. One full heating cycle ends the visit. Repairs come with a price and wait for your yes.',
+        body: 'Expect us in the basement for most visits in Reading. We pull the filter and put in a fresh one if it’s clogged. The blower wheel gets brushed clean and its motor checked for wear. With the thermostat calling for heat, we test the controls, the wiring and each safety device, from the high-limit to the pressure switch and flame sensor. We watch ignition, check the igniter, judge the flame’s color and inspect the heat exchanger for cracks. Where the flue ties into an old chimney, we test the draft. A complete heating cycle closes things out. Any repair is priced first and waits for your yes.',
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'In Reading, a fall visit earns its keep on a furnace nobody has paperwork for, on a house you closed on this year, or across a rental’s several units. It’s also worth booking when a scorched-dust smell keeps coming back once the heat has run a while, or when short cycling or a new rattle begins. It won’t pay on a furnace serviced within the last year that runs normally. A furnace that has quit needs Furnace Repair. If we’ve already found a cracked heat exchanger, keep that money for a replacement. Heat pumps and boilers have their own services. Once a year is enough.',
+        body: 'In Reading, the tune-up pays off on a furnace that came with no service sticker, on a house bought since last winter, and on a rental where one owner keeps several units heated. Book one too if a burnt-dust odor lingers past the first few days of heat, or the furnace starts shutting off early or rattling in a way it didn’t last spring. A tune-up adds little to a furnace serviced this past year that runs fine. Once it stops heating, book Furnace Repair instead. A heat exchanger we’ve already found cracked means saving toward replacement. Heat pump and boiler owners should book those services. Yearly is plenty.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Reading',

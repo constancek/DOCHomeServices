@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'In Wilder, housing skews new. Census counts put most of it in the 1980s and 1990s and nearly three in five homes inside buildings of five units or more, yet four households in five own. That makes the typical mini-split buyer here an owner in a shared building, with an association holding opinions about outdoor equipment. Detached houses call us for bonus rooms and basements their builder’s ducts underserve. We put one price in writing before work, and we’ll say so when ductless is the wrong tool.',
-  emergencyParagraph:
-    'Northern Kentucky gets roughly 21 days a year at 90F (National Weather Service), and top-floor units in Wilder stay warm past sunset. Newborns, older parents and the short of breath suffer first. Our calendar opens fast, and one head means about a day, extra heads longer. A unit that died is a Mini-Split Repair visit, normally same day, weekends too.',
   commonIntro:
     'Owners of units and houses in Wilder tend to call about ductless for one of these:',
   localFaqs: [

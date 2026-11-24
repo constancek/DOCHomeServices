@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Norwood runs its own city hall, and Census figures show about two in three of its homes were built by 1939. Houses wired then were planned around lights and a radio, not a car, so the incoming service can be thin for a 240-volt run. Two-families line many streets, and over half of households rent, so the owner decides. Our visit starts at the panel with a tally of the loads. If the wall outlet covers your miles, we’ll say so, and the number is agreed before cable goes in.',
-  emergencyParagraph:
-    'A charging cable flattened by a tire or nicked open shouldn’t go back in use. Neither should a warm outlet or a breaker that drops every time charging begins. Kill that circuit at the panel if it’s dry and easy to reach. If smoke shows, leave and dial 911. We can usually get to you the same day, weekends included.',
   commonIntro:
     'Between the single houses and the two-families in Norwood, these are what usually prompt the call.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'On this hill above downtown, the furnace we tune up is usually under a 19th-century Italianate or a house split into flats. Census figures date 56.6% of homes in Mount Auburn to 1939 or earlier, and two of every three are rented, so owners and landlords make the calls. Those cellars hold a gas furnace several replacements down the line, still venting through the original chimney; flue and heat exchanger get our slowest attention. Pricing is settled before tools come out, and a sound furnace is simply reported sound.',
-  emergencyParagraph:
-    'Book a repair instead. Gas odor on the stairs: walk outside, flip nothing, relight nothing, and phone Duke Energy from the sidewalk. Carbon monoxide detector going: clear every floor. A furnace gone dead during a freeze, chattering on and off, or burning a lazy yellow. Toddlers, grandparents and anybody recovering from illness come first. Same-day for most, weekends too.',
   commonIntro:
     'A fall visit usually gets booked in Mount Auburn after one of these:',
   localFaqs: [

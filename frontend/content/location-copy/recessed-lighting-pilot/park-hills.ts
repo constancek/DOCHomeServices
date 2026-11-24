@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Up beside Devou Park in Park Hills, most recessed lighting goes into houses built between the late 1920s and the 1950s, and whatever sits overhead steers the work. Developers started laying out the city in 1926, and Census figures put its median home at 1953. Earlier houses bring plaster and cramped upper ceilings, while postwar ones tend to offer an attic over the top floor and a basement begging to be finished. Newer buildings add drywall and shared ceilings. We mark every can and lock the price before cutting.',
-  emergencyParagraph:
-    'Call us that day if a can smells singed, a brown stain widens around its trim, or it flickers off and on unprompted. A dimmer or switch running hot or buzzing qualifies too. Cut its breaker if that’s safe, and for smoke or flame, get outside and phone 911. Same-day service covers most calls, Saturdays and Sundays included.',
   commonIntro:
     'On the hillside streets near Amsterdam Road, these four projects come up more than any others in Park Hills:',
   localFaqs: [

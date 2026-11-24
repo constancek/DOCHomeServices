@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Fairfax is a village of detached houses, and nearly half of them predate 1940, by Census figures. Plenty still carry a modest original service, so the first question for an EV is whether a 240-volt line fits at all. Houses from the 1940s and 1950s tend to have a panel where every slot is taken. We start inside that panel, with a load calculation. If your car’s Level 1 cord is enough, we’ll say so. If not, you get a firm price before we pull a single wire.',
-  emergencyParagraph:
-    'Scorch marks on the plug, a faceplate gone soft, or an outlet you can’t keep a hand on means the car stops charging. Reach for that breaker only when your feet are dry and the panel isn’t warm. If smoke or flame turns up, walk out to the sidewalk and phone 911. Same-day visits are usual, weekends too.',
   commonIntro:
     'For owners of older houses in Fairfax, these four reasons come up most.',
   localFaqs: [

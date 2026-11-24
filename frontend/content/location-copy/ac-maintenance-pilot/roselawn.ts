@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Along Reading Road in Roselawn, the housing is mostly four-family buildings, large complexes and early-1960s houses. Census figures show nearly a third of homes in three- and four-unit buildings and close to two-thirds rented, so the owner usually books our visit, often for every unit at once. The houses were built as central air was only starting to catch on, and many got their ductwork and outdoor unit years later. We price each building before starting, and any system that checks out clean gets written up that way.',
-  emergencyParagraph:
-    'Book a repair, not a tune-up, if a unit can’t cool during a heat wave or frost forms on the indoor coil. Switch it off to let the ice clear; water through a ceiling or a breaker that keeps tripping means it stays off. Babies, older relatives and the sick suffer first. Most calls are seen that day, weekends too.',
   commonIntro:
     'For landlords and managers in Roselawn, a spring service is usually set off by one of these.',
   localFaqs: [

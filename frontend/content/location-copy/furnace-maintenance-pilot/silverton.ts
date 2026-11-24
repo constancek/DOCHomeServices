@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Landlords place a lot of the tune-up calls we get from Silverton. Census figures count 58.6% of homes as rented, and close to half sit in buildings with three or more units, so one visit often means a string of closet and basement furnaces. The houses lean 1940s and 1950s, with a basement furnace that has been replaced a time or two and frequently vents up an old chimney. Most heat with gas. Flat price first; a furnace that needs nothing gets that verdict.',
-  emergencyParagraph:
-    'Gas smell: get out, touch no switches, don’t relight a pilot, and phone the gas company from the sidewalk. Carbon monoxide alarm: clear everyone out. A dead furnace in a cold snap, nonstop short cycling or a yellow, lazy flame is repair work. Tenants with a newborn shouldn’t wait. We arrive same day on most calls, weekends too.',
   commonIntro:
     'Owners and managers book a round of visits in Silverton after one of these:',
   localFaqs: [

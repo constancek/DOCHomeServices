@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Finneytown is a postwar suburb; Census figures show 52.5% of its houses built between 1940 and 1959, and 86.1% owned by the people living in them. Many got central air years later, through ducts first laid out for a furnace, so a later addition, a closed-in porch or a finished basement often gets a trickle. One ductless head can cool that room without new ductwork. You approve a flat price ahead of any work, and if ductless won’t fix it, we’ll be the first to say so.',
-  emergencyParagraph:
-    'Finneytown sees about 21 days a year at 90F or hotter by National Weather Service counts, and a glassed-in porch holds that heat. Older parents, young kids and anyone short of breath are most at risk. Install dates open quickly; one room usually takes a day. A broken mini-split needs Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'Across the postwar streets off Winton and Galbraith, these are the rooms that most often bring a ductless quote in Finneytown:',
   localFaqs: [

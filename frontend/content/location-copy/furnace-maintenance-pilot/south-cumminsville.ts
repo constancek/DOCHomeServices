@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'Two kinds of house share the blocks around Dreman Avenue in South Cumminsville, and the tune-up differs for each. Census figures put 45.5% of homes before 1940 and 70.2% on gas, so the older basements usually hold a gas furnace flued into brick, and we spend our time on the draft and the heat exchanger. Houses built since 2010 need less: a clean flame rod, a free-spinning blower, safety switches that still trip. You hear the price before we open anything, and if it needs nothing, you’ll hear that too.',
-  emergencyParagraph:
-    'Gas smell: walk out, leave the lights alone, ring the gas company from the street. Carbon monoxide alarm: everybody outside first. A dead furnace in freezing weather, one that won’t stay lit, or a flame gone yellow and floppy needs repair. Infants, grandparents and anyone sick feel it first. Same day on most calls, Saturdays and Sundays too.',
   commonIntro:
     'Around Dreman Avenue and Elmore Street, these tend to get a homeowner in South Cumminsville to book:',
   localFaqs: [

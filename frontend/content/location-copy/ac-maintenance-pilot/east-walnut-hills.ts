@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'East Walnut Hills has two kinds of AC tune-up. About half the homes, 49.3% by Census figures, went up before 1940, and in those big older houses central air came much later, usually with an air handler in the attic feeding long duct runs to the upper floors. The rest are largely mid-century apartment and condo towers, where the building or the landlord handles the cooling. Before we start, you get a flat price, and if the system is in good shape we’ll tell you it needs nothing.',
-  emergencyParagraph:
-    'A house stuck warm through a heat wave, frost furring the copper lines or coil, or a breaker that snaps off again right after a reset means a repair. Flip the thermostat to off and give frost time to drip away. Frail older neighbors and sick family members feel heat soonest. Same-day help is typical here, Saturdays and Sundays included.',
   commonIntro:
     'In East Walnut Hills, the tune-up calls we get usually start with one of these:',
   localFaqs: [

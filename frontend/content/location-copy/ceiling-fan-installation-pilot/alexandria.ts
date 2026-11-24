@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'In Alexandria, fan work mostly means houses put up since the 1980s. Census figures put the typical one at 1994, roughly a third were finished after 2000, and owners live in nine of every ten. Expect two-story family rooms where the fan dangles from a long down rod, plus covered decks off the kitchen that want an outdoor-rated model. Builders often left a plain light box overhead, so we test it before quoting, tell you if snugging the mount settles things, and fix the price up front.',
-  emergencyParagraph:
-    'A fan swinging wide on its rod, or a wall control that crackles or throws sparks, shouldn’t wait. Flip the breaker or the switch if you can get to it safely, and steer the kids into another room. Smoke or flames mean everyone outside and a call to 911. Most calls get help that day, weekends too.',
   commonIntro:
     'Newer houses in Alexandria still hand us these four complaints more than any others.',
   localFaqs: [

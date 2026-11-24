@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'On the hillside above the Mill Creek, North Fairmount is a neighborhood of single houses, close to two-thirds of them prewar by Census figures, with a median year built of 1938. Air leaks in around old sash windows, basements cut into the slope stay damp, and ductwork squeezed in decades later carries that dust and dampness upstairs. Half the homes are rented, so tenants flag problems and owners choose equipment. Readings come before the quote, and if the fix turns out to be a filter, we tell you.',
-  emergencyParagraph:
-    'Should the carbon monoxide alarm go, everybody leaves before 911 gets called. Gas in the air means leaving the lights alone and phoning Duke Energy once out. Shut a scorched-smelling furnace or AC down at the thermostat. Creeping mold after a leak is urgent for babies, grandparents and asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'Owners and renters on the hillside in North Fairmount tend to spot one of these first:',
   localFaqs: [

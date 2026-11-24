@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'Northgate is mostly 1960s and 1970s houses, and more of them heat with electricity than with gas: 50.3% against 45.2%, by Census figures. So we arrive expecting either kind of tank, and the visit bends to suit, with elements and thermostats on one and burner and flue on the other, plus the same flush and anode check for both. About one household in five rents, some in large complexes. You hear the price before work starts, and you hear it from us if the tank isn’t worth it.',
-  emergencyParagraph:
-    'The tank is leaking: close its cold-water valve up top, then gas or breaker. You smell gas: leave, no switches, no relighting, and phone the gas company once clear of the house. The carbon monoxide alarm sounds: everyone out. The relief valve keeps blowing, or the taps run cold. Each is a repair; most get a same-day visit, weekends included.',
   commonIntro:
     'Gas or electric, a tank in Northgate tends to show one of these when it’s due:',
   localFaqs: [

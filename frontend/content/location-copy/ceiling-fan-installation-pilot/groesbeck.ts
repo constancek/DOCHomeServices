@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'In Groesbeck, fan calls cover every decade since the war. Census figures give a median build of 1970, and about a sixth of homes went up after 2000. Older ranches tend to have one ceiling light per room on a box sized for a fixture, while newer houses bring tall family rooms that need a down rod. We lower the canopy and check the box, say so if snugging a bracket cures the wobble, and settle the price before the old fixture comes off.',
-  emergencyParagraph:
-    'Shut a fan down and phone us if it swings in wide circles, the canopy parts from the drywall, or the motor smells scorched. Flip the switch or breaker if that’s safe and keep clear of the blades. Smoke or fire means get out and dial 911. We reach most calls the same day, even on weekends.',
   commonIntro:
     'From the postwar ranches to the apartment buildings and newer houses, these four come up most on our fan calls in Groesbeck.',
   localFaqs: [

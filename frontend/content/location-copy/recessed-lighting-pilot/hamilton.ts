@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'With recessed lighting in Hamilton, a house’s age predicts most of what waits above its ceiling. Census figures put the median home at 1956, and better than one home in four went up in 1939 or earlier. Those older places often carry plaster, cramped space under the upper floor and rooms planned around a single center outlet. The 1950s houses generally offer an attic plus a basement nobody has finished yet. We pencil the layout on the ceiling and lock the price before the first hole.',
-  emergencyParagraph:
-    'Soot-colored marks circling a trim, a downlight cycling off and on by itself or a warm, buzzing wall switch shouldn’t sit until next week. Turn those lights off at the breaker if getting there is safe. Smoke or fire means everyone leaves and someone calls 911. We reach most calls on the same day, weekends included.',
   commonIntro:
     'In Hamilton, the houses span every decade, from pre-war homes to postwar streets and recent construction. These jobs come up most.',
   localFaqs: [

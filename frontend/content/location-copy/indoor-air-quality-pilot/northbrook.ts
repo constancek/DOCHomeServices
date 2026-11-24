@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Northbrook sits in Colerain Township, and its streets are lined mainly with houses built in the 1960s and 1970s; Census figures give 1970 as the median year. Duct seams of that age let dust drift between rooms, and lower levels tend to get damp when summer turns muggy. Gas heats most houses and electricity a good share of the rest, and either way a winter of forced air leaves rooms dry. Readings come before any quote, and if a new filter settles it, we say that and pack up.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means everybody out, with 911 called from outdoors. Smell gas, and you leave without touching a switch before ringing the gas company outside. Shut a furnace or AC that smells scorched off at the thermostat. Spreading mold after a leak is urgent for babies, grandparents and asthmatics. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'On the blocks around Colerain Avenue in Northbrook, we usually hear about one of these:',
   localFaqs: [

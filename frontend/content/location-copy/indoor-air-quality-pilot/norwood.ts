@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Norwood is a city of pre-war houses. By Census figures, 6,701 of its 10,084 homes date from 1939 or earlier, and renters fill more than half of the occupied units. Houses that old let cold air whistle in at the sashes, hold dampness in their basements, and carry dust through ductwork added long after construction. In a two-family or rental, the owner decides what gets installed. We take readings before we suggest a thing, quote a fixed price before starting, and say so when a fresh filter will do.',
-  emergencyParagraph:
-    'Should the carbon monoxide alarm go off, clear the house and phone 911 outside. Smelling gas means walking out, switches untouched, then calling the gas company. A furnace or air conditioner that smells scorched gets shut down at the thermostat. Mold spreading after a leak can’t wait if a baby lives there. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Ask around Norwood and you’ll hear these four air complaints over and over.',
   localFaqs: [

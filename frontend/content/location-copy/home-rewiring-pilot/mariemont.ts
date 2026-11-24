@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Ground was broken on Mary Emery’s planned village in 1923, and Census figures put the median house in Mariemont at 1945. Its earliest Tudor and Colonial houses may still hide knob-and-tube or cloth-jacketed wire without a ground. Those finished in the 1940s and 1950s were wired back when a kitchen meant a refrigerator and a toaster, so today’s appliances can swamp them. Plenty still pass. Our electricians test the circuits first, tell you if they’re sound, and put a scope and flat price on paper before plaster is opened.',
-  emergencyParagraph:
-    'Sparks at a plug, a warm switch plate, a scorched receptacle, the smell of hot insulation, or a breaker that won’t survive a reset are reasons to ring us today. If you can do it dry, shut that circuit at the panel. Smoke or fire means leaving the house and phoning 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Along John Nolen’s planned streets and in the older apartment blocks of Mariemont, we see these faults most.',
   localFaqs: [

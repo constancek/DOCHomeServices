@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Most top-floor ceilings across this Kenton County city sit under an attic thick with insulation, and that alone narrows which housings qualify. Census figures give a 1976 median, with more than half the houses built during the 1960s and 1970s, and almost all are detached homes lived in by their owners. Ranches, split-levels and two-stories from those decades usually have drywall, a reachable attic hatch and a basement finished long after closing day. Positions get pencilled overhead and you approve one figure first.',
-  emergencyParagraph:
-    'Hot-smelling cans, scorch marks around a trim, a switch plate that buzzes and a breaker that drops as soon as those lights come on all call for killing that circuit at the breaker box, if you can safely. With smoke or flames, get out and call 911. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Ranches, split-levels and two-stories from the 1960s and 1970s give us these four jobs most.',
   localFaqs: [

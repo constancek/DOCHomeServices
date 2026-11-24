@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Cleves is mostly owner-occupied single-family houses, and the decade yours was built decides what the air needs. Census figures put the median home at 1972. About one house in four dates to 1939 or earlier; those leak drafts and keep wet basements, while houses built since 2000 seal tight and trap stale air and fumes. A basement that took water when the Great Miami flooded Route 50 is where we look first. We test, quote a flat price, and say so when a filter is the whole fix.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm goes off, get everyone into the yard and phone 911. If you smell gas, leave without touching a switch and call the gas company outside. Turn a burning-smelling furnace or AC off at the thermostat. Mold spreading after floodwater is urgent around asthma, babies or elderly relatives. Most calls are same day, weekends included.',
   commonIntro:
     'Between the older streets near the village center and the newer houses farther out, we hear these four most.',
   localFaqs: [

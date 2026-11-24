@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'A full rewire is rare in Crescent Springs. The Census median build year is 1993, about half the homes sit in condo or apartment buildings, and most heat with electricity, which puts real weight on the circuits. The exception is the stock from the 1960s and 1970s, where some houses may have aluminum branch wiring that loosens and runs hot at its terminals. Newer places mostly need one stubborn circuit fixed. We test first, tell you if all is well, and write the job and its flat price down.',
-  emergencyParagraph:
-    'Same-day help is the right call for a receptacle that smells scorched, a plate that’s hot or blackened, popping or a buzz in a box, a breaker that won’t latch, or a tingle off the range. Only switch that breaker off if you and the floor are dry. Any smoke means walk out and call 911.',
   commonIntro:
     'In the condos, apartments and houses of Crescent Springs, these are the wiring signs we see most:',
   localFaqs: [

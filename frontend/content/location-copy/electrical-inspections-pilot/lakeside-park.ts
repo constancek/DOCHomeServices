@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Lakeside Park is usually a look at a 1950s or 1960s house whose panel nobody has opened in years. Census figures put the typical home here at 1964, and 17.5% are older than 1940. Those oldest houses can still hide cloth-covered wiring and outlets without a ground wire. The mid-century ones tend to run short on circuits for a modern kitchen. We test each part of the system, list our findings in writing and quote any repair before lifting a tool.',
-  emergencyParagraph:
-    'In Lakeside Park, don’t hold these for the inspection date. A smell of hot plastic, a cover plate warm to the touch, a crackle from a switch, a flash at a plug, or a breaker that won’t hold: kill that circuit at the panel. Smoke or flame: get out, phone 911. Same day on most calls, weekends included.',
   commonIntro:
     'Lakeside Park is mostly owner-occupied houses from the 1940s through the 1970s, with a few much older ones. Here is what our inspections turn up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Between Beechmont Avenue and Sutton, most recessed cans we fit go under a crawlable attic above postwar bedrooms. By Census figures, roughly three in ten local houses date from the 1940s and 1950s, while barely one in nine predates 1940, so gypsum lath or early drywall with fill on top is the norm. Detached houses make up just over half, townhouse rows are plentiful, and renters hold two in five homes. Chalk marks and a settled price come before the saw.',
-  emergencyParagraph:
-    'When the breaker kicks off as the cans come on, or a light winks out and returns by itself, the fixture or wiring may be running hot. Kill power to it at the breaker box, provided getting there is safe. Smoke or open flame means get outdoors and ring 911. Most calls get a crew that day, weekends too.',
   commonIntro:
     'Postwar houses near the water tower, townhouse rows and apartment buildings off Beechmont make up most requests, and these four come first.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Foyer chandeliers and upstairs hall sconces account for much of our work in Turpin Hills, the hilltop stretch of Anderson Township above the Little Miami. Census figures date the median home to 1977, and close to nine in ten are detached single-family houses, mostly built across the 1960s, 1970s and 1980s. Their ceiling boxes generally carry a ground, but many were set for a modest dome rather than a weighty chandelier, and plenty of entries soar two stories. We inspect, then quote a firm price.',
-  emergencyParagraph:
-    'A chandelier hanging crooked on its chain, scorch odor near a fixture, a crackling switch, or a breaker tripping whenever one light comes on calls for a visit today. Switch that circuit off when it’s safe and keep people from beneath. With smoke or fire, get outside and ring 911. Same day on most calls, weekends included.',
   commonIntro:
     'In Turpin Hills, light fixture calls usually involve one of these four.',
   localFaqs: [

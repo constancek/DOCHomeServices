@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Dining room lights hung over the table, not over the middle of the room, are a common request in Fort Wright, and the box above decides how it’s done. Census counts give 1974 as the median year built, and the city mixes 1950s houses, 1970s split-levels and newer homes from the 1980s on. The older ones more often have a box sized for a small fixture and no ground. Seven in ten homes are owner-occupied. Once we’ve seen the box and wiring, the price is set before work begins.',
-  emergencyParagraph:
-    'Ring us that day about a drooping fixture, a hot or humming switch cover, or flicker on several circuits. Kill that breaker if the panel’s safe to reach and keep everyone out from beneath it. Smoke or flame means leaving and dialing 911. Most calls in Fort Wright get a visit that day, Saturdays and Sundays too.',
   commonIntro:
     'For homeowners in Fort Wright, the requests are mostly these four.',
   localFaqs: [

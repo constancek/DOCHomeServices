@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'East Price Hill is two housing stocks. Census figures date the typical house to 1938 in most of the neighborhood and to the 1960s in the rest, and nearly two in three homes are rented. Prewar houses and two-families here tend to have panels with no open slot and little to spare, which we fix first. Houses from the 1960s usually cope, so the work hinges on the tub’s spot on the slope and the conduit route to it. Your price comes after we size up the panel.',
-  emergencyParagraph:
-    'A breaker that flips back off, a humming panel or a burnt-smelling shutoff means the spa is done. Whoever feels a buzz in the water should step out on the stairs, hands off the rail. Touch the breaker only if it’s easy to reach, and ring 911 at the first smoke. We’re usually there the same day, weekends too.',
   commonIntro:
     'From Warsaw Avenue up to the hillside blocks near Elberon, these four bring most spa calls.',
   localFaqs: [

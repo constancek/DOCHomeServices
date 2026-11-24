@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'Two kinds of house account for most of our calls in New Richmond. By Census figures the typical house dates to 1986, and a third were built since 2000, so many are sealed tight enough to trap stale air and cooking smells. The houses between Market Street and the river face the opposite problem, with basements the Ohio has flooded more than once. Readings come before any quote, the price is fixed before work begins, and if a fresh filter is all it takes, you’ll hear that from us.',
-  emergencyParagraph:
-    'A carbon monoxide alarm sends the family outdoors, with 911 the next call. Gas in the air means leaving switches be and calling the gas company outside. Burning smells from the furnace or AC mean flipping the thermostat off. Post-flood mold that keeps spreading is urgent around babies, elders and asthmatics. Most calls, weekends too, are same day.',
   commonIntro:
     'Between the riverfront and the newer streets of New Richmond, bad air tends to give itself away like this:',
   localFaqs: [

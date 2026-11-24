@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Goshen has two kinds of housing, and the inspection depends on which one you own. In the old center around State Route 28, Census figures show 35.1% of homes built before 1940, where cloth-covered wiring, two-prong outlets and old fuse boxes can still turn up. Across the wider township the median home is from 1983, so the wiring is usually sound and people book for a sale or a new appliance. We check the whole system and price any work before starting.',
-  emergencyParagraph:
-    'If you smell burning, find an outlet or switch running hot or scorched, hear buzzing, or watch a breaker drop the moment you push it back, cut that circuit at the panel and get us out today. Smoke or flame means everyone leaves before anyone dials 911. We reach most of these the same day, weekends too.',
   commonIntro:
     'Goshen calls range from prewar houses in the center to newer homes and manufactured homes across the township. What we find most:',
   localFaqs: [

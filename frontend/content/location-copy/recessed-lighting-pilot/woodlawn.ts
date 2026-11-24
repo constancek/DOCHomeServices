@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Most recessed lighting calls from Woodlawn are about one thing, a kitchen counter that sits in gloom. Census figures date the median home to 1987, close to a third of homes are from 2000 onward, and roughly half are in apartment buildings. Those drywall ceilings cut cleanly, yet plenty of kitchens shipped with a lone fixture in the middle. About two households in three rent, so an owner or manager normally approves the job. We pencil the openings onto the ceiling and lock in the cost first.',
-  emergencyParagraph:
-    'Call when water drips from a can after a leak upstairs, a switch hums or warms, or a fixture cuts out and returns by itself. Throw that breaker if the panel is safe to reach. If there’s smoke or flame, leave and phone 911. We usually make it out that day, Saturdays and Sundays included.',
   commonIntro:
     'Apartments, townhouses and houses from the last few decades make up most of the village, and owners and managers book these jobs.',
   localFaqs: [

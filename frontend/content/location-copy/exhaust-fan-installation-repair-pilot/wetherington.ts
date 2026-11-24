@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Wetherington is young. Building started in the early 1990s around the golf club, the typical house dates to 1998 by Census figures, and none of the 633 homes predates 1980. So nearly every bathroom here came with a fan on day one. What we usually meet is the builder’s pick, undersized for the bathroom it serves and now and then ducted to nowhere past the attic floor. Our electrician follows the exhaust to its end and prices the repair before touching drywall.',
-  emergencyParagraph:
-    'Shut the fan off at the switch or the panel, if it’s safe, once it smells scorched, spits sparks, smokes or the cover warps and browns. A breaker that drops as the motor kicks on, or water seeping around the grille, counts too. With smoke or flame, leave and phone 911. Most calls get us there same day, weekends included.',
   commonIntro:
     'Owners living along the fairways in Wetherington tend to call us about one of these four:',
   localFaqs: [

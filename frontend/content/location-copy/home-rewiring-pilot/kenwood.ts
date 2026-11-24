@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'Rewiring in Kenwood is mostly about capacity and aluminum, because most houses here went up in the 1960s and 1970s. Census figures peg the median house at 1967. Some houses from that stretch may have aluminum branch circuits, and plenty were wired for a kitchen with far fewer appliances. Condos and apartments in bigger buildings make up nearly one home in four. If testing clears the wiring, you’ll hear that; if not, a flat price and a written scope come before anyone opens a wall.',
-  emergencyParagraph:
-    'Burnt odors from a receptacle or switch, a faceplate gone tan or hot, crackling, a jolt, or a breaker that keeps letting go should bring us out the same day; most calls do, weekends too. Flip the breaker off only from a dry floor with the panel cool. For smoke or fire, everyone leaves and you call 911 from outside.',
   commonIntro:
     'In the ranches, split-levels and condos of Kenwood, these are the wiring problems we’re called about most.',
   localFaqs: [

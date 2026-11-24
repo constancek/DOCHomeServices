@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northFairmount: LocationServiceCopy = {
   localParagraph:
     'Small single-family houses from before 1940 make up most of North Fairmount, and the median one dates to 1938 by Census count. Wire of that vintage might be knob-and-tube or cloth-jacketed, ungrounded and ending at two-slot receptacles, and nobody planned it around a modern kitchen. Roughly half the homes are rentals, so owners often weigh a rewire while a unit sits empty. Our electricians meter the circuits before quoting, admit it when the cable is fine, and hand you scope and fixed price on paper before plaster comes off.',
-  emergencyParagraph:
-    'A jolt from a light switch, a buzzing receptacle, something burning inside a wall or a cover plate gone dark at the edges justifies calling us now. Kill that circuit only if your hands and footing are dry. Smoke or flames mean everyone out, then 911. Most of these get a same-day visit, Saturdays and Sundays included.',
   commonIntro:
     'On the steep streets above the Mill Creek valley, these are the signs aging wiring gives in North Fairmount:',
   localFaqs: [

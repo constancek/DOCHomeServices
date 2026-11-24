@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southFairmount: LocationServiceCopy = {
   localParagraph:
     'Ceilings along Queen City and Harrison avenues tend to be plaster, and the box hiding behind an old glass globe in South Fairmount is often shallow, bare metal with no ground conductor. That shapes every job. The Census median for the neighborhood is 1938, close to three of every four houses predate 1940, and roughly six households in ten rent, so we often start by talking with an owner. We pull the old canopy, judge the box and the splices, and quote one firm figure.',
-  emergencyParagraph:
-    'Leave a light off if its canopy has slipped from the plaster, the glass is browned with heat, or the switch plate feels warm. Flip that circuit’s breaker when the panel is safe to reach, and steer the kids from beneath it. Flames or smoke mean everybody outdoors and a 911 call. We usually arrive that same day, weekends too.',
   commonIntro:
     'In South Fairmount, four requests cover most of what owners and tenants ask us to hang.',
   localFaqs: [

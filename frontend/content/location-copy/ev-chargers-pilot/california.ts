@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const california: LocationServiceCopy = {
   localParagraph:
     'Nearly everything in California is a detached house, most of them owner-occupied, and half went up before 1968, according to Census figures. Breaker boxes from the 1950s through the 1970s are commonly packed, so whether a Level 2 charger fits comes down to what the load math shows. Newer houses usually have the room, or can use a charging controller. We open the panel and run those numbers first, tell you if the slow cord will do, and fix a price ahead of the work.',
-  emergencyParagraph:
-    'If the river has come up to the charger or its outlet, leave it unplugged until it’s inspected. Treat a scorched outlet or a breaker that keeps tripping the same way. Switch that circuit off only if you’re dry and nothing is hot. With smoke or fire, get out and dial 911. Same-day visits handle most calls, weekends too.',
   commonIntro:
     'Off Kellogg Avenue and up the side streets, these are the charger calls we get most from California.',
   localFaqs: [

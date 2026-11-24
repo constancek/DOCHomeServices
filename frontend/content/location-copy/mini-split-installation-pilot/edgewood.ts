@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Nearly every house in Edgewood is a detached single-family home, and Census figures put the median one at 1976, so the ductless request is seldom about the whole house. It’s about the room nobody planned for when the furnace and ducts went in, such as the space above the garage, a basement finished years later or a sunroom off the kitchen. One wall head gives that room its own thermostat. We quote a flat price first, and if a duct repair would do, you’ll hear that from us.',
-  emergencyParagraph:
-    'A room over the garage heats up first above 90F, which the National Weather Service records about 21 times a year. Grandparents, infants and anyone unwell take that worst. Install dates come quickly, and one head takes a day. A ductless unit that won’t run needs Mini-Split Repair, where most visits happen the day you call, even on weekends.',
   commonIntro:
     'In the 1960s, 1970s and 1980s houses of Edgewood, nearly every ductless call is about one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'In Addyston, most indoor air quality calls come from renters and the landlords who own their buildings. By Census figures the typical house dates from 1965, yet the old company houses near Main and Church Streets went up before 1930, with basements close to the Ohio River that stay damp. A dehumidifier often matters more than anything else in those. We test before recommending a thing, set a flat price before any work, and call a dirty filter a dirty filter.',
-  emergencyParagraph:
-    'When the carbon monoxide alarm sounds, everyone walks out before anyone dials 911. With a gas odor, head outdoors without flipping a light and phone the gas company. Scorched smells mean shutting the system down at the thermostat. Mold creeping in after river water is urgent for a child with asthma. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Tenants and owners in Addyston tend to describe one of these.',
   localFaqs: [

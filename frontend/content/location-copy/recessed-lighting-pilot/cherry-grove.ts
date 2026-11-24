@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'In Cherry Grove, recessed lighting nearly always goes into a house from the 1960s or 1970s with an attic overhead. Census figures put the median home at 1971, and 1,427 of the 1,445 homes are single detached houses, almost all owned by the people in them. On the streets off Beechmont Avenue that means drywall, a blanket of attic insulation over the bedrooms and a lower level someone paneled years after the house went up. We pencil each light on the ceiling and fix the price before cutting.',
-  emergencyParagraph:
-    'A can that smells of scorched insulation, drywall gone yellow around a trim, or a dimmer that buzzes and feels warm means the lights stay off until we look. Trip that breaker if you can safely. With smoke or flame, everyone goes outside before anyone dials 911. Expect us the same day on most calls, Saturday and Sunday included.',
   commonIntro:
     'Across Cherry Grove, the houses were mostly built in the same two decades, so the requests repeat. These four come up most.',
   localFaqs: [

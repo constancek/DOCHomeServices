@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Homes in Riverside are squeezed into a thin strip between River Road and the hillside, and Census figures show a mix, with about a quarter built before 1940 and roughly half from 1970 to 1999. The old river cottages have plaster ceilings and tiny boxes, while the 1970s apartment buildings have drywall and builder lights. About three in five homes are rented. We lower that fixture to inspect the box first, and if two loose screws explain the shake, we’ll say it, with your quote settled before any rewiring.',
-  emergencyParagraph:
-    'Along River Road, a fan whipping on a loose mount, a box sliding from the ceiling, motor smoke, a scorched odor, or a switch snapping sparks needs action now. Throw the breaker or toggle when it’s safe and send everyone to another room. With flames, go outside and ring 911. We’re usually there that day, weekends too.',
   commonIntro:
     'Old river cottages, 1970s apartment blocks and a large rental share account for the four fan troubles we’re called to most in Riverside.',
   localFaqs: [

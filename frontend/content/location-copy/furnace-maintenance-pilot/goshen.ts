@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const goshen: LocationServiceCopy = {
   localParagraph:
     'Goshen means two housing stocks. The old center along State Route 28 is small and early, with 35.1% of homes from 1939 or earlier by Census figures, so a basement furnace and an old chimney flue are common there. The wider township is newer, median 1983, with about one home in seven a manufactured home. Electricity is the top heating fuel across the township, and oil still shows up in the old center. Whatever you have, we price the visit before starting and tell you if the furnace needs nothing.',
-  emergencyParagraph:
-    'Treat these as repairs. A gas smell: out of the house, no switches or relighting, call the gas company outside. A carbon monoxide alarm: everybody out. No heat on a freezing night, a furnace switching off and on repeatedly, or a yellow, sluggish flame. Infants, older family and anyone ill are most exposed. Most calls get same-day help, weekends included.',
   commonIntro:
     'Out in Goshen Township and in the old center, these are the usual prompts for a tune-up:',
   localFaqs: [

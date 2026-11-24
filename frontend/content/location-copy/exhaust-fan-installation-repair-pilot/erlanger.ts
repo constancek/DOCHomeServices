@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'By Census figures, about half the homes in Erlanger date from 1950 through 1979, and most are single-family houses. In those mid-century houses the bathroom fan is often the original, loud and weak, or a later replacement whose duct runs only into the attic. Houses built from the 1990s on mostly have fans that can’t keep up with the bathroom. About three in ten households rent, many in apartment buildings. Before any ceiling gets opened, we chase the air to its exit and quote.',
-  emergencyParagraph:
-    'A scorched odor, a fan housing gone brown or soft, sparks, smoke, a breaker that won’t stay on, or water dribbling out all mean the fan stays off and we come out that day. Flip the breaker only when it’s safe. If smoke or flame shows, the household leaves before anyone dials 911. Most calls are same day, weekends too.',
   commonIntro:
     'Across the mid-century houses, newer subdivisions and apartment buildings in Erlanger, these signs come up again and again.',
   localFaqs: [

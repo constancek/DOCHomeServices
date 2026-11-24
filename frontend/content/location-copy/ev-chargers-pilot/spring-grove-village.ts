@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Before anything gets mounted in Spring Grove Village, we plan around the age of the houses. Census figures show just over half were standing by 1939, and around two in three are detached. Those prewar services can be thin, leaving barely any slack for a 240-volt run, and postwar panels here are frequently stuffed already. So the panel gets opened and the load added up before a number is named. If the slow cord suits your mileage, you’ll hear it, and our quote won’t creep.',
-  emergencyParagraph:
-    'Warped or discoloured plastic on the plug, charger or outlet, a hot-plastic smell, or a breaker that won’t hold through a charge means stop. Unplug, and flip the circuit off only if the panel is dry and nothing near it is warm. With smoke or flame, leave and phone 911. Most calls get a visit that day, weekends too.',
   commonIntro:
     'On Winton Road and the streets near Spring Grove Cemetery, these are the four reasons homeowners and landlords most often ask us about home charging.',
   localFaqs: [

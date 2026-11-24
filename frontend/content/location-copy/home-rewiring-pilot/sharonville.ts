@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Most houses in Sharonville were built from the 1960s through the 1990s, Census figures show, with the median house from 1974. A full rewire is rarely needed. Some 1960s and 1970s houses may have aluminum branch wiring, and plenty lack circuits for a modern kitchen. Newer houses book us for an addition, a remodel or one stubborn circuit. About three in ten homes are in apartment buildings. Testing comes first, fine wiring gets called fine, and any work is scoped and priced on paper before a wall opens.',
-  emergencyParagraph:
-    'Call for same-day help, which most calls get even on weekends, when a receptacle or wall smells burnt, a cover is hot or scorched, there’s buzzing or sparking, an appliance shocks someone, or a breaker drops again instantly. Flip that breaker off only if you’re dry and the panel is safe. Fire or smoke means leaving and calling 911.',
   commonIntro:
     'Sharonville has plenty of houses from the 1970s through the 1990s, and these are the wiring complaints we hear there:',
   localFaqs: [

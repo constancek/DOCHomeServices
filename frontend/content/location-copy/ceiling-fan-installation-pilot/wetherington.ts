@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Height is the usual puzzle on fan jobs in Wetherington. The median house here dates to 1998, per Census figures, and most building came after the golf club opened in 1992. Builders of that era often put in two-story family rooms, vaulted bedrooms and covered patios out back, so we spend more time choosing down rod lengths and outdoor-rated fans than patching old plaster. First we climb up and check the box. A wobble may just want rebalancing, and you hear the price before we unscrew anything.',
-  emergencyParagraph:
-    'Kill the power to a fan swinging in wide circles, a canopy pulling off the drywall or a motor with smoke curling out. Use the wall switch or breaker if you can reach it safely, and keep the family out from below. Flames mean everyone outside and calling 911. We come out the same day on most calls, weekends included.',
   commonIntro:
     'Tall rooms, patios and the original builder fans of the 1990s produce most of what we fix in Wetherington:',
   localFaqs: [

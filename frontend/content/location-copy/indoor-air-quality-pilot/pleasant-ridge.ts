@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Ridge, a typical house dates from before the Second World War. By Census figures the median year built is 1938, and 3,475 of 6,457 homes were finished in 1939 or earlier. Old sashes and plaster let outside air seep in, summer moisture settles in the basement, and ducts retrofitted later shuttle dust upstairs. Two-families are common and plenty of households rent, so the owner makes the call. Readings come first, the quote is locked before anyone starts, and if a dirty filter is the culprit, you’ll hear that.',
-  emergencyParagraph:
-    'Should the carbon monoxide detector go off, empty the house, then phone 911. A whiff of gas means heading out, switches untouched, and ringing Duke Energy curbside. Scorched smells from the furnace or AC mean thermostat off, right away. Mold creeping after a leak puts asthmatic family members at risk. Most calls get same-day help, weekends included.',
   commonIntro:
     'In the older houses and two-families off Montgomery Road and Ridge Avenue, these complaints bring us out most in Pleasant Ridge.',
   localFaqs: [

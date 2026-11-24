@@ -8,8 +8,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const queensgate: LocationServiceCopy = {
   localParagraph:
     'Very few people live in Queensgate. It is mostly warehouses, offices and commercial buildings, and the 2010 Census counted 142 residents. Our residential inspections here are for the small number of homes and apartments in the district, usually when a unit changes hands, a tenant moves in or a large appliance is added. We check the panel and wiring, write up what we find in plain terms, and price any fix before work starts, so you decide what gets done.',
-  emergencyParagraph:
-    'Some problems can’t wait: a burning smell, an outlet or switch plate that’s hot or scorched, buzzing, sparks, or a breaker that trips again as soon as it’s reset. Turn that breaker off. If there’s smoke or fire, get out and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'The few homes in Queensgate vary a lot, so these are general findings rather than a local pattern:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'In Fort Mitchell, houses range from the Beechwood and Fort Mitchell Heights homes of the 1890s to 1920s to postwar streets and newer apartments, and the Census median for its housing is 1971. In the older ones a fan usually means plaster overhead and a box set there for a light. Renters hold about two homes in five. The box gets opened first and replaced if needed, we say so when a snug mount cures the wobble, and the price is agreed before we unhook the old light.',
-  emergencyParagraph:
-    'In Fort Mitchell, a fan that wobbles hard, hangs crooked, smells hot, sparks at the switch or trips the breaker should go off at the wall or the panel right away, and nobody should stand below it. Smoke or fire means getting everyone outside, then calling 911. We usually make it out the same day, Sundays too.',
   commonIntro:
     'Between the early 1900s houses off Dixie Highway and the newer apartments, these are the fan problems we see most.',
   localFaqs: [

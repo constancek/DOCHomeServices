@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'Census figures show almost no homes in Summerside from before 1940, so knob-and-tube is rarely the issue. The median home dates to 1981, most went up between the 1960s and 1990s, and about a third of units sit in apartment buildings. The older ones are often short on kitchen circuits, and a few may have aluminum branch wire. Later ones usually want an addition wired or a stubborn circuit traced. We test, tell you when nothing’s wrong, and price the agreed scope flat.',
-  emergencyParagraph:
-    'Call if you notice a hot or browned receptacle, a burnt smell near a switch, sparking, a hum in a wall box, a breaker that won’t survive a reset, or a zap from an appliance. Throw that breaker only when you’re dry. With smoke or flame, get out and ring 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Across the houses, townhouses and apartment buildings of Summerside, wiring past its prime usually shows these signs first.',
   localFaqs: [

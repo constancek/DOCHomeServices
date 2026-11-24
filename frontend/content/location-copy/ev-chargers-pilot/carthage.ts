@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'Carthage was its own village until Cincinnati annexed it in 1911, and over two-thirds of today’s homes date from 1939 or earlier, Census figures say. A service from that era may still be the small one the house was wired with. Gas furnaces heat most homes here, so electric heat rarely crowds a charger out. Over four in ten households rent, often in doubles. Expect us to open the panel and add up its load before quoting, and to mention it if the trickle cord already covers you.',
-  emergencyParagraph:
-    'Charging should stop when a breaker keeps tripping as the car starts, a plug has gone hot or brown, or the cable jacket is split. Reach for that breaker only with dry hands, and leave it alone if the panel feels hot. If you see smoke or flames, get out and call 911. Same-day visits are the rule, weekends included.',
   commonIntro:
     'Along Vine Street and the side streets, mostly pre-war houses and doubles, charger calls usually start one of these ways in Carthage.',
   localFaqs: [

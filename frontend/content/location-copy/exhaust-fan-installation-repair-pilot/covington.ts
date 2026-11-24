@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Old houses set the pattern for fan work in Covington. Census figures put 9,268 of the city’s 21,048 homes at 1939 or earlier, and at that age the bathroom either never got a fan or got one in a later remodel, with the duct left to end in the attic or inside a wall. Landlords book many of these jobs, since close to half of households rent. We chase the air to wherever it exits, and you approve a price before any ceiling comes down.',
-  emergencyParagraph:
-    'Kill any fan that gives off a scorched odor, has a browned or softened cover, spits sparks, smokes, leaks water through its grille or knocks out its breaker on startup. Flip the wall switch or the breaker off if you safely can. Smoke or flame means leave and dial 911. We usually make it out that day, weekends included.',
   commonIntro:
     'In Covington, the old houses, the apartments and the newer infill all produce the same handful of fan complaints:',
   localFaqs: [

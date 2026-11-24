@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Taylor Mill has two sets of houses, and each asks something different of a fan. Census figures show nearly a third went up in the 1940s and 1950s, and almost two in five in the 1980s and 1990s. In the older ones, the light box was often meant for a fixture alone. In the newer ones, a vaulted family room may need a down rod and a deck may want a weather-rated fan. We check the box, say if rebalancing does it, and price it before the fixture comes down.',
-  emergencyParagraph:
-    'If a fan is jumping on its mount, the box is dropping out of the drywall, the switch sparks or the motor housing smells like it’s burning, we come same day on most calls, weekends included. If reaching the switch is safe, turn the fan off, and clear the room. Smoke or flame means leaving and calling 911.',
   commonIntro:
     'Houses from the 1950s and from the 1980s and 1990s bring us most of our fan work in Taylor Mill.',
   localFaqs: [

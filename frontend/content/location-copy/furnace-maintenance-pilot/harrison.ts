@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Harrison is newer than most places we cover: 42.4% of homes went up in 2000 or later, and 64.5% heat with electricity, by Census figures. That electric share takes in heat pumps, so look at what you own before booking; a heat pump gets its own service. For a furnace in a newer house here, a tune-up means filter, blower, burner and safety controls, with little old venting to chase. We name the price before starting, and if your furnace wants nothing, you hear it.',
-  emergencyParagraph:
-    'A gas odor sends you outdoors, no switches touched and nothing relit, to call the gas company. A carbon monoxide alarm sends everyone out. These are repair calls too: no heat in a cold snap, nonstop restarts, a yellow flame. Infants, the elderly and the sick are at risk. Same-day for most, weekends included.',
   commonIntro:
     'Builder furnaces in houses from the 2000s, plus a good number of apartment units, make up most of our tune-ups in Harrison. Common reasons to call:',
   localFaqs: [

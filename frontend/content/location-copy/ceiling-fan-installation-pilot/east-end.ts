@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'The East End is two kinds of house on one long riverfront strip. Census figures show over half were standing before 1940, mostly the frame houses, rowhouses and doubles along Eastern Avenue, where a fan usually replaces a glass globe on an old plaster ceiling box. Along Riverside Drive the homes mostly date from the 1990s on, with tall living rooms and decks facing the river. We open the canopy before quoting, own up when tightening is the fix, and lock the price in first.',
-  emergencyParagraph:
-    'Stop the fan if it lurches on its mount, gives off a hot-plastic odor, makes the switch spark or knocks out the breaker. Cut power at the wall or panel if safe and stay out from under it. With smoke or flames, leave and phone 911. We’re out the same day on most calls, Saturdays and Sundays included.',
   commonIntro:
     'In the East End, fan work splits between century-old rooms on Eastern Avenue and newer, taller rooms on Riverside Drive.',
   localFaqs: [

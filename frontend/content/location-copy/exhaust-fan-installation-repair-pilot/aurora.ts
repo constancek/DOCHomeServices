@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Aurora has a mix of river-town houses and mid-century homes, and the exhaust fan problems follow that split. Census figures put the typical house at 1952, with a large share built before 1940, when bathrooms seldom had fans. In those older houses a fan was often added later and ducted into the attic or a wall. The later homes usually have fans, but small ones. Plenty of buildings here hold two to four units. We trace the airflow and quote the fix before cutting into a ceiling.',
-  emergencyParagraph:
-    'A whiff of hot wire, a spark or water dribbling from the grille means the fan goes off at its switch or breaker, if that’s safe. Any basement fan that sat in river water stays off until someone checks it. Smoke or fire means leaving and calling 911. Same-day visits are normal for most calls, weekends too.',
   commonIntro:
     'From the older houses near downtown to the newer streets farther out, these signs come up most in Aurora:',
   localFaqs: [

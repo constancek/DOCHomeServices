@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'In Wyoming, recessed lighting usually begins with unscrewing a heavy glass dome or chandelier hung when the house was new. Census figures put the median home at 1954, the 1950s were the busiest building decade, and almost every home is a single-family house its owner lives in. A postwar ranch in the Wyoming Hills tends to have an attic over the main rooms. A Victorian in the Village area brings lath-and-plaster and second floors with a tight cavity above. Either way, openings and price are agreed before cutting.',
-  emergencyParagraph:
-    'Leave the lights off when a trim burns to the touch, plaster around a can turns tan or a scorched odor hangs overhead. Drop that breaker if you can get to the panel without risk. If smoke or flame appears, bring everyone outside and phone 911. Most such calls get a visit that day, Saturdays and Sundays too.',
   commonIntro:
     'Between the 1950s ranches and the Victorian houses near the Village, these rooms come up most when owners want a change.',
   localFaqs: [

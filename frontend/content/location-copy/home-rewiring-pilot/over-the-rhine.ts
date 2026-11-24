@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'Census figures say seven of every ten homes in Over-the-Rhine are older than 1940, and almost every unit shares a building with others. An unrehabbed building may still carry knob-and-tube or cloth-insulated conductors with no ground, sometimes with a full apartment hanging off two or three circuits. Rehabbed and newly built addresses mostly book us for an added unit or a breaker that keeps letting go. Testing comes before any price, sound wire gets reported as sound, and the owner signs scope and flat price before plaster comes down.',
-  emergencyParagraph:
-    'A receptacle smelling of burning, a cover plate gone dark, sparking, a breaker that pops on every reset, or a tingle off a fixture shouldn’t sit, and we’re there the same day on most such calls, weekends included. When the panel is somewhere dry, kill that one circuit. If smoke appears, leave the building and ring 911.',
   commonIntro:
     'In the nineteenth-century buildings of Over-the-Rhine, owners and tenants usually notice one of these first.',
   localFaqs: [

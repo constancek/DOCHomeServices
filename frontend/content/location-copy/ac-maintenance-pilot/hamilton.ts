@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'In Hamilton, Census figures show 27.4% of homes were built before 1940, decades before central air, so the AC was added later through ducts threaded into basements and closets, with the condenser parked in a side yard. Nearly half the city’s homes are rented, and landlords book those visits. Newer houses go faster, with the coil, filter and drain easy to reach. You hear the flat price before work starts, and if the AC needs nothing, we tell you.',
-  emergencyParagraph:
-    'A tune-up is the wrong call when the system blows warm on a hot day, frosts over, or drips through a ceiling. Turn it off and schedule a repair, and if a breaker trips again after a reset, leave it off. Babies and older relatives suffer first in heat. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'In Hamilton, a spring AC visit usually gets booked after an owner or landlord spots one of these.',
   localFaqs: [

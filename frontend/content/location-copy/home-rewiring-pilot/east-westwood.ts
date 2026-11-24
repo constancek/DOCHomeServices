@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Around 1958 is the median build year Census figures give for homes in East Westwood, and about three in four households rent. Units from the 1950s and 1960s were wired for a fridge and a radio, and some from the 1960s and 1970s may have aluminum branch wiring. The oldest quarter may still run cloth wire with no ground. We test before pricing, tell owners when the wiring is fine, and get scope and price signed before a wall opens.',
-  emergencyParagraph:
-    'Call us the same day for a hot or browned receptacle or switch, popping or humming in a wall, a shock from a fixture, or a breaker that drops again after a reset. Shut that breaker only if the panel is dry and safe to reach. Smoke or fire means everyone out and 911. We come weekends too.',
   commonIntro:
     'In the 1950s houses and walk-up buildings off Harrison Avenue, these complaints start most of our jobs.',
   localFaqs: [

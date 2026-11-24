@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'Greenhills was built without basements, so indoor air work here looks different from most of Hamilton County. The original federal townhomes and the postwar houses that followed sit on cement floors or crawl spaces, and some keep the furnace in that crawl space, where damp air gets pulled into the ducts. Census figures put the median home at 1955, and about a third are rented. We test the air first, quote the price before any work and say so when a fresh filter will do.',
-  emergencyParagraph:
-    'A sounding carbon monoxide alarm means leaving the house, then calling 911. Smell gas, and you leave the switches alone and phone the gas company outside. Turn off a furnace or AC that smells of burning at the thermostat. Fast-spreading mold after a leak endangers babies and anyone with asthma. Most calls get help the same day, weekends included.',
   commonIntro:
     'In townhomes and postwar houses with crawl spaces in Greenhills, these are the usual giveaways:',
   localFaqs: [

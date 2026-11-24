@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Most fan work we do in Fort Thomas is in mid-century and older houses. Census figures put the median at 1955, and about a third were built before 1940, many with plaster ceilings and a fixture box made for a light, not a fan. Where a house has a front porch, a fan out there needs a weather-rated model. We look at the box first, fit a fan-rated one if it needs it, tell you when tightening the old fan will do, and price it before anything comes down.',
-  emergencyParagraph:
-    'In Fort Thomas, switch a fan off at the wall or breaker once it lurches on the mount, sags from a loose box or puts out a burnt smell, then clear the room. A sparking switch or a tripping breaker is just as urgent. With smoke, leave and call 911. Same-day visits cover most of these, weekends too.',
   commonIntro:
     'From prewar houses near the old Army post to the postwar streets, these are the fan problems we hear about most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'There are two kinds of houses in Dayton. Census figures date close to half its 2,809 homes to 1939 or earlier and nearly one in five to 2000 or later. Above the plaster in the old ones, the light usually hangs from a shallow pancake box that was never meant to hold a turning fan. A few newer front rooms run tall enough for a rod. We look at what the box is fastened to, say when a snug mount fixes it, and lock the price first.',
-  emergencyParagraph:
-    'Quit using a fan that lurches, sags from the plaster or gives off a burnt smell. Cut it at the wall switch or breaker box if that’s safe, and steer people away from the spot beneath it. With smoke or flames, leave and call 911. Most calls get a visit the same day, weekends too.',
   commonIntro:
     'Plaster ceilings from before 1940 and taller rooms from after 2000 account for most fan work we do in Dayton.',
   localFaqs: [

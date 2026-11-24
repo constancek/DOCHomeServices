@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Western Hills usually means a house from the 1950s or early 1960s with a panel sized for that era. Census figures give a median build year of 1958 on the 45211 side and 1962 on the 45238 side, so most of these homes went up before central air, microwaves and EV chargers. We look at whether the panel and circuits can carry what you run now, test outlets and grounding, and put a flat price on the visit before we start.',
-  emergencyParagraph:
-    'A few signs outrank any appointment: a scorched or overheated switch plate, an outlet throwing sparks or buzzing, a burning smell coming from a wall, a breaker that won’t hold. Set that breaker to off. Seeing smoke or flame, get your household out, then ring 911. Western Hills calls like these usually get a technician that day, weekends too.',
   commonIntro:
     'Most of what we find in Western Hills comes from houses wired for the appliances of 1958 and now asked to run far more:',
   localFaqs: [

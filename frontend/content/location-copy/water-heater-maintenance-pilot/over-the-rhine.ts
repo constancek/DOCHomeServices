@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'Most heaters we maintain in Over-the-Rhine sit in apartments cut from 19th-century buildings. Census figures say 70.1% of the housing went up before 1940 and 70.0% of homes are rented, so the usual tank lives in a tight closet with a pan beneath it, one tank to each apartment, scheduled by the owner or manager. A few buildings keep a cellar tank on old venting. Newer condos need only a basic flush and valve test. Price comes first, and if a tank isn’t worth it, you’ll hear so.',
-  emergencyParagraph:
-    'If a closet heater starts leaking, close the cold-water valve on top, then the gas or the breaker. Gas smell: out of the building, switches and pilot untouched, then call Duke Energy from the sidewalk. Carbon monoxide alarm: everybody out first. A relief valve that won’t reseat, or no hot water, needs repair. Same day on most calls, weekends included.',
   commonIntro:
     'In Over-the-Rhine, a closet heater or a cellar tank that still works shows these signs when it needs servicing:',
   localFaqs: [

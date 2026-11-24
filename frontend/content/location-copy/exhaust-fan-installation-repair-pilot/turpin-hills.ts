@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'In Turpin Hills, almost everyone owns a detached house from somewhere between the 1960s and 1990s, and Census figures set the median at 1977. These houses generally came with bathroom fans. The catch is that builders installed whatever was cheapest, so a large master suite with a double vanity and a big shower is often served by a fan meant for a hall bath. Decades on, many motors are slowing too. We check how much air each fan moves and where it goes, then quote first.',
-  emergencyParagraph:
-    'Book us for today if the fan reeks of hot plastic, its grille has turned brown or soft, it sparks or smokes, it trips the breaker the instant it runs, or water dribbles from it. Flip it off where that’s safe; with smoke or fire, leave and call 911. Most calls are same day, weekends included.',
   commonIntro:
     'In the two-stories and ranches off Bartels Road and the surrounding streets in Turpin Hills, these four signs bring the most calls.',
   localFaqs: [

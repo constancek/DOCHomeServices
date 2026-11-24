@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'In Westwood, the person calling us about a fan is often a landlord or building manager. Census figures put about two households in three as renters, many in buildings of five or more units off Harrison, Montana and Werk. Most units date to the postwar decades and got a plain fixture overhead, if anything, on a ceiling never framed for a spinning load. We open that box before quoting, say when a snugged bracket fixes it, and the owner sees the price first.',
-  emergencyParagraph:
-    'A fan swinging in wide loops, a canopy pulling off the ceiling, a crackling switch plate or a smoking motor needs us the same day. If it’s safe to reach, cut the switch or breaker and keep everyone out from beneath it. If there’s fire, get out and call 911. We cover most calls same day, weekends included.',
   commonIntro:
     'Across the walk-ups and postwar houses of Westwood, these four keep coming up.',
   localFaqs: [

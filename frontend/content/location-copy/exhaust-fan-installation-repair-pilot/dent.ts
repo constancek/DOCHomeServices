@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'The housing in Dent is newer than most people expect. Census figures put the median home at 1995, and more homes went up after 2000 than in any earlier twenty-year span. Those houses, townhouses and apartments came with bathroom fans, but builders tended to pick a basic model, so the mirror fogs and the room stays muggy. Close to half the homes are townhouses or units in larger buildings, where the duct route matters. We look at what your fan does now, then quote the fix before cutting anything.',
-  emergencyParagraph:
-    'If a bathroom fan gives off a burnt smell, sparks, smokes or its housing is going soft and brown, flip it off at the wall or cut the circuit at the panel, if you safely can. Real smoke or flames mean getting the household outside and dialing 911. We reach most calls in Dent on the same day, weekends included.',
   commonIntro:
     'With so much of the housing in Dent from the 1990s and 2000s, the fan complaints here mostly come down to builder-grade units.',
   localFaqs: [

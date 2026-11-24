@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Down in Lower Price Hill, a fan request usually comes from whoever owns the building, since Census figures show roughly four of every five households rent. About two thirds of the units went up in 1939 or earlier, and some along State Avenue and West Eighth date to the 1850s. Plaster up there typically holds a small box meant for a gas-era fixture or a single bulb, never a spinning motor. We open it first, tell the owner if rebalancing settles things, and fix the price before anything comes down.',
-  emergencyParagraph:
-    'Some fan trouble here is a same-day job, weekends included. That means a fan tugging at cracked plaster, a box dropping, motor smoke or scorching, a crackling switch plate, or a breaker snapping off as the blades start. Kill it at the switch if safe and steer children away. If anything is burning, leave and dial 911.',
   commonIntro:
     'Rowhouses older than most of the city, buildings split into two or four flats, and tenants who can’t touch the wiring shape nearly every fan call from Lower Price Hill.',
   localFaqs: [

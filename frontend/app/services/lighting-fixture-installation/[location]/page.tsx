@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'lighting-fixture-installation',
   serviceName: 'Light Fixture Installation',
   localHeadingName: 'Light Fixture Installation',
-  emergencyHeading: 'Urgent Light Fixture Problems in {neighborhood}',
   eyebrow: 'Lighting',
   hubLabel: 'Light Fixture Installation',
   parentCrumb: { label: 'Lighting', href: '/services/lighting' },

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountHealthy: LocationServiceCopy = {
   localParagraph:
     'Half of Mount Healthy rents, 50.3% of homes by Census figures, so landlords arrange much of this work, often for apartment closets where each tank stands in a drain pan. The houses skew older, with a median of 1956 and 29.3% predating 1940. In those, the heater usually lives in the basement next to an aging flue and gas piping we check while it drains. We fix the price before starting, and we’ll be honest if a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'These aren’t maintenance jobs. A leak: close the cold valve at the top, then gas or breaker. Gas smell: get out without flipping lights or relighting, phone the gas company outside. A carbon monoxide alarm: everyone out. A relief valve that won’t quit, or no hot water, is repair work. Same-day on most, weekends included.',
   commonIntro:
     'Mount Healthy splits between owners of apartment buildings and families in older houses. Either way, these are the usual signals:',
   localFaqs: [

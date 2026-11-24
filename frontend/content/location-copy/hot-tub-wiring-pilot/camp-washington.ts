@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'In Camp Washington, Census figures show almost all of the housing dates from before 1940, and roughly four of every five households rent. Owners of the single houses and doubles that have a yard usually find their panel has no vacant position and no reserve for a spa, so that’s resolved before the 240-volt GFCI feed, the cutoff and the bonding go in. We size the work from the tub’s spec sheet and agree on a set price before any trench is cut.',
-  emergencyParagraph:
-    'Owners in Camp Washington should call for a same-day visit, weekends included, when a spa’s GFCI drops again right after resetting, the cutoff box carries scorch marks, the panel buzzes, or the tub gives off a tingle. Clear people out and keep away from the controls. Switch the breaker off only if that’s safe, and call 911 for smoke.',
   commonIntro:
     'Around Colerain Avenue and Monmouth Street, owners of the older houses and doubles usually reach out about a spa for these reasons.',
   localFaqs: [

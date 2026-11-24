@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Remodeled kitchens send us more light fixture calls in Fort Thomas than any other room, because the single ceiling light they started with rarely keeps up. Housing here skews old, with 1955 as the median year built in Census counts and roughly a third dating before 1940. Those houses more often have plaster, boxes never meant to carry weight and no ground at the ceiling. About seven in ten homes are detached. We look up there first and give a flat price before the old fixture is touched.',
-  emergencyParagraph:
-    'A fixture easing off the ceiling, a burning smell, softened plastic at a switch or a breaker that pops with that light is urgent. Kill the circuit at the panel if it’s safe and keep people back. Smoke or fire means leaving and phoning 911. In Fort Thomas, most calls get a visit the same day, weekends included.',
   commonIntro:
     'In Fort Thomas, most of what we hang is one of these.',
   localFaqs: [

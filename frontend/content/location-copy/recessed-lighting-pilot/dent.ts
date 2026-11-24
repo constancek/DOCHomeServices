@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Harrison Avenue runs through the Taylor Creek valley here, and Dent is mostly newer housing, so recessed lighting usually means fresh drywall. Census figures give a median build year of 1995; better than four homes in ten went up in 2000 or later, and roughly one in four sits in a building of five or more units. Detached houses tend toward open kitchens and finished lower levels, while condos come with shared ceilings and association rules. We mark every can and price it ahead of any cut.',
-  emergencyParagraph:
-    'If drywall browns around a can, a trim gets too hot to hold or the switch for those lights hums, throw that breaker once you can reach it safely. Condo owners should let the association know about water coming through a light. Smoke or flame means getting out, then phoning 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Between the newer houses and the condo buildings off Harrison Avenue, these four come up most.',
   localFaqs: [

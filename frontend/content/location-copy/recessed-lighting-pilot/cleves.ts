@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'For recessed lighting in Cleves, the first thing we ask is when your house was built, because the village spans a long stretch of decades. Census figures put its median at 1972. About one home in four dates from before 1940, and around one in five has gone up since 2000. Those newer places usually mean drywall and a loose-fill attic, while the oldest ones can hide plaster and narrow joist bays. Before we drill, layout marks go up and your price is fixed.',
-  emergencyParagraph:
-    'Brown staining on the ceiling around a can, water trickling out of a trim or a scorched smell from a downlight or a crackling wall switch is a same-day call in Cleves. Cut that breaker if it’s safe to get to. With smoke in the room, go outside and ring 911. Most visits happen the same day, weekends too.',
   commonIntro:
     'Houses here range from pre-war to brand new, and these four jobs come up again and again in Cleves.',
   localFaqs: [

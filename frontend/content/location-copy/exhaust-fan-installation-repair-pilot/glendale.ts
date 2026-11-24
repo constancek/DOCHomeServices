@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Glendale is mostly old houses. Census figures show more than half were built before 1940, and the oldest, in the historic district, date to the decades after the village was laid out in 1851. Bathrooms in houses like that came long after construction, sometimes in a former bedroom or closet with no fan at all. Where a fan was put in later, it often blows into the attic or a wall. We trace the airflow first and give you a fixed price before touching the plaster.',
-  emergencyParagraph:
-    'In Glendale, kill power at the breaker, if that’s safe, when the fan gives off a burnt odor, crackles, puts out smoke or its housing has browned. Do the same for a leak through the grille or a breaker that won’t hold. With smoke or flames, leave and phone 911. Most get a visit that day, weekends too.',
   commonIntro:
     'In the historic district and the newer streets around it in Glendale, these are the signs we hear about most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'Pleasant Ridge is built mostly on older stock. Census figures date more than half its homes to 1939 or before, and roughly half are detached houses. Gas furnaces heat most of them, a quiet advantage, because they ask the panel for very little next to electric heat. The trouble we meet is a panel crammed full decades back, one added breaker after another. Every job here begins inside that box with a load calculation, an honest word if the dealer cord suffices, and a fixed price.',
-  emergencyParagraph:
-    'A breaker that drops each time the car begins charging should stay off until we’ve seen it. Melted plugs, scorched outlets and any whiff of burning get the same treatment. Reach for the panel only if it’s safe to. Fire or smoke means everybody out and a 911 call. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'Around Montgomery Road and Ridge Avenue in Pleasant Ridge, these four situations usually lead to a charger.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median year built in Owensville at 1974, and most homes heat with electricity, which means heat pumps and electric furnaces whose control boards take the brunt of surges. A panel from that decade has usually picked up a string of extra breakers since, so it may have no open slot left, and our check settles placement. Most households in the village rent. You’ll hear plainly if strips are enough, and the price is fixed before any work.',
-  emergencyParagraph:
-    'An outlet gone black, a burning odor near the breakers after a storm, or a breaker that won’t hold after a reset means calling us that day; we make it out the same day on most calls, weekends too. Pulsing lights everywhere call for the electric utility first. With smoke or fire, everybody leaves and someone dials 911.',
   commonIntro:
     'With most homes here built in the 1960s and 1970s and heated by electricity, these signs come up most in Owensville.',
   localFaqs: [

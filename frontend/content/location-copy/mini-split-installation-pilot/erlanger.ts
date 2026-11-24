@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'Census figures show 58.3% of houses in Erlanger were built before 1980, and roughly three in ten homes are rented, many in mid-size apartment buildings. In a house from those decades, the ductless job tends to be a finished basement, a garage turned into a family room, or the bedroom above it, spaces the original system was never sized to cover. In apartments, owners decide. The flat price is set before work, and if fixing a duct beats adding a head, we’ll say so.',
-  emergencyParagraph:
-    'Converted garages heat up fast in Erlanger on the 21 or so days a year above 90F that the National Weather Service records. That’s hard on grandparents, babies and anyone ill. We book quickly, and one zone is normally a single day. A mini-split that failed is a Mini-Split Repair visit, same day on most calls, weekends included.',
   commonIntro:
     'Across the mid-century houses and apartment buildings of Erlanger, these spaces bring most of our ductless calls:',
   localFaqs: [

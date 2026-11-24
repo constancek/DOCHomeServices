@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'About four in ten houses in Fort Mitchell were built before 1960, and the median is 1971, Census figures show. Along Beechwood Road and Dixie Highway, some homes go back to the early 1900s, with panels that have been patched and added to for decades. Over four in ten households rent, many in small apartment buildings. An older box may lack a free spot, so we start there. If a couple of strips would serve you better, we say that, and the price is agreed before any work.',
-  emergencyParagraph:
-    'A router or TV that died with a crack in a storm means pick up the phone now. If the lights throb house-wide, Duke Energy Kentucky comes first, then us. Only touch the breaker from a dry floor. If smoke or flames show, leave and dial 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'In Fort Mitchell, older houses and small apartment buildings show surge trouble in fairly predictable ways.',
   localFaqs: [

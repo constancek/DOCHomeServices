@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Newport’s homes run old and lean rental: 46.5% were built in 1939 or earlier and 52.3% of households rent, per Census figures. In the older houses, a service means a cellar heater with aging vent pipe, a drain fitting that may need coaxing and a gas cock we test. The apartment buildings set a heater in each unit’s closet, sitting in a drain pan, and the landlord schedules it. You approve the flat figure first, and we’re honest when a heater is past helping.',
-  emergencyParagraph:
-    'These call for a repair. Leaking tank: shut its cold inlet at the top, then cut gas or power. Gas smell: get out, no switches, no relight, phone the gas utility from the sidewalk. Carbon monoxide alarm: everybody out first. A relief valve venting over and over, or no hot water, too. We come same day on most, weekends included.',
   commonIntro:
     'Requests for a tune-up in Newport usually fall into one of these:',
   localFaqs: [

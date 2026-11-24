@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Sayler Park is hemmed in by steep hills on one side and Route 50 on the other, and Census figures put about half its homes at 1939 or earlier. Those houses went decades without central air. When it came, installers ran ducts through closets and attics and set the condenser wherever the sloping lot left a flat spot. Owners live in most of them, and two-family houses are common. We go over the coils, drain and wiring, settle the price up front, and leave a healthy system alone.',
-  emergencyParagraph:
-    'When the hillside house is baking and the vents blow warm, or white frost has crept along the copper lines, you need a repair crew. Shut the thermostat off while it thaws. A ceiling leak or a scorched smell means the system stays off. Grandparents, infants and anyone sick are hit hardest. We reach most calls that day, weekends included.',
   commonIntro:
     'In the older houses around Sayler Park, a spring tune-up tends to follow one of these.',
   localFaqs: [

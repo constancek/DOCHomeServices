@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'In Miamitown, a fan job usually goes through a landlord. Census figures show four in five households rent, and most homes sit in buildings of five or more units. The housing splits between buildings from 1939 or earlier, with plaster ceilings and boxes that predate household fans, and complexes put up from 1980 to 1999. Either way, the box overhead decides the work. We open it up before quoting, tell the owner when a loose mount is all that’s wrong, and settle the price before the old fixture is removed.',
-  emergencyParagraph:
-    'Hard shaking, a fan hanging lower or a box tearing loose means it goes off now. So does smoke, a burnt odor, a sparking switch or a breaker that won’t stay on. If it’s safe, use the switch or breaker and keep neighbors out from underneath. Fire means leaving and calling 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'From the apartment buildings off Harrison Pike to the older houses on Front Street, these four calls come in most often from Miamitown.',
   localFaqs: [

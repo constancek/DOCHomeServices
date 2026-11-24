@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in New Miami is a single-family house, Census figures show, and close to nine in ten went up before 1980. Plenty of them had central air tacked onto the gas furnace later, and the ducts never made it to the back bedroom or the rear addition. The oldest may have none. About a third of homes are rentals, and those are the owner’s decision. You get a flat price before any work, and if ductless is a poor fit, we’ll tell you.',
-  emergencyParagraph:
-    'In New Miami, a back bedroom can hold the day’s heat into the night, and July’s normal high is 86F, per the National Weather Service. That’s hardest on grandparents, infants and anyone with breathing trouble. Installs get scheduled fast; one head is about a day. A mini-split that stopped cooling needs Mini-Split Repair, mostly same day, weekends too.',
   commonIntro:
     'In the small postwar houses around New Miami, owners usually call us about one of these four rooms:',
   localFaqs: [

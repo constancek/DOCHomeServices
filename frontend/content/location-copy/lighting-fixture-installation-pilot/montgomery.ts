@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'In Montgomery, fixture calls often start under a dining chandelier that has hung there since the Nixon or Carter years. The 1970s produced more homes here than any other decade, about 1,455 of them by Census counts, and some six in ten date from 1950 through 1979. Those houses typically have a modest box above the table, a single light per bedroom and a dim front hall. Our electrician confirms what that box can bear and how its cable looks, and you agree a price beforehand.',
-  emergencyParagraph:
-    'A chandelier easing away from the ceiling, a burning smell, scorch marks at a switch or a breaker tripping when one fixture turns on is urgent. Cut that circuit at the panel if safe and keep everyone back. With smoke or fire, get out and call 911. Off Montgomery Road we usually arrive that same day, weekends included.',
   commonIntro:
     'Between Blue Ash and Indian Hill, these four lighting projects keep us busiest in Montgomery.',
   localFaqs: [

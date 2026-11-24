@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Most of Mack was built in the 1980s and 1990s, and by Census figures the median house dates to 1981. Almost all are owner-occupied. Breaker boxes from those years usually have a spare seat for a 240-volt GFCI spa breaker, so the real variable is the yard and how far the conduit must travel. Roughly one house in five predates 1960 and is likelier to need panel work. We match the box to the spa’s install manual and quote before the shovel comes out.',
-  emergencyParagraph:
-    'If the water tingles or the spa’s GFCI drops the second it’s reset, everybody climbs out and keeps their hands off the pump and controls. Reach for the disconnect only if getting there is safe, and treat any smoke or flame as a 911 call. In Mack, most calls get a same-day visit, weekends included.',
   commonIntro:
     'In Mack, spa calls from homeowners mostly fall into these four.',
   localFaqs: [

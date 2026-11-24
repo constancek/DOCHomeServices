@@ -9,7 +9,6 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'ac-maintenance',
   serviceName: 'AC Maintenance',
-  emergencyHeading: 'AC Problems That Can’t Wait in {neighborhood}',
   eyebrow: 'Air Conditioning',
   hubLabel: 'AC Maintenance',
   parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },

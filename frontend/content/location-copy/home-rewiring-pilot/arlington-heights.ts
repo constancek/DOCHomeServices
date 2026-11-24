@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'In Arlington Heights, two of every three homes went up before 1940, according to Census figures. Wiring that old often ran without any ground conductor, as knob-and-tube or cloth-sheathed cable, and such houses may still have only two-slot receptacles. Slightly more than half the households rent, so landlords make many of our calls. Every circuit is metered before we propose a thing. If it passes, you hear that, and the flat price and written scope arrive before a single plate comes off.',
-  emergencyParagraph:
-    'An acrid smell at an outlet, a cover plate gone hot or black, crackling or arcing, a breaker that refuses to stay on, or a jolt from a switch gets a same-day visit on most calls, weekends included. Flip that breaker only if you’re dry and nothing is smoking. With smoke, go outside and dial 911.',
   commonIntro:
     'Here is what failing wiring usually looks like in the pre-war houses of Arlington Heights:',
   localFaqs: [

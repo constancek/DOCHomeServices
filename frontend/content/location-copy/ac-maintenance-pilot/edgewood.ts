@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Edgewood is a city of owner-occupied houses on their own lots, and a tune-up here is usually simple work. Census figures put the median home at 1976, with 53.0% built between 1960 and 1979, so the AC tends to sit in a roomy basement or garage, with the condenser on a pad beside the house. That makes the visit a coil, filter, drain and wiring job, not a crawl through tight ducts. You hear the flat price up front, and a healthy AC gets a short report saying so.',
-  emergencyParagraph:
-    'A tune-up is the wrong booking when the house is warm and the AC has given up, or the condenser hums but its fan sits still. Frosted copper lines mean switching it off at the thermostat to thaw. Older parents, babies and anyone ill feel heat soonest. We come same day on most calls, weekends included.',
   commonIntro:
     'For homeowners in Edgewood, the push to book AC maintenance tends to come from one of these:',
   localFaqs: [

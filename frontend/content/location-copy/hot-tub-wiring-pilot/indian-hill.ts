@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Almost every home in Indian Hill is a detached house, and Census figures show ages scattered across the decades, with a median year built of 1974 and roughly a fifth from 2000 on. Older houses may already lean hard on the panel. Newer ones usually have space, and then the work turns on how far out the spa sits. Either way you get a 240-volt GFCI circuit, a shutoff and bonding, inspected, and we compare the panel with the maker’s requirements before naming a price.',
-  emergencyParagraph:
-    'A bather who feels current in the water gets out first, and nobody touches the pumps or controls. A shutoff that smells hot, or a GFCI that won’t stay set, also means the tub sits idle. Open the breaker only when that’s safe, and ring 911 for smoke or flames. We’re usually there that same day, weekends too.',
   commonIntro: 'Homeowners in Indian Hill tend to call us for one of these.',
   localFaqs: [
     {

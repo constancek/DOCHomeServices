@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'An AC tune-up in Madisonville is one of two different jobs. Census figures show 45.9% of homes here built in 1939 or earlier, and on those side streets central air was squeezed in later through cramped ducts, with the condenser crowded by a fence. The other job is the newer apartment buildings, part of the 21.2% of homes built since 2000, where an owner or manager has us do every unit at once. You hear the price first, and if a system needs nothing we won’t pretend it does.',
-  emergencyParagraph:
-    'An AC that quits in a heat wave needs a repair booking. Lines furred with ice mean the thermostat goes to off until they clear. A wet patch on a ceiling below an attic unit is urgent, as is a hum outside with no fan turning. Elderly neighbours and babies suffer most. Same day on most calls, weekends included.',
   commonIntro:
     'Owners and landlords tend to call us in spring about one of these in Madisonville.',
   localFaqs: [

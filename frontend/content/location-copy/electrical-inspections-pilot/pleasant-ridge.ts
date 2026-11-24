@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'Pleasant Ridge inspections are mostly about pre-war wiring in houses and two-families. By Census figures, 53.8% of the homes around Montgomery Road and Ridge Avenue were built in 1939 or earlier, so we expect to find original circuits extended many times, outlets with no ground and, now and then, knob-and-tube still live in a wall. A two-family usually has two panels, and both get checked. The report spells out what is safe, what isn’t, and what each fix costs before we start.',
-  emergencyParagraph:
-    'These shouldn’t wait for an inspection date. An outlet that is hot, crackling or charred, sparks from a switch, a smell of burning, or lights that sag whenever the furnace or a microwave starts all count. Switch off that breaker. If there’s smoke or flame, everyone leaves and someone calls 911. Most calls get a same-day technician, weekends too.',
   commonIntro:
     'Pleasant Ridge’s older singles, two-families and small apartment buildings tend to show the same faults:',
   localFaqs: [

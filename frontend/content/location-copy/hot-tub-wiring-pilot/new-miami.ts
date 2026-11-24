@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'The village of New Miami was built up around coke ovens and a steel mill. Census figures put the median house at 1960, and more than nine in ten are detached, so most spas hang off a single-family panel that has absorbed decades of add-ons. A crowded or undersized box gets sorted before the tub’s 240-volt GFCI circuit, shutoff and bonding go in. Rentals make up close to two in five homes, so owners book the work. We price it after comparing the panel with the spa maker’s sheet.',
-  emergencyParagraph:
-    'Get everyone out of a spa in New Miami when a bather feels a tingle from the water or rail, the breaker won’t hold after one reset, or the shutoff smells like hot plastic. Kill the breaker only from dry ground, and call 911 for smoke or flame. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'These are the four things behind most spa calls from New Miami.',
   localFaqs: [

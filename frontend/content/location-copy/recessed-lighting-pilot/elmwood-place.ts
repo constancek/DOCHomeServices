@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'This village was laid out in 1875, so recessed lighting here mostly means working with plaster and rooms planned around one fixture. Census figures give a 1938 median, with around three in five homes dating from 1939 or before, and close to two in three are rented. Houses stand shoulder to shoulder on small lots, and the cavity above an upstairs ceiling can be tight, so we measure depth before picking a housing. Each spot gets pencilled overhead and priced before any cut.',
-  emergencyParagraph:
-    'A light that cycles off and returns is often overheating, and a trim you can’t hold a hand against or yellowing plaster around it says the same. Cut power to that circuit at the breaker box if that’s safe. Flames or smoke mean everyone out and a 911 call. Same-day help on most calls, weekends included.',
   commonIntro:
     'Old frame houses and two-families around Vine Street hand us these four jobs most.',
   localFaqs: [

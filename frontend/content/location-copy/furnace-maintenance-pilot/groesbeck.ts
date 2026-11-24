@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'In Groesbeck, the tune-up depends on the house. Detached houses from the 1950s through the 1970s are the bulk of it, with a median of 1970 in Census figures, and their furnaces sit in basements on a second or third unit. Landlords book for the apartment buildings, which hold 23.1% of homes. Houses built since 2000, 16.3% of the stock, need little beyond a clean blower, a fresh filter and proven safety switches. Price first; if the furnace needs nothing, we’ll say so.',
-  emergencyParagraph:
-    'Smelling gas means everyone leaves; keep hands off switches, relight nothing, and phone the gas company from the street. If a carbon monoxide alarm goes off, clear the house. A furnace that quits in a freeze, keeps restarting, or burns a yellow flame needs repair. Infants and older relatives feel it first. Same day on most calls, weekends included.',
   commonIntro:
     'Across houses, apartments and mobile homes in Groesbeck, these usually prompt a fall booking:',
   localFaqs: [

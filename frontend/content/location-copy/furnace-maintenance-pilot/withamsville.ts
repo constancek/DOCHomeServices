@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Tune-ups split two ways in Withamsville. Just over half of all homes are rented, and 41.4% are in buildings with five or more apartments, so a lot of our visits are closet furnaces an owner schedules unit by unit. The rest are houses put up in the 1950s or during the 1980s and 90s, with the furnace downstairs or in a utility space. By Census figures, electricity edges out gas for heat. The flat price is settled first, and if a furnace needs nothing, we tell you.',
-  emergencyParagraph:
-    'Some calls skip the tune-up. Gas smell: walk out, flip no switches, phone the gas company from the yard. Carbon monoxide alarm: everybody outside. Heat gone in a freeze, a burner that won’t hold a cycle, or a yellow flame is repair work, urgent with a newborn, elder or sick person home. Most get same-day help, weekends included.',
   commonIntro:
     'In Withamsville, most fall tune-up calls begin with one of these:',
   localFaqs: [

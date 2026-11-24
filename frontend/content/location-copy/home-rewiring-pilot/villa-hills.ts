@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'In Villa Hills, most houses want added circuits more than a top-to-bottom rewire, though many are now old enough for a proper look. Census figures put close to half of them between 1960 and 1979. That vintage was wired for one refrigerator and a range, not today’s kitchen, and some of the 1960s and 1970s builds may have aluminum branch wiring. Our electricians test before recommending anything, say so when the system is healthy, and give you the scope and a flat figure in writing ahead of any cutting.',
-  emergencyParagraph:
-    'If an outlet gives off a burning odor in Villa Hills, a switch feels hot, a breaker flips again on reset, or an appliance zaps someone, phone us, and most get a same-day visit, weekends too. Shut that breaker only if you’re on a dry floor and the panel isn’t warm. Should smoke or fire appear, leave and dial 911.',
   commonIntro:
     'Wiring put in during the 1960s and 1970s tends to give itself away in Villa Hills with one of these:',
   localFaqs: [

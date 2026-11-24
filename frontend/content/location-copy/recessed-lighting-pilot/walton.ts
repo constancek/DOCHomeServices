@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Spread across the Boone and Kenton county line, Walton has two kinds of houses. Census figures put the median at 2002, and the newer subdivisions came with trusses, drywall and attics you can crawl. About one home in five predates 1960, in the old town around South Main and Church Street, and those bring plaster, low attics and rooms built for one ceiling fixture. Whichever you own, we mark each can and settle one price before cutting.',
-  emergencyParagraph:
-    'Scorched ceiling paint around a can, a burnt smell, a trim you can’t hold a finger to, water seeping from a fixture, or a breaker that pops when those lights switch on means calling us now. Kill that breaker if it’s safe. If you see smoke or fire, leave and call 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'From the old town around Main Street to the subdivisions built since 2000, Walton keeps sending us these four.',
   localFaqs: [

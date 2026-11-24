@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Most housing in Dent is newer, with a median of 1995 in Census figures and a large share built after 2000, including many townhomes and units in bigger buildings. Builders sealed these homes tightly, which means stove smells and cleaning fumes linger unless fresh air is brought in, so ventilation is often the answer. Electric heat is common here and leaves winter air dry. We read the air first, set a firm price before any work, and if a new filter is enough, you’ll hear it from us.',
-  emergencyParagraph:
-    'When a carbon monoxide detector goes off, empty the house, then phone 911. For a gas odor, leave the switches alone and call the gas company from a neighbor’s yard. Turn the thermostat off for a burnt smell. Mold spreading after a leak is hardest on babies, grandparents and asthmatics. We’re usually there that day, weekends too.',
   commonIntro:
     'In the newer houses, townhomes and condos around Dent, people notice these first:',
   localFaqs: [

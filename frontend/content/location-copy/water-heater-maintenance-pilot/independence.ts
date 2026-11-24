@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'Half the housing in Independence is from this century; Census figures show 49.0% of homes built in 2000 or later, and the median is 1999. That shapes the job: most of our visits are a garage or basement tank in a subdivision house, often untouched since the builder connected it, needing a drain, an anode pull and a relief valve check. Rentals and apartments are a smaller share, booked by their owners. The figure is settled before we start, and if a tank isn’t worth it, we say.',
-  emergencyParagraph:
-    'Repair, not upkeep, covers these. Leak: shut the cold-water valve at the head of the tank, then gas or breaker. Gas smell: leave, no switches, no relighting, phone the gas company from the driveway. Carbon monoxide alarm: the whole family steps outside first. A relief valve that won’t stop, or no hot water: same day on most calls, weekends included.',
   commonIntro:
     'In the subdivisions of Independence, owners usually call about one of these:',
   localFaqs: [

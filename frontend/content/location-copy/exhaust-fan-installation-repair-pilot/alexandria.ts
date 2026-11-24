@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Most houses in Alexandria are newer, and that changes the usual exhaust fan problem. Census figures put the typical home at 1994, and about a third went up after 2000. Those houses almost always came with bathroom fans, but builders often picked the cheapest model, too small for a large primary bathroom. Nearly every home here is lived in by its owner, so the decision is yours. We measure what the fan actually pulls, see where the duct ends and give you a price before opening the ceiling.',
-  emergencyParagraph:
-    'Kill the fan at the switch or panel, if that’s safe, once you notice sparks, a scorched smell or a melted grille. A breaker that drops out with the fan, or a brown ring on the drywall, can’t wait either. Leave and dial 911 for any smoke or fire. We’re usually there the same day, weekends too.',
   commonIntro:
     'From the newest streets to the older lots near Alexandria Pike, homeowners usually notice one of these first:',
   localFaqs: [

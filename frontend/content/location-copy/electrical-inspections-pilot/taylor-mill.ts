@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Taylor Mill homes come in two waves, and the inspection differs for each. Census figures put 31.4% of homes in the 1940s and 1950s and 39.4% in the 1980s and 1990s. The postwar houses often have small panels, few kitchen circuits and outlets with no ground. The newer subdivisions usually have sound wiring, and owners there book us before a sale, a pool or a charger. Either way we check the full system, write it up and quote any fix first.',
-  emergencyParagraph:
-    'A few things in a Taylor Mill house should not wait: an outlet or switch that is hot, scorched or buzzing, sparks, a burning smell, or a breaker that trips as soon as you push it back. Turn off that breaker. Smoke or fire means everyone out and a call to 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'In Taylor Mill we inspect a lot of postwar houses and a lot of 1980s and 1990s ones. These come up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Crestview Hills is mostly houses and townhomes from the 1980s and 1990s. Census figures put the median at 1984, and about one home in four is an attached unit. Houses of that era often have a cathedral ceiling over the living room, which calls for a longer rod, and decks want a damp-rated outdoor fan. We open the canopy to see what the box is screwed to. If snugging the mount cures it, we say so, and the price is fixed before the fixture comes off.',
-  emergencyParagraph:
-    'If the canopy has separated from the drywall, or the fan rocks so hard the glass rattles, flick the wall switch off or shut its breaker, provided you can do it without standing beneath it. Smoke or flame from the motor means leaving the house and phoning 911. We get to most calls the same day, weekends included.',
   commonIntro:
     'Cathedral ceilings and attached units shape most fan calls we get from Crestview Hills.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Withamsville inspections mostly come from someone selling, someone buying, or a landlord checking units. The median home was built in 1980, by Census figures, yet 29.6% date from 1940 to 1959, and in those postwar houses we often meet undersized panels and bedrooms sharing one circuit. Electric heat warms 51.7% of homes here, which puts the heat pump or electric furnace on the same panel as the range and dryer. We walk the whole system, then hand you a written list before quoting anything.',
-  emergencyParagraph:
-    'A burning smell, a warm switch plate, a buzzing outlet, sparks, or a breaker that flips back off as fast as you push it on: kill that circuit at the panel and ring us. Smoke or flames mean leaving and dialing 911 from outside. We get to most of these that same day, Saturdays and Sundays too.',
   commonIntro:
     'Withamsville is about half rented, with large apartment buildings beside postwar and 1980s houses. What our inspections turn up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'In Monfort Heights, homes range across several decades, so what a tune-up involves depends on the house. Census figures put the median at 1975, with plenty of 1950s homes and nearly a quarter built in 2000 or later. Older houses often got central air later, with tight ducts and a far room that lags. Newer ones were built with it and need a straight coil, filter, drain and electrical check. You’ll know the flat price before we begin, and we’ll say so if the system needs nothing.',
-  emergencyParagraph:
-    'Book repair, not maintenance, when the AC gives up in hot weather, frost forms on it, water leaks from the indoor unit or a reset breaker trips again. Set the thermostat to off until we arrive. Heat puts older relatives, babies and anyone ill at the most risk. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Across older and newer homes alike in Monfort Heights, these are the usual signs a tune-up is due:',
   localFaqs: [

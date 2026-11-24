@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Day Heights is single houses from the 1940s through the 1970s, and that shapes the inspection. Census figures put the median home at 1969, with 25.6% built from 1940 to 1959. Panels from those years were small, and many houses have only a circuit or two per room. Fuel oil still heats 8.1% of homes, and owners moving off oil to a heat pump add a big electric load. We check whether the panel can take it and quote any work before starting.',
-  emergencyParagraph:
-    'Skip the planned inspection for these: an outlet warm to the touch, buzzing or blackened; an odor of burning plastic; sparks from a switch; a breaker that pops straight back off. Cut that circuit at the panel. If there’s smoke or fire, everyone out before dialing 911. Most get a visit that day, including Saturdays and Sundays.',
   commonIntro:
     'Every home counted in Day Heights is a single house, most of them from the 1960s and 1970s. What we find:',
   localFaqs: [

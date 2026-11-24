@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Lower Price Hill is old rental buildings on the valley floor below the hill. Census figures count 82.7% of homes as rented and 64.9% as pre-1940, a lot of them doubles and three- or four-unit buildings, some from the 1850s. Expect one heater per apartment in a basement or back closet, venting from another era and drain spigots no one remembers opening. Landlords book nearly all of it. The price comes before work, and if a tank isn’t worth maintaining, we’ll say that.',
-  emergencyParagraph:
-    'For a leak, close the heater’s cold-water valve at the top and cut its gas or breaker. Gas odor means walking out, not touching a switch, not relighting, and calling the gas company outside. A carbon monoxide alarm sends everyone out first. A relief valve that won’t stop, or no hot water, needs repair. Same day on most, weekends included.',
   commonIntro:
     'Most of the water heaters we service in Lower Price Hill belong to landlords, one tank to a unit. Here’s when one is due:',
   localFaqs: [

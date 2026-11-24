@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Census figures put more than half the homes in Mount Auburn at 1939 or earlier. An Italianate house divided into flats seldom has a free position or leftover headroom for a 240-volt spa breaker, so the panel is sorted before the tub circuit. Larger buildings put up since 2010 mostly have space. With two in three homes rented, landlords tend to be the ones calling. Each quote is written after we compare the panel with the spa’s spec sheet, before any conduit.',
-  emergencyParagraph:
-    'A panel that buzzes, or a GFCI that drops again after one reset, is urgent in Mount Auburn. Get the bathers out and keep hands off the water and the pump. Flip the disconnect only when you can reach it safely, and with smoke or fire, leave and call 911. Most of these get a same-day visit, weekends included.',
   commonIntro:
     'Around Mount Auburn, from Auburn Avenue to the Prospect Hill blocks, these four bring most owners to us.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Most of Burlington is newer construction. By Census figures the median home dates to 1998 and nearly half arrived after 2000, which means the garage panel frequently has an empty space waiting. So the spa usually comes down to placement and trench length. Electric heat is the catch, because a majority of homes here use it and that draw eats into the service. We plan the 240-volt GFCI feed, the cutoff switch and the bonding around the tub’s published specs and settle a price before the shovel comes out.',
-  emergencyParagraph:
-    'Some spa trouble in Burlington needs a technician today. That means a GFCI that won’t stay on, a cutoff switch that smells hot, a buzzing panel, or a tingle on the rail. Get everybody out and leave the controls alone. Kill the breaker if you safely can, and ring 911 for smoke. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Across the subdivisions and condo communities built over the last few decades, these are the moments that send people looking for a spa electrician in Burlington.',
   localFaqs: [

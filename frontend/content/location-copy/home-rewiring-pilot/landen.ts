@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'A full rewire is seldom the answer in Landen. By Census figures, the typical house was built in 1985, about seven in ten date from the 1980s and 1990s, and close to nine in ten heat electrically. Heavy electric loads mean adding a heat pump, a hot tub or a finished lower level can call for new circuits or a panel update. A few 1970s houses may have aluminum branch circuits. We test first and write down the scope and a flat price before work, or tell you nothing’s needed.',
-  emergencyParagraph:
-    'If you notice a burnt smell, a cover plate that’s darkened or hot, arcing, a tingle from a fixture or a breaker that drops out on reset, call us; we’re out the same day on most calls, weekends included. Only touch the panel when it’s dry and cool. With smoke or flames, get out and dial 911.',
   commonIntro:
     'In the houses and townhomes of Landen, heavy electric loads and circuits added later usually show up like this.',
   localFaqs: [

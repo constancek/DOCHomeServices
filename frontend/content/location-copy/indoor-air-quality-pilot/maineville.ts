@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'In Maineville, air quality mostly comes down to how tightly the house was built. By Census figures the median home dates to 2004, more than half went up in 2000 or later, and nearly nine in ten date from 1980 on. Houses like that let in little outside air, so the smell of dinner, a can of paint thinner or a hot shower stays put, and ventilation is often the fix. We test first, quote a flat price before work, and tell you if a filter change is enough.',
-  emergencyParagraph:
-    'Once a carbon monoxide alarm goes off, everyone goes outside before calling 911. A gas smell gets the same exit, with no switches flipped, and a call to the gas company. If the vents smell burnt, set the thermostat to off. Mold spreading after a leak needs quick work around a newborn. Most calls get same-day service, weekends included.',
   commonIntro:
     'Newer houses around Maineville tend to signal bad air in these ways.',
   localFaqs: [

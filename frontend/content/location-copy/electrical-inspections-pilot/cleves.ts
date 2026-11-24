@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Cleves has two kinds of house, and what we look for depends on which one you own. Census figures date 26.0% of homes to 1939 or earlier; behind newer cover plates, those can keep cloth-covered wiring, outlets with no ground or an old fuse box. The median Cleves home dates from 1972, and there the open question is usually panel space for whatever you plan next. Our electrician tests every part of the system, writes it all down and prices any fix before touching it.',
-  emergencyParagraph:
-    'Hot plastic odor near an outlet, a scorched switch plate, buzzing in the wall, sparks, or a breaker that pops again as soon as it’s pushed back: in Cleves, those get a phone call, not an appointment. Leave the breaker off. Smoke or flame means everyone outside and 911. Most such calls are reached the same day, weekends too.',
   commonIntro:
     'Cleves homes split between pre-war houses and ones built since the 1970s, and each brings its own usual findings:',
   localFaqs: [

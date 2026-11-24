@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Amberley Village is almost wall-to-wall detached, owner-occupied houses, and most went up between the war and the late 1970s, with Census figures putting the typical one at 1959. For recessed lights that era is friendly. A main-floor ceiling often has an attic right above it, so cable can come in from overhead, while lower levels were frequently finished decades after the original owners moved in. We go up the attic hatch, sketch the layout on your ceiling and lock the price ahead of any cutting.',
-  emergencyParagraph:
-    'Watch for a scorched ring on the paint, a toaster smell, a trim that stings your hand, or a light that quits and relights by itself. If the panel is safe to approach, shut off that circuit. For smoke or fire, get everyone out and dial 911. Most calls get a same-day visit, Saturday and Sunday included.',
   commonIntro:
     'Postwar and 1960s houses make up most of Amberley, and recessed lighting requests from them usually look like this:',
   localFaqs: [

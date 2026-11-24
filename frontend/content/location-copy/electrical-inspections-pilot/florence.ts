@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Florence is mostly 1960s and 1970s houses. Census figures put the median home at 1972, and two thirds were built before 1980. The wiring from that period usually tests sound; the weak point is the panel, sized for smaller loads, and rooms that share a circuit. That shows once an EV charger, a hot tub or a heat pump goes on the list. Florence also has plenty of apartments and condos, so landlords book us as well. We test the system and quote any fix first.',
-  emergencyParagraph:
-    'Call for a visit today if there’s smoke or a burning smell at an outlet, a cover plate that’s hot or humming, sparks when something gets plugged in, or a breaker that drops again straight after reset. Shut it off. Fire or smoke: get out and dial 911. Around Florence, most urgent calls are reached the same day, weekends included.',
   commonIntro:
     'In Florence’s 1960s and 1970s houses, condos and apartment buildings, these are the usual findings:',
   localFaqs: [

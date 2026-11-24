@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Landlords book most of the water heater tune-ups we do in Avondale. By Census figures, 76.1% of homes are rented and 24.5% are in three- and four-unit buildings, so one visit often means a tank per apartment, some in the basement and some in a closet sitting in a pan. With 43.0% of the housing older than 1940, add worn venting and drains at the base that want a gentle hand. Owners get a flat price before we start, and an honest answer when a tank isn’t worth a service.',
-  emergencyParagraph:
-    'These are repair territory, not tune-ups. A leaking tank: close the cold valve, then its gas or breaker. Gas smell: residents leave, nobody touches a switch or pilot, and someone calls the gas company. Carbon monoxide alarm: the unit empties. Same for a relief valve that won’t stop or no hot water. We usually come the same day, weekends included.',
   commonIntro:
     'Along Reading Road and its side streets, these are the usual reasons an owner in Avondale books a service:',
   localFaqs: [

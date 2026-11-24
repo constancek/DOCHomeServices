@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Wyoming is a city of owner-occupied detached houses. Census figures put the median at 1954, with the 1950s the busiest decade and about a quarter from 1939 or earlier. Post-war panels are often crowded with circuits, and some of the oldest houses keep a small original service. Gas heats nearly every home, leaving more capacity than electric heat would. Our first visit covers the panel and the load math, and if the Level 1 cord is enough, you’ll hear that. No wire gets pulled until the price is fixed.',
-  emergencyParagraph:
-    'Stop charging if a plug or outlet runs hot, discolors or melts, the charger smells burnt, the cable is crushed, or a breaker trips with every charge. If you can reach the panel safely, shut that circuit off. If there’s smoke or flame, get everyone outside and dial 911. Most calls see us the same day, Saturdays and Sundays too.',
   commonIntro:
     'From the Village Historic District to the Wyoming Hills, owners in Wyoming tend to call for one of these reasons.',
   localFaqs: [

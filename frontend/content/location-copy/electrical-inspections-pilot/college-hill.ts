@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'College Hill has more mid-century houses than most of the city’s older neighborhoods, and that shapes what an inspection finds. By Census figures, 36.4% of homes here date from 1940 to 1969 and another 35.4% from 1939 or earlier. The mid-century houses usually have grounded wiring but a panel and circuit count that never kept up with modern kitchens and window units. The older ones may still hide cloth-covered wire. We inspect the whole system, give you a written report and price repairs before anything is touched.',
-  emergencyParagraph:
-    'Some College Hill problems need us today, not next week: a burning smell you can’t place, a receptacle that’s warm or blackened, buzzing from a switch, sparks, or a breaker that pops again as soon as it’s pushed back. Kill that breaker. If smoke or flame shows up, get outside and call 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'Along Hamilton Avenue and the side streets, roughly half the homes are single houses. The problems we see most:',
   localFaqs: [

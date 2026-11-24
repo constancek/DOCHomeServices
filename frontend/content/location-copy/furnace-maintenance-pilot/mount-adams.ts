@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Mount Adams were built in 1939 or earlier, by Census figures, and much of the rest went up in the 1960s and 1970s or as newer infill. In the old houses and doubles, the furnace lives in the basement, vents up an old chimney and is rarely the first one there, so its venting and heat exchanger take most of our time. Two in three homes are rented, so owners book many visits. Price first, always, and if nothing’s wrong, we say so.',
-  emergencyParagraph:
-    'Gas smell in Mount Adams: leave, don’t touch a switch or relight a pilot, and call the gas company outside. Carbon monoxide alarm: everybody out first. A furnace that short cycles nonstop, or a flame gone yellow and lazy, needs repair. Older relatives, babies and anyone ill shouldn’t sit in a cold house. Same-day visits on most calls, weekends too.',
   commonIntro:
     'In the older houses, doubles and small apartment buildings of Mount Adams, these tend to prompt a fall visit:',
   localFaqs: [

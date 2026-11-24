@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'In Covington, what a new light costs rests on three things up in the ceiling: the box behind the canopy, whether a ground wire was ever run, and whether the fixture takes an old spot or a fresh one. Census figures count 9,268 of the city’s 21,048 homes from 1939 or earlier. Old houses in MainStrasse and Licking Riverside often pair lofty plaster ceilings with a box never sized for weight. Close to half of homes are rented. We open the box, look, and name a fixed price.',
-  emergencyParagraph:
-    'In Covington, treat these as same-day problems: a fixture easing away from a plaster ceiling, a switch plate warm and humming, or scorching around a light. If it’s safe, kill that circuit and keep the space below empty. Smoke or flame means leaving and calling 911. Weekends count, and most calls get seen that day.',
   commonIntro:
     'In Covington, narrow rowhouses and tall brick homes bring us these four light fixture jobs most.',
   localFaqs: [

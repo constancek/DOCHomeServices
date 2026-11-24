@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'In Madeira, the 1950s produced more houses than any other decade, and the median house dates from 1960 by Census figures. Owners live in nearly all of them, single houses that have since taken on central air, a gas furnace with its own circuit board and a kitchen full of electronics. The panel, first or replacement, may be out of room, and only opening it tells us where a protector would go. When strips would do, we say it, and we agree the price before starting.',
-  emergencyParagraph:
-    'In Madeira, a breaker that won’t stay on after one reset is an urgent call, and so is an outlet with a burning odor or a panel blackened after a storm. Shut that circuit off if you’re dry and nothing nearby is hot. Fire or smoke means you leave and dial 911. Same-day service on most calls, weekends included.',
   commonIntro:
     'Across Madeira, ranch houses and mid-century two-stories with modern equipment inside tend to show these signs first.',
   localFaqs: [

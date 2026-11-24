@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Old village houses and newer ones sit side by side in Williamsburg, and the tune-up changes with each. Census figures show 28.8% of homes date to 1939 or earlier, long before central air, so their systems came later, often with the air handler in the attic and ducts run wherever they fit. Houses on the edge of the village are simpler. Renters, about 37.6% of households, leave the booking to the landlord. The price is set first, and we’ll say so if nothing needs doing.',
-  emergencyParagraph:
-    'An AC that quits in a heat wave, or icing lines, can’t wait for a tune-up; switch it off to thaw. A brown stain spreading under an attic unit, or a condenser humming with its fan stopped, needs a repair as well. Babies feel heat early. We arrive the same day on most calls, weekends included.',
   commonIntro:
     'In the village of Williamsburg, most spring bookings start with something like this.',
   localFaqs: [

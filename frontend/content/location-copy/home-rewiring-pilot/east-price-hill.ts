@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'Two eras of building shape wiring work in East Price Hill. Census figures date about four in ten homes to before 1940, old enough for cloth-wrapped wire, no ground and a cellar fuse block. Apartment blocks followed in the 1960s with too few kitchen circuits, and a few from then may carry aluminum branch wire. Most households rent. We test before pricing and say so when the wiring checks out. Nothing gets opened until the scope and flat figure are signed.',
-  emergencyParagraph:
-    'A receptacle that smells scorched, a cover plate gone tan, crackling behind a switch or a breaker that refuses to hold means calling us now. A jolt from a lamp or washer counts too. With dry hands, switch that breaker off. Flames or smoke mean leave and ring 911. Most get a same-day visit, weekends included.',
   commonIntro:
     'From the brick houses off Warsaw Avenue to the 1960s blocks higher up, rewiring calls tend to start here.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Census figures put the typical house in Villa Hills at 1981, and the large majority were built between 1960 and 2000, mostly as detached houses owned by the people living in them. Those houses generally got a bath fan at construction. Many originals still drone away, small and noisy, and some exhale onto the attic floor or toward a soffit, which lets the damp air settle back in. We follow that air to its real exit and give you a price before touching the ceiling.',
-  emergencyParagraph:
-    'If a bath fan smells hot, its plastic grille warps or browns, it throws sparks or smoke, or the breaker won’t hold while it runs, shut it off at the switch or breaker when safe. Water dripping from the grille is urgent. Smoke or fire means get out and call 911. Most of Villa Hills gets same-day service, weekends included.',
   commonIntro:
     'In the houses of Villa Hills that date from the 1960s onward, four complaints come up again and again:',
   localFaqs: [

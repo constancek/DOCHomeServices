@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'Census figures put 82.1% of homes in Linwood at 1939 or earlier, so any central air here was added long after the house was built. That usually means ducts run through closets or an attic, an air handler in the attic or a basement corner, and a condenser fitted into whatever outdoor space was left. Many houses are two-family and more than half are rented, so landlords book a lot of the visits. You get a flat price first, and we tell you when nothing’s needed.',
-  emergencyParagraph:
-    'A tune-up is the wrong call for an AC that has stopped cooling in the heat, frosted its copper lines or started leaking through a plaster ceiling. Switch a frozen one off. Burning smells and breakers that won’t stay reset mean leave it off. Babies, older relatives and the ill suffer first. Same day on most calls, weekends included.',
   commonIntro:
     'In the old houses and two-family homes of Linwood, these usually come before a call:',
   localFaqs: [

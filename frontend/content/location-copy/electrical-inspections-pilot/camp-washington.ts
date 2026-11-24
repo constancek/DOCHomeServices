@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Almost nothing in Camp Washington is new. Census figures show close to nine in ten homes were built in 1939 or earlier, and none since 1980. Houses from that era started out on cloth-covered or knob-and-tube wiring, fuse boxes and ungrounded outlets, and most have been patched and updated in pieces over the decades. Around four in five homes are rented, so landlords make a lot of our bookings. We find out what’s really behind the plaster and price any fixes before work begins.',
-  emergencyParagraph:
-    'Some signs can’t sit until an appointment. Heat at a plug or switch, scorch marks, buzzing, sparks, a burning odor, a breaker that kicks straight back off, or lights that dim sharply when the furnace blower starts. Switch that circuit off. Smoke or flame: leave, then 911. We get to most of these the same day, weekends as well.',
   commonIntro:
     'Camp Washington’s pre-war houses and two-families turn up the same faults again and again:',
   localFaqs: [

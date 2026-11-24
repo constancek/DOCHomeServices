@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'Kitchens around Mount Lookout Square get remodelled often, and the ceiling fixture left behind rarely matches the new cabinets. Replacing it, or trading it for pendants, depends on the box overhead, whether a ground runs to it and whether the new light lands somewhere the old wire never went. Of 1,454 homes Census counts at the neighborhood’s core, 740 predate 1940 and about three in four are owner-occupied houses. Plaster, shallow boxes and ungrounded cable come with that age. We look first and quote second.',
-  emergencyParagraph:
-    'Don’t leave a fixture that’s dropping away from the plaster, or a switch that smells scorched, until next week. Kill the circuit at the breaker if you can get there safely, and keep the family out from under anything loose. If there’s smoke or fire, everyone goes outside and you call 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Light fixture work in Mount Lookout usually starts with one of these.',
   localFaqs: [

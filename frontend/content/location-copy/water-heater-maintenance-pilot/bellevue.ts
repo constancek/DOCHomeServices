@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Bellevue’s median home dates to 1938, and 63.7% of its housing was built in 1939 or earlier, per Census figures. That makes most services here a cellar job: a flue connector to examine, a drain fitting that may not have budged in years and gas piping we check by eye. Renters are 29.9% of households, and for them the landlord does the booking. We set a flat figure before any work, and we’ll say plainly when a heater isn’t worth the money.',
-  emergencyParagraph:
-    'A dripping heater: close the cold supply at its top, then the gas or breaker. A gas odor: step outside without flipping switches or relighting, then call Duke Energy. A carbon monoxide alarm: everyone clears out first. A relief valve that won’t settle, or hot water gone, means booking a repair. Most are seen same day, weekends included.',
   commonIntro:
     'These are what usually get a heater in Bellevue on our schedule:',
   localFaqs: [

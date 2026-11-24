@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'In Columbia-Tusculum, old houses sit beside new infill. By Census figures, 39.1% of homes predate 1940 and 19.6% were built in 2000 or later. The old houses on the hillsides usually have no ducts, so ductless heads cool them without opening up walls. Newer homes tend to call us for a top floor or a finished lower level. You approve one price before the first hole, and if ductless isn’t the answer, we’ll tell you.',
-  emergencyParagraph:
-    'Attic bedrooms under the old roofs soak up sun, and July’s normal high is 86F, per the National Weather Service. An infant, a grandparent or someone getting over an illness should sleep downstairs. We schedule installs promptly, and one head takes a day. Mini-Split Repair handles a unit that has died, reaching most calls the same day, weekends too.',
   commonIntro:
     'From the old houses climbing the Tusculum hills to the newer homes near Delta Avenue, these are what usually lead to a ductless quote:',
   localFaqs: [

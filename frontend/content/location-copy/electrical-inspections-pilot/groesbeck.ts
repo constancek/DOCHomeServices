@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'Groesbeck’s houses span several decades, so the inspection depends on which one yours came from. Census figures put the median home at 1970, with most built between the 1940s and the 1970s, when panels were smaller and rooms had fewer circuits than a family uses now. About one home in six is from 2000 or later, and those usually just need a check before a sale or a big new load. There are apartments and mobile homes here too. Every visit ends with a written report and prices.',
-  emergencyParagraph:
-    'Don’t wait on a booked inspection if an outlet is hot or blackened, a switch buzzes, you see sparks or smell something burning, or the lights dim hard every time the furnace or a dryer starts. Turn off that breaker. If there’s smoke or fire, get out first and call 911. Most Groesbeck calls get a same-day visit, weekends included.',
   commonIntro:
     'Groesbeck mixes postwar houses, homes from the 1970s, newer builds, apartments and mobile homes. What we find most:',
   localFaqs: [

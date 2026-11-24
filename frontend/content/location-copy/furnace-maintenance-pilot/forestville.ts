@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'Much of the housing in Forestville is from the 1980s and 1990s; the median home is from 1981 by Census figures, and plenty of furnaces sit in townhouses, condos and apartment closets instead of old basements. Electric heat is in 38.2% of homes, a figure that also covers heat pumps and baseboard, so we ask what you have when you book. A furnace from that era mostly needs its filter, blower, burner and safety controls looked after. You approve a set price first, and we’ll say if nothing’s needed.',
-  emergencyParagraph:
-    'Gas smell: go, touch no light switch, relight nothing, call the gas company from the sidewalk. Carbon monoxide alarm: everybody out, then call. Dead in a cold snap, restarting over and over, or burning a lazy yellow flame: that’s repair work, most urgent for small children, seniors and the sick. Mostly same day, weekends included.',
   commonIntro:
     'In Forestville, owners and landlords usually book a tune-up after noticing one of these:',
   localFaqs: [

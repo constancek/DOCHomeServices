@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'In College Hill, about a third of homes were built before 1940 and another third between 1940 and 1969, by Census figures. The early-1900s houses can hide a light box set in plaster that was never built for a fan, and postwar houses have lower ceilings that suit a tight mount. About half are rented, so landlords make plenty of the calls. We check the box first, say if snugging the mount would do, and settle a figure before work starts.',
-  emergencyParagraph:
-    'A fan thrashing on its rod, a box slipping out of old plaster, smoke drifting from the motor or a crackle behind the switch plate earns a same-day visit, weekends included. Until we arrive, kill it at the switch or breaker if that’s safe, and nobody stands underneath. Any flame or smoke is a 911 call from outside.',
   commonIntro:
     'Big older houses and mid-century ranches each bring their own fan trouble, and these four come up most in College Hill.',
   localFaqs: [

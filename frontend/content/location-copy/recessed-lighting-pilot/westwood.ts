@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Westwood is Cincinnati’s largest neighborhood, and its homes run from 1940s houses off Harrison Avenue to apartment buildings along corridors such as Werk Road. Census figures show about two in three homes are rented and 3,720 sit in buildings of 10 to 19 units, so landlords and managers book much of our recessed lighting. The houses tend to have an attic over the bedrooms and a basement finished later. We look above each ceiling and fix a price before cutting.',
-  emergencyParagraph:
-    'Tenants and owners alike should act on a can that buzzes, cycles off and on, scorches the paint around it or smells of hot plastic. Turn its breaker off if that’s safe, and tenants should tell the manager at once. If smoke or flame appears, get out and call 911. Same-day help is available on most calls, weekends included.',
   commonIntro:
     'Owners and building managers from Harrison Avenue to Montana Avenue bring us these four in Westwood.',
   localFaqs: [

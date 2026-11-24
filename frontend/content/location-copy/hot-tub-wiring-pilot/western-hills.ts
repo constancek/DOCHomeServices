@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'For a hot tub in Western Hills, the first thing we pin down is whether the address falls in Cincinnati, Cheviot or Green Township, since that sets who inspects it. The wiring is the same anywhere, a 240-volt circuit fed through a GFCI breaker, a disconnect the soaker can see without reaching, and bonding. Census figures put the typical house in the area’s two ZIP codes at 1958 and 1962, and panels that age often need room made first. We quote from the tub’s requirements before any conduit.',
-  emergencyParagraph:
-    'In Western Hills, phone us if the spa’s GFCI breaker won’t hold, the disconnect looks melted, a buzz comes from the panel, or a bather feels a zap. Get everybody out and don’t touch the water. Throw the breaker only when that’s safe; with smoke, get out and dial 911. Most of these calls see us same day, weekends too.',
   commonIntro:
     'From Glenway Avenue up to Ferguson Road and Western Hills High School, these four come up most when owners call about a spa:',
   localFaqs: [

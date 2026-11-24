@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Along Eastern Avenue, the typical house dates to 1938 by Census figures, and a lot of those river cottages had a bathroom squeezed in decades after the framing went up. Some still have no fan. Others got one that blows into the attic or a wall cavity, which leaves the damp behind. Up on Riverside Drive, most homes are from the 1990s or later, and there the fan exists but is undersized. Either way, we chase the airflow to its end and quote before touching the ceiling.',
-  emergencyParagraph:
-    'A housing that smells of scorched plastic, a grille gone brown, sparks, smoke, a breaker that flips as soon as the fan kicks on, or water seeping from the fixture should not wait. Kill it at the breaker when you safely can. Smoke or flames mean everyone leaves and someone calls 911. Most visits are same day, weekends too.',
   commonIntro:
     'Between the cottages near Eastern Avenue and the condos facing the river on Riverside Drive, here’s what tends to show up first.',
   localFaqs: [

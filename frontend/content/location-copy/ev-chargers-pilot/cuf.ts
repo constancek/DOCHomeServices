@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'Renters fill roughly five of every six occupied homes in CUF, by Census figures, which puts the landlord’s signature ahead of any charger. Tenants get written approval and the owner books us. Clifton Heights and Fairview hold the oldest stock, many houses predating 1940, and an untouched original service in one of those can leave almost no headroom for a 240-volt line. We open the panel, work the load calculation, admit when the Level 1 cord will cover a light schedule, and lock the price before wiring.',
-  emergencyParagraph:
-    'Tenants who see a charger or receptacle discolored or melting, catch a scorched odor during a charge, or watch the breaker drop every session should stop charging and tell the landlord. With a dry, reachable panel, switch that breaker off. Fire or smoke means getting out and dialing 911. Owners can usually get us the same day, weekends included.',
   commonIntro:
     'In CUF, charger requests from owners of two-families and walk-ups tend to look like these:',
   localFaqs: [

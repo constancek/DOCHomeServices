@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'In Villa Hills, the median house dates to 1981 by Census figures, and most were built between the 1960s and the 1990s. Decades on, the condenser out back is often a replacement while the ductwork is still the original, so our tune-up here follows the air all the way through. We look at the coil over the furnace, the drain beside it and how strongly air reaches the bedroom farthest from the blower. A flat price comes first, and a healthy system is left alone.',
-  emergencyParagraph:
-    'If the AC gives up on a blistering day, or frost creeps along its lines, ask for a repair instead and shut the system off until the ice is gone. A scorched smell or water spreading from the indoor unit can’t wait, especially with a baby or elderly parent home. Same-day visits are normal on most calls, weekends included.',
   commonIntro:
     'These are the signs that bring most owners in Villa Hills to book a spring check.',
   localFaqs: [

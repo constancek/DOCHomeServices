@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'In South Lebanon, Census figures put the median house at 2007, and about two in three were built after 2000. Panels in those subdivision homes have open spaces and some headroom, so a spa job there is mostly about the trench across a deep yard and where the cutoff box mounts. The older blocks around High and Main Streets are different, and a crowded panel there is sorted before the tub breaker. We read the spa’s data plate against your panel and quote the 240-volt circuit before digging.',
-  emergencyParagraph:
-    'If spa equipment sat in floodwater, keep it off until checked. The same goes for a GFCI that pops off again, a hot smell at the panel, or current felt in the water. Get everyone out and touch nothing, and kill the breaker only if that’s safe. Smoke or fire calls for 911. Most calls are same day, weekends included.',
   commonIntro:
     'New subdivisions now outnumber the old river-town streets in South Lebanon, and spa work here tends to begin with one of these situations.',
   localFaqs: [

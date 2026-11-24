@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'In Loveland, spa wiring usually means a fairly young house. Census figures give a median build year of 1985, and very few homes predate 1940, so the panel often has a spare slot for a 240-volt GFCI breaker. The bigger question is the yard. Many houses sit on the hills, which puts the tub on a deck or lower terrace and stretches the run. We hold your panel up against the spa’s spec sheet and give you a figure before any trenching.',
-  emergencyParagraph:
-    'If the spa water gives anyone a tingle, or its breaker falls the instant it’s reset, bathers climb out and the pump and controls stay untouched. Throw the breaker only if you can do it without danger, and if there’s smoke, get out and ring 911. In Loveland, a same-day visit covers most of these calls, weekend days included.',
   commonIntro:
     'Here are the four spa wiring calls we hear most often from Loveland.',
   localFaqs: [

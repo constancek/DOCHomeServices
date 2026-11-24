@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'In Madisonville, exhaust fan work depends a lot on the street. Around Whetsel and Bramble Avenues, most houses predate 1940, and their bathrooms often got a fan long after the fact, sometimes blowing into the attic. Toward Madison and Red Bank Roads, much of the housing is newer apartments and townhouses whose fans can be undersized for the room. Census figures show about half of homes are rented. We trace the airflow and price the job before cutting into a ceiling.',
-  emergencyParagraph:
-    'If water drips through the grille, the housing has scorched or melted, or you see sparks, smoke or smell burning, shut the fan down at its switch or breaker as long as that’s safe. Smoke or flames mean the building gets emptied and someone calls 911. Most of these get a visit that same day, weekends included.',
   commonIntro:
     'From the prewar houses off Whetsel Avenue to the newer buildings by Madison Road, these four signs come up most in Madisonville.',
   localFaqs: [

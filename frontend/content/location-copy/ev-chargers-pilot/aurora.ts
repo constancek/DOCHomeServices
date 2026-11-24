@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Aurora was platted in 1819, and Census figures count nearly two in five homes as pre-1940, with a median of 1952. About one home in five sits in a two- to four-unit building, which brings landlords into many charger decisions. The oldest river-town houses may carry a small original service, while the post-war ones often have every panel slot taken. We open the panel and work the load out first, say if Level 1 suits you, and price it before wiring.',
-  emergencyParagraph:
-    'Any charger, outlet or panel the Ohio touched in Aurora stays off until it’s been checked. A hot plug, a burning smell or a breaker that drops each session calls for the same caution. Switch the circuit off only if you’re dry, and for smoke or fire, call 911 from outside. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Between the downtown houses, the small rental buildings and the post-war streets of this Dearborn County city, these four reasons bring most of the calls:',
   localFaqs: [

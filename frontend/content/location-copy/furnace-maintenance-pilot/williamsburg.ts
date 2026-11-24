@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Williamsburg, on the East Fork, has a bit of everything: by Census figures close to three in ten homes date from before 1940, the median house from 1961, and gas edges out electricity for heat. The old village core is where a furnace tune-up takes longest: a basement unit on its second or third replacement, often exhausting up a masonry chimney, so draft and the heat exchanger come first. Later houses and the apartments go quicker. You get a price before any work, and an honest no if nothing’s needed.',
-  emergencyParagraph:
-    'Not tune-up material in Williamsburg: a gas smell (walk out, no switches, no pilot, call the gas company outside), a carbon monoxide alarm (everybody out before anything), no heat on a bitter night, a furnace cycling on and off nonstop, or a lazy yellow flame. Infants, the elderly and anyone unwell are first to suffer. Mostly same day, weekends included.',
   commonIntro:
     'Old village houses and apartment buildings both send us calls in Williamsburg, mostly for these:',
   localFaqs: [

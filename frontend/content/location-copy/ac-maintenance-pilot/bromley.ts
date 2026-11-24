@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bromley: LocationServiceCopy = {
   localParagraph:
     'Bromley sits low beside the Ohio, and its houses are old, so before a spring tune-up we ask whether the last high water got into the basement. Census figures show 51.7% of homes predate 1940. Nobody planned for central air when they went up; ductwork was retrofitted, and the blower cabinet usually stands on a basement floor that floods in a bad year. Wet equipment gets inspected before it runs. The flat price is settled first, and if the AC needs nothing, we won’t invent work.',
-  emergencyParagraph:
-    'An air handler or condenser that sat in flood water shouldn’t run until it’s inspected, and that’s a repair visit. So is no cooling in a heat wave, frost on the lines, or a breaker that trips again; keep the system off meanwhile. Grandparents, babies and anyone sick suffer most in heat. Most calls are same day, weekends included.',
   commonIntro:
     'In older houses near the river in Bromley, an owner usually books a spring visit for one of these reasons:',
   localFaqs: [

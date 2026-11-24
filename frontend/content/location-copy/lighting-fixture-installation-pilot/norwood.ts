@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Plenty of bedrooms in Norwood still rely on a lamp plugged into a switched receptacle, and hanging a proper ceiling light there hinges on whether we can snake cable up to the spot. This old railroad and factory town went up early, and Census figures place its middle house around 1938, so horsehair plaster, cramped boxes and ungrounded ceilings come with the territory. Brick two-families are everywhere and more than half of households rent. We map the circuit and quote one firm price long before anything gets unscrewed.',
-  emergencyParagraph:
-    'Phone us when a fixture dangles by its wires, the canopy shows scorching, or the breaker snaps off as the light comes on. Kill that circuit if the panel is safe to reach and keep kids clear. Smoke or flame means everybody outside and a 911 call. Most of these get a visit that same day, weekends as well.',
   commonIntro:
     'For owners and landlords in Norwood, these four lighting jobs fill most of the schedule.',
   localFaqs: [

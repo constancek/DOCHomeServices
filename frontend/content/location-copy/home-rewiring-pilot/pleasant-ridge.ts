@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'Census figures date more than half of Pleasant Ridge’s housing to before 1940, with roughly another fifth from the 1940s and 1950s. In the oldest houses and two-families there may be knob-and-tube or cloth-jacketed conductors lacking any ground. The postwar houses got wiring planned for a radio, a refrigerator and a few lamps, so today’s kitchen may share its breaker with half a floor. A test comes first. When the wiring is healthy, we say so, and when it isn’t, scope and flat price get signed before anyone cuts plaster.',
-  emergencyParagraph:
-    'We reach most of these the same day, weekends too, when it’s a receptacle giving off a burnt odor, a browned or hot cover plate, sparking, a breaker refusing to stay set, or anyone getting zapped. If the floor by the panel is dry, shut off just that circuit. If smoke shows up, get out and phone 911.',
   commonIntro:
     'Off Montgomery Road and Ridge Avenue, the older houses and two-families of Pleasant Ridge tend to show these signs first.',
   localFaqs: [

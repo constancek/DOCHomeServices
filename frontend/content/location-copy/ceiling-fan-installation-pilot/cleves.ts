@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Cleves is a village of mostly detached houses, close to nine in ten by Census figures. A quarter predate 1940, with small boxes over the bedroom light that were never fitted to carry a fan. One in five went up after 2000, and that’s where peaked great rooms needing a down rod turn up, along with back patios that want a damp-rated fan. We pull the canopy and look before quoting, tell you if the blades only need evening out, and settle the price with the old fixture still up.',
-  emergencyParagraph:
-    'If a fan starts rocking the canopy, its box lets go, the motor smokes, or the breaker kicks on start-up, stop using it. Kill it at the wall switch or the panel if it’s safe and clear the room. Fire or smoke is a 911 call from outside. We come same day on most of these, weekends too.',
   commonIntro:
     'From village houses near Route 50 to the newer streets, these are the fan problems we’re asked about most in Cleves.',
   localFaqs: [

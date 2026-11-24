@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Getting proper light onto the kitchen counters, where one fixture in the middle of the ceiling used to do all the work, is a typical lighting job in Newtonsville. The box, the ground and whether the new spot is already wired decide how it goes. Census figures put most houses around Newtonsville, in Wayne Township, in the 1970s and early 1980s, and nearly all of them are detached and owner-occupied. We check the box and wiring, then set the price.',
-  emergencyParagraph:
-    'Melted plastic at a socket, a warm or buzzing switch, or a breaker that pops whenever the kitchen light goes on should not wait. Flip that breaker at the panel if getting there is safe, and keep folks clear. Smoke or flames mean leaving and calling 911. Most Wayne Township homes see us same day, weekends included.',
   commonIntro:
     'Out here the houses are mostly 1970s ranches and two-stories on their own lots, and these are the lights people ask us for most.',
   localFaqs: [

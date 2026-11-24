@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'In Montgomery, the panel a new spa must share most likely went in during the 1970s. Census figures date the median house to 1976, count 1,455 homes from that decade alone, and show 3,576 detached houses citywide. Boxes from that era tend to be crowded by remodels, so freeing a slot and confirming reserve comes first. Then the tub gets its own GFCI-protected 240-volt feed, a lockable cutoff it can be seen from, and bonding. Pricing follows our read of the panel against the spa manual.',
-  emergencyParagraph:
-    'Call us the same day in Montgomery when the spa GFCI refuses to reset, the cutoff box is discolored, the panel hums, or a bather feels current in the water. Have everyone step out and leave the equipment alone, and kill the breaker only if that’s safe. Smoke or flame calls for 911. Same-day help reaches most callers, weekends included.',
   commonIntro:
     'Homeowners near Montgomery Road and on the quieter streets beyond it raise these four spa issues more than any others.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'In Owensville, about half the homes went up in the 1960s and 1970s, Census figures show, and a panel from those years has usually been filled breaker by breaker since. Electric heat is the norm here too, so winter already leans on that panel before any car does. The load calculation decides the job. Detached houses, the bulk of the village, make the layout simple if the car parks alongside. We read the panel first, tell you if the dealer cord suffices, and price everything up front.',
-  emergencyParagraph:
-    'Retire a setup today if the outlet behind the Level 1 cord runs warm or the cord rides on an extension. A melted plug or a breaker that trips each charge counts too. Cut that circuit only if you can stay dry and safe. Smoke or fire means 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Around Owensville and the rest of Stonelick Township, four signs usually tell us a house is due for proper charging.',
   localFaqs: [

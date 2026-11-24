@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lovelandPark: LocationServiceCopy = {
   localParagraph:
     'By Census figures, Loveland Park holds two sets of houses. There are older homes from the 1920s to the 1950s and a bigger group built since 1980, with 1990 the median. In the older ones, a spa often meets a panel with no slot or headroom left, and we fix that first. Newer houses usually have room, so the cost hinges on where the tub sits and how far the wire travels. Your panel gets compared with the spa’s spec sheet, and you see a price before work starts.',
-  emergencyParagraph:
-    'If a spa’s GFCI snaps off right after a reset, or someone at the rim feels a tingle, clear the tub and leave the equipment be. Use the shutoff only if you can reach it without risk, and dial 911 for smoke or flames. Most of these calls in Loveland Park get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Around Loveland Park, spa owners usually phone us about one of these.',
   localFaqs: [

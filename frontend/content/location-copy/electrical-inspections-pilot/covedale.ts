@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Covedale is really two places when it comes to wiring. Census figures put the median home on the Cincinnati side at 1938, with most houses there built before 1940, so ungrounded outlets and old fuse panels are common finds. The Green Township side came later: its median home dates to 1959, and a third went up in the 1950s, when panels were sized for far smaller loads than a house carries now. Either way, we test the system, write it up and quote any repair before work begins.',
-  emergencyParagraph:
-    'Don’t wait on a scheduled inspection if you notice a burning odor, a scorched or buzzing outlet, sparks at a switch, or a breaker that trips the instant you flip it back. Turn it off and keep it off. Smoke or fire: everyone outside, then 911. In Covedale, most urgent calls are answered the same day, weekends too.',
   commonIntro:
     'What we find in Covedale depends on which side of the city line the house is on. The most common:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'In Loveland, air complaints come mostly from newer houses. Census figures date the median home to 1985, and roughly three in five were built from 1980 on. Builders sealed those houses well, so last night’s fish, a bottle of bleach or a long shower stays in the house, and fresh air through a ventilation change often beats more filtering. A small number of older houses sit on cellars that run damp. We test first, quote a flat price before work, and tell you when a new filter will do.',
-  emergencyParagraph:
-    'If the carbon monoxide detector goes off, clear the house and ring 911. For a whiff of gas, step out without flicking a light and call the gas company. A burning odor at the vents means setting the thermostat to off. Mold after a leak is urgent with a baby around. Same-day service covers most calls, weekends too.',
   commonIntro:
     'Bad air tends to show up in one of these ways in houses around Loveland.',
   localFaqs: [

@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'home-rewiring',
   serviceName: 'Home Rewiring',
   localHeadingName: 'Home Rewiring',
-  emergencyHeading: 'Urgent Wiring Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Home Rewiring',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },

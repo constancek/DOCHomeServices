@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Two kinds of housing dominate Southgate. Census figures date 28.9% of homes to 1939 or earlier and place 41.0% in buildings with five or more units. The old houses usually keep the heater downstairs near a weathered flue, with an original spigot at its base and gas piping we inspect; the apartment buildings mostly give each unit its own closet heater sitting in a pan, maintained on the landlord’s say-so. Before we start you’ll have the figure, and if a heater doesn’t merit a service, we tell you.',
-  emergencyParagraph:
-    'Book a repair when the tank weeps: turn its top cold-water valve off, then gas or breaker. A whiff of gas: household outside, no one touching a switch or the pilot, the gas company called from the street. Carbon monoxide alarm sounding: get people out. Relief valve venting nonstop, or hot water gone: same-day help most times, weekends included.',
   commonIntro:
     'In both the older houses and the apartment closets of Southgate, owners usually notice these:',
   localFaqs: [

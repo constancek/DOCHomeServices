@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'For recessed lighting in Landen, the panel gets looked at as closely as the ceiling. Census figures show nearly nine homes in ten heat with electricity, so the breaker box around Landen Lake is often busy before a single can joins it. Most houses date from the 1980s and 90s, with drywall, a reachable attic and plenty of townhouses and condos in the mix. Those ceilings cut cleanly, but we confirm the circuit has room, mark each light and set the price beforehand.',
-  emergencyParagraph:
-    'Leave the new lights off if their breaker trips each time they come on, a can blinks out and recovers, or the drywall around a trim looks singed. Flip that breaker if you can reach it safely, and call 911 from outside if smoke shows. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Around Landen, and over toward Twenty Mile Stand, these rooms bring most of our recessed lighting work.',
   localFaqs: [

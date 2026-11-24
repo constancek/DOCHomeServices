@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Census figures put nearly half of all homes in Newport before 1940, and a typical bedroom in one of them has a plaster ceiling with a shallow box that once held a single bulb. That box was never sized for a fan, which weighs more and shakes as it spins. Over half of homes are rented, many in buildings with several units, so the owner has the final say. We open the box before quoting, mention it when snugging the mount solves things, and agree the price first.',
-  emergencyParagraph:
-    'A lurching fan, a canopy dropping away from old plaster, or sparks at the switch plate can’t wait. Kill the power at the switch or panel if you can reach it safely, and keep the kids out of that room. If there’s smoke, get outside and call 911. Most calls in Newport see us the same day, weekends included.',
   commonIntro:
     'Plaster ceilings, rented flats and bedrooms that never had a fan make up most of the work we take on in Newport.',
   localFaqs: [

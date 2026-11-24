@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Springdale rents more than its quiet streets suggest. Census figures count 40.9% of households as renters and 23.3% of units in buildings of five or more, plus a good share of townhouses. There the heater usually sits in a closet over a pan, and the owner or manager books it. The 1960s and 1970s houses keep their tanks in a basement or utility room: a flush, an anode check, a valve test. Price comes before work, with our honest view on whether a tank is worth servicing.',
-  emergencyParagraph:
-    'Water around the tank means repair. Close the inlet valve on the cold side, then cut the gas or breaker. For a gas smell, go outside, switches and pilot untouched, call the gas company from the curb. Carbon monoxide alarm: out first. Same for a dripping relief valve or no hot water. Same day on most calls, weekends included.',
   commonIntro:
     'From a basement tank to a closet heater in Springdale, these are the usual signs:',
   localFaqs: [

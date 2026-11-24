@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Most homes in Avondale are rented, and many sit in two-family houses or small apartment buildings, so exhaust fan work here is usually booked by owners and property managers. Census figures show a large share of homes went up before 1940, when bathrooms rarely had fans, and the fans added since are often ducted into the attic or a wall. Newer buildings tend to have fans that are too small. We trace the airflow first and quote the repair or new fan before touching the ceiling.',
-  emergencyParagraph:
-    'Anyone renting should switch off a fan that smells hot, sparks or smokes, at the wall or breaker if they safely can, then let the owner know. A leaking grille or a breaker that falls with the fan can’t sit. Smoke or fire means getting out and calling 911. Owners and managers usually see us the same day.',
   commonIntro:
     'Owners of two-families, small apartment buildings and single houses around Avondale, these four complaints come up most:',
   localFaqs: [

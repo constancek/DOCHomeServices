@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'There are two housing stories in Dayton. By Census figures, close to half the homes went up in 1939 or earlier, and a breaker box in one of those has often been filled until there’s no slot left, so looking inside decides where a protector can go. Almost a fifth arrived after 2000, loaded with central air, smart gadgets and appliances run by boards. Around four homes in ten are rentals. You hear from us if strips will do, and the price is settled first.',
-  emergencyParagraph:
-    'A burnt smell at the breaker box, a blackened outlet or a breaker that flips back off once reset all need an electrician that day. If every room’s lights pulse bright and dim together, the electric utility should hear from you before we do. With smoke or fire, leave and call 911. Most calls get same-day visits, weekends included.',
   commonIntro:
     'From prewar houses near Sixth Avenue to apartments built since 2000 in Dayton, these signs come up most before an owner calls about surge protection.',
   localFaqs: [

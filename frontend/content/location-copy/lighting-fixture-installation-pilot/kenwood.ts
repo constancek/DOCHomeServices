@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'In Kenwood, plenty of our light fixture work begins with a long ranch hallway lit by one lonely dome. Census counts put the median home at 1967, with the largest group built from 1960 to 1979, an era that gave rooms one ceiling light and little else. Condos and apartment towers near the Montgomery Road corridor add to the mix, and close to two in five households rent. Our electrician checks the box and circuit, and you get a written figure before that old dome is unscrewed.',
-  emergencyParagraph:
-    'A loosening fixture, a socket with scorch marks or melting, a hot slide dimmer, or flicker spread across more than one circuit needs a look today. Switch off that breaker if it’s reachable without risk, and keep the family out from under the light. In smoke or fire, step outside and dial 911. Same-day service on most calls, weekends too.',
   commonIntro:
     'Across Kenwood, light fixture calls tend to center on these four.',
   localFaqs: [

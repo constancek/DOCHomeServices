@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Around Winton and Galbraith Roads, a lot of our recessed lighting goes into lower levels that owners are only now finishing. Census figures date the median house in Finneytown to 1959, and better than half went up from 1940 through 1959, almost all detached and lived in by their owners. Exposed joists downstairs make wiring easy, the top floor usually has an attic overhead, and the main rooms tend to hang on one ceiling box. We mark positions and agree a price with you before cutting.',
-  emergencyParagraph:
-    'Shut a recessed light off at its breaker, if you can get there safely, when the drywall around it shows a scorch, the trim burns your fingers or water is dripping through it. If smoke or fire shows up, get the family out and dial 911. We get to most calls that same day, Saturday and Sunday included.',
   commonIntro:
     'Finneytown is nearly all mid-century houses kept by long-time owners. Here are the downlight jobs that keep coming back.',
   localFaqs: [

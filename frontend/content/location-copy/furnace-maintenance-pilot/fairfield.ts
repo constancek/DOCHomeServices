@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'Fairfield is a city of 1960s and 70s neighborhoods with 1980s and 90s subdivisions layered on, and by Census figures electricity heats slightly more homes than gas. About a quarter of the housing sits in apartment buildings, where a closet furnace is the landlord’s to book. Single-family houses that age have rarely kept their first furnace, so the tune-up is on a replacement: filter, blower, burners or elements, safety controls. Price first, every time, and if yours is fine, we leave it be.',
-  emergencyParagraph:
-    'In Fairfield, a furnace that turns risky is a Furnace Repair job. Gas smell: get out, no switches or relighting, phone Duke Energy outside. Carbon monoxide alarm: people out before anything. A deep freeze with no heat, an endless on-off loop, or a yellow flame, worst with babies, older relatives or anyone sick. Same day on most calls, including weekends.',
   commonIntro:
     'From apartment complexes to subdivision streets in Fairfield, a fall visit usually starts with one of these:',
   localFaqs: [

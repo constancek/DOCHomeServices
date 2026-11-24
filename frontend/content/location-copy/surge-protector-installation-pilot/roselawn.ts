@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'In Roselawn, most housing went up along Reading Road after the war, and Census figures center it on the early 1960s. Close to two in three homes are rented, and three- and four-unit buildings are everywhere, each unit usually with a small panel of its own. That makes this a landlord decision more often than not. Many of the detached houses have had kitchens and furnaces replaced. We start inside the panel, say so if strips will do, and you get the price before any wiring.',
-  emergencyParagraph:
-    'Expect us the same day on most calls, weekends included, for a blackened outlet, a burning odor in the panel, a breaker that won’t survive a reset, or a washer that smoked on power-up. Touch the breaker only with dry hands. For smoke or flame, get everyone out and call 911. Lights pulsing house-wide go to Duke Energy Ohio first.',
   commonIntro:
     'Owners of fourplexes and houses near Reading Road tend to bring up one of these signs before asking about protection at the panel.',
   localFaqs: [

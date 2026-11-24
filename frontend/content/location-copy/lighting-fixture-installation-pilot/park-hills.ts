@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Hillside houses beside Devou Park tend to have shadowy entries and stairwells, so in Park Hills, we’re often adding sconces, each needing its own box and feed in the wall. Lots here were laid out from 1926, and Census figures set the median house at 1953, which points to 1920s through 1950s construction with older boxes and sometimes no ground. Roughly a fifth went up from 2000 on, with lofty foyers and friendlier boxes. We examine the box and cable, then settle the price before the old fixture is lowered.',
-  emergencyParagraph:
-    'A fixture working loose from the ceiling, lights blinking across separate circuits, or a switch plate too warm to touch deserves a call that day. Kill the breaker if it’s safe to and keep people away from beneath it. Smoke or fire, get clear and dial 911. Most such calls see us that same day, weekends included.',
   commonIntro:
     'From Amsterdam Road to Old State Road, these four jobs fill most bookings from homeowners and residents in Park Hills.',
   localFaqs: [

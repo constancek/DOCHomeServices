@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'Old houses set the air quality job in Northside. Census figures count 2,714 of 4,737 homes as built in 1939 or earlier, and houses that age pull in drafts, keep their basements clammy and send dust through ducts tacked on later. Around Kirby and Virginia Avenues, runoff from the June 2019 storm put water in basements, and that damp lingers as a smell. Our visit opens with a test, the quote is fixed before anyone picks up a tool, and a filter swap gets recommended if that settles it.',
-  emergencyParagraph:
-    'When a carbon monoxide alarm sounds, everyone walks out and dials 911. Gas you can smell means a call to Duke Energy from outdoors, with switches untouched. A burning odor from the furnace or AC means setting the thermostat to off. Mold creeping over a wet wall endangers infants and asthmatics. We arrive same day on most calls, weekends included.',
   commonIntro:
     'Four complaints make up most of our air calls from the older streets of Northside.',
   localFaqs: [

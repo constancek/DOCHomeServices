@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'In Wilder, the bulk of the housing dates from the 1980s and 90s, and Census figures put more than half of it in larger buildings with five units or more. Shared walls let cooking smells and smoke from next door drift in, and a closet air handler is often the only filter between you and them. Electric heat is the most common setup, and forced-air heat dries winter air. We test first, price any fix before work starts, and tell you when a fresh filter will do.',
-  emergencyParagraph:
-    'Get everyone out of the unit when a carbon monoxide alarm goes and phone 911 outside. A gas smell gets the same exit, switches untouched, plus a call to the gas company. Set the thermostat to off if the system smells of burning. Babies, grandparents and anyone with asthma are most exposed. Help usually arrives the same day, weekends too.',
   commonIntro:
     'In Wilder, where most homes are units in larger buildings from the 1980s and 90s, these are the air complaints we hear most:',
   localFaqs: [

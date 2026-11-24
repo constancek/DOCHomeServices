@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'Subdivision drywall with a walkable attic above it makes recessed lighting one of the tidier jobs we do in Independence. Census figures put the typical house here at 1999, and roughly half went up after 2000, mostly detached homes off Madison Pike and the newer streets toward Boone County. Builders tended to leave the great room and kitchen under one fixture and the basement unfinished. Our electrician checks the attic fill and the panel, pencils the layout overhead and hands you a price before cutting.',
-  emergencyParagraph:
-    'Shut down a recessed light that has stained the drywall brown around its ring, feels scalding at the trim, or keeps winking out. So does water leaking through a can. Flip its breaker when you can reach it without danger, and dial 911 from the driveway if smoke appears. Expect us the same day on most calls, weekends too.',
   commonIntro:
     'Around Independence, builder lighting is usually the reason a homeowner calls us about cans.',
   localFaqs: [

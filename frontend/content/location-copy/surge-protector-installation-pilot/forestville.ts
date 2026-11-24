@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'The median home in Forestville was built in 1981, and the 1980s and 1990s account for a big slice of the rest, by Census figures. Those houses carry plenty of what a jolt can ruin, from heat pumps and electric furnaces to mesh routers and touch-panel ovens. Over a third of households rent, many in large complexes. The breaker box usually has room, but we still open it to pick the spot, say if a power strip will do, and quote before starting.',
-  emergencyParagraph:
-    'Call right away if a furnace or TV died with a pop and a hot smell as power returned. When the lights in every room swell and fade, tell Duke Energy before us. Reach for the breaker only from dry ground. Flames or smoke mean leaving and dialing 911. Most calls are reached that same day, weekends too.',
   commonIntro:
     'Houses from the 1980s and 1990s in this part of Anderson Township are full of connected equipment, and surge trouble shows up like this.',
   localFaqs: [
@@ -14,7 +12,7 @@ export const forestville: LocationServiceCopy = {
     },
     {
       q: 'I live in an apartment complex in Forestville, so who arranges surge protection?',
-      a: 'The complex’s management does, because anything at the panel needs the owner’s go-ahead. Tell the office about flickering or dead electronics. Ohio law (ORC 5321.04) requires landlords to keep supplied electrical fixtures in good and safe working order. We install surge protection, not leases. A power strip of your own needs no permission.',
+      a: 'Management does, since panel work needs the owner’s approval. Report flickering lights or dead electronics to the office in writing. Under ORC 5321.04, Ohio landlords must keep the electrical fixtures they supply safe and in good repair. We install the surge device, not the lease terms. Your own plug-in strip needs nobody’s permission.',
     },
   ],
   overrides: {
@@ -37,7 +35,7 @@ export const forestville: LocationServiceCopy = {
       },
       {
         title: 'Panel Check and Permits for a Surge Protector in Forestville',
-        body: 'Before the surge work, we make sure the breaker box has an open slot and a sensible spot near where the service enters. If it’s packed or showing its age, Electrical Panel Replacement may have to come first, and only with your say-so. The unit goes in to code, following the maker’s instructions. Because Forestville lies in unincorporated Anderson Township, Inspection Bureau, Inc. (IBI) handles the electrical permit and inspection, and we deal with both.',
+        body: 'Before any surge work in Forestville, we confirm the breaker box has a free space and a mounting spot close to the service entrance. A box that’s crammed or worn out may need Electrical Panel Replacement first, which happens only if you agree. The device is wired to code and to the manufacturer’s instructions. Forestville sits in unincorporated Anderson Township, so Inspection Bureau, Inc. (IBI) covers the permit and inspection, and we take care of both.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in Forestville Choose Us for Surge Protection',
@@ -50,7 +48,7 @@ export const forestville: LocationServiceCopy = {
       },
       {
         q: 'If we add a panel surge device, are the router and computers still at risk?',
-        a: 'Somewhat. The panel unit is strongest against jolts arriving from the utility, whether from switching on the grid or lightning close by. A spike born inside the house when a compressor starts on a shared circuit gets past it more easily, and coax or ethernet lines go around it. Power strips on that gear handle the rest.',
+        a: 'Less, though not zero. A panel unit works best on surges that come in over the service, such as utility switching or nearby lightning. It does less about a spike that starts indoors when a motor kicks on in the same circuit, and nothing about one riding cable TV or network wiring. Strips on the router and computers cover those.',
       },
       {
         q: 'Could a handy owner wire in a surge protector at the breaker box?',

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Plenty of bedrooms in Kennedy Heights were built with no overhead light at all, just a wall switch feeding a lamp outlet, and adding one is routine for us. By Census figures the median home dates to 1944, and nearly half predate 1940, so we plan around lath, brittle insulation and missing grounds. Doubles and small walk-ups fill a good slice of the hilltop, with more than two in five households renting. We inspect the box and circuit first, then quote one firm number before any plaster is cut.',
-  emergencyParagraph:
-    'A ceiling light dropping away from its plaster, a switch cover that’s warm and humming, or a scorched smell around a bulb holder needs us now. Flip off that breaker when it’s safe, and make sure nobody lingers below it. With smoke or flame, everyone heads outside before ringing 911. Same-day service is the norm on most calls, weekends too.',
   commonIntro:
     'From Kennedy Heights, light fixture requests mostly fall into these four.',
   localFaqs: [

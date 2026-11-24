@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'Batavia has been the Clermont County seat since 1824, and its village housing shows that age, with a Census median of 1955 and about six homes in ten built before 1960. Houses from the 1940s and 50s were wired for far less than today’s kitchens, so many have had circuits tacked on until no slots remain. Roughly two households in five rent. We look inside that panel and tally the load first, admit it when a Level 1 cord is fine, and settle the price before a wire is run.',
-  emergencyParagraph:
-    'Quit charging if a charger, plug or outlet turns hot, discolored or soft, or smells burnt. Treat a breaker that trips each session or a split cable jacket the same way. If the floor is dry, kill the circuit, and with smoke or fire, leave and call 911. We come the same day on most calls, weekends included.',
   commonIntro:
     'Older village houses and apartment buildings lead to charger calls like these in Batavia:',
   localFaqs: [

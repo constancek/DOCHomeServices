@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'In Melbourne, most light jobs begin above old plaster. This small Campbell County city along KY 8 has about two hundred homes, and Census counts put the middle one at 1958, with nearly a third older than 1940. Expect shallow pancake boxes, cloth-wrapped conductors and no ground in many ceilings. Almost everyone here owns a detached house, and plenty of bedrooms still rely on one center light. We open that box, see what holds it and what feeds it, then quote before anything is unscrewed.',
-  emergencyParagraph:
-    'A fixture sagging from plaster, a hot or crackling switch, or a scorched smell near a globe needs us now. Throw that breaker if the panel is safe to reach and keep the family out from beneath it. With smoke or flames, get outside first and phone 911. Campbell County calls usually see us that day, weekends counted.',
   commonIntro:
     'Older plaster and single ceiling lights shape nearly every job we take on along the river in Melbourne.',
   localFaqs: [

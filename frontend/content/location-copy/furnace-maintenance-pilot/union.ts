@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Union was mostly rural until the 1990s, and Census figures date 80.1% of its homes to 2000 or later. The furnace we tune up here is usually a newer gas or electric model in the basement of a detached house, often the one the builder installed. So the work leans on wear parts, the flame rod, igniter and blower, rather than old chimneys. Gas heats 56.5% of homes. We set the price before starting and tell you if the furnace needs nothing.',
-  emergencyParagraph:
-    'These need a repair booking. Gas smell: leave, don’t flip switches, and call the gas company from outside. Carbon monoxide alarm: get the family out. A cold furnace during a hard freeze, endless on-off cycling, or a yellow flame where blue should be. A newborn or elderly parent in the house raises the stakes. Same day on most, weekends too.',
   commonIntro:
     'Most homes in Union were built after 2000, and the owners usually book a fall visit for one of these:',
   localFaqs: [

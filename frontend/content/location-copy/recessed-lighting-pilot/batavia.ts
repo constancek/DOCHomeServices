@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'As Clermont County’s seat since 1824, Batavia holds a compact village of mixed ages, and recessed lighting here succeeds or fails on spacing. Census figures put the village’s middle house at 1955; one in three was standing before 1940, a quarter of homes sit in apartment blocks, and renters make up two of every five households. Prewar rooms tend toward plaster and a lone center fixture, while postwar houses often have attic space above the upper floor. We pencil each can and settle the price before cutting.',
-  emergencyParagraph:
-    'Scorching odors near a can, blistered paint ringing it, a trim you can’t touch, or a breaker that pops when those lights switch on means call us today. Where the panel is safe to reach, flip that breaker. If smoke or flames appear, everyone heads outside and phones 911. Same-day service covers most calls, Saturdays and Sundays included.',
   commonIntro:
     'Prewar village houses, postwar homes and apartment buildings share a small footprint in Batavia, and these four requests reach us most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walnutHills: LocationServiceCopy = {
   localParagraph:
     'An inspection in Walnut Hills is often for an owner of an apartment building rather than a single house. Census figures show 78.6% of homes here are rented and 48.3% were built in 1939 or earlier. And 63.2% heat with electricity, which puts a heavy, steady load on panels and feeders that were never planned for it. In the oldest buildings we also look for cloth-covered wire and ungrounded outlets. We check the full system, report on it in writing and price any repair up front.',
-  emergencyParagraph:
-    'If a Walnut Hills unit has a hot smell near an outlet, a scorched plate, sparks, or a breaker that won’t hold for even a minute, skip the scheduled inspection and call. Turn the breaker off. Smoke or fire means getting everyone out and calling 911. Same-day help is available on most calls, weekends included.',
   commonIntro:
     'Around Peebles’ Corner, rowhouses and two-families share blocks with buildings of fifty units or more. In the older stock, these turn up most:',
   localFaqs: [

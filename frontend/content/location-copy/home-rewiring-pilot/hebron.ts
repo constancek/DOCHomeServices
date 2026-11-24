@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Houses in Hebron are mostly 1990s and 2000s builds; Census figures for the 41048 ZIP put the median year built at 2002. Wiring that young rarely needs replacing wholesale, so be wary of anyone who pushes a full rewire. Owners here usually need new circuits for a finished basement, an addition or a bigger kitchen, or a repair on one run that keeps tripping. We test before quoting, tell you straight when the existing wiring is fine, and agree the scope and flat price in writing before cutting drywall.',
-  emergencyParagraph:
-    'Don’t sit on an outlet that’s warm and smells of plastic, a darkened switch cover, arcing or buzzing, a shock from an appliance, or a breaker that trips again the instant you flip it. Most get a same-day visit, weekends included. Shut the breaker only if the floor is dry. If smoke appears, get the family outside and call 911.',
   commonIntro:
     'In the newer subdivisions around Hebron, the wiring problems that bring us out usually look like one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain has some of the oldest houses we serve. Census figures put 76.1% of its 67 homes at 1939 or earlier, so every water heater here was fitted long after the house went up, usually in a basement or back room with a stiff drain valve, aged shutoffs and supply piping worth a close look. Piped gas is rare in the village, which makes most of our visits electric. The price is fixed before work, and we’ll say plainly if a tank isn’t worth it.',
-  emergencyParagraph:
-    'If the tank leaks, the valve on the cold pipe into its top closes first, then the breaker, or the gas if any. Gas smell: get out, hands off every switch, no relighting, ring the gas company. Carbon monoxide alarm: everyone outdoors first. Repeated relief valve discharge, or no hot water: book a repair, usually same day, weekends included.',
   commonIntro:
     'In a village of old houses like Pleasant Plain, these usually prompt a service:',
   localFaqs: [

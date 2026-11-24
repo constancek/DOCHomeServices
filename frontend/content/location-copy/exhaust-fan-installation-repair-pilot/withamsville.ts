@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'There are two kinds of housing in Withamsville. By Census figures, 1,667 of the 3,298 homes are detached houses, many from the 1940s and 50s, and most of the rest are apartments in larger complexes. The older houses often got a bathroom fan later, ducted into the attic. The apartments usually have one, often too weak for the room. More than half of households rent, so owners and managers place many of the calls. We follow the exhaust and price the fix before opening a ceiling.',
-  emergencyParagraph:
-    'Go to the breaker, if you can safely, and switch off the fan’s circuit once it smells like burning, throws sparks, smokes or has a charred, soft housing. A circuit that won’t stay on, or a drip from the grille, is as pressing. Flames or smoke mean leaving and dialing 911. Most callers see us same day, weekends included.',
   commonIntro:
     'Along Ohio Pike and the streets off it in Withamsville, these signs bring the most calls:',
   localFaqs: [

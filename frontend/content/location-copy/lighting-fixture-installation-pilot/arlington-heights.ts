@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'In Arlington Heights, the village tucked between the lanes of I-75, a fixture job usually begins under plaster hung since before the Second World War. Census figures place the typical home at 1939 or earlier, with close to two in three built before 1940. Ceilings of that vintage often conceal a shallow pancake box for one bulb and no grounding wire, and that box decides what the ceiling can carry. Slightly more than half of homes are rented. You get our price before the old fixture is loosened.',
-  emergencyParagraph:
-    'Plaster crumbling around a sagging light, a switch buzzing under your finger, or a breaker snapping off whenever the fixture goes on needs us today. Kill that circuit if the panel is safe to get to, and clear the area below. Smoke or open flame means leaving and phoning 911. Visits usually come that same day, weekends as well.',
   commonIntro:
     'In the old houses of Arlington Heights, most requests fall into one of four kinds.',
   localFaqs: [

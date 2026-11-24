@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'In Dent, most houses are too young to need a full rewire. Census figures put the median build year at 1995, and over two in five homes date from 2000 or later, many of them condos and apartments. Grounded, healthy wire is the norm, so owners phone us about an addition, a basement finish, a kitchen remodel or one stubborn circuit. A few 1960s and 1970s houses may have aluminum branch wiring. We test before quoting, tell you when nothing needs doing, and agree the scope and flat price first.',
-  emergencyParagraph:
-    'Phone us when an outlet or switch has a burnt smell or is hot, when anything crackles or sparks, when a breaker drops after a reset, or a fixture gives a jolt. Flip that circuit off at the panel only when you safely can. Smoke or fire means evacuate and dial 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'From the newer subdivisions off Harrison Avenue to the condo buildings in Dent, these are the signs we see most:',
   localFaqs: [

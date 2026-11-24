@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Silverton is a village of mid-century houses and fourplexes, which shapes the fan work. Census figures put the median home at 1959, nearly one home in four in a three- or four-unit building, and close to six households in ten renting. Bedrooms from those years were wired for a single glass globe, hung from a shallow pan the builder never sized for spinning weight. We pull that globe down first, tell you if a tightened screw is the real fix, and quote before anything else comes off.',
-  emergencyParagraph:
-    'Phone us if a fan starts lurching, its canopy gaps away from the plaster, the motor housing smokes, or the wall plate buzzes and sparks. Most of those get a same-day truck, weekends included. If it’s safe, cut power at the toggle or panel and move everyone out of the swing zone. Flames mean out the door, then 911.',
   commonIntro:
     'In the mid-century houses and fourplexes of Silverton, these four show up on most of our visits.',
   localFaqs: [

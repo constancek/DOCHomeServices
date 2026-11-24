@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'Bridgetown is overwhelmingly owner-occupied, close to nine homes in ten, and two in five of its houses were built from 1940 through 1959, Census figures show. Decades of added circuits have filled a lot of those panels to the last slot. A full panel isn’t the end of the conversation, though. We open it up and total what the house uses, tell you honestly when the Level 1 cord will cover your driving, and set the price before we start.',
-  emergencyParagraph:
-    'Get us out today if the charging cable was driven over, if a breaker snaps off as charging starts, or the outlet smells hot. Unplug first. Switch that breaker off only if nothing near it is wet or hot. If smoke or flames appear, get outside and call 911. Most calls get us there the same day, weekends included.',
   commonIntro:
     'Long-time owners make most of these calls in Bridgetown, and they usually start one of these ways.',
   localFaqs: [

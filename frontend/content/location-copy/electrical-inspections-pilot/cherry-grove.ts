@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Cherry Grove is almost all houses from the 1960s and 1970s; Census figures put 78.1% of them in those two decades. Panels from that era were sized for a lighter load, and 45.0% of homes here also heat with electricity, which leaves little room for a car charger, a hot tub or an addition. Most inspections here are for one of those plans, or for a sale. We test the whole system, write up the findings and price any repair before we begin.',
-  emergencyParagraph:
-    'If a Cherry Grove switch plate is hot to the touch, you smell something burning near the panel, or a breaker trips again right after you reset it, don’t wait for an inspection slot. Turn that breaker off. With smoke or fire, get out and dial 911. Most calls get us the same day, weekends included.',
   commonIntro:
     'Cherry Grove’s houses went up within a short window, so they tend to share the same weak spots. What we find most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Madisonville was a village called Madison until Cincinnati took it in during 1911, and its lighting jobs split along that history. Around Whetsel and Bramble Avenues, about two of every three houses predate 1940, with plaster ceilings, small pans and often no ground. Near Red Bank and Madison Roads, much of the housing has gone up since 2000, including large apartment buildings, and about half of all homes in the neighborhood are rented. We size up the box and old splices, then quote.',
-  emergencyParagraph:
-    'Some fixture faults mean a visit today, weekends too. That covers a globe slipping out of plaster, brown scorch on a socket, a humming wall plate, or one light that trips the breaker. If the panel is safe, shut that circuit and keep everybody out from underneath. If smoke or flame shows, go outdoors and dial 911.',
   commonIntro:
     'From the old frame houses on the Whetsel side to the newer townhomes, these four requests reach us most in Madisonville.',
   localFaqs: [

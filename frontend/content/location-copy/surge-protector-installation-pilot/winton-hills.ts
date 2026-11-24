@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every household in Winton Hills rents, and a large share live in the public housing at Winton Terrace, built in 1940 and 1941, and Findlater Gardens, added in 1958, where repairs run through the housing authority’s work orders. Census figures put the median building at 1955, so the private two-families and houses may have small or packed panels. For tenants, decent outlet strips are usually all we’d suggest. For owners and managers, the panel gets checked before any quote, and the price is settled first.',
-  emergencyParagraph:
-    'Report a singed smell at an outlet after a storm, or a breaker that won’t stay on, at once. Public housing residents go to management, while owners can get us out that day on most calls, weekends included. Cut the circuit only with dry hands, away from anything hot. If smoke or flames appear, get clear and call 911.',
   commonIntro:
     'In Winton Hills, where renting is the rule and many families live in public housing, these are the signs worth acting on or reporting.',
   localFaqs: [

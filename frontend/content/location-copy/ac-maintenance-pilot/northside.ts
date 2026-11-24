@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'Cooling in Northside was mostly an afterthought. By Census figures, 57.3% of homes here predate 1940, so somebody later threaded ducts through closets and attic knee walls and set the condenser in whatever gap the side yard allowed off Hamilton Avenue. That retrofit is where a spring visit spends its time. The postwar houses farther up the avenue tend to be quicker. You agree the flat price before a single screw turns, and if the AC is in good shape, we tell you and go.',
-  emergencyParagraph:
-    'In Northside, a house that stays hot in a heat wave or frost on the coil means AC Repair; switch the thermostat off to thaw it. So does a dripping ceiling, a burnt smell or a breaker that pops again. Older relatives and infants tire fastest. We come the same day on most calls, weekends too.',
   commonIntro:
     'Older houses with cooling squeezed in later tend to show they’re overdue in a few familiar ways:',
   localFaqs: [

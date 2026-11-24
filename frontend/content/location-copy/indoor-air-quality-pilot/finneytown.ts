@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Finneytown at 1959, and more than half went up between 1940 and 1959. Many still run the original sheet-metal ducts, which gather dust and leak at the joints, pulling in basement air. Most people here own their homes, so the decision is yours. We test first, set the price before anything is installed, and tell you if the filter is the only problem.',
-  emergencyParagraph:
-    'Get everyone out if the carbon monoxide alarm starts, then phone 911. If you smell gas, walk out touching no lights and call the gas company. Turn the thermostat off when the furnace or AC smells scorched. Spreading mold after a leak can’t wait with infants, grandparents or asthma. Most calls are same day, weekends too.',
   commonIntro:
     'In the ranches and two-stories around Winton and Galbraith, these are the signs we hear about most.',
   localFaqs: [

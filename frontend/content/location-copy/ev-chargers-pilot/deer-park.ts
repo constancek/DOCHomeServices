@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const deerPark: LocationServiceCopy = {
   localParagraph:
     'Deer Park’s median house dates to 1947, Census figures show, and close to a third were standing before 1940, most of them detached. The oldest can hang on to a small original service with barely any headroom for a 240-volt circuit, while postwar panels tend to be crammed, a breaker added for every remodel. First we open yours and run a load calculation. If the Level 1 cord keeps up with your week, you’ll hear that, and the flat price comes before any work.',
-  emergencyParagraph:
-    'Quit charging if the wall unit gives off a burnt odor, a plug or receptacle turns hot or soft, or the breaker gives out on every charge. Kill that circuit only from a dry, safe panel. Should you see smoke or flames, get the household out, then call 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'These are the usual reasons owners of postwar houses call us about charging in Deer Park:',
   localFaqs: [

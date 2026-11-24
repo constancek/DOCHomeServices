@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Ludlow’s houses run old. Per Census figures, 60.5% were built in 1939 or earlier and the median year built is 1938, so tall plaster walls and cramped attics with no room for a duct trunk are common. One small hole through an outside wall is all a ductless head needs. Newer homes tend to want cooling for an addition or a finished basement. Owners make the call on the 23.9% that are rented. You get the flat price first, and we’ll tell you if a mini-split is the wrong move.',
-  emergencyParagraph:
-    'With a July normal high of 86F in Ludlow (National Weather Service), attic bedrooms in older houses climb past it, rough on babies, older family and anyone with breathing trouble. We book installs quickly, one head typically in a day and multi-zone longer. For a mini-split that broke, book Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Among the Victorian and early-1900s houses that make up so much of Ludlow, four problems account for most of our ductless estimates:',
   localFaqs: [

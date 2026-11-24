@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Houses in Dry Run are young by Cincinnati standards: Census figures give a median of 1986, and 63.2% went up in 1980 or later. Almost all are detached single-family homes, so the heater usually stands in an open basement or garage with room for a hose and a bucket. A builder-installed tank left alone since closing is the classic case. Our quote comes before any wrench turns, and if yours is too far gone to bother servicing, we’ll tell you straight.',
-  emergencyParagraph:
-    'Leaking tank: twist the cold handle above the heater shut, then kill its gas or breaker. Gas odor: out the door, no light switches, no relighting, and phone the gas company from the driveway. Carbon monoxide alarm: household outside. A relief valve spitting repeatedly, or a cold tap, means a repair call. Most are same-day, weekends included.',
   commonIntro:
     'Even a quiet tank in Dry Run can be overdue. Here’s what tends to give it away:',
   localFaqs: [

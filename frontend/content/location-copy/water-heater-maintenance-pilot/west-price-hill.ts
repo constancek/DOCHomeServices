@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'Detached houses built before 1970 make up most of West Price Hill. By Census figures, 48.1% of homes went up between 1940 and 1969, and in a house of that age the heater is usually downstairs by the furnace, sharing the corner with a flue connector, a drain spigot and a gas line we look over. Pre-war houses add older piping. Roughly half of households rent, so landlords book many of our calls. You get the figure up front, and if a tank isn’t worth servicing, we’ll say it.',
-  emergencyParagraph:
-    'Leaking tank: its cold-water valve on top closes first, then gas or breaker. Gas smell: the house is emptied, nobody touches a switch or relights a pilot, and the gas company hears from you outside. A carbon monoxide alarm empties it too. A relief valve that won’t reseal, or no hot water, means repair. Same day on most, weekends included.',
   commonIntro:
     'Along Glenway Avenue and the streets off it, most heaters in West Price Hill are still running when the owner calls. The usual reasons:',
   localFaqs: [

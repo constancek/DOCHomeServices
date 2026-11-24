@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'Census figures put 62.3% of the houses in Elmwood Place at 1939 or older, packed into about a third of a square mile, often only steps apart. Builders then used plaster and left out ducts, so cooling those rooms usually means a wall head, not a chase through a closet. Tight lots matter outside too, where the condenser may need a bracket instead of a pad. Most homes are rented, so the landlord typically decides. We set the price before work and say plainly when ductless doesn’t suit.',
-  emergencyParagraph:
-    'Upstairs bedrooms in Elmwood Place hold heat past dusk on the 21-odd days a year that reach 90F (National Weather Service), since the village is tightly built. That’s hardest on elders, infants and the sick. Installs book fast, and one zone takes about a day. Broken units go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the old, closely spaced houses and small apartment buildings of Elmwood Place, ductless quotes usually start here:',
   localFaqs: [

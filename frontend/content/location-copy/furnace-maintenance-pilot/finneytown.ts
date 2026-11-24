@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Finneytown is mostly owner-occupied houses from the postwar building boom: Census figures show 52.5% built between 1940 and 1959, and 74.3% heated by gas. In practice that’s a gas furnace in the basement, often the house’s second or third, vented through a flue or chimney older than the furnace itself. Those are where a tune-up here spends its extra minutes, along with the heat exchanger, after the usual filter and blower work. We set the price before starting, and tell you plainly if the furnace needs nothing.',
-  emergencyParagraph:
-    'When the furnace smells of gas in Finneytown, leave without touching a switch and ring the gas company from outdoors. If a carbon monoxide alarm sounds, everybody gets out. Cold registers in a freeze, an unsteady yellow flame, or cycling that won’t stop are repair calls, urgent with infants or elders home. Same-day service on most, weekends included.',
   commonIntro:
     'Postwar houses with gas furnaces in the basement fill most of our fall schedule in Finneytown. Owners book after noticing:',
   localFaqs: [
@@ -29,11 +27,11 @@ export const finneytown: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What Furnace Maintenance Includes in Finneytown',
-        body: 'Postwar basements in Finneytown are usually easy to reach, and the furnace often sits near the original chimney. We begin at the filter, changing it if it’s dirty, and move to the blower: wheel cleaned, motor checked. A call for heat from the thermostat shows whether the controls respond. We snug up wiring, then test the high limit, flame sensor and pressure switch in turn. Burners get lit so we can judge the flame and igniter, and a light goes into the heat exchanger to find cracks. Draft at the chimney gets checked last before a full heating cycle. Repairs are priced; your yes comes first.',
+        body: 'Postwar basements in Finneytown are usually easy to reach, and the furnace often sits near the original chimney. We start with the filter and change it if it’s dirty, then scrub the blower wheel and give the motor a listen. A call for heat from the thermostat shows whether the controls respond. We snug up wiring, then test the high limit, flame sensor and pressure switch in turn. Burners get lit so we can judge the flame and igniter, and a light goes into the heat exchanger to find cracks. Draft at the chimney gets checked last before a full heating cycle. Repairs are priced; your yes comes first.',
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'For a postwar furnace with no paper trail, a house bought this year, a scorched smell lasting beyond the first few days of heat, a new squeak or rattle, or burners that cut out early, a tune-up is worth the booking. For a furnace tuned last fall that still behaves, it isn’t. If the furnace no longer heats, schedule Furnace Repair instead. A heat exchanger we’ve shown to be cracked makes a tune-up throwaway money; save it for the replacement. Heat pumps and boilers have services of their own. Filters, registers and thermostat batteries are yours to handle. Once a year is our advice.',
+        body: 'In Finneytown, book the tune-up for a postwar furnace nobody kept records on, a house you moved into this year, a burnt odor that hangs on past the first few days of heat, a fresh squeak or rattle, or burners that quit early. A furnace tuned last fall that still behaves can wait. If it has stopped heating, Furnace Repair is the visit to book. Once we’ve shown you a cracked heat exchanger, a tune-up is wasted money, so put it toward the replacement. Heat pumps and boilers each get their own service. Filters, registers and thermostat batteries are yours to look after. Plan on once a year.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Finneytown',
@@ -42,7 +40,7 @@ export const finneytown: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners in Finneytown Book Furnace Maintenance With Us',
     whyParagraph:
-      'We’ve been family owned since 1993 and know postwar basements across Finneytown. Each technician holds a license and insurance and passed a drug test and background check, and the flat price is settled before work.',
+      'One family has run the company since 1993, and our crews know the postwar basements around Winton and Galbraith well. Every technician is licensed, insured, drug-tested and background-checked, and you agree to the flat price first.',
     sharedFaqs: [
       {
         q: 'How do you price furnace maintenance in Finneytown?',
@@ -50,11 +48,11 @@ export const finneytown: LocationServiceCopy = {
       },
       {
         q: 'Which month should I book a furnace tune-up in Finneytown?',
-        a: 'Every year, in autumn. The National Weather Service lists the normal first freeze near October 25, and a visit ahead of that leaves room to fix a worn part before the nights turn properly cold.',
+        a: 'Book once a year, in early fall. National Weather Service records put the normal first freeze around October 25, and getting in before then gives us time to swap a worn part before the furnace runs every night.',
       },
       {
         q: 'What furnace upkeep is safe to do yourself?',
-        a: 'Fit a fresh filter when the old one is dirty, keep supply registers and return grilles uncovered, and replace the thermostat batteries. Clear storage away from the furnace. Leave the burner compartment closed and the gas valve alone; those are for a licensed technician.',
+        a: 'Swap in a new filter once the old one looks dirty, keep rugs and furniture off the registers and return grilles, and put new batteries in the thermostat. Keep boxes and paint cans clear of the furnace. The burner compartment stays shut and the gas valve stays untouched; that’s work for a licensed technician.',
       },
     ],
   },

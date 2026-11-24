@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Most systems we tune up in Alexandria were put in by the builder, because the median home there dates to 1994 by Census figures and nearly every one is owner-occupied. That makes for a quick, orderly visit, with the condenser on open ground and ducts designed around cooling from day one. The few older houses near the old downtown are different, since their ducts came later and wind through tighter spaces. We hand you a flat price before starting, and a system that needs nothing gets told exactly that.',
-  emergencyParagraph:
-    'Call it a repair when the house can’t get comfortable in a heat wave, or when water creeps across the floor beside the indoor unit. If something smells like it’s burning, flip the system off and leave it that way. Older relatives, babies and anyone ill suffer first. We reach most calls the same day, weekends included.',
   commonIntro:
     'A spring AC visit tends to follow one of these small warnings in Alexandria.',
   localFaqs: [

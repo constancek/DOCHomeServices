@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Most homes in Downtown Cincinnati are rented apartments in big buildings: by Census figures 71.6% of units sit in buildings of 50 or more, and electricity heats about 70% of homes. In a large building the heat may come from a system that management maintains, so our tune-ups go to condo owners with their own furnace and to landlords of older, smaller buildings, where a closet or basement furnace needs the full check. We give you the price before starting, and if the furnace needs nothing, we say it.',
-  emergencyParagraph:
-    'In Downtown Cincinnati, a gas smell means out of the unit, no switches touched, and a call to the gas company once outside. If a carbon monoxide alarm sounds, everyone leaves. A furnace that won’t hold heat, or keeps relighting, needs repair. Infants, older residents and anyone unwell are most at risk. Most calls: same day, weekends too.',
   commonIntro: 'For condo owners and landlords in Downtown Cincinnati, these are the usual reasons to book:',
   localFaqs: [
     {

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Housing in East Walnut Hills runs from large pre-war houses and row homes, where Census figures date the median house to 1938, to mid-century apartment and condo buildings, and a bit over two in five homes are rented. The older houses have tall plaster ceilings and boxes that were hung for a chandelier or a globe, not a turning fan. In a condo, the association may set rules first. Before quoting, we inspect that box, mention it when a tighter mount is the cure, and agree the cost up front.',
-  emergencyParagraph:
-    'Shut a fan off if it swings wildly, if the canopy has dropped from the plaster, if wiring smells scorched, or if the switch crackles or the breaker won’t hold. Do that only if it’s safe, and clear the floor below. With smoke or fire, get out and call 911. Most calls are seen that day, weekends included.',
   commonIntro:
     'We hang fans in East Walnut Hills in tall-ceilinged older houses and in condos where building rules apply.',
   localFaqs: [

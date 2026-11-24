@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Along this river strip, a recessed lighting quote hinges on two different kinds of house. Census figures give a 1938 median, and over half the stock went up before 1940, so the older frame houses and rowhouses on Eastern Avenue tend to hide plaster, lath and a shallow cavity beneath the floor upstairs. Riverside Drive is another story, with homes mostly from the 1990s onward and drywall a saw goes through cleanly. Either way, pencil marks go on the ceiling and you sign off on a figure first.',
-  emergencyParagraph:
-    'Smell scorching near a can, see plaster turning tan around a trim, or notice water running out of a fixture after the Ohio rises, and that run of lights needs killing at the panel, provided reaching it is safe. Visible smoke or flame means leaving and dialing 911. Same-day visits happen on most calls, Saturdays and Sundays too.',
   commonIntro:
     'Rowhouses near the water, condos and the newer Riverside Drive homes each give us a different ceiling. Four jobs keep coming back.',
   localFaqs: [

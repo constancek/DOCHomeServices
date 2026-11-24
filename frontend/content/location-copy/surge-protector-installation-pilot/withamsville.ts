@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Withamsville sits mostly in Union Township, and its housing came in two waves, houses from the 1940s and 1950s and homes and apartments mostly from the 1980s and 1990s, Census figures show, with just over half of households renting. An older house may have a cramped breaker panel, which settles where a protector can mount. Newer units more often hold electric heat, central air and appliances run by keypads. If outlet strips will do, you’ll hear that, and the price is agreed before work.',
-  emergencyParagraph:
-    'A burning smell at the breaker panel after a storm, or a furnace or refrigerator that popped as power returned, needs us straight away. Throw that breaker only with dry hands and nothing beside it hot. If smoke or fire shows, get the household out before dialing 911. Visits happen same day on most calls, weekends included.',
   commonIntro:
     'Between the mid-century houses and the apartment complexes of Withamsville, these signs usually come up first.',
   localFaqs: [
@@ -29,15 +27,15 @@ export const withamsville: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Benefits of Whole-Home Surge Protection in Withamsville',
-        body: 'Few surges come from a lightning bolt. The usual ones are small jolts from the grid or from big appliances kicking on and off, and they eat away at circuit boards until one gives out. Where a house in Withamsville runs electric heat and central air, those boards control the costliest machines under the roof. A breaker-panel protector diverts the extra voltage to ground before the branch circuits see it, so heating and cooling gear is shielded, electronics wear out more slowly, smart systems stay stable and a spike is less likely to start a fire. Summer storms lose some of their menace.',
+        body: 'Lightning causes only a share of surges. Most are small kicks from the grid or from heavy appliances starting and stopping, and over time they chip at circuit boards until one quits. In a house in Withamsville with electric heat and central air, those boards run the priciest equipment in the place. A protector at the breaker panel bleeds the excess voltage off to ground before any branch circuit feels it. That shields the heating and cooling gear, slows the wear on electronics, keeps smart systems steady and makes a fire started by a spike less likely. Summer storms stop being something to dread.',
       },
       {
         title: 'Whole-Home or Plug-In Surge Protection in Withamsville',
-        body: 'Just over half of households here rent. For those tenants, and for any owner protecting little more than a TV and a home computer, good outlet strips cover it, and you’ll hear that from us plainly. A breaker-panel protector pays off once central air, a furnace or heat pump, keypad appliances and plenty of connected equipment share one roof, and the strips keep their spots on the delicate pieces. In Ohio, ORC 5321.04 (A)(4) makes landlords responsible for keeping supplied electrical fixtures safe and working, and we fit protectors, not leases. Trips or flicker can signal a wiring fault worth finding first, and a worn strip may be spent.',
+        body: 'Renters make up just over half of households in Withamsville. For them, and for an owner guarding little beyond a TV and a laptop, a few quality outlet strips are enough, and we’ll say that straight. A breaker-panel protector earns its place in a home running central air, a furnace or heat pump, keypad appliances and a stack of connected equipment, with strips left on the fragile gear. Ohio’s ORC 5321.04 (A)(4) puts landlords in charge of keeping the electrical fixtures they supply safe, and our job is the protector, not the lease. Random trips or flicker may be a wiring fault we find first.',
       },
       {
         title: 'Panel Check and Permits for a Surge Protector in Withamsville',
-        body: 'Each protector needs a free slot and a workable position in the breaker panel. If the panel is crammed or failing, we sort that first, through Electrical Panel Replacement, and you make the call. Our work follows the electrical code and the maker’s instructions. Clermont County Building Inspection enforces the code across unincorporated Union Township and issues electrical permits, so we file one and book the inspection whenever it’s required.',
+        body: 'A protector has to land in an open space in the breaker panel, in a spot where its leads stay short. Panels that are packed or failing get dealt with first, through Electrical Panel Replacement, and only if you say yes. We wire it to the electrical code and the manufacturer’s guidelines. Across unincorporated Union Township, Clermont County Building Inspection enforces the code and issues electrical permits, so we pull one and set up the inspection where it applies.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in Withamsville Choose Us for Surge Protection',

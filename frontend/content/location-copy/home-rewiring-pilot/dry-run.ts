@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Dry Run is a newer suburb, with a median year built of 1986 in Census figures and almost every home a single-family house. Its wiring is usually grounded copper in fine shape, so a whole-house rewire is seldom the answer. Owners call when a sale is coming and an inspector flags something, when an addition needs circuits, or when one circuit keeps failing. Some 1960s and 1970s houses may have aluminum branch wiring. We test, tell you if nothing needs changing, and agree a written scope and flat price.',
-  emergencyParagraph:
-    'Phone us when a switch or outlet gives off a burning odor, a cover feels hot, anything throws sparks, a breaker won’t stay on, or a fixture shocks anyone. Shut that circuit off at the panel if that’s safe. For smoke or fire, get everyone out and call 911. We come same day on most calls, weekends included.',
   commonIntro:
     'In the 1970s through 2000s houses along Clough Pike in Dry Run, these signs usually lead to a call:',
   localFaqs: [

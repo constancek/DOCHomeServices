@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'In Moscow, hanging a new light nearly always means working under a ceiling close to a century old. Census counts show most homes in this Ohio River village predate 1940, and nearly all are detached houses along streets like Water and Wells. Plaster is typical, the box might be a shallow metal pan meant for one bulb, and grounds are often missing. A heavier fixture cannot simply take the old one’s place. We check that box and cable, then name a price before unscrewing anything.',
-  emergencyParagraph:
-    'A fixture coming loose from old plaster, scorching or melted plastic at a light or switch, or flicker across several circuits is urgent. Turn its breaker off if that is safe, and keep people back. Smoke or fire means everyone out and a 911 call. Down in Washington Township we usually make it that same day, weekends also.',
   commonIntro:
     'Old plaster, riverfront weather and missing grounds shape the four jobs we see most along the river in Moscow.',
   localFaqs: [

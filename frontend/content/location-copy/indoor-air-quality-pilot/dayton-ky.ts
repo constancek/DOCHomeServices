@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Census figures show nearly half of Dayton’s homes were built in 1939 or earlier, with a median of 1943. Those older places let in drafts, hold damp in the basement and move dust between rooms through aging ducts. The buildings put up since 2000 are the reverse, sealed so well that cooking smells and stale air hang around. We measure the air before suggesting anything, quote a fixed price ahead of the work, and tell you straight when a filter swap is the whole answer.',
-  emergencyParagraph:
-    'When the carbon monoxide alarm goes off, clear the house and ring 911. At a whiff of gas, leave every switch alone and phone the gas company from the sidewalk. Vents smelling scorched mean the thermostat goes off. Mold creeping after a leak is worst for babies, older relatives and asthmatics. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Across Dayton, from the old houses to the newer buildings, people describe these:',
   localFaqs: [

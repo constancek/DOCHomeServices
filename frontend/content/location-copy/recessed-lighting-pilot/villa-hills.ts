@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Villa Hills sits high above the Ohio River, and Census figures date its median house to 1981, with nearly all of the rest from the 1960s through the 1990s. That generation of house has what recessed lighting needs, which is an accessible attic over the bedrooms and, downstairs, a lower level someone paneled or drywalled long after move-in. What it rarely has is overhead light in the living room. Before cutting, we chalk the layout on the ceiling and fix one price.',
-  emergencyParagraph:
-    'When the paint around a can goes yellow-brown, the room smells of hot plastic, the trim burns a fingertip, or the light quits and returns once it cools, kill that breaker if the panel is reachable without risk. Should smoke or fire appear, get out and phone 911. Most calls are answered same day, weekends too.',
   commonIntro:
     'Houses from the 1970s and 1980s make up most of Villa Hills, and these four requests come out of them again and again.',
   localFaqs: [

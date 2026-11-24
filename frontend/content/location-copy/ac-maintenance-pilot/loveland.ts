@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'In Loveland, most of what we tune up was built with central air from the start. The median home here dates to 1985 and only 5.4% predate 1940, by Census figures, so the usual visit on the hills above the river is a coil clean, drain flush and electrical test on a system in a basement or garage. Apartments make up a real share of the city, and there the owner or manager sets the visit. We quote before we start and will tell you if nothing needs doing.',
-  emergencyParagraph:
-    'A tune-up is the wrong booking once the AC gives up in a hot spell, or the outdoor cabinet hums with a dead fan. Frost on the indoor coil means the thermostat goes off. A breaker that trips twice stays off. Elderly relatives and infants are most at risk. Most repairs happen same day, weekends included.',
   commonIntro:
     'Around Loveland, a spring booking usually starts with one of these.',
   localFaqs: [

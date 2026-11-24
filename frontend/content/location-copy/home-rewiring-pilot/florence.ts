@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'Renters slightly outnumber owners in Florence, and roughly four homes in ten share a building with other units, Census figures show. Two-thirds of the housing predates 1980, with 1972 as the median year built. Buildings from the 1960s and 1970s may carry aluminum branch wiring, and older kitchens seldom have the circuits today’s appliances want. We test first, say plainly if your wiring holds up, and put scope and flat price in writing before opening a wall.',
-  emergencyParagraph:
-    'Phone us straight away if an outlet or wall smells of burning, a plate turns hot or brown, something sparks, a breaker trips again as soon as it’s reset, or a switch shocks you. Flip that breaker only where the panel sits dry. With smoke or fire, everyone leaves and someone calls 911. Most calls get same-day help, weekends too.',
   commonIntro:
     'In the apartments, condos and pre-1980 houses of Florence, wiring that needs attention tends to show these signs:',
   localFaqs: [

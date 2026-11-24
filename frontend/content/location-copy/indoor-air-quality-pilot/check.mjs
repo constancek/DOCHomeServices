@@ -51,9 +51,9 @@ let failed = 0;
 for (const [slug, c] of Object.entries(towns)) {
   if (only.length && !only.includes(slug)) continue;
   const o = c.overrides ?? {}; const errs = [];
+  if (c.emergencyParagraph) errs.push('emergencyParagraph should not be set (this service has no urgent section)');
   const range = (label, t, lo, hi) => { const n = words(t ?? ''); if (n < lo || n > hi) errs.push(`${label} ${n}w (want ${lo}-${hi})`); };
   range('localParagraph', c.localParagraph, 70, 90);
-  range('emergencyParagraph', c.emergencyParagraph, 45, 60);
   range('whyParagraph', o.whyParagraph, 30, 40);
   if ((o.commonSituations ?? []).length !== 4) errs.push(`commonSituations ${(o.commonSituations ?? []).length} (want 4)`);
   const ps = o.proseSections ?? [];

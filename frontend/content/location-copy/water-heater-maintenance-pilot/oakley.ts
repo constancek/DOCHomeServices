@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'Oakley hands us two kinds of tune-up. By Census figures, 47.7% of homes here predate 1940, and in those basements we expect old venting, a drain valve that may not reseal and a gas line due an inspection. The 12.5% built since 2000 are mostly a quick drain, anode look and valve check, often in a closet over a pan. With 52.4% of homes rented, landlords book a lot of these. You get the flat price first, and a straight answer if a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'In Oakley, calls like these are repairs. Water pooling under the tank: shut the cold valve, then gas or breaker. Gas in the air: get out, leave switches and the pilot untouched, and phone the gas company. Carbon monoxide alarm: the household leaves. A relief valve spitting nonstop, or cold taps. Most see us the same day, weekends included.',
   commonIntro:
     'These are what usually lead someone in Oakley to book a first service:',
   localFaqs: [

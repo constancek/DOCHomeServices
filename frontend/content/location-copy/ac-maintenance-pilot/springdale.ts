@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springdale: LocationServiceCopy = {
   localParagraph:
     'Springdale was built out mostly in the 1960s and 1970s, and Census figures put the median home at 1971, so many houses here are on their second or third air conditioner. Central air was usually part of the original design, which makes a tune-up a straight check of coil, filter, drain and electrical. Rentals make up 40.9% of homes, and in the apartment complexes the manager books, often for dozens of units at once. You’re quoted before we start, and we tell you when nothing needs doing.',
-  emergencyParagraph:
-    'With no cooling in a heat wave, a tune-up won’t do; call for a repair. Frost on the coil means thermostat off until it melts. A condenser humming with its fan stalled means leave it off too. Heat hits older relatives, infants and the sick hardest. Most calls get same-day service, weekends included.',
   commonIntro:
     'Homeowners and property managers in Springdale tend to call for reasons like these.',
   localFaqs: [

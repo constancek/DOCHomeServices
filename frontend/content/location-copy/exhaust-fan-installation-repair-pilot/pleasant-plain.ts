@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain was laid out in 1852 as New Columbia, and nearly every home in the village is a detached house; by Census figures, roughly three of every four predate 1940. Their bathrooms were frequently carved out or redone well after the houses went up, so we often find no fan at all, or one exhausting into the attic. A smaller group dates from the 1940s and 1950s. Before opening a ceiling, we check the pull, find where the duct stops and hand you a price.',
-  emergencyParagraph:
-    'In Pleasant Plain, don’t sit on a fan that reeks of hot insulation, a housing that’s charred or slumped, sparking, smoke, a breaker that refuses to stay set, or water dribbling out of the grille. Flip the breaker off if you can safely. Smoke or fire means getting out and calling 911. Most calls get same-day help, weekends too.',
   commonIntro:
     'In the older detached houses around Pleasant Plain, these signs come up most often:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Mulberry has young housing. Census figures show a median year built of 1988, and nearly three in four homes date from 1980 onward, so whole-house rewires are uncommon. What we usually do is wire a remodeled kitchen or basement, an addition, or a circuit that won’t stop failing. A scattering of 1960s and 1970s houses may have aluminum branch wiring or too few circuits. Our tester goes on every run first, we say when the wiring is healthy, and scope and flat rate get signed before drywall comes out.',
-  emergencyParagraph:
-    'Call us today about a receptacle smelling of burnt plastic, a faceplate that’s warm or discolored, buzzing, sparks, a breaker that won’t stay up, or a jolt from a fixture. Flip that breaker only when the panel is dry. Smoke or flames mean getting outside and dialing 911. Most calls are answered that day, weekends too.',
   commonIntro:
     'In townhouses, condos and newer houses, these point to a wiring problem rather than a single bad receptacle.',
   localFaqs: [

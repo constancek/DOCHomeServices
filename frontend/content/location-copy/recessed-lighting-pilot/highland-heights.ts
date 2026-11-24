@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'In Highland Heights, how easily downlights go in depends on what lies over your ceiling, an attic or a neighbor’s living room. Census figures set the median home at 1985, and close to half of all homes sit in buildings holding five or more units, with Northern Kentucky University inside city limits. Detached houses from the 1980s and 1990s usually pair drywall with an attic overhead. Condo and apartment ceilings may be shared and fire-rated, which calls for a plan and often a board’s blessing. Layout and price come first.',
-  emergencyParagraph:
-    'Switch the recessed lights off at the breaker, when you can reach it safely, if a can gives off a scorched smell, the drywall around it browns or water drips through. A buzzing wall switch is a warning too. Should smoke or fire appear, leave and call 911. Most calls get a visit that same day, weekends included.',
   commonIntro:
     'In Highland Heights, requests come from detached houses, condos and rental buildings close to campus. These jobs show up most.',
   localFaqs: [

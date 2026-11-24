@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'Most of Sedamsville is small worker cottages put up in the 1800s and early 1900s, and by Census figures nearly three in four homes predate 1940. Indoor bathrooms in houses like these were usually squeezed in long after the plaster went up, and plenty still lack a fan. When one was added, it frequently empties into the attic. Roughly two in three homes are rented, so these jobs mostly go through landlords. The airflow gets traced and the work priced before anybody cuts plaster.',
-  emergencyParagraph:
-    'Burning smells, sparks, smoke or a breaker that trips as soon as the fan runs are your cue to switch it off at the wall or the panel, provided that’s safe. Water trickling out of the grille can’t wait either. Should smoke or flames show up, get outside and call 911. Weekends included, we’re usually out the same day.',
   commonIntro:
     'Along River Road and up the slope toward Price Hill, these are the four signs behind most calls from Sedamsville.',
   localFaqs: [

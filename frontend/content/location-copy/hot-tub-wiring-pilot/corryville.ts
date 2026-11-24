@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Corryville sits east of UC, and Census figures show 1,824 of its 1,968 occupied homes are rented, so the owner or the association decides on a spa. A third of the housing predates 1940. There we often open a breaker box with every slot taken and nothing spare for a 240-volt spa breaker, and fixing that is step one. A townhouse from recent decades tends to have room, so the patio route matters more. We read the spa maker’s spec sheet against the panel and quote before conduit goes in.',
-  emergencyParagraph:
-    'When a tenant’s spa GFCI won’t stay set, the panel starts to hum or the tub rail gives anyone a tingle, people should climb out, keep clear of the water and call the landlord. If the disconnect can be reached without risk, switch it off. Smoke means everyone leaves and dials 911. We usually come that day, weekends included.',
   commonIntro:
     'Around Short Vine and the side streets of older houses, these are the spa wiring requests that reach us from Corryville.',
   localFaqs: [

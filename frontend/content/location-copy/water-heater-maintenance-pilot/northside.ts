@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northside: LocationServiceCopy = {
   localParagraph:
     'Northside is mostly owners, 56.1% by Census figures, in houses that run old: 57.3% went up in 1939 or earlier. So a tune-up here is mostly a basement job near the floor drain, with vent pipe older than the heater, a drain cock we coax open and a gas line we look over before relighting. Two-family houses off Hamilton Avenue often keep one tank per side, which is the landlord’s to book. You get a flat price first and a plain word when a tank isn’t worth the trouble.',
-  emergencyParagraph:
-    'These can’t wait for a tune-up. A leaking tank: shut its cold inlet, then gas or breaker. Smell gas and you leave, touching no switch or pilot, then call the gas company. A carbon monoxide alarm sends everyone out. A relief valve letting go repeatedly, or no hot water, needs us. Most get a same-day visit, weekends included.',
   commonIntro:
     'Homeowners in Northside usually call for a first tune-up after one of these:',
   localFaqs: [

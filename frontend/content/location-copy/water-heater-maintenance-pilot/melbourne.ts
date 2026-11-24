@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'Melbourne is a small river city of older, owner-occupied houses. Census figures put 30.5% of homes at 1939 or earlier and the median at 1958, and show most heating with electricity. That points to a heater in a basement corner, often electric, with old wiring or venting beside it and a drain valve nobody has turned in years. Since nearly every house here is lived in by its owner, the decisions are yours. We name the price before starting, and we’ll tell you if a tank isn’t worth a service.',
-  emergencyParagraph:
-    'Call for repair in Melbourne if the tank leaks (cold line valve shut, then breaker or gas), if you smell gas (go out, leave switches and pilot alone, ring the gas company outside), if a carbon monoxide alarm goes off (out first), or if the relief valve runs nonstop or hot water quits. Usually same day, weekends included.',
   commonIntro:
     'Older basements along the river in Melbourne give owners a few reasons to book before anything breaks:',
   localFaqs: [

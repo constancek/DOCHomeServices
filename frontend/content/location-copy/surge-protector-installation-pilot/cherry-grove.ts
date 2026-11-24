@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Almost every home in Cherry Grove is a single house, and the Census dates close to four in five of them to the 1960s and 1970s, with nine in ten owner-occupied. Panels that age have often gained circuits over the years and may have no spaces left. Electricity heats nearly half the homes, which usually means a heat pump or electric furnace beside central air, each run by control boards. We open the panel first, say if strips will do, and agree the price before work.',
-  emergencyParagraph:
-    'With smoke or fire, get out, then call 911. For a scorched receptacle, a breaker that keeps letting go, or a heat pump that crackled when power returned, we’re out the same day on most calls, weekends included. If every light surges and fades, Duke Energy Ohio needs to hear first. Cut the circuit only if it’s dry.',
   commonIntro:
     'Off Beechmont Avenue, in houses mostly from the 1960s and 1970s, these are the first signs owners notice in Cherry Grove.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Census figures put close to half the housing in Bond Hill before 1940, with most of the remainder finished by 1960. Builders of that era gave a bathroom a window and called it done, so today’s fan was probably a later addition, and its duct often quits in the attic or inside a wall. Doubles and small apartment buildings make up a big part of the neighborhood, and nearly half are rented. We follow the airflow to its end and price the fix before we open any plaster.',
-  emergencyParagraph:
-    'Heat, a scorched smell or a sagging, melted fan housing call for cutting power at the switch or breaker when that’s safe. A breaker tripping with the fan, or a wet stain creeping from the grille, can’t wait. Smoke or fire means leaving and dialing 911. Bond Hill usually sees us that same day, weekends included.',
   commonIntro:
     'In the older houses and doubles around Bond Hill, these are what people notice first:',
   localFaqs: [

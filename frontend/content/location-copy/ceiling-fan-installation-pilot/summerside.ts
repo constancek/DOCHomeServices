@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'Summerside sits in Union Township beside Mount Carmel. Its houses and condos went up between the 1960s and the 1990s; by Census figures the median is 1981. Roughly a third of the homes sit in apartment or condo buildings with five units or more, where managers often have a say. House bedrooms and family rooms tend to have a plain light box, and some never got a fan. We check that box, say when a snugged canopy will do, and price the work before the fixture comes off.',
-  emergencyParagraph:
-    'A fan shaking on a loose box, hanging out of plumb or smoking at the motor needs attention now. Buzzing switches count too. If you can do it safely, shut the fan off and keep everybody clear of the blades. Fire means getting everyone outside and calling 911. We handle most calls the same day, Saturdays and Sundays too.',
   commonIntro:
     'Condos, townhouses and 1960s-to-1990s houses send us most of the fan requests we get from Summerside.',
   localFaqs: [

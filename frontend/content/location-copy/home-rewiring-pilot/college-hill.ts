@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'Kitchens drive a lot of the rewiring we do in College Hill. Census figures count 1,659 of 4,692 homes in the core of the neighborhood from 1939 or earlier, and another 1,708 from the 1940s to the 1960s. The early houses may still carry knob-and-tube with no ground. The mid-century ones usually have decent copper but too few circuits to run a dishwasher, microwave and air conditioner at once. We test before quoting, admit it when nothing needs replacing, and write up the job and its price first.',
-  emergencyParagraph:
-    'Book a same-day visit for an outlet with a burning smell, a switch gone hot or discolored, a fixture that sparks or hums, a breaker that pops again right after you flip it, or a jolt from a lamp. Leave the panel alone if anything near it is wet. Smoke or flame means out of the house and 911.',
   commonIntro:
     'Between the early 1900s houses and the mid-century homes of College Hill, these are the signs we hear about most:',
   localFaqs: [

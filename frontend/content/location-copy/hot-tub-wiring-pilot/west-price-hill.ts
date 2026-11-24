@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'Census figures put more than a third of homes in West Price Hill at 1939 or earlier, and nearly half in the three decades after. Those panels have usually been stretched by years of add-ons, so freeing room for a spa breaker often comes first. The tub gets a 240-volt line with ground-fault protection, an off switch posted where the bather can see it from a few paces back, and bonding of nearby metal. We size it from the tub’s data plate and price it before conduit is laid.',
-  emergencyParagraph:
-    'In West Price Hill, a spa GFCI that refuses to latch, char marks on the off switch, crackling behind the panel door, or a pins-and-needles feeling in the water means calling us. Climb out and stay clear. Kill the breaker if you can safely; with smoke, leave and phone 911. Most calls get us there same day, weekends too.',
   commonIntro:
     'Along Glenway Avenue, Rapid Run Road and the streets in between, these four bring owners in West Price Hill to us most often:',
   localFaqs: [

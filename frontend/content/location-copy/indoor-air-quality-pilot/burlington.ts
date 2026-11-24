@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Burlington is the Boone County seat, but most of its houses are recent. Census figures put the median year built at 1998, with nearly half built since 2000. A newer house is sealed tight, so frying smells, cleaning sprays and shower steam stay indoors until a fan or a fresh-air system moves them, and ventilation is often what the test points to. Apartment buildings are part of the mix, and management decides there. We test first, quote before working, and if a filter is all it takes, we say so.',
-  emergencyParagraph:
-    'In Burlington, a carbon monoxide alarm empties the house before 911 is dialed. A gas odor means walking out, lights left as they are, then ringing the gas company. Hot, scorched smells from the furnace or AC mean thermostat off. Mold growing after a leak hits infants, grandparents and asthmatics first. Most get help that day, Saturdays and Sundays included.',
   commonIntro:
     'In the newer subdivisions around Burlington, these are the complaints we hear most:',
   localFaqs: [

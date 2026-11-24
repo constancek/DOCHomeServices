@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'The village grew up around P&G’s Ivorydale plant, and housing in St. Bernard is old. Census figures land the middle house in 1955 and count 32.6% standing by 1939, put up without ducts, where a wall head cools a room without cutting plaster. Postwar houses call about an attic bedroom or a back room at the end of the duct run. On a rented side of a double, the owner chooses. The flat price comes first, and we’ll tell you if ductless is a poor match.',
-  emergencyParagraph:
-    'Upstairs rooms in the doubles of St. Bernard hold heat on the 21 or so days a summer that top 90F, by National Weather Service counts, hard on a newborn, a grandparent or anyone sick. Installs get booked promptly, and one head takes a day. A mini-split that quit goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Around the doubles and older houses of St. Bernard, a ductless quote usually starts with one of these:',
   localFaqs: [

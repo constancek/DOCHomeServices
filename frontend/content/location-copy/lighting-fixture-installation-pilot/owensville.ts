@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'Retiring frosted-glass domes from the Nixon and Carter years in favour of LED fixtures is most of what we do in Owensville, and the box plus the cable behind each dome steer the job. Census figures put the village’s middle home at 1974, with about half built during the 1960s and 1970s. Ranches and apartments of that age usually got one overhead light per room and murky hallways, but workable boxes. Most households rent. We open each box, test it, and confirm a set price first.',
-  emergencyParagraph:
-    'A dome drooping on its screws, a whiff of hot plastic, or a breaker that clicks off each time somebody hits the switch shouldn’t sit overnight. Shut off the circuit if that’s safe and keep the family back. Flames or smoke mean out of the house, then 911. Our trucks reach most of these calls that day, weekends too.',
   commonIntro:
     'Around Broadway and Main Street in Owensville, these four lighting jobs come up time after time.',
   localFaqs: [

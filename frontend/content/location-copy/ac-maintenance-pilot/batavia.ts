@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'Batavia is an older village, and Census figures put its median home at 1955, so the AC we service there usually went into a house first built for heat alone. You’ll often find ducts threaded through tight spaces, a coil perched on a basement furnace and a condenser set close against the wall. Roughly one home in four is in an apartment building, and those visits are booked by landlords. A flat price comes before any work, along with an honest word if your system needs nothing.',
-  emergencyParagraph:
-    'A humming outdoor unit with a fan that won’t spin, ice forming on the lines, or water pooling under the indoor unit all mean booking a repair instead of a tune-up. Switch the AC off at the thermostat. Babies, older relatives and anyone ill struggle first in the heat. On most calls we arrive the same day, weekends included.',
   commonIntro:
     'In Batavia, a spring visit tends to follow one of these.',
   localFaqs: [

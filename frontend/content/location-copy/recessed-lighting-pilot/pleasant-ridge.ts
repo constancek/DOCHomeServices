@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'Cook under the lone fixture of a pre-war kitchen in Pleasant Ridge and your own shadow lands on the cutting board. Census figures put upward of half the houses at 1939 or older, a second batch followed after the war, and two-families sit on plenty of side streets off Ridge Avenue. Old plaster and cramped upstairs joist bays slow us down; postwar attics and raw basements speed us up. Each can gets a pencil mark, and the figure gets your nod, before the saw comes out.',
-  emergencyParagraph:
-    'Get us out the same afternoon when a downlight smells charred, a tea-colored ring creeps over the plaster, its wall switch hums, or the lamp winks off and relights unasked. With safe access to the panel, open that breaker. At any smoke, walk outside and dial 911. We show up same day on most calls, Saturdays and Sundays as well.',
   commonIntro:
     'Between Montgomery Road and the Golf Manor line, these are the four rooms we get asked to light most in Pleasant Ridge:',
   localFaqs: [

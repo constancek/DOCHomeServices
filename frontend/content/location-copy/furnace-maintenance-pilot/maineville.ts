@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Fuel splits close to evenly in Maineville. Census figures show 44.7% of homes on gas and 52.6% on electricity, and the electric number includes heat pumps. The village is young, with 54.5% of houses built in 2000 or later, so a tune-up here is mostly a filter, blower, burner and safety review on a furnace that arrived with the house. A few apartment buildings add closet furnaces that owners schedule. We name the price before starting, and we’ll tell you if nothing needs doing.',
-  emergencyParagraph:
-    'A checkup can’t fix these. Gas smell: walk the family onto the lawn, click no lights, relight nothing, and reach the gas company from there. Carbon monoxide alarm: everyone out, then call. A furnace silent mid-freeze, stuttering on and off, or a droopy yellow flame needs repair, soonest for a newborn or grandparent. Most land same day, weekends too.',
   commonIntro:
     'In houses that went up since the 1980s, and in a few apartment buildings, these are what bring owners in Maineville to us:',
   localFaqs: [

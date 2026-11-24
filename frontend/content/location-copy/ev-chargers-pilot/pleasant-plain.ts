@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Almost every home in Pleasant Plain is a detached house, the friendliest layout for a charger when the car parks beside it. Age is the hitch. Census figures date about three in four of the village’s homes to 1939 or before, and some of those still run a small service with little to spare for a 240-volt circuit. Every visit starts by opening the panel and totaling the loads. You’ll hear it if the dealer cord is enough, and you approve a fixed price before we begin.',
-  emergencyParagraph:
-    'Quit charging the moment a plug, cable or outlet looks scorched, feels hot or starts to melt, or a burning odor drifts up. A cable crushed under a tire stays unplugged too. Switch off that breaker only from dry ground. If you see smoke or fire, get out and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Out in Pleasant Plain, a charger usually comes up for one of these four reasons.',
   localFaqs: [

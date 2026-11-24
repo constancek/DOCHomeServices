@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Central air in Spring Grove Village was nearly always an afterthought. Census figures put the median home at 1938, so cooling was squeezed into houses built decades before anyone expected it, with ducts in tight chases, the air handler wedged in a basement corner and the condenser by the foundation along Winton Road or Derby Avenue. Renters hold 40.1% of homes, and their landlords schedule us. Every job starts with a flat quote, and a sound system gets told it’s sound.',
-  emergencyParagraph:
-    'When the AC can’t keep up in a heat wave, that’s a repair. Frost on the coil means switching off at the thermostat and waiting. A ceiling leak or a hot electrical smell means leave it off. Older relatives, babies and anyone with lung trouble come first. We usually arrive the same day, weekends included.',
   commonIntro:
     'Here’s what usually sends owners and landlords in Spring Grove Village to the phone.',
   localFaqs: [

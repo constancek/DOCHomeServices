@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'In Clifton an electrical inspection usually means a big pre-war house or an older apartment building near the university. Census figures show 62.2% of Clifton homes date from 1939 or earlier, with a median build year of 1938, and only 3.6% from 2000 on. That puts original cloth-insulated wiring, ungrounded outlets and fuse boxes in a lot of basements, often next to additions from every decade since. We test the whole system, write up what we find, and price any fix before work begins.',
-  emergencyParagraph:
-    'A scorched smell at a Clifton outlet, a cover plate that’s warm, buzzing or sparks, or a breaker that kicks straight back off after a reset should not wait for an appointment. Leave that breaker off. Smoke or flames mean everyone goes outside and 911 gets called. We reach most of these the same day, weekends included.',
   commonIntro:
     'Clifton work splits between large single houses and buildings with ten or more apartments. The findings that come up most:',
   localFaqs: [

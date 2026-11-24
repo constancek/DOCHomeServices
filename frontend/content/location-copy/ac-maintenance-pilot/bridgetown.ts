@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'Bridgetown is a place of owner-occupied single-family houses, and most of the air conditioners we tune up here were added to a mid-century house well after it was built. Census figures give a median build year of 1962, with 40.0% of homes dating from the 1940s and 1950s. That usually means a coil perched on the basement furnace and a condenser tucked along a side yard. You approve the flat price before any work, and if the system is in good shape, we tell you so.',
-  emergencyParagraph:
-    'Skip the tune-up and book a repair if the house stays warm in a heat wave or frost coats the copper lines. Turn the thermostat off so the ice can melt. If water spreads by the furnace or the breaker keeps flipping, leave the AC off. Grandparents and small children suffer first. We usually come same day, weekends included.',
   commonIntro:
     'A spring visit usually gets booked after something like this turns up in a mid-century house in Bridgetown:',
   localFaqs: [

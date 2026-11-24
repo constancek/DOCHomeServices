@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'In Highland Heights, houses and apartment buildings share the town almost evenly, and Census figures put 48.8% of homes in buildings of five or more units. The median home dates to 1985, so cooling here was built in from the start rather than retrofitted, and a checkup covers the coil, filter, drain and electrical parts without much hunting. In apartments, the landlord or property manager arranges the visit. You approve a flat price before we start, and we tell you if the AC needs nothing.',
-  emergencyParagraph:
-    'Repair, not maintenance, is the right booking when the AC stops cooling, ice thickens on the lines, or water leaks from an indoor unit toward the apartment underneath. Shut everything off and, if you rent, let management know. Older relatives and infants are hit hardest by heat. A technician arrives the same day on most calls, weekends included.',
   commonIntro:
     'In Highland Heights, landlords and homeowners usually book a spring AC visit after one of these.',
   localFaqs: [

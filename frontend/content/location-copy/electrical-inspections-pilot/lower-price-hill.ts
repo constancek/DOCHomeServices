@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Lower Price Hill inspections are mostly for landlords. Census figures show 82.7% of homes here are rented, and 64.9% were built in 1939 or earlier, many in the 1850s according to the National Register listing for the district around State Avenue and West Eighth Street. In buildings that old, every layer of past work is in the walls: cloth-covered wire, two-prong outlets, small panels split between units. Nearly half the homes also heat with electricity, which leans on those panels in winter. We test it all and quote fixes first.',
-  emergencyParagraph:
-    'Treat these as urgent: smoke or a burnt smell from an outlet, a cover plate that’s warm or browned, a buzzing switch, sparks, a breaker or fuse that goes again right after you reset it. Turn that circuit off. Smoke or flames mean everyone out and 911. We can usually come the same day, weekends included.',
   commonIntro:
     'In Lower Price Hill’s old doubles and small apartment buildings, these are the problems on most of our reports:',
   localFaqs: [

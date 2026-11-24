@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Four in five homes in Pendleton were built in 1939 or earlier, by Census figures, and most sit in rowhouses and multi-unit buildings with thick masonry walls. Ducts were never part of those plans, and carving a path for them through brick and plaster is a big job. A mini-split needs one small opening per head instead. With 61.1% of homes rented, the decision usually belongs to the owner. We quote a fixed price before work, and if ductless doesn’t suit the building, we’ll say it.',
-  emergencyParagraph:
-    'An average summer brings about 21 days at 90F or above (National Weather Service), and a top-floor flat in Pendleton keeps that heat. Older neighbors, infants and the sick suffer most. Installs get scheduled quickly, and a one-head system usually takes a day. For a mini-split that’s stopped, book Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In Pendleton, most ductless requests start with one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Close to half of Cheviot’s houses were standing by 1939, 1,746 of 3,893 by Census figures, and the median dates to 1946. Years of dryers, ranges and window units have usually eaten the open slots and spare margin in those panels, leaving no easy home for a 240-volt spa breaker, so that problem comes first. Next are GFCI protection, a disconnect within the bather’s view, bonding, and the inspection. We compare the panel to the spa’s spec sheet and give you a price before any conduit gets cut.',
-  emergencyParagraph:
-    'Ring us when the spa’s GFCI pops the instant it’s reset, when the shutoff smells hot, or when anyone in the water feels a buzz. Bathers should get out and nobody should touch the shell. Pull the breaker only if it’s safe; if there is smoke, get out and dial 911. Same-day visits are the norm, weekends included.',
   commonIntro:
     'Around Harrison Avenue and the blocks of two-families nearby, the calls we get about a spa in Cheviot tend to look like this.',
   localFaqs: [

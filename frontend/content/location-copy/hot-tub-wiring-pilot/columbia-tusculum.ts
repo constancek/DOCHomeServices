@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Columbia was settled in 1788, a month before Losantiville, and the housing shows it. Census figures for the wider area count 922 of 1,940 homes from before 1940. Those older panels are often short of free positions or margin for a 240-volt spa breaker, so that gets dealt with first. Newer houses higher on the Tusculum hills more often have room, and the job turns on the tub’s location and the length of the run. We hold the panel up to the manufacturer’s requirements and quote before conduit goes in.',
-  emergencyParagraph:
-    'Spa equipment that sat in water during a Delta Avenue flood, a GFCI that drops again after reset, or a buzzing panel need us. Everyone should stay out of the water and away from the rails. Shut off the breaker only when that’s safe, and call 911 from outside if there’s smoke. Same-day help is usual, weekends too.',
   commonIntro:
     'From the low streets near Delta Avenue up to the houses on the Tusculum hills, these are the spa wiring calls we see in Columbia-Tusculum.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'In Millville, plenty of recessed lighting work along Ross-Hanover Road begins in a basement stripped back to bare joists after Indian Creek spilled into the village in March 2026. Census figures place the median house at 1958, roughly a quarter predate 1940, and nearly nine in ten are detached. Postwar houses here usually offer an attic over the top floor, while the oldest homes near US 27 bring plaster and tight cavities. Layout and price get settled first, then cutting starts.',
-  emergencyParagraph:
-    'Phone us today about a downlight that smells hot, a trim ringed by browned paint or a fixture that winks out and returns unprompted. A warm or humming switch belongs here too. Shut off that breaker if the panel is safe to reach; with smoke, get out and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'Across this small Butler County village, these are the rooms owners most often ask us to brighten in Millville.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const monfortHeights: LocationServiceCopy = {
   localParagraph:
     'Monfort Heights has houses from every building era, and Census counts split it surprisingly evenly, with about a quarter of houses from the 1940s and 1950s and another quarter finished since 2000. Postwar bedrooms near North Bend Road often carry one dome light on a shallow box, never a fan. Subdivisions off West Fork Road lean toward two-story family rooms and covered decks. Our electrician opens the existing box before quoting, mentions it when tightening alone will do, and sets the price before anything is unscrewed.',
-  emergencyParagraph:
-    'Treat as urgent any fan clattering on a loosened box, hanging crooked, smoking or giving off a scorched odor, plus a wall switch that sparks or a breaker tripping as blades spin up. Kill power when safe and herd people elsewhere. Flames mean leaving and dialing 911. Most calls in Monfort Heights get a same-day visit, weekends included.',
   commonIntro:
     'Along North Bend Road and the side streets off West Fork Road in Monfort Heights, these four signs turn up most.',
   localFaqs: [

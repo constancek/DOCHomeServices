@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Millville is a small Butler County village of older, mostly owner-occupied houses. The median home dates to 1958 by Census figures, more than half went up before 1960, and electricity heats about half. A panel from those years is often small or packed, which decides where a device can mount, or whether the panel comes first. Indian Creek put water in basements across the village in March 2026, so any panel down there gets a closer look. We’ll mention it when strips suffice and fix the price first.',
-  emergencyParagraph:
-    'A furnace that smoked as the power came back can’t wait for Monday, and neither can a scorched outlet, a hot smell at the panel or a breaker that won’t reset. We come same day on most calls, weekends included. Only flip a breaker with dry hands and a dry floor. Smoke or fire means everyone out and 911.',
   commonIntro:
     'Older houses along Ross Hanover Road and the side streets near US 27 show the need for surge protection in these ways.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'Over-the-Rhine is nineteenth-century brick, and Census figures put 70.1% of its units at 1939 or earlier. Most sit in walk-ups, rowhouses and small apartment buildings where a new duct chase would mean tearing open plaster ceilings and thick masonry. A ductless head only needs a small hole for its line set. Roughly seven in ten homes are rented, so the building owner makes this decision. You approve one flat number before any work, and if ductless is wrong for the building, we tell you.',
-  emergencyParagraph:
-    'The airport thermometer tops 90F on about 21 days in an average year (National Weather Service), and a top-floor flat in Over-the-Rhine can hold that heat overnight. Elderly tenants, infants and the sick suffer first. Install dates come fast, and one zone usually takes a day. A broken mini-split needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Owners in Over-the-Rhine tend to call us for one of these four:',
   localFaqs: [

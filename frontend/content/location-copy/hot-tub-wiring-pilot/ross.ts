@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Around Ross, hot tub wiring mostly means an owner putting a spa behind a 1960s or 1970s house on a roomy lot. Census figures put the median build year at 1972, barely any homes go back before 1940, and about three in four are owner-occupied. Plenty of those panels still have a slot spare, so the job often hinges on where the tub goes and how far the trench has to travel. We weigh your panel against the spa maker’s requirements and quote the work before a shovel goes in.',
-  emergencyParagraph:
-    'Don’t sit on these. The spa GFCI pops the second you reset it, the disconnect smells scorched, the panel buzzes, a bather feels a tingle, or the Great Miami flooding reached the tub. Everybody out, equipment untouched. Throw the disconnect only if that’s safe; for smoke or fire, dial 911. Same day on most calls, weekends too.',
   commonIntro:
     'Off Hamilton Cleves Road and the side streets around it, these are the spa jobs we see most:',
   localFaqs: [

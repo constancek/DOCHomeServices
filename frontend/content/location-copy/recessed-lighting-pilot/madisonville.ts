@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madisonville: LocationServiceCopy = {
   localParagraph:
     'Two sorts of housing share Madisonville, and recessed lighting goes differently in each. By Census figures, the blocks around Whetsel and Bramble avenues are mostly houses from 1939 or earlier, largely owner-lived, while the area along Madison Road and Red Bank holds far more buildings from 2000 on, many rented. The old houses carry plaster and rooms built around one fixture. The newer units have drywall and open cavities. We mark each can and agree a flat price before cutting.',
-  emergencyParagraph:
-    'Smoke-scented cans, a trim you can’t keep a finger on, or a breaker that flips each time the kitchen cans switch on all deserve a technician today in Madisonville. Cut power at the panel first if reaching it is safe. Should smoke or fire show, leave and dial 911. Most calls are handled same day, weekends included.',
   commonIntro:
     'In Madisonville, older houses near Whetsel and newer buildings near Red Bank both send us these four jobs:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const woodlawn: LocationServiceCopy = {
   localParagraph:
     'Woodlawn runs younger and more rented than its neighbors. Census counts put its median home at 1987, and two households in three rent, many inside complexes of five units or more, where a mini-split is the owner’s or manager’s decision. Houses here were mostly built with ducts, so ductless work fills holes, like a bonus room above the garage or a sunroom off the kitchen. A flat quote precedes any drilling, and a bad fit gets an honest no.',
-  emergencyParagraph:
-    'About 21 days a year reach 90F (National Weather Service), and in Woodlawn, a top-floor apartment can hold that heat until morning. Babies, older neighbors and anyone short of breath take it hardest. We slot installs in quickly, about a day for one zone, longer for more. A failed unit needs Mini-Split Repair, usually same day, weekends included.',
   commonIntro:
     'Across apartment complexes and newer houses, these are the jobs that bring us out for ductless in Woodlawn:',
   localFaqs: [

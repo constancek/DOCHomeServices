@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'In West Chester, houses mostly need targeted circuit work rather than a full rewire. Census figures show nearly two in three were built between 1970 and 1999. Many have now passed 30 years on original wiring, the point where a review earns its keep, and some 1970s houses may have aluminum branch wiring. Remodeled kitchens and electric heat often outgrow the first set of circuits. We test before recommending, say so when nothing’s wrong, and the scope and a flat-rate number arrive in writing before drywall is cut.',
-  emergencyParagraph:
-    'Five problems jump the queue for a same-day visit in West Chester, weekends too, namely a smell like melting insulation, a cover plate that’s discolored or warm, crackling, a breaker that won’t hold once reset, and a shock from a fixture. Cut the circuit from a dry, cool panel. If there’s smoke or fire, get out and dial 911.',
   commonIntro:
     'Across the subdivisions, condos and townhomes of West Chester, these are the warning signs owners mention most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'The village of Batavia skews old: by Census figures a third of its houses date to 1939 or earlier, and the median one to 1955. Expect the heater tucked in a cellar corner, a flaky flue connector overhead, gas pipe we follow back to its cock and a drain spigot nobody has cranked since it was fitted. Around a quarter of addresses are apartment buildings with a closet heater per unit, looked after by the owner. Our quote comes before tools come out, and a hopeless tank gets called hopeless.',
-  emergencyParagraph:
-    'Seeping tank: turn its cold supply off overhead, then fuel or breaker. A whiff of gas means walk out, no switches, no relighting, and phone the gas company outdoors. A carbon monoxide alarm empties the house. A relief valve stuck open, or not a drop of hot water, is repair work too. Normally same day, weekends included.',
   commonIntro:
     'Around the courthouse and out toward the edges of the village, these tell us a heater in Batavia needs its yearly visit:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Half the houses in Ross were built in the 1960s and 1970s, Census figures show, and the median dates from 1972. Kitchens then got few circuits, and a share of those houses may carry aluminum branch wiring. One home in seven still burns fuel oil, and trading it for a heat pump means adding circuits the house never had. Newer places tend to call about an addition. We test first, tell you if it’s sound, and write down the scope and flat price before a wall is opened.',
-  emergencyParagraph:
-    'Ring us that day when a receptacle gives off a burnt smell, a switch turns hot or charred, a light hums or sparks, a dishwasher shocks you, or a breaker refuses to reset. Shut that circuit off only if you’re dry and it’s safe. Flames or smoke mean leave and call 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Ross has plenty of houses from the 1960s and 1970s, and owners usually call about one of these:',
   localFaqs: [

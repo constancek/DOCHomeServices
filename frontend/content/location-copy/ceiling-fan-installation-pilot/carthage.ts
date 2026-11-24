@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'Going by Census figures, roughly two in three houses in Carthage were built before 1940, and renters live in a bit over four of every ten homes. A lot of rooms have a single overhead light on a shallow box sized for a lamp, which works loose once a fan starts tugging, and some upstairs bedrooms have no ceiling light. We open that box before pricing, say if a tightening or rebalance does the trick, and lock the cost in before the old fixture is off.',
-  emergencyParagraph:
-    'A fan rocking its canopy, a box dropping from the plaster, smoke off the motor or sparks behind the switch plate belong on today’s list. Shut the switch or breaker if you can reach it safely, and clear the area under the blades. For fire, get out and ring 911. Most calls are answered same day, weekends too.',
   commonIntro:
     'Prewar houses, two-families and a few larger apartment buildings make up Carthage, and these four signs account for most fan calls.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'Close to half the houses in Independence were built after 2000, and Census figures put the median at 1999, so a whole-house rewire here is uncommon. Most calls are for a finished lower level, an addition or one circuit that won’t behave. Ranches and split-levels from the 1960s and 1970s are the exception, since some were wired lightly for their kitchens and a few may carry aluminum branch circuits. We test, tell you if nothing needs doing, and you sign a flat price and written scope before drywall is cut.',
-  emergencyParagraph:
-    'A receptacle that smells scorched, a cover plate too hot to hold, a flash behind a switch, a jolt from a fixture or a breaker that pops back off gets a same-day visit on most calls, weekends too. Throw that breaker only from a dry floor without touching anything warm. If there’s smoke or flame, get out and dial 911.',
   commonIntro:
     'Newer subdivisions and a handful of older farmhouses sit next to each other in Independence, and wiring trouble here tends to start with one of these.',
   localFaqs: [

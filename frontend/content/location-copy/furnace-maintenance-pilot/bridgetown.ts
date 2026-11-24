@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'Owners live in close to nine in ten homes in Bridgetown, and the typical one is a 1950s or early 60s house with a gas furnace in the basement. Census figures put the median at 1962, with 40.0% built between 1940 and 1959, and gas heats 76.0% of homes. Houses that age are usually on a second or third furnace, so the tune-up spends extra time on the flue and the heat exchanger. Expect the price up front, and a straight answer when your furnace needs nothing.',
-  emergencyParagraph:
-    'Gas smell from a furnace in Bridgetown: go outside, leave switches alone, call the gas company from the driveway. Carbon monoxide alarm: the whole house steps out. A hard freeze with no heat, a soft yellow flame or rapid restarts need a repair, sooner with a newborn or aging parent inside. Most are same day, weekends included.',
   commonIntro:
     'Gas furnaces in mid-century basements make up most of our fall visits in Bridgetown. Owners call after spotting:',
   localFaqs: [

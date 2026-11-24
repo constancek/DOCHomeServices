@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Census figures date 51.0% of homes in North College Hill to the 1940s and 1950s and another 25.9% to 1939 or before, and 43.6% are rented. One customer is the owner with a gas heater on a basement slab, a vent pipe gone chalky and a spigot frozen in place. Another is the landlord juggling tanks across several rentals or apartment closets. Each gets a flat quote ahead of the work, and a blunt word if a tank is too far gone to bother.',
-  emergencyParagraph:
-    'A split tank is no tune-up job; shut the cold line feeding it and kill gas or power. If there’s gas in the air, walk out, leave the lights as they are, and phone the gas company from the street. With a carbon monoxide alarm going, get people outside first. Most repairs happen same day, weekends too.',
   commonIntro:
     'Here is what usually prompts a service call in North College Hill, from owners and landlords alike:',
   localFaqs: [

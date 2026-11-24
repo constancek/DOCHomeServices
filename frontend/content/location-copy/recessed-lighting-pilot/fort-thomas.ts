@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Upstairs bedrooms tucked under a low roof are the trickiest recessed lighting we do in Fort Thomas. Census figures put the median house at 1955, with roughly a third finished before 1940, so plaster ceilings, tight space below the rafters and rooms built around a single fixture are common. The 1950s houses are kinder, with a full attic over the top floor and basements waiting to be finished. Most homes here are detached. Positions and price are agreed with you before we open the ceiling.',
-  emergencyParagraph:
-    'Shut off any downlight that has scorched the plaster around it, runs too hot to hold or drips after a heavy rain, using its breaker if you can reach the panel without danger. Smoke or flames mean everybody leaves and someone dials 911 from outside. Most calls get a visit that day, Saturday and Sunday no different.',
   commonIntro:
     'Pre-war houses near the old Army post and 1950s homes across the rest of the city make up most of our recessed lighting work in Fort Thomas. Four jobs lead the list.',
   localFaqs: [

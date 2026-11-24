@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Census figures show about four in five households in Miamitown rent, and most units sit in apartment buildings, so the call usually comes from an owner or manager. The stock splits into two eras. The pre-1940 houses had their bathroom fans bolted on long after construction, frequently dumping into the attic. Buildings from the 1970s through the 1990s came with fans that were small from day one and have since worn down. We test the airflow in each unit and price the fix before cutting.',
-  emergencyParagraph:
-    'An apartment fan that smells burnt, sparks, smokes or has a melted cover endangers every unit. Cut power at the switch or breaker if that’s safe, and for smoke or flame, get out and call 911. A breaker tripping with the fan, or a dripping grille, is urgent too. Owners in Miamitown get same-day service, weekends included.',
   commonIntro:
     'Across the apartment blocks and the older houses in Miamitown, owners tend to hear about one of these four problems first.',
   localFaqs: [

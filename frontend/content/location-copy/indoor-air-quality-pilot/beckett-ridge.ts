@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Beckett Ridge was begun in the 1970s and built mostly in the 1980s and 90s, so houses here are tighter than in older suburbs. The Census median dates to 1990, and most homes are owner-occupied, though about one in four units is a condo or townhome. Tight houses trap stale air and cooking fumes, so ventilation tends to matter most. Nearly half the homes heat with electricity, which dries winter air. We test first, quote the price before any work, and say so if a new filter handles it.',
-  emergencyParagraph:
-    'Carbon monoxide alarms mean getting the family out onto the driveway before dialing 911. Smelling gas means leaving without a switch flipped and calling the gas company. Shut the heat pump or AC off at the thermostat if it smells scorched. Spreading mold after a leak needs quick help when anyone has asthma. Most calls are same day, weekends included.',
   commonIntro:
     'In Beckett Ridge, owners usually call about one of these.',
   localFaqs: [

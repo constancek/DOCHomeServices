@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'In College Hill, houses run from big early-1900s homes to smaller mid-century ones. Census figures put 35.4% at 1939 or earlier and another 36.4% between 1940 and 1969. The oldest have plaster and no ductwork, so a wall-mounted head cools them with the least mess. In mid-century houses the job is usually a converted attic, a finished basement or a back room the furnace ducts never fed well. The quote is final before work begins, and if ductless won’t help, you’ll hear it from us.',
-  emergencyParagraph:
-    'Upstairs rooms along Hamilton Avenue soak up heat on the roughly 21 days a year that touch 90F, a National Weather Service average. Grandparents, infants and anyone sick or wheezing are hurt most. We fit installs in quickly, and one room is usually a one-day job. A mini-split that quit needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Between the big older houses and the mid-century ones in College Hill, these are the rooms that tend to bring a ductless call:',
   localFaqs: [

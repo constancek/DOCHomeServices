@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Cold Spring is young housing, and young houses trap air. Census figures put the median home at 1999, with nearly half built in 2000 or later, and almost a quarter are townhouses or condos sharing walls. Tight new construction keeps drafts out but also keeps cooking smoke, cleaning sprays and pet odors in, so ventilation and filtration are usually the fix rather than a dehumidifier for a leaky cellar. We test the air before suggesting anything, quote one flat price, and tell you if a fresh filter would cover it.',
-  emergencyParagraph:
-    'A chirping carbon monoxide alarm means herding the family outside, then dialing 911. If you smell gas, get out without touching a switch and phone the gas company outdoors. Shut a scorched-smelling furnace or heat pump down at the thermostat. Mold creeping after a leak endangers asthmatics, infants and grandparents. Expect us same day on most calls, weekends too.',
   commonIntro:
     'In the newer subdivisions and townhouse rows off Alexandria Pike, these are the air complaints we hear most.',
   localFaqs: [

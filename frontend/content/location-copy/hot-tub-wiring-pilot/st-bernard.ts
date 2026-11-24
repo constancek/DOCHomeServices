@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'Around Ross and Washington Avenues in St. Bernard, doubles stand among single houses, and the Census Bureau dates the median house to 1955, with about one in three older than 1940. A panel from that period is crowded, so space for the tub’s breaker may have to be made first. Then we run the 240-volt circuit with GFCI protection, mount a shutoff box facing the spa, and bond its metal. All of it is sized to the tub’s install sheet, and you get the price before conduit goes in.',
-  emergencyParagraph:
-    'If a spa breaker snaps off again right after you reset it, the panel smells hot, the shutoff crackles, or someone feels current through the tub’s trim, get everybody out and away from the water. Throw the breaker only when it’s safe. Smoke or flame means leaving and calling 911. Same day is the norm for most calls, weekends too.',
   commonIntro:
     'Doubles, 1950s single houses and older homes on low ground by the Mill Creek make up most of St. Bernard, and spa work here usually starts with one of these.',
   localFaqs: [

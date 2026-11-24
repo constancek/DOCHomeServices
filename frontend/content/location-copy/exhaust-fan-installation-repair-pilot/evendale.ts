@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Every home Census figures count in Evendale is a single-family house, and most were built between 1980 and 1999. Houses from that stretch usually have bathroom fans, but many are the builder’s original units, too small for the larger primary baths of the time and starting to wear. A smaller group of 1960s and 1970s homes have fans older still. Nearly everyone here owns their house. We check how much air the fan pulls and where the duct ends, then price the job before touching the ceiling.',
-  emergencyParagraph:
-    'Burnt-plastic smells at the grille, a housing that has browned or melted, sparks, smoke, a breaker that drops the moment the fan runs, or water staining the ceiling around it are all same-day calls. Cut power at the panel if you safely can. Smoke or flame means everyone leaves before anyone calls 911. Most calls are same day, weekends included.',
   commonIntro:
     'Owners of the 1980s and 1990s houses that fill most of Evendale tend to call about these.',
   localFaqs: [

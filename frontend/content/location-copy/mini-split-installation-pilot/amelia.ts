@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Most housing around Amelia is recent, with 43.1% built in 2000 or later by Census figures, so the typical house came with ducts. Ductless requests here center on whatever those ducts shortchange, like a bonus room, a basement finished after move-in, or a garage converted into a den. Renters occupy 38.7% of homes, and in those the owner decides, sometimes for a whole row of townhouses or apartments. You’ll get our fixed figure before any work, and if ductless isn’t worth it for that space, we’ll tell you.',
-  emergencyParagraph:
-    'July’s normal high reaches 86F (National Weather Service), and top-floor apartments under a sunny roof run hotter still. Toddlers, grandparents and anyone with asthma struggle most. Our calendar fills installs quickly; a lone wall unit is normally one day, multi-zone longer. Equipment already installed that quits cooling belongs with Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Throughout the Pierce and Batavia Township streets whose mail still reads Amelia, these situations bring most ductless calls:',
   localFaqs: [

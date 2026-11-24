@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Gas heats 61.7% of homes in Hebron by Census figures, and the typical one is a builder-installed furnace in the basement of a subdivision house from the 2000s. Plenty of those are still running on original parts, so a tune-up here is about the pieces that wear out with years of service: the flame rod, the hot-surface igniter, the blower and the safety switches. Access is usually easy. The price is fixed before we start, and if your furnace needs nothing, we leave it be and tell you why.',
-  emergencyParagraph:
-    'Smell gas: out the door, hands off every switch, and phone the gas company from the driveway. Carbon monoxide alarm: clear the house. No heat while it’s bitter outside, a furnace stopping and starting all day, or a wavering yellow flame means repair. Newborns and older relatives shouldn’t sit through a cold house. Usually same day, even weekends.',
   commonIntro:
     'Most houses in Hebron were built in the 2000s, and owners there typically book after one of these:',
   localFaqs: [

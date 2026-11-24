@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Hallways get the most attention from us in Finneytown, because so many houses lean on a single dome to light them. By Census numbers the midpoint house was built in 1959, more than half date from the 1940s and 1950s, and almost all are owner-occupied single homes. Rooms from that era usually got one light each, often on a shallow box that won’t hold anything heavy. We look at the box and circuit first, and the quote is settled before a single screw comes out.',
-  emergencyParagraph:
-    'Get in touch right away about a fixture drooping off the plaster, a scorched smell, or flicker in rooms on different circuits. Shut off its breaker when you can do so without risk and keep folks clear. Fire or smoke means leaving and dialing 911. Visits usually happen the same day in Finneytown, weekends as well.',
   commonIntro:
     'Four light fixture jobs cover most of our calls in Finneytown.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Along Beechwood Road and the streets off Dixie Highway, recessed lighting in Fort Mitchell often goes into houses built between the 1890s and the 1930s, with plaster on lath overhead and rooms planned around one fixture. Census figures put the median home at 1971, though, so just as many jobs are in drywall ceilings with attic room in mid-century and 1980s houses. About two in five homes are rented, many in apartment and condo buildings. We chalk out each light and agree the price before cutting.',
-  emergencyParagraph:
-    'Turn off a downlight at its breaker, if the panel is safe to reach, once it hums, gives off a hot smell, has stained the ceiling brown around the trim or runs too hot to touch. Should smoke or flame appear, leave the house and phone 911. Most calls get same-day service, Saturdays and Sundays as well.',
   commonIntro:
     'In Fort Mitchell, an 1890s house on Beechwood Road can sit a few blocks from a 1970s condo. Between them, these are the recessed lighting jobs we see most.',
   localFaqs: [

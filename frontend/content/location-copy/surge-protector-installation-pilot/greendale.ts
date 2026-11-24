@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Greendale is a city of older houses, with a median of 1958 in Census figures. Breaker boxes from that era were sized for a simpler house, so they are often cramped now that central air, usually added later, shares them with a modern kitchen. Nearly nine in ten homes heat with gas, and today’s gas furnaces lean on a control board. We size up your box before anything else, tell you if a few good strips would do, and agree a price in advance.',
-  emergencyParagraph:
-    'Phone us the same day for a receptacle with scorch marks, a burnt odor around the breakers, or a breaker that snaps off again after a reset. When every light swells and fades, the City of Greendale Electric Department should hear first. Smoke or flame means everyone gets out and someone calls 911. Weekends too, we usually come that day.',
   commonIntro:
     'Across the older streets and later subdivisions of Greendale, these are the signs owners mention most.',
   localFaqs: [

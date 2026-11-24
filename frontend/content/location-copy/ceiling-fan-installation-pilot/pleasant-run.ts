@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRun: LocationServiceCopy = {
   localParagraph:
     'Pleasant Run, in Colerain Township, is mostly single-family houses, and Census figures put the typical one at 1974, with about a fifth built since 2000. The 1960s and 1970s houses usually came with drywall ceilings and a center light box stapled to one joist, fine for a lamp but not for a spinning fan. Newer houses tend to have a tall family room and a back deck or patio. We pop the canopy off first, tell you if retightening sorts it, and you see our price before anything is unwired.',
-  emergencyParagraph:
-    'Don’t leave it till Monday if a family room fan swings wildly, sags off the drywall, smokes, smells like melting plastic, or trips its breaker at start-up. Shut it down at the switch or panel if safe and herd the kids elsewhere. For flames, get outside and dial 911. We typically arrive that day, Saturday and Sunday included.',
   commonIntro:
     'Seventies drywall boxes, newer tall great rooms and back decks lead to the four fan complaints we field most in Pleasant Run.',
   localFaqs: [

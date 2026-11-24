@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Houses in Hartwell run older than the city’s northern edge might suggest. Census figures put the median home at 1949, with a third built before 1940, so a maintenance visit often starts beside a rusting flue connector, an original drain valve and gas lines worth tracing. Renters make up 64.4% of households, some of them in larger complexes where a tank sits in each unit’s closet. The quote comes before any work, and if a tank is past saving, we’ll say it.',
-  emergencyParagraph:
-    'Water escaping the tank body means repair: turn the cold-water handle up top off, then gas or breaker. Gas odor: get out, leave lights and pilot untouched, and ring the gas company from the yard. Carbon monoxide alarm: clear the house. A relief valve that never stops or a cold tap: repair. Same-day help on most calls, weekends included.',
   commonIntro:
     'Houses and apartments in Hartwell show a familiar handful of signs when a tank is due:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wetherington: LocationServiceCopy = {
   localParagraph:
     'Around the golf course in Wetherington, houses went up from the early 1990s onward, and Census numbers put the median at 1998. Panels that young often still have open slots, so a spa job here is mostly about the yard, meaning how far the tub sits from the basement or garage wall. The tub gets a 240-volt GFCI breaker of its own, a disconnect it faces, and bonded metal. We compare the panel with the spa’s spec sheet and give you a written figure before a shovel touches the lawn.',
-  emergencyParagraph:
-    'A spa breaker that snaps off again after a reset, or a burnt odor at the disconnect, is urgent. Clear the tub, keep hands off the water and equipment, and only throw the disconnect if you can reach it without risk. If smoke shows, go outside and phone 911. We reach most homes here the same day, weekends too.',
   commonIntro:
     'Owners around the club call us about spa wiring for four main reasons.',
   localFaqs: [

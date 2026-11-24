@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Seven in ten homes here predate 1940, by Census figures, so nearly every air conditioner we tune up in Evanston was retrofitted into a house built without it. Expect an attic air handler feeding long duct runs, or a coil riding a basement furnace, and a condenser fitted onto one of the small, narrow lots the neighborhood is known for. Landlords hold a bit under half the homes. We name the flat price before starting, and an AC that’s in good order gets left alone.',
-  emergencyParagraph:
-    'Skip the tune-up and get a repair if the cooling quits in a heat wave, frost coats the lines or the indoor coil (shut it off at the thermostat), or attic condensate starts dripping through plaster. Heat hits older relatives, babies and people with breathing trouble hardest. Same day on most calls, weekends included.',
   commonIntro:
     'Owners in Evanston tend to pick up the phone for AC maintenance over one of these:',
   localFaqs: [

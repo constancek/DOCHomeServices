@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'We see two kinds of furnace job in Oakley, often a few blocks apart. Census figures date 47.7% of homes to 1939 or earlier: single houses and two-families with a gas furnace downstairs, venting up an old chimney, so flue and heat exchanger take our time. Then come large apartment buildings, some quite new, with closet units and more electric heat. Just over half of homes are rented. The price is set before work begins, and a healthy furnace gets a short report, nothing more.',
-  emergencyParagraph:
-    'These get a repair slot. Gas smell: out the door, no switches or pilots, Duke Energy from outside. Carbon monoxide alarm: every person out. A cold house in a cold snap, a furnace stuck restarting, or a sluggish yellow flame. Young children, older neighbors and the sick are hit hardest. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'From the side streets off Madison Road to the newer complexes, people in Oakley tend to book after one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Southgate is two towns as far as furnaces go. By Census figures, 28.9% of homes predate 1940, typically basement furnaces exhausting through an old masonry chimney that we look at carefully, while 41.0% of units sit in buildings of five or more, where a closet furnace is the norm and the landlord schedules the visit. Electricity is the heat in a little over half of homes, heat pumps counted. Whichever you have, the price is fixed first, and a furnace with nothing wrong is left that way.',
-  emergencyParagraph:
-    'Gas odor: leave, don’t flip anything, don’t relight anything, call the gas company from a neighbor’s porch. Carbon monoxide alarm: out first. A furnace dead on a frigid morning, one that drops out and comes back, or a lazy yellow flame belongs to repair. Babies, older relatives and anyone ill are at most risk. Most calls same day, weekends too.',
   commonIntro:
     'Between the old houses and the apartment buildings in Southgate, these are the usual reasons for a booking:',
   localFaqs: [

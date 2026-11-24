@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Most of the houses we service in Ludlow are older than home air conditioning. Census figures date 60.5% of them to 1939 or earlier, so cooling arrived decades later, with ducts snaked through closets and an air handler parked in the attic or the cellar. Outside, the condenser usually shares a slim gap with the neighbour’s wall. Homes built since 2000 are quicker. Before a screwdriver comes out you’ll know the price, and an AC with nothing wrong gets a clean bill and no upsell.',
-  emergencyParagraph:
-    'Phone for a repair, not a tune-up, once the house quits cooling. Frosted pipes mean setting the thermostat to off so they can thaw. Water dripping through plaster, or a fan that won’t turn while the outdoor cabinet hums, is repair work. Babies, the elderly and sick family feel heat soonest. Same day on most calls, weekends included.',
   commonIntro:
     'Most of the spring calls we get from Ludlow are about one of these.',
   localFaqs: [

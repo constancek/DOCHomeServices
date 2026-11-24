@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const linwood: LocationServiceCopy = {
   localParagraph:
     'In Linwood, roughly four in five homes date from 1939 or earlier, Census figures show, and nearly all heat with gas. Plaster walls, loose sash windows and basements of old masonry let in drafts and hold damp, and the ducts added later carry basement dust into the bedrooms. More than half the homes are rented, often a floor of a two-family house, so the owner chooses equipment. Our readings come first, the price is agreed before work, and when a new filter will settle it, you hear that from us.',
-  emergencyParagraph:
-    'A carbon monoxide alarm empties the house, and 911 comes after. If you smell gas, get out without touching switches and call Duke Energy outside. A scorched smell from the furnace or AC means setting the thermostat to off. Mold racing across a basement wall endangers babies, grandparents and asthmatic lungs. Most get seen same day, weekends included.',
   commonIntro:
     'In Linwood, older houses tend to show air trouble in one of these four ways.',
   localFaqs: [

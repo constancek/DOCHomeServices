@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Most of our furnace work in Dayton is in basements of pre-1940 houses: Census figures put 47.5% of homes at 1939 or earlier. A house that age is often on its third furnace, each one vented into the same brick chimney, so draft and the heat exchanger get the slow treatment. Gas heats 62.7% of homes. With 42.9% of households renting, landlords book a big share of visits. The price is agreed before work, and a furnace that’s fine is left alone.',
-  emergencyParagraph:
-    'Smell gas in an old basement: everyone up the stairs and out, switches untouched, nothing relit, the gas company called from the curb. Carbon monoxide alarm: same. A cold furnace on a freezing night, endless on-off firing, or a yellow, lazy flame means repair. Babies, older relatives and the sick are hit first. Same day for most, weekends included.',
   commonIntro:
     'In the older houses and rental buildings of Dayton, these usually lead to a booking:',
   localFaqs: [

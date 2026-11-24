@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Downtown Cincinnati is almost all large apartment and condo buildings. Census figures count 71.6% of homes in buildings with 50 units or more, and renters in 87.3%. That makes most of our maintenance here a tank in a unit closet sitting in a pan, or one big heater the whole building shares. Most units heat with electricity, and many closet tanks are electric too. Condo owners book their own tank; renters go through the office. Price comes before work, and we’ll be plain when a heater isn’t worth the visit.',
-  emergencyParagraph:
-    'A leaking heater soaks the unit beneath: shut the cold-water valve atop the tank, then trip its breaker or close its gas. Smelling gas, leave, hit no switches, light nothing, call the gas company outside. Carbon monoxide alarm: everyone out first. A relief valve that won’t quit, or zero hot water, is a repair. Most are same day, weekends included.',
   commonIntro:
     'A heater shut away in a unit closet gets little attention until it acts up. Signs it’s due:',
   localFaqs: [

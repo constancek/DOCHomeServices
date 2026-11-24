@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const taylorMill: LocationServiceCopy = {
   localParagraph:
     'Taylor Mill is mostly owner-occupied houses from two building waves. Census figures put close to a third of homes in the 1940s and 1950s and nearly four in ten in the 1980s and 1990s, with the median at 1975. The postwar group often lacks the circuits a current kitchen or a heat pump needs, and a few older houses may lack a ground. The later group mostly calls about an addition or a finished basement. We test first, say when it’s fine, and quote a flat rate on paper.',
-  emergencyParagraph:
-    'Reach out right away if a receptacle or switch smells burnt or looks charred, something sparks or buzzes, a breaker trips the moment it’s reset, or a fixture shocks you. Flip that breaker off only with dry hands. If there’s smoke or fire, get out and call 911. We get to most calls the same day, including weekends.',
   commonIntro:
     'Between the postwar houses and the 1980s and 1990s subdivisions of Taylor Mill, these are the wiring complaints we hear about most.',
   localFaqs: [

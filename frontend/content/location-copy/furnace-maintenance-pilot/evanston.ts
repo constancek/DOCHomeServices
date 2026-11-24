@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'In Evanston, most tune-ups happen in pre-1940 houses: Census figures put 70.9% of homes before 1940, and gas heats 73.7%. In those cellars the furnace is usually a later replacement venting into the original chimney, so the flue and heat exchanger get our hardest look. Two-family houses and apartments above the Montgomery Road shops add closet furnaces that owners book. The price is fixed before work, and we’ll tell you if nothing’s needed.',
-  emergencyParagraph:
-    'Some calls belong to repair. If gas is in the air: out, switches and pilot untouched, Duke Energy rung from the sidewalk. A carbon monoxide alarm: everyone outside, then the call. A furnace that won’t heat in a cold snap, keeps relighting, or burns yellow goes here too. Babies and grandparents feel it first. Same-day on most calls, weekends included.',
   commonIntro:
     'Across the old streets of Evanston, owners usually book a fall furnace check after:',
   localFaqs: [

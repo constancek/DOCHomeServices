@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'North Bend has two kinds of house and two kinds of visit. Census figures put the median home at 1991, and those newer places keep the heater in a garage, a utility room or, in the townhouses, a closet over a pan; that’s a quick drain-and-test job. Then there’s the 28.8% built before 1940, with cellar tanks, old flue pipe and a drain valve we coax rather than force. We agree the price before starting, and if a tank isn’t worth the money, you’ll hear it from us.',
-  emergencyParagraph:
-    'A dripping tank in North Bend needs repair, not a tune-up: shut its cold supply on top, then gas or breaker. Gas odor: get outside, leave lights and pilot alone, ring the gas company. Carbon monoxide alarm: everybody out. Steady relief-valve dumping or no hot water is repair work too, often same day, weekends included.',
   commonIntro:
     'What usually brings us to a heater in North Bend that still works:',
   localFaqs: [

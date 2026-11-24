@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Silverton is a small village of postwar houses packed onto narrow lots, plus many fourplexes and apartment blocks. Census figures put the median home at 1959 and show close to three households in five renting, so the owner of the building usually decides what gets installed. In the houses, original basements hold damp and aging ducts spread dust. In apartments, dead bath fans leave moisture behind. Readings come before any recommendation, prices are flat per fix, and a filter that only needs changing gets called out.',
-  emergencyParagraph:
-    'Some calls go to 911 before they come to us. With a carbon monoxide alarm, take everyone outside first. With a gas smell, leave every switch alone and ring the gas company outside. If the vents push out a burning smell, set the thermostat to off. Babies, grandparents and asthmatics struggle soonest. Same-day visits on most calls, weekends too.',
   commonIntro:
     'From the side streets off Montgomery Road to the bigger apartment buildings, these are the calls we take in Silverton:',
   localFaqs: [

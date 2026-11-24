@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Plenty of bedrooms in Millville have never had a ceiling light, so adding one is our most frequent request in this Butler County village off US 27. Census counts put the middle house at 1958; most went up between the 1940s and 1970s, and about a quarter are older. Those mid-century ranches tend to have one fixture per room and a dim hall, and the oldest ceilings may carry no ground. We look over that box and its wiring, then give a firm figure before starting.',
-  emergencyParagraph:
-    'Stop using a sagging light, a switch plate that buzzes or feels hot, or a circuit whose breaker drops the moment that light comes on. Switch it off at the panel if that is safe and keep everybody back. Smoke or fire means getting out and calling 911. Around Hanover and Ross townships we usually arrive that day, weekends too.',
   commonIntro:
     'Between Hamilton and Oxford, most fixture calls we answer in Millville, Ohio, involve one of these four.',
   localFaqs: [

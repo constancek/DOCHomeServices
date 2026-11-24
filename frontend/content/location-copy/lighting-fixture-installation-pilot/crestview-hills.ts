@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Crestview Hills was built up mostly in the 1980s and 1990s, with a median build year of 1984 in Census figures, so ceilings here generally have a grounded box behind the old light. What varies is the housing. About a quarter of homes are attached townhomes, and another fifth sit in larger condo and apartment buildings, where associations often have a say in exterior lights. Before we unscrew anything, we look in the box and agree a price with you.',
-  emergencyParagraph:
-    'A fixture drooping off its mount in Crestview Hills, browned plastic around a switch, or a breaker that refuses to stay on are urgent. If reaching the breaker is safe, open it and give the fixture a wide berth. Fire or smoke means leaving first and dialing 911 outside. We usually come that same day, even on a Sunday.',
   commonIntro:
     'In Crestview Hills, these are the jobs owners bring us most.',
   localFaqs: [

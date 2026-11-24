@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Practically every home in Terrace Park is a detached, owner-occupied house. Census figures date about a quarter of them to before 1940 and more than four in ten to the 1940s and 1950s, with the median at 1954. The oldest may still have cloth-jacketed wire or knob-and-tube with no ground. The postwar houses were wired for a handful of appliances, not the load a family runs today. Testing comes first, you’ll hear if your wiring is sound, and the scope and flat price get written down.',
-  emergencyParagraph:
-    'Call us now about a burning odor in a wall, a hot or discolored switch, sparking, buzzing, a breaker that refuses to reset, or a shock from a lamp or appliance. Switch off that circuit with dry hands. For smoke or fire, leave the house and dial 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'In the older houses of Terrace Park, especially those from before 1960, the wiring tends to give these warnings before anything worse happens.',
   localFaqs: [

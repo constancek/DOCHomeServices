@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'Erlanger is mostly mid-century houses with a wave of newer subdivisions. The median home dates from 1976 by Census count, and roughly a third went up in 1990 or later. A panel in a house from the 1950s or 1960s has often been added to over the years and may have little room left, so that gets checked first. The newer subdivisions carry more of what surges damage, from heat pumps to smart thermostats. If strips would cover you, we say so, and the figure is settled before we start.',
-  emergencyParagraph:
-    'A breaker that flips again the moment you reset it, or a switch scorched after a storm, is worth calling us about. When lights all over the house pulse bright and dim, Duke Energy Kentucky should hear from you first. With smoke or flame, get the family out before you dial 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'On the older streets and in the newer subdivisions of Erlanger, these four situations usually lead to a quote.',
   localFaqs: [

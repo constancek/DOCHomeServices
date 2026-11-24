@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const riverside: LocationServiceCopy = {
   localParagraph:
     'Riverside’s housing is mixed. Per Census figures, about a quarter of units predate 1940, while roughly half went up between 1970 and 1999, many of them in apartment buildings. The old houses tend to have a bathroom fan someone added years later and pointed at the attic. The newer apartments came with fans, just modest ones that can’t keep up with back-to-back showers. Renters fill most homes here, so owners and property managers make the call. We trace each duct and price the fix before cutting.',
-  emergencyParagraph:
-    'Power the fan down at its wall switch or breaker, if that’s safe, the moment you notice a burning-insulation smell, sparks or smoke. Drips from the grille, or a brown ring creeping across the ceiling around it, deserve a same-day visit. Should there be smoke or fire, clear the building and dial 911. We’re usually there that day, weekends too.',
   commonIntro:
     'Owners and tenants along River Road bring us these four more than anything else in Riverside.',
   localFaqs: [

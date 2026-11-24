@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Mack is a ridge-top suburb, nearly all owner-occupied, and most of its houses had central air from the day they were finished. Census figures give a median year built of 1981, with 42.7% of homes from the 1980s and 1990s. So the usual tune-up is unhurried work on a condenser in an open back yard and a cooling coil perched on a basement gas furnace. The handful of older houses take a bit longer. A flat price comes first, and a healthy system gets a plain answer.',
-  emergencyParagraph:
-    'Hold off on maintenance and book a repair when the AC stops cooling in hot weather. Frozen lines mean turning the system off at the thermostat while they thaw. Water spreading over the basement floor, or a burning smell, counts too. Heat is riskiest for grandparents, babies and anyone ill. We’re out same day on most calls, weekends included.',
   commonIntro:
     'These are what most homeowners call us about in Mack before summer.',
   localFaqs: [

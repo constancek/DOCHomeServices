@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covedale: LocationServiceCopy = {
   localParagraph:
     'Covedale straddles a city line. The Green Township portion has a 1959 median build year and 95.4% single-family detached homes, per Census figures, so a visit there tends to be an uncomplicated job: drain it, inspect the anode, test the relief valve. Blocks inside Cincinnati run older, with more pre-1940 basements, so we allow time for tired vent pipe, a balky drain fitting and the gas cock. Either way the price is agreed first, and we’ll say when a heater should be left alone.',
-  emergencyParagraph:
-    'Tank leaking: spin its cold inlet valve shut, then kill the gas cock or breaker. Gas in the air: go outdoors, touch no switch or pilot, call the gas utility from the driveway. Carbon monoxide alarm: the household leaves first. A relief valve that keeps venting, or no hot water, needs a repair too. Usually same day, weekends included.',
   commonIntro:
     'On both sides of the line in Covedale, bookings usually start like this:',
   localFaqs: [

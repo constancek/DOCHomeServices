@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'In Batavia, the county seat, Census figures put 33.7% of village homes at 1939 or earlier, with a median year built of 1955. The older ones near Main and Market went up before central air, with plaster and cramped attics, so a ductless wall unit linked through one modest opening beats tearing out lath. Houses from the 1950s often have ducts that skip a later addition or finished basement. On rentals, owners decide. Our figure comes first, and if ductless is wrong for your house, we’ll say so.',
-  emergencyParagraph:
-    'Roughly 21 days yearly reach 90F (National Weather Service), and old upstairs bedrooms stay hot past sunset. Babies, aging relatives and anyone sick feel it first. Scheduling is quick; one wall unit is ordinarily a day’s work, multi-zone more. Ductless equipment that has failed goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'From the blocks around the courthouse out toward the East Fork, these are what lead most people in Batavia to ask about ductless:',
   localFaqs: [

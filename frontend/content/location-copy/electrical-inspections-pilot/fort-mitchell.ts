@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Fort Mitchell inspections split between older houses and a lot of apartments. The city has four National Register historic districts, with homes there going back to the 1890s through the 1930s, and Census figures put 16.4% of all homes before 1940. Those can still have two-prong outlets or cloth-covered wiring. Most of the rest date from 1940 to 1979, with panels that are often small for today’s loads, and 41.7% of homes are rented. We check the system and quote fixes first.',
-  emergencyParagraph:
-    'Fort Mitchell tenants and owners should phone rather than book if they notice burning, an outlet that feels hot or is blackened at the slots, humming from a switch, sparks, or a breaker that will not stay on. Cut that breaker. Smoke or fire: everyone out, then 911. A technician gets to most of these the same day, weekends included.',
   commonIntro:
     'With early 1900s houses, mid-century homes and many apartment buildings, Fort Mitchell gives us a varied list of findings:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Around DeSales Corner and up Madison Road, about half the homes went up in 1939 or earlier, by Census figures, including big houses in the local historic district where a bathroom fan arrived long after the plumbing and was often aimed into the attic. The rest of East Walnut Hills leans toward mid-century and newer apartment and condo buildings, where the fan is there but too feeble for the room. Our first step is to follow the air to where it actually exits, then quote before any ceiling is cut.',
-  emergencyParagraph:
-    'If a fan near DeSales Corner smells burnt, has a scorched or softened housing, sparks, smokes, trips the breaker or leaks around the grille, ring us that day. Kill the circuit at the panel when it’s safe to reach. Should smoke or flame appear, leave first and dial 911 from the sidewalk. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'From the turn-of-the-century houses near DeSales Corner to the condo buildings that went up later, these are the signs that bring us in.',
   localFaqs: [

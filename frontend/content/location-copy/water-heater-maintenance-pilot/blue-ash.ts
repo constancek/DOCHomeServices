@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Most of Blue Ash was built in the 1970s and 1980s, so a water heater service here is usually simple: drain, anode, relief valve, often in a garage. The median home dates to 1981, and 46.3% went up between 1970 and 1989, by Census figures. Another 27.7% of homes are apartments in buildings of five or more units, each unit often with a closet heater the landlord looks after. Price is fixed before we start, and a tank not worth the money gets that verdict.',
-  emergencyParagraph:
-    'If water is escaping the tank, that’s past maintenance. Turn the cold-water handle above the heater shut, then gas knob or breaker off. Treat a constantly discharging relief valve, or cold taps, as a repair too. Gas odor: get everybody outdoors, switch nothing, call the gas company. Carbon monoxide alarm: out first. Same-day visits on most calls, weekends too.',
   commonIntro:
     'In Blue Ash, a service usually gets booked after one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Delhi Hills is almost entirely owner-occupied detached houses, and 48.0% went up between 1960 and 1979, by Census figures. Homes from those years were mostly built with ducts for forced air, so the tune-up is about the equipment, not old ductwork. Electricity heats about as many homes here as gas does, and some of those run a heat pump that works winter and summer. On a sloped lot we also check the condenser pad is level. We price the visit first and tell you when nothing needs doing.',
-  emergencyParagraph:
-    'Don’t wait for a tune-up if the AC stops cooling in a heat wave, or if the outdoor fan won’t spin while the unit hums; book AC Repair. Ice on the lines means switching the thermostat off so it thaws. Anyone ill or with breathing trouble needs cooling fast. Same day on most calls, weekends included.',
   commonIntro:
     'These are the usual reasons homeowners book a spring tune-up in Delhi Hills.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Around Miamitown, a spa is usually an owner’s project, because Census figures count only 31 detached houses and most homes are rented. The median building was put up in 1973, and electrical boxes of that vintage often can’t spare a slot or the amperage headroom a tub wants. Sorting that comes before the 240-volt GFCI run, the cutoff switch and the bonding. Landlords and house owners get the box compared with the spa’s installation sheet and a fixed figure before anything is trenched.',
-  emergencyParagraph:
-    'In Miamitown, call us if a spa breaker pops the instant it’s reset or a soaker feels a jolt. Spa gear that took on Great Miami River water stays dark until we look. Get everyone clear, shut the breaker only if safe, and call 911 for smoke. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Owners and landlords near Harrison Pike and the riverfront streets mostly reach us about these four spa problems in Miamitown.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'In Melbourne, an electrical inspection can be the first close look a house has had in decades. Census figures show nearly a third of the city’s homes, 30.5%, date from 1939 or before, and the median is 1958. Houses that age may still hide cloth-covered or knob-and-tube cable, run two-prong outlets with no ground, or rely on fuses. We find out what you actually have, put it on paper and quote each fix before we start.',
-  emergencyParagraph:
-    'Some things in a Melbourne house need us today: a fuse that blows as soon as it’s replaced, a cover plate gone brown or warm, a hot-plastic smell, or sparks. Shut that circuit off. If smoke or flame appears, everyone leaves and someone dials 911. Same-day visits on most of these, weekends too.',
   commonIntro:
     'Melbourne is a small river city of mostly single homes, many of them older than the panels inside them. What we find most often:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'Addyston has two kinds of houses, and the inspection depends on which one you live in. The small company houses near Main and Church Streets mostly date from before 1930, and Census figures put 28.9% of the village’s homes before 1940; those can still hide cloth-covered or knob-and-tube wiring behind the plaster. Homes from the 1960s on mainly need their panels and circuits checked. Either way, we report what we find and price each repair first.',
-  emergencyParagraph:
-    'Phone us from Addyston when a receptacle runs warm or browned, a switch hums, there’s a hot plastic smell, or one circuit refuses to stay on. Kill that breaker. Where floodwater got into outlets or the panel, keep those circuits dead. Any smoke or flame: leave and ring 911. We usually arrive that day, weekends too.',
   commonIntro:
     'Addyston’s old company houses and its rental buildings show different problems. The ones we write up most:',
   localFaqs: [

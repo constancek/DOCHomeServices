@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'In Park Hills, development began in 1926 beside Devou Park, so early houses were built when a window was the only bathroom ventilation. Census figures put the typical home at 1953, and about one in five dates from 2000 or later. The older houses tend to have a fan retrofitted, sometimes vented into the attic. The newer houses, condos and apartments came with fans, though builder-grade ones often can’t keep up with the room. We check the pull and the duct’s endpoint, then price the job before any ceiling work.',
-  emergencyParagraph:
-    'In Park Hills, a hot-insulation smell, a scorched or warped housing, sparks, smoke, a breaker that trips with the fan or water leaking through the grille is a same-day matter on most calls, weekends included. Turn the circuit off at the panel if you can reach it without risk. Smoke or fire means everyone gets outside and someone calls 911.',
   commonIntro:
     'On the hillside streets of Park Hills, in older houses and newer condos alike, these signs come up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'Housing in College Hill is split between big prewar houses and postwar ones. By Census figures, 1,659 of 4,692 homes in the core of the neighborhood predate 1940, and another 1,708 went up in those three decades after. The oldest leak air at every window frame and hold damp in the basement; postwar ones often keep original ducts that shed dust. About half the households rent, so landlords decide in many buildings. We test before quoting, fix the price upfront, and recommend a cheap filter swap when that’s enough.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means everyone goes outside before anyone calls 911. A gas smell means leaving without touching switches and calling the gas company outdoors. Turn off a furnace or AC that smells of burning at the thermostat. Spreading mold after a leak endangers asthma sufferers, babies and older parents. Most calls get same-day service, weekends included.',
   commonIntro:
     'Along Hamilton Avenue and the side streets off it, these four problems account for most of our calls.',
   localFaqs: [

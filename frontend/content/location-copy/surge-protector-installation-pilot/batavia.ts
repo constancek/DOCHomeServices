@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const batavia: LocationServiceCopy = {
   localParagraph:
     'Batavia, the Clermont County seat, is a village of 1950s houses around an older core, with Census figures putting the median home at 1955 and a third before 1940. Plenty of those houses have since traded an old furnace for a new one with central air, and that equipment is what surges chew up. About four in ten households rent, many in apartment blocks. Before quoting, we pull the panel cover, admit it when cheap outlet strips would do the job, and write the cost down for your signature.',
-  emergencyParagraph:
-    'A charred faceplate, a breaker box with a hot odor, or a dryer that sparked as service returned should bring us out that day. Throw that one breaker only while standing on dry concrete or wood. Smoke changes the plan, so leave and phone 911. Our crews answer most of these within the day, Saturday and Sunday too.',
   commonIntro:
     'In Batavia, from the old streets near the courthouse to the postwar blocks around them, these are the signs owners tend to notice first.',
   localFaqs: [

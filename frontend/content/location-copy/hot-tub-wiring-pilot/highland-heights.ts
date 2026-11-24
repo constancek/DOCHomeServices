@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Highland Heights at 1985, and nearly half the units sit in apartment buildings near Northern Kentucky University. A house built in the 1980s or 1990s usually has a blank in the box, yet about two in three homes run on electric heat, and that winter draw eats the margin a spa breaker wants. Each tub hangs on its own GFCI-protected 240-volt line with a shutoff and bonding. Your panel gets weighed against the spa maker’s sheet, then priced, before any conduit.',
-  emergencyParagraph:
-    'The spa GFCI kicking out the instant you reset it, scorch marks on the disconnect, a humming panel or a bather who feels a tingle all count as urgent. Everyone climbs out. Cut the breaker only if you can reach it dry, and dial 911 for smoke or flame. Most calls get us there the same day, weekends included.',
   commonIntro:
     'In Highland Heights, most spa calls trace back to one of these four.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'Bridgetown is mostly owner-occupied single homes, and Census figures put the typical one at 1962, with the 1940s and 50s the busiest building years. Bathrooms from then got a small fan or none, and later owners often added one that vents straight into the attic. A finished basement with a bathroom adds another wrinkle, since that fan needs a path out through the rim joist. We trace the air to where it really ends up and give you the price before anything gets cut open.',
-  emergencyParagraph:
-    'A fan that smells of burning, sparks, or wears a scorched housing should be shut off at the switch or breaker when safe. A breaker that trips with the fan, or drips coming from the grille, is urgent too. In a fire, get out first and call 911. Bridgetown usually sees us the same day, including weekends.',
   commonIntro:
     'From the streets off Bridgetown Road to the blocks near Harrison Avenue, these are the signs owners mention most:',
   localFaqs: [

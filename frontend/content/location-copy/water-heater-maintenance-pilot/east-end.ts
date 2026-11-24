@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Two housing types make up the East End, and the visit follows them. Census figures put 54.4% of homes before 1940, so the river cottages on Eastern Avenue keep their heaters in low basements with older venting, gas lines and drain valves. Condos and townhouses toward Riverside Drive, mostly built from the 1990s on, are a straight rinse, anode look and valve test. Gas service is the norm here. Either way, you agree to the price first, and we’ll tell you if a tank isn’t worth servicing.',
-  emergencyParagraph:
-    'Book repair, not this service. A leaking tank: the cold supply on top goes off first, gas valve or breaker second. A gas odor: leave, fingers off switches and pilot, phone the gas company once you’re on the street. A carbon monoxide alarm: everyone outside. Constant relief valve discharge, or cold taps. Same day on most calls, weekends included.',
   commonIntro:
     'Along the river, these are the usual signs a tank is ready for a service:',
   localFaqs: [

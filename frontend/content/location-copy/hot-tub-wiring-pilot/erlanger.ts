@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'In Erlanger, hot tub wiring means a 240-volt circuit for the spa alone, GFCI protection, a shutoff in sight of the tub but back from the water, bonding, and an inspection. Census figures put the median house at 1976. A panel from the 1950s through the 1970s tends to be tapped out, so making room for the spa breaker comes first. The 1990s subdivisions usually have slack, and the yard layout drives the job instead. We weigh the panel against the spa’s specs and price it before conduit goes in.',
-  emergencyParagraph:
-    'Same-day help comes on most calls in Erlanger, weekends included, for a GFCI that won’t hold after a reset, a humming panel, or a shutoff that smells hot. Anyone who feels a tingle should climb out by the steps, not the handrail. Cut the power only if it’s safe, and leave and call 911 for smoke.',
   commonIntro:
     'From the older blocks off Dixie Highway to the newer streets out toward the airport, these four come up most.',
   localFaqs: [

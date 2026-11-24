@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'In North Bend, the housing comes in two kinds. More than a quarter of homes are older than 1940, and those may hold cloth or knob-and-tube cable with no ground and two-slot outlets. Census figures put the median at 1991, though, so the newer houses and townhouses mostly need a line for an addition, a finished basement or one stubborn circuit. A meter goes on the wiring first. If it passes, we tell you, and the scope and fixed price are written down before a wall is opened.',
-  emergencyParagraph:
-    'Same-day trouble looks like a blackened or hot receptacle, a fixture that shocks you, a hum from inside the drywall or a breaker that won’t stay up past the first reset. Throw that breaker only if you can keep clear of water and heat. With smoke or fire, everybody leaves before anyone calls 911. We do weekends.',
   commonIntro:
     'From the older houses down by the river to the newer ones on the hillsides, these are the wiring complaints we hear most in North Bend:',
   localFaqs: [

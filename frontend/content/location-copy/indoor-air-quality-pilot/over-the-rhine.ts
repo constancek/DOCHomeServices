@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'In Over-the-Rhine, the person who decides on air equipment is usually the building owner. Census figures show 2,340 of the 3,343 occupied homes are rented, and most units date from 1939 or earlier. Walls that old breathe in drafts, cellars stay cool and damp, and gut-rehabbed flats with sealed windows can hold stale air for days. Tenants raise problems with the landlord. Owners get readings first, a fixed price before work, and an honest word if a new filter solves it.',
-  emergencyParagraph:
-    'If a carbon monoxide alarm sounds, leave the building and call 911 from the sidewalk. If you smell gas, leave the lights alone and call Duke Energy outside. Turn a scorched-smelling furnace or AC off at the thermostat. Mold spreading after a leak hits infants and older neighbors hardest. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Rowhouses, walk-ups and rehabbed lofts send us these four complaints more than any others in Over-the-Rhine.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'Greenhills was built as a federal Greenbelt town in the late 1930s, and Census figures give a median build year of 1955. Those first row townhomes went up with no basements, so fresh cable travels through crawl spaces and ceilings. Units from that era may still have ungrounded wiring, while the postwar singles tend to run short of kitchen circuits. Every circuit gets measured before we propose anything, we’ll tell you when it’s in good order, and the plan and flat price are written up before anything is opened.',
-  emergencyParagraph:
-    'A scorched odor from a receptacle or ceiling, a blackened or hot switch, sparks at a plug, a jolt from a light fixture, or a breaker that kicks out immediately needs attention today. We usually get there that same day, weekends included. Shut that breaker off only on dry footing. If smoke appears, leave the unit and phone 911.',
   commonIntro:
     'Across the original townhomes and the postwar houses of Greenhills, aging wiring usually tips its hand like this:',
   localFaqs: [

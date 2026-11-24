@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'In Lakeside Park, most houses are mid-century. Census figures give a median year built of 1964, while about one home in six reaches back to 1939 or earlier. Panels here range from roomy to jammed, so we don’t promise anything sight unseen. A jammed box is sorted before the spa breaker goes in. With a roomy one, the price rides on where the tub sits and the conduit distance. Either way, the spa’s spec sheet goes beside your panel and you get a quote before work starts.',
-  emergencyParagraph:
-    'A hot plastic odor at the shutoff, a spa breaker that won’t stay up, or a prickle from the water means the tub goes dark. Have everyone climb out with hands off the controls. Trip the breaker only if it’s safe, and dial 911 for smoke or fire. Most calls see us that same day, weekends included.',
   commonIntro: 'On the quiet streets of Lakeside Park, owners call us for one of these four.',
   localFaqs: [
     {

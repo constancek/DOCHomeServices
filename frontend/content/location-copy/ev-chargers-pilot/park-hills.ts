@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'In Park Hills, two homes in three are owner-occupied, Census figures show, and over half are detached houses. Housing ranges from 1920s houses through mid-century ones to recent buildings, roughly one in five from 2000 on. An older house may run a small service, and a newer one usually has room or can lean on load management. The panel and a load calculation come first, we’ll say if the dealer cord does the trick, and the price is fixed before work.',
-  emergencyParagraph:
-    'Heat, melting or blackening on a charger, plug or outlet calls for attention today, and a cable crushed under a tire does too. Stop charging, and only reach for that breaker if the panel is dry and safe. Smoke or fire means leaving the house and calling 911. We usually get to you the same day, weekends included.',
   commonIntro:
     'In Park Hills, from the oldest houses to the newest, these situations usually start the charger conversation.',
   localFaqs: [

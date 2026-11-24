@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'Across Mount Airy, most housing dates from the 1950s to the late 1970s (Census figures put the median year built at 1964), and roughly four units in ten are in complexes of five or more. Plenty of those apartments still run window units, and a ductless head on the bedroom wall replaces that rattle without a ceiling coming down. Houses that age often have a basement finished after the ducts went in. Owners decide on rentals. You get the price first, and an honest no if ductless is wrong.',
-  emergencyParagraph:
-    'Upper-floor apartments in Mount Airy hold heat past dark on the 21 or so days a year that reach 90F or higher, by the National Weather Service’s count. Toddlers, elderly parents and anyone on an inhaler suffer most. Installs get booked quickly; one head takes a day. A failed mini-split is a Mini-Split Repair call, typically same day, weekends too.',
   commonIntro:
     'Owners and residents near Mount Airy Forest bring us these four cooling problems more than any others:',
   localFaqs: [

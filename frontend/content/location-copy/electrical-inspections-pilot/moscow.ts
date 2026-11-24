@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'In Moscow, most inspection calls are about wiring that has spent decades in the walls: Census figures show most of the village’s homes predate 1940. Houses that old may still carry knob-and-tube or cloth-sheathed cable, outlets with two slots and no ground, and a fuse box in the basement. On top of that, most Moscow homes heat with electricity, a heavy draw on an old service. You get every finding on paper, and a price for anything you want fixed, before work begins.',
-  emergencyParagraph:
-    'Not every Moscow call can wait. A burning smell, a cover plate too warm to touch or turning brown, sparks at a plug, a breaker that snaps off right after you flip it back: kill that circuit at the panel. Smoke or fire means out of the house, then 911. Weekday or weekend, most calls get a same-day visit.',
   commonIntro:
     'Here is what turns up when we open panels and pull outlet covers in Moscow’s older houses.',
   localFaqs: [

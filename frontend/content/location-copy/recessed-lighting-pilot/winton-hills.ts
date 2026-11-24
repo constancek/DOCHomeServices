@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'In Winton Hills, owners and property managers order recessed lighting, not tenants. Nearly every household rents, Census figures show, and most homes belong to the housing authority at Winton Terrace and Findlater Gardens. The Winton Terrace buildings, put up in 1940 and 1941, are red-brick two-storey townhouses with basements, and the area’s median home dates from 1955. Ceilings of that vintage may be plaster with a shallow cavity overhead. The privately owned houses nearby get the same attention. We lay out each opening and agree the price before cutting.',
-  emergencyParagraph:
-    'Report a hot or buzzing switch, or water trickling around a can, at once. Residents in managed housing put in a work order, and owners can phone us directly. Turn that circuit off if the breaker is safe to reach. If there’s smoke or fire, get out and call 911. We come out same day on most calls, weekends included.',
   commonIntro:
     'Managed brick townhouses and apartments make up most of the homes here, with privately owned houses around them. Owners and managers bring us these jobs.',
   localFaqs: [

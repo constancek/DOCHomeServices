@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mariemont: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in Mariemont usually means a house from the village’s first two decades. Ground was broken in 1923, and Census figures put the median home at 1945, with 36.8% built before 1940 and another 26.3% in the 1940s. Wiring that old was never meant for central air, induction ranges or a car charger, and some of it may still be cloth-covered. We test the panel and every circuit, then price anything that needs fixing before you agree to it.',
-  emergencyParagraph:
-    'A burning smell, or an outlet or switch that’s hot, crackling or browned, means shutting off that circuit’s breaker and leaving it shut. Same for a breaker that drops again right after a reset. Smoke or fire means out of the house and 911. In Mariemont we reach most such calls the same day, weekends included.',
   commonIntro:
     'Mariemont’s houses went up close together over a short span, so the same findings repeat from street to street:',
   localFaqs: [

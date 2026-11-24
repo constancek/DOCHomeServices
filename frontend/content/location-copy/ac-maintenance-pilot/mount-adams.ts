@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'Houses on this hill stood for decades before anyone cooled them, and a spring visit here works with that history. Census figures date the median building in Mount Adams to 1938, so ductwork got threaded later through closets and knee walls, and many condensers balance on a terrace or a rear ledge. Renters fill two of every three homes, which means doubles and small apartment owners do most of the booking. One flat figure is agreed before tools come out, and a healthy system gets an honest all clear.',
-  emergencyParagraph:
-    'Cooling that dies during a heat wave, frost creeping along the copper, or a ceiling stain growing below the attic unit all call for a repair visit, so shut everything down at the thermostat. A scorched smell means leave it off. Grandparents, infants and anyone sick struggle most. Expect us same day on most calls, weekends included.',
   commonIntro:
     'Up on the hill, owners and tenants tend to spot one of these first:',
   localFaqs: [

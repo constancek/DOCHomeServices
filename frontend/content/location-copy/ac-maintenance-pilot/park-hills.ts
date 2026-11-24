@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Park Hills, beside Devou Park, was laid out from 1926, and Census figures put the median home at 1953. The houses from the 1920s through the 1950s had cooling added later, so the condenser often perches on a sloped yard or a narrow ledge beside the foundation, and the air handler shares the basement with the furnace. Newer homes and apartment buildings since 2000 are a plainer coil and drain service. You agree the flat price before we start, and an AC in good shape is left alone.',
-  emergencyParagraph:
-    'Maintenance is the wrong booking once the house goes warm in a heat wave or the suction line wears a sleeve of ice; shut the thermostat off so it can melt. A soaked ceiling, a scorch smell, or a breaker that flips again is repair work. Grandparents and newborns suffer first. Expect us that day on most calls, weekends too.',
   commonIntro:
     'On the hillside streets of Park Hills, these are the usual signs a system has gone too long without a visit:',
   localFaqs: [

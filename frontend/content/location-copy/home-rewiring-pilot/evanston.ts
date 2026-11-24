@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'In Evanston, the typical house was standing before 1940; Census figures place more than two-thirds of the neighborhood’s homes in that era. That age can mean knob-and-tube or cloth wire, no ground and two-slot receptacles, often spliced into whatever circuits a later owner added. About four in ten homes are rented, and doubles are common on these narrow lots. Our electrician meters it all before pricing, says so plainly when it’s sound, and has you sign the scope and flat rate before a wall comes open.',
-  emergencyParagraph:
-    'Ring us that day if a switch or receptacle goes hot or brown, a wall smells scorched, something sparks, a breaker trips again after a reset, or a lamp or appliance shocks you. With a dry panel in reach, turn that circuit off. Leave and call 911 at the first sign of smoke or fire. Weekends are covered too.',
   commonIntro:
     'In the prewar houses and doubles on the narrow lots of Evanston, these signs usually show up first.',
   localFaqs: [

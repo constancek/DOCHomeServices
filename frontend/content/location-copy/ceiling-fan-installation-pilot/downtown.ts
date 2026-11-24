@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Living downtown mostly means a flat in a big building. Census figures count 70 detached houses among 4,821 homes in Downtown Cincinnati, and close to nine in ten households rent. The buildings come from two eras, with 2,089 units built in 1939 or earlier and 1,454 finished in 2010 or later. Older buildings can have lofty ceilings that need a long rod, while new towers usually have a drywall box sized for a light. We check the box, say when tightening fixes it, and price the job before work.',
-  emergencyParagraph:
-    'Shut off a fan in your unit that’s shaking hard or smells scorched, using the switch or your unit’s breaker if that’s safe, and stay clear of it. Let the building’s management know as well. Any smoke or fire means leaving by the stairs and calling 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Tall old ceilings, new tower units and management rules shape most of the fan requests we see in Downtown Cincinnati.',
   localFaqs: [

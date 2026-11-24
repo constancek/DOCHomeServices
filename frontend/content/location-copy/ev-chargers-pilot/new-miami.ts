@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in New Miami is a detached house, which keeps a Level 2 charger simple when the car parks off the street. Census figures count 813 of the village’s 878 homes as freestanding, with a median build year of 1960, when the old mill set the pace north of Hamilton. Panels from the 1950s through the 1970s are often packed solid, and older services may lack room for 240 volts. We check the panel and load first, admit when Level 1 suffices, and agree a price upfront.',
-  emergencyParagraph:
-    'Unplug if the plug feels hot, the faceplate browns, a melted smell hangs around, the breaker gives up each time charging begins, or a tire has flattened the cable. Shut the breaker only when you’re dry and it’s safe. Smoke or flames mean everyone out and a 911 call. Most village calls see us that day, weekends too.',
   commonIntro:
     'Almost all of New Miami is single houses from the middle of the last century, so charger calls from the village tend to look alike.',
   localFaqs: [

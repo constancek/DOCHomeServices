@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Crescent Springs is mostly post-1980 construction, with a median home of 1993 by Census figures, so our visits here rarely involve brittle old plumbing. Roughly half the homes are in buildings of five or more units, and 42.0% of households rent, which means a lot of closet heaters perched in drain pans, one to an apartment or condo, scheduled by an owner or association. Expect to hear the charge before we start, and a straight answer if a tank isn’t worth the visit.',
-  emergencyParagraph:
-    'These go straight to repair. Dripping tank: cold-water valve over it off, then its breaker or gas. Hallway smells of gas: leave the apartment, flip and relight nothing, contact the gas company outside. Carbon monoxide alarm: everyone out of the unit. Nonstop relief valve discharge or no hot water: we’re usually there that day, weekends included.',
   commonIntro:
     'Owners and managers in Crescent Springs tend to call us about these:',
   localFaqs: [

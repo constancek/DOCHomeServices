@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Large rooms set the tone for light fixture work in Indian Hill, from a great-room chandelier to a run of pendants over a long island. Census data puts the median home at 1974, nearly all detached, built anywhere from before the war to recent years. A pre-war house may hide a flimsy box in plaster that no heavy fixture should trust. Newer ones bring soaring entries. We assess the ceiling first and commit to a fixed quote before a single fixture is unbolted.',
-  emergencyParagraph:
-    'A chandelier creeping lower on its chain, a whiff of hot plastic, or a breaker that pops whenever the foyer light comes on needs a visit today. Cut power to that circuit if you safely can, and clear the area underneath. Should smoke or flame appear, go outside and ring 911. Same-day help on most calls, weekends too.',
   commonIntro:
     'Owners of houses in Indian Hill usually reach out to us for one of these four.',
   localFaqs: [

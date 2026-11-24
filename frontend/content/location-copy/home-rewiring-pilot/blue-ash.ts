@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'In Blue Ash, a full rewire is rare. Census figures put the median year built at 1981, and the 1980s were the busiest building decade, so most calls are about a remodel, a basement being finished, an addition, or a single circuit that won’t behave. The exception is the 1960s and 1970s house that may have aluminum branch wiring, which deserves a test. We measure first, say plainly when your wiring is fine, and hand over a written scope and flat price before any drywall is cut.',
-  emergencyParagraph:
-    'Treat a jolt from a switch, a crackling or buzzing receptacle, or a smell of hot plastic in the walls as urgent and ring us the same day, weekends included. Kill that breaker only when the panel area is dry and you won’t brush anything hot. If smoke or flame appears, walk out and call 911.',
   commonIntro:
     'Even in houses from the 1970s and 1980s around Blue Ash, wiring can outgrow its job, and these are the usual giveaways:',
   localFaqs: [

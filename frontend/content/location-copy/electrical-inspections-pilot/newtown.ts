@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Newtown’s housing runs in two very different directions. Census figures put the median home at 1989, so a lot of houses here have grounded circuits and a panel with room to spare, and owners mostly call us ahead of a sale or an EV charger. Roughly one home in five predates 1940, and in those the old village wiring may never have been fully replaced. The visit ends with a written list of what we found and what each fix would cost.',
-  emergencyParagraph:
-    'Smoke curling from a receptacle, a light switch too warm to keep your hand on, a crackle inside the wall, or a breaker that snaps off again within seconds of resetting: kill that circuit at the panel and phone us. Fire or smoke means leave and ring 911 from outside. Newtown gets same-day help on most calls, weekends too.',
   commonIntro:
     'Our Newtown visits land in either a pre-war village house or a home built after 1980. The usual finds:',
   localFaqs: [

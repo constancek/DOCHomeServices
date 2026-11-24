@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'ev-chargers',
   serviceName: 'EV Charger Installation',
   localHeadingName: 'EV Charger Installation',
-  emergencyHeading: 'Urgent EV Charging Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'EV Charger Installation',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },

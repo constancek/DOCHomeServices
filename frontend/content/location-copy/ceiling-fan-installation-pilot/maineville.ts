@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Fan work in Maineville is mostly about newer houses. Census figures put the median home at 2004, and houses that new are likelier to have a great room with a vaulted ceiling, which needs a down rod, and a covered patio, which needs a weather-rated fan. Bedrooms were often finished with a plain light box rather than one rated for a fan, so we still check before we hang anything. If a wobble only needs rebalancing, we’ll say so, and the price is set before any fixture comes down.',
-  emergencyParagraph:
-    'A fan that swings on its down rod, sags from the ceiling or gives off smoke should be shut down at the wall or panel if that’s safe. A crackling or sparking switch counts too. Clear the room beneath it. If you see flames, get out and phone 911. Most calls in Maineville get a visit that day, weekends included.',
   commonIntro:
     'Vaulted great rooms, covered patios and bedrooms finished with a plain light box make up most fan calls in Maineville.',
   localFaqs: [

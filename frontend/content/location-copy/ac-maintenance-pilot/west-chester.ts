@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'West Chester is mostly subdivisions from the 1970s, 1980s and 1990s, and Census figures put the median house at 1988. After that many summers, plenty of homes are on their second or third condenser while the ducts and the copper line set are still the originals, so our spring check follows the whole run from the outdoor unit to the coil on the furnace. Condos and townhomes add cramped closet air handlers. The flat price comes first, and a system that needs nothing gets left alone.',
-  emergencyParagraph:
-    'A house that won’t cool on a sweltering day calls for a repair crew rather than a tune-up, and so does an indoor coil that has frosted over; switch it off until the ice is gone. Add water through a ceiling or a burning smell. Infants and asthmatics struggle first. Most get a same-day visit, weekends too.',
   commonIntro:
     'Across the subdivisions of West Chester, these are what usually prompt an owner to book a spring visit.',
   localFaqs: [
@@ -29,11 +27,11 @@ export const westChester: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in West Chester',
-        body: 'In West Chester, a spring visit covers the whole path the cool air takes. A loaded filter is swapped. The condenser coil is hosed from the inside out and mulch and clippings are raked away from its base. At the furnace we open up the evaporator coil, flush its drain and look for rust in the tray, which in a condo closet is what keeps water off the carpet. A short refrigerant charge means a leak, quoted separately and never topped off. The capacitor, contactor and wiring get tested, the blower and thermostat checked, and the house cools for a full cycle. Parts wait for your okay.',
+        body: 'In West Chester, we follow the cooling from one end to the other. The filter comes out if it’s loaded, and the condenser coil gets hosed, with mulch and clippings raked off its base. At the furnace, we open the evaporator coil, flush its drain and check the tray for rust, which in a condo closet keeps water off the carpet. We read the refrigerant pressure and look along the original copper line set for oily spots; a leak is quoted on its own, never topped off. We meter the capacitor, contactor and wiring, check the blower and thermostat and run a full cycle. Parts wait for your okay.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'In West Chester, a tune-up pays its way on a system with no service record, a house you just closed on, water near the furnace, a fresh buzz from the condenser, or an upstairs that cools worse than last year. It doesn’t if we checked it in the past year and nothing has changed. An AC blowing warm or icing up needs AC Repair, and one we’ve already condemned is better left while the money goes toward AC Installation & Replacement. Window units aren’t our work. Owners can change filters, trim landscaping back from the condenser and keep vents open. Yearly covers it.',
+        body: 'In West Chester, the visit earns its fee on a system with a blank service history, a house whose closing file had no AC paperwork, water by the furnace, a new buzz at the condenser, or an upstairs that has slipped since last summer. If our technician saw it last spring and nothing has changed, give it a pass. Warm air or ice means AC Repair, and a unit we’ve already called for replacement should have that money go into AC Installation & Replacement. We don’t do window units. Owners can change filters, pull landscaping back from the condenser and keep vents open, and once a year covers the rest.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in West Chester',
@@ -46,11 +44,11 @@ export const westChester: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does an AC tune-up cost in West Chester?',
-        a: 'The rate is flat and quoted first. Heat pump or straight central air, plus how easily we can get at the furnace and the condenser, decide it; a closet unit in a condo takes longer than an open basement. Any worn part is quoted on its own and waits on you.',
+        a: 'You get a flat rate before any work. What moves it is whether you have a heat pump or straight central air and how easy the furnace and condenser are to reach; a condo closet unit is slower going than an open basement. Worn parts are quoted one by one, and you decide.',
       },
       {
         q: 'How often does central air need servicing?',
-        a: 'Yearly, in spring, before the hot weeks start. Around Cincinnati the National Weather Service records about 21 days a year of 90F or hotter, and an unserviced system tends to quit on one of them. Heat pumps get a fall visit as well.',
+        a: 'Once a year, booked in spring before the hot weeks. About 21 days a year reach 90F or hotter in Cincinnati, per the National Weather Service, and those are the afternoons a neglected condenser picks to quit. A heat pump wants a fall visit too.',
       },
       {
         q: 'Which AC chores are safe to do myself?',

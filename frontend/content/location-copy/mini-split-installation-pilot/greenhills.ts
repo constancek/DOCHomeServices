@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'Greenhills was laid out by the federal government as a Greenbelt town in the 1930s, and Census figures put its median home at 1955, once postwar houses filled in around the first townhomes. Those original units have no basements, and some tuck their mechanicals into a crawl space, which leaves nowhere to snake a new duct. A head on an upstairs wall avoids the problem. With 34.2% of homes rented, owners decide there. Your price is fixed before drilling, and we’ll say if ductless is the wrong call.',
-  emergencyParagraph:
-    'July’s normal high of 86F (National Weather Service) sounds mild until you sleep upstairs in a townhome in Greenhills, where bedrooms trap the afternoon heat. Infants, older neighbors and anyone with lung or heart trouble feel it hardest. A single-room install usually takes a day. A mini-split that failed is Mini-Split Repair work, generally same day, weekends too.',
   commonIntro:
     'In the original row townhomes of Greenhills and the postwar houses around them, these are the usual starting points:',
   localFaqs: [

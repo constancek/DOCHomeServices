@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Around half the homes in Northbrook, in Colerain Township, date from the 1960s and 70s, and Census figures put the median at 1970. Houses of that era usually got a fan when built, and many still run the original. It was small to begin with, its motor is decades old, and the foil duct above it has often torn or slipped loose. We test what the fan is doing, then quote the fix before the ceiling is opened.',
-  emergencyParagraph:
-    'A fan smelling of scorched plastic, a housing that has browned or bent, sparks, smoke, a breaker that pops whenever the fan comes on, or water trickling out of the grille needs us today. Shut it off at the switch or panel if safe. For smoke or fire, get out and call 911. Weekend visits happen too.',
   commonIntro:
     'Off Colerain Avenue and Pippin Road in Northbrook, these four fan complaints are the ones we hear most:',
   localFaqs: [

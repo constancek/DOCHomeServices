@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'In St. Bernard, a fan job can mean a double, with the owner on one side and a tenant on the other. This village grew around P&G’s Ivorydale plant, and Census figures put its median house at 1955, with about one home in six in a two-unit building. Light boxes from that era were often set for a fixture, and plenty of rooms never had a fan. We look at the box first, say if a tightened mount or balanced blades will do, and quote before the fixture comes down.',
-  emergencyParagraph:
-    'If a fan is bucking on its bracket, the box is working out of the ceiling, the motor smells like hot wiring or the wall switch throws sparks, kill the power if you safely can and clear the room. With flames or smoke, get everybody outside and call 911. Same-day help covers most calls, weekends included.',
   commonIntro:
     'Doubles, older single houses and a handful of apartment buildings account for the fan work we do in St. Bernard.',
   localFaqs: [

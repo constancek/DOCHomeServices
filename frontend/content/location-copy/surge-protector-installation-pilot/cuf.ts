@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'Census figures count more than five rentals for every owner-occupied home in CUF, so if you’re a tenant near campus, a decent strip for the laptop and TV is likely the whole answer. Owners face a different job. The old blocks of Clifton Heights and Fairview are full of prewar two-families and walk-ups whose breaker boxes filled up long ago, which makes the first look inside the box the step that matters. The big 1970s buildings run through their managers. A firm price comes before any work.',
-  emergencyParagraph:
-    'Tell your landlord, then call us, if a breaker won’t stay reset or an outlet, switch or the panel has gone brown or smells hot. If lights all through the building surge bright then sag, that’s a Duke Energy Ohio call first. If there’s smoke or flame, get out and dial 911. Same-day visits are normal, weekends too.',
   commonIntro:
     'Owners of walk-ups and two-families in CUF tend to hear about these from tenants before anything else.',
   localFaqs: [

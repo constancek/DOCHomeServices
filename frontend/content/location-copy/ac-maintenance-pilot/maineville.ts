@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Few places we cover are as new as Maineville, so the spring visit is nearly always on equipment the builder put in. Census figures put the median year built at 2004, with 54.5% of homes from 2000 or later, mostly detached houses with a condenser on a concrete pad behind the deck and the air handler downstairs. Heat pumps are a common find, which means the cooling side is only half of what we look at. You see a flat price first, and a sound system is simply left alone.',
-  emergencyParagraph:
-    'A warm house with the system running nonstop needs a repair. When ice crusts the lines in summer, turn the thermostat off until it melts. Smell something burning, or watch a breaker trip a second time, and leave it off. Infants and older family handle heat worst. Most repairs are same day, weekends included.',
   commonIntro:
     'Most spring bookings we take come down to one of these in Maineville.',
   localFaqs: [

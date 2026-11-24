@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'The ceiling box, a grounding wire or its absence, and whether a light is new to that spot decide most fixture jobs in Addyston. The foundry-era cottages along Sekitan, Church and Second streets predate 1930 and usually have plaster overhead and a box sized for a bare bulb. Census counts put the village’s middle construction year at 1965, and apartments make up about a quarter of homes. Our electrician opens the box and reads its wiring, and you hold a set figure before one screw on the old light turns.',
-  emergencyParagraph:
-    'A globe drooping on its screws, a toggle plate that’s warm or humming, or a hot plastic smell near a fixture means that circuit goes off, provided reaching the breaker is safe. Nobody should stand beneath a loose light. If flames or smoke appear, go outside, then call 911. We arrive the same day for most calls, weekends too.',
   commonIntro:
     'Four requests come up again and again in the old pipe-works village of Addyston.',
   localFaqs: [

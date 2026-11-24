@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights sits inside the I-75 median, and in its old houses recessed lighting depends on the space hiding over each ceiling. Census figures date the median home to 1938, close to two in three were standing before 1940, and a bit more than half of households rent. Expect plaster and lath, upstairs rooms with a shallow pocket under the roof, and wiring laid out for one light per room. We measure that pocket, mark each can and fix the cost ahead of the first cut.',
-  emergencyParagraph:
-    'Darkened plaster in a ring around a can, a hot electrical smell, a trim that burns to the touch or water seeping through a fixture should not wait. Cut that circuit at the panel when you can do it safely. Smoke or flames mean get out and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Prewar houses and a handful of small rental buildings fill the village, and the recessed lighting work they send us falls into four kinds:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'In Hebron, most homes went up in the 1990s and 2000s, and the Census median is 2002. Builders put the AC in with the house, so the condenser usually sits on a pad out back and the indoor coil sits over the furnace in the basement or a utility room, which keeps the checkup simple. Age is the bigger issue, since many of those original systems have now run for a long stretch. We give you a flat price first, and if the AC needs nothing, you’ll hear that.',
-  emergencyParagraph:
-    'Cincinnati’s weather station sits at CVG, near Hebron, and the National Weather Service puts the July normal high there at 86F. An AC that gives out in that heat needs a repair rather than a tune-up, as does one with frosted lines; switch it off. Older relatives and babies struggle first. Most calls get same-day help, weekends included.',
   commonIntro:
     'In Hebron, a spring visit usually gets booked once a homeowner notices something like this.',
   localFaqs: [

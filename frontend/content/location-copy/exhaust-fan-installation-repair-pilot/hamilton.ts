@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hamilton: LocationServiceCopy = {
   localParagraph:
     'Hamilton’s housing skews old. Census figures put the median house at 1956, and 7,368 homes went up in 1939 or earlier, long before anyone expected a bathroom fan. When one was finally added, it was often aimed at the attic or stuffed into a wall cavity and left there. Renters occupy a big share of the city’s homes, so landlords place many of these calls. Expect us to trace the duct end to end and quote the fix before a ceiling gets cut.',
-  emergencyParagraph:
-    'A fan reeking of hot plastic, a charred housing, sparks, or a breaker tripping the instant it spins up means switching it off at the panel, if that’s safe. A brown stain spreading around the grille needs us soon too. Smoke or flames mean get clear and ring 911. Most calls see us arrive that day, weekends too.',
   commonIntro:
     'Across the older houses and postwar streets of Hamilton, four fan complaints top our call sheet.',
   localFaqs: [

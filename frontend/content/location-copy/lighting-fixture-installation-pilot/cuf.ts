@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'Light fixture work in CUF is mostly landlord work, since Census figures count more than eight in ten homes as rented. The old core of Fairview and western Clifton Heights is largely pre-1940, with plaster ceilings, shallow boxes and often no ground above the light. The bigger 1970s buildings have simpler ceilings but long, dim corridors. On each unit we open the box first, then put a price in writing before the old fixture is touched.',
-  emergencyParagraph:
-    'In CUF, a light dangling by its wires, a hot smell at a switch or bulbs dimming in several rooms means a same-day call. Where the panel is safe to reach, shut that circuit and keep tenants back. Smoke or flame means getting everyone onto the street and phoning 911. Most calls get us there that day, weekends too.',
   commonIntro:
     'We get jobs like these from landlords and owner-occupiers in CUF.',
   localFaqs: [

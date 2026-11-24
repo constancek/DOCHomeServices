@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'Madeira is a city of detached, owner-occupied houses, and the 1950s produced more of them than any other decade. Census figures show half went up before 1960. Panels from that era have usually picked up circuit after circuit over the years, so open slots can be scarce. Gas heat is the norm here, which helps, because it leaves more capacity than electric heat would. We start with a panel check and load calculation, mention it if the cord in the car is enough, and agree the price before we begin.',
-  emergencyParagraph:
-    'Unplug when a charger or outlet feels hot or has darkened around the prongs, when a burnt smell appears, or when the breaker drops each time you connect. Throw that breaker off only if the panel is safe to reach. Smoke or flame means everyone leaves the house before calling 911. We usually come that day, weekends included.',
   commonIntro:
     'With half the houses dating from before 1960, these are the charger calls that come up most in Madeira:',
   localFaqs: [

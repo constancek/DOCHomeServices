@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
     'Close to three in four homes in Sedamsville were built in 1939 or earlier, Census figures show, many of them small worker cottages on the hillside and along River Road. Wiring of that age may be knob-and-tube or cloth-covered with no ground, sometimes with later circuits tacked on. About two in three homes are rented, so the landlord usually books us. Testing comes first, and if the wiring is still sound you’ll hear it. Otherwise the scope and flat price are in writing before any wall opens.',
-  emergencyParagraph:
-    'When a wall smells of burning, a switch cover goes hot or brown, something buzzes or sparks, a fixture shocks someone, or a breaker won’t stay set, ring us that day. Renters should tell the landlord too. Kill that breaker only if you’re dry. With smoke, get everyone out and dial 911. Most calls are same day, weekends included.',
   commonIntro:
     'In the worker cottages and small apartment buildings of Sedamsville, these come up most:',
   localFaqs: [

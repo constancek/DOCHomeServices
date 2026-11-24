@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'In Carthage, an electrical inspection is mostly about finding what’s left of the original wiring. Census figures show 68.5% of homes here were built in 1939 or earlier, and nothing new has gone up since 2010, so cloth-covered wire, knob-and-tube runs and fuse boxes still turn up behind later updates. Doubles and small apartment buildings add shared panels to the mix. We go through the system circuit by circuit and quote the visit before we begin.',
-  emergencyParagraph:
-    'Carthage owners and tenants shouldn’t sit on these: plastic or rubber burning somewhere, a plate on an outlet or switch you can’t keep a hand on, buzzing, scorch marks, sparks, or a breaker that won’t survive a reset. Pull that breaker to off. Once there’s smoke or fire, leave and dial 911. Most get same-day help, weekends included.',
   commonIntro:
     'Carthage is mostly pre-1940 houses and two-families, with some larger buildings. Here’s what we find in them most often:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'In Madeira, most fall tune-ups look alike: a gas burner in the basement of a house put up in the 1950s. By Census figures 88.1% of homes heat with gas and 50.8% predate 1960, and owners live in nearly all of them. Most of those houses have swapped furnaces at least once, yet many still vent into the first chimney, so the flue connection gets as much time as burners and blower. The price is yours to approve first, and if it needs nothing, that’s what we’ll tell you.',
-  emergencyParagraph:
-    'Tune-ups don’t cover emergencies. A whiff of gas: out, no switches, no relighting, call the gas company from the yard. A carbon monoxide alarm: people out. A furnace that dies in a cold snap, flickers on and off, or shows a yellow flame needs a repair, quickly with a baby or older parent home. Most are same day, weekends included.',
   commonIntro:
     'Across the 1950s streets of Madeira, owners tend to book after one of these:',
   localFaqs: [

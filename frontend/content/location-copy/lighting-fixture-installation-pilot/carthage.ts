@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const carthage: LocationServiceCopy = {
   localParagraph:
     'Carthage was its own village until Cincinnati annexed it in 1911, and plenty of houses along the Vine Street corridor predate that. Census figures place about two-thirds of homes before 1940, so trading old glass globes for LED fixtures often turns up plaster, small round boxes and wiring with no ground. Doubles and some larger apartment buildings mix in with the single-family houses, and a little over two households in five rent. Our electrician looks inside each box first, then you agree a price before anything is unhooked.',
-  emergencyParagraph:
-    'A globe light sagging out of the plaster, a switch that smells hot, or flickering in several rooms at once calls for a visit today. Shut the breaker if that’s safe, and send people out from under the fixture. When there’s smoke or flame, leave the house and phone 911. Most calls in Carthage get a same-day visit, weekends included.',
   commonIntro:
     'Pre-war houses and doubles in Carthage keep bringing us four kinds of lighting work.',
   localFaqs: [

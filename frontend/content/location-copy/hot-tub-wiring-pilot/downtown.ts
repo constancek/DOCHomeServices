@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const downtown: LocationServiceCopy = {
   localParagraph:
     'Downtown Cincinnati is mostly apartments and condos, and Census figures count 3,453 of 4,821 units in buildings of fifty or more. Most homes are rented, so a spa here tends to mean a townhouse courtyard or a condo terrace. About two in five units went up in 1939 or earlier, and a panel in those buildings often has neither an open slot nor the spare capacity a spa breaker needs, so that is settled first. We hold the panel to the tub maker’s spec and quote before work.',
-  emergencyParagraph:
-    'In Downtown Cincinnati, some spa faults can’t wait. A GFCI or breaker that kicks off the second it’s reset, a scorched shutoff, a buzzing panel or a tingle in the water all qualify. Everyone should step out of the tub. Throw the breaker if that’s safe, and call 911 for smoke or flames. Most get a same-day visit.',
   commonIntro:
     'For the townhouses, condos and few houses with outdoor space in Downtown Cincinnati, these are the jobs that come up.',
   localFaqs: [

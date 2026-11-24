@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Norwood’s housing is far older than Hamilton County’s as a whole, and its wiring shows it. Census figures put 66.5% of the city’s homes at 1939 or earlier, against 25.4% countywide, and 26.5% of homes sit in two- to four-unit buildings. So a Norwood inspection often means fuse boxes, ungrounded outlets, cloth-covered wire and separate panels per unit that were updated at different times. We check the full system, give you a written report, and quote each repair before anything is done.',
-  emergencyParagraph:
-    'An inspection can wait a week; these can’t. A crackling or warm outlet, a scorched switch plate, a burning smell with no clear source, or a breaker that won’t reset without tripping straight away. Flip that breaker off and keep it off. If there’s smoke or fire, everybody out, then 911. Same-day service covers most Norwood calls, weekends as well.',
   commonIntro:
     'In Norwood’s two-families and pre-war single homes, the same problems come up again and again:',
   localFaqs: [

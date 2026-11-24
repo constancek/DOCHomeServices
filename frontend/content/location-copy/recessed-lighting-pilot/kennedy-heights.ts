@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'A long upstairs hallway lit by one frosted globe is where many recessed lighting jobs begin in Kennedy Heights. Nearly half the homes on the ridge date from 1939 or earlier, Census figures show, with a typical build year of 1944, so ceilings are often plaster and rooms were wired around one light. Roughly one home in eight is a two-family house on streets like Kennedy Avenue, where a ceiling may be the upstairs tenant’s floor. We look overhead, mark the layout and quote before cutting.',
-  emergencyParagraph:
-    'Phone us once the paint above a can turns the color of weak tea, a trim stings your fingertips, or bath water seeps out of a light under the tub. Throw the breaker if you can do that without risk, and leave for the porch and dial 911 at any smoke. Same-day help comes on most calls, weekends too.',
   commonIntro:
     'In Kennedy Heights, recessed lighting usually replaces the single fixture a room has had since the 1920s or 1940s.',
   localFaqs: [

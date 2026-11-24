@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greendale: LocationServiceCopy = {
   localParagraph:
     'Greendale is mostly a mid-century city, and that’s what its inspections look like. Census figures put the median year built at 1958, and over half the houses went up before 1960. Houses from that era often have a small panel, few circuits per room and outlets with no ground, and some have had kitchens and basements updated since. The City of Greendale Electric Department owns the meter and service; we start at the meter base and work through every circuit, then price fixes before anything starts.',
-  emergencyParagraph:
-    'You schedule a Greendale inspection, but some things jump the queue: a hot-plastic smell, a faceplate that’s warm or discolored, humming from an outlet, sparks, or a breaker that pops back off. Switch it off and keep it off. For smoke or fire, get the household out and phone 911. Most calls see us the same day, weekends included.',
   commonIntro:
     'Most Greendale houses date from the 1940s to the 1970s and have been updated piece by piece. The problems we find most:',
   localFaqs: [

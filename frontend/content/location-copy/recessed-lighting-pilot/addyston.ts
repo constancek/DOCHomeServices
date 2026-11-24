@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'Addyston’s old pipe-works cottages and its later apartment blocks need different recessed lights, and the deciding factor sits above the ceiling. By Census count the village’s middle house dates to 1965, though nearly three of every ten predate 1940, mostly small vernacular houses along Sekitan, Church and Second Streets with plaster overhead and one fixture per room. Renters fill about six in ten homes, so the owner signs off. Before a single saw touches plaster, we pencil each light’s spot and you approve the figure.',
-  emergencyParagraph:
-    'If paint has browned in a halo around a can, the trim burns your fingertips, you smell scorching insulation, or the light blinks off and on by itself, flip its breaker if the panel is safe to reach. Smoke or flame means everybody outside and 911 dialed. We get to most of these the same day, weekends too.',
   commonIntro:
     'From pre-1930 company houses to the apartment buildings that came later, four requests keep coming up in Addyston:',
   localFaqs: [

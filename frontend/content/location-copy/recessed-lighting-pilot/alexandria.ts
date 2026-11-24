@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Out on the rolling ground of central Campbell County, Alexandria’s houses are young enough that recessed lights rarely fight old plaster; the harder part is placing them well. Census numbers set the median build at 1994, with over a third finished after 1999 and nearly every home detached and owner-lived. Picture drywall overhead, deep attic insulation, open kitchens flowing into family rooms, and basements finished long after closing day. Each can gets a pencil mark and the job gets a price, both settled before drilling starts.',
-  emergencyParagraph:
-    'A recessed light that gives off a hot, plasticky smell, leaves a tan stain on the drywall, drips water, or has a trim you can’t hold a palm against needs attention today. Shut its breaker off if reaching the panel is safe. If you see smoke or flame, leave and phone 911. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Owner-occupied houses from the 1980s onward make up most of Alexandria, and they tend to ask for these four things:',
   localFaqs: [

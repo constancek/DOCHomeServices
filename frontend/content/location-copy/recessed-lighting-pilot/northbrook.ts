@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'In Northbrook, new cans most often replace the single weak fixture in a bedroom hallway or the flush dome stuck in the middle of a family room. Census figures place the median home at 1970, and about half were built during the 1960s and 1970s, so most detached houses have an attic over the top floor and a lower level that may be mid-finish. Condos and apartment buildings make up a real slice as well. We peek above the ceiling, chalk positions and set a price before cutting.',
-  emergencyParagraph:
-    'A recessed light that smells like melting plastic, leaves a rust-colored ring on the drywall, gets too hot to touch, or keeps dropping out and coming back needs help now. Turn off the breaker if that’s safe. With smoke or fire, get out and call 911. We come same day on most calls, weekends included.',
   commonIntro:
     'Around Colerain Avenue and Pippin Road, these are the recessed lighting jobs we do most in Northbrook.',
   localFaqs: [

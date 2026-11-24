@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evanston: LocationServiceCopy = {
   localParagraph:
     'Between Xavier and Dana Avenue, heavy fixtures on plaster ceilings are a steady part of our lighting work. Whatever box sits above the old canopy, whether a ground ever reached it, and whether the room already had a light shape the job. Evanston was annexed in 1903, and Census counts show 2,269 of its 3,198 homes predate 1940, so plaster, undersized boxes and two-wire cable are the rule. Two-families on narrow lots are common. We look inside before anything comes off and put the price in writing.',
-  emergencyParagraph:
-    'Call us at once for a fixture working loose from old plaster, browned marks around a switch, or lights flickering through several rooms. Throw that breaker only if the panel is safe to reach, and let nobody linger underneath. Smoke or flame sends everyone outdoors to dial 911. We get to most calls that day, Saturdays and Sundays as well.',
   commonIntro:
     'From Hewitt Avenue to the streets off Brewster, our lighting work in Evanston keeps returning to four jobs.',
   localFaqs: [

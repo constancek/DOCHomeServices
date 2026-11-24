@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Postwar houses built between 1940 and 1959 make up about half the stock in North College Hill, and Census figures put the median at 1952. They were wired for a range, a refrigerator and some lamps, so a modern kitchen and window units can swamp their few circuits. The quarter built before 1940 may carry knob-and-tube or cloth wire with no ground. We put a meter on it first, tell you straight when it’s fine, and write out the scope and fixed price before a wall comes open.',
-  emergencyParagraph:
-    'Book us that day for a receptacle giving off a burnt odor, a switch plate that’s blackened or too warm, any sparking, or a breaker that snaps off the moment it goes back on. Only shut that circuit off if your hands and the floor are dry. Smoke or fire means leaving and phoning 911. We come weekends too.',
   commonIntro:
     'Along the postwar blocks off Galbraith Road, these are the signs that usually lead to a wiring check in North College Hill:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'In Amelia, ceiling fan work splits two ways. The median house went up in 1995, per Census figures, and the subdivisions since then bring vaulted living rooms that want a down rod and back patios that want a weather-rated fan. A quarter of homes are in apartment buildings, where the manager decides on any fan. Either way we start at the ceiling box, mention it when a snugged mount will stop the sway, and quote before the old light leaves the ceiling.',
-  emergencyParagraph:
-    'A lurching fan, a canopy dropping from the ceiling, sparks at the wall plate, or a breaker that trips as the blades start can’t wait. Kill the power at the switch or panel if that’s safe, and keep kids clear underneath. Smoke or flame means everyone outside and a 911 call. Most visits are same day, weekends included.',
   commonIntro:
     'Two kinds of buildings, the newer subdivision house and the apartment complex, account for nearly all of these four fan complaints we hear from Amelia.',
   localFaqs: [

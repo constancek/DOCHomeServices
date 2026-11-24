@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Amelia is young housing. The median home dates from 1995 in Census figures, with 43.1% built since 2000, so most tune-ups here are a builder’s furnace or air handler, in a closet, garage or basement, that nobody has opened. That visit is filter, blower, burner and safety controls, no chimney hunt. A quarter of homes sit in larger buildings and nearly four in ten are rented, so landlords book plenty. Electricity leads gas for heat. Price is fixed first, and we’ll say if nothing is needed.',
-  emergencyParagraph:
-    'These go to repair. Gas smell: everyone out, hands off switches, no relighting; ring the gas company from a neighbor’s yard. Carbon monoxide alarm: out first. A furnace dead in a freeze, nonstop on-off cycling, or a wavering yellow flame. A baby, elderly relative or sick family member raises the urgency. Most are same day, weekends included.',
   commonIntro:
     'Between the subdivisions and the apartment complexes, tune-up calls in Amelia tend to begin with one of these:',
   localFaqs: [

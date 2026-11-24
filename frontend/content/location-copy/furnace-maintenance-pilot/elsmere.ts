@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'Elsmere has some of everything, and the tune-up changes with the house. Census figures show 13.2% of homes from 1939 or earlier and 19.6% from 2000 on. A furnace in one of the old basements often shares a masonry chimney with the water heater, so draft, flue joints and heat exchanger take longer. Newer houses are a quicker read on blower, burner and controls. Plenty of homes are rented, and there the landlord books. You see the price before we begin, and a furnace that’s fine is reported as fine.',
-  emergencyParagraph:
-    'Gas odor: out, hands off switches and the furnace, the gas company by phone from the curb. Carbon monoxide alarm: everybody out. A furnace that won’t warm the house in bitter cold, one that keeps shutting itself off, a flame wavering yellow: repair. Young kids, grandparents and anyone sick suffer first. Same day on most calls, weekends included.',
   commonIntro:
     'In Elsmere, landlords and owners most often call about a tune-up after one of these:',
   localFaqs: [

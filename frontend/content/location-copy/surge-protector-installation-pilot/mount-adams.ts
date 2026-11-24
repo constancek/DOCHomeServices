@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAdams: LocationServiceCopy = {
   localParagraph:
     'On the hill in Mount Adams, the panel sets the terms for any surge device. Half the housing went up in 1939 or earlier, Census figures show, and doubles and small apartment buildings outnumber detached houses. A box from that era is often cramped or out of slots, so we find where a protector could mount before talking price. Two in three homes are rented. If a strip behind the TV covers what matters, we’ll say it, and any quote comes as a fixed number before we start.',
-  emergencyParagraph:
-    'A switch plate gone brown, a hot plastic smell after a storm, or a breaker that flips off the moment you push it up should not sit overnight. Kill that circuit if the panel is dry and easy to reach. Smoke or flame means walking everyone outside, then phoning 911. Most calls get a visit that same day, weekends too.',
   commonIntro:
     'Up and down the hill in Mount Adams, these are what tend to send building owners and tenants our way.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'In New Richmond, the job hinges on which ceiling you’ve got and what lies on top of it. Census figures place the middle house at 1986, and roughly one in three dates from 2000 onward, so many kitchens flow into family rooms beneath sheetrock that saws cleanly, with an attic hatch upstairs. Older places near Front Street can still carry plaster and a lone fixture centered in each room. We tape or pencil each can location overhead and lock the price with you before anybody cuts.',
-  emergencyParagraph:
-    'Phone us right away about a scorched odor near a can, a tan ring on the sheetrock or a trim too hot for fingertips. So does river water seeping through a fixture. Shut it off at the breaker when that’s safe. Smoke or flame means everyone out and 911. We’re out same day on most calls, weekends included.',
   commonIntro:
     'Kitchens in post-2000 subdivisions, lower levels getting finished and a scattering of riverfront houses fill most of our schedule in New Richmond.',
   localFaqs: [

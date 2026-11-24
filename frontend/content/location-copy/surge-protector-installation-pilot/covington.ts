@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Of 21,048 homes in Covington, 9,268 date from 1939 or earlier by Census figures, and close to half of households rent. A breaker box in a house that age has usually been swapped or extended at least once and may be tiny or jammed, so whether a protector fits, and where, depends on what we find inside. Tenants in rowhouse flats and apartments often do better with plug-in strips. The box gets opened first, we tell you when strips are enough, and the price is set before work begins.',
-  emergencyParagraph:
-    'After a surge in Covington, a hot smell, a browned outlet or a warm breaker box means call us, and so does a breaker you’ve reset twice that won’t hold. If every light surges and fades together, Duke Energy Kentucky comes first. If there’s smoke, leave and dial 911. Same-day visits cover most calls, Saturdays and Sundays included.',
   commonIntro:
     'In older rowhouses, two-families and apartments from MainStrasse to Licking Riverside, these are the signs we hear about most in Covington.',
   localFaqs: [

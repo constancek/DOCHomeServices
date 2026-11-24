@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lowerPriceHill: LocationServiceCopy = {
   localParagraph:
     'Lower Price Hill is a neighborhood of renters in old buildings, so most of our air work here is for landlords. Census figures show about four in five homes are rented, the median building dates to 1938, and two-family houses and small apartment blocks are common. Old foundations let damp in, and aging duct runs push dust between rooms. A tenant can’t choose the building’s equipment, so we test for the owner, quote each fix before work starts, and say so when new filters are enough.',
-  emergencyParagraph:
-    'Should a carbon monoxide alarm go off, everyone gets out and calls 911 from the street. Smell gas, and you leave without touching switches and call the gas company outside. A burning smell from the heat means the thermostat goes to off. Spreading mold after water damage hits small children hardest. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Owners usually hear about bad air from tenants first, and in Lower Price Hill, the reports tend to be these.',
   localFaqs: [

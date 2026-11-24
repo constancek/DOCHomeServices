@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Nearly every AC we service in Amberley sits in a single-family house built in the 1950s or 1960s; Census figures put the median home at 1959. Most of those houses got their cooling as an add-on, so the coil usually rides on top of a basement furnace and the ducts were laid out with heating in mind. That’s why we pay close attention to airflow at the far rooms. You’ll know the flat price before any work, and if the system is healthy, we say so plainly.',
-  emergencyParagraph:
-    'When the outdoor unit hums and its fan stays still, or ice is building on the indoor coil, it’s past maintenance. Turn the system off at the thermostat and call for a repair. During a hot spell, older relatives and anyone ill are the ones to watch. We usually come the same day, including weekends.',
   commonIntro:
     'Homeowners tend to book a spring AC visit when one of these turns up in Amberley.',
   localFaqs: [

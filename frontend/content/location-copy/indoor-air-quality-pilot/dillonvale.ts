@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale was laid out as a subdivision from the 1940s on, and Census figures put the median house at 1956. In houses of that vintage, original sheet-metal ducts tend to draw dust up from the basement and scatter it room to room, and the basement usually sets the humidity upstairs. More than four in five homes here heat with gas, so the air stays dry for months. A test comes first, the flat price comes before any work, and if a new filter will fix it, we say so.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means the household gets out before anyone phones 911. With gas in the air, walk outside with the switches untouched and ring the gas company. Shut the furnace off at the thermostat if it smells scorched. Spreading mold after a leak hits infants, grandparents and asthmatics hardest. We’re there that day on most calls, weekends too.',
   commonIntro:
     'In the 1940s and 1950s houses of Dillonvale, these are the usual complaints:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
     'Spring Grove Village is old housing, mostly. Census figures date the middle house to 1938 and put 53.5% of them on their lots by 1939, which means plaster on lath, a cramped attic and nowhere to hide a duct. A wall-mounted ductless head needs one small opening to the outside, not a trench through that plaster. Rentals make up 40.1% of homes, so on many streets the owner decides for the tenant. Expect a price before we touch a wall, and a straight answer if ductless won’t serve the house.',
-  emergencyParagraph:
-    'In Spring Grove Village, a back bedroom holds heat overnight, and July’s normal high runs 86F, per the National Weather Service. Elderly parents, newborns and anyone sick handle it worst. Ductless installs go on the schedule fast, with one head typically taking a day. Mini-Split Repair handles a unit that already quit, same day on most calls, weekends included.',
   commonIntro:
     'In Spring Grove Village, most ductless calls come down to one of these, nearly always in a pre-war house:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kenwood: LocationServiceCopy = {
   localParagraph:
     'In Kenwood, the median home was built in 1967, Census figures show, and nearly half went up in the 1960s and 1970s. Original ductwork from that era often has loose joints that pull in attic or crawl space dust, and some basements from the period run damp. Close to a quarter of homes sit in condo or apartment buildings, so an association or owner may decide on equipment. We read the air first, price work before it starts, and tell you if a filter swap covers it.',
-  emergencyParagraph:
-    'A carbon monoxide alarm outranks everything; get people out, then call 911. If you smell gas, leave without touching switches and phone the gas company. If the furnace or AC smells of burning, turn the thermostat off. Spreading mold after a leak is urgent with babies, elderly parents or asthma. Most calls get us out same day, weekends included.',
   commonIntro:
     'In Kenwood, the air complaints that get people to call usually start with one of these.',
   localFaqs: [

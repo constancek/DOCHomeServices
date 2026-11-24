@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
     'Cherry Grove is a neighborhood of owner-occupied houses from one era, and that keeps spring AC work here predictable. Census figures show 78.1% of homes went up between 1960 and 1979, and nearly all are single-family. Ductwork in houses of that age usually runs from a basement or utility-room air handler, and the condenser sits out back or along the side with space to kneel beside it. You get the flat price first, and if the AC is fine, we leave it at that.',
-  emergencyParagraph:
-    'A tune-up is the wrong booking when the house stops cooling during a heat wave; ask for a repair. Frost on the lines or coil means switching the thermostat off. Smell something burning, or see a breaker trip again, and the system should stay off. Grandparents and infants struggle first. We come same day on most calls, weekends included.',
   commonIntro:
     'Owners of 1960s and 1970s houses tend to ring us once one of these shows up in Cherry Grove:',
   localFaqs: [

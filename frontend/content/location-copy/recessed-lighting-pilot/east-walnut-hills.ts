@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'Around DeSales Corner, recessed lighting usually means retiring a heavy old fixture for a clean ceiling, and whether you own a house or a condo shapes everything after. Census figures put about half the homes at 1939 or earlier, often big plaster-ceilinged houses with tall rooms. Plenty of others sit inside large condo and apartment buildings from mid-century onward, where your ceiling may also be a neighbor’s floor. We open nothing until we know what is overhead, and the figure is agreed beforehand.',
-  emergencyParagraph:
-    'A trim too hot for a fingertip, a can blinking off and back on, or a wall switch humming warm need us that same day, as does water seeping through a can from upstairs. Kill that run at the panel if getting there is safe, and leave and phone 911 at any sign of smoke or flame. Weekends included.',
   commonIntro:
     'Tall-ceilinged houses off Woodburn Avenue and condos along Madison Road call us for different reasons. Here are four regulars.',
   localFaqs: [

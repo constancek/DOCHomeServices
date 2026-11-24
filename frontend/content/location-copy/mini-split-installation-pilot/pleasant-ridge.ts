@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'More than half the homes in Pleasant Ridge, 53.8% by Census figures, date from 1939 or earlier, and two-families and small apartment buildings sit among the single houses along Montgomery Road and Ridge Avenue. Prewar houses weren’t built with ducts for cooling, and plaster makes adding them messy. A mini-split cools those rooms through a small opening in an outside wall. With 45% of homes rented, owners make that choice. You get a flat number before work, and if ductless won’t fix it, we say so.',
-  emergencyParagraph:
-    'Second floors in Pleasant Ridge can stay hot overnight on the roughly 21 days an average year brings at 90F or above (National Weather Service). It hits older parents, babies and anyone ill hardest. We line up installs quickly, and one head usually takes a day. A mini-split that quit needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Among the prewar houses and two-families of Pleasant Ridge, most ductless requests begin with one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'More than nine in ten homes in Corryville are rented, Census figures show, many of them in buildings of 50 or more units. For most tenants, that points to strips on the TV, computer and console, with panel work left to the owner or manager. A third of the housing predates 1940, and owners of those older houses often find small or crowded breaker boxes, so opening the box decides where a unit can go. We say when strips are enough and price the job up front.',
-  emergencyParagraph:
-    'If you smell burning at an outlet or see a scorched switch after a surge in Corryville, or a breaker keeps tripping right after a reset, tell the manager, and call us if you own the building. If there’s smoke, get out and call 911. Owners get a same-day visit on most calls, weekends included.',
   commonIntro:
     'With large newer apartment buildings beside older houses near the university, these are the signs owners and tenants bring to us in Corryville.',
   localFaqs: [

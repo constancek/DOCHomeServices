@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'Most fan work in Loveland is up on the hills above the Little Miami, where Census figures put the typical house at 1985. Houses from that era often have a great room open to the upstairs landing, so the fan hangs from a down rod, and a back deck that wants a weather-rated model. The few pre-war houses near downtown usually hide a shallow box we won’t trust with a fan. We open it before quoting, tell you if snugging the bracket cures a wobble, and settle the price beforehand.',
-  emergencyParagraph:
-    'A great-room fan shaking hard enough to crack ceiling paint needs us, as do a sagging box, motor smoke, crackling behind a switch plate or a breaker that drops as the blades spin up. Shut it off if safe and keep everyone clear. If flames show, leave and phone 911. Most calls in Loveland get a same-day visit, weekends included.',
   commonIntro:
     'Across Loveland, the calls we get split between great rooms on the hills, decks out back and a scattering of pre-war houses by the river.',
   localFaqs: [

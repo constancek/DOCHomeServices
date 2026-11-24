@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Almost every home in Delhi Hills is a detached house, and Census figures put the median at 1971, with the 1960s and 1970s the busiest building decades. Duct runs from that period have had decades to gather grime, and lower levels often run clammy in summer. Heat here is split nearly evenly between gas and electric, and either one dries the air come winter. We start by measuring, set a firm price before we start work, and if a fresh filter is the only need, we’ll say so.',
-  emergencyParagraph:
-    'With a carbon monoxide alarm going, the household heads out before anyone dials 911. On smelling gas, leave the switches be and ring the gas company from the lawn. Set the thermostat to off if it smells like burning. Mold spreading after a leak is urgent around babies, grandparents and asthmatics. We reach most calls that day, weekends included.',
   commonIntro:
     'Across Delhi Hills, owners bring up these problems more than any others:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westChester: LocationServiceCopy = {
   localParagraph:
     'In West Chester, a fan call usually starts in a subdivision house from the 1970s, 80s or 90s, since Census figures put close to two thirds of the township’s homes in those decades, with 1988 as the median. Plans from those years brought vaulted family rooms that need a down rod and decks or patios that need a weather-rated fan. Many original fans are tired now. We inspect the ceiling box first, tell you when tightening or rebalancing fixes it, and lock the price before the old fan comes down.',
-  emergencyParagraph:
-    'A fan that sways badly or separates from the ceiling, a motor giving off smoke, or a switch that buzzes needs a same-day call. Shut it off at the wall or breaker when safe, and keep family away from the space underneath. Fire means getting outdoors and calling 911. Most calls get same-day service, weekends included.',
   commonIntro:
     'Across the subdivisions and townhome rows of West Chester, these four fan problems show up again and again.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'In Walton, the tune-up depends on which side of town the house is on. By Census figures, more than half the homes were built since 2000, and those are a quick coil, filter, drain and wiring job. About one in five are older than 1960, many in the old part of town, and in those the AC was fitted after the fact, with skinny ducts and a condenser jammed against the siding. Either way you agree the price first, and if your AC needs nothing, we say so plainly.',
-  emergencyParagraph:
-    'A dead AC during a heat wave in Walton needs a repair visit, not maintenance. So does ice on the copper lines (switch it off and let it thaw), water spreading from the indoor unit, or a burning smell. Babies, older family and anyone ill feel heat soonest. Most calls get a visit that same day, Saturdays and Sundays included.',
   commonIntro:
     'These are the usual reasons homeowners in Walton, in new subdivisions and the old town alike, book a spring tune-up.',
   localFaqs: [

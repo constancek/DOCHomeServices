@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Pulling down tired dome fixtures and setting flush downlights in their place is what building owners along Harrison Pike usually want from us in Miamitown. Census figures show roughly four of every five homes are rented, most inside complexes of five units or more, and the median building went up in 1973. Ceilings separating stacked apartments may carry a fire rating, and the handful of older river houses off Route 128 hide plaster. We check overhead, mark positions and settle a price before cutting.',
-  emergencyParagraph:
-    'Treat a downlight that reeks of hot plastic, a scorched halo on the ceiling, a fixture blinking off and on by itself or water dribbling from a trim as an emergency. Renters, alert your landlord right away. Flip that breaker only when reaching it is safe; with smoke, dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'West of the Great Miami, landlords and complex managers bring us nearly all our recessed lighting work in Miamitown, plus a few owner-occupied houses.',
   localFaqs: [

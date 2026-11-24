@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'In Milford, homes split roughly in half between owners and renters, so AC maintenance here comes in two forms. Owners mostly live in houses from the 1950s through the 1970s, where central air was often retrofitted, the air handler squeezed into a basement corner and the ducts smaller than ideal. Renters, many in larger apartment buildings, report problems and let the landlord book. Either way, the price is settled before the work begins, and if the system is fine, we’ll say so.',
-  emergencyParagraph:
-    'Cooling that has quit is past what a tune-up can fix, so book AC Repair. Do the same for ice on the copper, water creeping from the air handler, or a condenser that drones without its fan turning. Click the thermostat off. Babies, grandparents and anyone sick handle heat worst. Most calls are same day, weekends included.',
   commonIntro:
     'These are the signs we hear about from houses and apartments in Milford when the AC is due:',
   localFaqs: [

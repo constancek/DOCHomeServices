@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const addyston: LocationServiceCopy = {
   localParagraph:
     'In Addyston, the ceiling box decides most fan jobs. The village was built as a company town for a pipe works, and the small houses along Main and Church usually came with plaster overhead and a shallow box sized for a lamp, not a motor that turns. Roughly three of every five homes are rentals, per Census figures. We look in the box first, point out when a snugged mount or rebalanced blades will cure the wobble, and agree on a price while the old light is still up.',
-  emergencyParagraph:
-    'A fan swaying hard enough to tug its box loose is a same-day call, weekends included, and so is smoke drifting from the motor housing or a breaker that drops as the blades start. Shut it off at the switch or panel if you safely can, then clear the room below. With fire or heavy smoke, leave and dial 911.',
   commonIntro:
     'In the old company houses and the apartment buildings of Addyston, these four complaints come up again and again.',
   localFaqs: [

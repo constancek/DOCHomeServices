@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'In Bethel, the call for a spring AC check usually comes from whoever owns the building, since Census figures count 51.7% of homes in the village as rented. Plenty of those are flats in buildings of three or more units. The older houses predate central air; cooling was retrofitted later, so the blower cabinet tends to be up in an attic or wedged beside the basement stairs. Before a tool comes out, you have a flat figure, and a system in good order gets told as much.',
-  emergencyParagraph:
-    'Ask for a repair, not a tune-up, when a flat goes hot during a heat wave. Frost on the lines means setting the thermostat to off and letting it melt. Water staining a ceiling, or a breaker that pops again, means leaving the system dead. Babies and older people suffer first. We usually arrive the same day, weekends too.',
   commonIntro:
     'Building owners and householders around Bethel tend to phone after spotting one of these:',
   localFaqs: [

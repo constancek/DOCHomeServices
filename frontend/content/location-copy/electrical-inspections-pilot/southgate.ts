@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Southgate inspections split two ways. Census figures show 28.9% of homes built in 1939 or earlier and 31.3% in the 1980s and 1990s, with 41.0% in buildings of five units or more. In the pre-war houses we look for cloth-covered wiring, ungrounded outlets and panels too small for central air. In the newer apartments and condos, it is usually missing GFCI protection or a panel that can’t take another load. We check everything, write it down and price repairs before we start.',
-  emergencyParagraph:
-    'Some Southgate calls shouldn’t wait for a booked inspection: a switch or outlet that is hot or buzzing, sparks, a burning smell, or a breaker that pops again the second you reset it. Leave that one off. Smoke or flames: leave the building and phone 911 from outside. Most calls get a visit that day, Saturdays and Sundays too.',
   commonIntro:
     'Southgate is an even mix of pre-war houses, newer apartments and condos, and plenty of rentals. These are the findings we see most:',
   localFaqs: [

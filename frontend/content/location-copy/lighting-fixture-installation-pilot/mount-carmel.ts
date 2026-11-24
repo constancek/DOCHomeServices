@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountCarmel: LocationServiceCopy = {
   localParagraph:
     'Island pendants top the request list in Mount Carmel, and whether they’re simple depends on the ceiling box, a ground in that box and whether wiring ever reached the island. Of the 2,262 homes Census counts in this corner of Union Township, the median dates to 1973 and roughly six in ten went up between 1940 and 1979, about four in ten rented. Those kitchens usually have one center light and reusable grounded boxes. Once we see the ceiling, you get the figure before anything comes apart.',
-  emergencyParagraph:
-    'Stop using a light whose canopy has pulled loose, or a switch plate that hums or feels warm. If the panel is safe to open, shut that breaker, and move people out from below the fixture. With smoke or flames, leave and dial 911 outside. Our crews reach most Union Township calls the same day, Saturday and Sunday included.',
   commonIntro:
     'Most of the light fixture jobs we do in Mount Carmel are one of these.',
   localFaqs: [

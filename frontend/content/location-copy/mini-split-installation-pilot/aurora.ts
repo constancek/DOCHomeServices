@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Aurora was platted in 1819, and Census figures show 38.8% of its homes built in 1939 or earlier, plus 21.9% in two- to four-unit buildings. That adds up to plenty of plaster, shallow attics and divided houses where running ducts would mean tearing walls open. A ductless wall unit avoids all that, reaching its condenser through one modest opening. Renters fill about a third of homes, and those decisions rest with owners. We fix our figure before drilling, and we’ll say so if ductless is the wrong answer.',
-  emergencyParagraph:
-    'July’s normal high is 86F, says the National Weather Service, and an attic bedroom under old roofing runs hotter. Grandparents, infants and anyone with breathing trouble face the most danger. Installs get booked quickly; one wall unit usually wraps in a day, multi-zone longer. A broken ductless system goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'From Second Street and the riverfront blocks up to houses built after the war, these are the ductless requests we hear most in Aurora:',
   localFaqs: [

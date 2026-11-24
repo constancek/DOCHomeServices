@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'Elmwood Place is a small, tightly built village, and Census figures show about six in ten went up before 1940, with roughly the same share rented. Houses that old let street dust in around the sashes, hold dampness in the cellar and push it through old ductwork. Renters bring the complaint to the landlord, who picks the equipment. Our technician takes readings first, the owner sees a flat price before anything is mounted, and we say so when a filter swap settles it.',
-  emergencyParagraph:
-    'Clear the house before calling 911 if a carbon monoxide alarm goes off. If you smell gas, walk out without touching a switch and ring the gas company. A burning odor means turning the system off at the thermostat. Mold spreading after floodwater is urgent for toddlers, great-grandparents and asthmatics. Same-day service on most calls, weekends too.',
   commonIntro:
     'In the old houses and rentals along Vine Street and the side streets off it, these four problems come up most.',
   localFaqs: [

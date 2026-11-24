@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Surge protection in Blue Ash is mostly about the equipment, not the age of the wiring. The Census gives a median year built of 1981, with more homes from the 1980s than any other decade, and houses that young usually carry central air, a later furnace, smart thermostats and kitchens run by circuit boards. Around a quarter of homes sit in larger apartment and condo buildings, where management decides. We still start inside the panel, say when outlet strips are plenty, and settle the price before anyone begins.',
-  emergencyParagraph:
-    'A panel or outlet that feels hot or smells scorched, a breaker that refuses to hold, or an oven that smoked when power came back needs a visit, usually that day, weekends included. Flaring lights house-wide go to the electric utility first. Shut the circuit only at a dry, cool panel; fire or smoke means going outside to call 911.',
   commonIntro:
     'Houses from the 1970s and 1980s, and the condos between them, tend to show surge trouble in a familiar way in Blue Ash.',
   localFaqs: [

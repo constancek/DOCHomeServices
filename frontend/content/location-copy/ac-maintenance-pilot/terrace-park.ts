@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'In Terrace Park, nearly every AC tune-up happens in a single-family house. Census figures show 99.0% of homes are detached, and the median one was built in 1954, so central air usually came after the house did. Expect an air handler sharing the basement with the furnace, ducts routed wherever they fit, and the condenser on whichever side had room. A flat price comes first, and if yours is in good shape, we say so and leave.',
-  emergencyParagraph:
-    'An AC that loses ground on a scorching afternoon needs a repair visit. With ice on the lines, turn it off and wait. Water through a ceiling or a breaker that keeps tripping means leave it off. Older relatives, babies and the ill struggle first. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'In Terrace Park, a spring call usually follows one of these.',
   localFaqs: [

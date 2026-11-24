@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const overTheRhine: LocationServiceCopy = {
   localParagraph:
     'In Over-the-Rhine, the person deciding on a ceiling fan is usually whoever owns the building. Census figures count 2,340 of the 3,343 occupied homes as rented, and most units date to 1939 or earlier, with plaster overhead and light boxes no one sized for a spinning load. Tall front rooms in the old walk-ups often need a down rod. Tenants run any fan past the landlord. Owners get the box checked, a plain answer if tightening is the fix, and a price before the old fixture comes down.',
-  emergencyParagraph:
-    'A fan swinging enough to pry its canopy off the plaster must stop now, as must one smelling of hot plastic or tripping the breaker. Kill it at the switch if safe, and clear the room beneath the blades. Smoke or flame calls for 911 from the sidewalk. Most of these get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Owners of older multi-unit buildings call us about these four fan problems more than any others in Over-the-Rhine.',
   localFaqs: [

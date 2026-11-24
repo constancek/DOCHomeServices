@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'Nearly nine in ten homes in the West End are rented, Census figures show, and plenty are rowhouses or date from 1939 or earlier. Where an owner has a courtyard or rear yard, a hot tub takes its own 240-volt run with GFCI protection, a kill switch visible from the tub yet beyond its reach, and bonded metal. Panels in these older buildings often lack room to spare, so that’s settled first. The owner sees a price built from the panel and the tub’s spec before conduit is fastened.',
-  emergencyParagraph:
-    'In the West End, call us when a tub trips its GFCI on reset, smells of hot plastic at the switch, sets the panel buzzing, or makes the water feel prickly. Climb out and touch nothing metal. Throw the breaker only if it’s safe; with smoke, get out and call 911. Same day is normal, weekends too.',
   commonIntro:
     'Around Betts-Longworth, Dayton Street and the blocks near TQL Stadium, these four questions come up most from owners in the West End:',
   localFaqs: [

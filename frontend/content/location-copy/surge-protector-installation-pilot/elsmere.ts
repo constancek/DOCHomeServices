@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elsmere: LocationServiceCopy = {
   localParagraph:
     'In Elsmere, the housing covers most of the last century. Census figures put the median at 1970, with about one in five homes built since 2000 and 344 mobile homes counted. The older houses tend toward small or full panels, while the newer ones are where you find heat pumps, central air and appliances run by circuit boards. Whatever you live in, we check the panel first, tell you when good strips are enough, and give the price before any work.',
-  emergencyParagraph:
-    'A burning odor from an outlet or the panel, or an appliance that sparked as the power returned, is not something to sit on. Leave that circuit off at the panel if reaching it is safe. If anything is smoking, walk out and call 911 once you’re clear. We get to most of these the same day, weekends included.',
   commonIntro:
     'From older streets near Dixie Highway to newer homes and mobile homes, these are the signs we see in Elsmere.',
   localFaqs: [

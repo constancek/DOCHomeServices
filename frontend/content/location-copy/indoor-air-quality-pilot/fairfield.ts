@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'Most of Fairfield was built in the 1960s and 70s, with a median year of 1978 by Census figures, and about a quarter of homes sit in apartment buildings. Houses from that era hold air better than prewar ones, so cooking and cleaning fumes linger, and ventilation is often the fix. In an apartment, the owner decides on equipment. Low streets near Pleasant Run and the Great Miami River can keep basements damp. We test first, price it flat, and say so if a new filter will do.',
-  emergencyParagraph:
-    'For a carbon monoxide alarm, clear the house, then dial 911. If there’s a gas smell, get out without touching switches and call Duke Energy. A furnace or AC that smells hot goes off at the thermostat. Spreading mold after water damage is worst for infants, elderly parents and anyone with asthma. Most calls are same day, weekends too.',
   commonIntro:
     'Across the 1970s subdivisions and the apartment complexes off the main roads, these are the complaints that bring us out.',
   localFaqs: [

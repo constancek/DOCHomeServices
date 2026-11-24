@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const moscow: LocationServiceCopy = {
   localParagraph:
     'In Moscow, most homes predate 1940, Census figures show. Houses of that age may still have knob-and-tube or cloth-wrapped conductors with no ground, two-prong outlets and a fuse box, and plenty were later asked to carry electric heat, which about six in ten homes now use. River flooding adds a second concern, because wire that has been under water can fail later. We test first, point out what’s sound, and put the scope and flat-rate price in writing before plaster is opened.',
-  emergencyParagraph:
-    'Call about a burning odor in a wall, a warm or blackened switch plate, sparking, a buzz, a shock from a fixture or a breaker that trips again once reset. Leave a flooded panel alone, and switch off circuits only if you’re dry. For smoke or flames, get outside and call 911. Most calls are same day, weekends included.',
   commonIntro:
     'In a riverside village where most houses are prewar, wiring trouble in Moscow tends to look like this:',
   localFaqs: [

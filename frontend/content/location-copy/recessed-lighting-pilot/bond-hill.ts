@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bondHill: LocationServiceCopy = {
   localParagraph:
     'In Bond Hill, most recessed lighting we plan goes into a plaster ceiling. Census figures count 1,569 of the 3,525 homes here as built in 1939 or earlier, and the rest lean toward the 1940s, so rooms were wired around one ceiling light and the top floor often has a short attic or none at all. Doubles and small apartment buildings add shared ceilings to the mix. We open plaster carefully, check what sits above it and settle the layout and price before cutting.',
-  emergencyParagraph:
-    'A can that gives off a scorched smell, plaster browning in a ring around a trim, or water coming through a fixture from the bath upstairs means the lights stay off. Cut the breaker for them if it’s safe. If there’s smoke, leave the house and call 911. We’re there same day on most calls, Saturdays and Sundays included.',
   commonIntro:
     'The houses in Bond Hill are mostly prewar, with plenty of doubles. These are the four recessed lighting jobs that come up most.',
   localFaqs: [

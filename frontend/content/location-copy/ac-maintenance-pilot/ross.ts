@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross is mostly owner-occupied houses on either side of Hamilton Cleves Road, with a median build year of 1972 by Census figures. Heating here is an unusual three-way split between gas, electric and fuel oil, so the air conditioner might share its blower and ducts with an oil burner, a gas furnace or a heat pump. That changes which parts we look at, not whether the visit is worthwhile. You hear the price before the gauges go on, and if the system is in good order, we’ll say so.',
-  emergencyParagraph:
-    'Book a repair in Ross, not a tune-up, when the house stops cooling or frost coats the indoor coil; shut it off at the thermostat until the ice melts. A scorched smell, or a breaker that flips after a reset, means it stays off. Heat hits babies, older parents and the sick hardest. Most calls are same day, weekends too.',
   commonIntro:
     'These are the things that usually prompt owners to book a spring look at the AC in Ross.',
   localFaqs: [

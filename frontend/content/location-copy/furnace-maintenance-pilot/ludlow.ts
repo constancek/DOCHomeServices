@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Ludlow is old housing heated by gas. Census figures put 60.5% of homes at 1939 or earlier and 71.1% on gas heat. Down in those basements the furnace is usually the house’s second or third, exhausting into a chimney laid when the place was new, so we give the flue connection, the draft and the heat exchanger our slowest look. Attached and row houses add cramped stairs and low ceilings to the job. Expect the price before we start, and a straight word if the furnace is in good order.',
-  emergencyParagraph:
-    'Smell gas in Ludlow and the house empties: no switches, no relighting, and the gas company gets called from across the street. Same for a carbon monoxide alarm. A furnace dead in a cold snap, nonstop cycling or a yellow, floppy flame needs a repair visit. Infants, elderly parents and sick family come first. Usually same day, weekends included.',
   commonIntro:
     'Basements under Victorian and early 1900s houses hold most of the furnaces we service in Ludlow. These are what bring owners to us:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountWashington: LocationServiceCopy = {
   localParagraph:
     'Most houses in Mount Washington can take a charger, though the panel deserves a careful look first. Census figures put 4,225 of 7,075 homes in the four decades after 1939, and panels from that stretch are often jammed with circuits by now. Overall, 3,992 homes are detached, which simplifies things when the car parks off the street, and 2,778 are rented, leaving owners to decide. Before any quote, we open the panel and run the load, say whether Level 1 covers you, and settle the price.',
-  emergencyParagraph:
-    'Stop charging at once if a plug or outlet goes hot or soft, the charger shows scorch marks, a burning smell lingers, or the breaker drops whenever the car connects. With the panel dry and reachable, switch that breaker off. Smoke or fire means leaving and dialing 911. Most calls between Beechmont and Sutton see us that day, weekends included.',
   commonIntro:
     'Post-war houses and apartment buildings make up most of the neighborhood, and these are the situations that usually start a conversation about charging.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Norwood’s houses are old. Census figures put 66.5% of them at 1939 or earlier, so most furnaces live in a basement, vent into a chimney that predates them and have been replaced at least once. Flue and heat exchanger get our longest look for that reason. Two-families and small rentals are common, with 52.5% of households renting, so a visit often means a furnace per unit, booked by the owner. You hear the price before anything is opened, and if a furnace needs nothing, we tell you.',
-  emergencyParagraph:
-    'Book a repair, not maintenance, for these. Gas odor: leave, don’t touch switches or relight anything, call the gas company from the street. Carbon monoxide alarm: clear the house. A cold furnace in a cold spell, a yellow flame, or short starts and stops. Babies and older people chill fastest. Most calls are same day, weekends included.',
   commonIntro:
     'In the prewar houses and two-families of Norwood, a fall visit usually starts with one of these:',
   localFaqs: [

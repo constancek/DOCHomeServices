@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'Subdivision houses, not old ones, generate most fan calls in South Lebanon. Census figures place the city’s median home at 2007, with roughly two of every three finished after 2000. Those houses were handed over with fans, but the builder usually chose the bargain model that met the minimum, and in a master suite with a walk-in shower it falls behind fast. The smaller, older core along High Street and Main has the reverse problem, baths with no fan. In both, we measure the draw and fix a price first.',
-  emergencyParagraph:
-    'Call us right away about a grille that has melted or charred, a whiff of hot plastic, sparks or smoke. A breaker that trips at startup, or water creeping into the drywall, is just as urgent. Flip the fan off when that’s safe; with smoke or fire, get out and ring 911. We reach most calls same day, weekends included.',
   commonIntro:
     'From the newer subdivisions to the older blocks by the river, these four signs bring most of the calls.',
   localFaqs: [

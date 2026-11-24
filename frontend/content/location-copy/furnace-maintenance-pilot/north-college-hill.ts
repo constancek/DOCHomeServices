@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'In North College Hill, most homes are detached houses built before 1960, and 43.6% are rented by Census figures, so landlords book a good share of our fall visits. Gas heats 72.1% of homes. Expect a gas furnace in the basement, likely the house’s second or third, on a flue older than it is. That venting and the heat exchanger are where we look hardest. Your price is set before we start, and if the furnace needs nothing, you’ll hear it.',
-  emergencyParagraph:
-    'In North College Hill, these are repairs, not tune-ups. Gas smell: everyone out, no switches, call the gas company outside. Carbon monoxide alarm: out first. A dead furnace in a hard freeze, a drifting yellow flame or constant restarting, mainly with small children or elderly relatives home. Most are same day, weekends too.',
   commonIntro:
     'Mid-century houses, many of them rentals, account for most of our furnace tune-ups in North College Hill. Owners usually book after:',
   localFaqs: [

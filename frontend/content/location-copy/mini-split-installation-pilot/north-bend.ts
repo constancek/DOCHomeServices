@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'Old and new sit close together in North Bend. By Census figures, the median house went up in 1991 and about a third came after 1999, yet more than a quarter predate 1940, and one in six is an attached condo or townhouse. The older houses near the river may have no ducts, so a wall head cools them cleanly. Newer houses usually need a loft or lower level done. We quote one firm price first, and we’ll tell you if ductless is wrong for the space.',
-  emergencyParagraph:
-    'The National Weather Service gives Cincinnati a July normal high of 86F, and a loft right under the shingles can still be stuffy at bedtime, which grandparents, babies and asthmatics feel first. Installs go on our calendar quickly, one head usually in a day. An existing unit that died is Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'From the hillside houses to the townhouses and the older homes closer to the Ohio, these are the rooms that usually prompt a ductless quote in North Bend:',
   localFaqs: [

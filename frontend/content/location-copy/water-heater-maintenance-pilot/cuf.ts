@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'Landlords own most of the water heaters we look after in CUF; Census figures show 84.5% of households rent. The buildings run from pre-1940 houses in Fairview and Clifton Heights, where the tank lives in a basement with an old flue and drain spigot, to big 1970s complexes with a closet heater on a pan in every unit. Owners tend to line up several addresses in one day. Quotes are flat and given in advance, and if a tank doesn’t justify the visit, we’ll say so.',
-  emergencyParagraph:
-    'A tank leaking into a basement or closet pan: cold-water valve at the top off, then gas or breaker. A gas smell: everyone out, no switches, no pilot, and call the gas company from the sidewalk. A carbon monoxide alarm: clear the unit. These, like persistent relief valve discharge or cold taps, need repair. Usually same day, weekends included.',
   commonIntro:
     'With so many rentals, it’s usually an owner or manager who notices one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Single houses sit beside big apartment complexes near Northern Kentucky University in Highland Heights, where Census figures give a median build year of 1985. Roughly one home in four dates from the 1960s or 1970s, when some were wired with aluminum branch cable that can work loose and heat up at devices. Electric heat warms most homes here, which strains circuits near their limit. We test first, tell you when the wiring is fine, and put the plan and a fixed price on paper before drywall comes open.',
-  emergencyParagraph:
-    'A discolored or hot receptacle, a smell like smoldering insulation from a switch or wall, visible arcing, a shock from a fixture, or a breaker that refuses to reset shouldn’t wait. We reach most of those the same day, weekends included. Switch the circuit off only with dry hands and feet. Once smoke appears, get everyone out and dial 911.',
   commonIntro:
     'From the older houses to the rental buildings around Highland Heights, failing wiring tends to announce itself like this:',
   localFaqs: [

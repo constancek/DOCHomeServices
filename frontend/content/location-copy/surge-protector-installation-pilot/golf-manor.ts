@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'In Golf Manor, surge protection starts with the breaker box, because that is where the device gets wired in. Census figures date the typical house here to 1954, and boxes from those years tend to be cramped or crowded with breakers already. Roughly half the units are in two-families and three- or four-unit buildings, and about half the households rent, so a landlord normally signs off. Our electrician opens the box before anything else, admits it when a few good strips would cover you, and fixes the price up front.',
-  emergencyParagraph:
-    'Phone us that same day about a brown-scorched outlet, breakers giving off a hot-plastic smell, or one breaker that pops straight back off. If lights pulse through every room, Duke Energy should check first. Should smoke or flame appear, leave the house, then dial 911. Most visits happen that day, weekends included.',
   commonIntro:
     'From two-families to single houses on the side streets of Golf Manor, these four signs are what usually bring us out.',
   localFaqs: [

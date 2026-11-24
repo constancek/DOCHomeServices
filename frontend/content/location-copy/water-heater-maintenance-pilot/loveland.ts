@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const loveland: LocationServiceCopy = {
   localParagraph:
     'Most of Loveland is newer than people expect: Census figures put the median home at 1985, with just 5.4% from before 1940. On a hillside subdivision house, that means a garage or utility-room tank, easy to reach, no ancient cellar plumbing. The 26.7% of homes in apartment and condo buildings are the other half of our work, with closet heaters on drain pans, one per unit, scheduled by whoever owns them. You get the price up front, and we’ll say so if a tank doesn’t justify the visit.',
-  emergencyParagraph:
-    'These outrank a tune-up in Loveland. A tank leaking: twist the cold valve on top closed, then cut gas or power. Gas in the air: leave, skip switches and the pilot, call the gas company outdoors. Carbon monoxide alarm: out, everyone. A relief valve that won’t stop, or no hot water, is repair work, often same day, weekends included.',
   commonIntro:
     'Maintenance calls in Loveland tend to follow one of these:',
   localFaqs: [

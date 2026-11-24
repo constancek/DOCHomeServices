@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Covington’s housing is old by any measure. Census figures give a median of 1947, and 9,268 of 21,048 homes predate 1940, many on narrow lots. Behind those front doors, the breaker box is often out of slots, or out of headroom, for a 240-volt spa feed, which gets fixed first. The tub then needs GFCI protection, a shutoff within view of it, bonding, and an inspector’s sign-off. We weigh your box against the spa maker’s spec sheet and quote before a stick of conduit goes up.',
-  emergencyParagraph:
-    'Phone us if a GFCI won’t stay set, the shutoff shows scorch marks, somebody gets a tingle from the water, or the spa sat in floodwater. Have everybody climb out and leave the tub alone. Flip the breaker only if you can reach it without risk; with smoke, walk out and ring 911. Most get a same-day visit, weekends too.',
   commonIntro:
     'From MainStrasse Village to the streets by the Licking River, here is what usually prompts a spa call in Covington.',
   localFaqs: [

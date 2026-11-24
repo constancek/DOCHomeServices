@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hebron: LocationServiceCopy = {
   localParagraph:
     'Hebron is mostly subdivisions from the 1990s and 2000s; Census figures for ZIP 41048 show 82.1% of homes built in 1990 or later. Builder-installed systems in those houses favor the main floors, so the rooms that lag are a bonus room over the garage, a finished basement, a sunroom or a hot upstairs. One head handles that room without replacing the whole system. The price is set before work, and if a fix to your current system will do, we’ll say so.',
-  emergencyParagraph:
-    'Hebron sits next to CVG, where Cincinnati’s readings are taken, and the National Weather Service lists 86F as the normal July high. A bonus room over the garage gets the worst, hard on babies, older relatives and anyone ill. We schedule installs fast; one zone is about a day. Broken mini-splits go to Mini-Split Repair, usually same day, weekends too.',
   commonIntro:
     'Near CVG and out toward the newer subdivisions, these are the rooms that bring a ductless quote in Hebron:',
   localFaqs: [

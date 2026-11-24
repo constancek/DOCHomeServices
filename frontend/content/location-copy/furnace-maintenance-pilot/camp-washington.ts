@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Camp Washington has some of the oldest housing we work in. Census figures put 88.9% of homes at 1939 or earlier, so a tune-up here nearly always happens in a basement, on a furnace that replaced an earlier one and vents up a brick chimney. The vent connection and heat exchanger get looked at first. Gas is the main fuel. Most units are rented, so landlords make most of the bookings. You hear the flat price first, and if there’s nothing to fix, we say so.',
-  emergencyParagraph:
-    'These can’t wait for a tune-up. Gas odor: walk out, touch no switch, light nothing, and call Duke Energy from the street. Carbon monoxide alarm: out first, phone second. A furnace that quits in a cold snap, restarts endlessly, or burns yellow needs repair. Babies and older relatives are at most risk. Same day on most calls, including weekends.',
   commonIntro:
     'In Camp Washington, a fall furnace check usually gets booked after one of these:',
   localFaqs: [

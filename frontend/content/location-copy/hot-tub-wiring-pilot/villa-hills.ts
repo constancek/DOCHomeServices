@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'In Villa Hills, putting a hot tub behind a house takes a 240-volt run of its own, ground-fault protection, a cutoff switch placed within view of the tub yet out of arm’s reach, and bonding. Census figures give 1981 as the typical build year here, and nearly half the houses date from the 1960s and 70s. After decades of additions, those panels are often short on room for one more breaker, and that gets fixed first. You’ll see a quote, checked against the tub’s manual, before conduit is ordered.',
-  emergencyParagraph:
-    'In Villa Hills, some spa faults can’t wait for Monday, including a ground-fault breaker that won’t reset, a singed cutoff switch, a crackling panel, or a prickle in the water. Have people step out without touching the controls. Use the cutoff only if it’s safe; if smoke shows, get out and ring 911. Most calls get a visit that day.',
   commonIntro:
     'Up and down Amsterdam Road and the side streets around it, owners in Villa Hills tend to ask about one of these:',
   localFaqs: [

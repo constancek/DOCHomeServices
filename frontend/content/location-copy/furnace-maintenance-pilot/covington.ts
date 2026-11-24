@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Owners and landlords book our tune-ups in Covington in close to equal numbers; Census figures show 48.2% of homes rented. With 44.0% of the housing standing by 1939, the everyday job is a furnace down in the cellar of a 19th-century house, rarely the building’s first and often vented into a chimney much older than it. Apartments tuck the furnace into a closet or run off a building system the owner keeps up. Each price is set before any wrench turns, and if nothing needs doing, you’ll hear that.',
-  emergencyParagraph:
-    'Gas smell in Covington: leave, don’t flick a light, and reach Duke Energy once you’re outside. Carbon monoxide alarm: the household goes out first. Those, plus a furnace dead during a cold spell, one that starts and stops on repeat, or a sluggish yellow flame, are repairs. Babies and older relatives can’t wait. Same day for most, weekends included.',
   commonIntro:
     'Across the rowhouse blocks and apartment buildings of Covington, owners tend to book over one of these:',
   localFaqs: [

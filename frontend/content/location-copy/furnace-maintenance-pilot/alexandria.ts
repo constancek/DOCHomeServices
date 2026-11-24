@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Alexandria is a town of owner-occupied detached houses, 91.7% owned by Census figures, most of them built from the 1980s on. That usually puts the furnace in a basement or utility room with space to kneel beside it, and the tune-up becomes a matter of cleaning and proving parts rather than fighting access. Gas heats 44.1% of homes; the larger electric share also takes in heat pumps. You get the flat price before we begin, and an honest all-clear if the furnace needs nothing.',
-  emergencyParagraph:
-    'Gas odor: get out, don’t flip lights on or off, and reach the gas company from outdoors. Carbon monoxide alarm: everybody outside first. A furnace blowing cold through a freezing night, one restarting every few minutes, or a lazy yellow flame needs repair. Young kids and older parents take the cold hardest. Same day for most, weekends included.',
   commonIntro:
     'Owners in Alexandria tend to pick up the phone for one of these:',
   localFaqs: [

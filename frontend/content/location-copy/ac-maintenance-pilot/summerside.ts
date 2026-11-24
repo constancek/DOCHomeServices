@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const summerside: LocationServiceCopy = {
   localParagraph:
     'In Summerside, most homes went up between the 1960s and 1990s, and Census figures put the median at 1981. Central air was usually built in, so a tune-up is mainly coil, filter, drain and wiring, though many systems are already on their second unit and some are close to a third. Condos and apartments count for a lot here, with 34.5% of homes in buildings of five or more units, where the owner or association books us. The price comes first, and we say plainly if the system needs nothing.',
-  emergencyParagraph:
-    'Hot rooms with the AC running call for a repair, not a tune-up. When ice coats the refrigerant lines, shut the system off at the thermostat. Water pooling by a closet air handler means leave it off. Infants, older relatives and anyone ill feel the heat soonest. Most calls see a same-day visit, weekends included.',
   commonIntro:
     'For houses and condos in Summerside, these signs usually come before a spring booking.',
   localFaqs: [

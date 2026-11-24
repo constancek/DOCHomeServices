@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'In Sayler Park, half the homes went up in 1939 or earlier, according to Census figures, and about six in ten are lived in by their owners. Many prewar houses have had their service enlarged, but some still carry a small original one with no spare capacity for a 240-volt line. The postwar houses among them tend to have crammed panels. We open the panel and total the load before any figure is mentioned, tell you if the trickle cord suits you, and fix the price before a wire moves.',
-  emergencyParagraph:
-    'A charger box, plug or outlet that’s hot, browned or smelling of burnt plastic is a reason to quit charging tonight. So is a breaker that pops each session. Only throw the breaker if your hands are dry. Smoke or flame means everybody out and a call to 911. We usually make it out that day, weekends included.',
   commonIntro:
     'In the city’s westernmost neighborhood, these four situations bring us most of our charger calls.',
   localFaqs: [

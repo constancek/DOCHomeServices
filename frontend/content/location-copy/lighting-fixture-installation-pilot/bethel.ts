@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'Bethel has a mix that shapes any fixture job, with a village core that goes back to the 1800s, postwar houses around it and lots of small apartment buildings. Half the housing in the village was standing by 1958, according to Census figures, and roughly one home in four predates 1940, which is where plaster ceilings and skinny old boxes turn up. A bit more than half of households rent. Before a single screw comes out, we look over the box, test for a ground and give a firm figure.',
-  emergencyParagraph:
-    'Leave a light off if it droops from the ceiling, smells of hot plastic or has browned around the canopy. Flip its breaker if the panel is dry and easy to reach, and let nobody stand beneath it. Flames or smoke mean leaving and phoning 911. Most calls in Bethel get a technician that same day, Saturdays and Sundays too.',
   commonIntro:
     'Four requests come up again and again from owners and landlords around the village.',
   localFaqs: [

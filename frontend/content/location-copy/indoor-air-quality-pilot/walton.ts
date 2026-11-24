@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton has two kinds of houses, and they need different things from the air. Census figures put one home in five before 1960, mostly in the old town, and more than half after 2000. The older ones run drafty and damp underneath, so a dehumidifier and better filtration usually matter most. The newer subdivision houses are built tight and hold stale air, which points to ventilation. We test before we recommend, price each fix before work, and tell you plainly when a fresh filter will do.',
-  emergencyParagraph:
-    'Get everyone out when a carbon monoxide alarm goes off, then call 911. If you smell gas, leave without working a switch and phone the gas company from outside. Turn the system off at the thermostat if the vents smell of burning. Babies, grandparents and anyone with asthma suffer first. We reach most calls the same day, including weekends.',
   commonIntro:
     'In Walton, the old houses near Main Street and the newer subdivisions show air trouble differently, but these come up most:',
   localFaqs: [

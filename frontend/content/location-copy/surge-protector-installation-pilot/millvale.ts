@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Most homes in Millvale are rented, and about a third of residents live in public housing, so surge protection at the panel is a decision for the owner or the housing manager. Census figures put the median building near 1982, many of them 1950s townhomes that were recently renovated, and most units heat with electricity. Renovated units often carry newer equipment worth guarding. For owners, we check the panel first, say plainly if plug-in strips are enough, and set the price before work begins.',
-  emergencyParagraph:
-    'In a townhome in Millvale, a charred outlet, a switch with a burning smell after a storm, or a breaker that won’t stay reset is urgent. Residents of CMHA or other managed housing should report it to management at once. Owners can get us out same day on most calls, weekends included. For smoke or fire, leave and call 911.',
   commonIntro:
     'Townhomes and apartments along Beekman Street and Moosewood Avenue show surge trouble in these four ways.',
   localFaqs: [

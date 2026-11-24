@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Census figures date nearly nine in ten homes in Camp Washington to before 1940, and about four in five are rented, mostly in two-families and small apartment buildings. Wire of that vintage may be knob-and-tube or cloth-covered, ungrounded and feeding two-slot outlets, and nobody installing it pictured a window unit, a microwave and a space heater on at once. Plenty of owners schedule the work between tenants. We meter it first, tell you if it’s sound, and get the scope and flat price in writing before any plaster comes off.',
-  emergencyParagraph:
-    'Same-day calls are for a smell of scorching in a wall, a blackened outlet, a switch that hums, a breaker that pops again after a reset, or a jolt from a fixture. Turn off that breaker only if you can get to the panel without standing in water or touching anything warm. If smoke appears, everyone leaves and calls 911.',
   commonIntro:
     'In the old two-families and apartment buildings of Camp Washington, wiring that has run out of road shows up like this:',
   localFaqs: [

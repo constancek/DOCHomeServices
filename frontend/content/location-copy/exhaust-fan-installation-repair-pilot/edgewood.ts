@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Census figures put the typical house in Edgewood at 1976, and nearly all of them are single-family homes lived in by their owners. Those 1970s bathrooms usually have a fan, but often it’s the original small one, and some were never ducted past the attic floor. Houses from the 1980s and 1990s, close to three in ten here, tend to have larger primary baths with fans that can’t keep pace. We test the airflow, find where the duct actually stops and quote the fix before touching the ceiling.',
-  emergencyParagraph:
-    'Phone us that day if the fan reeks of hot plastic, the housing has browned or melted, it sparks or smokes, the breaker keeps tripping, or a stain spreads from the grille. Cut power at the panel when that’s safe. If smoke or flame appears, the family steps outside before anyone dials 911. Same day on most calls, weekends too.',
   commonIntro:
     'Across the 1970s houses of Edgewood and the newer ones around them, these are the signs that usually start a call.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'South Cumminsville has two very different kinds of house with opposite air problems. Census figures count 184 of 404 homes from before 1940, drafty places where a damp basement and old ducts send dust and must through the rooms. Another 63 went up in 2010 or later, sealed tight, so stale air and cooking fumes stay put. Most families here own their homes. Either way, we test before we recommend, quote a flat price per fix, and tell you if a filter is all you need.',
-  emergencyParagraph:
-    'A sounding carbon monoxide alarm means getting the family outdoors before dialling 911. A gas smell means leaving switches untouched and calling Duke Energy once you’re out. A burning odor from the furnace or AC means setting the thermostat to off. Little ones, grandparents and asthmatic lungs suffer quickest. Same day on most calls, weekends included.',
   commonIntro:
     'Along Dreman Avenue, Elmore Street and the blocks off Beekman, we hear these complaints most in South Cumminsville:',
   localFaqs: [

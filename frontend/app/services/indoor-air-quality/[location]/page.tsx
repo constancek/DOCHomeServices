@@ -10,7 +10,6 @@ const config: ServiceLocationConfig = {
   slug: 'indoor-air-quality',
   serviceName: 'Indoor Air Quality',
   localHeadingName: 'Indoor Air Quality',
-  emergencyHeading: 'Air Quality Problems That Can’t Wait in {neighborhood}',
   eyebrow: 'Heating & Cooling',
   hubLabel: 'Indoor Air Quality',
   parentCrumb: { label: 'Heating', href: '/services/heating' },

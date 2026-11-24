@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northCollegeHill: LocationServiceCopy = {
   localParagraph:
     'Most houses in North College Hill are postwar. Census figures date about half of them to 1940 through 1959, with another quarter older, and eight in ten are single houses. Their bedrooms are small with flat ceilings, fine for a flush-mount fan, but the box above the old dome light was meant for a fixture and seldom holds a fan well. Over four homes in ten are rented. We open that box first, say so if a snug mount or balanced blades will do, and quote before work.',
-  emergencyParagraph:
-    'A fan lurching on its mount, a box pulling free, a burnt odor or a crackling switch means you quit using it. Flip it off at the wall or panel if you’re not below it, and keep kids out. Smoke or flames mean leaving and phoning 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Postwar houses with small bedrooms and a good share of rentals shape the fan calls we get in North College Hill.',
   localFaqs: [

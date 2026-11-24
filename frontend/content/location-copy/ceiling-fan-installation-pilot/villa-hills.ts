@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'In Villa Hills, most houses went up between the 1960s and 1990s, Census figures show, and eight in ten are detached houses, nearly all owner-occupied. Builders of that era usually put a plain light box at the center of a bedroom and rarely braced it for spinning weight, and plenty of dens and family rooms never got a fan. So when you call, we check that box first, tell you if snugging the bracket stops the wobble, and settle the price before the old fixture drops.',
-  emergencyParagraph:
-    'Don’t sleep under a fan that sways hard, sags from its canopy, smells of hot insulation or sends a sizzle through the wall switch. Switch it off at the wall or panel if that’s safe and keep everybody out from beneath it. For fire, leave and dial 911. Most calls in Villa Hills get same-day help, weekends too.',
   commonIntro:
     'From 1960s bedrooms to 1980s family rooms, these four fan complaints keep surfacing in Villa Hills.',
   localFaqs: [

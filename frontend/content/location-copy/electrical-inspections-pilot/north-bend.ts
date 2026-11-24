@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northBend: LocationServiceCopy = {
   localParagraph:
     'In North Bend, what an inspection turns up depends on which end of the housing stock you live in. Census figures date 28.8% of homes to before 1940, and those older houses are where we find ungrounded outlets and circuits added one at a time over decades. Another 32.6% went up in 2000 or later; their wiring is usually sound, and owners call before a sale or a big new load. Whichever you have, we test it all and quote any repair first.',
-  emergencyParagraph:
-    'Don’t wait on a booking for a burning smell, a blackened outlet cover, a switch that buzzes, sparks, or lights that dim hard when an appliance starts. A breaker that trips straight away after a reset counts too; shut it off. Smoke or fire means everyone out and a call to 911. Most North Bend calls get a same-day visit.',
   commonIntro:
     'Between the village’s pre-war houses, its newer homes and its townhouses, a few findings come up again and again:',
   localFaqs: [

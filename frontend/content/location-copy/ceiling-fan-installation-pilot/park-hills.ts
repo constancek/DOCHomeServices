@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const parkHills: LocationServiceCopy = {
   localParagraph:
     'Park Hills was laid out from 1926 on the slopes beside Devou Park, and Census figures put the typical house at 1953, with about a third older than 1940. Those 1920s cottages and postwar ranches mostly got a lone ceiling light per room, held by a shallow box nobody sized for a spinning fan. Roughly a third of homes are rented, many in larger buildings. We look behind the old light before quoting, mention it if snugging the bracket stops the shake, and price everything before a wire is undone.',
-  emergencyParagraph:
-    'Stop a fan at once if its canopy is lurching off the ceiling, the box has dropped, or the housing gives off smoke or a scorched smell. Flip the wall toggle or the breaker if that’s safe, and keep clear underneath. If anything catches fire, get out and phone 911. Most hillside calls get us that same day, weekends too.',
   commonIntro:
     'Hillside houses from the 1920s through the 1950s, plus a fair share of apartments, account for the four fan complaints we see over and over in Park Hills.',
   localFaqs: [

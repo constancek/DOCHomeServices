@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const covington: LocationServiceCopy = {
   localParagraph:
     'Covington’s housing is old by any Kentucky measure. The Census places 9,268 of the city’s 21,048 homes at 1939 or earlier, and renters fill nearly half of them. A narrow brick rowhouse from that period may still have knob-and-tube or rubber-and-cloth conductors feeding two-slot receptacles, with nothing grounded. Postwar houses tend to be short of kitchen circuits instead. A full test comes before the price, a system in good shape gets left alone, and the agreed job is written up at a flat rate.',
-  emergencyParagraph:
-    'A receptacle that’s hot, browned or smelling of burning is a same-day call. So is crackling in a wall, a breaker that won’t latch, or a zap off a switch or the fridge. Reach for that breaker only if the basement floor is dry. If smoke appears, get everyone onto the sidewalk and call 911.',
   commonIntro:
     'In the rowhouses, brick homes and converted apartments of Covington, these are the signs we hear about:',
   localFaqs: [

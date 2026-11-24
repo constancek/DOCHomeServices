@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villaHills: LocationServiceCopy = {
   localParagraph:
     'Census figures show most houses in Villa Hills were built between the 1960s and the 1990s, and more than four households in five own their home. Plenty of those houses have had the air conditioner and furnace pulled out, and the replacements carry control boards a 1975 unit never had. The breaker box is often the one the builder put in, and it may be short on spaces. We look inside first, tell you when a strip or two would cover it, and fix the price before any work.',
-  emergencyParagraph:
-    'A burnt smell from the microwave after an outage, a switch too warm to touch, or a breaker that flips off again right after a reset deserves a same-day visit, and most calls get one, weekends too. If the whole house brightens and sags, call Duke Energy Kentucky first. At the first sign of smoke, leave and call 911.',
   commonIntro:
     'Owner-occupied houses from the 1960s through the 1990s make up most of Villa Hills, and these signs come up there more than any others.',
   localFaqs: [

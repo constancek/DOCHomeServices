@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Amberley Village is almost entirely detached, owner-occupied houses, and Census figures put more than three-quarters of them between 1940 and 1979. That era’s panels were built for far fewer appliances, and decades of additions have often used up every slot, so the charger question is usually about room rather than wiring. Gas heats most of these houses, which helps. We start at your panel with a load calculation, say plainly if the cord that came with the car will cover you, and agree the price before work.',
-  emergencyParagraph:
-    'Quit charging if the plug or housing is too hot to rest a palm on, scorch marks show on an outlet, or the breaker snaps off once charging begins. Flip that circuit off from dry ground. With smoke or flames, get everyone outside and ring 911. We’re there the same day on most calls, weekends included.',
   commonIntro:
     'Mid-century houses fill nearly every street in the village, and charger calls from owners here usually start with one of these:',
   localFaqs: [

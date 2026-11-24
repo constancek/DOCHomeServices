@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dryRun: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Dry Run at 1986, and almost every one stands on its own lot with the owner living in it. Builders then liked great rooms with sloped ceilings, open foyers that climb two floors and decks or screened porches out back. That means long down rods, careful anchoring up high and weather-rated fans. Secondary bedrooms sometimes got a plain lighting box. We look at the box first, admit it when a snug-up or rebalance fixes things, and quote before anything comes down.',
-  emergencyParagraph:
-    'Turn off a fan that circles wide or drops on its rod in a cathedral room, smells scorched, crackles at the switch or keeps tripping the breaker. Do it at the switch or panel if that’s safe, and clear the floor below. Smoke or flames mean getting out and dialing 911. We’re there same day on most calls, weekends too.',
   commonIntro:
     'Most calls from owners in Dry Run are about fans hung high in great rooms or out on decks and screened porches.',
   localFaqs: [

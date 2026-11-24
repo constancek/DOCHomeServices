@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'At the city’s western edge, Sayler Park is mainly houses whose owners live in them, and Census figures date 54.9% of homes to before 1950. Our tune-ups here tend to mean a basement heater on an aging flue connector, a drain spigot gone stiff from years unused, and gas piping to inspect. Later houses go faster: flush, anode, relief valve. You hear the figure before we start, and when a heater isn’t worth maintaining, we say so and you keep your money.',
-  emergencyParagraph:
-    'Tank letting water go: shut the cold-water valve on top, then cut its gas or breaker. A whiff of gas: out the door, no switches, no relighting, then phone the gas company from the yard. A carbon monoxide alarm: clear the house first. A relief valve spitting repeatedly, or no hot water: repair. Same day on most calls, weekends included.',
   commonIntro:
     'Most heaters we look at in Sayler Park still work fine on the day we arrive. Owners usually call because of one of these:',
   localFaqs: [

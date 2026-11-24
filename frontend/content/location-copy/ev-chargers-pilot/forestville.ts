@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'In Forestville, the median house dates from 1981 by Census figures, and close to half went up in the 1980s and 1990s. That usually helps a charger along, because panels from those decades often still hold a free slot for a 240-volt car circuit, and where they don’t, a load manager tends to bridge the gap. Many residents live in apartment complexes, where management makes the call. For a house or townhome, the load gets totaled, your cord gets an honest verdict, and the price is set before wiring.',
-  emergencyParagraph:
-    'Burning odors from the charger, a receptacle gone brown or warm, or a cable flattened under a tire shouldn’t wait. End the session. Switch that circuit off only if the panel is easy to reach, dry and cool. Should smoke or flame appear, everyone goes outdoors and someone dials 911. Same-day visits are the norm on most calls, weekends included.',
   commonIntro:
     'In Forestville, houses and townhomes tend to bring us these four charger situations.',
   localFaqs: [

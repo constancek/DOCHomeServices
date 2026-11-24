@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'Williamsburg mixes eras: by Census figures 28.8% of homes predate 1940, and the median dates from 1961. In the older ones, the heater usually sits in a cellar with a tired spigot, aged flue pipe and gas piping we want to inspect. Renters hold 37.6% of homes, partly in small apartment buildings where closet heaters over drip pans are the landlord’s to schedule. Postwar houses need a simple flush and test. We quote ahead of time and tell you if a tank doesn’t merit the work.',
-  emergencyParagraph:
-    'A few things outrank maintenance. Tank leaking: twist the cold supply shut at the top, then cut the gas or the breaker. Smell gas: leave, no light switches, no relighting, then phone the gas company outside. Carbon monoxide alarm: clear the house. Relief valve dumping water, or dead hot taps: that’s a repair. Same-day visits are normal, weekends too.',
   commonIntro:
     'In Williamsburg, a heater that still makes hot water can flag that it’s due through any of these:',
   localFaqs: [

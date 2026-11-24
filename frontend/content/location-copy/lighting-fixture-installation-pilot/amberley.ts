@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amberley: LocationServiceCopy = {
   localParagraph:
     'Mid-century houses in Amberley were usually wired for one light per room, which is why so many owners ask us to brighten a dining room or a long bedroom corridor. Whether that works depends on the box overhead, any ground wire, and whether the light is new to its spot. Census figures date the typical house to 1959, and almost every one is a detached, owner-lived home from the 1940s to the 1970s. We inspect the box and the conductors, then quote, all before the old glass comes off.',
-  emergencyParagraph:
-    'Shut that light’s breaker if a fixture has slipped crooked on its canopy, a wall plate hums, or a scorched odor drifts from a light, provided the panel is safe to reach. Keep the family from standing below. Flames or smoke mean everyone goes outside and calls 911. Most calls in Amberley get a same-day visit, weekends counted.',
   commonIntro:
     'These four requests turn up constantly in the ranches and colonials of Amberley.',
   localFaqs: [

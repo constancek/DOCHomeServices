@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Northbrook is a 1960s and 1970s place, with a median build year of 1970 by Census figures, and seven in ten homes are detached houses off Colerain Avenue and Pippin Road. The bedrooms in those houses have flat ceilings and a shallow pancake box put up for a light, never asked to hold a fan. Family rooms opened up in later remodels often want something bigger. We pull the canopy to check that box, tell you if one firmer screw is the fix, and quote before the fixture is down.',
-  emergencyParagraph:
-    'If a fan jerks on its mount, sags out of the ceiling, smells hot or spits sparks at the switch, stop using it. Kill it at the switch or the panel without standing under the blades, and clear the room. If smoke or fire shows up, leave and call 911. Same-day visits are normal across Northbrook, weekends included.',
   commonIntro:
     'Houses from the 1960s and 70s, with apartments and townhouses scattered among them, produce most of the fan calls we get in Northbrook.',
   localFaqs: [

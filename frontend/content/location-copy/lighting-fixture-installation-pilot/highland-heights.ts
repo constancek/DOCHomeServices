@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const highlandHeights: LocationServiceCopy = {
   localParagraph:
     'Between Fort Thomas, Wilder and Cold Spring, Highland Heights has mostly been built since Northern Kentucky University arrived in 1971. Census numbers put its median home at 1985, and roughly half the units sit in buildings of five or more apartments or condos. Houses from the 1980s and 1990s usually give us a grounded box with room to work, though we still meet bedrooms with only a switched lamp outlet. We take down the canopy, look over the box and feed, and give one price before work begins.',
-  emergencyParagraph:
-    'A fixture tearing loose, a switch plate too warm to touch, char at a socket or a breaker that pops whenever the lamp is lit can’t sit overnight. Shut that circuit at the panel if it’s safe and clear the room below. Smoke or fire means leave and dial 911. Most callers see us that day, weekends too.',
   commonIntro:
     'Across Highland Heights, our lighting calls tend to fall into these four.',
   localFaqs: [

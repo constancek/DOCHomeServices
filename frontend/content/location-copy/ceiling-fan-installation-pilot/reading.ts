@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'Reading is mostly postwar housing, with a Census median of 1956 and a big wave of building right after the war. Bedrooms from that era tend to have one glass dome light on a little round box, meant for a bulb and never for a fan tugging at it every July. Roughly two households in five rent, plenty of them in apartment blocks. We drop the dome and inspect first, mention it if snugging a bracket ends the shimmy, and agree a number up front.',
-  emergencyParagraph:
-    'Some fan faults won’t keep till tomorrow, like big looping sways, a canopy gapping off the drywall, motor smoke, a melted odor, or a crackle from the switch plate. If reaching it is safe, kill the circuit and move everyone aside. Flames mean get out and ring 911. Our electricians usually make it over that day, Saturdays and Sundays too.',
   commonIntro:
     'Postwar bedrooms, plenty of apartments and a few bigger additions give us the four fan calls we hear most often in Reading.',
   localFaqs: [

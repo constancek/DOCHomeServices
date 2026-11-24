@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Lincoln Heights is mostly rented housing, 73.6% by Census figures, and roughly one home in three is in a complex of five or more apartments, so a mini-split is usually the owner’s or management’s call. Much of it was built in the 1960s and 1970s, with a median year built of 1973, and those floor plans often leave a back bedroom or top floor short of air. Owners and landlords see a flat price before any work, and we’ll tell them if the existing system only needs attention.',
-  emergencyParagraph:
-    'When the heat climbs to 90F or more, which the National Weather Service counts on about 21 days a year, a top-floor apartment can stay hot after dark. Older relatives, babies and anyone ill feel it worst. Tenants should report it to the landlord in writing. A broken mini-split needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the apartments, townhomes and houses of Lincoln Heights, these are what usually lead an owner to price ductless:',
   localFaqs: [

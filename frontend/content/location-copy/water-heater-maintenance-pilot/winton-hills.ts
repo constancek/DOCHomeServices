@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wintonHills: LocationServiceCopy = {
   localParagraph:
     'Tenants in Winton Hills don’t book tank service; the owner does. Census figures count 97.0% of homes as rented, most of them CMHA units at Winton Terrace and Findlater Gardens, where the housing authority handles heaters through its own work orders. Our maintenance customers are the private owners: two-family houses and small buildings, typically one tank per unit in a basement or closet, plus a handful of owner-occupied homes. Each heater is quoted before work, and a tank not worth servicing is called that.',
-  emergencyParagraph:
-    'A scheduled tune-up can wait; these can’t. Tank leaking: close the cold valve over it, then gas or breaker. Smell of gas: everyone outside, no switches or relighting, gas company called from the sidewalk. Carbon monoxide alarm: out first. A relief valve that keeps spitting, or no hot water, means repair. Owners get same day on most calls, weekends included.',
   commonIntro:
     'Private landlords in Winton Hills usually schedule a tank service after one of these:',
   localFaqs: [

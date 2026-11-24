@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mack: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Mack is a single house with its owner living in it, and Census figures put the median at 1981, with the biggest share from the 1980s and 1990s. Those houses off Bridgetown Road now hold far more electronics than their builders pictured, from smart thermostats and cameras to home offices and board-run appliances, often on the original panel. Opening that panel decides where a protector fits. If strips are all you need, we say so, and the price is fixed before work.',
-  emergencyParagraph:
-    'Once power returns to your street in Mack, keep off any appliance that smoked or sparked, and stop resetting a breaker that snaps right back off. Kill that circuit at the panel only from a dry spot. Smoke or flames mean everyone out and a 911 call. Same day on most calls, weekends included.',
   commonIntro:
     'Up on the old Dry Ridge, in houses mostly from the 1980s and 1990s, these signs tend to come before a call from owners in Mack.',
   localFaqs: [

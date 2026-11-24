@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const clifton: LocationServiceCopy = {
   localParagraph:
     'Most fall tune-ups we do in Clifton are in houses older than anyone living in them. Census figures show 62.2% of homes were built in 1939 or earlier and almost nothing since 2000, so the furnace usually sits in a basement, on its second or third replacement, venting into a chimney that predates it. Gas heats close to two-thirds of homes. Big single houses share the streets with apartment buildings. You get a set price before we begin, and an honest word if nothing needs doing.',
-  emergencyParagraph:
-    'Book these as repairs. A whiff of gas: out the front door, lamps left alone, then the gas company from the sidewalk. Carbon monoxide alarm: nobody stays in. A furnace dead during a cold snap, one stuttering on and off, or a yellow flame. Infants and elderly parents can’t ride it out. Most same day, weekends too.',
   commonIntro:
     'In the big old houses and the apartment blocks near Ludlow Avenue, owners tend to call about:',
   localFaqs: [

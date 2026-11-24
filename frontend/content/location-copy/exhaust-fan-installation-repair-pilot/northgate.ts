@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'Census figures count 2,273 of the 2,735 homes in Northgate as detached houses, and more than half went up between 1960 and 1979. A bathroom from those years usually has a fan, though plenty were never tied to a real outside vent. We regularly lift the grille and find a duct that ends a hand’s width above the drywall, or a fan blowing at the underside of the roof. The fix starts with following that air, and you get the price in writing before any ceiling work begins.',
-  emergencyParagraph:
-    'Keep a fan off if it gives off a hot, sour smell, its housing has scorched or slumped, it sparks or smokes, it trips the breaker on startup, or water leaks from it. Use the wall switch or panel when safe. In a fire or heavy smoke, get out and dial 911. Most calls get same-day help, weekends too.',
   commonIntro:
     'Between Springdale Road and Colerain Avenue in Northgate, the four fan problems we see most are these:',
   localFaqs: [

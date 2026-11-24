@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'The cheapest moment to add recessed lighting in Erlanger is mid-remodel, while the ceiling is already open. Census figures give a 1976 median, and close to half the houses date from 1950 through 1979, so many have drywall, attic space over the top floor and a kitchen or basement now overdue for an update. About a third went up in 1990 or later. We peek above the ceiling, chalk out each opening and hand you a number before anything gets cut.',
-  emergencyParagraph:
-    'If you can’t keep a finger on a trim, a can keeps going dark and relighting, or the wall switch hums, turn that circuit off at the breaker when it’s safe. Water dribbling out of a light counts too. Smoke or flames mean getting out and calling 911. Expect a same-day visit on most calls, weekends included.',
   commonIntro:
     'Kitchen remodels, basement finishes and tired old fixtures make up most of what we do around Erlanger.',
   localFaqs: [

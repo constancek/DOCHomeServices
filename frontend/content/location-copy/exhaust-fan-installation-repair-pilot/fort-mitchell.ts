@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'In Fort Mitchell, the housing splits roughly in two. Beechwood, Fort Mitchell Heights and the other old sections hold many pre-1940 houses, built with a bathroom window instead of a fan, and whatever fan came later may blow into the attic. The rest skews newer, with a median build year of 1971 by Census figures, and about four in ten households rent, often in apartment buildings that still have their first fans. We follow the air to its exit and price the work before cutting in.',
-  emergencyParagraph:
-    'At the first burnt smell, spark or wisp of smoke from a fan in Fort Mitchell, or if its housing has blackened, turn it off at the panel if safe. A fan dripping water or tripping its breaker needs us too. With flames or smoke, get out and dial 911. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Between the prewar streets off Dixie Highway and the apartment buildings around Fort Mitchell, these are the signs we hear about most.',
   localFaqs: [

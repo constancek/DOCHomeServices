@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Alexandria is mostly detached, owner-occupied houses, and Census figures put the median at 1994, with over a third finished since 2000. Roughly half run on electric heat, which here usually means a heat pump working through January and August alike, with its board taking every spike the house gets. Add the smart thermostat, the doorbell camera and the newer kitchen appliances, and there is a lot riding on one breaker box. We look inside yours, say when strips alone will do, and put the cost in writing first.',
-  emergencyParagraph:
-    'Every lamp swelling and sagging together is a call for the electric utility first. Ring us that day if a cover plate is scorched, the breaker box gives off a singed odor, or one breaker keeps flipping straight back. Touch that breaker only when dry. For smoke, leave and dial 911. Most calls get same-day visits, weekends too.',
   commonIntro:
     'Newer subdivisions, heat pumps and houses full of connected gadgets set the pattern in Alexandria, and these are the clues owners describe.',
   localFaqs: [

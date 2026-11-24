@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const erlanger: LocationServiceCopy = {
   localParagraph:
     'Erlanger is mostly a town of 1950s to 1970s houses with a newer layer on top, so old wiring is rarely the story. Census figures put the median home at 1976, and a third went up in 1990 or later. Most of that wiring tests fine. What sends people to us is a sale, a purchase, an addition, or a heavy new appliance, and the question then is whether the panel has room for it. We test, talk it through and price any work first.',
-  emergencyParagraph:
-    'Any of these turns a planned visit into a same-day one: an outlet that crackles or runs hot, sparks, a smell of burning, or lights sagging whenever the AC kicks in. Shut that breaker off; if it trips again on reset, leave it down. Smoke means leave and dial 911. In Erlanger these usually get seen that day, weekends included.',
   commonIntro:
     'In Erlanger’s mid-century and newer homes, the findings are mostly about capacity and protection:',
   localFaqs: [

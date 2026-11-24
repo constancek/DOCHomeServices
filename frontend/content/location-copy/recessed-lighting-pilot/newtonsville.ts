@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtonsville: LocationServiceCopy = {
   localParagraph:
     'Around Newtonsville, now part of Wayne Township, cans mostly go into one-story ceilings with an attic and a blanket of insulation directly overhead. Census figures show the homes here are overwhelmingly detached houses from the 1970s and early 1980s, and about nine in ten belong to the people living in them, so plenty of kitchens and dens still run on whatever fixture the builder hung. That insulation dictates which housing we choose. Each spot gets marked and the price settled with you ahead of any sawing.',
-  emergencyParagraph:
-    'A singed smell, brown marks around a can, a trim nobody can keep a hand on, or lights that click off and back on by themselves should be looked at today. Kill that breaker if it’s safe. If you see smoke or fire, leave the house and dial 911. We’re out same day on most calls, weekends included.',
   commonIntro:
     'Out along the country roads of Wayne Township, these ranch-house jobs make up most of our recessed lighting work near Newtonsville.',
   localFaqs: [

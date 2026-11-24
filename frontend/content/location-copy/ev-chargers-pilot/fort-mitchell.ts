@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'In Fort Mitchell, the housing shifts street by street, from prewar houses to 1990s builds, with a median of 1971 by Census figures, and about two in five households rent. Prewar houses may still lean on a modest first service with no slack for a 240-volt line. Those from the 1950s through 1970s often have panels stuffed tight. The visit begins at the open panel with a load tally, includes an honest word on whether Level 1 covers your driving, and ends with a price fixed before any wire runs.',
-  emergencyParagraph:
-    'Charging stops if you smell burning, if the receptacle or charger shows scorch marks or runs hot, or if the cord hangs off a warm extension cord. Shut that breaker only when it’s dry underfoot and the panel isn’t warm. With smoke or flame, head outside and phone 911. We’re out the same day on most calls, weekends included.',
   commonIntro:
     'Across the old and newer streets of Fort Mitchell, these are the signs that a Level 2 charger makes sense.',
   localFaqs: [

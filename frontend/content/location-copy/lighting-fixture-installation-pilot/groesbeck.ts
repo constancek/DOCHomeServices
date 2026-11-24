@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'Founded as West Union and renamed Groesbeck in 1857, this corner of Colerain Township is older than it looks, but most of its houses and apartments along Galbraith Road date from the postwar decades. Census counts put the median build year at 1970, with a newer pocket from after 2000. Remodelled kitchens with fresh islands are a natural place for pendants. About a third of homes are rented. Our electrician checks the box and feed, and you sign off on one flat price first.',
-  emergencyParagraph:
-    'Ring us that day if a light starts pulling down, the switch gives off a burnt odor, its plate turns hot or a breaker kicks off when a lamp lights up. Shut that breaker only if reaching it is safe, and nobody lingers below. Smoke or fire means out the door and 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'From Galbraith Road to the Farbach-Werner preserve, most requests we get in Groesbeck are one of these.',
   localFaqs: [

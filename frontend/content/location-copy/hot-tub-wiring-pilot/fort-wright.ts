@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'For a hot tub in Fort Wright, expect a 240-volt line given over to the spa, GFCI protection on it, a disconnect the soaker can see but not reach, and bonding around the tub. Census figures date the median house to 1974, and plenty from the 1980s and 1990s have space in the box. On a hilly lot, the work hinges on where the tub can sit level and how far the conduit travels. We check the box against the spa’s needs and price it first.',
-  emergencyParagraph:
-    'In Fort Wright, call us that day about a spa GFCI that won’t stay reset, a disconnect giving off heat or soot, or a tingle in the water. Help everyone climb out and stay off the equipment. Shut the breaker only when that’s safe, and call 911 for smoke or flame.',
   commonIntro:
     'Up and down the hilly streets of Fort Wright, from 1950s houses to newer subdivisions, these four signs usually start a spa wiring job.',
   localFaqs: [

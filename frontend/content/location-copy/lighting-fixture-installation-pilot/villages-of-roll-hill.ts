@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'At the Villages of Roll Hill, light fixture work goes through the management office, since nearly all of the 703 homes on the hilltop above the Mill Creek valley are rented and most carry Section 8 assistance. The complex opened in the 1960s as Fay Apartments, then a full green rebuild from 2010 to 2012 reworked many buildings. That means one townhome ceiling can be fresh while the next still holds 1960s cable. We open each box, test it and send management a written figure before any fixture is touched.',
-  emergencyParagraph:
-    'Residents should phone the office at once about a kitchen light dangling from its wires, a singed smell, a crackling switch or a breaker that pops with a light. Keep small children away from anything hanging loose. Smoke or flame means getting everyone out and calling 911. Management can usually get us there same day, weekends as well.',
   commonIntro:
     'For the property team on President Drive, the usual requests look like this.',
   localFaqs: [

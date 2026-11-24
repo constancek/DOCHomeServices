@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const walton: LocationServiceCopy = {
   localParagraph:
     'Walton has two kinds of houses, and a hot tub plays out differently in each. Census figures show over half were built after 2000 and about one in five before 1960. Either way the spa gets a 240-volt GFCI circuit of its own, a disconnect box the bather can see but not touch from the water, and bonded hardware. Old-town panels often need sorting first; newer ones usually have room. The maker’s install guide sets the breaker, and you approve a price before we pull any wire.',
-  emergencyParagraph:
-    'In Walton, a GFCI that drops the moment it’s reset, a burnt odor at the disconnect box, a humming panel, or a tingle through the water gets a same-day visit from us on most calls, weekends too. Get out of the tub without touching anything. Switch off the breaker only if safe, and with smoke, leave and call 911.',
   commonIntro:
     'From the older blocks near Main Street to the subdivisions built since 2000, these four bring spa owners in Walton to us most often:',
   localFaqs: [

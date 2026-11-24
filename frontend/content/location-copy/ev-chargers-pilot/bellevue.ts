@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'By Census counts, almost two-thirds of the houses in Bellevue were standing by 1939, and only a sliver were built after 1960. A charger in a house that old often meets a small original service, maybe upgraded once decades ago, with little spare for a 240-volt circuit. Gas heats most of these homes, which leaves more headroom than people expect. Our first stop is the panel and the full load; if the Level 1 cord suits your driving we’ll say so, and the price is agreed before a wire moves.',
-  emergencyParagraph:
-    'A blackened or warm outlet behind a Level 1 cord is the classic warning. Unplug for that, a burning smell, a plug going soft, or a breaker that trips each charge. If you’re dry, turn the circuit off, and for smoke or fire, go outside and call 911. Most calls are seen the same day, weekends included.',
   commonIntro:
     'Century-old houses, two local historic districts and a mostly owner-occupied city shape the charger requests we get across Bellevue:',
   localFaqs: [

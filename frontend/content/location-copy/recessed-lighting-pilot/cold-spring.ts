@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Since most homes in Cold Spring are fairly young, recessed lighting here hinges on attic insulation and spare circuit capacity far more than on old plaster. Census figures give the city a median build year of 1999, and close to half its housing went up after 2000, so expect drywall, open kitchens and trusses overhead. Nearly a quarter of homes are attached townhouse-style units, which adds a shared wall and HOA rules. We lay out every can and lock the price before any drywall gets cut.',
-  emergencyParagraph:
-    'Water seeping from a can, a burnt-wire smell overhead or downlights cycling off and on with nobody touching the switch should be checked today. Flip the breaker for that circuit if it’s safe. If you see smoke or flames, get everybody out and call 911 from the driveway. Most homes in Cold Spring get a same-day visit, weekends too.',
   commonIntro:
     'With builder drywall above most rooms in Cold Spring, these are the upgrades people ask us about first.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const milford: LocationServiceCopy = {
   localParagraph:
     'Milford has pre-war houses where the East Fork meets the Little Miami and big apartment buildings up the hill. Census counts date roughly one home in five to 1939 or before, typically with plaster overhead and a box sized for a lamp. Half of households rent, and about a third live in complexes where management picks every fixture. Lots of older bedrooms never got a fan. Our electrician opens that box first, says so when tightening alone cures a wobble, and quotes before anything is unscrewed.',
-  emergencyParagraph:
-    'Shut off any fan swinging wide, hanging crooked or dragging its box out of the plaster. Motor smoke, a scorched smell, a crackling switch or a breaker that won’t hold count too. Kill it at the panel if safe and move everybody aside. Flames mean leaving and phoning 911. Most calls in Milford get a same-day visit, weekends included.',
   commonIntro:
     'These four are what we hear most in Milford, from the old blocks near the Little Miami to the apartment complexes.',
   localFaqs: [

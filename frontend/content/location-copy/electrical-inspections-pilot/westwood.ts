@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Most Westwood electrical inspections are booked by landlords and property managers, because 65.7% of homes here are rented and many of those sit in apartment buildings. The housing is mostly mid-century, so wiring is generally grounded, but panels and circuits were sized before electric heat and modern kitchens. Census figures show 48.4% of Westwood homes heat with electricity, which adds real load to older services. We check each unit or house, write up the findings and price repairs before any work.',
-  emergencyParagraph:
-    'Call right away for a burning odor, a receptacle that’s hot or discolored, sparks, or a breaker that flips back off the moment you push it on. So do lights that drop sharply when the heat comes on. Shut off its breaker. Smoke or fire: get out and call 911. We reach most calls the same day, including weekends.',
   commonIntro:
     'With so many apartments and rentals in Westwood, the problems we find often repeat from unit to unit:',
   localFaqs: [

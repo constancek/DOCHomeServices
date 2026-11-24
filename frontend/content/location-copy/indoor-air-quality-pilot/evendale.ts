@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Evendale is all single-family houses, nearly every one owner-occupied, and Census figures put the median at 1982, with more than half built in the 1980s and 1990s. Houses from those decades are tighter than older ones, so the trouble here is what stays in rather than what leaks in. Cooking and cleaning fumes linger, and air goes stale without decent ventilation. Basements can still run clammy in August. We test first, price any fix flat before it’s fitted, and tell you if a fresh filter is all the house needs.',
-  emergencyParagraph:
-    'With a carbon monoxide alarm sounding, everyone goes out to the lawn and calls 911. A whiff of gas means leaving switches alone and phoning the gas company outside. Shut a scorched-smelling system off at the thermostat. Mold fanning out after a flood is urgent for infants, grandparents and asthmatics. Same day on most calls, weekends too.',
   commonIntro:
     'Houses from the 1980s and 1990s in Evendale tend to give themselves away like this.',
   localFaqs: [

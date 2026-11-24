@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'In Arlington Heights, the village squeezed inside the I-75 median, nearly two homes in three date from before 1940 by Census figures, and a little over half are rentals. Ceilings from that period are often plaster, with a shallow box nailed up for a single bulb, and plenty of back bedrooms never got a fan. We open that box before hanging anything and swap it for a fan-rated one fixed to the joists if it can’t carry the load. Sometimes the wobble only needs balancing. You hear the price first.',
-  emergencyParagraph:
-    'Get a fan off if it’s lurching on its box or putting out a burnt odor, or if the breaker drops when it spins. Kill it at the wall or the panel when that’s safe, and clear the room. Smoke or fire means walking out and phoning 911. Expect us the same day on most calls, weekends too.',
   commonIntro:
     'Prewar houses and small rental buildings are behind most of these calls in Arlington Heights.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'In Fort Wright, houses went up in steady stages; the Census median is 1974, with plenty from the 1950s and as many again from the 1980s and 90s. The older ranches leak air through dusty original ducts, while the newer houses are tight enough to trap stale air and humidity. About seven in ten households own. Our visit starts with a test, the price is settled before anything goes in, and we’ll tell you if a clean filter fixes it.',
-  emergencyParagraph:
-    'Clear the house before calling 911 about a carbon monoxide alarm. If it’s gas you smell, leave switches alone and call the gas company. A burning furnace or AC smell means switching it off at the thermostat. Spreading mold after a leak puts asthma, babies and older relatives at risk. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'On the hillside streets and in the subdivisions off Kyles Lane, these are the signs that usually lead to a call.',
   localFaqs: [

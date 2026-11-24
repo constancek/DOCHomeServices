@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const burlington: LocationServiceCopy = {
   localParagraph:
     'Homes in Burlington are mostly young, so the case for a whole-home surge protector rests on what they hold. Census figures show nearly half were built in 2000 or later, and most heat with electricity, meaning a heat pump or electric furnace driven by its own control board. Add central air, a smart thermostat and a kitchen of touch-panel appliances. About one in five homes is in a larger apartment building. We open the panel first, mention when strips suffice, and lock in the price before any work.',
-  emergencyParagraph:
-    'If there are flames or smoke, leave and call 911. Phone us about a melted or scorched outlet, a breaker that won’t hold, or a heat pump that sparked when power returned, and expect us that day on most calls, weekends too. Lights throbbing everywhere go to the electric utility first. Trip the breaker only if it’s dry and cool.',
   commonIntro:
     'In the newer subdivisions and apartment buildings of Burlington, surge damage usually shows up in the electronics first.',
   localFaqs: [

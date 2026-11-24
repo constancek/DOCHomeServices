@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'For recessed lighting in Hyde Park, half the job happens before a saw comes out, because plaster, joists and old cable decide where each can may go. Census figures show roughly half the neighbourhood’s homes predate 1940, from Observatory Avenue to the streets off the Square, and their upper rooms often have a thin cavity under the roof. A third of the homes are in apartment or condo buildings, mostly drywall. We pencil every opening on the ceiling, and you sign off on the price first.',
-  emergencyParagraph:
-    'Leave a recessed light off if the paint around its trim has gone tan, it smells scorched, or it blinks out and relights by itself. Kill power at the panel when reaching it is safe, and phone 911 from the sidewalk if smoke shows. Most calls from Hyde Park get a same-day electrician, weekends too.',
   commonIntro:
     'In Hyde Park, the rooms we light tend to be ones that have looked gloomy since the house was new.',
   localFaqs: [

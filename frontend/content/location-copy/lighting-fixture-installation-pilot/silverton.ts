@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const silverton: LocationServiceCopy = {
   localParagraph:
     'Silverton was laid out on skinny lots, so its houses run deep and narrow, and the hallway down the middle often gets one small globe. Swapping that globe or adding a second light hinges on three things up in the ceiling: what the old box can bear, if a ground conductor reached it, and if wiring already runs there. Census numbers say the typical house went up around 1959. A bit over half of the homes are rented. Your quote comes after we have looked inside the box.',
-  emergencyParagraph:
-    'A canopy drooping on its screws or a hot plastic odor at a lamp holder means stop using it today. Kill power at the panel if you can do it without risk, and steer the kids around the spot below. Smoke or flame means leave the house and ring 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Owners of village houses and the three- and four-unit buildings along the side streets bring us jobs like these.',
   localFaqs: [

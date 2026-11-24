@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'In Lawrenceburg, the median home was built in 1983, Census figures show, about a third since 2000, and more than a third of units sit in apartment buildings. Newer apartments and townhomes are sealed tight, so stale air and cooking smells linger. The fewer pre-war houses bring drafts and damp basements, and the river has topped the levees here before. Renters go through the owner or manager. We test first, price work before it begins, and say plainly when a filter will do.',
-  emergencyParagraph:
-    'When the carbon monoxide alarm sounds, everyone leaves, then calls 911. With a gas smell, step out without touching a switch and call the gas company. A burning smell from any unit means the thermostat goes off. Mold after river or pipe water is urgent around babies, older relatives and asthma. Most calls are same day, weekends included.',
   commonIntro:
     'In Lawrenceburg, air complaints from apartments and houses usually look like these.',
   localFaqs: [

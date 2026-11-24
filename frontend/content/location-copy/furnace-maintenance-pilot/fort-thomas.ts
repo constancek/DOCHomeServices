@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'Owners occupy 71.2% of homes in Fort Thomas, by Census figures, and the median one dates to 1955, so a typical tune-up lands on a gas furnace sitting downstairs in a mid-century house. That job is mostly filter, blower, burners and the safety switches. Still, 32.1% of the housing predates 1940, and there the vent often ties into a chimney that earns a slower look. Landlords schedule the apartment buildings. We quote before starting, and if yours needs nothing, we’ll tell you that straight.',
-  emergencyParagraph:
-    'Leave the tune-up for later in Fort Thomas for these. Gas odor: walk outside, no switches, phone the utility from the curb. Carbon monoxide alarm: everybody out. A dead furnace during a cold snap, a burner that keeps cutting off and refiring, a flame burning yellow: repairs. Toddlers and grandparents feel it soonest. Mostly same day, weekends too.',
   commonIntro:
     'In the mid-century neighborhoods and older streets of Fort Thomas, owners tend to call over one of these:',
   localFaqs: [

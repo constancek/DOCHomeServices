@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newMiami: LocationServiceCopy = {
   localParagraph:
     'Up the Great Miami from Hamilton, New Miami is a village of mid-century houses, with a median year built of 1960 in Census figures and more than nine in ten homes detached. A box from that era often has no empty space left, so the panel check settles where a protector could mount. Many of these houses picked up central air next to a gas furnace. We open the panel first, mention it if a strip will do, and fix the price before we start.',
-  emergencyParagraph:
-    'If a toaster or TV threw a spark when the lights returned, or the house smells scorched, phone us; we get to most calls the same day, weekends too. Lights that swell and dim are the electric utility’s to check first. Flip that breaker only from dry ground. If smoke or fire appears, leave the house and call 911.',
   commonIntro:
     'On Whitaker Avenue, Riverside Drive and the streets between, these are the signs that usually lead to a surge protector in New Miami.',
   localFaqs: [

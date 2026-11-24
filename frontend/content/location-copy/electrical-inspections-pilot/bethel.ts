@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bethel: LocationServiceCopy = {
   localParagraph:
     'In Bethel, a lot of our inspections are for landlords. Census figures show 51.7% of the village’s homes are rented, and over a third of units sit in buildings of three or more apartments, often older houses split up years ago. That is where we find shared panels, circuits nobody labeled and outlets added without grounds. About a quarter of homes date from before 1940, so single-family owners see the same issues on a smaller scale. You get a written report and a price before anything is fixed.',
-  emergencyParagraph:
-    'In a Bethel apartment or house, these jump the queue: a plate that’s hot or buzzing, scorch marks, a burning odor, sparks from a plug, a breaker that refuses to stay on. Flip that breaker off. Smoke or flame means everyone outside and 911. Tenants, tell the landlord too. Most calls get a technician the same day, weekends included.',
   commonIntro:
     'Between the converted houses and the small apartment buildings, these are the problems that fill our reports in Bethel.',
   localFaqs: [

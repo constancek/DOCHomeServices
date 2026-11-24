@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const melbourne: LocationServiceCopy = {
   localParagraph:
     'In Melbourne, fan work mostly means old ceilings. Census figures put the median house at 1958, and roughly three in ten date from 1939 or earlier, nearly all of them detached and owner-lived. Plaster overhead often hides a shallow pancake box meant for a hall globe, and it loosens fast under a spinning motor. Some back bedrooms were never wired for a ceiling fixture. We look behind the old light, tell you if snugging a bracket is enough, and name the price before anything is replaced.',
-  emergencyParagraph:
-    'When a fan lurches, droops or yanks at a loose box, switch it off at the breaker and clear the space below. Smoke from the motor, a burnt-wire smell, sparks at the switch plate or a breaker that trips at start-up are just as urgent. Flames mean everybody outside and a call to 911. Same-day visits are typical, weekends included.',
   commonIntro:
     'Near St. Anne and along Mary Ingles Highway in Melbourne, these four fan troubles show up most.',
   localFaqs: [

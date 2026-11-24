@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'More than half of Glendale’s homes were built in 1939 or earlier, Census figures show, and many sit in the historic district laid out in 1851. In houses that old, an electrical inspection can find knob-and-tube or cloth-covered wiring still live behind the plaster, two-prong outlets with no ground, and panels added long after the house was finished. We separate the risky from the merely old and price nothing until you’ve seen the report.',
-  emergencyParagraph:
-    'In a Glendale house, some signs mean act today: a smell of hot insulation, a warm switch plate, brown scorching around an outlet, sparks, or a breaker that won’t hold after a reset. Shut that breaker off. Smoke or flame means leaving the house and phoning 911. Most Glendale calls are answered with a same-day visit, weekends included.',
   commonIntro:
     'Glendale inspections split between the village’s pre-war houses and its newer streets, but most findings come from the older half. What we see most:',
   localFaqs: [

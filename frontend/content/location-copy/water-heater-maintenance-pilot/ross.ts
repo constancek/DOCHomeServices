@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross filled out in the 1960s and 1970s; Census figures put 49.4% of its homes in those two decades, and hardly any are older. The heater tends to stand in a garage, utility room or basement with room to drain it, which keeps the visit to a flush, an anode look and a relief valve trial. Renters live in 26.1% of homes, mostly houses and small buildings. Extras get priced before we begin, and if the tank isn’t worth the visit, we’ll say.',
-  emergencyParagraph:
-    'Leaking tank: close the cold line valve over it, then switch off gas or power. Gas smell: into the yard, no switches, nothing relit, then call the gas company. Carbon monoxide alarm: everybody out. A relief valve popping off over and over, or no hot water: book a repair, not upkeep. Usually we’re there the same day, weekends included.',
   commonIntro:
     'Around Ross Township, a heater that still works often signals it’s due like this:',
   localFaqs: [

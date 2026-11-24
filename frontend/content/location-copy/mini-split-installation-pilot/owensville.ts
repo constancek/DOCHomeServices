@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const owensville: LocationServiceCopy = {
   localParagraph:
     'In Owensville, the middle house was built in 1974, by Census figures, and just 5.8% predate 1940, so the work here is less about old houses and more about rooms the ducts shortchange: a family room above the garage, a finished basement, a sunroom. Electric heat is the norm in most homes, and a mini-split warms rooms too. Renters fill most households, which hands the decision to the landlord. The price comes in writing first, and if another fix makes more sense, you’ll hear that.',
-  emergencyParagraph:
-    'When July runs at its 86F normal high (National Weather Service), the room above a garage in Owensville is often the hottest by late afternoon. Toddlers, aging parents and anyone sick suffer most. Installs get booked fast, and a one-room system usually takes a day. A mini-split that failed needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Requests in Owensville tend to come from rooms like these:',
   localFaqs: [

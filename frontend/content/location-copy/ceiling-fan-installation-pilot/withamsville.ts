@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Withamsville was built in two main spurts, Census figures show, the first in the 1940s and 50s and a larger one in the 1980s and 90s. Postwar houses usually got a ceiling box set for a light and nothing heavier, and a few later family rooms rise to a sloped peak needing a down rod. A bit more than half the homes are rentals, many in complexes, where the owner signs off first. We open the box, say so if tightening is the cure, and set the price before starting.',
-  emergencyParagraph:
-    'Act now if a fan is shaking itself loose, its box is sagging, the switch sparks or the motor smokes. Cut it at the switch or breaker if safe and move people out from beneath it. Apartment residents then ring the manager. With fire, go outside and call 911. Most calls are seen the same day, weekends too.',
   commonIntro:
     'We see these four most across the apartments and the older and newer houses of Withamsville:',
   localFaqs: [

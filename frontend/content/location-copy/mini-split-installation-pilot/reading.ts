@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'Reading’s housing peaked in the postwar years: Census figures give a median build of 1956, and 37.6% of homes date from 1940 to 1959. Another 23.5% are older still, and many of those were never fitted with ductwork. For them, a wall-hung ductless head means cooling without chasing new ducts through plaster. In the 1950s stock, we’re usually called for a basement rec room or a back porch someone enclosed. Expect one fixed figure before a tool comes out, and an honest no if ductless won’t pay off here.',
-  emergencyParagraph:
-    'Reading sees about 21 days a year at 90F or hotter (National Weather Service), and a converted attic soaks that up. Grandparents, infants and people with asthma or illness suffer first. Installs go on the calendar fast, and one head usually takes one working day. A failed unit you own goes to Mini-Split Repair, usually same day, weekends too.',
   commonIntro: 'Here’s what tends to start a ductless conversation in Reading:',
   localFaqs: [
     {

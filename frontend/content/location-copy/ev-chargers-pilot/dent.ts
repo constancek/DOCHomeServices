@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dent: LocationServiceCopy = {
   localParagraph:
     'Dent’s housing is mostly from after 1990; Census figures place the median home at 1995. A builder-era panel that young often still has slots for a 240-volt charger line, and if not, load management can stretch what’s there. About one home in four is in a building of five or more units, and townhomes add to that, which brings an association or manager into the decision. Our electrician reads the panel, totals the household load, says if the Level 1 cord is plenty, and prices the job up front.',
-  emergencyParagraph:
-    'Heat you can feel through the plug, scorch marks or melting on the outlet, a hot-plastic smell, or a breaker that won’t hold during a charge means the session ends now. Flip that circuit’s breaker off, provided the panel is dry. Flames or smoke mean leave and phone 911. Most calls see us the same day, weekends included.',
   commonIntro:
     'From townhome owners to condo boards to owners of 2000s houses, these are the charger calls we take in Dent:',
   localFaqs: [

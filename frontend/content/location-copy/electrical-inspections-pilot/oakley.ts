@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'In Oakley an electrical inspection depends on which side of the neighborhood you’re in. Census figures show 47.7% of homes were built in 1939 or earlier, mostly bungalows and two-families where we check for cloth-covered wire, ungrounded outlets and small panels. Another 12.5% date from 2000 or later, many of them apartments whose wiring is usually fine; people there book us before adding a charger or after a problem. Either way we go through the system, write down what we find and quote repairs before work starts.',
-  emergencyParagraph:
-    'A burning smell, a charred or buzzing switch, sparks, or a breaker that flips off again once it’s reset shouldn’t wait for an Oakley inspection slot. Cut power to that circuit at the panel. With smoke or fire, everyone gets out and someone calls 911. Most calls are covered the same day, weekends included.',
   commonIntro:
     'Oakley’s older streets are full of bungalows and two-families from before 1940. What our inspections turn up most:',
   localFaqs: [

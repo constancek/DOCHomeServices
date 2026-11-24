@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Kennedy Heights is a hilltop mix of eras. Close to half its houses went up before 1940, by Census counts, and much of the rest arrived between the war and the 1970s. The oldest may still run on a meager original service, and a postwar box is often crammed with breakers. About half the homes are detached, the rest two-families and apartments. We open the panel and work the load calculation, say if the trunk cord is enough, and agree a price before any wire moves.',
-  emergencyParagraph:
-    'Scorch marks on the charger or receptacle, a melting plug or a burnt smell mid-charge are reasons to stop at once. Throw that breaker only if the panel is reachable without touching anything wet. With smoke or flame showing, get everyone out and ring 911. In Kennedy Heights, most calls get a technician that same day, weekends included.',
   commonIntro:
     'Between the older houses, the postwar ones and the two-families in Kennedy Heights, these are the situations that bring owners to us.',
   localFaqs: [

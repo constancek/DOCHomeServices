@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Mail in Withamsville is addressed to Cincinnati, but this is Clermont County, a stretch of Union Township off the Ohio Pike. About three homes in ten date from the 1940s and 1950s, a larger share from the 1980s and 1990s, and the Census median is 1980. More than half are rented, many in complexes. So our calls split between kitchens remodeled around a leftover ceiling light and managers refreshing hall lights unit by unit. Older houses can hide a small box or an ungrounded ceiling, and we look before pricing.',
-  emergencyParagraph:
-    'When a fixture droops on its wires, a light or switch gives off a hot, burnt odor, or lights waver on two or more circuits, treat it as today’s problem. Kill the breaker if that’s safe, and keep the space under the fixture empty. Smoke or open flame means leaving and phoning 911. Same-day visits are normal, weekends too.',
   commonIntro:
     'Owners, renters and managers off the Ohio Pike mostly call about these.',
   localFaqs: [

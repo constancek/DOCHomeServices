@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Most of Harrison is young housing. Census figures put the median year built at 1992, with a big share finished since 2000, so a whole-house rewire is rarely the answer here. Newer houses usually need circuits for a finished basement or kitchen remodel, or a fix for one run that keeps dropping out. The few older houses may need more. We put a meter on the circuits first, tell you when they’re healthy, and settle the scope and flat price on paper before opening drywall.',
-  emergencyParagraph:
-    'When a receptacle smells like it’s cooking, a plate has browned, something sizzles behind a switch, a fixture zaps you, or a breaker flips straight back, phone us; nearly every one of those gets a same-day visit, Saturdays and Sundays too. Throw that breaker only while standing somewhere dry. Should smoke show up, get clear and dial 911.',
   commonIntro:
     'Across the newer subdivisions and older streets of Harrison, wiring that’s failing or overloaded usually looks like this:',
   localFaqs: [

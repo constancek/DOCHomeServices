@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const avondale: LocationServiceCopy = {
   localParagraph:
     'Avondale inspections are mostly in two-families and three- and four-unit buildings, which make up a big share of the housing here. Census figures put 43.0% of homes at 1939 or earlier, with a lot more from the 1940s through the 1970s. In the oldest buildings we look for cloth wire and ungrounded outlets; in the mid-century ones, panels with too few circuits. With 49.6% of homes on electric heat, we check how hard each panel works in winter. Every finding goes in writing, and repairs are priced first.',
-  emergencyParagraph:
-    'Some Avondale problems can’t be booked for later: a burning smell, an outlet gone brown around the slots, snapping sounds or sparks, a breaker that trips again right away. Turn that breaker off. If there’s smoke or fire, get people out and call 911. We send someone the same day on most calls, weekends included.',
   commonIntro:
     'With 76.1% of Avondale homes rented, most of our inspections are for owners of small multi-unit buildings. The problems we find most:',
   localFaqs: [

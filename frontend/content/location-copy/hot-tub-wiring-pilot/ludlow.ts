@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Ludlow is an old river town, and the age of its houses drives most spa jobs. Census figures put the median at 1938, with about six in ten homes built before 1940, mostly detached. A hot tub needs its own 240-volt GFCI breaker, and an original panel that old seldom has the room, so we sort that first. The newer houses usually pass easily. Every quote starts with comparing your panel to the spa’s spec sheet, and the number comes before any digging.',
-  emergencyParagraph:
-    'A ground-fault breaker that won’t stay latched, or a tingle felt in the water, means everyone leaves the tub at once. Keep hands off the equipment, and switch off the breaker only if the route to it is safe. Smoke means getting out and phoning 911. In Ludlow, most of these calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'In Ludlow, most spa wiring calls come down to one of these four.',
   localFaqs: [

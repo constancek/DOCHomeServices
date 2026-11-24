@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westernHills: LocationServiceCopy = {
   localParagraph:
     'Western Hills is spread across parts of Cincinnati, Cheviot and Green Township, and Census figures for its two ZIP codes, 45211 and 45238, put the typical house at around 1960. Back then nobody planned a breaker box around central air, a dishwasher and a drawer of chargers, so yours may be full, and its spare room decides where a protector sits. The equipment added since is what surges go after. We open the box, say when strips will do, and the price is fixed before work begins.',
-  emergencyParagraph:
-    'An outlet with scorch marks or a breaker box giving off a burnt smell after a storm, or a breaker that won’t stay on past one reset, earns a same-day visit, which is what most calls get, weekends included. If every light surges bright then sags, ring Duke Energy Ohio first. If smoke appears, get out and call 911.',
   commonIntro:
     'Across the mid-century streets that make up much of Western Hills, these four signs usually lead to a surge protection quote.',
   localFaqs: [

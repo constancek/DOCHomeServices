@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dillonvale: LocationServiceCopy = {
   localParagraph:
     'Dillonvale was laid out in the 1940s by Dillon Builders, and Census figures show nearly three quarters of its homes date from 1940 to 1959. Those compact houses near East Galbraith Road were wired for one ceiling light per room and a hallway with a single small fixture. Their boxes were not meant for heavy lights, and some ceilings have no ground. Many owners here want brighter LED fixtures. We check the box and give you a set price before anything comes down.',
-  emergencyParagraph:
-    'Same-day help in Dillonvale is for a fixture working loose, a switch that crackles when flipped, or plastic melting around a light. If the breaker is safe to reach, turn that circuit off and let nobody stand beneath it. If there is smoke or fire, everyone leaves and someone calls 911. We get to most calls that day, weekends too.',
   commonIntro:
     'Owners in Dillonvale tend to call us for these.',
   localFaqs: [

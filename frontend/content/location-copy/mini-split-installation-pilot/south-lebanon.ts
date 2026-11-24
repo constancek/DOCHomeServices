@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'South Lebanon has grown fast. By Census figures the median home dates from 2007, so ductwork is usually in place. The ductless work in those subdivisions is the space the furnace blower can’t push enough air to, often a room above the garage or a basement finished later. Around the older blocks off High Street, houses went up with no ducts, and a wall head cools them without opening walls. Your flat price comes before any drilling, and if ductless is wrong for the house, you’ll hear it from us.',
-  emergencyParagraph:
-    'Over a garage in South Lebanon, a bedroom turns stifling by evening, and the National Weather Service logs 21 or so days a year at 90F or above. Little ones, grandparents and anybody ill fade first. Our install calendar moves fast. For a broken unit already on the wall, Mini-Split Repair comes same day on most calls, weekends included.',
   commonIntro:
     'Calls from South Lebanon, new subdivision or old street, tend to start with one of these rooms:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Townhomes and condos are a big part of Crestview Hills; Census figures list 26.3% of homes as attached single-family, and the median home was built in 1984. Most heaters we service here stand in a utility closet or an attached garage, and a typical visit is draining sediment, judging the anode and working the relief valve, without decades-old fittings to coax. Around one household in four rents. You agree the charge up front, and we’ll tell you plainly if a tank is past servicing.',
-  emergencyParagraph:
-    'Breakdowns are repairs. A tank letting go: shut the cold-water valve on its top, then the gas or circuit. Any gas odor: get out, don’t touch switches or light anything, phone the gas company outdoors. Carbon monoxide alarm sounding: everyone out. A relief valve that won’t settle or no hot water: same-day on most calls, weekends included.',
   commonIntro:
     'Townhome and condo owners in Crestview Hills usually notice one of these first:',
   localFaqs: [

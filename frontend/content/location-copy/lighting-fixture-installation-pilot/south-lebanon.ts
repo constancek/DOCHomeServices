@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southLebanon: LocationServiceCopy = {
   localParagraph:
     'Island pendants and foyer chandeliers top the list in South Lebanon, because so much of the town is new. Census data puts the median home at 2007, and about two of every three went up after 2000, which means grounded wiring, roomy kitchens and entries open to the second floor. The old core by South Main and South High streets is another matter, with pre-1960 houses that may have just one ceiling light per room. We size up the box and splices, then name a firm price.',
-  emergencyParagraph:
-    'Phone us today about any entry fixture tilting from its mount, a wall switch that hums, or lights that knock out their breaker. Shut that circuit off when the panel is within safe reach, and nobody stands underneath. Smoke or flame means everyone out and a call to 911. Expect us the same day in most cases, weekends as well.',
   commonIntro:
     'In South Lebanon, the light fixture requests we hear most look like this.',
   localFaqs: [

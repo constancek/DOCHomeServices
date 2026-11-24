@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'New Richmond is younger than the riverfront makes it look. By Census figures, the typical home dates to 1986 and a third went up after 1999, so most ductless work here is a space the central system skipped, like a sunroom, a lower-level family room or a bedroom above the garage. The riverside houses with plaster walls and nowhere to hide a duct take a mini-split without tearing anything open. You see our flat number first, and if ductless is a poor match for the house, we say that plainly.',
-  emergencyParagraph:
-    'Summer brings roughly 21 days at 90F or above, the National Weather Service reports, and a closed-up upstairs room weighs on grandparents, infants and people with asthma. Our install calendar moves fast, one head normally in a day. When an existing ductless unit breaks, book Mini-Split Repair, out the same day on most calls, weekends too.',
   commonIntro:
     'From newer subdivisions up the hill to the older houses by the river, these spaces are behind most requests for a ductless quote in New Richmond:',
   localFaqs: [

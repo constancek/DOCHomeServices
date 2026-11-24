@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southgate: LocationServiceCopy = {
   localParagraph:
     'Housing in Southgate is split roughly down the middle. Census figures show 41.0% of homes sit in buildings of five or more units, where an owner or association schedules the work, often for the whole building. Most of the rest are houses, and 28.9% of all homes predate 1940; cooling in those came later, often with an air handler up in the attic feeding long duct runs. Whichever you have, the price is fixed before work begins, and a healthy system gets a plain nothing-needed.',
-  emergencyParagraph:
-    'If rooms keep warming while the AC runs, that’s a repair. Ice on the piping means thermostat off until it thaws. If the attic unit drips through a ceiling or something smells burnt, shut it down and call. Older folks, babies and the ill suffer first. Most calls are reached the same day, weekends too.',
   commonIntro:
     'We get calls like these from houses, condos and whole apartment buildings in Southgate.',
   localFaqs: [
@@ -29,20 +27,20 @@ export const southgate: LocationServiceCopy = {
     proseSections: [
       {
         title: 'What AC Maintenance Includes in Southgate',
-        body: 'Attic equipment shapes the visit in many older houses here. We climb up, swap a filthy filter, inspect the evaporator coil and flush the condensate line, then check the secondary pan, because an overflow up there lands on a bedroom ceiling. Down at the condenser, the coil gets washed and leaves pulled clear. We read refrigerant pressure; low means a leak, quoted as its own repair instead of a recharge. Capacitor, contactor and electrical connections are tested, blower and airflow checked, thermostat confirmed, and the system runs through a whole cycle. Apartment closets get the same list. You okay any repair beforehand.',
+        body: 'In the pre-1940 houses of Southgate, the air handler is often in the attic, so we climb up first. Up there, a grimy filter is swapped, a flashlight goes across the evaporator coil, water chases through the condensate line and the secondary pan gets checked, since a spill there stains a bedroom ceiling. In the yard, the condenser coil is rinsed and the leaves raked off. Gauge readings flag any refrigerant leak, which we quote as a repair rather than recharge. Capacitor, contactor and wire connections get metered, the blower and airflow measured, the thermostat tried, and the system runs start to finish. Repairs wait on your okay.',
       },
       {
         title: 'When AC Maintenance Is Worth It, and When It Isn’t',
-        body: 'Book it when there’s no service history, you just moved in, water shows up in the pan, a new rattle starts, or bedrooms cool unevenly. Owners of apartment buildings gain the most from a spring round. Skip it when the system had a checkup within the past year and runs normally. An AC blowing warm or with iced piping needs AC Repair instead. If we’ve already advised replacement, the money is better spent on the new system, covered on our AC Installation & Replacement page. Between visits, owners can swap filters, keep the condenser clear and keep registers open.',
+        body: 'In Southgate, the visit earns its money on an AC whose paperwork is missing, a house or condo with new keys on the counter, water sitting in the attic pan, a rattle you’ve never heard before, or a back bedroom that lags the rest. An apartment owner gets the most from one spring round across every unit. If we tuned it last year and nothing has changed, let it be. Warm air or iced-over piping is an AC Repair job, and once we’ve recommended replacement, the money goes further on the new system through AC Installation & Replacement. Between visits, the owner keeps filters fresh and the condenser clear.',
       },
       {
         title: 'Central Air and Heat Pump Maintenance in Southgate',
-        body: 'Electric heat is widespread in Southgate, which points to plenty of heat pumps. One of those never rests, so it gets a spring visit for cooling and an autumn visit for heating, with the reversing valve and defrost controls exercised. Houses running a gas furnace with a separate air conditioner only need the spring trip, since that condenser sits idle once October arrives.',
+        body: 'More homes in Southgate heat with electricity than with gas, a strong hint that heat pumps are common. A heat pump works in January as hard as in July, so it gets a spring tune-up for cooling and an autumn one for heating, when we put the reversing valve and defrost controls through their paces. A house with a gas furnace and a separate AC only needs the spring trip; that condenser goes quiet by October.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in Southgate Book AC Maintenance With Us',
     whyParagraph:
-      'Attic systems in older houses and full buildings of apartment units make up most of our work here. Every technician is licensed, insured, background-checked and drug-tested, and the flat price comes before any tools.',
+      'Attic air handlers in pre-war houses and large apartment buildings are most of what we see in Southgate. Technicians are licensed and insured, staff are background-checked and drug-tested, and the flat price is on paper before a panel comes off.',
     sharedFaqs: [
       {
         q: 'How is AC maintenance priced in Southgate?',

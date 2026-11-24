@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bridgetown: LocationServiceCopy = {
   localParagraph:
     'Bridgetown is a place of owner-occupied houses, close to nine in ten by Census figures, and most went up after the war. The median year built is 1962, and two in five homes date from the 1940s or 1950s. Houses like these often pick up central air, a replacement furnace and a redone kitchen over the decades, which is what a surge actually damages. Our electrician opens the panel first, says so if strips will do the job, and you have the price before any work.',
-  emergencyParagraph:
-    'A hot smell at an outlet, a breaker that trips after a reset or a furnace that popped as power returned means a visit, most often that day, weekends included. If every room brightens and dims, Duke Energy hears from you first. Kill the circuit only when safe; for smoke or fire, go out and call 911.',
   commonIntro:
     'Mid-century houses along Bridgetown Road and the side streets off it give these warnings before an owner asks about surge protection.',
   localFaqs: [

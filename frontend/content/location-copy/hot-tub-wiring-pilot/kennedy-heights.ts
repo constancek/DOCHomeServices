@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const kennedyHeights: LocationServiceCopy = {
   localParagraph:
     'Census figures date the median home in Kennedy Heights to 1944, and close to half went up before 1940. Those panels have gained a circuit here and a circuit there for decades, so the open slot and spare headroom a spa breaker wants may be gone, and that’s handled first. The tub then gets a 240-volt GFCI circuit of its own, a shutoff and bonding, and an inspector closes it out. We weigh the panel against your spa’s requirements and quote the job before conduit goes in.',
-  emergencyParagraph:
-    'Shut the spa down for a buzzing panel, a scorched shutoff box, or a breaker that drops straight back out after a reset. Anybody who feels a tingle climbs out, and nobody reaches into the water to help. Flip the breaker only if that’s safe, and dial 911 for smoke. Most calls get a same-day visit, weekends included.',
   commonIntro: 'Here’s what usually starts a spa wiring call from Kennedy Heights.',
   localFaqs: [
     {

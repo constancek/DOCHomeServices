@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'Two of every three homes in Norwood were standing before 1940, Census figures show, and the city has plenty of two-families. Wire from that era may be knob-and-tube or cloth-sheathed without a ground, feeding two-slot outlets on circuits planned for lamps and a radio. Today those same few circuits carry a fridge, a microwave and a window air conditioner in each unit. A test comes before any quote, and if the wiring is fine you’ll be told so. Scope and flat price get signed before a single wall is cut.',
-  emergencyParagraph:
-    'Hot-plastic smells at a receptacle, a browning switch plate, buzzing, sparks, a jolt from an appliance or a breaker that won’t stay on after a reset all warrant a call. Flip that breaker off if the panel is dry and reachable. With smoke or flames, everyone leaves and someone dials 911. Most calls get a visit that day, weekends too.',
   commonIntro:
     'Single houses and two-families across Norwood tend to send up the same four warnings.',
   localFaqs: [

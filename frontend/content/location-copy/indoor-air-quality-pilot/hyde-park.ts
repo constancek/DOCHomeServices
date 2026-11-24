@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Half the homes in Hyde Park were standing by 1939, Census figures show, and that age decides most of what we find in the air. Old windows leak cold air, basements stay damp into July, and ducts threaded through the house decades after it was built pick up basement dust and push it upstairs. In the apartment buildings, which hold about a third of units here, the owner picks the equipment. Readings come before suggestions, a quote comes before work, and sometimes the honest answer is a cleaner filter.',
-  emergencyParagraph:
-    'A sounding carbon monoxide detector means the household goes outside before anyone dials 911. Gas odor means leaving with lights untouched and phoning Duke Energy outside. A burning smell from a furnace or AC means switching the thermostat off. Mold spreading after a burst pipe is harder on babies, grandparents and asthma. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Owners and renters near Hyde Park Square usually describe the problem in one of these ways.',
   localFaqs: [

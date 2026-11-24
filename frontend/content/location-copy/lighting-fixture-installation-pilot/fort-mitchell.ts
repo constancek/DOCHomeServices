@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Old flat glass ceiling lights are what people most want gone in Fort Mitchell, and each swap starts with what it’s screwed to. Census counts put the middle of the city’s housing at 1971, yet streets off Dixie Highway keep houses from the 1910s and 1920s, where plaster and boxes with no ground show up more often. More than two in five households rent, many in small apartment buildings. We read the box and the wiring, and the price is locked in before anything leaves the ceiling.',
-  emergencyParagraph:
-    'Treat it as same-day work if a light is working loose, a switch plate is warm or crackling, or you find scorching or smell burning. Turn off that circuit at the panel if it’s safe, and keep people back. With smoke or flame, get out and phone 911. We get to most calls in Fort Mitchell that day, weekends too.',
   commonIntro:
     'Among homeowners and landlords in Fort Mitchell, these four come up most.',
   localFaqs: [

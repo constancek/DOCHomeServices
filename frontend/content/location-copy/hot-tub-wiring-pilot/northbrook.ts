@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Northbrook is mostly 1960s and 1970s housing, with a median of 1970 in Census figures, and about a third of homes run on electric heat. That split decides a lot. A gas-heated house of that era may still have open slots, while an all-electric one can be close to its limit already. A spa adds a 240-volt circuit of its own behind a GFCI breaker, a disconnect visible from the tub, and bonding. We size everything to the tub’s documentation and pin down the cost before any trench opens.',
-  emergencyParagraph:
-    'Call us quickly if a spa breaker won’t latch after resetting, a burnt odor drifts from the disconnect, or a soaker reports a tingle. Climb out and keep your hands off the pumps and panel. Cut power at the breaker only if that’s safe, and call 911 for smoke. We reach most calls the same day, weekends included.',
   commonIntro:
     'Across the streets off Pippin Road and Colerain Avenue, owners usually phone us about one of these four.',
   localFaqs: [

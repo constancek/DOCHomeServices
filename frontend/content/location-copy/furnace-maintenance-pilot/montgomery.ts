@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'Furnace maintenance in Montgomery is almost all owner-occupied houses: Census figures count 90.1% of homes lived in by their owners and 34.6% built during the 1970s, the busiest building decade. By now most of those houses are on a later furnace, sitting in a basement that is often finished. So our time goes to airflow, burners and the safety switches more than to old chimneys. Gas is the usual fuel. You sign off on the flat price before tools come out, and a furnace that needs nothing is left alone.',
-  emergencyParagraph:
-    'Some calls jump past maintenance. Smell gas: walk out, leave the lights untouched, reach Duke Energy from the driveway. A carbon monoxide alarm clears the house first. No heat on a frigid night, a furnace stuttering on and off, a flame gone yellow: those are repairs. Grandparents and newborns take the cold hardest. Same-day visits on most calls, weekends too.',
   commonIntro:
     'Owners of the 1970s houses that fill much of Montgomery tend to call once they spot:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westPriceHill: LocationServiceCopy = {
   localParagraph:
     'Census figures date more than eight in ten homes in West Price Hill to before 1970, and about half are rented. A breaker box from that time was sized for a radio and a refrigerator, and it’s often out of spaces, which settles where a protector can go. Many houses have since picked up central air and a newer gas furnace with a control board, the parts surges wear down. We open the box, tell you if strips are all you need, and quote the job before anything starts.',
-  emergencyParagraph:
-    'Call that day for an outlet that smells burnt after a surge, a breaker that trips the moment you reset it, or a furnace that sparked as the lights came back; on most calls we’re there same day, weekends included. If every light brightens and dims at once, Duke Energy Ohio comes first. With smoke, leave and dial 911.',
   commonIntro:
     'In West Price Hill, where most houses predate 1970, these four signs tell us one is due for surge protection.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westwood: LocationServiceCopy = {
   localParagraph:
     'Westwood sees every kind of rewiring job, as the city’s largest neighborhood with buildings spanning most of a century. Census counts place roughly a fifth of its homes before 1940 and show nearly two-thirds rented. A pre-war house may run knob-and-tube, ungrounded throughout. Apartment blocks from the 1960s and 1970s sometimes have aluminum branch circuits and seldom enough lines for electric heat plus a current kitchen. Testing comes ahead of any recommendation, we’re straight when nothing needs doing, and the scope and flat price go down in writing.',
-  emergencyParagraph:
-    'Westwood gets a same-day visit on most calls, weekends included, when an outlet or switch is hot or charred, a wall smells of burning, a breaker drops again after reset, or anyone takes a shock. Tenants tell the landlord first. Cut that circuit if the panel is dry and cool, and if smoke appears, leave and call 911.',
   commonIntro:
     'Whether it’s an old house on a side street or a big apartment building on a main road in Westwood, these are the signs we see most.',
   localFaqs: [

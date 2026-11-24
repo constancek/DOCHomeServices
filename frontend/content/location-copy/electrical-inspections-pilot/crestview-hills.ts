@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Crestview Hills is a 1980s and 1990s city: Census figures count 56.9% of homes built in those two decades, and about a quarter are attached condos and townhomes. Wiring that age is usually sound, so an inspection here is rarely about old cloth wire. People call us before selling a townhome, after buying one, or before adding a charger or a sunroom. We look at the panel and circuits, put it in writing, and give you a price for anything that needs fixing first.',
-  emergencyParagraph:
-    'In a Crestview Hills condo or house, a few signs mean phone us today, not next week: a scorched or hot outlet, a switch that buzzes, sparks, a burning smell, or lights that dip hard when the heat kicks on. Shut off that breaker. With smoke or fire, leave and call 911. Most calls are answered same day, weekends included.',
   commonIntro:
     'Crestview Hills has more condos and townhomes than most Kenton County cities. These are the problems we find most often:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const montgomery: LocationServiceCopy = {
   localParagraph:
     'Expect a tune-up in Montgomery to be on a 1970s or 1980s house. By Census figures, the median home dates to 1976, and the 1970s out-built every other decade. Plenty of those houses had central air early, so ducts fit it, and the air handler usually stands next to the furnace downstairs. Coil, drain and wiring are where we spend the time. We give a flat price before starting, and if your system is in good order, we say so and pack up.',
-  emergencyParagraph:
-    'An AC falling behind on a hot afternoon, frost on the lines, a puddle by the basement unit or a burning smell all go to AC Repair. Switch the thermostat to off and leave alone any breaker that trips a second time. Heat is hardest on older relatives, babies and anyone ill. Most repair calls are same day, weekends included.',
   commonIntro:
     'In the 1970s houses that make up much of Montgomery, the AC tends to show it’s due like this:',
   localFaqs: [

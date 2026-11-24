@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Most of Crestview Hills is 1980s and 1990s construction, and Census figures put 56.9% of its homes in those two decades. Houses that young came with ductwork, so ductless jobs here go after whatever the builder’s layout forgot, like the loft above a two-car garage, a walkout rec room or a porch somebody glassed in. Townhomes and condos account for 26.3% of the housing, which brings an association into the decision. You get a written flat figure ahead of any drilling, and an honest no if ductless won’t help.',
-  emergencyParagraph:
-    'The garage loft turns on you first during the roughly 21 days a year of 90F or worse (National Weather Service). Grandparents, infants and anyone with lung trouble shouldn’t sleep up there then. We book promptly, and one wall unit normally takes a day. A system you own that died needs Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Garage lofts, lower levels and townhome top floors in Crestview Hills are where most of our ductless quotes start:',
   localFaqs: [

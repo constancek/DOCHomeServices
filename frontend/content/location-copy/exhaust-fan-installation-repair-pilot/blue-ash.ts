@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'In Blue Ash, we mostly meet builder-grade fans that drone away while the mirror stays clouded. Census figures place the median home at 1981, and the 1980s added more houses here than any other decade, so nearly every bathroom has a fan, frequently the cheapest model the builder could order. Now and then the duct behind it was never hooked to anything outdoors. Over a quarter of homes are in larger apartment or condo buildings. We find where the air truly goes and quote before any drywall is cut.',
-  emergencyParagraph:
-    'Kill power at the switch or panel, if that’s safe, when the fan smells hot, sparks or shows a scorched shell. Do the same if the breaker drops as it runs or water leaks from the grille. With smoke or fire, leave and ring 911. Blue Ash gets same-day help from us on most calls, weekends too.',
   commonIntro:
     'In the 1970s and 80s houses and the condo buildings around Blue Ash, these are the signs owners tend to notice first:',
   localFaqs: [

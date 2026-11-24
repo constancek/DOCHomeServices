@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const villagesOfRollHill: LocationServiceCopy = {
   localParagraph:
     'The Villages of Roll Hill is a managed complex of garden apartments and townhomes on the hill above the Mill Creek valley, and Census figures count 773 of 895 occupied homes around it as rented. A breaker-box protector here is the property manager’s call, not a tenant’s. The buildings went up in the 1960s and were overhauled between 2010 and 2012, so we inspect each panel before promising space for one. Residents can put a TV or computer on a surge strip, and managers see a fixed price first.',
-  emergencyParagraph:
-    'Residents who notice a scorched outlet after a storm, or a breaker that won’t stay up after one reset, should phone the management office and use the word urgent; we answer managers the same day on most calls, weekends included. Don’t open the panel if anything is damp or warm. If you smell smoke, get out and call 911.',
   commonIntro:
     'Tenants in the garden apartments and townhomes tend to notice these first, and each one is worth a note to the management office.',
   localFaqs: [

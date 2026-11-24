@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Indian Hill is a detached house, and Census figures put the median at 1974. A 1970s panel is often already crowded with circuits, while a house from the 2000s usually has room. The city spreads 3,531 homes over 18.7 square miles, so the distance from the panel to where you park can drive the cost. We check the panel, do the load calculation, and price the job before any wire is pulled, or tell you the Level 1 cord is enough.',
-  emergencyParagraph:
-    'A charging cable that’s been crushed under a tire or nicked, or a charger giving off a hot, burning odor, means the session ends. Shut off that breaker only from dry ground, touching nothing hot. If you see smoke or flame, get clear of the house before you dial 911. Same-day help covers most calls in Indian Hill, weekends included.',
   commonIntro:
     'Owners in Indian Hill tend to call us about a charger when one of these comes up.',
   localFaqs: [

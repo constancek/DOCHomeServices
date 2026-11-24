@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const amelia: LocationServiceCopy = {
   localParagraph:
     'Amelia is mostly newer construction, so the usual exhaust fan complaint is a fan that exists but can’t keep up. Census figures put the typical home at 1995, with a large share built since 2000, and builders often chose a small, basic fan for every bathroom regardless of size. About a quarter of homes sit in apartment buildings, where management handles repairs. Since the village dissolved in 2019, addresses fall in Pierce or Batavia Township. We test the fan, follow its duct and quote the fix before cutting anything.',
-  emergencyParagraph:
-    'Shut the fan down at its switch or panel, if that’s safe, once it gives off a scorched odor, turns too hot to touch or knocks the breaker out. A grille that drips belongs on that list. Should smoke or flame appear, everyone heads outside and someone rings 911. Most calls see us the same day, weekends too.',
   commonIntro:
     'From the newer subdivisions to the apartment complexes and condos in Amelia, owners and renters mention these most:',
   localFaqs: [

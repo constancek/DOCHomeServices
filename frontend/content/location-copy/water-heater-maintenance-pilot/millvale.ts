@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millvale: LocationServiceCopy = {
   localParagraph:
     'Census figures show 91% of homes around Beekman Street and Moosewood Avenue are rented, many of them CMHA townhomes dating from the 1950s and since renovated. Upkeep on those heaters belongs to the owner, so owners and property managers are who book us, and we move down a row unit by unit, checking pans, drains and valves as we go. A privately owned house gets the identical rinse, anode look and valve test. Owners approve a figure first, and we’ll flag any tank not worth the spend.',
-  emergencyParagraph:
-    'A tank spilling water means closing the cold valve over it, killing breaker or gas, then tell management. On a gas smell, get out, leave switches untouched, and dial the gas company outdoors. Carbon monoxide alarm: clear everybody out. A relief valve gushing, or no hot water, is a repair for the owner. Same day on most calls, weekends included.',
   commonIntro:
     'Property owners in Millvale tend to ring us over one of these:',
   localFaqs: [

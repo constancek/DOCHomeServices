@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'Two housing stocks share East Price Hill. Census figures date about 40.1% of homes to before 1940, which means many heaters in old basements with tired flues, drain spigots that stick and gas piping we inspect closely. The 1960s streets go faster. Rentals are 63.2% of homes, plenty of them doubles and small multi-family buildings, so owners do most of the booking. The price is fixed before we touch anything, and if a tank isn’t worth a visit, you hear it straight.',
-  emergencyParagraph:
-    'A heater leaking: close the cold-water valve on top and shut down gas or power. A smell of gas: out of the house, no switches flipped, nothing relit, and Duke Energy called from the street. A carbon monoxide alarm: everybody outside. A relief valve that keeps discharging, or no hot water, means repair. Same day on most, weekends included.',
   commonIntro:
     'From the blocks near Warsaw Avenue to the 1960s side streets, a heater in East Price Hill that still runs tends to show one of these first:',
   localFaqs: [

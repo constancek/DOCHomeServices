@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Cheviot is old, dense housing: 44.9% of homes there date to 1939 or earlier, per Census figures, and 45.8% are rented. In the single houses and two-families, the heater usually sits in a cellar near a vent connector worth inspecting, with a drain fitting that sticks and a gas cock we test. Bigger apartment buildings tuck one heater per unit into a closet over a pan, and those belong to the landlord. Your price comes before the work, and a heater past helping gets a straight answer.',
-  emergencyParagraph:
-    'Puddle around the heater: turn the cold-water inlet off at the top, shut gas or breaker, then call for repair. Gas odor: walk out, switches off-limits, no relighting, phone Duke Energy from the street. Carbon monoxide alarm: everyone out first. A relief valve that won’t stop dumping, or hot water gone, belongs here too. Same day for most, weekends included.',
   commonIntro:
     'In Cheviot, tune-up requests usually come from one of these:',
   localFaqs: [

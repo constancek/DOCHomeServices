@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'Old houses set the job in Lockland. By Census figures the village’s median home went up in 1944 and close to half are 1939 or older, so expect loose sashes, cellars that sweat in July and duct runs dragging basement dust upstairs. More than two in five households rent, nearly a quarter of homes sit in buildings of five units or more, and there the landlord picks any equipment. We test before quoting, quote before a wrench turns, and call a dirty filter a dirty filter.',
-  emergencyParagraph:
-    'If a carbon monoxide alarm sounds, everyone goes outside and dials 911. Smell gas, and you walk out leaving switches alone and phone the gas company outside. A scorched smell at the vents means setting the thermostat to off. Mold creeping over a wet wall can’t wait with asthma at home. Most calls get a visit that day, weekends too.',
   commonIntro:
     'Here is how poor air tends to announce itself in the older houses and rental units of Lockland.',
   localFaqs: [

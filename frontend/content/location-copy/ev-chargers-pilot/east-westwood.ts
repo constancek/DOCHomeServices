@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'Census figures count about three renting households in East Westwood for each one that owns, and many live in apartment buildings, so a charger here is normally the landlord’s or manager’s decision. Detached-house owners have a separate puzzle. Their median house dates from 1958, and a panel of that vintage is often crowded with breakers, a problem load management frequently solves. We begin by opening the panel and working out the load. Should the factory cord suit your driving, we’ll say it, and the price is fixed beforehand.',
-  emergencyParagraph:
-    'Don’t wait on a charger or receptacle gone hot, black or soft, a burning odor, a breaker tripping at each plug-in, or a slow cord fed from an extension cord. Unplug, then switch the circuit off only if the panel is safe to reach. Smoke or flames mean leaving and calling 911. We reach most calls that day, weekends included.',
   commonIntro:
     'Because renters outnumber owners on these streets, our charger calls come from owners, landlords and the residents nudging them.',
   localFaqs: [

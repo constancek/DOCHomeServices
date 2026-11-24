@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const beckettRidge: LocationServiceCopy = {
   localParagraph:
     'Planning for Beckett Ridge as a community began in the 1970s, but Census figures show most of it went up in the 1980s and 90s, with the median home dating to 1990. Many of those houses have since replaced the builder’s heat pump or air conditioner, and about half heat with electricity. Condos and townhomes add up to roughly a quarter. Panels from that era often have a slot to spare. We confirm it in person, tell you if plug-in strips are the wiser buy, and settle the cost upfront.',
-  emergencyParagraph:
-    'A heat pump that buzzed and died when power returned, a scorched switch plate, or a breaker that snaps back off deserves a call that day. If lights house-wide swell and fade, contact Duke Energy first. Flip a breaker only with dry hands. If smoke appears, leave and dial 911. Same-day visits cover most calls, weekends included.',
   commonIntro:
     'Across Beckett Ridge, houses and condos mostly date from the 1980s and 90s, and these are the signs owners there usually bring up.',
   localFaqs: [

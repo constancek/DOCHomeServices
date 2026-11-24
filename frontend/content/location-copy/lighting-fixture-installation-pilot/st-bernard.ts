@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'Tired ceiling fixtures in doubles keep us busiest in St. Bernard, a village laid out in 1851 and still ringed by Cincinnati. Half its housing went up before 1955 by Census reckoning, roughly a third predates 1940, and close to one dwelling in five shares a two-unit building. Prewar plaster can hide a shallow box with no ground, while postwar rooms are kinder. Over a third of households rent, so owners often book both sides together. Every quote follows a look at the box.',
-  emergencyParagraph:
-    'Blackened switch plates, a melted socket, a fixture sagging off the ceiling and lights flickering through several rooms belong on today’s list. Flip the matching breaker when that’s safe, and move people from underneath. With smoke or fire, everyone goes outside first, and 911 gets the call. Same day on most calls, weekends included.',
   commonIntro:
     'Most light fixture calls we take in St. Bernard are some version of these.',
   localFaqs: [

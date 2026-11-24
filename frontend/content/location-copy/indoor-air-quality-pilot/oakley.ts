@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const oakley: LocationServiceCopy = {
   localParagraph:
     'In Oakley, the housing splits down the middle. Census figures put 2,923 of its 6,123 homes at 1939 or earlier, and those older places run drafty, with basements that stay damp. Plenty more have gone up since 2000, many of them apartments, and a sealed modern unit traps stale air and cooking odors. The July 2026 flash flood along Duck Creek left wet basements, and those deserve readings. Testing comes first, the price is fixed before work begins, and if a filter is the answer, you’ll hear it.',
-  emergencyParagraph:
-    'When the carbon monoxide alarm sounds, get the whole household outside, then dial 911. Gas odor means leaving with switches untouched and calling Duke Energy from the sidewalk. Shut a scorched-smelling furnace or AC off at the thermostat. Mold spreading through a flooded basement endangers anyone with weak lungs. Same-day help reaches most calls, weekends included.',
   commonIntro:
     'From pre-war side streets to the newer complexes on the old Milacron site, these four complaints come up most.',
   localFaqs: [

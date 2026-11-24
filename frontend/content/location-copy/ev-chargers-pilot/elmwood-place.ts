@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'The village is small and tightly built, and Census figures show that in Elmwood Place, most homes went up before 1940 while most households rent. Tenants begin with written permission from the landlord. An owner of a house that old may discover its original service is tiny, with hardly any margin for a 240-volt charger feed. Easiest of all is a detached house with off-street parking. Before any quote, we study the breaker box and total up demand, admit it when the factory cord will manage, and name the price.',
-  emergencyParagraph:
-    'End the charge if a plug, receptacle or charger turns hot, darkens or melts, or a burnt smell reaches you. Repeated tripping while charging calls for an electrician rather than one more reset. Kill the circuit where that’s safe, and get out and ring 911 at any sign of smoke. Most calls see us that day, weekends included.',
   commonIntro:
     'Across this compact village of aging houses and two-families, residents and owners mostly come to us with one of these.',
   localFaqs: [

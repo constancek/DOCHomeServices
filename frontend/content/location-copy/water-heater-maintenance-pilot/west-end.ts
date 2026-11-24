@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const westEnd: LocationServiceCopy = {
   localParagraph:
     'Two kinds of building hold most homes in the West End: Italianate rowhouses from the late 1800s around Betts-Longworth, and townhouses and apartments from the decades since. By Census figures, renters occupy 87.1% of homes, and 38.4% are older than 1940. The rowhouses hide their heaters in cellars with old flues, worn drain spigots and gas lines to inspect. Newer units tuck one into a closet over a pan. Either way, the landlord books it, the price comes first, and we’ll say if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Tank gushing or dripping: close the cold-water valve on top, then shut off gas or electricity. Gas odor: leave with the lights as they are, don’t relight anything, and phone the gas company from the sidewalk. Carbon monoxide alarm: everyone outside first. A relief valve that won’t stop, or no hot water, means repair. Same day on most, weekends included.',
   commonIntro:
     'Landlords own most of the heaters we maintain in the West End, and most are still working when we arrive. Watch for these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const elmwoodPlace: LocationServiceCopy = {
   localParagraph:
     'Elmwood Place is a small, tightly built village, and most electrical inspections here are on houses from before 1940. Census figures put 62.3% of homes at 1939 or earlier, with a median of 1938, so we often open the panel and find cloth-insulated wire, fuses or circuits extended many times over. Most homes are rented, which makes landlords our usual customers. The village has Mill Creek flood elevations on file with FEMA, so low basements are worth a look after high water. We quote first.',
-  emergencyParagraph:
-    'Elmwood Place calls that skip the calendar: a hot-plastic smell, a cover plate that’s warm, humming or marked, sparking of any sort, and a breaker that drops straight back out. Throw that one off at the panel. With smoke or fire, everybody out and 911 from the sidewalk. A technician reaches most of these the same day, weekends included.',
   commonIntro:
     'Elmwood Place is mostly pre-war houses and small rentals packed close together. What we find most:',
   localFaqs: [

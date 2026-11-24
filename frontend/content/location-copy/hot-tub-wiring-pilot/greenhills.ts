@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const greenhills: LocationServiceCopy = {
   localParagraph:
     'The federal government built Greenhills as a New Deal Greenbelt town from 1935 to 1938, and Census figures put the median house at 1955. A panel in one of those townhouses or postwar houses is often close to full, so carving out a slot for the spa breaker may come first. After that the tub needs its own 240-volt line through a GFCI, a disconnect near it, bonding and an inspection. We price it against the spa’s specs before conduit goes in.',
-  emergencyParagraph:
-    'A breaker or GFCI in Greenhills that keeps dropping, a disconnect that smells hot or looks scorched, and any tingle in the water all need us quickly. Get out and stay off the tub. Shut the breaker only if it’s safe to reach, and call 911 for smoke. Most of these get a same-day visit, weekends too.',
   commonIntro:
     'In the original townhouses and the postwar houses of Greenhills, these are the signs we see most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'In Millville, the breaker box a spa must share has usually been in place since the 1950s or 1960s. Census figures put the median house at 1958 and count 265 detached single-family homes in the village. Boxes that age rarely have a spare position or much reserve, so that gets sorted first. The tub then gets a GFCI-protected 240-volt feed of its own, a cutoff in view of it and bonding. Pricing comes after we compare the panel with the spa’s listing, before any trench is dug.',
-  emergencyParagraph:
-    'If the March 2026 Indian Creek flood touched spa equipment in Millville, keep it off until we’ve tested it. Phone us too about a GFCI that keeps letting go, a scorched disconnect or a prickle in the water. Climb out, shut the breaker only when safe, and call 911 for smoke. Most calls get a visit that day, weekends included.',
   commonIntro:
     'Along Ross Hanover Road and the streets off US 27, these four situations bring most of our spa calls in Millville.',
   localFaqs: [

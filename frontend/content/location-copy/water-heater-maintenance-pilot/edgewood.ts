@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const edgewood: LocationServiceCopy = {
   localParagraph:
     'Single-family houses are nearly the whole picture in Edgewood: Census figures count 94.3% of homes here as detached, with the median home built in 1976. So our visits usually mean a tank in the basement or garage of a 1960s or 1970s house, a drain spigot that hasn’t turned in a while, an anode to inspect and a relief valve to exercise. Rentals are scarce, so it’s nearly always the owner who books. The charge is agreed first, and if the tank isn’t worth the spend, we’ll tell you.',
-  emergencyParagraph:
-    'Failing heaters are repair calls. Water escaping: twist the top cold-water valve shut, then cut gas or power. Gas smell: everyone outside, switches and pilot untouched, phone the gas company from the curb. Carbon monoxide alarm: clear the house first. Constant relief valve discharge or no hot water: someone there the same day most times, weekends included.',
   commonIntro:
     'Owners in Edgewood typically spot one of these before they book:',
   localFaqs: [

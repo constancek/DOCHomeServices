@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAuburn: LocationServiceCopy = {
   localParagraph:
     'Mount Auburn has two very different fan problems. In the 19th-century Italianate and Second Empire houses, many now split into flats, bathrooms were wedged in decades later, often with no fan or with one vented into a chase between floors. Census figures count 1,771 of 3,128 homes built in 1939 or earlier. Then there are 655 units from 2010 on, mostly newer buildings where builder fans struggle with the room. Either way, we follow the duct to its end and quote the work before opening a ceiling.',
-  emergencyParagraph:
-    'Treat a blackened or warped casing, crackling, sparks, smoke, a breaker that flips as the fan starts, or water trickling from the grille onto old plaster as urgent. Flip it off at the switch or panel if that’s safe. Any smoke or flame means everyone out and a 911 call. Most visits happen that same day, weekends too.',
   commonIntro:
     'In old houses cut into apartments and in the newer buildings on the hill, these are the four complaints we hear most:',
   localFaqs: [

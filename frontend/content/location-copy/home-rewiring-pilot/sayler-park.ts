@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const saylerPark: LocationServiceCopy = {
   localParagraph:
     'Sayler Park is the city’s westernmost neighborhood, and by Census figures about half its houses predate 1940, with a majority up by 1949. Original circuits from those years may be knob-and-tube or cloth-sheathed cable with no grounding conductor, ending at two-slot receptacles nobody designed for a laptop charger or a space heater. Decades of owners may have spliced new cable onto old. We meter every circuit first, say plainly when it’s healthy, and otherwise put scope and a flat price on paper ahead of any plaster coming down.',
-  emergencyParagraph:
-    'A hot-insulation smell at a switch, a cover plate gone tan or warm, a fizzing sound, sparks, a tingle off a lamp, or a breaker that won’t stay up needs us the same day. If you’re dry and can reach it, shut that breaker. If there’s smoke, leave and dial 911. We cover most calls same day, weekends included.',
   commonIntro:
     'Many houses in Sayler Park are older than 1940, and they tend to warn you in these ways:',
   localFaqs: [

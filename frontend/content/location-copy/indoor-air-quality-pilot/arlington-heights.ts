@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights has one of the oldest housing stocks we work in. The Census median house dates to 1939 or earlier, and a little over half the homes are rented. Houses that old are drafty, often have damp basements, and run ductwork that went in long after they were built and moves dust from room to room. In rentals, the owner makes the call on equipment. We test first, fix the price before any work, and if a new filter will do, we tell you.',
-  emergencyParagraph:
-    'Once a carbon monoxide alarm sounds, everybody goes outside and someone calls 911. A whiff of gas means leaving every light and switch alone and ringing the gas company. Scorched air from the registers means flipping the thermostat to off. Spreading mold after a leak is urgent with asthma in the house. Most calls are same day, weekends included.',
   commonIntro:
     'In the old houses of Arlington Heights, these are the problems we see first.',
   localFaqs: [

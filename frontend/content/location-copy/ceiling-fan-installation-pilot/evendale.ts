@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const evendale: LocationServiceCopy = {
   localParagraph:
     'Census figures count every home in Evendale as a detached house, nearly all owner-occupied, and most went up between the 1960s and the 1990s, with the median at 1982. Houses from those decades often have screened porches and family rooms with a sloped ceiling, so a fan there needs an angled mount, a rod or an outdoor rating. A 1970s bedroom fixture may sit on a box rated only for a light. We inspect the box ahead of quoting, say when retightening solves it, and confirm the cost first.',
-  emergencyParagraph:
-    'If a fan is wrenching at its mount, the motor smokes or smells burnt, the switch arcs, or the breaker drops as it spins up, it can’t wait. Kill power at the wall or the panel if safe, and keep the family out from under it. If fire breaks out, leave and call 911. Same-day help is normal, weekends included.',
   commonIntro:
     'When we’re called to Evendale, these four fan problems come up most, in sunrooms, family rooms and bedrooms alike.',
   localFaqs: [

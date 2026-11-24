@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Union is mostly new building: by Census figures, 80.1% of its homes date from 2000 or later and the median is 2007. That makes most of our visits here a newer tank in a basement or garage needing a flush, an anode check and a relief valve test, with little else in the way. Apartment buildings usually give every unit its own heater, which the owner books. You hear the price before we begin, and a tank not worth servicing gets called that.',
-  emergencyParagraph:
-    'In Union, these need repair. Water spreading from the tank: cold valve off at the top, then gas or breaker. Gas odor: outside, no switches or relighting, then ring the gas company. Carbon monoxide alarm: family out the door. A relief valve that keeps spitting, or a tank gone cold: repair. Most same day, weekends included.',
   commonIntro:
     'Newer tanks in Union mostly need the basics. People book when they notice one of these:',
   localFaqs: [

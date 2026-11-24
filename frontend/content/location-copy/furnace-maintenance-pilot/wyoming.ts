@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wyoming: LocationServiceCopy = {
   localParagraph:
     'Gas work in owner-occupied houses is most of what a tune-up means in Wyoming. Census figures show 86.9% of homes on gas, and the typical house was finished in 1954, so we usually find a post-war ranch with its furnace downstairs, two or three furnaces into the life of the house. Up in the older Village area the flue may still climb a brick chimney, and that venting gets a slow look. You agree to the price before anything starts, and if the furnace needs nothing, that’s what you’ll hear.',
-  emergencyParagraph:
-    'In Wyoming, some problems outrank any tune-up. Gas odor: household onto the lawn, light switches left alone, gas company called from there. Carbon monoxide alarm: same exit. A furnace giving up in a cold snap, a burner firing and quitting over and over, a yellow flame. Newborns and elderly parents go first. Mostly same day, weekends as well.',
   commonIntro:
     'Basement furnaces in houses from the 1950s or before are most of our tune-ups in Wyoming, and owners usually book over one of these:',
   localFaqs: [

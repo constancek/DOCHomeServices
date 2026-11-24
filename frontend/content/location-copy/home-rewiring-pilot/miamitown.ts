@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'A landlord books most rewiring work in Miamitown, since Census figures count four of every five homes as rentals, many in complexes of five units or more. The median building is from 1973. Units from the 1960s and 1970s often run modern kitchens on too few circuits, and a share of that era may carry aluminum branch wire. Houses predating 1940, about a third, may have ungrounded wire. Testing comes first, owners hear when nothing needs doing, and the flat price goes on paper ahead of any opened wall.',
-  emergencyParagraph:
-    'Many residents live alone in Miamitown, so check on neighbors. A burning odor at an outlet, a scorched cover plate, sparks, a jolt off a fixture, or a breaker that won’t hold after resetting is urgent. Flip that circuit off only with dry hands. Smoke or flame means leaving and phoning 911. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'Across the apartment buildings and the older riverside houses of Miamitown, these are the warnings that bring us out:',
   localFaqs: [

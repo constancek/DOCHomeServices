@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'In Columbia-Tusculum, an electrical inspection can be a pre-1940 frame house on Tusculum hill or a home built since 2000 a few streets away. Census figures put 47.5% of the area’s homes before 1940, and those are where we still find fuse boxes, outlets with no ground and old knob-and-tube left in the walls. The newer homes usually check out sound and get booked for a sale or a hot tub. Every visit ends with a written report, and fixes are priced before they start.',
-  emergencyParagraph:
-    'Don’t wait if an outlet or switch is buzzing, warm to the touch or blackened, if something smells like it’s burning, or if a breaker snaps off again as soon as it’s reset. Turn that circuit off at the panel. Smoke or fire means everyone out and 911 first. Most urgent calls get a same-day visit, weekends too.',
   commonIntro:
     'Columbia-Tusculum splits between very old houses and much newer ones, and what we find splits the same way. The regulars:',
   localFaqs: [

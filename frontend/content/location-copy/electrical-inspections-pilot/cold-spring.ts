@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Most electrical inspections we do in Cold Spring are for a sale or a big addition, not because something is wrong. Census figures show the median home here was built in 1999, and nearly half since 2000, so the wiring is usually sound and grounded. The questions are about capacity: whether the panel can carry an EV charger, a finished basement or a hot tub. We check it, put it in writing and price anything that needs fixing first.',
-  emergencyParagraph:
-    'Builder wiring in a Cold Spring subdivision still fails, usually at one connection. Warning signs: a switch plate that’s warm, a scorched outlet, crackling in a box, or a breaker that flips the second you reset it. Leave it off. If you see smoke, get the family out and call 911. Same-day help on most calls, weekends too.',
   commonIntro:
     'Cold Spring calls tend to come from newer single homes and townhouses, and from owners planning to add something big. What we find most:',
   localFaqs: [

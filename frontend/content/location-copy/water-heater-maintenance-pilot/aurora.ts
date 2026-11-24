@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const aurora: LocationServiceCopy = {
   localParagraph:
     'Many houses in Aurora are old: Census figures put 38.8% at 1939 or earlier, and 21.9% sit in buildings of two to four units. That often means a basement heater with old venting, a drain valve that hasn’t turned in years and gas piping worth checking, sometimes with one tank per flat and the landlord deciding. Gas service is common here. Newer houses need only a drain, rod check and valve test. We set the price before work, and if a tank isn’t worth servicing, you’ll hear it from us.',
-  emergencyParagraph:
-    'When the tank leaks, close the cold supply valve above it, then the gas cock or breaker. Smell gas: leave without flicking a switch or touching the pilot, and call the gas utility from the street. Carbon monoxide detector sounding: clear the house first. Endless relief valve discharge, or a tank gone cold: same-day repair on most calls, weekends included.',
   commonIntro:
     'In the older parts of Aurora, a service call usually starts with one of these:',
   localFaqs: [

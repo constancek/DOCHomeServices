@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const corryville: LocationServiceCopy = {
   localParagraph:
     'Furnace maintenance in Corryville is nearly all landlord work. By Census figures 92.7% of homes are rented, and the biggest share sits in buildings of 50 or more units, where a closet furnace or a central system serves each floor and the owner or manager books the visit. Electricity is the leading heating fuel, though it counts heat pumps and baseboard too. Older houses near Short Vine keep a gas furnace in the basement. Each price is fixed before work, and we’ll tell you when a unit needs nothing.',
-  emergencyParagraph:
-    'Flag these to the manager as repairs. Gas odor in the hallway or unit: get out, switches untouched, gas company called from the street. Carbon monoxide alarm: the apartment empties. No heat in a cold snap, a closet unit clicking off and on endlessly, a yellow flame. Babies and elderly residents suffer first. Usually same day, weekends included.',
   commonIntro:
     'Around Short Vine and in the bigger buildings, managers in Corryville tend to book after hearing about:',
   localFaqs: [

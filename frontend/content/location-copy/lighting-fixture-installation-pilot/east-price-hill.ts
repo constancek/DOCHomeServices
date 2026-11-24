@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastPriceHill: LocationServiceCopy = {
   localParagraph:
     'On the hill above Lower Price Hill, a new light depends on the box hidden behind the canopy, a ground conductor, and whether cable already reaches that ceiling. Census counts show 2,933 of 7,317 homes date from 1939 or earlier, so a lot of plaster and old metal pans, while 1,203 more come from the 1960s, when builders gave each room a single bulb and left hallways gloomy. A lot of the work sits in rented flats. We look behind the old fixture first and put the cost in writing.',
-  emergencyParagraph:
-    'Don’t leave a light that’s sagging out of its ceiling, smells scorched, has melted plastic by the switch or blinks across several rooms. Kill the breaker if getting to it is safe, and steer everyone clear of what’s overhead. Any smoke or flame means leave and phone 911. We usually make it over that same day, weekends too.',
   commonIntro:
     'Between Warsaw Avenue and the streets around it, four requests come up again and again.',
   localFaqs: [

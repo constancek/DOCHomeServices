@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'Reading is mostly postwar housing, and Census figures land the median on 1956, with roughly one house in four older than that. Breaker boxes from that era tend to be cramped or stuffed after decades of extra circuits, so the protector’s spot gets settled at the panel, never over the phone. Around four in ten homes are rented, which puts many choices with landlords. We look in the box first, admit it when strips will cover you, and fix the price up front.',
-  emergencyParagraph:
-    'On most calls we’re there the same day, weekends included, for a scorched switch plate, a singed-smelling panel, a breaker that drops straight back, or a sump pump that smoked as power came back. Only switch the circuit off if you’re dry. Smoke or flame means 911 from outside. Lights pulsing house-wide go to Duke Energy Ohio first.',
   commonIntro:
     'In postwar houses and doubles around Reading, these four signs come up again and again before someone asks us about surge protection.',
   localFaqs: [

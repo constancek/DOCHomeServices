@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastWalnutHills: LocationServiceCopy = {
   localParagraph:
     'In East Walnut Hills, big houses from around 1900 sit a few blocks from condo towers, and Census figures put roughly half the housing at 1939 or earlier. A panel squeezed into one of those older houses decades ago may have no free space left, so mounting gets worked out before anything else. The same houses often hide renovated kitchens and home offices crammed with circuit boards. We open your panel, say so if a few good strips would cover you, and agree the price before we start.',
-  emergencyParagraph:
-    'Ring us if a switch plate looks scorched after lightning or a breaker snaps off again right after you reset it, and most of the time we’ll be there that day, weekends included. When lights through the whole house surge and fade, call Duke Energy first. Any smoke means getting out of the house before dialing 911.',
   commonIntro:
     'Around DeSales Corner and along Madison Road, these are the four situations that bring us out most.',
   localFaqs: [

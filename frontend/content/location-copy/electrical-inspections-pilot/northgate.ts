@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'Half of Northgate’s homes heat with electricity, more than heat with gas, according to Census figures. That shapes most electrical inspections here: a 1960s or 1970s panel carrying an electric furnace or heat pump, a water heater and a range has little room for anything new. Before you add an EV charger, finish a basement or sell, we check whether the panel and circuits can take it, then write up the findings and price any work for your approval.',
-  emergencyParagraph:
-    'Some electrical trouble needs us today rather than on a booked date. That includes a burning smell, a hot or discolored outlet cover, sparking, or a breaker that pops again the moment it’s reset. Switch that breaker off. If anything is smoking or burning, everyone leaves and someone calls 911. Most Northgate calls get a same-day visit, weekends too.',
   commonIntro:
     'In Northgate the findings usually come back to load: how much the house now asks of a panel that was sized decades ago. Most often:',
   localFaqs: [

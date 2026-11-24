@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Most owners who ask us about recessed lighting in Cheviot are tired of one center globe doing all the work in a room. That globe is original to plenty of houses here. Census figures put the city’s median build year at 1946, and close to half its homes predate 1940, so expect plaster, lath and a shallow cavity beneath the second floor. In a two-family along Harrison Avenue, another household lives right overhead. Every can gets chalked onto the ceiling, and you sign off on the cost first.',
-  emergencyParagraph:
-    'Plaster darkening around a can, a trim you can’t rest a fingertip on or a downlight that flickers out and relights by itself needs a look today. Shut that breaker if the panel is safe to reach, and if there’s any smoke, walk out and dial 911. Most calls in Cheviot are seen same day, weekends too.',
   commonIntro:
     'Rooms framed around a single ceiling box are the norm, and in Cheviot, these are the jobs owners hand us most.',
   localFaqs: [

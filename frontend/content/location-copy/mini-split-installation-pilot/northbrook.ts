@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'Northbrook sits in Colerain Township, and by Census figures 49.2% of its houses went up between 1960 and 1979. Owners here rarely call about a whole house. They call about the space that came later, a finished basement, a garage turned into a den, a porch glassed in, and the trunk line never stretched to reach it. For apartment buildings, the owner or manager decides. The number is fixed and signed before we start, and we’ll admit it when another fix beats a mini-split.',
-  emergencyParagraph:
-    'A glassed-in porch heats up fast on the 21 or so days a year above 90F that the National Weather Service records, and aging parents, toddlers and asthmatics feel it first. Our crews book installs quickly, one zone typically in a day. Existing ductless units that break need Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the 1960s and 1970s neighborhoods off Colerain Avenue and Pippin Road, these are the spaces that most often lead to a ductless quote in Northbrook:',
   localFaqs: [

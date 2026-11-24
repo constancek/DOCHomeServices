@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'South Cumminsville is mostly detached houses, and Census figures place 45.5% of them at 1939 or earlier. For us that usually means stairs down to a gas heater by the foundation wall, a draft hood and vent connector that may predate the tank, a crusty boiler drain at the bottom, and the gas cock feeding the burner. The 2010-and-later houses are quicker: rinse, anode, valve. Expect a set figure before work, and a straight word if your tank is past saving.',
-  emergencyParagraph:
-    'Tank dribbling onto the basement floor: crank its cold supply closed, then shut gas or kill the breaker. Gas smell: walk straight out, leave lights alone, ring Duke Energy from the curb. Carbon monoxide alarm: people out before anything. A relief valve that won’t quit, or cold taps house-wide, means repair too. Same-day on most calls, weekends included.',
   commonIntro:
     'Out here, these clues usually come before anyone books a tank service:',
   localFaqs: [

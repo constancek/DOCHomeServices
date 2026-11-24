@@ -14,7 +14,7 @@ export const groesbeck: LocationServiceCopy = {
     },
     {
       q: 'Who pays for a new AC in a rented apartment in Groesbeck?',
-      a: 'Not you, if the air conditioning came with the apartment. Write to the landlord or the management office describing the failure, and keep a copy. Under ORC 5321.04, an Ohio landlord who provides air conditioning has to keep it in good and safe working order. We install air conditioners, not leases; whoever owns the building signs off on our quote.',
+      a: 'If the unit was part of the rental, the cost sits with the owner. Put the breakdown in a dated note to management and hold on to your copy. Ohio law, ORC 5321.04, makes a landlord who supplies cooling keep it in good and safe working order. We install air conditioners, not leases, so the building owner approves our quote.',
     },
   ],
   overrides: {

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Just a third of homes in Crescent Springs are detached houses, by Census figures, and about half are in buildings of five units or more. A detached house with off-street parking is a simple job. Most of the housing was built between the 1960s and the 1990s, so panels run anywhere from crowded to roomy, and the newer ones can often use load management. We check the panel and total the load before quoting, mention when the slow cord is enough, and fix the price before wiring.',
-  emergencyParagraph:
-    'A charger, plug or receptacle that’s hot, charred or soft, or a breaker that quits each time charging starts, means leave the car unplugged. Renters should alert management right away. Shut the circuit off only when you safely can, and dial 911 for smoke or fire. Crescent Springs gets a same-day visit on most calls, weekends included.',
   commonIntro:
     'In Crescent Springs, with apartment buildings and houses side by side, these are the reasons people start asking about charging at home.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Day Heights is all detached houses, and Census figures place the median at 1969, with the 1960s and 1970s accounting for just over half. Duct runs installed then have carried decades of dust, and basements of that age tend to feel clammy in July. A noticeable share of homes still burn fuel oil and many others rely on electric heat, and both leave winter rooms dry. Our first job is measuring the air. The fixed price follows, and if a fresh filter would solve it, that’s what we’ll tell you.',
-  emergencyParagraph:
-    'If the carbon monoxide alarm goes off, get the family outdoors and call 911. A gas odor means leaving, switches untouched, and calling the gas company outside. Turn the thermostat off if the furnace smells scorched. Mold spreading after flooding is urgent too. Infants, grandparents and asthmatics are hurt first. We reach most calls that day, Saturdays and Sundays included.',
   commonIntro:
     'Here’s what owners of houses in Day Heights tend to notice first:',
   localFaqs: [

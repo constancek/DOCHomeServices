@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const reading: LocationServiceCopy = {
   localParagraph:
     'In Reading, the median house went up in 1956, Census figures show, and close to a quarter predate 1940. Prewar places can hide knob-and-tube or cloth-jacketed wire with no ground. The postwar majority were built with few circuits, which is why a space heater or window unit flips breakers. Roughly four in ten homes are rentals, and many owners schedule us between tenants. Testing happens before any quote. If the wiring checks out, you hear that, or else the scope and flat price are on paper before drywall is cut.',
-  emergencyParagraph:
-    'Treat a scorching smell inside a wall, a browned cover plate, snapping from a switch, a jolt off a fixture, or a breaker that falls again after a reset as a same-day call. Cut that circuit only with dry hands and a safe panel. If smoke shows, get out and dial 911. We reach most calls same day, weekends included.',
   commonIntro:
     'Prewar and postwar houses in Reading tend to give the same handful of warnings:',
   localFaqs: [

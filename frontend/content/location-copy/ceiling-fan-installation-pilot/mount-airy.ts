@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountAiry: LocationServiceCopy = {
   localParagraph:
     'In Mount Airy, a new ceiling fan most often replaces the plain light a 1960s builder put in the middle of a bedroom. Census numbers give a median build year of 1964, and boxes from that decade were seldom made to carry a fan’s weight and constant shaking. Close to two in five homes sit in buildings of five or more units, and most households rent. We inspect the box up front, admit it when rebalancing would do, and you agree to a set price before the fixture comes off.',
-  emergencyParagraph:
-    'Get help fast if the motor housing smokes, the switch plate sparks, the breaker drops whenever the blades start, or the fan rocks hard on its bracket. Kill power at the wall or panel if that’s safe and keep kids away from underneath. Flames or thick smoke mean evacuate and dial 911. We see most calls that day, weekends included.',
   commonIntro:
     'Mid-century bedrooms and large apartment complexes shape most fan requests in Mount Airy.',
   localFaqs: [

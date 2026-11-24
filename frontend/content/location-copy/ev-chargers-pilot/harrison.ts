@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Census figures put the median house in Harrison at 1992, with four in ten built since 2000, so most panels have open slots for a 240-volt charger circuit or can take load management. What complicates it is heat. Close to two-thirds of homes here run on electric heat, and a heat pump or electric furnace pulls hard on a January night, when the car charges. That goes into the load calculation, along with a plain answer on whether Level 1 will do, and a price set in advance.',
-  emergencyParagraph:
-    'Stop charging in Harrison when a charger, plug or outlet heats up, browns or melts, when a burnt smell shows up, or when the breaker trips each session. Turn that breaker off only standing dry, away from anything hot. If smoke or fire appears, get outside and call 911. Same-day service is normal on most calls, weekends included.',
   commonIntro:
     'In a city of newer, mostly all-electric houses, these are the reasons a charger install comes up in Harrison.',
   localFaqs: [

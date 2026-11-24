@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'In Independence, about half the homes went up in 2000 or later, and Census figures put the median build year at 1999. Builders sealed those houses tight, which holds heat well and also holds onto shower steam, frying smells and the fumes from cleaning sprays. Ventilation is usually the answer in a newer subdivision. The older houses along Madison Pike are another matter, with drafts and damp cellars. We read the air before proposing anything, settle a price before work, and say plainly when a fresh filter covers it.',
-  emergencyParagraph:
-    'A carbon monoxide detector going off sends everyone outside to call 911. For gas odor, walk out without touching a switch and ring the gas company. A furnace or AC that smells scorched gets turned off at the thermostat. Spreading mold after a leak is urgent for infants, grandparents or asthma. Most calls see us same day, weekends too.',
   commonIntro:
     'In Independence, most calls from the newer subdivisions start with one of these.',
   localFaqs: [

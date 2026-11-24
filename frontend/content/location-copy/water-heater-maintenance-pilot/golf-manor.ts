@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'Golf Manor is a village of renters and small landlords: 50.4% of households rent, and 33.9% of units sit in three- and four-unit buildings, per Census figures. For a tune-up that often means one heater per apartment, lined up in a shared basement or set in a closet pan, with the owner signing off. Most buildings date from 1940 to 1959, so flue pipes, gas cocks and drain spigots tend to be old. The owner hears a fixed price first, and a frank word if any tank is past saving.',
-  emergencyParagraph:
-    'Some calls skip the tune-up queue. A tank spilling water: turn the supply valve at its top off, then cut gas or power. A gas smell in the building: everyone out, no switches, phone the gas company from the sidewalk. A carbon monoxide alarm: clear every unit first. Those get same-day repair on most calls, weekends too.',
   commonIntro:
     'Small landlords in Golf Manor usually book a round of service after one of these:',
   localFaqs: [

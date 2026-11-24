@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northbrook: LocationServiceCopy = {
   localParagraph:
     'In Northbrook the heater usually stands near the furnace downstairs, in a house finished sometime around 1970. Census figures give that as the median, with roughly half built from 1960 through 1979. On houses that age we expect a stiff drain valve and a flue pipe worth checking at its joints. One unit in six is in a building of five or more, where a closet tank rests on a pan. Expect a fixed price up front, and a straight answer if the tank is beyond a service.',
-  emergencyParagraph:
-    'A dripping tank stops being a tune-up. Shut the cold-water valve feeding it and its gas cock or breaker. If the house smells of gas, leave, hands off switches and pilot, and phone the gas company outside. Carbon monoxide alarm: people first. A stuck relief valve or cold taps need a repair. Same-day on most calls, Saturdays and Sundays too.',
   commonIntro:
     'A tank in Northbrook that still heats but shows any of these is ready for a service visit:',
   localFaqs: [

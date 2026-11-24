@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfax: LocationServiceCopy = {
   localParagraph:
     'Census figures put the typical house in Fairfax at 1942, and nearly half the village was built before 1940. Almost nine in ten homes stand alone on their own lot. Breaker boxes from that era tend to be small or packed tight, so only the panel can answer where a surge device gets mounted. Many of these houses have since gained central air. We open the panel before quoting, say so plainly when a few good strips would do, and fix the price ahead of the job.',
-  emergencyParagraph:
-    'A scorched smell from a switch after lightning, or a dryer sparking as power came back, can’t wait. If the house swings bright and dim, Duke Energy checks the line first. Shut the circuit off only if nothing near is wet or hot. If you see flames, get out and call 911. Most calls get same-day help, weekends included.',
   commonIntro:
     'Older houses in Fairfax that took on central air, newer furnaces and sump pumps over the decades usually warn their owners like this.',
   localFaqs: [

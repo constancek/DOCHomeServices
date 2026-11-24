@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const southCumminsville: LocationServiceCopy = {
   localParagraph:
     'An electrical inspection in South Cumminsville usually means a detached house on a street like Dreman Avenue, and its age decides what we hunt for. By Census figures, 45.5% of homes here were built in 1939 or earlier; in those, cloth-sheathed cable and two-prong outlets with no ground may still sit behind the plaster. Another 15.6% went up in 2010 or later, and owners of those mostly book one before a sale. Whatever turns up, the price for fixing it is settled before anyone touches a wire.',
-  emergencyParagraph:
-    'Call us straight away when you notice scorch marks on a receptacle, crackling inside a wall box, a smell like melting plastic, or one circuit that kicks off after every reset. Kill that circuit at the panel. Flames or smoke mean leaving the house and dialing 911. Same-day help is normal on most calls, Saturdays and Sundays too.',
   commonIntro:
     'South Cumminsville has old houses and new ones on the same few streets, so the findings differ a lot from door to door. These turn up most:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const roselawn: LocationServiceCopy = {
   localParagraph:
     'Roselawn is largely a neighbourhood of small apartment buildings. Census figures put 1,185 homes in buildings of three or four units and nearly two in three households renting, so most air quality work here is ordered by owners and managers. The typical building went up around 1961, often with a furnace or air handler for each unit and short duct runs that recirculate the same dust. The older houses have damp basements to watch. We test first, quote each fix flat, and say so when a filter is enough.',
-  emergencyParagraph:
-    'Leave the building with everyone in your unit when a carbon monoxide alarm goes off, then ring 911. A gas smell means the same exit, hands off the switches, and a call to Duke Energy outside. Burning odors from vents mean turning the thermostat off. Toddlers and asthmatic tenants feel it first. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'In the fourplexes and larger complexes of Roselawn, these are the calls we take most often:',
   localFaqs: [

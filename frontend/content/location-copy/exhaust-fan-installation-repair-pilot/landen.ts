@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const landen: LocationServiceCopy = {
   localParagraph:
     'In Landen, most homes went up in the 1980s and 90s, and Census figures give a median build year of 1985 and about eight owners for every renter. So most bathrooms have a fan, but it’s often the builder’s original, now noisy and slow, or a cheap replacement that was never matched to the room. Townhouses and condos make up a good part of the area, and their association usually has a say on outside vents. We start by measuring what the fan pulls and quote the fix up front.',
-  emergencyParagraph:
-    'A fan that smells of burning, a housing turning dark or misshapen, sparks, smoke, a breaker that pops at startup, or water leaking through the grille calls for help today. Most calls get a same-day visit here, weekends included. Cut power at the switch or breaker if safe; for smoke or fire, leave and dial 911.',
   commonIntro:
     'Across the subdivisions around Landen Lake and the townhouse communities off Columbia Road, these are the fan complaints we hear most:',
   localFaqs: [

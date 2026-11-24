@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cuf: LocationServiceCopy = {
   localParagraph:
     'In CUF, a rewire is usually the landlord’s decision, because Census figures count over eight in ten homes as rented. The oldest buildings cluster in Fairview and western Clifton Heights, and most of those units predate 1940, so knob-and-tube or cloth-jacketed wire with no ground, plus two-prong outlets, may still be in the walls. The large 1970s complexes tend to run short of circuits, and a few may carry aluminum branch wire. Testing comes first, sound wiring gets called sound, and owners sign the scope and flat price beforehand.',
-  emergencyParagraph:
-    'Tenants in CUF should treat a charred smell from a receptacle, a blackened cover, crackling, sparks, a breaker that keeps dropping or a jolt off a fixture as urgent. Turn off that circuit only when you can reach the panel safely and dry. Smoke or flame means get out and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'From the two-families on the hillside streets of Fairview to the 1970s apartment blocks in CUF, owners and tenants report these most:',
   localFaqs: [

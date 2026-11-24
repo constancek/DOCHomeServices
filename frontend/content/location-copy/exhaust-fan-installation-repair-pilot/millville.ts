@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const millville: LocationServiceCopy = {
   localParagraph:
     'Millville is a small village of mostly detached houses, and Census figures put the median at 1958, with more than half built before 1960. Bathrooms from that era leaned on a window for ventilation. Fans arrived later, some ducted only as far as the attic, and many basement bathrooms have none. The few newer houses have fans, though not always ones big enough for the room. We trace the airflow and settle a price before any drywall or plaster is cut.',
-  emergencyParagraph:
-    'In Millville, shut a fan down at its switch or the panel, when that’s safe, if it smells hot, its cover has warped, it throws sparks or smoke, it kills the breaker or water drips from it. Smoke or fire means leaving the house and phoning 911. Expect us that same day on most calls, weekends included.',
   commonIntro:
     'Around the village of Millville, these four signs are the ones homeowners mention most.',
   localFaqs: [

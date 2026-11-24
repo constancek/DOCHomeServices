@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'Fairfield grew mostly between the 1960s and 1990s, with a median home of 1978 by Census figures, so a house here tends to need an uncomplicated service: drain, flush, anode, relief valve. Apartment buildings hold a big share of homes, and in those each unit usually has its own closet heater standing in a pan, which the landlord or property manager schedules. Renters occupy 36.8% of homes. You agree to the price ahead of time, and we’ll tell you if a tank isn’t worth it.',
-  emergencyParagraph:
-    'Water on the floor around the tank is a repair job: close its inlet valve up top, then cut the gas or power. A gas odor means walk outside, leave the light switches and pilot be, and phone Duke Energy. Carbon monoxide alarm: everyone exits. Nonstop relief-valve spray or cold taps, same. Same-day help is typical, weekends too.',
   commonIntro:
     'In Fairfield, a service call usually starts with one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const harrison: LocationServiceCopy = {
   localParagraph:
     'Harrison is young for this area. The Census median for a house here is 1992, over four in ten were finished after 2000, and close to two-thirds of households heat with electricity, so a heat pump or an electric furnace is common. Smart thermostats and appliances run by circuit boards give repeated surges plenty to chew on. Newer breaker boxes usually have room, but we still open yours to confirm placement. If two good strips would cover you, we’ll tell you, and the price is set before anyone starts.',
-  emergencyParagraph:
-    'Call us that day if a breaker clicks off again the instant it’s reset, the breaker box smells burnt, or something sparked when power returned. Leave flood-soaked equipment off. Lights swinging bright and dim house-wide go to Duke Energy first. For smoke or fire, leave first and phone 911 from outside. Most calls, weekends included, see us the same day.',
   commonIntro:
     'Most houses in Harrison are recent, so the signs here lean toward expensive equipment rather than old wiring.',
   localFaqs: [

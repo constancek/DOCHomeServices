@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Fort Wright is mostly detached, owner-occupied houses, and the median one dates from 1974, by Census figures. Roughly two in five were built in 1980 or later, and those keep a spare slot for a 240-volt car circuit, or can lean on a load manager. Houses from the 1950s through the 1970s are likelier to have panels jammed full. We begin with the panel open and a pencil out, give an honest word on whether the trunk cord covers your driving, and fix the price before any wire is run.',
-  emergencyParagraph:
-    'A charger that blisters or scorches, a receptacle you can’t hold a finger against, a breaker dropping every session, or a cord a mower flattened all mean stop charging. Throw that breaker only with dry hands at a cool panel. With smoke or flame, step outside, then dial 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'From 1960s houses to newer builds in Fort Wright, these are the usual reasons owners add a Level 2 charger.',
   localFaqs: [

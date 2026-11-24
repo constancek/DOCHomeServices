@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'In Mount Lookout, a new fan usually goes into a prewar detached house. Census figures put the median year built at 1938, about half the homes predate 1940, and three in four are owner-occupied. Expect plaster overhead, a shallow box someone picked for a pendant light, and second-floor bedrooms that never had a fan. We see whether the box can bear a fan, say so when a tightened mount is all it takes, and quote a firm figure while the old light is still up.',
-  emergencyParagraph:
-    'Call if the fan thrashes or is coming away from the plaster, the motor smokes, the switch sparks or the breaker keeps tripping. Turn it off at the wall or the panel if that’s safe, and keep people out from beneath it. With fire, get outside and dial 911. We reach most homes the same day, weekends included.',
   commonIntro:
     'Prewar plaster ceilings and upstairs bedrooms without fans account for most of our ceiling fan work in Mount Lookout.',
   localFaqs: [

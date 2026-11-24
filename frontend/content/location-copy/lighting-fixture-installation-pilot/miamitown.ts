@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const miamitown: LocationServiceCopy = {
   localParagraph:
     'Landlords book most fixture work in Miamitown, since Census counts show roughly four of every five homes rented, mostly inside buildings holding five or more units. Housing along Harrison Pike and the Great Miami splits two ways. Pre-1940 houses carry plaster ceilings and often lack a ground, while apartments from the 1970s through the 1990s have bare flush mounts lining halls and stairs. Tenants handle bulbs; owners arrange fixtures. We inspect box and cable, then the owner signs off on cost before removal.',
-  emergencyParagraph:
-    'Stairwell globes dangling by their wires, blackened plaster around a fixture, melting at a switch or lights blinking across several apartments are urgent. Keep tenants clear of anything loose and trip its breaker if that panel is safely reachable. Smoke or fire means everybody out and a 911 call. Whitewater Township owners usually get us that same day, weekends also.',
   commonIntro:
     'Apartment stairwells, tenant turnovers and riverfront houses shape most fixture requests we get in Miamitown.',
   localFaqs: [

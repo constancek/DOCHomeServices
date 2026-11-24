@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const union: LocationServiceCopy = {
   localParagraph:
     'Census figures show four of every five homes in Union were built after 2000, mostly detached houses on streets that were farm fields until the 1990s. Houses that young are stuffed with the things surges chew through, like the furnace’s control board, a glass-top range and a smart doorbell or two. Panels from the 2000s usually have a free slot, though we still open yours before quoting. Sometimes good strips are plenty, and we’ll say so; otherwise the price is settled up front.',
-  emergencyParagraph:
-    'Ring us that day for a scorched outlet, a hot plastic smell after lightning, or a breaker that snaps off again the second you push it back; most calls get a visit the same day, Saturdays and Sundays too. When every light pulses, the utility hears from you first. If smoke shows up, get everyone out and dial 911.',
   commonIntro:
     'Union is young, and young houses run on electronics, so these four signs come up again and again.',
   localFaqs: [

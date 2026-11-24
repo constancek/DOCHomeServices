@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Newtown is younger than its old village center suggests. Census figures give a median build year of 1989, so a lot of family rooms rise tall enough to want a down rod for the fan. About one house in five predates 1940, though, and those village houses carry plaster ceilings with a box meant for one bulb. Close to four homes in ten are rented. We take the canopy down and test that box before quoting, say plainly if balancing fixes it, and lock the price before any work.',
-  emergencyParagraph:
-    'Stop a fan the moment it lurches against its mount, trails smoke out of the housing, or crackles at the switch plate. Throw the switch or breaker if reaching it won’t put you under the blades, and herd everyone elsewhere. Smoke or flame means walking outside and phoning 911. Same-day visits reach most addresses in Newtown, weekends too.',
   commonIntro:
     'Plaster-ceiling village houses, tall newer rooms and rentals keep us busy with fans in Newtown.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const indianHill: LocationServiceCopy = {
   localParagraph:
     'Indian Hill is almost all owner-occupied detached houses, 97.6% by Census figures, built over many decades with a median of 1974. That spread matters for a tune-up. A 1970s house usually keeps its air handler in the basement; an older one may have had cooling added later through the attic, and a big house may run a second system for the upstairs. We check each one and price the visit before we start. If nothing needs doing, we leave it at that.',
-  emergencyParagraph:
-    'An AC that stops cooling in hot weather, iced refrigerant lines, or water through a ceiling all call for a repair visit. Switch a frozen system off at the thermostat. If it smells of burning or keeps tripping the breaker, leave it off. Older relatives, babies and anyone ill feel the heat most. Same day on most calls, weekends included.',
   commonIntro:
     'On the larger properties of Indian Hill, these are what usually get a homeowner to book:',
   localFaqs: [

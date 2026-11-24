@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const terracePark: LocationServiceCopy = {
   localParagraph:
     'Terrace Park is a village of owner-occupied single houses, with nearly every home detached and very few rented. By Census figures the median one went up in 1954, and the 1940s and 1950s account for more than any other era. Builders then often fitted ceiling boxes to carry a light, not a turning motor, and dens and back bedrooms frequently went without a fan. Our electrician opens that box before quoting, says plainly when tightening or rebalancing is enough, and settles the price before anything is unscrewed.',
-  emergencyParagraph:
-    'A fan that swings wildly, a canopy pulling free of the plaster, a motor housing that smokes or a wall switch that spits sparks can’t wait. Turn it off if you safely can, and keep the family clear of the spot underneath. With fire or smoke, get everyone out and call 911. Our same-day visits cover most calls, weekends included.',
   commonIntro:
     'Plaster ceilings, original light boxes and bedrooms without fans come up again and again in Terrace Park.',
   localFaqs: [

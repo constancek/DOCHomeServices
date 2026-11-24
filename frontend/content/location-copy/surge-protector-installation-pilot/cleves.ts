@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'The typical house in Cleves is owner-occupied and dates from 1972, by Census figures, and nearly one in five went up in 2000 or later. That newer stock is loaded with the things a voltage spike ruins, from central air to ranges and washers run by circuit boards. Houses near the village center can have the opposite problem, a breaker box with no room left. Whichever you have, we open the box first, admit it when strips are plenty, and you see a fixed price before work starts.',
-  emergencyParagraph:
-    'When the power comes back after a storm in Cleves and a dehumidifier or TV smokes, or a breaker refuses to stay set, or a switch plate looks browned, call us, and most get a same-day visit, weekends included. Any box that Great Miami floodwater touched stays off. If you see smoke, go outside and dial 911.',
   commonIntro:
     'In a village where most houses went up after 1960, these are the four things that usually prompt the call.',
   localFaqs: [

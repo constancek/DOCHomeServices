@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Most houses in Bellevue were standing long before anyone fitted them with AC. Census figures show 63.7% date from 1939 or earlier, so ducts were threaded through old walls and floors later, the coil often rides on a basement furnace, and the condenser sits wherever there was room outside. That makes the drain line and the airflow to the top floor the parts we watch most. We set a flat price before starting, and we’ll tell you if the AC is fine as it is.',
-  emergencyParagraph:
-    'A wet ceiling under an attic air handler, a burning smell, or an outdoor unit humming with its fan stuck are repair calls, not tune-up calls. Flip the AC off at the thermostat and keep it off. The heat is hardest on older relatives, babies and anyone ill. We reach most calls the same day, including weekends.',
   commonIntro:
     'Here are the usual reasons homeowners call for a spring tune-up in Bellevue.',
   localFaqs: [

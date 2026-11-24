@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'A whole-house rewire seldom makes sense in Crestview Hills. The median house here was built in 1984, per Census figures, and many homes are condos or townhomes. Wire of that vintage is usually grounded copper, so calls are for a basement being finished, a kitchen being gutted, or a single run that won’t behave. Some 1960s and 1970s houses may hide aluminum branch wiring. We test before quoting, say so if it checks out, and write the scope and flat price down before drywall gets cut.',
-  emergencyParagraph:
-    'Don’t sit on a scorched plate, a burning odor from an outlet or wall, sparks, a jolt from a switch, or a breaker that snaps off once flipped back. If the panel is dry and safe to reach, kill that circuit. Smoke or flame means leave and dial 911. Most calls get us out the same day, weekends included.',
   commonIntro:
     'Around Thomas More University and the streets of 1980s condos and townhomes in Crestview Hills, owners usually notice one of these first:',
   localFaqs: [

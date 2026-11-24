@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const norwood: LocationServiceCopy = {
   localParagraph:
     'In Norwood, putting a hot tub behind a house starts at the panel. Census figures give the typical home here a 1938 build date, and two of every three predate 1940, so many panels have been patched and filled over the decades until no slot remains for a spa breaker. That gets solved first. After it comes a 240-volt line serving only the tub, GFCI protection, a visible shutoff a few steps from the shell, and bonding. You hold a firm number before any conduit is cut.',
-  emergencyParagraph:
-    'A spa breaker that won’t stay on, a hum from the panel, brown marks on the shutoff, or a tingle in the water all call for the same move. Clear the tub and keep hands off the equipment. Flip the shutoff only if that’s risk-free, and dial 911 for smoke. Same-day help covers most calls, weekends included.',
   commonIntro:
     'Across Norwood, from single houses to two-families, these four come up most.',
   localFaqs: [

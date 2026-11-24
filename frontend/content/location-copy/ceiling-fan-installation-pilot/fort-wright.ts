@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'Fort Wright is a Kenton County city whose housing runs from postwar houses through the 1990s, with a Census median of 1974. In the older bedrooms a fan tends to hang from the plain box that once held a ceiling light, while later houses add family rooms with sloped ceilings that need a down rod and back decks that want a weather-rated fan. We look in the box before quoting, say plainly when snugging the bracket fixes it, and agree the price before anything is disconnected.',
-  emergencyParagraph:
-    'Kill power at the wall switch or breaker in Fort Wright when a fan shakes hard, its box works loose, or the motor gives off a burning smell. Sparks at the switch or a breaker that trips at start-up count too, so keep clear. With smoke, leave and call 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'From the ranches off Kyles Lane to the newer streets, these are the fan problems we get called for most.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'In Fairfield, the usual problem is a fan that’s been there since the house was built. Census figures give a median build year of 1978, so a lot of bathrooms still run the original builder-grade unit, which was often small for the room and is now loud, slow or both. About a third of homes are rented, many in apartment buildings, so landlords book plenty of our visits. No ceiling gets opened until we’ve found where the duct ends and you’ve seen the price.',
-  emergencyParagraph:
-    'In Fairfield, a fan that runs hot enough to smell, smokes, sparks or has started to melt needs us, as does one that trips the breaker each time it starts. Cut the fan at the breaker if you can safely. Smoke or fire means leave and call 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'In the 1960s and 70s neighborhoods and the apartment buildings around Fairfield, these are the signs we hear about most.',
   localFaqs: [

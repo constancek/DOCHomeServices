@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'In Williamsburg, a request for recessed lights in an older house usually means plaster. The village was founded in 1796, and Census figures show more than a quarter of its homes went up in 1939 or earlier, against a median of 1961. So a block off Main Street can pair a lath-and-plaster house, planned around one ceiling light, with a 1960s ranch that has an open attic. Upstairs rooms in the old houses leave little headroom above. We chalk every opening and fix the cost first.',
-  emergencyParagraph:
-    'Stop using a can that smells hot, has browned the plaster around its rim or blinks off and on by itself. Kill that circuit at the panel if you can get there without risk. If smoke or flame shows, take everyone outdoors and phone 911. Most of these calls get a visit the same day, Saturdays and Sundays as well.',
   commonIntro:
     'Old plaster houses near the center, ranches and newer homes at the edges of the village all ask for something a little different.',
   localFaqs: [

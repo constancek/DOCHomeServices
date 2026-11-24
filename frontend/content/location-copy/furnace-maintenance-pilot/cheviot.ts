@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Cheviot rents almost as much as it owns, and its housing is old: Census figures date 44.9% of homes to 1939 or before. So our fall work there splits two ways. One half is basement furnaces under single houses and two-families, usually the third furnace that basement has held, venting up a tired chimney. The other half is apartment buildings, scheduled by whoever manages them. Electric heat, heat pumps included, reaches 37.1% of homes. Prices come first, and a furnace that needs nothing is left alone.',
-  emergencyParagraph:
-    'These mean a repair visit in Cheviot. A whiff of gas: go, touch no switches, ring Duke Energy from the sidewalk. A carbon monoxide alarm: everybody out. A furnace that won’t heat in a freeze, stutters on and off, or burns lazy and yellow. Infants, the old and the ill go first. Usually same day, Saturdays and Sundays too.',
   commonIntro:
     'With old two-families and apartment blocks side by side, owners call us in Cheviot about one of these:',
   localFaqs: [

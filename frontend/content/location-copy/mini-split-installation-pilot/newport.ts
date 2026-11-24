@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newport: LocationServiceCopy = {
   localParagraph:
     'Much of Newport was standing before ductwork was common. By Census figures, 46.5% of its homes went up in 1939 or earlier and slightly more than half are rentals. A brick Victorian with plaster on lath and a tight attic gives ducts nowhere to go, but a wall-mounted head needs only a slim line path and one modest hole. Building owners settle it for apartments. The quote is fixed and signed off before tools come out, and we’ll be frank if ductless is the wrong buy.',
-  emergencyParagraph:
-    'Cincinnati’s July normal high sits at 86F (National Weather Service), and a top-floor flat under an old roof can hold that into the small hours, rough on grandparents, newborns and anyone who gets winded. We slot installs in fast, one zone usually in a day. A broken ductless unit means Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In rowhouses on the East Row and flats in the bigger brick buildings, owners in Newport tend to reach out to us over one of these:',
   localFaqs: [

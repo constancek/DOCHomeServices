@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fairfield: LocationServiceCopy = {
   localParagraph:
     'Island pendants top the list of lighting calls from Fairfield, and the first question is whether any wiring reaches that spot. Going by Census numbers, the typical house here dates to 1978, out of the big 1960s and 1970s building run, and those kitchens were planned around one fixture in the middle. Roughly a quarter of homes are in apartment complexes and better than a third are rented. A short look at the existing box and circuit lets us quote a fixed figure before any drywall is touched.',
-  emergencyParagraph:
-    'When a kitchen or hall fixture droops, crackles, browns the paint around it or sends the breaker off, treat it as urgent. Flip that breaker if the panel is close and clear, and nobody stands underneath. Smoke or flames mean everyone outside and a 911 call. Most calls in Fairfield get a visit that same day, weekend days as well.',
   commonIntro:
     'Jobs in Fairfield tend to fall into these four.',
   localFaqs: [

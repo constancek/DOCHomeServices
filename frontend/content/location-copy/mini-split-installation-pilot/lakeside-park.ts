@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
     'Lakeside Park is a small, settled city of mostly single-family houses, with a median year built of 1964 by Census figures. Ducts in those houses were sized for the rooms that existed then, so the sunroom, finished basement or bedroom over the garage added since often runs warm. The 17.5% of homes from 1939 or earlier may have no upstairs ducts at all. Before any work, we quote one flat price, and if a mini-split isn’t needed, we say it plainly.',
-  emergencyParagraph:
-    'The roughly 21 days a year at 90F (National Weather Service) hit a sunroom or a second floor without ducts hardest. Babies, older relatives and anyone with breathing trouble shouldn’t ride that out in those rooms. Install dates come quickly. For a mini-split that has quit, Mini-Split Repair is same day on most calls, weekends included.',
   commonIntro:
     'In the mid-century and older houses of Lakeside Park, these are what usually prompt a ductless quote:',
   localFaqs: [

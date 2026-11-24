@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const blueAsh: LocationServiceCopy = {
   localParagraph:
     'Blue Ash wiring is usually in decent shape. Census figures put the city’s median build year at 1981, with the 1980s its busiest building decade, so we rarely see fuse boxes or ungrounded outlets here. People book us for a reason: a sale or purchase, a finished basement, an addition, or a car charger or heat pump that a 1970s or 1980s panel may not have room for. We check the whole system, tell you what it can take, and price anything it needs before we start.',
-  emergencyParagraph:
-    'Newer wiring still fails. If an outlet or switch feels hot, buzzes or shows scorch marks, if you smell burning, or if a breaker trips again the second you reset it, turn that breaker off and call. Any smoke or fire: get out and phone 911. We get to most calls in Blue Ash the same day, weekends included.',
   commonIntro:
     'Most Blue Ash homes are from the 1970s and 1980s, and their findings are more about capacity than age:',
   localFaqs: [

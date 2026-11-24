@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'St. Bernard has a lot of doubles, and that shapes a charger job as much as the car does. Census figures count about one home in six in a two-unit building, with the typical house dating from 1955. In a double, the owner settles which unit’s panel feeds the charger and who pays for the power. Panels from the 1950s are often full already. We open the panel, figure the load, mention it when the factory cord would do, and give you the cost before starting.',
-  emergencyParagraph:
-    'A plug or outlet that comes away hot or browned, a smell of scorching from the charger, or a breaker that won’t survive one charge needs attention today. Unplug first. Switch the breaker off only from dry footing. If smoke or flames appear, get everyone out and call 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'Between the doubles, the apartment buildings and the single houses of St. Bernard, these are the four situations that bring charger calls our way.',
   localFaqs: [

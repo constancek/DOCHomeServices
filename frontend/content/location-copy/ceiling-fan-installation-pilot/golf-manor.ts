@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const golfManor: LocationServiceCopy = {
   localParagraph:
     'In Golf Manor, most ceiling fan jobs come down to a light box from the 1950s. By Census figures the middle house dates to 1954, and most went up from 1940 through 1959, when a bedroom got one light and nobody planned for a fan. That box was screwed up to carry a glass globe, not a spinning motor, so we drop the canopy and look at it first. If it only wobbles, a snugged bracket may be the fix, and the cost is settled before anything leaves the ceiling.',
-  emergencyParagraph:
-    'It’s urgent if the blades swing wider by the day, the canopy is tearing away from the plaster, or the motor housing puts out smoke. Shut it off at the wall or breaker box if you safely can and herd everyone elsewhere. Flames mean leaving the house and phoning 911. Most calls get us there the same day, weekends too.',
   commonIntro:
     'These four come up most on fan calls we take in Golf Manor.',
   localFaqs: [

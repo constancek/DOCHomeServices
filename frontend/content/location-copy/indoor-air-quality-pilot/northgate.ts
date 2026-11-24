@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northgate: LocationServiceCopy = {
   localParagraph:
     'Most of Northgate, in Colerain Township, was built out in the 1960s and 1970s, and Census figures put the median at 1969. Single houses dominate, and electricity edges out gas as the heating fuel here, so plenty of homes run an electric furnace or heat pump all winter, which leaves the air dry. Duct joints of that age loosen and spread dust, and basements dampen when summer gets sticky. You get readings before a quote, and if a new filter is the cure, you hear it from us.',
-  emergencyParagraph:
-    'Empty the house when a carbon monoxide alarm sounds, then dial 911 outdoors. If you smell gas, walk out touching no switches and ring the gas company outside. Turn off a burnt-smelling furnace or AC at the thermostat. Fast-growing mold after a leak is urgent for babies, elders and asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'Houses from the 1960s and 1970s around Northgate tend to show their air problems like this:',
   localFaqs: [

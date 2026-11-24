@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const northAvondale: LocationServiceCopy = {
   localParagraph:
     'Census figures show North Avondale is largely prewar, with a median year of 1938 and close to two-thirds of homes that old, and many of the rest sit in apartment buildings. The big old houses along Rose Hill and Clinton Springs breathe through every window frame, keep their basements damp and push dust through ducts added long after they were built. In an apartment, the owner or manager makes the equipment call. We test before we quote, and when a fresh filter is enough, we tell you that.',
-  emergencyParagraph:
-    'A carbon monoxide alarm means everyone leaves before 911 is called. Gas in the air means walking out, switches untouched, and calling Duke Energy outdoors. Set the thermostat to off if the furnace or AC smells scorched. Mold creeping after a roof leak can’t wait for infants, elders or asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'In the old houses and apartment buildings of North Avondale, these complaints come up most:',
   localFaqs: [

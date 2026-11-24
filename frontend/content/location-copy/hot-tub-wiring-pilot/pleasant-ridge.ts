@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantRidge: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Ridge, wiring a hot tub usually starts with an old box in the basement. Census figures date over half the houses to 1939 or earlier, and decades of added circuits have usually crowded those boxes already, so making room is step one. Then the spa gets its own GFCI-protected 240-volt circuit, a disconnect you can see from the water, and bonding on the nearby metal. We read the maker’s requirements against your panel and quote before conduit goes in.',
-  emergencyParagraph:
-    'In Pleasant Ridge, shut the spa down the moment its GFCI or breaker refuses a reset, the panel starts buzzing, or the shutoff smells burnt. If anyone feels a tingle, climb out without touching the equipment. Cut power only when you safely can, and call 911 for smoke. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'For owners in Pleasant Ridge, spa wiring questions mostly begin with one of these.',
   localFaqs: [

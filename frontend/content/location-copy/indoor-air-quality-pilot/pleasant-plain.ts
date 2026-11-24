@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'Pleasant Plain is a village of old houses. Census figures count 51 of its 67 homes as built in 1939 or earlier, and almost none have piped gas, so heat comes from electricity or fuel oil. Houses that old let drafts through, keep cellars damp and carry dust through ducts added in later decades. A fuel oil furnace adds its own smell when something is off. Readings come before any suggestion, the price is agreed before work, and if a fresh filter will do, you’ll hear it.',
-  emergencyParagraph:
-    'If the carbon monoxide detector sounds, the whole family steps outside before anyone phones 911. A gas or propane odor means leaving the switches alone and calling the supplier outside. Any burning smell from the furnace or AC means thermostat off. Mold spreading after water damage hits babies and grandparents hardest. We answer most calls same day, weekends included.',
   commonIntro:
     'Old village houses produce the same four air complaints again and again in Pleasant Plain.',
   localFaqs: [

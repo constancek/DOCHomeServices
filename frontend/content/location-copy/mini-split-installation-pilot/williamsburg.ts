@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const williamsburg: LocationServiceCopy = {
   localParagraph:
     'In Williamsburg, nearly three in ten homes predate 1940 by Census count, built long before ductwork, with plaster walls and attics too shallow to hide it. One wall head fed through a single small opening cools such a room without a scrap of plaster removed. Newer streets ringing the village bring us lower levels and add-on rooms instead. Owners decide for the 37.6% of homes that are rented. Your price arrives before work does, along with a plain answer if ductless won’t serve.',
-  emergencyParagraph:
-    'In Williamsburg, old upstairs bedrooms get miserable on the roughly 21 days a year topping 90F, by National Weather Service records. Infants, elderly parents and anyone short of breath feel it worst. Booking is quick, and a single head runs about a day, extra zones longer. If a unit stops, Mini-Split Repair usually arrives same day, weekends included.',
   commonIntro:
     'In the village center and the newer streets around it, these are the reasons owners call us about ductless in Williamsburg:',
   localFaqs: [

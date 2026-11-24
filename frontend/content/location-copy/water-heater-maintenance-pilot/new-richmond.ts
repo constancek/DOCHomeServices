@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newRichmond: LocationServiceCopy = {
   localParagraph:
     'New Richmond has two housing eras side by side. Census figures show 12.1% of homes predate 1940, while a third went up in 2000 or later. In the old river-town houses the heater usually stands in a basement with an elderly flue, a drain spout that may crumble and gas piping to trace. Newer houses are a quick drain, anode pull and valve test, often on an electric tank. We name the cost first, and we’ll be plain when servicing a particular heater would waste your money.',
-  emergencyParagraph:
-    'Tank shell weeping onto the floor: crank the cold inlet closed, then kill fuel or electricity. Rotten-egg odor: exit, leave lights and pilot untouched, and ring the gas company when clear. Carbon monoxide alarm: clear the house. Those, a spitting relief valve and a stone-cold tap are repair calls. Expect us that day usually, weekends no exception.',
   commonIntro:
     'From the riverfront to the newer subdivisions, these are what put a heater in New Richmond on the yearly list:',
   localFaqs: [

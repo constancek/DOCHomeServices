@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Almost everything in Camp Washington is old housing. Census figures put 88.9% of homes at 1939 or earlier and record nothing built after 1980, so the heater tends to stand in a cellar by the foundation, flue overhead, gas line beside it, drain spigot untouched for years. Roughly four in five homes are rented, and a two-family house often has two tanks. The rinse and valve test are the heart of it. Price first, and if the tank isn’t worth servicing, we say so.',
-  emergencyParagraph:
-    'Carbon monoxide alarm sounding: every person outdoors. Gas odor: walk out without touching switches or matches and phone the gas company from the street. A leak: the cold inlet handle on top goes off, then gas or breaker. A relief valve that won’t settle, or a cold tap: repair, not a tune-up. Most get same-day help, weekends too.',
   commonIntro:
     'Housing this old, and mostly rented, brings a familiar set of reasons to book:',
   localFaqs: [

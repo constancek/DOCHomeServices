@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const newtown: LocationServiceCopy = {
   localParagraph:
     'Bathroom vanity lights are a regular request in Newtown, usually a bare strip of globe bulbs above the mirror that someone wants gone, and the work rests on the wall box, the ground and where the old cable exits the drywall. Census data puts the median house in the village at 1989, although roughly one in five was standing before 1940 around Church and Main. Newer walls usually hide a grounded box, older plaster often does not. Our quote is fixed before the strip leaves the wall.',
-  emergencyParagraph:
-    'A vanity light buzzing over a wet sink, a canopy drooping from the ceiling, or brown marks around a switch plate can’t wait. Trip that breaker yourself if reaching the panel is safe, and keep the family clear of it. Smoke or flames mean getting outside and dialing 911. Newtown gets same-day visits on most calls, weekends included.',
   commonIntro:
     'Old village houses near Church Street, townhouses and homes built since 1980 all feed the fixture work we do in Newtown.',
   localFaqs: [

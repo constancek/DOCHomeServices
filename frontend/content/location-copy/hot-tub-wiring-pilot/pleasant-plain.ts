@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pleasantPlain: LocationServiceCopy = {
   localParagraph:
     'In Pleasant Plain, hot tub wiring usually means fitting a spa line into a house close to a century old. Census figures put three in four homes in the village at 1939 or earlier, and many heat with electricity, so the panel is often short on space and capacity before a spa breaker is even added. That gets sorted first. Then comes the GFCI-protected 240-volt line, a shutoff the bather can see, and bonding around the shell. The whole job is priced before conduit goes in.',
-  emergencyParagraph:
-    'Get out of the spa if its GFCI or breaker won’t stay reset, the shutoff smells of burning, or anyone in the water feels a tingle. Leave the equipment alone, switch off at the breaker only if that carries no risk, and call 911 if smoke shows. Weekends too, most calls get a visit that day.',
   commonIntro:
     'In Pleasant Plain, spa wiring questions usually start with one of these.',
   localFaqs: [

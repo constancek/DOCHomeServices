@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const sharonville: LocationServiceCopy = {
   localParagraph:
     'Sharonville is younger than most suburbs around it, which changes how a spa job goes. Census figures date the median home to 1974, and more houses went up in the 1980s and 1990s than in any earlier stretch, so lots of panels still have a blank slot or two. Then the real questions become where the tub sits, how long the conduit runs and whether the yard floods. We still hold your panel against the spa’s printed requirements and quote it before any trenching.',
-  emergencyParagraph:
-    'Some spa faults jump the queue, such as a GFCI that clicks off as you reset it, a scorched whiff at the shutoff, a humming panel, a tingle in the water, or a tub soaked by Mill Creek. Get people out and keep hands off. Smoke or fire means 911. We reach most callers the same day, weekends too.',
   commonIntro:
     'From the subdivisions off Sharon Road to the streets near Mill Creek, most of the spa calls we get start with one of these four in Sharonville:',
   localFaqs: [
@@ -33,7 +31,7 @@ export const sharonville: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Panel Capacity for a Hot Tub in Sharonville',
-        body: 'A blank slot looks like good news, and around Sharonville, that’s often true, though a slot by itself settles nothing. More than a third of homes here heat with electricity, and a heat pump or electric furnace swallows a big share of the service on a January night. So we total what the house already draws with a proper load calculation, choose a breaker that meets the tub maker’s figures and confirm the slot is truly usable. If the math falls short, Electrical Panel Replacement sits on the quote beside the spa line, and you choose with both prices in hand.',
+        body: 'In Sharonville, an open slot in the panel is common and a good start, but the slot alone proves nothing. Over a third of homes in the city run on electric heat, and an electric furnace or heat pump pulls hard on the service in the coldest weeks. Our load calculation adds up every big draw, then we pick a spa breaker that matches the tub maker’s sheet and make sure the slot will take it. When the numbers come up short, Electrical Panel Replacement goes on the quote as its own line, so you decide with both costs in view.',
       },
       {
         title: 'DIY or a Licensed Electrician for Hot Tub Wiring in Sharonville',
@@ -41,12 +39,12 @@ export const sharonville: LocationServiceCopy = {
       },
       {
         title: 'Hot Tub Wiring Outdoors Year-Round in Sharonville',
-        body: 'Most tubs here end up on a wood deck off the family room or a poured patio inside a fenced yard. The conduit and fittings we use carry outdoor ratings, keeping wet springs and icy winters away from every splice. The shutoff hangs where you can see it from the tub, a sensible step back from the rim, and the metal around the spa is bonded before the city inspects.',
+        body: 'Wooden decks and concrete patios behind a fence are where tubs usually land in Sharonville. Every run of conduit and every fitting we install there is rated for outdoor use, so wet springs and January ice never reach a splice. We hang the disconnect within sight of the bather but a step back from the rim, bond the metal around the spa, and leave the job ready for the city inspector.',
       },
     ],
     whyTitle: 'Why Homeowners in Sharonville Choose Us for Hot Tub Wiring',
     whyParagraph:
-      'Newer panels and floodplain lots are both familiar ground for our licensed electricians. They check the panel first, then put in the spa line, shutoff and bonding to code, at a figure you’ve agreed, treating it as safety work.',
+      'Our licensed electricians treat every spa as safety work, on newer lots and floodplain lots near Mill Creek alike. They check the panel first, then wire the GFCI line, disconnect and bonding to code for the agreed price.',
     sharedFaqs: [
       {
         q: 'How do you price hot tub wiring in Sharonville?',

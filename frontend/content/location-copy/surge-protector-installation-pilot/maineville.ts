@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const maineville: LocationServiceCopy = {
   localParagraph:
     'Most of Maineville is subdivision housing, and by Census figures the typical house dates from 2004, with more than half finished after 2000. A panel that new usually has room for a protector, and the house around it is full of things surges grind down. Over half heat with electricity, so a heat pump often sits out back, beside smart thermostats and a kitchen run on boards. We still open the panel before quoting, say when strips would do, and settle the price first.',
-  emergencyParagraph:
-    'In Maineville, if a heat pump, fridge or TV smoked or sparked when power came back, keep it off. A breaker that pops back off, or an outlet that smells hot, needs us that day. Shut that circuit off only if you’re dry. With smoke or fire, leave and dial 911. Same day on most calls, weekends included.',
   commonIntro:
     'In Maineville, where most houses date from the 1980s on, these signs usually come before a call about surge protection.',
   localFaqs: [

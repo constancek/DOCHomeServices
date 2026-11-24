@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const wilder: LocationServiceCopy = {
   localParagraph:
     'In Wilder, more than half the housing is in buildings of five or more units, Census figures show, and yet most households own, which usually means condos. The association then rules on where a charger goes and how it’s fed. The detached houses are mostly 1980s and 1990s builds whose panels tend to have room or can work with load management. Electric heat is the norm here. Our electrician reads the panel, totals the load, mentions it if Level 1 would serve, and prices the job before a wire moves.',
-  emergencyParagraph:
-    'Scorched or melted plugs and outlets, a crushed cable, or a breaker that quits on every charge all mean you stop charging. Kill that circuit at the panel only with dry hands and nothing hot nearby. Smoke or flames mean leaving the building and dialing 911. We can usually be there the same day, Saturdays and Sundays too.',
   commonIntro:
     'Condo owners and householders in Wilder tend to reach us for one of these reasons.',
   localFaqs: [

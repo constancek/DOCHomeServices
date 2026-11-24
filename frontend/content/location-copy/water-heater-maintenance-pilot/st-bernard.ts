@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const stBernard: LocationServiceCopy = {
   localParagraph:
     'Much of the water heater maintenance in St. Bernard happens in doubles. Census figures put 17.6% of homes in two-unit buildings, usually one tank per side in a shared basement, and the median home dates from 1955. Another 32.6% predate 1940, so we watch for brittle drain valves, flue pipes into old chimneys and tired gas fittings. Newer houses get a plain flush and valve test. The price comes first, along with an honest view on whether the tank deserves servicing.',
-  emergencyParagraph:
-    'If water is coming out of the tank, book a repair: close the cold-water valve above it, then gas or breaker. For a gas smell, get outdoors, skip switches and pilot, and call the gas company. A carbon monoxide alarm means everyone out first. A relief valve stuck open or no hot water: repair. Same day on most, weekends included.',
   commonIntro:
     'Homeowners and owners of doubles in St. Bernard usually schedule a tank service after one of these:',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mulberry: LocationServiceCopy = {
   localParagraph:
     'Mulberry is young for this side of Clermont County. Census counts put half its homes at 1988 or newer, and fewer than two in five are stand-alone houses, with the rest split among townhouses, condos and apartment buildings. Great rooms with sloped ceilings need a down rod, decks and patios want a weather-rated fan, and a builder’s light box over the bed may not be fan-rated. We pull the fixture and check first, say when a few turns of a screwdriver fix it, and quote before anything comes down.',
-  emergencyParagraph:
-    'A fan swinging wide enough to knock its canopy, a burnt-plastic smell drifting from the motor, or a wall switch that crackles all count as urgent in Mulberry. Flip the breaker if you can reach it safely and keep the room empty. If anything is burning, go outside and call 911. Same-day visits cover most calls, including weekends.',
   commonIntro:
     'Townhouses, condos and newer detached houses send us most of the ceiling fan requests in Mulberry.',
   localFaqs: [

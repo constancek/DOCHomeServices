@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'In Bellevue, nearly two homes in three went up before 1940, per Census figures. That means plaster on wood lath overhead and a ceiling box screwed up for a still, hanging fixture, never for a fan that turns and tugs on it. Plenty of bedrooms never got a ceiling light at all. Most homes are owner-occupied. We open the box first, tell you if a snug mount or balanced blades will do, and quote before the old light comes down.',
-  emergencyParagraph:
-    'A fan banging around, a box pulling out of the plaster, a smoking motor or a breaker that drops each time it starts needs help today. Turn it off at the wall or panel when that’s safe and keep everyone from under it. If something is burning, leave and call 911. We can usually come the same day, weekends included.',
   commonIntro:
     'In a small river city where most houses predate 1940, these four fan signs turn up again and again across Bellevue.',
   localFaqs: [

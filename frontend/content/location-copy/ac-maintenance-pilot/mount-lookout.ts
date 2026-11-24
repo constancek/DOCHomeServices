@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mountLookout: LocationServiceCopy = {
   localParagraph:
     'In Mount Lookout, spring service mostly means early 1900s family houses framed long before anybody cooled them. Half were standing by 1940, Census figures say, and nearly four in five are detached, so cooling came later as an attic blower or a cellar coil, with duct runs fished up through plaster and a condenser squeezed between neighbors’ walls. Owners occupy most of them and book for themselves. Our flat price is settled ahead of any work, and a system in good shape gets a plain no thanks.',
-  emergencyParagraph:
-    'Book a repair, not maintenance, when the house can’t cool in a hot spell, ice furs the copper, water stains the ceiling under an attic unit, or the condenser hums with a stalled fan. Kill it at the thermostat first. Infants, elderly family and anyone with breathing problems feel heat soonest. Same day on most calls, weekends included.',
   commonIntro:
     'In the older houses on these hilly streets, the calls we get usually start with one of these:',
   localFaqs: [

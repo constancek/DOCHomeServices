@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const florence: LocationServiceCopy = {
   localParagraph:
     'In Florence, a good share of our exhaust fan calls come from condos and apartments, because renters hold just over half the homes here and many live in multi-unit buildings. The housing also leans older than people expect. Census figures show two in three units were built before 1980, so original fans are often small, noisy and ducted short of the roof. Whoever owns the unit, we trace where the air goes first and quote the fix before anything gets cut open.',
-  emergencyParagraph:
-    'In Florence, a dripping fan may be leaking from the unit upstairs. A burnt smell, sparks, smoke, a scorched housing or a breaker that drops with the fan is more urgent, so kill it at the panel if safe. Smoke or fire means leaving the building and calling 911. Same-day visits cover most calls, weekends too.',
   commonIntro:
     'From the mid-century streets to the condo buildings near the mall in Florence, these are the signs we see most.',
   localFaqs: [

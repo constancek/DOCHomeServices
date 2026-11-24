@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hartwell: LocationServiceCopy = {
   localParagraph:
     'In Hartwell, a railroad suburb platted in 1868, plenty of houses still have their original plaster ceilings. The Census dates the typical home here to 1949, and one in three is older than 1940, so a new fan often goes where an old steel light box is buried in plaster and lath. Roughly two households out of three rent, many in large complexes. We check the box before quoting, tell you if a tightened mount is all it needs, and settle the price before anything is unscrewed.',
-  emergencyParagraph:
-    'A fan that jerks on its mount, a canopy sagging from cracked plaster, or a motor that smells of hot plastic can’t wait. If the wall switch or breaker is within easy reach, turn it off and stand back. Should smoke or flame appear, leave the building and phone 911. Most calls get us there the same day, weekends too.',
   commonIntro:
     'In the old single homes, the doubles and the apartment blocks, these four fan problems reach us most often in Hartwell.',
   localFaqs: [

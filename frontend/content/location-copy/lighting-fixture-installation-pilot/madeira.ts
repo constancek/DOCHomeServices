@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const madeira: LocationServiceCopy = {
   localParagraph:
     'In Madeira, more homes went up in the 1950s than in any other decade, and the middle house dates from 1960. That shows in the lighting. A center hallway with one small dome, a kitchen with a single box over the sink and living rooms lit by lamps are the standard Eisenhower-era layout. Some of those ceilings were wired without a ground, and the South Kenwood streets added later vary. We check each box and splice, and the agreed figure is set before the old fixture drops.',
-  emergencyParagraph:
-    'A hall dome tilting from the ceiling, an odor of hot wiring, a warm toggle or a breaker that clicks off when one room lights up is urgent. If the panel is safe to reach, cut that circuit and keep kids clear. With smoke or flames, get out and phone 911. Most are seen that day, weekends too.',
   commonIntro:
     'Behind the front doors of mid-century Madeira, these four lighting jobs show up again and again.',
   localFaqs: [

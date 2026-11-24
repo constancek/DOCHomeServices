@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const pendleton: LocationServiceCopy = {
   localParagraph:
     'Vanity lights over bathroom mirrors are a top request in Pendleton, the small triangle between Liberty, Sycamore and Reading Road, and in an Italianate town home the box hidden behind that mirror sets the plan. Census figures count four in five homes here as pre-1940, mostly in buildings of two or more units, and most are rented. Walls that old can hold shallow boxes and no ground. Units built since 2010 are simpler. We open the box, test the cable and give a fixed price before anything is unscrewed.',
-  emergencyParagraph:
-    'Party walls let a fixture fault spread next door, so phone us that day about a light sagging off its strap, plastic oozing around a socket, or a breaker tripping alongside the light. If the panel is safe, shut it and keep people clear. Smoke or flame calls for leaving and 911. Weekend or weekday, we usually come that day.',
   commonIntro:
     'Along Broadway, 13th Street and Pendleton Street, these four fixture jobs make up most of our work.',
   localFaqs: [

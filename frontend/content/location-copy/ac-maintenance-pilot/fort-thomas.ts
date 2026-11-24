@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortThomas: LocationServiceCopy = {
   localParagraph:
     'A lot of houses in Fort Thomas are older than central air. Census figures give a median of 1955, with 32.1% built before 1940, so cooling arrived later as an add-on, its coil set atop a basement furnace or its air handler wedged among attic joists. That shapes the visit, since those coils and drain lines take some climbing to reach. You agree to the price beforehand, and if your system needs nothing, we say exactly that.',
-  emergencyParagraph:
-    'Ring for repair, not upkeep, if a heat wave finds the house refusing to cool or frost coats the copper; turn the thermostat off. A brown stain spreading below an attic unit, or a condenser humming with its fan stalled, means power stays off. Babies and elderly relatives overheat soonest. We often come that day, weekends too.',
   commonIntro:
     'Throughout Fort Thomas, homeowners usually book a tune-up when they notice one of these.',
   localFaqs: [

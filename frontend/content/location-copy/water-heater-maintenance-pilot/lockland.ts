@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const lockland: LocationServiceCopy = {
   localParagraph:
     'In Lockland, Census figures put 47.9% of homes before 1940 and the median at 1944. So most of our water heater service here happens in a basement corner beside an old flue, a gas line that deserves a look, and a drain spigot nobody has opened in years. Apartment buildings with five or more units, 23.4% of homes, keep tanks in closets on drain pans. We price it flat first, and if a heater doesn’t merit servicing, you’ll hear that.',
-  emergencyParagraph:
-    'A leak isn’t a maintenance job. Spin the cold valve above it shut, then gas off or breaker down. At a whiff of gas, leave, hands off switches and pilot, ring the gas company outside. Carbon monoxide alarm: out, everyone. Same for a relief valve that won’t quit, or no hot water. Same day on most calls, weekends included.',
   commonIntro:
     'Pre-war cellars and apartment closets in Lockland each give warnings of their own. The ones we hear most:',
   localFaqs: [

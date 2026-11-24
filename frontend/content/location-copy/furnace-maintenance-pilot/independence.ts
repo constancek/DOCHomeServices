@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const independence: LocationServiceCopy = {
   localParagraph:
     'In Independence, the furnace we tune up is often the one the builder put in. Census figures show 49.0% of homes built in 2000 or later, mostly detached houses with the furnace in a basement or utility room and a plastic or metal vent pipe out the wall. That makes the visit about wear on the original parts: igniter, flame sensor, blower motor and safety switches. Electricity heats 47.3% of homes, heat pumps included. You get the price first, and a healthy furnace gets an honest all-clear.',
-  emergencyParagraph:
-    'Gas smell: leave, fingers off switches, no relighting, phone the gas company from the lawn. Carbon monoxide alarm: out, everyone, now. Repair also covers a furnace that’s given up in a cold snap, one that shuts down and restarts repeatedly, a flame burning yellow and limp. Babies, older relatives, anyone ill: most at risk. Most calls same day, weekends included.',
   commonIntro:
     'With so many furnaces in Independence still the builder’s originals, these are the usual reasons owners book:',
   localFaqs: [

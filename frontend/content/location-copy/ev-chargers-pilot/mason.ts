@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const mason: LocationServiceCopy = {
   localParagraph:
     'Most homes in Mason were built after 1990, and Census figures put the middle of its housing at 1996, and about seven in ten stand alone. A builder panel from that era tends to have a slot or two open, and where it doesn’t, a load-management device can share what’s there. Over a third of homes heat with electricity, and a heat pump counts against the same service. We size that up first, say so if your plug-in cord is plenty, and quote before a single cable moves.',
-  emergencyParagraph:
-    'A charger too hot to touch, a plug with browned or melted edges or a tire-flattened cord means unplug the car. Shut that circuit off at the panel if you can reach it dry and safe. If you see smoke or flame, leave the house and dial 911. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Calls about chargers from around Tylersville Road and Kings Island usually begin with one of these four.',
   localFaqs: [

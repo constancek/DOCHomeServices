@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const cleves: LocationServiceCopy = {
   localParagraph:
     'Most fan work in Cleves is about fans that exist but don’t do enough. By Census figures the median house in the village dates to 1972, and roughly one in five went up in 2000 or later, so a bathroom with no fan is the exception here. More often it’s a 1970s fan with a worn-out motor, or a builder-grade unit never sized for the bathroom it serves. We measure the pull at the grille, follow the duct and put the price in writing before any ceiling work.',
-  emergencyParagraph:
-    'A melted or blackened housing, a hot-plastic smell, sparks, smoke, a dripping grille or a breaker that trips with the fan on is a reason to kill the power, at the switch or the panel if you can do it safely. With smoke or flame, get out and call 911. Most calls are same day, including weekends.',
   commonIntro:
     'Bathroom fans are already in most houses in Cleves, so what brings people to us is a fan that has quit pulling its weight:',
   localFaqs: [

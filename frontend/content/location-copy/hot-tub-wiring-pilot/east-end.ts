@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const eastEnd: LocationServiceCopy = {
   localParagraph:
     'Along the East End, the age of the house sets the size of a spa job. Census figures put the median home at 1938, and prewar rowhouses and two-families near Eastern Avenue often carry a panel with every slot taken and little capacity left, so that gets fixed before the spa circuit. Riverside Drive is newer, from the 1990s on, and there the panel usually copes, which leaves tub placement and conduit length as the open questions. We price it after reading your panel against the spa maker’s sheet.',
-  emergencyParagraph:
-    'A spa that tingles, smells scorched at its shutoff, or knocks the GFCI out again the second you reset it should go off. Climb out without grabbing the rails. Flip the breaker only if reaching it is safe, and for smoke or flames, leave and dial 911. We’re usually out the day you call, weekends included.',
   commonIntro:
     'Between the old blocks of Eastern Avenue and the newer river frontage, four things send spa owners our way.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'Finneytown is overwhelmingly mid-century, with more than half its houses dating from 1940 through 1959 by Census figures, and most are owner-occupied. A panel from those years was planned around far fewer appliances, and decades of additions usually mean no open slot for a 240-volt car line. Families buying a second EV should size the job for both cars now. Our visit starts with the panel open and the load totaled, includes a straight word if the trunk cord already copes, and ends with a fixed price.',
-  emergencyParagraph:
-    'Charging ends if a plug or faceplate turns brown, melts or can’t be touched, or a breaker gives up each time the car starts pulling. Shut that circuit off only when the panel is dry and safe to reach. Should smoke or fire appear, everybody leaves before anyone phones 911. A crew is usually there the same day, weekends too.',
   commonIntro:
     'These are the mid-century situations in Finneytown that most often end with a Level 2 charger.',
   localFaqs: [

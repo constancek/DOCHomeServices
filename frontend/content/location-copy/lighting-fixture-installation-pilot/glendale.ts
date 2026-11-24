@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const glendale: LocationServiceCopy = {
   localParagraph:
     'Chandeliers lead our fixture work in Glendale, and in a house of this age the plaster hides what truly carries one. By Census counts, the typical house in the village was finished by 1938, over half are pre-1940, and Italianate and Second Empire houses line the historic district. Old ceilings like these tend to hide undersized boxes and ungrounded runs. Owners live in nearly all of them. We study the box and wiring before quoting, and the figure is fixed before anything is lowered.',
-  emergencyParagraph:
-    'Don’t wait out a light sagging from the plaster, a scorched odor at a fixture or switch, or a breaker tripping when a lamp lights. Flip that breaker off if safe and clear the room beneath. With smoke or fire, get out and dial 911. Most calls in Glendale see us the same day, weekends too.',
   commonIntro:
     'In Glendale, these four make up most of our fixture work.',
   localFaqs: [

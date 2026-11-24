@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const fortWright: LocationServiceCopy = {
   localParagraph:
     'In Fort Wright, the cheapest moment to add recessed lighting is mid-remodel, while the joists are bare. Census figures put the median home at 1974, and building here spread fairly evenly from the 1940s through the 1990s, so most top floors have drywall under an attic. Mid-century houses near Kyles Lane often have a lower level still waiting to be finished, and the newer ones lean toward open kitchens. Close to two thirds are detached houses. Before cutting, we fix the layout and the price with you.',
-  emergencyParagraph:
-    'Call us if a breaker trips the moment those cans switch on, a switch plate is warm or buzzing, or a downlight keeps cutting itself off and back on. Kill that circuit at the panel if doing so is safe. With smoke or fire, leave the house and dial 911. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Mid-century and 1970s houses make up most of what we light in Fort Wright, with newer subdivisions mixed in. These requests lead the list.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const bellevue: LocationServiceCopy = {
   localParagraph:
     'Across the river from Mount Adams, Bellevue is mostly houses from before 1940, close to two-thirds of them by Census figures, with the median at 1938. Most heat with gas, and in houses that age the furnace, the central air and the kitchen appliances are all far newer than the walls around them. The breaker box is often tucked in the basement and short on room. We look it over before quoting, point you to plug-in strips when those make more sense, and agree the figure first.',
-  emergencyParagraph:
-    'A browned outlet cover that feels warm, a basement panel giving off a scorched odor, or a breaker that flips itself back off should bring us the same day, Saturdays and Sundays included. Lights pulsing all at once is a question for Duke Energy first. Keep off wet concrete near the panel. Smoke means everybody out and a 911 call.',
   commonIntro:
     'Old river-city houses with new equipment inside make up most of Bellevue, and these are the signs that send owners our way.',
   localFaqs: [

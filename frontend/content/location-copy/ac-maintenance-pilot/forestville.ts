@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const forestville: LocationServiceCopy = {
   localParagraph:
     'In Forestville, the busiest building years were the 1980s and 1990s, and Census figures put the median home at 1981. Houses of that age were usually built with central air, so a checkup is a matter of coils, filter, condensate drain and wiring rather than chasing retrofitted ducts. Large apartment complexes are part of the mix, and 35.2% of homes are rented, so managers and owners book many of our visits. A fixed quote comes first, and an AC that needs nothing gets left alone.',
-  emergencyParagraph:
-    'Certain failures belong with our repair crew. A townhouse baking through a heat wave, or ice wrapping its suction line, means shutting things down at the thermostat. Drips through drywall or a hot electrical odor mean leave it off. Grandparents, infants and asthmatic family members suffer first. Expect someone that afternoon on most calls, weekends included.',
   commonIntro:
     'In Forestville, homeowners and complex managers usually call after one of these.',
   localFaqs: [

@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const ross: LocationServiceCopy = {
   localParagraph:
     'Ross, the Census-designated center of Ross Township, is mostly houses from the 1960s and 1970s; by Census figures those two decades account for half the housing. Heat is split three ways: gas and electricity in about equal shares, and fuel oil in roughly one home in seven, high for this area. A house that age is rarely on its first furnace, so a tune-up checks whatever replaced it, plus any old chimney it vents into. The quote comes first, and if the furnace needs nothing, we’ll say that.',
-  emergencyParagraph:
-    'In Ross, these skip the tune-up. Gas smell: everyone outside, hands off switches, gas company called from the driveway. A carbon monoxide alarm: out first, questions later. No heat in a cold snap, nonstop restarting or a yellow flame: repair, sooner with a baby, older parent or someone ill. Same day on most calls, weekends too.',
   commonIntro:
     'Across the 1960s and 1970s streets of Ross, these usually lead to a fall booking:',
   localFaqs: [

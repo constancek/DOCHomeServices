@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Day Heights is all single houses, Census figures show, and half of them went up in the 1960s and 1970s, with a median of 1969. Those houses along and off State Route 131 tend to have one ceiling light per bedroom, a switched outlet instead of a living room fixture, and hallways lit by a single dome. Their boxes were set for simple lights. We look in the box first, so you have a firm price before the old dome comes off.',
-  emergencyParagraph:
-    'If a dome is hanging loose in Day Heights, a switch plate looks scorched or a breaker drops with the dining light on, phone us. Cut power at the breaker if that’s safe, and nobody walks under the fixture. If you see smoke or flames, leave the house before dialing 911. We usually arrive that day, weekends as well.',
   commonIntro:
     'These are the fixture jobs we see most in Day Heights.',
   localFaqs: [

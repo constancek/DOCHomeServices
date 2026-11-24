@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
     'Turpin Hills is almost all owner-occupied single-family houses from the 1960s through the 1990s, with a median of 1977 by Census figures. Houses of that era went up tighter than older ones, so without ventilation they keep cooking smells, cleaning fumes and shower steam inside. Many still use their original duct layout, which gathers dust over decades, and a basement or lower level can go musty in summer. We test the air first, agree a flat price before installing, and tell you when a new filter is the answer.',
-  emergencyParagraph:
-    'When a carbon monoxide detector sounds, take the family to the driveway and call 911. Smell gas, and you do the same without touching a switch, then ring the gas company. Turn a burning-smelling furnace or AC off at the thermostat. Mold after a leak is urgent with newborns, older parents or asthmatics. Most calls are same day, weekends too.',
   commonIntro:
     'In Turpin Hills, most calls start with one of these complaints.',
   localFaqs: [

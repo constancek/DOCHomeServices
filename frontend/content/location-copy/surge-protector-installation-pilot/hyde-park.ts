@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Census figures show half the housing in Hyde Park was built before 1940, and about a third of homes are flats in larger buildings. Many of those older houses run on a modest panel with few open slots, which limits where a protector can be mounted. Remodels change that, because a new kitchen or retrofitted central air puts more delicate electronics behind the walls. We open the panel first. If a couple of power strips would serve you better, you’ll hear that, and the price is fixed up front.',
-  emergencyParagraph:
-    'Scorch marks on an outlet, switch or panel after a storm warrant a call to us, as does a breaker that refuses to hold once reset. Lights that surge and sag in every room are a Duke Energy problem first. Any smoke or flame means everyone leaves and someone dials 911. Most calls get a same-day visit, weekends too.',
   commonIntro:
     'Owners in Hyde Park tend to notice one of these first, usually after a remodel or a rough storm.',
   localFaqs: [

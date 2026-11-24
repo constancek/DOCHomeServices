@@ -3,8 +3,6 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const finneytown: LocationServiceCopy = {
   localParagraph:
     'In Finneytown, the median house was built in 1959, and over half went up in the 1940s and 1950s, by Census figures. Close to nine in ten are detached. Most of those ranches began without central air, and many now run a new condenser and a high-efficiency furnace off the original box. Room in that panel can be scarce, so it gets the first look. If good strips would cover you, we say so, and you get a price up front.',
-  emergencyParagraph:
-    'A switch plate gone brown after a storm, or a breaker that snaps off again on every reset, needs us out today. Cut power to that circuit only when the box and the floor beneath you are dry. Smoke or flames mean everyone leaves the house and someone calls 911. We reach most calls the same day, weekends included.',
   commonIntro:
     'In a ranch from the 1950s that has since picked up modern heating and cooling, surge trouble tends to look like this.',
   localFaqs: [
