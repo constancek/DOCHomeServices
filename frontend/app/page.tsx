@@ -164,7 +164,7 @@ function Hero() {
           </ul>
           <a
             href={site.primaryPhone.href}
-            className="mt-7 inline-flex items-center gap-2 rounded-full bg-lime-500 px-7 py-3 text-sm font-bold uppercase tracking-wide text-white shadow-cta transition hover:-translate-y-0.5 hover:bg-lime-600"
+            className="mt-7 inline-flex items-center gap-2 rounded-full bg-lime-500 px-7 py-3 text-sm font-bold uppercase tracking-wide text-white shadow-cta btn-pop hover:bg-lime-600"
           >
             Schedule Now
             <Icon name="chevron" className="h-4 w-4" />

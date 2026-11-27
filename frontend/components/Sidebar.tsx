@@ -30,7 +30,7 @@ export function MapWidget() {
 export function CouponWidget({ title, place }: { title?: string; place?: string } = {}) {
   const featured = (title && coupons.find((c) => c.title === title)) || defaultCoupon;
   return (
-    <div className="overflow-hidden rounded-2xl border-2 border-dashed border-pink-400 bg-white shadow-card">
+    <div className="overflow-hidden rounded-2xl border-2 border-dashed border-pink-400 bg-white shadow-card transition-all duration-300 ease-out hover:scale-[1.04] hover:shadow-[0_20px_40px_-15px_rgba(15,23,42,0.35)] motion-reduce:transform-none motion-reduce:transition-none">
       <div className="bg-cobalt py-2 text-center text-xs font-bold uppercase tracking-wide text-white">
         Offer for {place ?? 'Cincinnati & NKY'}
       </div>
@@ -89,7 +89,7 @@ export function Sidebar({
             height={768}
             loading="lazy"
             decoding="async"
-            className="pointer-events-none h-auto w-44"
+            className="h-auto w-44 origin-bottom transition-transform duration-300 ease-out hover:-rotate-3 hover:scale-105 motion-reduce:transform-none motion-reduce:transition-none"
           />
         </SlideInRight>
       )}
@@ -141,7 +141,7 @@ export default function MainWithSidebar({
               height={768}
               loading="lazy"
               decoding="async"
-              className="pointer-events-none h-auto w-56 sm:w-72"
+              className="h-auto w-56 sm:w-72 origin-bottom transition-transform duration-300 ease-out hover:-rotate-3 hover:scale-105 motion-reduce:transform-none motion-reduce:transition-none"
             />
           )}
           <div className="w-full max-w-[340px]">

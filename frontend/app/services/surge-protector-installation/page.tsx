@@ -202,7 +202,7 @@ export default function SurgeProtectorPage() {
           </h2>
           <a
             href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill btn-pop hover:bg-lime-600"
           >
             <Icon name="phone" className="h-5 w-5" />
             Call Now

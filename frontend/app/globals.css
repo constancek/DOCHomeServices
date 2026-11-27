@@ -35,24 +35,30 @@
     @apply font-display text-2xl font-extrabold leading-[1.15] tracking-tight sm:text-[28px];
   }
 
+  /* Hover for every button: lift, grow a little and cast a soft shadow; press
+     down on click. Off for people who ask for reduced motion. */
+  .btn-pop {
+    @apply transition-all duration-200 ease-out hover:-translate-y-1 hover:scale-[1.04] hover:shadow-[0_12px_24px_-10px_rgba(15,23,42,0.45)] active:translate-y-0 active:scale-[0.97] motion-reduce:transform-none motion-reduce:transition-none;
+  }
+
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3 text-sm font-bold uppercase tracking-wide transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+    @apply btn-pop inline-flex items-center justify-center gap-2 rounded-full px-7 py-3 text-sm font-bold uppercase tracking-wide focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
   }
 
   .btn-pink {
-    @apply btn bg-pink-500 text-white shadow-cta hover:bg-pink-600 hover:-translate-y-0.5 focus-visible:ring-pink-400;
+    @apply btn bg-pink-500 text-white shadow-cta hover:bg-pink-600 focus-visible:ring-pink-400;
   }
 
   .btn-lime {
-    @apply btn bg-lime-500 text-white hover:bg-lime-600 hover:-translate-y-0.5 focus-visible:ring-lime-400;
+    @apply btn bg-lime-500 text-white hover:bg-lime-600 focus-visible:ring-lime-400;
   }
 
   .btn-gold {
-    @apply btn bg-gold-500 text-brand-950 hover:bg-gold-600 hover:-translate-y-0.5 focus-visible:ring-gold-400;
+    @apply btn bg-gold-500 text-brand-950 hover:bg-gold-600 focus-visible:ring-gold-400;
   }
 
   .btn-white {
-    @apply btn bg-white text-brand-700 shadow-pill hover:bg-brand-50 hover:-translate-y-0.5;
+    @apply btn bg-white text-brand-700 shadow-pill hover:bg-brand-50;
   }
 
   .btn-outline {

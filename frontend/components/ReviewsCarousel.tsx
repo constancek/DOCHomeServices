@@ -159,7 +159,7 @@ export default function ReviewsCarousel({
               {r.videoHref && (
                 <Link
                   href={r.videoHref}
-                  className="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-pink-500 py-2 pl-2 pr-5 text-xs font-bold uppercase tracking-wide text-white transition hover:bg-pink-600"
+                  className="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-pink-500 py-2 pl-2 pr-5 text-xs font-bold uppercase tracking-wide text-white btn-pop hover:bg-pink-600"
                 >
                   <span className="grid h-7 w-7 place-items-center rounded-full bg-white text-pink-500">
                     <Icon name="play" className="h-3.5 w-3.5 translate-x-px fill-current" />

@@ -298,7 +298,7 @@ export default function LocationServicePage({
           <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">{fill(config.ctaLine)}</h2>
           <a
             href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill btn-pop hover:bg-lime-600"
           >
             <Icon name="phone" className="h-5 w-5" />
             Call Now
@@ -379,7 +379,7 @@ export default function LocationServicePage({
               <ul className="mt-5 flex flex-wrap gap-3">
                 {config.relatedCards.map((s) => (
                   <li key={s.slug}>
-                    <Link href={`/services/${s.slug}`} className="inline-block rounded-full bg-white px-5 py-2.5 font-display text-sm font-extrabold text-brand-600 ring-1 ring-brand-100 transition hover:bg-brand-50">
+                    <Link href={`/services/${s.slug}`} className="inline-block rounded-full bg-white px-5 py-2.5 font-display text-sm font-extrabold text-brand-600 ring-1 ring-brand-100 btn-pop hover:bg-brand-50">
                       {s.title}
                     </Link>
                   </li>

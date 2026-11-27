@@ -60,7 +60,7 @@ export default function SuccessStoriesGrid({ stories }: { stories: Card[] }) {
           <button
             type="button"
             onClick={() => setExpanded(true)}
-            className="rounded-full border-2 border-pink-500 px-8 py-3 font-display text-sm font-extrabold uppercase tracking-wide text-brand-800 transition hover:bg-pink-500 hover:text-white"
+            className="rounded-full border-2 border-pink-500 px-8 py-3 font-display text-sm font-extrabold uppercase tracking-wide text-brand-800 btn-pop hover:bg-pink-500 hover:text-white"
           >
             More Success Stories
           </button>
