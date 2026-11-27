@@ -112,6 +112,7 @@ export default function MainWithSidebar({
   couponTitle,
   mascot = false,
   place,
+  stacked = false,
 }: {
   mascot?: boolean;
   place?: string;
@@ -120,7 +121,36 @@ export default function MainWithSidebar({
   hideMenuOnMobile?: boolean;
   hideMenu?: boolean;
   couponTitle?: string;
+  // Short content (one paragraph): text runs full width, then the bulldog and
+  // coupon sit side by side underneath instead of in a tall side column.
+  stacked?: boolean;
 }) {
+  if (stacked) {
+    return (
+      <div className="container-page">
+        <div className="mx-auto max-w-4xl">{children}</div>
+        {/* No slide-in here: a larger, still bulldog beside the coupon, with a
+            clear gap between them. */}
+        <div className="mx-auto mt-10 flex max-w-4xl flex-col items-center justify-center gap-6 sm:flex-row sm:gap-12">
+          {mascot && (
+            <img
+              src="/bulldog.webp"
+              alt=""
+              aria-hidden="true"
+              width={768}
+              height={768}
+              loading="lazy"
+              decoding="async"
+              className="pointer-events-none h-auto w-56 sm:w-72"
+            />
+          )}
+          <div className="w-full max-w-[340px]">
+            <CouponWidget title={couponTitle} place={place} />
+          </div>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="container-page grid gap-10 lg:grid-cols-[1fr_340px] lg:items-start">
       <div className="min-w-0">{children}</div>

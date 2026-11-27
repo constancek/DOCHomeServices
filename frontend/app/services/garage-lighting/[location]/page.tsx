@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'garage-lighting',
   serviceName: 'Garage Lighting Installation',
+  localHeadingName: 'Garage Lighting Installation',
   eyebrow: 'Lighting',
   hubLabel: 'Garage Lighting',
   parentCrumb: { label: 'Indoor Lighting', href: '/services/indoor-lighting' },
@@ -77,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'How long does a typical garage lighting installation take?', a: 'Most garage lighting installations can be completed within a few hours, depending on the number of fixtures and wiring needed.' },
     { q: 'How can I maintain my garage lighting after installation?', a: 'Keeping fixtures clean and replacing bulbs when needed helps maintain strong brightness and reliable performance.' },
   ],
+  steps: {
+    heading: 'What to Expect From Garage Lighting Installation in {neighborhood}',
+    items: [
+      { icon: 'pencilRuler', title: 'We Look at the Garage and Circuit First', text: 'How you use the garage, where the light needs to reach and the circuit it will run on.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before any work begins.' },
+      { icon: 'bulb', title: 'Installed, Wired and Tested', text: 'Each fixture wired to code, then tested for even light from the door to the back wall.' },
+    ],
+  },
   related: [
     { label: 'Garage Lighting (overview)', href: '/services/garage-lighting' },
     { label: 'Indoor Lighting', href: '/services/indoor-lighting' },

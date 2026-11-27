@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate garage lighting work is mostly in large, older shop bays in warehouses and light-industrial buildings near the rail yards, lit by a few fading fixtures. We install rows of high-output LED shop lighting, bring aging circuits up to code and fit weather-rated motion lights at the doors.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Garage and shop bays here are often large, older spaces lit by a handful of fading fixtures; we install rows of high-output LED shop lighting that cover the full bay evenly for vehicle and equipment work.',
-      'Many of these buildings run on aging circuits never updated for modern LED loads or added shop equipment, and the low ground near Mill Creek makes weather-rated exterior fixtures worthwhile. We bring the lighting circuit up to code, add bright overhead LED panels, and set motion-activated, weather-rated lights at the overhead and service doors so a Queensgate bay is safe and fully lit.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the garage-bay lighting we install most often is high-output LED fixtures, an updated code-compliant circuit, and weather-rated door lighting.',
-    localFaqs: [
-      {
-        q: 'Do you light larger shop and garage bays in Queensgate buildings?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install high-output LED lighting and bring the circuit up to code for the larger garage and shop bays in those buildings.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'CUF garage lighting covers small detached garages and shared rear pads behind the older rentals of Clifton Heights, University Heights and Fairview, often on one old bulb. We bring the original wiring up to code, fit LED fixtures and add motion lights so a dark alley pad gets lit.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you brighten a garage in South Cumminsville?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley. We install even LED garage lighting and bring older wiring up to code, scheduling promptly.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'In English Woods, garage lighting work tends to start with a detached garage down a sloping drive on the hilltop above the Mill Creek valley, lit by one bulb. We fit LED fixtures inside, bring aging wiring up to code and add motion lights along the drive to the house.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Garages here are often detached and reached down a sloping drive, lit by a single bulb; we install even LED fixtures so the whole bay is usable and the drive is no longer dark.',
-      'Older homes here run on aging wiring that strains under any added shop load, and the hillside setting makes a lit path between the garage and the house worthwhile. We bring the circuit up to code, add bright overhead LED lighting, and set motion-activated, weather-rated fixtures at the entry and along the drive so an English Woods garage is safe to reach after dark.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the garage lighting we install most often is even LED fixtures, an updated code-compliant circuit, and motion-activated drive and entry lighting.',
-    localFaqs: [
-      {
-        q: 'How fast can you light a garage in English Woods?',
-        a: 'English Woods is within our west-side service area. We install even LED garage lighting and bring older wiring up to code, with motion-activated fixtures for the drive where they help.',
       },
     ],
   },

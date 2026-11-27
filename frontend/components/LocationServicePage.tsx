@@ -191,7 +191,13 @@ export default function LocationServicePage({
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar hideMenu mascot place={loc.neighborhood} couponTitle={sidebarCouponFor(config.slug)}>
+        <MainWithSidebar
+          hideMenu
+          mascot
+          place={loc.neighborhood}
+          couponTitle={sidebarCouponFor(config.slug)}
+          stacked={Boolean(copy.localParagraph && !copy.emergencyParagraph)}
+        >
           {config.promo && (
             <div className="mb-5 rounded-2xl bg-lime-500 px-5 py-3 text-center font-display text-sm font-extrabold uppercase tracking-wide text-white sm:text-base">
               {fill(config.promo)}
