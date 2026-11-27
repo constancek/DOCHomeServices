@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'outdoor-lighting',
   serviceName: 'Outdoor Lighting Installation',
+  localHeadingName: 'Outdoor Lighting Installation',
   eyebrow: 'Lighting',
   hubLabel: 'Outdoor Lighting',
   parentCrumb: { label: 'Lighting', href: '/services/lighting' },
@@ -77,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'What kind of outdoor lights do you install?', a: 'We install pathway lighting, accent lighting, patio lighting, outdoor landscape lighting systems, security lighting, and holiday lighting.' },
     { q: 'Can outdoor lights increase energy efficiency?', a: 'Yes. Modern LED light fixtures use less electricity and last longer than traditional bulbs.' },
   ],
+  steps: {
+    heading: 'What to Expect From Outdoor Lighting Installation in {neighborhood}',
+    items: [
+      { icon: 'pencilRuler', title: 'We Walk the Yard and Check the Circuit', text: 'Where the light needs to go, how the yard gets used and where the power will come from.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before we dig or drill.' },
+      { icon: 'bulb', title: 'Installed, Wired and Tested', text: 'Wet-rated fixtures wired to code, then tested for even light along paths and entries.' },
+    ],
+  },
   related: [
     { label: 'Outdoor Lighting (overview)', href: '/services/outdoor-lighting' },
     { label: 'Landscape Lighting', href: '/services/landscape-lighting' },

@@ -1,0 +1,63 @@
+import type { LocationServiceCopy } from '@/components/LocationServicePage';
+
+export const elmwoodPlace: LocationServiceCopy = {
+  localParagraph:
+    'In Elmwood Place, landscape lighting means getting a lot out of a very small lot. The village was laid out in 1875, and Census figures show close to two in three homes went up before 1940, set shoulder to shoulder. A few walk lights, one light on the porch steps and an uplight on the single yard tree are often the entire plan. Most houses are rented, so the owner or landlord is the one who calls. We pace the lot, place each fixture and name a flat price first.',
+  commonIntro:
+    'Tiny lots in the village keep the wish list short. These four are the usual asks.',
+  localFaqs: [
+    {
+      q: 'Is it worth lighting a small front yard in Elmwood Place?',
+      a: 'Yes, and it usually takes fewer heads than owners guess. On a shoulder-to-shoulder lot, low walk lights, a riser light at the porch and one uplight on the tree change the look of the house after dark. Short cable runs also keep the bill below what a sprawling suburban yard would cost.',
+    },
+    {
+      q: 'I own a rental in Elmwood Place. Who is responsible for the yard lights?',
+      a: 'You are, once you provide them. Ohio’s ORC 5321.04 (A)(4) obliges landlords to keep furnished electrical fixtures in good and safe working order. Leases are your business and wiring is ours. A tenant who wants yard lights needs your go-ahead, and you or your manager arrange the visit.',
+    },
+    {
+      q: 'What should I do with yard lights after Mill Creek floods near Elmwood Place?',
+      a: 'FEMA lists the village among the communities touched by Mill Creek flooding. If water ever sits in your yard, have each head, joint and transformer it reached opened and tested before the system is switched back on. Sealed joints generally come through. Twist-on caps generally do not.',
+    },
+  ],
+  overrides: {
+    ctaLine: 'Landscape lighting for tiny lots and close-set houses in Elmwood Place',
+    band1Heading: 'Signs It’s Time for Landscape Lighting in Elmwood Place',
+    commonSituations: [
+      'Porch steps on a pre-1940 house that are a gamble coming home late',
+      'A slim side passage to the back of a two-family with no light at all',
+      'The one tree in the yard melting into the dark at nightfall',
+      'A cheap kit that glares in one spot and leaves black gaps elsewhere',
+    ],
+    proseSections: [
+      {
+        title: 'Landscape Lights and Controls in Elmwood Place',
+        body: 'Compact heads suit yards this size. Short walk lights line a brief front path, riser lights sit in the porch stairs, and a well light buried in the bed lifts the tree with no stake sticking out of the grass. A slim wall-mounted head can cover a passage between two houses. LED keeps the current draw tiny, so no head on the run looks weaker than another. A light sensor starts it at sundown, a timer ends it, and a motion head fits a back walk. When everything quits at once, start with the GFCI receptacle.',
+      },
+      {
+        title: 'Landscape Lighting Design in Elmwood Place',
+        body: 'With neighbours this close, the light has to stay inside your own property line. We aim heads downward and away from next-door windows and keep the output modest, so the block sees a soft glow and not a spotlight. The layers stay simple, with walk light to the door, a touch of accent on the house front or tree and feature light on a step or low wall. That gives surer footing, lit entry points for security and real curb appeal on a crowded block. We work it out while pacing the lot, then price it.',
+      },
+      {
+        title: 'Landscape Lighting Wiring and Transformers in Elmwood Place',
+        body: 'Head count and cable length set the price, and tiny lots keep both short. A 12-volt transformer on low-voltage cable suits nearly every yard in the village. We trench in burial-rated cable, make waterproof joints in place of twist-ons and fix the transformer, with headroom, to a GFCI-protected receptacle up where snow cannot bury it. A new circuit or household-voltage heads may need a permit, and we handle the permit.',
+      },
+    ],
+    whyTitle: 'Why Homeowners and Landlords in Elmwood Place Choose Us for Landscape Lighting',
+    whyParagraph:
+      'Licensed electricians draw a plan that fits a tiny lot, waterproof the joints on cable made for burial and size the transformer so more heads can be added. Owners sign off on a flat price before any digging.',
+    sharedFaqs: [
+      {
+        q: 'How much does landscape lighting cost in Elmwood Place?',
+        a: 'It depends on how many heads you want and how far the cable reaches, not the footprint. Lots in the village are small, so runs stay short, but the head count still drives the figure. We pace the yard first, then quote a flat rate, with financing open to qualifying homeowners.',
+      },
+      {
+        q: 'Are LED landscape lights a better choice for a small yard?',
+        a: 'Yes. A low-voltage LED pulls so little current that voltage lost on the line stops mattering, and that loss is what left the end heads on old halogen kits weak and yellow. You also skip digging out buried bulbs every couple of seasons, which on a tiny lot means fewer holes in a tiny bed.',
+      },
+      {
+        q: 'Do landscape lights hold up to winter in Elmwood Place?',
+        a: 'Proper ones do. January lows at CVG average about 23°F (NOAA), so we use heads rated for wet locations, burial-rated cable and sealed joints. What fails is a transformer sitting at ground level where snow drifts over it, or an indoor wire nut pushed into the dirt.',
+      },
+    ],
+  },
+};

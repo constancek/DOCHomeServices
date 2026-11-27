@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate outdoor lighting is practical work for warehouses, offices and light-industrial buildings near the rail yards, mostly motion security lighting at entries and lots plus building-mounted area lights. Older buildings often need exterior wiring updated, and flood-prone ground near the Mill Creek affects where transformers go.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The outdoor lighting that matters most here is practical: security and motion lighting around entries and lots, building-mounted area lighting, and exterior fixtures that hold up to heavy use.',
-      'Older industrial buildings on this low ground often carry exterior wiring that needs updating to code, with GFCI-protected, weather-rated connections for outdoor circuits. The flood-prone position near the Mill Creek means transformers and outdoor wiring must be set with damp conditions in mind, which is the kind of weather-rated work we handle across Queensgate.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the outdoor lighting we install most often is security and area lighting on weather-rated, code-compliant circuits.',
-    localFaqs: [
-      {
-        q: 'Do you handle exterior lighting for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install weather-rated security and area lighting on code-compliant exterior circuits for those buildings as licensed electricians.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Steep, dense hilltop lots near UC make CUF outdoor lighting mostly about motion security lights at entries and stairs, shielded porch lights, and step lighting for safe footing. Much of the subdivided student-rental housing runs original exterior wiring that needs updating before new fixtures go in.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you reach South Cumminsville for outdoor lighting?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley. We are licensed electricians and install weather-rated, code-compliant outdoor lighting set for the area’s low, damp ground.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'Quiet streets on the hilltop above the Mill Creek valley make step and path lighting the main part of English Woods outdoor lighting. Shielded fixtures light the slope without glare spilling down the hill. Older homes often need exterior wiring updated, and entries get motion security lights.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The hilltop setting and sloped lots make path and step lighting useful for safe footing after dark, and the open views suit shielded fixtures that light your grade without glare spilling down the hill.',
-      'Older homes here run on aging exterior wiring that often predates modern landscape transformers and LED fixtures, so we update those outdoor circuits to code and add GFCI-protected, weather-rated connections. Motion security lighting at entries is a common request on these hilltop lots, set to work reliably through wet, freezing Midwest winters.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the outdoor lighting we install most often is step and path lighting and entry security fixtures.',
-    localFaqs: [
-      {
-        q: 'Can you light a sloped hilltop lot in English Woods?',
-        a: 'Yes. English Woods’ hilltop lots and slopes suit low-voltage step and path lighting, which we install with shielded, weather-rated fixtures and code-compliant wiring as licensed electricians.',
       },
     ],
   },

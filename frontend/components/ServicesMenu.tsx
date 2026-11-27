@@ -92,12 +92,12 @@ export default function ServicesMenu() {
               type="button"
               onClick={() => toggle(i)}
               aria-expanded={isOpen}
-              className={`flex w-full items-center justify-between gap-2 px-4 py-3 text-left text-sm font-bold text-white transition ${
-                isOpen ? 'bg-lime-500' : 'bg-brand-700 hover:bg-brand-800'
+              className={`group flex w-full items-center justify-between gap-2 px-4 py-3 text-left text-sm font-bold text-white transition ${
+                isOpen ? 'bg-lime-500 hover:bg-lime-600' : 'bg-brand-700 hover:bg-brand-800'
               }`}
             >
               {cat.category}
-              <span className="grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-white/25">
+              <span className="grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-white/25 transition-transform duration-200 group-hover:scale-110 group-hover:bg-white/40 motion-reduce:transform-none">
                 <Icon
                   name="chevron"
                   className={`h-3.5 w-3.5 ${isOpen ? '-rotate-90' : 'rotate-90'}`}
@@ -111,10 +111,10 @@ export default function ServicesMenu() {
                     <li key={item.label} className="mb-0.5 break-inside-avoid">
                       <Link
                         href={item.href}
-                        className="flex gap-1.5 py-1.5 text-xs font-semibold leading-tight text-brand-600 transition hover:text-pink-500"
+                        className="group flex gap-1.5 py-1.5 text-xs font-semibold leading-tight text-brand-600 transition-all duration-200 hover:translate-x-1 hover:text-pink-500 motion-reduce:transform-none"
                       >
                         <span aria-hidden="true">-</span>
-                        <span>{item.label}</span>
+                        <span className="decoration-2 underline-offset-2 group-hover:underline">{item.label}</span>
                       </Link>
                     </li>
                   ))}

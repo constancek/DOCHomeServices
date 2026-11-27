@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate is mostly warehouses, offices and light-industrial buildings near the rail yards, so landscape lighting there leans toward the grounds: walkway and entry lights, accent light on a building face and security lighting for parking. Low ground near the Mill Creek floods, so connections are sealed and buried.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Lighting needs here lean toward the grounds — walkway and entry lighting to mark paths across larger sites, accent lighting on a building face, and security lighting for parking and perimeter areas after dark.',
-      'On low ground near the Mill Creek that is prone to flooding, weather-rated fixtures and sealed, properly buried low-voltage connections matter for reliability. We set transformers and GFCI-protected exterior outlets to code, route concealed cable across the grounds, and build exterior lighting suited to Queensgate’s commercial and industrial sites.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the exterior lighting we install most often is grounds and walkway lighting, building accents, and perimeter security lighting.',
-    localFaqs: [
-      {
-        q: 'Do you install exterior lighting for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install weather-rated, code-compliant grounds, walkway, and security lighting for those sites as well as homes.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'CUF’s hillside lots near UC are steep and tightly built, so landscape lighting in Clifton Heights, University Heights and Fairview is practical: step lights on stairs and porches, path lights on short walks and security lighting at dark entries. Older rentals often need exterior circuits and GFCI outlets updated first.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Will landscape lighting hold up on the damp valley ground in South Cumminsville?',
         a: 'Yes. We use weather-rated fixtures and sealed, buried low-voltage connections suited to the low Mill Creek valley ground, all installed to code by licensed electricians.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods sits on a hilltop above the Mill Creek valley, and its sloped yards make step and path lights the first part of most landscape lighting plans. Entry and facade accents brighten darker fronts on quiet residential streets, with sealed connections and concealed cable along the walks.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The hilltop lots and sloped yards suit step and path lights that mark the grade safely, and the quiet residential streets take entry and facade accents that brighten darker fronts and add curb appeal.',
-      'On a hilltop overlooking the valley, drainage and moisture make weather-rated fixtures and sealed, buried low-voltage connections worth getting right. We set a transformer and GFCI-protected outlets to code, conceal the cable along the walks and steps, and build a landscape lighting system suited to English Woods’ hilltop setting.',
-    ],
-    commonIntro:
-      'In English Woods’ hilltop homes, the landscape lighting we install most often is step and path lights on the grade, entry accents, and security lighting.',
-    localFaqs: [
-      {
-        q: 'Can you add step lighting to a sloped English Woods yard?',
-        a: 'Yes. We install weather-rated step and path lights to mark the grade on English Woods’ hilltop lots, with all wiring concealed and installed to code by licensed electricians.',
       },
     ],
   },

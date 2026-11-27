@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'landscape-lighting',
   serviceName: 'Landscape Lighting Installation',
+  localHeadingName: 'Landscape Lighting Installation',
   eyebrow: 'Lighting',
   hubLabel: 'Landscape Lighting',
   parentCrumb: { label: 'Outdoor Lighting', href: '/services/outdoor-lighting' },
@@ -77,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'Why hire professional landscape lighting installers?', a: 'Professional installers ensure safe wiring, proper spacing, and balanced design that performs reliably.' },
     { q: 'Is landscape lighting weather-resistant?', a: 'Yes. Outdoor lighting systems use weather-rated components designed to withstand moisture and seasonal conditions.' },
   ],
+  steps: {
+    heading: 'What to Expect From Landscape Lighting Installation in {neighborhood}',
+    items: [
+      { icon: 'pencilRuler', title: 'We Walk the Yard and Plan the Layout', text: 'Which trees, paths and walls to light, where the transformer goes and how far the cable runs.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the layout needs, and a flat-rate price before any trenching.' },
+      { icon: 'bulb', title: 'Installed, Wired and Tested', text: 'Sealed connections on direct-burial cable, then every fixture tested for even light.' },
+    ],
+  },
   related: [
     { label: 'Landscape Lighting (overview)', href: '/services/landscape-lighting' },
     { label: 'Outdoor Lighting', href: '/services/outdoor-lighting' },
