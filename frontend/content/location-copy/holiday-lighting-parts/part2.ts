@@ -195,20 +195,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro: 'Holiday lighting in Queensgate is mostly commercial: outlining a storefront or office facade and lining an entrance on the warehouses and light-industrial buildings near the rail yards. That calls for commercial-grade lights and a professional install rather than household sets, and we remove the display after the season.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Lighting here is mostly commercial — outlining a storefront or office facade and lining an entrance — which calls for commercial-grade lights and a professional install rather than a string of household sets.',
-      'Larger commercial buildings draw more power across a display, so the electrical load has to be planned and balanced to avoid tripping circuits. We use commercial-grade lights built for a cold, snowy winter, install them safely on building facades, and return to take everything down on a scheduled date.',
-    ],
-    commonIntro: "On Queensgate's commercial and industrial buildings, the holiday-lighting work we are asked for most often runs to:",
-    localFaqs: [
-      {
-        q: 'Do you do commercial holiday lighting for Queensgate businesses?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install commercial-grade displays on storefronts and office buildings, then remove them on a scheduled date after the season.',
-      },
-    ],
-  },
   'cuf': {
     intro: 'Steep rooflines on CUF’s century-old houses are worth outlining with holiday lighting and dangerous to reach from a homeowner’s ladder. Across Clifton Heights, University Heights and Fairview, many of these homes are student rentals, and our crew installs the display and removes it after the season.',
     relevance: [
@@ -304,20 +290,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Do you install holiday lighting on older homes in South Cumminsville?',
         a: 'Yes. We install clean roofline displays on the older homes throughout South Cumminsville with commercial-grade lights, then remove them on a scheduled date.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro: 'Homes on the English Woods hilltop are visible from the valley below, so a clean holiday lighting outline along the roofline shows off well. Older and newer houses in this redeveloped neighborhood both light tidily, and we take the display down after the season.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The hilltop position gives homes here prominence from below, so a clean roofline outline shows off well, and the mix of older and newer homes both light tidily.',
-      'The hillside setting makes ladder work risky, which is one reason a professional install is worth it. Older homes here often have limited outdoor outlets, so we balance the electrical load, use commercial-grade lights built for a cold, snowy winter, and return to remove everything on a scheduled date.',
-    ],
-    commonIntro: "On English Woods' hilltop homes above the valley, the holiday-lighting work we are asked for most often runs to:",
-    localFaqs: [
-      {
-        q: 'Is it safe to light a home on English Woods’ hilltop streets?',
-        a: 'It is with the right equipment. The hillside setting makes ladder work risky, so we bring the crew and gear to install and later remove the lights safely.',
       },
     ],
   },

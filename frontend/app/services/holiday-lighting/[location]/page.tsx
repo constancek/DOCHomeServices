@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'holiday-lighting',
   serviceName: 'Holiday Lighting Installation',
+  localHeadingName: 'Holiday Lighting Installation',
   eyebrow: 'Lighting',
   hubLabel: 'Holiday Lighting',
   parentCrumb: { label: 'Outdoor Lighting', href: '/services/outdoor-lighting' },
@@ -77,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'How long does the installation process take?', a: 'Most holiday light installation projects are completed in one day, depending on property size and design complexity.' },
     { q: 'How much will holiday lighting cost me?', a: 'The cost depends on home size, design complexity, and materials. We provide an estimate to give you clear pricing upfront.' },
   ],
+  steps: {
+    heading: 'What to Expect From Holiday Lighting Installation in {neighborhood}',
+    items: [
+      { icon: 'pencilRuler', title: 'We Walk the House and Plan the Design', text: 'The roofline, the trees and walk you want lit, and where the outdoor receptacles are.' },
+      { icon: 'fileDollar', title: 'You Approve the Design and Price', text: 'Colors, layout and what gets highlighted, with a flat-rate price before anyone climbs a ladder.' },
+      { icon: 'bulb', title: 'Installed, Lit and Taken Down on Schedule', text: 'Commercial-grade lights on a balanced load, then a takedown date booked with the install.' },
+    ],
+  },
   related: [
     { label: 'Holiday Lighting (overview)', href: '/services/holiday-lighting' },
     { label: 'Outdoor Lighting', href: '/services/outdoor-lighting' },

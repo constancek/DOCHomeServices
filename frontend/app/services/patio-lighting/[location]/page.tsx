@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'patio-lighting',
   serviceName: 'Patio Lighting Installation',
+  localHeadingName: 'Patio Lighting Installation',
   eyebrow: 'Lighting',
   hubLabel: 'Patio Lighting',
   parentCrumb: { label: 'Outdoor Lighting', href: '/services/outdoor-lighting' },
@@ -77,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'Do you install hanging patio lights?', a: 'Yes. We install string lights, hanging fixtures, and other decorative patio lighting designed for outdoor use.' },
     { q: 'How do you ensure the lighting system connects to electrical power safely?', a: 'Our licensed electricians install outdoor-rated wiring and test the system to ensure safe operation.' },
   ],
+  steps: {
+    heading: 'What to Expect From Patio Lighting Installation in {neighborhood}',
+    items: [
+      { icon: 'pencilRuler', title: 'We Look at the Patio and the Power', text: 'How you use the space, where light is needed and whether there is an outdoor receptacle to work from.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, including any new circuit, and a flat-rate price before work begins.' },
+      { icon: 'bulb', title: 'Installed, Wired and Tested', text: 'Outdoor-rated fixtures on GFCI-protected wiring, then tested across the whole patio.' },
+    ],
+  },
   related: [
     { label: 'Patio Lighting (overview)', href: '/services/patio-lighting' },
     { label: 'Outdoor Lighting', href: '/services/outdoor-lighting' },

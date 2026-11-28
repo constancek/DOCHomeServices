@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate patio lighting is commercial work in a district of warehouses and offices west of downtown, usually string-light canopies over employee patios and task lights over outdoor seating. Low ground near the Mill Creek floods, so boxes and GFCI protection are mounted clear of standing water.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Outdoor lighting needs here lean commercial: string-light canopies over an employee patio or break area, accent light on a building facade, and task lighting over an outdoor seating area.',
-      'These older industrial and commercial buildings sit on low ground near the Mill Creek that is prone to flooding, so weather-rated fixtures, sealed connections, and properly placed GFCI protection matter even more than usual. We run a dedicated outdoor circuit, mount outdoor-rated boxes and covers clear of standing water, and install everything to code for a durable commercial patio setup.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the patio lighting we install most often centers on string-light canopies and task lighting over outdoor seating, on a new code-compliant circuit.',
-    localFaqs: [
-      {
-        q: 'Do you install outdoor patio lighting for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install weather-rated string, accent, and task lighting for outdoor seating and break areas, all on a code-compliant circuit run by licensed electricians.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Small back porches and compact patios between tightly built rentals near UC make CUF patio lighting mostly a string-light canopy and low step lights. Steep, narrow hilltop lots make stair lighting matter as much as overhead light, and these subdivided homes need a new outdoor circuit.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you scope patio lighting in South Cumminsville?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley, and we can scope a patio lighting plan promptly, installing every weather-rated fixture and outdoor circuit to code as licensed electricians.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'On the hilltop above the Mill Creek valley, decks and stepped patios are common, so English Woods patio lighting centers on step lights for each tread, light along the deck edge and string lights over seating. Older homes here need a new outdoor circuit with concealed runs.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The hilltop setting means decks and stepped patios are common, and on a grade the step and under-rail lighting is central: low fixtures on each tread, light along the deck edge, and string lights over the seating area.',
-      'On a sloped lot, runs cross changing grades, so concealed weather-rated cable and well-placed step lighting are key to a safe layout. The older homes here carry no original outdoor circuit, so we run a dedicated weather-rated line from the panel and install GFCI protection and step fixtures to code so a hilltop English Woods deck is usable after dark.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the patio lighting we install most often centers on step and rail lighting for sloped decks, plus string lights on a new outdoor circuit.',
-    localFaqs: [
-      {
-        q: 'Can you add step lighting to a deck on a sloped English Woods lot?',
-        a: 'Yes. The hilltop lots in English Woods often call for step and under-rail lighting, and we install weather-rated fixtures on a code-compliant outdoor circuit as licensed electricians.',
       },
     ],
   },
