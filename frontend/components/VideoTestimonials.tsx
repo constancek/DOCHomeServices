@@ -113,7 +113,7 @@ export default function VideoTestimonials() {
                   onClick={() => select(idx)}
                   aria-label={`Show testimonial from ${item.name}`}
                   aria-current={isActive}
-                  className={`group flex-shrink-0 flex-col items-center ${k >= 3 ? 'hidden sm:flex' : 'flex'}`}
+                  className={`group flex-shrink-0 flex-col items-center transition-transform duration-200 ease-out hover:-translate-y-1 focus-visible:-translate-y-1 motion-reduce:transition-none ${k >= 3 ? 'hidden sm:flex' : 'flex'}`}
                 >
                   <span className="-mt-2.5 whitespace-nowrap rounded-full bg-pink-500 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white ring-2 ring-[#1a3aa6] sm:-mt-3.5 sm:px-3 sm:py-1 sm:text-xs">
                     {item.name.split(' ')[0]}
@@ -122,7 +122,7 @@ export default function VideoTestimonials() {
                       moves to the selected one. */}
                   <span className="mt-3 flex items-center p-1 sm:mt-5">
                     <span
-                      className={`block h-[min(18vw,76px)] w-[min(18vw,76px)] overflow-hidden rounded-xl ring-2 ring-offset-2 ring-offset-[#1a3aa6] transition duration-200 sm:h-[100px] sm:w-[100px] sm:rounded-2xl sm:ring-[3px] ${
+                      className={`block h-[min(18vw,76px)] w-[min(18vw,76px)] overflow-hidden rounded-xl ring-2 ring-offset-2 ring-offset-[#1a3aa6] transition duration-200 ease-out group-hover:scale-105 group-hover:shadow-[0_12px_24px_rgba(0,0,0,0.35)] group-focus-visible:scale-105 motion-reduce:transition-none motion-reduce:group-hover:scale-100 sm:h-[100px] sm:w-[100px] sm:rounded-2xl sm:ring-[3px] ${
                         isActive ? 'ring-white' : 'ring-transparent'
                       }`}
                     >

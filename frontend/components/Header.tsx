@@ -144,7 +144,7 @@ export default function Header() {
 
                   {/* Dropdown — long menus run in columns (Plumbing three, Electrical two) */}
                   <div
-                    className={`absolute left-0 top-full z-50 pt-1 transition-all duration-150 ${
+                    className={`absolute left-1/2 top-full z-50 -translate-x-1/2 pt-1 transition-all duration-150 ${
                       openMenu === item.label
                         ? 'visible translate-y-0 opacity-100'
                         : 'invisible pointer-events-none translate-y-1 opacity-0'
